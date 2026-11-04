@@ -46,6 +46,11 @@ def _build_parser() -> argparse.ArgumentParser:
         default=None,
         help="Ejecutar el navegador sin ventana (por defecto MAPS_HEADLESS o sí).",
     )
+
+    publish = sub.add_parser("publish", help="Copia el Markdown generado a un Google Doc.")
+    publish.add_argument("--doc-id", help="ID del Google Doc (por defecto GDOC_ID).")
+    publish.add_argument("--out", help="Carpeta de salida (por defecto MAPS_OUT_DIR o data).")
+    publish.add_argument("--basename", help="Nombre base del archivo (por defecto MAPS_OUT_BASENAME).")
     return parser
 
 
@@ -64,6 +69,27 @@ def main(argv: list[str] | None = None) -> int:
     if args.command == "login":
         extract.login(profile, channel, args.locale, args.timezone)
         print(f"Perfil guardado en {profile.resolve()}")
+        return 0
+
+    if args.command == "publish":
+        from . import gdocs
+
+        doc_id = args.doc_id or os.getenv("GDOC_ID", "")
+        if not doc_id:
+            print("Falta GDOC_ID o --doc-id.", file=sys.stderr)
+            return 2
+        out_dir = Path(_resolve(args.out, "MAPS_OUT_DIR", "data"))
+        basename = _resolve(args.basename, "MAPS_OUT_BASENAME", "mis_lugares_sin_gluten")
+        path = out_dir / f"{basename}.md"
+        if not path.exists():
+            print(f"No existe {path}. Ejecuta `run` primero.", file=sys.stderr)
+            return 1
+        try:
+            count = gdocs.update_document(doc_id, path.read_text(encoding="utf-8"))
+        except Exception as error:
+            print(f"Error al actualizar el Google Doc: {error}", file=sys.stderr)
+            return 1
+        print(f"Google Doc actualizado: {gdocs.document_url(doc_id)} ({count} bloques)")
         return 0
 
     url = _resolve(args.url, "MAPS_LIST_URL", "")

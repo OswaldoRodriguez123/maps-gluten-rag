@@ -33,24 +33,33 @@ Qué hace el workflow (`.github/workflows/scrape.yml`):
 - ejecuta `python -m maps_gluten run`;
 - hace commit de `data/*.md` y `data/*.jsonl` si cambió algo;
 - guarda `data/historial_lugares.db` en la caché de Actions para mantener el dedup entre corridas (el archivo está en `.gitignore`);
+- copia el resultado a un Google Doc si `GDOC_ID` está configurado;
 - publica el `.md` y el `.jsonl` como artefacto descargable;
 - corre todos los días a las 08:00 UTC (03:00 en Colombia).
 
 El cron de GitHub puede retrasarse unos minutos cuando hay carga. No requiere tu Mac encendido.
 
-### Consumirlo desde el teléfono
+### Google Doc para NotebookLM (recomendado)
 
-Si el repo es **público**, la URL raw es una fuente de texto perfecta para NotebookLM:
+El workflow copia el resultado a un Google Doc tuyo. NotebookLM acepta ese Doc como fuente y trae un botón de sincronizar, así que no dependes de una URL raw.
+
+Configúralo una vez:
+
+1. Crea un Google Doc vacío y copia su ID de la URL (`https://docs.google.com/document/d/<ID>/edit`).
+2. En Google Cloud crea un proyecto y habilita **Google Docs API**.
+3. Crea una **cuenta de servicio** (IAM → Cuentas de servicio), sin roles. Genera una clave JSON y descárgala.
+4. Comparte el Doc con el email de la cuenta de servicio (`...@....iam.gserviceaccount.com`) como **Editor**.
+5. En GitHub → *Settings → Secrets and variables → Actions*:
+   - secreto `GOOGLE_SA_JSON`: el contenido completo del JSON.
+   - variable `GDOC_ID`: el ID del Doc.
+6. Corre el workflow. El paso *Publicar en Google Doc* rellena el Doc.
+7. En NotebookLM agrega el Doc desde Google Drive. Cuando quieras la versión nueva, pulsa **Sincronizar** en la fuente.
+
+La cuenta de servicio solo puede tocar ese Doc porque se lo compartiste explícitamente. Si prefieres no configurar todo esto, la URL raw del repo sigue funcionando como fuente de NotebookLM:
 
 ```
 https://raw.githubusercontent.com/OswaldoRodriguez123/maps-gluten-rag/main/data/mis_lugares_sin_gluten.md
 ```
-
-En la app de NotebookLM (Android) crea un cuaderno, elige *Agregar fuente → Sitio web* y pega esa URL. También puedes descargar el `.md` desde el artefacto y subirlo como archivo. NotebookLM toma una instantánea: cuando la lista cambie, vuelve a sincronizar o agrega la fuente de nuevo.
-
-Si el repo es **privado**, la URL raw no sirve sin credenciales. En ese caso hay que subir el archivo a Google Drive (por ejemplo con `rclone` y una cuenta de servicio) y agregarlo desde Drive.
-
-Si tu versión de NotebookLM no acepta `.md`, sube el mismo contenido con extensión `.txt`.
 
 ## Local (opcional)
 

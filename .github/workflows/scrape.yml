@@ -69,6 +69,13 @@ jobs:
             git push
           fi
 
+      - name: Publicar en Google Doc
+        if: ${{ vars.GDOC_ID != '' }}
+        env:
+          GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
+          GDOC_ID: ${{ vars.GDOC_ID }}
+        run: python -m maps_gluten publish
+
       - name: Publicar artefactos
         uses: actions/upload-artifact@v4
         with:
