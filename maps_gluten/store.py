@@ -214,6 +214,8 @@ def write_jsonl(conn: sqlite3.Connection, key: str, path: Path) -> int:
             parts.append(f"Categoría: {row['category']}")
         if row["rating"]:
             parts.append(f"Valoración: {row['rating']} de 5")
+        if row["note"]:
+            parts.append(f"Nota: {row['note']}")
         parts.append("Guardado en mi lista de lugares sin gluten en Google Maps")
         record = {
             "id": row["ftid"],

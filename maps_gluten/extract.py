@@ -299,6 +299,8 @@ def _record_to_place(record) -> Place | None:
     if not ftid:
         ftid = hash_key(name, address)
 
+    note = (_at(record, 3, str) or _at(meta, 3, str) or _at(meta, 2, str) or "").strip()
+
     return Place(
         ftid=ftid,
         name=name,
@@ -306,7 +308,7 @@ def _record_to_place(record) -> Place | None:
         category=None,
         rating=None,
         reviews=None,
-        note=None,
+        note=note or None,
         url=_place_url(ftid, name, address, lat, lng),
         saved_on=_saved_on(record),
         lat=lat,
