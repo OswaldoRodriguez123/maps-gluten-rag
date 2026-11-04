@@ -46,6 +46,23 @@ def _build_parser() -> argparse.ArgumentParser:
         default=None,
         help="Ejecutar el navegador sin ventana (por defecto MAPS_HEADLESS o sí).",
     )
+    run.add_argument(
+        "--enrich",
+        action=argparse.BooleanOptionalAction,
+        default=None,
+        help="Buscar la web del local y mencionar platos (por defecto MAPS_ENRICH o sí).",
+    )
+    run.add_argument(
+        "--enrich-days",
+        type=int,
+        default=None,
+        help="Días de caché del enriquecido (por defecto MAPS_ENRICH_DAYS o 30).",
+    )
+    run.add_argument(
+        "--refresh-enrichment",
+        action="store_true",
+        help="Ignora la caché y vuelve a enriquecer todos los locales.",
+    )
 
     publish = sub.add_parser("publish", help="Copia el Markdown generado a un Google Doc.")
     publish.add_argument("--doc-id", help="ID del Google Doc (por defecto GDOC_ID).")
@@ -102,29 +119,40 @@ def main(argv: list[str] | None = None) -> int:
     db_path = Path(args.db) if args.db else out_dir / "historial_lugares.db"
     headless = args.headless if args.headless is not None else _env_bool("MAPS_HEADLESS", True)
     debug = args.debug or _env_bool("MAPS_DEBUG", False)
+    enrich_enabled = args.enrich if args.enrich is not None else _env_bool("MAPS_ENRICH", True)
+    try:
+        enrich_days = args.enrich_days if args.enrich_days is not None else int(os.getenv("MAPS_ENRICH_DAYS", "30"))
+    except ValueError:
+        enrich_days = 30
     timezone = ZoneInfo(args.timezone)
     today = datetime.now(timezone).date().isoformat()
 
-    try:
-        key, title, places, complete = extract.scrape_list(
-            url=url,
-            profile=profile,
-            headless=headless,
-            channel=channel,
-            locale=args.locale,
-            timezone=args.timezone,
-            debug_dir=out_dir / "debug" if debug else None,
-        )
-    except Exception as error:
-        print(f"Error al extraer la lista: {error}", file=sys.stderr)
-        return 1
-
-    if not places:
-        print("La lista no devolvió lugares. No se modificó la base.", file=sys.stderr)
-        return 1
-
     conn = store.connect(db_path)
     try:
+        cache = store.enrichment_cache(conn) if enrich_enabled else {}
+        try:
+            key, title, places, complete = extract.scrape_list(
+                url=url,
+                profile=profile,
+                headless=headless,
+                channel=channel,
+                locale=args.locale,
+                timezone=args.timezone,
+                debug_dir=out_dir / "debug" if debug else None,
+                enrich=enrich_enabled,
+                enrich_cache=cache,
+                enrich_days=enrich_days,
+                enrich_force=args.refresh_enrichment,
+                today=today,
+            )
+        except Exception as error:
+            print(f"Error al extraer la lista: {error}", file=sys.stderr)
+            return 1
+
+        if not places:
+            print("La lista no devolvió lugares. No se modificó la base.", file=sys.stderr)
+            return 1
+
         total, new = store.save(conn, key, title, places, today, replace=complete)
         md_path = out_dir / f"{basename}.md"
         jsonl_path = out_dir / f"{basename}.jsonl"

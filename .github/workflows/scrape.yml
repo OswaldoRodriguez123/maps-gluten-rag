@@ -19,7 +19,7 @@ concurrency:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 40
     env:
       MAPS_LIST_URL: ${{ github.event.inputs.url || vars.MAPS_LIST_URL || 'https://maps.app.goo.gl/FWzyQ6w2AYSDTZZYA' }}
       MAPS_TIMEZONE: America/Bogota
@@ -28,6 +28,8 @@ jobs:
       MAPS_BROWSER_CHANNEL: ""
       MAPS_OUT_DIR: data
       MAPS_OUT_BASENAME: mis_lugares_sin_gluten
+      MAPS_ENRICH: "1"
+      MAPS_ENRICH_DAYS: "30"
 
     steps:
       - name: Checkout

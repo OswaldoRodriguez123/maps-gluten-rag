@@ -201,6 +201,9 @@ class Place:
     saved_on: str | None = None
     lat: float | None = None
     lng: float | None = None
+    website: str | None = None
+    dishes: str | None = None
+    enriched_at: str | None = None
 
 
 def _normalize(value: str) -> str:
@@ -572,6 +575,11 @@ def scrape_list(
     locale: str,
     timezone: str,
     debug_dir: Path | None = None,
+    enrich: bool = False,
+    enrich_cache: dict | None = None,
+    enrich_days: int = 30,
+    enrich_force: bool = False,
+    today: str | None = None,
 ) -> tuple[str, str | None, list[Place], bool]:
     captured: dict[str, str] = {}
     with sync_playwright() as p:
@@ -639,6 +647,21 @@ def scrape_list(
                     _enrich(places, rows)
 
             final_url = page.url
+
+            if enrich and places:
+                try:
+                    from . import enrich as enrich_module
+
+                    enrich_module.enrich_places(
+                        page,
+                        places,
+                        cache=enrich_cache,
+                        max_age_days=enrich_days,
+                        force=enrich_force,
+                        today=datetime.fromisoformat(today).date() if today else None,
+                    )
+                except Exception:
+                    pass
         finally:
             context.close()
 
