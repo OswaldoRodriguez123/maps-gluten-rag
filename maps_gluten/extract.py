@@ -382,7 +382,7 @@ def scrape_list(
     locale: str,
     timezone: str,
     debug_dir: Path | None = None,
-) -> tuple[str, str | None, list[Place]]:
+) -> tuple[str, str | None, list[Place], bool]:
     captured: dict[str, str] = {}
     with sync_playwright() as p:
         context = _launch(p, profile, headless=headless, channel=channel, locale=locale, timezone=timezone)
@@ -422,8 +422,10 @@ def scrape_list(
 
             title: str | None = None
             places: list[Place] = []
+            complete = False
             if "body" in captured:
                 title, places = parse_getlist(captured["body"])
+                complete = bool(places)
 
             if not places:
                 try:
@@ -443,4 +445,4 @@ def scrape_list(
         finally:
             context.close()
 
-    return list_key(final_url), title, places
+    return list_key(final_url), title, places, complete

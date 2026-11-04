@@ -80,7 +80,7 @@ def main(argv: list[str] | None = None) -> int:
     today = datetime.now(timezone).date().isoformat()
 
     try:
-        key, title, places = extract.scrape_list(
+        key, title, places, complete = extract.scrape_list(
             url=url,
             profile=profile,
             headless=headless,
@@ -99,7 +99,7 @@ def main(argv: list[str] | None = None) -> int:
 
     conn = store.connect(db_path)
     try:
-        total, new = store.save(conn, key, title, places, today)
+        total, new = store.save(conn, key, title, places, today, replace=complete)
         md_path = out_dir / f"{basename}.md"
         jsonl_path = out_dir / f"{basename}.jsonl"
         store.write_markdown(conn, key, md_path, today)

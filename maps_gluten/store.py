@@ -78,7 +78,16 @@ def connect(db_path: Path) -> sqlite3.Connection:
     return conn
 
 
-def save(conn: sqlite3.Connection, key: str, title: str | None, places: list[Place], today: str) -> tuple[int, int]:
+def save(
+    conn: sqlite3.Connection,
+    key: str,
+    title: str | None,
+    places: list[Place],
+    today: str,
+    replace: bool = False,
+) -> tuple[int, int]:
+    if replace:
+        conn.execute("DELETE FROM list_places WHERE list_key = ?", (key,))
     new = 0
     for place in places:
         exists = conn.execute("SELECT 1 FROM places WHERE ftid = ?", (place.ftid,)).fetchone()
