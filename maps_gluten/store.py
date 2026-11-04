@@ -54,6 +54,7 @@ ON CONFLICT(ftid) DO UPDATE SET
     note    = COALESCE(NULLIF(excluded.note, ''), places.note),
     url     = excluded.url,
     last_seen = excluded.last_seen,
+    first_seen = COALESCE(NULLIF(excluded.saved_on, ''), places.first_seen),
     saved_on = COALESCE(NULLIF(excluded.saved_on, ''), places.saved_on),
     lat      = COALESCE(excluded.lat, places.lat),
     lng      = COALESCE(excluded.lng, places.lng)
