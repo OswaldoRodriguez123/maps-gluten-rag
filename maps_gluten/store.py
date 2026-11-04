@@ -93,6 +93,7 @@ def save(
         exists = conn.execute("SELECT 1 FROM places WHERE ftid = ?", (place.ftid,)).fetchone()
         if not exists:
             new += 1
+        first_seen = place.saved_on or today
         conn.execute(
             UPSERT,
             (
@@ -104,7 +105,7 @@ def save(
                 place.reviews,
                 place.note,
                 place.url,
-                today,
+                first_seen,
                 today,
                 place.saved_on,
                 place.lat,

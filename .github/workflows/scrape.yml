@@ -47,6 +47,13 @@ jobs:
       - name: Chromium
         run: python -m playwright install --with-deps chromium
 
+      - name: Restaurar histórico
+        uses: actions/cache@v4
+        with:
+          path: data/historial_lugares.db
+          key: maps-gluten-db-${{ github.run_id }}
+          restore-keys: maps-gluten-db-
+
       - name: Extraer lista
         run: python -m maps_gluten run
 

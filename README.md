@@ -5,7 +5,7 @@ Extrae los lugares de una lista compartida de Google Maps, elimina duplicados y 
 - `data/mis_lugares_sin_gluten.md` — un bloque `##` por local, ideal para NotebookLM o cualquier índice semántico.
 - `data/mis_lugares_sin_gluten.jsonl` — una línea JSON por local, con `text` y `metadata`, ideal para embeddings.
 
-La fuente de verdad es `data/historial_lugares.db` (SQLite). Cada corrida hace *upsert*: conserva la fecha en que viste cada lugar por primera vez y solo marca como nuevos los que no existían.
+La fuente de verdad local es `data/historial_lugares.db` (SQLite). En GitHub Actions ese archivo vive en la caché del workflow, no en el repo. Cada corrida hace *upsert*: conserva la fecha de guardado de Google (`saved_on`) y solo marca como nuevos los lugares que no existían.
 
 El extractor abre la lista pública con Playwright y lee el endpoint interno `entitylist/getlist`, que devuelve todos los lugares con nombre, dirección, coordenadas, `ftid` y fecha de guardado. Si ese endpoint cambia, cae a un respaldo que lee las filas del DOM.
 
@@ -31,7 +31,8 @@ Qué hace el workflow (`.github/workflows/scrape.yml`):
 
 - instala Python 3.12, las dependencias y Chromium;
 - ejecuta `python -m maps_gluten run`;
-- hace commit de `data/` si cambió algo (el `historial_lugares.db` incluido mantiene las fechas y el dedup entre corridas);
+- hace commit de `data/*.md` y `data/*.jsonl` si cambió algo;
+- guarda `data/historial_lugares.db` en la caché de Actions para mantener el dedup entre corridas (el archivo está en `.gitignore`);
 - publica el `.md` y el `.jsonl` como artefacto descargable;
 - corre todos los días a las 08:00 UTC (03:00 en Colombia).
 
