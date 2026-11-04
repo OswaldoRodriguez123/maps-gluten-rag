@@ -9,6 +9,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Tienda de alimentos naturales
 - **Valoración:** 4.8 / 5
 - **Enlace:** https://www.google.com/maps?cid=6664885964342705004
+- **Web:** https://www.allfree.cl/
+- **Menciona en su web:** sushi, pasta, pescado, mariscos
 - **Fecha de registro:** 2026-07-02
 
 ## Alma Chilanga
@@ -16,6 +18,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Restaurante mexicano
 - **Valoración:** 4.5 / 5
 - **Enlace:** https://www.google.com/maps?cid=308593624422457697
+- **Web:** http://www.almachilanga.cl/
+- **Menciona en su web:** tacos
 - **Fecha de registro:** 2026-03-13
 
 ## Açaí Experience
@@ -30,6 +34,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Cafetería
 - **Valoración:** 4.5 / 5
 - **Enlace:** https://www.google.com/maps?cid=7093295945652665785
+- **Web:** http://www.bfreshpaseo.cl/
+- **Menciona en su web:** pollo, sándwich
 - **Fecha de registro:** 2026-03-23
 
 ## BAR EL BAJO
@@ -37,6 +43,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Bar
 - **Valoración:** 4.3 / 5
 - **Enlace:** https://www.google.com/maps?cid=17308584324880163070
+- **Web:** http://www.barelbajo.cl/
 - **Fecha de registro:** 2025-10-05
 
 ## Bar Italia
@@ -44,6 +51,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Restaurante de comida sin gluten
 - **Valoración:** 4.3 / 5
 - **Enlace:** https://www.google.com/maps?cid=16771263480017221694
+- **Web:** http://www.baritalia.cl/
 - **Fecha de registro:** 2025-10-02
 
 ## Biomercado Sin Gluten
@@ -51,6 +59,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Tienda de alimentación
 - **Valoración:** 4.8 / 5
 - **Enlace:** https://www.google.com/maps?cid=5397116729930885107
+- **Web:** https://www.biomercado.cl/
 - **Fecha de registro:** 2026-03-23
 
 ## Bonheur Keto Patisserie
@@ -58,6 +67,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Pastelería
 - **Valoración:** 4.8 / 5
 - **Enlace:** https://www.google.com/maps?cid=9791583187258393050
+- **Web:** https://bonheurketopatisserie.com/
 - **Fecha de registro:** 2026-05-14
 
 ## Bonheur Pâtisserie
@@ -65,6 +75,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Pastelería
 - **Valoración:** 4.7 / 5
 - **Enlace:** https://www.google.com/maps?cid=6494588787266833776
+- **Web:** https://bonheurketopatisserie.com/
 - **Fecha de registro:** 2025-11-23
 
 ## BuganVilla cafe & market
@@ -72,6 +83,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Tienda de delicatessen
 - **Valoración:** 4.4 / 5
 - **Enlace:** https://www.google.com/maps?cid=15437544667386732968
+- **Web:** http://www.buganvilla.cl/
+- **Menciona en su web:** pasta
 - **Fecha de registro:** 2025-11-23
 
 ## C'est si Bon Costanera
@@ -114,6 +127,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Cafetería
 - **Valoración:** 4.3 / 5
 - **Enlace:** https://www.google.com/maps?cid=5490965489095011194
+- **Web:** http://www.pascucci.cl/
 - **Fecha de registro:** 2026-05-28
 
 ## Café Aquelarre
@@ -128,6 +142,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Cafetería
 - **Valoración:** 4.4 / 5
 - **Enlace:** https://www.google.com/maps?cid=633925373538289711
+- **Web:** http://www.bickacafe.cl/
 - **Fecha de registro:** 2025-11-05
 
 ## Café Kanela
@@ -140,6 +155,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 ## Casa Juliet
 - **Ubicación:** Av. Pocuro 3015, 7510712 Providencia, Región Metropolitana
 - **Enlace:** https://www.google.com/maps?cid=10416907072710934038
+- **Web:** https://ciaofiorentina.cl/wp-content/uploads/2026/07/Copy-of-FINALFINALCartaEspJunio2026-2-1.pdf
+- **Menciona en su web:** pasta, pollo, carne, ensalada, sándwich, bagel, tortilla, hummus, asado
 - **Fecha de registro:** 2025-11-23
 
 ## Casa Roque Chocolates
@@ -147,6 +164,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Centro comercial
 - **Valoración:** 5.0 / 5
 - **Enlace:** https://www.google.com/maps?cid=6688789933015104335
+- **Web:** https://wwww.casaroque.cl/
 - **Fecha de registro:** 2026-10-28
 
 ## CASACIENCAFE
@@ -154,6 +172,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Snack bar
 - **Valoración:** 4.3 / 5
 - **Enlace:** https://www.google.com/maps?cid=9193913793701792995
+- **Web:** http://www.casaciencafe.cl/
+- **Menciona en su web:** hamburguesa, pollo, carne, ensalada, sopa, sándwich, bagel, hummus, parrilla
 - **Fecha de registro:** 2026-04-22
 
 ## CASI PERFECTO
@@ -168,6 +188,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Tortillería
 - **Valoración:** 4.7 / 5
 - **Enlace:** https://www.google.com/maps?cid=4287942852933613055
+- **Web:** http://www.cetortillas.cl/
+- **Menciona en su web:** burrito, empanada, carne, sopa, wrap, panqueque, tortilla, asado, nachos
 - **Fecha de registro:** 2025-11-23
 
 ## Ciudadano Restaurant
@@ -175,6 +197,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Restaurante
 - **Valoración:** 4.6 / 5
 - **Enlace:** https://www.google.com/maps?cid=10303973572041308059
+- **Web:** http://www.ciudadanorestaurant.cl/
+- **Menciona en su web:** pizza, pasta, empanada, ceviche, carne, pescado, ensalada, sopa, milanesa, falafel, asado
 - **Fecha de registro:** 2026-08-02
 
 ## CO&keto
@@ -182,6 +206,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Cafetería
 - **Valoración:** 4.6 / 5
 - **Enlace:** https://www.google.com/maps?cid=16171503449346998105
+- **Web:** http://www.cokefoods.cl/
 - **Fecha de registro:** 2026-02-17
 
 ## COMERCIAL RAKKO
@@ -189,6 +214,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Tienda de alimentos naturales
 - **Valoración:** 4.1 / 5
 - **Enlace:** https://www.google.com/maps?cid=9457037870912964861
+- **Web:** https://www.rakkonatural.cl/
+- **Menciona en su web:** pasta
 - **Fecha de registro:** 2026-03-11
 
 ## Crumbless Gluten Free Bakery
@@ -196,6 +223,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Restaurante de comida sin gluten
 - **Valoración:** 4.8 / 5
 - **Enlace:** https://www.google.com/maps?cid=11227021280680235041
+- **Web:** https://menu.fu.do/crumblessglutenfreebakery
 - **Fecha de registro:** 2025-10-02
 
 ## Dulces aplv
@@ -203,6 +231,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Pastelería
 - **Valoración:** 4.6 / 5
 - **Enlace:** https://www.google.com/maps?cid=14124022735726777159
+- **Web:** https://dulcesaplv.com/
 - **Fecha de registro:** 2026-03-11
 
 ## Dónde El Guatón
@@ -210,6 +239,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Restaurante chileno
 - **Valoración:** 4.4 / 5
 - **Enlace:** https://www.google.com/maps?cid=5626173014652709828
+- **Web:** http://www.dondelguaton.cl/
 - **Fecha de registro:** 2026-02-15
 
 ## Emporio de la Tierra
@@ -224,6 +254,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Cafetería
 - **Valoración:** 4.9 / 5
 - **Enlace:** https://www.google.com/maps?cid=5948431647279620568
+- **Web:** https://entresaborescafe.cl/
+- **Menciona en su web:** pasta, pollo, carne, sándwich, waffle, panqueque, asado
 - **Fecha de registro:** 2025-11-23
 
 ## Estró Santiago
@@ -245,6 +277,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Tienda de alimentos naturales
 - **Valoración:** 4.3 / 5
 - **Enlace:** https://www.google.com/maps?cid=17001147982838057000
+- **Web:** http://www.fain.cl/
+- **Menciona en su web:** pasta
 - **Fecha de registro:** 2025-11-14
 
 ## FAMILIA GLUTEN FREE
@@ -252,6 +286,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Cafetería
 - **Valoración:** 4.6 / 5
 - **Enlace:** https://www.google.com/maps?cid=3330442171987247074
+- **Web:** http://www.familiaglutenfree.cl/
+- **Menciona en su web:** hamburguesa, empanada, carne, sopa, churrasco
 - **Fecha de registro:** 2026-05-14
 
 ## Fortunata
@@ -259,6 +295,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Tienda de pasta
 - **Valoración:** 4.6 / 5
 - **Enlace:** https://www.google.com/maps?cid=57251146689277075
+- **Web:** http://www.fortunata.cl/
+- **Menciona en su web:** pasta, lasaña
 - **Fecha de registro:** 2025-11-05
 
 ## Glutenberg
@@ -266,6 +304,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Pastelería
 - **Valoración:** 4.8 / 5
 - **Enlace:** https://www.google.com/maps?cid=880618188962033725
+- **Web:** https://www.glutenberg.cl/
 - **Fecha de registro:** 2025-11-05
 
 ## Glutón
@@ -292,6 +331,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Restaurante de comida sin gluten
 - **Valoración:** 4.8 / 5
 - **Enlace:** https://www.google.com/maps?cid=6143024512600834281
+- **Web:** https://ketoandglutenfree.com/
 - **Fecha de registro:** 2025-11-05
 
 ## Helados Quinto Pino
@@ -306,6 +346,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Cafetería
 - **Valoración:** 4.8 / 5
 - **Enlace:** https://www.google.com/maps?cid=1961840518999960654
+- **Web:** http://www.jardindegente.cl/
 - **Fecha de registro:** 2026-03-23
 
 ## Je Suis Raclette | MUT
@@ -334,6 +375,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Supermercado
 - **Valoración:** 4.3 / 5
 - **Enlace:** https://www.google.com/maps?cid=13319667635671695715
+- **Web:** https://micartaqr.cl/larrabbiata
+- **Menciona en su web:** pasta, pollo, ensalada, sándwich, churrasco, nachos
 - **Fecha de registro:** 2025-11-23
 
 ## La casita Myfoods - gluten free
@@ -348,6 +391,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Restaurante de comida sin gluten
 - **Valoración:** 4.6 / 5
 - **Enlace:** https://www.google.com/maps?cid=6515189360592988954
+- **Web:** http://www.lacomarcaceliaca.cl/
+- **Menciona en su web:** carne, sopa, churrasco
 - **Fecha de registro:** 2025-10-04
 
 ## La Friet Amsterdam
@@ -362,6 +407,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Restaurante de comida rápida
 - **Valoración:** 4.7 / 5
 - **Enlace:** https://www.google.com/maps?cid=5193834758506661757
+- **Web:** http://www.larutadelwaffle.cl/
+- **Menciona en su web:** waffle
 - **Fecha de registro:** 2026-10-19
 
 ## Las Petunias Pastelería sin azúcar y sin gluten
@@ -369,6 +416,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Pastelería
 - **Valoración:** 4.7 / 5
 - **Enlace:** https://www.google.com/maps?cid=11966918123986919341
+- **Web:** http://www.laspetunias.cl/
 - **Fecha de registro:** 2026-05-14
 
 ## Lemongrass
@@ -376,6 +424,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Restaurante asiático
 - **Valoración:** 4.6 / 5
 - **Enlace:** https://www.google.com/maps?cid=10873598726340938300
+- **Web:** https://api.whatsapp.com/send?phone=56997606361&text=Hola,%20quiero%20hacer%20un%20pedido!
 - **Fecha de registro:** 2026-02-15
 
 ## Libre Punto SpA
@@ -383,6 +432,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Tienda de alimentos naturales
 - **Valoración:** 5.0 / 5
 - **Enlace:** https://www.google.com/maps?cid=10615428993544095970
+- **Web:** http://www.librepunto.cl/
+- **Menciona en su web:** pasta
 - **Fecha de registro:** 2026-06-19
 
 ## Light Marías
@@ -390,6 +441,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Restaurante de comida sin gluten
 - **Valoración:** 4.6 / 5
 - **Enlace:** https://www.google.com/maps?cid=14525758092522657358
+- **Web:** http://www.lightmarias.cl/
+- **Menciona en su web:** pasta, curry, pollo
 - **Fecha de registro:** 2026-03-01
 
 ## Lighthouse Bakery
@@ -404,6 +457,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Cafetería
 - **Valoración:** 4.7 / 5
 - **Enlace:** https://www.google.com/maps?cid=5946260040200698581
+- **Web:** https://lynncafe.cl/
 - **Fecha de registro:** 2026-03-23
 
 ## Magnolia
@@ -418,6 +472,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Restaurante
 - **Valoración:** 4.7 / 5
 - **Enlace:** https://www.google.com/maps?cid=16142662062234390808
+- **Web:** https://www.apparta.co/maillard/reservas
 - **Fecha de registro:** 2026-06-30
 
 ## Massanoglutenfree
@@ -425,6 +480,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Pastelería
 - **Valoración:** 4.7 / 5
 - **Enlace:** https://www.google.com/maps?cid=15348035595390320987
+- **Web:** http://www.massanoglutenfree.cl/
 - **Fecha de registro:** 2025-11-23
 
 ## Mercadito sano y natural
@@ -432,6 +488,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Tienda de alimentos naturales
 - **Valoración:** 5.0 / 5
 - **Enlace:** https://www.google.com/maps?cid=4788914600406122981
+- **Web:** http://www.mercaditosyn.cl/
 - **Fecha de registro:** 2026-04-23
 
 ## Mercado Condell
@@ -459,6 +516,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Restaurante japonés
 - **Valoración:** 4.6 / 5
 - **Enlace:** https://www.google.com/maps?cid=9616485031210592336
+- **Web:** http://www.naoki.cl/
+- **Menciona en su web:** pescado
 - **Fecha de registro:** 2025-11-05
 
 ## P.F. Chang's
@@ -466,6 +525,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Restaurante asiático
 - **Valoración:** 3.9 / 5
 - **Enlace:** https://www.google.com/maps?cid=15381573595002265253
+- **Web:** https://www.pfchangs.cl/
+- **Menciona en su web:** sushi, ceviche, curry, pollo, carne, pescado, mariscos, wrap, tempura
 - **Fecha de registro:** 2025-11-05
 
 ## Pan Pa' Mi
@@ -473,6 +534,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Panadería
 - **Valoración:** 2.8 / 5
 - **Enlace:** https://www.google.com/maps?cid=90729477491070284
+- **Web:** https://panpami.cl/
+- **Menciona en su web:** pizza, empanada, sopa
 - **Fecha de registro:** 2026-10-31
 
 ## Panart®
@@ -480,6 +543,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Pastelería
 - **Valoración:** 4.5 / 5
 - **Enlace:** https://www.google.com/maps?cid=17494267475154547298
+- **Web:** https://www.panart.cl/
+- **Menciona en su web:** hamburguesa, pizza, empanada, hot dog
 - **Fecha de registro:** 2025-11-05
 
 ## Pastelería Kleine Nuss
@@ -487,6 +552,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Pastelería
 - **Valoración:** 4.5 / 5
 - **Enlace:** https://www.google.com/maps?cid=15914112716666456162
+- **Web:** http://www.kleinenuss.cl/
+- **Menciona en su web:** panqueque
 - **Fecha de registro:** 2025-11-05
 
 ## Pastelería La Celeste
@@ -494,6 +561,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Pastelería
 - **Valoración:** 4.6 / 5
 - **Enlace:** https://www.google.com/maps?cid=6711358775177294956
+- **Web:** http://www.pastelerialaceleste.cl/
+- **Menciona en su web:** pizza
 - **Fecha de registro:** 2025-11-23
 
 ## Patagonia Schokoland
@@ -501,6 +570,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Heladería
 - **Valoración:** 4.6 / 5
 - **Enlace:** https://www.google.com/maps?cid=256312721484404941
+- **Web:** http://www.patagoniaschokoland.cl/
 - **Fecha de registro:** 2025-11-05
 
 ## Piaf Café
@@ -515,6 +585,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Restaurante italiano
 - **Valoración:** 4.7 / 5
 - **Enlace:** https://www.google.com/maps?cid=16530483615308817507
+- **Web:** http://www.piegari.cl/
+- **Menciona en su web:** pasta, carne, pescado, mariscos, risotto
 - **Fecha de registro:** 2025-11-05
 
 ## Pizza Bistrot
@@ -522,6 +594,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Restaurante
 - **Valoración:** 4.5 / 5
 - **Enlace:** https://www.google.com/maps?cid=8706754037076873966
+- **Web:** http://www.pizzabistrot.cl/
 - **Fecha de registro:** 2025-11-23
 
 ## Pizzeria Latinoamericana
@@ -529,6 +602,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Pizzería a domicilio
 - **Valoración:** 3.8 / 5
 - **Enlace:** https://www.google.com/maps?cid=14220070530479441708
+- **Web:** https://www.pizzerialatinoamericana.com/
+- **Menciona en su web:** pizza
 - **Fecha de registro:** 2025-10-02
 
 ## Poga Heladería
@@ -536,6 +611,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Cafetería
 - **Valoración:** 4.5 / 5
 - **Enlace:** https://www.google.com/maps?cid=15213660560487073088
+- **Web:** http://www.poga.cl/
 - **Fecha de registro:** 2025-11-23
 
 ## Popolo Pizza sin Gluten
@@ -543,6 +619,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Pizzería a domicilio
 - **Valoración:** 4.6 / 5
 - **Enlace:** https://www.google.com/maps?cid=12673362531618199748
+- **Web:** http://www.popolo.cl/
+- **Menciona en su web:** pizza, quesadilla
 - **Fecha de registro:** 2025-11-23
 
 ## Productos El Pueblo
@@ -550,6 +628,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Panadería
 - **Valoración:** 4.6 / 5
 - **Enlace:** https://www.google.com/maps?cid=10904701771301529411
+- **Web:** https://www.productoselpueblo.cl/
 - **Fecha de registro:** 2026-10-12
 
 ## QUIMEY SUSHI FUSION & GLUTEN FREE
@@ -557,6 +636,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Restaurante de comida sin gluten
 - **Valoración:** 4.7 / 5
 - **Enlace:** https://www.google.com/maps?cid=10920287372200639195
+- **Web:** http://www.quimeysushi.cl/
+- **Menciona en su web:** hamburguesa, pizza, sushi, pasta, gyosa
 - **Fecha de registro:** 2025-10-02
 
 ## Quinoa
@@ -564,6 +645,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Restaurante vegetariano
 - **Valoración:** 4.6 / 5
 - **Enlace:** https://www.google.com/maps?cid=14784354193663098393
+- **Web:** http://quinoarestaurante.cl/
 - **Fecha de registro:** 2025-11-23
 
 ## Rebelde Pastelería Keto
@@ -571,6 +653,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Pastelería
 - **Valoración:** 4.4 / 5
 - **Enlace:** https://www.google.com/maps?cid=3753256406299664228
+- **Web:** https://www.rebeldeketo.cl/
 - **Fecha de registro:** 2025-11-23
 
 ## REFUGIO PUB ÑUÑOA
@@ -585,6 +668,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Restaurante
 - **Valoración:** 4.9 / 5
 - **Enlace:** https://www.google.com/maps?cid=13525296869359295785
+- **Web:** https://laescalera.cl/
+- **Menciona en su web:** pasta, lasaña, curry, pollo, carne, ensalada, panqueque, paella
 - **Fecha de registro:** 2026-02-15
 
 ## Restoran Pinpilinpausha
@@ -592,6 +677,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Restaurante de cocina española
 - **Valoración:** 4.6 / 5
 - **Enlace:** https://www.google.com/maps?cid=17526361888015957049
+- **Web:** http://www.pinpilinpausha.cl/
+- **Menciona en su web:** tortilla, paella
 - **Fecha de registro:** 2025-11-05
 
 ## Sabores para Alegrar
@@ -599,6 +686,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Pastelería
 - **Valoración:** 4.9 / 5
 - **Enlace:** https://www.google.com/maps?cid=3220934147216855037
+- **Web:** http://www.saboresparaalegrar.cl/
+- **Menciona en su web:** hamburguesa, pizza, empanada
 - **Fecha de registro:** 2025-11-14
 
 ## Sapiens
@@ -606,6 +695,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Restaurante vegano
 - **Valoración:** 4.5 / 5
 - **Enlace:** https://www.google.com/maps?cid=15875125408455193492
+- **Web:** http://www.sapiensrestaurant.cl/
+- **Menciona en su web:** pizza, burrito, ensalada
 - **Fecha de registro:** 2025-10-02
 
 ## SERSAYAAN ALIMENTOS SIN GLUTEN
@@ -620,6 +711,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Pizzería
 - **Valoración:** 4.8 / 5
 - **Enlace:** https://www.google.com/maps?cid=2142544978998917138
+- **Web:** https://www.covermanager.com/reserve/module_restaurant/Sicily-Pizzeria-Moderna-Alonso-de-Cordova/spanish?source=GoogleSpecialLink
 - **Fecha de registro:** 2025-11-23
 
 ## Simona Healthy Bakery
@@ -634,6 +726,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Tienda de alimentos naturales
 - **Valoración:** 5.0 / 5
 - **Enlace:** https://www.google.com/maps?cid=6855966881778542098
+- **Web:** https://www.sinculpamarket.cl/
 - **Fecha de registro:** 2026-06-20
 
 ## Sushi y Pasteleria Dos Polos
@@ -648,6 +741,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Cafetería
 - **Valoración:** 4.4 / 5
 - **Enlace:** https://www.google.com/maps?cid=13690725887924125890
+- **Web:** http://www.tastybulnes.cl/
 - **Fecha de registro:** 2026-03-23
 
 ## TastyFree
@@ -655,6 +749,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Panadería
 - **Valoración:** 4.4 / 5
 - **Enlace:** https://www.google.com/maps?cid=2406128358002360708
+- **Web:** http://www.tastyfree.cl/
+- **Menciona en su web:** hamburguesa, empanada
 - **Fecha de registro:** 2025-11-05
 
 ## Thani Gluten Free
@@ -662,6 +758,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Pastelería
 - **Valoración:** 4.3 / 5
 - **Enlace:** https://www.google.com/maps?cid=17754417899213936696
+- **Web:** https://www.thani.cl/
+- **Menciona en su web:** pizza, empanada, sopa
 - **Fecha de registro:** 2026-03-17
 
 ## Tremus Las Condes Market & Coffee
@@ -669,6 +767,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Pastelería
 - **Valoración:** 4.7 / 5
 - **Enlace:** https://www.google.com/maps?cid=6139109249713522624
+- **Web:** https://tremus.cl/tiendas/estoril/?utm_source=google&utm_medium=organic&utm_campaign=gbp
+- **Menciona en su web:** hamburguesa, pizza, lasaña, empanada, pollo, carne, sopa, sándwich, waffle, panqueque, tortilla
 - **Fecha de registro:** 2025-11-05
 
 ## Vapiano Parque Arauco
@@ -676,6 +776,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Restaurante italiano
 - **Valoración:** 4.6 / 5
 - **Enlace:** https://www.google.com/maps?cid=2178821687199005261
+- **Web:** https://www.vapiano-pedidos.cl/reservas
+- **Menciona en su web:** pizza, pasta
 - **Fecha de registro:** 2026-03-01
 
 ## VICTORIA KETO
@@ -690,6 +792,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Pastelería
 - **Valoración:** 4.5 / 5
 - **Enlace:** https://www.google.com/maps?cid=9848703736813339551
+- **Web:** http://www.violetapatisserie.cl/
+- **Menciona en su web:** empanada
 - **Fecha de registro:** 2025-11-23
 
 ## Yoko Sea Food
