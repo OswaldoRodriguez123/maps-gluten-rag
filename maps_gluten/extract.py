@@ -142,6 +142,52 @@ EXTRACT_JS = r"""
 """
 
 
+COLLECT_ROWS_JS = r"""
+() => [...document.querySelectorAll('button.SMP2wb')].map(b => {
+  const nameEl = b.querySelector('.fontHeadlineSmall');
+  const name = nameEl ? nameEl.textContent.trim() : '';
+  const ratingEl = b.querySelector('.MW4etd');
+  const rating = ratingEl ? ratingEl.textContent.trim() : null;
+  const block = b.querySelector('.yfRytc') || b.querySelector('.IIrLbb');
+  let category = null;
+  if (block) {
+    const clone = block.cloneNode(true);
+    clone.querySelectorAll('.MW4etd, [role="img"]').forEach(e => e.remove());
+    const lines = (clone.innerText || '').split('\n').map(s => s.trim()).filter(Boolean);
+    category = lines[0] || null;
+  }
+  return {name, rating, category};
+})
+"""
+
+SCROLL_SETUP_JS = r"""
+() => {
+  const sc = [...document.querySelectorAll('div')].filter(e => {
+    const s = getComputedStyle(e);
+    return /(auto|scroll)/.test(s.overflowY)
+      && e.scrollHeight > e.clientHeight + 20
+      && e.querySelectorAll('button.SMP2wb').length > 0;
+  });
+  sc.sort((a, b) => b.querySelectorAll('button.SMP2wb').length - a.querySelectorAll('button.SMP2wb').length);
+  window.__mapsScroller = sc[0] || null;
+  if (window.__mapsScroller) window.__mapsScroller.scrollTop = 0;
+  return !!window.__mapsScroller;
+}
+"""
+
+SCROLL_STEP_JS = (
+    "window.__mapsScroller && (window.__mapsScroller.scrollTop = Math.min("
+    "window.__mapsScroller.scrollTop + window.__mapsScroller.clientHeight * 0.65, "
+    "window.__mapsScroller.scrollHeight))"
+)
+SCROLL_STATE_JS = (
+    "window.__mapsScroller ? "
+    "[window.__mapsScroller.scrollTop, window.__mapsScroller.scrollHeight] : null"
+)
+
+CATEGORY_STOPWORDS = {"abierto", "cerrado", "abre pronto", "cierra pronto", "abre hoy", "cierra hoy"}
+
+
 @dataclass
 class Place:
     ftid: str
@@ -280,6 +326,148 @@ def parse_getlist(body: str) -> tuple[str | None, list[Place]]:
     records = root[8] if len(root) > 8 and isinstance(root[8], list) else []
     places = [place for place in (_record_to_place(record) for record in records) if place]
     return title, places
+
+
+def _clean_category(value: str | None, address: str | None) -> str | None:
+    value = (value or "").strip()
+    if not value or len(value) > 60:
+        return None
+    if re.search(r"\d", value):
+        return None
+    if value.lower() in CATEGORY_STOPWORDS:
+        return None
+    if address:
+        if _normalize(value) in _normalize(address):
+            return None
+        value_tokens = _tokens(value)
+        address_tokens = set(re.findall(r"[a-z0-9]+", _normalize(address)))
+        if value_tokens and len(value_tokens & address_tokens) / len(value_tokens) >= 0.5:
+            return None
+    return value
+
+
+def _collect_dom_rows(page: Page) -> list[dict]:
+    try:
+        page.wait_for_selector("button.SMP2wb", timeout=10_000)
+    except PlaywrightTimeout:
+        return []
+    try:
+        page.wait_for_selector(".MW4etd", timeout=12_000)
+        page.wait_for_timeout(2000)
+    except PlaywrightTimeout:
+        pass
+    try:
+        page.evaluate(SCROLL_SETUP_JS)
+    except Exception:
+        pass
+
+    seen: dict[str, dict] = {}
+
+    def merge(rows: list[dict]) -> None:
+        for row in rows:
+            name = (row.get("name") or "").strip()
+            if not name:
+                continue
+            key = _normalize(name)
+            old = seen.get(key)
+            if old is None:
+                seen[key] = {
+                    "name": name,
+                    "rating": row.get("rating"),
+                    "category": row.get("category"),
+                }
+                continue
+            if row.get("rating") and not old.get("rating"):
+                old["rating"] = row["rating"]
+            if row.get("category") and not old.get("category"):
+                old["category"] = row["category"]
+
+    previous = None
+    stable = 0
+    for _ in range(80):
+        merge(page.evaluate(COLLECT_ROWS_JS))
+        try:
+            page.evaluate(SCROLL_STEP_JS)
+            page.wait_for_timeout(850)
+            state = page.evaluate(SCROLL_STATE_JS)
+        except Exception:
+            break
+        if state == previous:
+            stable += 1
+            if stable >= 4:
+                break
+        else:
+            stable = 0
+        previous = state
+
+    page.wait_for_timeout(500)
+    try:
+        merge(page.evaluate(COLLECT_ROWS_JS))
+    except Exception:
+        pass
+    return list(seen.values())
+
+
+MATCH_STOPWORDS = {
+    "de", "del", "la", "el", "los", "las", "y", "e", "en", "con", "sin", "para", "por",
+    "gluten", "free", "producto", "productos", "comida", "saludable", "natural",
+    "bar", "cafe", "cafeteria", "restaurante", "tienda", "panaderia", "pasteleria",
+    "patisserie", "bakery", "market", "spa", "sas", "ltda",
+}
+
+
+def _tokens(value: str) -> set[str]:
+    return {
+        token
+        for token in re.findall(r"[a-z0-9]+", _normalize(value))
+        if len(token) > 1 and token not in MATCH_STOPWORDS
+    }
+
+
+def _match_score(candidate: str, name: str) -> float:
+    left, right = _normalize(candidate), _normalize(name)
+    if not left or not right:
+        return 0.0
+    if left == right:
+        return 1.0
+    left_tokens, right_tokens = _tokens(candidate), _tokens(name)
+    if left_tokens and right_tokens and (left_tokens <= right_tokens or right_tokens <= left_tokens):
+        return 0.92
+    if not left_tokens or not right_tokens:
+        return 0.0
+    return (2 * len(left_tokens & right_tokens)) / (len(left_tokens) + len(right_tokens))
+
+
+def _enrich(places: list[Place], rows: list[dict]) -> int:
+    remaining = list(places)
+    enriched = 0
+    for row in rows:
+        best = None
+        best_score = 0.0
+        second_score = 0.0
+        for place in remaining:
+            score = _match_score(row.get("name") or "", place.name)
+            if score > best_score:
+                second_score = best_score
+                best_score = score
+                best = place
+            elif score > second_score:
+                second_score = score
+        if best is None or best_score < 0.6 or best_score - second_score < 0.05:
+            continue
+        remaining.remove(best)
+        rating = (row.get("rating") or "").strip() or None
+        category = _clean_category(row.get("category"), best.address)
+        changed = False
+        if rating and not best.rating:
+            best.rating = rating
+            changed = True
+        if category and not best.category:
+            best.category = category
+            changed = True
+        if changed:
+            enriched += 1
+    return enriched
 
 
 def _launch(p, profile: Path, headless: bool, channel: str | None, locale: str, timezone: str):
@@ -440,6 +628,13 @@ def scrape_list(
                 title = title or page.evaluate(TITLE_JS)
                 _autoscroll(page)
                 places = _dom_places(page)
+            else:
+                try:
+                    rows = _collect_dom_rows(page)
+                except Exception:
+                    rows = []
+                if rows:
+                    _enrich(places, rows)
 
             final_url = page.url
         finally:

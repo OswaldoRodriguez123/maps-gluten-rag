@@ -7,7 +7,7 @@ Extrae los lugares de una lista compartida de Google Maps, elimina duplicados y 
 
 La fuente de verdad local es `data/historial_lugares.db` (SQLite). En GitHub Actions ese archivo vive en la caché del workflow, no en el repo. Cada corrida hace *upsert*: conserva la fecha de guardado de Google (`saved_on`) y solo marca como nuevos los lugares que no existían.
 
-El extractor abre la lista pública con Playwright y lee el endpoint interno `entitylist/getlist`, que devuelve todos los lugares con nombre, dirección, coordenadas, `ftid` y fecha de guardado. Si ese endpoint cambia, cae a un respaldo que lee las filas del DOM.
+El extractor abre la lista pública con Playwright y lee el endpoint interno `entitylist/getlist`, que devuelve todos los lugares con nombre, dirección, coordenadas, `ftid` y fecha de guardado. Después recorre las filas del DOM para enriquecer con la valoración y la categoría, que ese endpoint no incluye. Si el endpoint cambia, cae a un respaldo que lee directamente las filas.
 
 ## Dos formas de ejecutarlo
 
@@ -107,6 +107,6 @@ maps-gluten-rag/
 ## Límites que conviene tener claros
 
 - `entitylist/getlist` es un endpoint interno, no una API pública. Puede cambiar sin aviso; el respaldo DOM y `--debug` existen para eso.
-- La valoración y la categoría no vienen en el payload de la lista; el `.md` incluye nombre, dirección, enlace y fecha de guardado.
+- La valoración y la categoría no vienen en el payload de la lista: se toman de las filas del DOM. Google no las muestra para algunos locales, así que esos quedan sin valoración o sin categoría.
 - Revisa los términos de uso de Google Maps antes de automatizarlo a diario. Para un uso personal y de bajo volumen es lo habitual; no lo uses como servicio para terceros.
 - Si la lista es privada y Google invalida la sesión, `run` falla sin tocar la base y te lo dice en el log. Vuelve a ejecutar `login`.
