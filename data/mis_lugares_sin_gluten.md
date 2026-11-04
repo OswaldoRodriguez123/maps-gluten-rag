@@ -445,6 +445,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Ubicación:** Montenegro 391, 7790745 Ñuñoa, Región Metropolitana
 - **Enlace:** https://www.google.com/maps?cid=2591736801254275963
 - **Fecha de registro:** 2026-10-31
+- **Nota:** Montenegro 391, 7790745 Ñuñoa, Región Metropolitana
 
 ## Mr Foodie
 - **Ubicación:** Antonia López de Bello 743, Loc 266, 8420000 Recoleta, Región Metropolitana
