@@ -2,7 +2,7 @@ name: Actualizar lista de Google Maps
 
 on:
   schedule:
-    - cron: "0 8 * * *"
+    - cron: "0 8 * * 1"
   workflow_dispatch:
     inputs:
       url:
@@ -24,7 +24,7 @@ jobs:
       MAPS_LIST_URL: ${{ github.event.inputs.url || vars.MAPS_LIST_URL || 'https://maps.app.goo.gl/FWzyQ6w2AYSDTZZYA' }}
       MAPS_TIMEZONE: America/Bogota
       MAPS_LOCALE: es-CO
-      MAPS_HEADLESS: "1"
+      MAPS_HEADLESS: "0"
       MAPS_BROWSER_CHANNEL: ""
       MAPS_OUT_DIR: data
       MAPS_OUT_BASENAME: mis_lugares_sin_gluten
@@ -49,6 +49,9 @@ jobs:
       - name: Chromium
         run: python -m playwright install --with-deps chromium
 
+      - name: Pantalla virtual
+        run: sudo apt-get update && sudo apt-get install -y xvfb
+
       - name: Restaurar histórico
         uses: actions/cache@v4
         with:
@@ -57,7 +60,7 @@ jobs:
           restore-keys: maps-gluten-db-
 
       - name: Extraer lista
-        run: python -m maps_gluten run
+        run: xvfb-run -a python -m maps_gluten run
 
       - name: Guardar cambios
         run: |

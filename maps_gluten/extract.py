@@ -203,7 +203,9 @@ class Place:
     lng: float | None = None
     website: str | None = None
     dishes: str | None = None
+    review_dishes: str | None = None
     enriched_at: str | None = None
+    enrich_version: int | None = None
 
 
 def _normalize(value: str) -> str:

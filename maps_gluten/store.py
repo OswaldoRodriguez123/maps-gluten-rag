@@ -26,7 +26,9 @@ CREATE TABLE IF NOT EXISTS places (
     lng        REAL,
     website    TEXT,
     dishes     TEXT,
-    enriched_at TEXT
+    review_dishes TEXT,
+    enriched_at TEXT,
+    enrich_version INTEGER
 );
 
 CREATE TABLE IF NOT EXISTS lists (
@@ -45,9 +47,10 @@ CREATE TABLE IF NOT EXISTS list_places (
 UPSERT = """
 INSERT INTO places (
     ftid, name, address, category, rating, reviews, note, url,
-    first_seen, last_seen, saved_on, lat, lng, website, dishes, enriched_at
+    first_seen, last_seen, saved_on, lat, lng, website, dishes, review_dishes,
+    enriched_at, enrich_version
 )
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 ON CONFLICT(ftid) DO UPDATE SET
     name    = excluded.name,
     address = COALESCE(NULLIF(excluded.address, ''), places.address),
@@ -63,7 +66,9 @@ ON CONFLICT(ftid) DO UPDATE SET
     lng      = COALESCE(excluded.lng, places.lng),
     website  = COALESCE(NULLIF(excluded.website, ''), places.website),
     dishes   = COALESCE(NULLIF(excluded.dishes, ''), places.dishes),
-    enriched_at = COALESCE(NULLIF(excluded.enriched_at, ''), places.enriched_at)
+    review_dishes = COALESCE(NULLIF(excluded.review_dishes, ''), places.review_dishes),
+    enriched_at = COALESCE(NULLIF(excluded.enriched_at, ''), places.enriched_at),
+    enrich_version = COALESCE(excluded.enrich_version, places.enrich_version)
 """
 
 MIGRATIONS = (
@@ -72,7 +77,9 @@ MIGRATIONS = (
     ("lng", "REAL"),
     ("website", "TEXT"),
     ("dishes", "TEXT"),
+    ("review_dishes", "TEXT"),
     ("enriched_at", "TEXT"),
+    ("enrich_version", "INTEGER"),
 )
 
 
@@ -122,7 +129,9 @@ def save(
                 place.lng,
                 place.website,
                 place.dishes,
+                place.review_dishes,
                 place.enriched_at,
+                place.enrich_version,
             ),
         )
         conn.execute(
@@ -145,13 +154,15 @@ def save(
 
 def enrichment_cache(conn: sqlite3.Connection) -> dict[str, dict]:
     rows = conn.execute(
-        "SELECT ftid, website, dishes, enriched_at FROM places"
+        "SELECT ftid, website, dishes, review_dishes, enriched_at, enrich_version FROM places"
     ).fetchall()
     return {
         row["ftid"]: {
             "website": row["website"],
             "dishes": row["dishes"],
+            "review_dishes": row["review_dishes"],
             "enriched_at": row["enriched_at"],
+            "enrich_version": row["enrich_version"],
         }
         for row in rows
     }
@@ -225,6 +236,8 @@ def write_markdown(conn: sqlite3.Connection, key: str, path: Path, today: str) -
             lines.append(f"- **Web:** {row['website']}")
         if row["dishes"]:
             lines.append(f"- **Menciona en su web:** {row['dishes']}")
+        if row["review_dishes"]:
+            lines.append(f"- **Menciona en reseñas:** {row['review_dishes']}")
         lines.append(f"- **Fecha de registro:** {row['saved_on'] or row['first_seen']}")
         if row["note"]:
             lines.append(f"- **Nota:** {row['note']}")
@@ -248,6 +261,8 @@ def write_jsonl(conn: sqlite3.Connection, key: str, path: Path) -> int:
             parts.append(f"Nota: {row['note']}")
         if row["dishes"]:
             parts.append(f"Su web menciona: {row['dishes']}")
+        if row["review_dishes"]:
+            parts.append(f"Sus reseñas mencionan: {row['review_dishes']}")
         parts.append("Guardado en mi lista de lugares sin gluten en Google Maps")
         record = {
             "id": row["ftid"],
@@ -261,6 +276,7 @@ def write_jsonl(conn: sqlite3.Connection, key: str, path: Path) -> int:
                 "url": row["url"],
                 "website": row["website"],
                 "dishes": row["dishes"],
+                "review_dishes": row["review_dishes"],
                 "saved_on": row["saved_on"],
                 "first_seen": row["first_seen"],
                 "last_seen": row["last_seen"],

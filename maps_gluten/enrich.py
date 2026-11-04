@@ -10,6 +10,8 @@ from html.parser import HTMLParser
 from io import BytesIO
 from urllib.parse import urljoin, urlparse
 
+ENRICH_VERSION = 2
+
 DISH_STEMS = {
     "hamburgues": "hamburguesa",
     "burger": "hamburguesa",
@@ -59,6 +61,50 @@ DISH_STEMS = {
     "quesadilla": "quesadilla",
     "nachos": "nachos",
     "alitas": "alitas",
+    "completo": "completo",
+    "mechada": "mechada",
+    "pino": "pino",
+    "barros luco": "barros luco",
+    "chorrillana": "chorrillana",
+    "pastel de choclo": "pastel de choclo",
+    "cazuela": "cazuela",
+    "humita": "humita",
+    "torta": "torta",
+    "pastel": "pastel",
+    "gallet": "galleta",
+    "alfajor": "alfajor",
+    "brownie": "brownie",
+    "cupcake": "cupcake",
+    "muffin": "muffin",
+    "donut": "donut",
+    "dónut": "donut",
+    "cheesecake": "cheesecake",
+    "pie de": "pie",
+    "tarta": "tarta",
+    "helado": "helado",
+    "chocolate": "chocolate",
+    "churro": "churro",
+    "flan": "flan",
+    "budin": "budín",
+    "budín": "budín",
+    "pionono": "pionono",
+    "merengue": "merengue",
+    "macaron": "macaron",
+    "tiramisu": "tiramisú",
+    "tiramisú": "tiramisú",
+    "manjar": "manjar",
+    "dulce de leche": "dulce de leche",
+    "chilenito": "chilenito",
+    "medialuna": "medialuna",
+    "factura": "factura",
+    "croissant": "croissant",
+    "crepe": "crepe",
+    "gofre": "gofre",
+    "gelato": "gelato",
+    "sorbete": "sorbete",
+    "postre": "postre",
+    "dulce": "dulces",
+    "jugo": "jugo",
 }
 
 MENU_RE = re.compile(r"(menu|menú|carta|order|pedir|productos|shop|tienda)", re.IGNORECASE)
@@ -70,6 +116,16 @@ UA = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
 )
+
+REVIEW_TOPICS_JS = r"""
+() => [...document.querySelectorAll('button[role="radio"]')]
+  .map(e => e.getAttribute('aria-label') || '')
+  .map(label => {
+    const match = label.match(/Se menciona (.+?) en \d+/i);
+    return match ? match[1].trim() : null;
+  })
+  .filter(Boolean)
+"""
 
 WEBSITE_JS = r"""
 () => {
@@ -220,6 +276,8 @@ def _site_dishes(url: str) -> list[str]:
 def _is_stale(info: dict | None, max_age_days: int, today: date) -> bool:
     if not info or not info.get("enriched_at"):
         return True
+    if info.get("enrich_version") != ENRICH_VERSION:
+        return True
     try:
         enriched = date.fromisoformat(info["enriched_at"])
     except ValueError:
@@ -237,6 +295,23 @@ def _extract_website(page) -> str | None:
         return page.evaluate(WEBSITE_JS)
     except Exception:
         return None
+
+
+def _extract_reviews(page) -> list[str]:
+    try:
+        page.wait_for_selector('button[role="radio"]', timeout=4_000)
+    except Exception:
+        pass
+    topics: list[str] = []
+    try:
+        topics = page.evaluate(REVIEW_TOPICS_JS)
+    except Exception:
+        pass
+    try:
+        body = page.inner_text("body")
+    except Exception:
+        body = ""
+    return detect_dishes(" ".join(topics) + " " + body)
 
 
 def enrich_places(
@@ -263,9 +338,12 @@ def enrich_places(
         try:
             page.goto(place.url, wait_until="domcontentloaded", timeout=30_000)
             website = _extract_website(page)
+            review_dishes = _extract_reviews(page)
         except Exception:
             website = None
+            review_dishes = []
         place.website = website
+        place.review_dishes = ", ".join(review_dishes) if review_dishes else None
         if website:
             with_web.append(place)
 
@@ -284,4 +362,5 @@ def enrich_places(
         dishes = results.get(place.ftid) or []
         place.dishes = ", ".join(dishes) if dishes else None
         place.enriched_at = today.isoformat()
+        place.enrich_version = ENRICH_VERSION
     return len(stale)
