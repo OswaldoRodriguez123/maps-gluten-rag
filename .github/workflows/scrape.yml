@@ -8,6 +8,9 @@ on:
       url:
         description: "URL de la lista (opcional; usa la variable del repositorio si se omite)"
         required: false
+      refresh_place:
+        description: "Forzar enriquecido de un local (nombre parcial, ej: Crumbless)"
+        required: false
 
 permissions:
   contents: write
@@ -105,7 +108,13 @@ jobs:
       - name: Extraer lista
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
-        run: xvfb-run -a python -m maps_gluten run
+          REFRESH_PLACE: ${{ github.event.inputs.refresh_place }}
+        run: |
+          args=()
+          if [ -n "$REFRESH_PLACE" ]; then
+            args+=(--refresh-place "$REFRESH_PLACE")
+          fi
+          xvfb-run -a python -m maps_gluten run "${args[@]}"
 
       - name: Guardar cambios
         run: |

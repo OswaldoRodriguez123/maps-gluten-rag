@@ -64,6 +64,12 @@ def _build_parser() -> argparse.ArgumentParser:
         help="Ignora la caché y vuelve a enriquecer todos los locales.",
     )
     run.add_argument(
+        "--refresh-place",
+        action="append",
+        default=[],
+        help="Fuerza el enriquecido de los locales cuyo nombre contenga este texto (repetible).",
+    )
+    run.add_argument(
         "--ocr",
         action=argparse.BooleanOptionalAction,
         default=None,
@@ -154,6 +160,12 @@ def main(argv: list[str] | None = None) -> int:
     conn = store.connect(db_path)
     try:
         cache = store.enrichment_cache(conn) if (enrich_enabled or apify_enabled) else {}
+        if args.refresh_place:
+            terms = [term.lower() for term in args.refresh_place]
+            for row in conn.execute("SELECT ftid, name FROM places"):
+                name = (row["name"] or "").lower()
+                if any(term in name for term in terms):
+                    cache.setdefault(row["ftid"], {})["enriched_at"] = None
         try:
             key, title, places, complete = extract.scrape_list(
                 url=url,

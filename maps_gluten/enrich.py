@@ -405,6 +405,52 @@ def _extract_website(page) -> str | None:
         return None
 
 
+SPA_STORE_HOSTS = ("menu.fu.do",)
+SPA_PRODUCT_PATHS = (
+    "/pizzas/",
+    "/sandwiches/",
+    "/extras/",
+    "/galletas/",
+    "/panaderia/",
+    "/porciones/",
+    "/tortas/",
+    "/bebidas/",
+    "/platos/",
+    "/papas/",
+)
+
+
+def _is_spa_store(url: str) -> bool:
+    return any(host in (url or "").lower() for host in SPA_STORE_HOSTS)
+
+
+def _render_site_products(page, url: str) -> list[str]:
+    try:
+        page.goto(url, wait_until="domcontentloaded", timeout=30_000)
+        page.wait_for_timeout(5_000)
+        anchors = page.eval_on_selector_all(
+            "a",
+            """els => els.map(e => ({text: (e.innerText || '').trim(), href: e.href}))
+                .filter(x => x.text && x.text.length < 300)""",
+        )
+        names: list[str] = []
+        for anchor in anchors:
+            href = anchor.get("href") or ""
+            if not any(path in href for path in SPA_PRODUCT_PATHS):
+                continue
+            first = (anchor.get("text") or "").split("\n")[0].strip()
+            first = re.sub(r"\s+", " ", first)
+            if 3 <= len(first) <= 80 and first not in names:
+                names.append(first)
+        body = page.inner_text("body")
+        for dish in detect_dishes(body):
+            if dish not in names:
+                names.append(dish)
+        return names[:100]
+    except Exception:
+        return []
+
+
 def _extract_reviews(page) -> list[str]:
     try:
         page.wait_for_selector('button[role="radio"]', timeout=4_000)
@@ -454,7 +500,10 @@ def enrich_places(
             review_dishes = []
         place.website = website
         place.review_dishes = ", ".join(review_dishes) if review_dishes else None
-        if website and website_dishes:
+        if website and _is_spa_store(website):
+            products = _render_site_products(page, website)
+            place.dishes = ", ".join(products) if products else None
+        elif website and website_dishes:
             with_web.append(place)
 
     results: dict[str, list[str]] = {}
