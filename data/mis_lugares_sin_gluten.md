@@ -2915,65 +2915,72 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 ### Qué vende
 
+- BURGERS
 - SANDWICHES
-- SANDWICH
+- TO SHARE
+- PAPAS RACLETTE
+- RÖSTIS
+- TO DRINK
+- EXTRAS
 
 
 ### Carta
 
-- Racle Burger simple 13500 BLT Burger simple queso raclotto. — $1.500
-- Roger Burger simple salteados y 100g de queso raclette. — $1.000
-- Mechada Barros Luclette — $13.000
-- Bebida del día ] Fondué adicional — $3.500
-- Ostiones a la Raclette € llana de Fondué aed — $14.500
-- Porción de seis ostiones cocinados — $2.000
-- Fondué — $1.000
-- A Mya inset - R E Huevo frito — $1.500
-- Rocio Burger
-- Racle Burger
-- BLT Burger
-- Roger Burger
-- Veggie Burger )~
-- Mechada
-- Polloclette
-- Chorrillana de Fondué
-- Cambia a Veggie Burger
-- SANDWICHES PAPAS RACLETTE RÓSTIS
-- Le Coq Raclette o ae BZA — $9.500
-- Champi V Mix de hongos salteados estilo mechada "Sugerencia — $10.000
-- BURGERS
-- Raclette adiciona == — $3.900
-- SU : > — $12.000
-- Racleburger a caeie JE IS Proteína n = — $2.000
-- Carne Mechada
-- Raclenerca Carne Mechada
-- Rósti Carne Mechada
-- Rósti Pollo al Cognac
-- Mix de hongos salteados estilo mechada
-- Baguettin relleno Acer — $7.990
-- De Jamón Serrano con pepinillos — $10.300
-- COn queso Raclette fundido acompañados de Meal — $9.990
-- Carne Mechada — $10.800
-- Racleburger Spay vibe asian és — $10.990
-- Carne de res mechada con hon
-- Carne de cerdo (pulled
-- > Mechada Pulled Pork 12500. oscanorn — $13.000
-- Pulled Pork Camarón Champi 7 — $12.500
-- Drink of the day Y Extra Fondue — $3.500
-- Ostiones a la Raclette € llana de Fondué 7 aed — $14.500
-- Tabla de Fondúe /2 SUI — $13.500
-- Ta Y . AA pet care > Veggies and/or pickles — $1.000
-- Switch to Veggie Burger
-- NG ee Mechada Raclenerca Carne — $1.000
-- Raclenerca Carne
-- Rósti Montañés — $8.500
-- Raclette adicional — $3.900
-- AA So gerencia — $1.500
-- ZAC om a Mixcdehon — $10.000
-- AN egetales — $9.000
-- Racleburger — $12.000
-- Rogerburger — $10.000
-- > de crema de zapallo dí — $1.800
+#### BURGERS
+
+- Racle Burger simple — $13.500
+- Racle Burger doble — $15.500
+- Roger Burger simple — $11.000
+- Roger Burger doble — $13.000
+- Veggie Burger simple — $11.500
+- Veggie Burger doble — $13.500
+- BLT Burger simple — $11.500
+- BLT Burger doble — $13.000
+- Raclebacon simple — $10.000
+- Raclebacon doble — $12.000
+- Cheeseburger simple — $8.000
+- Cheeseburger doble — $10.000
+
+#### SANDWICHES
+
+- Mechada — $13.000
+- Pulled Pork — $12.500
+- Polloclette — $13.000
+- Champi — $11.500
+- Barros Luclette — $12.000
+
+#### TO SHARE
+
+- Ostiones a la Raclette — $14.500
+- Tabla de Fondúe — $13.500
+- Chorrillana de Fondué — $17.000
+
+#### PAPAS RACLETTE
+
+- Camarón — $13.000
+- Racletín Deluxe — $10.000
+- Papas Fondué — $8.000
+- Racletín — $7.000
+
+#### RÖSTIS
+
+- Montañés — $10.000
+
+#### TO DRINK
+
+- Drinks — $2.300
+- Drink of the day — $2.100
+- Sparkling/still water — $1.800
+
+#### EXTRAS
+
+- Extra Raclette (50g) — $2.000
+- Extra Fondue — $3.500
+- Protein — $2.000
+- Switch to Veggie Burger — $2.000
+- Grilled bacon — $1.000
+- Fried egg — $1.500
+- Veggies and/or pickles — $1.000
 
 
 ## José & José Tiendita de Café
@@ -3571,6 +3578,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Macarons Frances (1u)
 - Muffins
 - Rejita de manzana o chocolate
+- Suave y Tala acidez - 38 — $4.500
 
 
 ## Magnolia
@@ -3845,87 +3853,48 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** pescado, completo
 - **Fecha de registro:** 2025-11-05
 
+### Qué vende
+
+- Temakis
+- Nigiri Sushi
+
+
 ### Carta
 
+#### Temakis
+
 - Sakana Spicy — $5.000
-- U 28 — $6.500
+- Unagi — $6.500
 - Ebi — $5.500
 - Sake — $5.500
 - Tako — $5.500
+- Temaki omakase — $7.500
 - Temaki spider — $9.000
 - Cangrejo picante — $9.500
 - Unagi pimiento y cebolla — $7.500
-- Nigiri Sushi
-- Suzuki — $4.500
-- War Guias — $5.500
+
+#### Nigiri Sushi
+
+- Otate — $4.500
+- Suzuki — $5.000
+- Maguro — $4.500
+- Toro Sake — $6.500
+- Ikura Gunkan — $6.500
+- Uni Gunkan — $5.500
 - Otate Gunkan — $5.500
 - Spicy Gunkan — $6.000
+- Nasu Miso Berenjena asada en miso — $7.800
+- Unagi / foie grass — $7.800
+- Uni / foie grass — $6.500
+- Pobre Nigiri con trufa fresca — $7.800
 - Atún Foie Grass Sopleteado — $6.500
-- Otate Ikura MAN — $6.500
-- Sushi
-- Sake Miso Con pasta
-- Naoki 9 cortes — $9.500
-- Moriawase 15 cortes — $12.500
-- Moriawase 25 cortes — $18.000
-- Sake Oyakodon sashimi de salmón sobre arroz — $13.500
-- Risotto Frio ikura — $8.500
-- Risotto Frio uni — $9.500
-- Sakana pescado del dia — $10.000
-- Otate ostiones patagónicos con aderezo estilo Naoki — $11.000
-- Sakana erizo — $12.000
-- Sake Trufado — $12.000
-- Maguro Foie sopleteado con foie y salsa unagi. 4 — $12.000
-- Toro Maguro atin graso — $12.000
-- C e n t emp ura Soba caldo Japonés — $8.500
-- Sake Teriyaki con onigiri — $12.000
-- Tori Supaishi pollo picante al estilo Naoki — $11.000
-- Beef Teriyaki flete en salsa teriyaki con onigiri — $12.000
-- Saru Soba — $12.500
-- A OS eeu Mio sa Wntegrales fríos con salsa sar — $8.000
-- Moriawase 15 cortes. 5 — $12.500
-- Maguro Foie sopleteado con foie y salsa unagi — $12.000
-- Awabi /oco chileno con emulsión de wasabi — $11.000
-- Tempura Soba caldo japonés — $8.500
-- Yakimeshi arroz salteado — $9.000
-- Unagi ala plancha con onigir — $12.000
-- Lo . o. o 4 — $7.600
-- AÑ i A Ñ ‘. ao lo. Saru Soba /fideos integrales fríos — $8.000
-- E ds Gyosas de Pato /ritas en salsa yuzu picante. 000 — $7
-- Tako Tartar relleno de salmón picante — $10.500
-- Uni tempura roll relleno de erizos a la chilena — $9.000
-- Naruto pepino relleno — $9.000
-- NN Kappes Mak — $4.000
-- Gyutataki Jomo de res sellado a la sal con salsa ponzu — $6.000
-- Edamame Poroto de soya cocinado al vapor con sal de Cab — $4.500
-- Sarada Wakame ensalada de algas — $6.500
-- Gyosas de Cochayuyo y Papaya con salsa ponzu (7 und.) 3 — $5.500
-- Uni erizos al estilo Naoki — $11.000
-- Naoki Nigiri crocante de arroz — $7.500
-- Yaki Tori brochetas de pollo estilo Naokz. (3 und.) 51500 — $11
-- Atsuage tofu frito — $6.000
-- Geisha unag — $11.000
-- Sake Maki — $4.200
-- Kappa Maki — $4.000
-- Unagi Maki — $5.500
-- Otate ostiones Palagónicos con aderezo estilo Naoki — $11.000
-- Maguro Foie sopleteado con foie ) salsa unagi — $12.000
-- Toro Maguto atún graso — $12.000
-- Unagi a la plancha con onigiri — $12.000
-- Beef Teriyaki Filete en salsa teriyaki con onigire — $12.000
-- Supaishina Ribu costillas de cerdo picante al estilo Naoki — $7.000
-- Nasu Miso berenjena asada — $7.000
-- Pescado con arroz
-- Tempura Soba caldo japo
-- Pollo Teri
-- Gyosas de Pato
-- Ntra eS Misoshiru — $3.000
-- Gyutataki domo de res sellado a la sal con salsa pone — $6.000
-- Edamame poroto de soya cocinado al vapor con sal de Cabuil — $4.500
-- Yaki Tori brochetas de pollo estilo Naoki. (3 und. ) $ — $5.500
-- Hotate Furay ostiones patagónicos apanados — $9.000
-- Ika Furai calamares en panko — $9.000
-- Almejas — $5.500
-- Dl y Mia — $5.500
+- Sake Picante Con salsa picante y crispi tempura — $6.500
+- Sake Trufado Con aceite trufa blanca y cítrico japonés — $5.500
+- Sake Miso Con pasta miso y alga wakame crocante — $7.800
+- Uni foie — $6.000
+- Otate Ikura — $6.500
+- Maguro Uni — $7.000
+- Uni Ikura Gunkan — $7.000
 
 
 ## P.F. Chang's
@@ -4401,98 +4370,126 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 ### Qué vende
 
+- Café
+- Café con Leche
+- Té
 - Chocolate Caliente
+- Bebidas y Jugos
+- Café, Té y Chocolate
+- Bollería
 - Pastelería
+- Salados
 
 
 ### Carta
 
-- Espresso / Ristretto / Lungo Tazón de Té — $2.500
-- Espresso Doble Té con Leche — $3.000
-- Americano Chai Latte / Golden Milk — $2.900
-- Americano Doble Matcha Latte — $3.400
-- Shot de espresso adicional Iced Tea — $900
-- Machiatto Chocolate Caliente — $2.900
-- Capuccino (Frío o Caliente) Chocolate Caliente — $3.500
+#### Café
+
+- Espresso / Ristretto / Lungo — $2.500
+- Espresso Doble — $3.000
+- Americano — $2.900
+- Americano Doble — $3.400
+- Shot de espresso adicional — $900
+
+#### Café con Leche
+
+- Machiatto — $2.900
+- Capuccino (Frío o Caliente) — $3.500
 - Capuccino Doble — $4.000
-- Chocolate Caliente Menta — $5.500
-- Latte (Frío o caliente) Ñ — $4.000
-- Chocolate Caliente de Antaño — $5.500
+- Latte (Frío o caliente) — $4.000
 - Latte Doble (Frío o caliente) — $4.500
 - Mockaccino (Frío o caliente) — $4.500
-- Mocka Blanco (Frio o caliente) Gaseosa — $4.800
-- Mocka Menta (Frio o caliente) Agua Tónica / Ginger Beer — $4.800
-- Banana Cream (Frio o caliente) Agua Mineral — $4.700
-- Café Helado Jugo Natural — $6.500
-- Dirty Chai Limonada Sola — $4.500
-- Tazón de Leche Limonada con Sabor — $3.000
-- Syrup Adicional Limonada Menta Jengibre — $700
-- Leche Vegetal Adicional Vitamina Naranja — $700
-- Porción de Crema Adicional Smoothie — $700
-- Mocka Blanco (Frio o caliente) — $4.800
-- Mocka Menta (Frio o caliente) — $4.800
-- Banana Cream (Frio o caliente) — $4.700
-- Café Helado
-- Jugo Natural
-- Moscow Muleconsabor — $5.490
-- Agua Mineral — $2.490
-- Copa de Helado Aisalada César — $5.990
-- © CroffleconHelado — $5.990
-- Jugo Chirimoya
-- Churrasco taliano
-- Ensaladas y Quiche
-- Copa de Helado
-- Ensalada César
-- Brownie con Helado
-- Quiche con ensalada
-- Volcán de Chocolate
-- Croffle con Helado
-- LA Volcánde Chocolate (Consultar disponibilidad) — $5.990
-- Jugo Chirimoya Alegre
-- Limonada Menta Jengibre — $14.990
-- Churrasco Ttaliano
-- Americano (240.ce) Muffin anne ALADO ' — $2.990
-- Capuccino con sabor rowue 2 — $3.490
-- Latte con Sabor —C re 95 0—0 — $4
-- Blanco — $490
-- Affogato E TrogodeTorta — $2.990
-- Tazón de Té Crumble de ruta — $2.990
-- Tce Tea - ake Tartas — $4.490
-- Ciabatta Capresse — $6.990
-- Lat — $7.990
-- Y Chocolate
-- Americano (240 ce) — $2.990
+- Mocka Blanco (Frío o caliente) — $4.800
+- Mocka Menta (Frío o caliente) — $4.800
+- Banana Cream (Frío o caliente) — $4.700
+- Café Helado — $6.500
+- Dirty Chai — $4.500
+- Tazón de Leche — $3.000
+- Syrup Adicional — $700
+- Leche Vegetal Adicional — $700
+- Porción de Crema Adicional — $700
+
+#### Té
+
+- Tazón de Té — $3.000
+- Té con Leche — $3.500
+- Chai Latte / Golden Milk — $4.900
+- Matcha Latte — $4.900
+- Iced Tea — $4.900
+
+#### Chocolate Caliente
+
+- Chocolate Caliente — $4.900
+- Chocolate Caliente Marsmallows — $5.300
+- Chocolate Caliente Menta — $5.500
+- Chocolate Caliente de Antaño — $5.500
+
+#### Bebidas y Jugos
+
+- Gaseosa — $2.500
+- Agua Tónica / Ginger Beer — $3.500
+- Agua Mineral — $2.000
+- Jugo Natural — $4.900
+- Limonada Sola — $4.500
+- Limonada con Sabor — $5.200
+- Limonada Menta Jengibre — $5.200
+- Vitamina Naranja — $5.600
+- Smoothie — $5.500
+
+#### Café, Té y Chocolate
+
+- Espresso Caliente — $2.490
+- Americano (240 cc) Caliente — $2.990
+- Americano (240 cc) Frío — $2.990
+- Capuccino (360 cc) Caliente — $3.890
+- Capuccino (360 cc) Frío — $3.890
+- Capuccino con sabor Caliente — $4.490
+- Capuccino con sabor Frío — $4.490
+- Latte (480 cc) Caliente — $4.490
+- Latte (480 cc) Frío — $4.490
+- Latte con Sabor Caliente — $4.890
+- Latte con Sabor Frío — $4.890
+- Mockaccino (360 cc) Caliente — $4.490
+- Mockaccino (360 cc) Frío — $4.490
+- Mocka Blanco Caliente — $4.490
+- Mocka Blanco Frío — $4.490
+- Affogato Caliente — $4.990
+- Café Helado Frío — $5.490
+- Tazón de Té Caliente — $2.990
+- Chai Latte Caliente — $4.290
+- Chai Latte Frío — $4.290
+- Ice Tea Frío — $4.490
+- Chocolate Caliente — $4.490
+- Chocolate Frío — $4.490
+- Signature del mes Caliente — $4.990
+- Signature del mes Frío — $4.990
+
+#### Bollería
+
+- Medialuna — $1.990
 - Medialuna Manjar — $2.490
-- Muffin
-- Capuccino (360cc) — $3.890
-- Brownie
-- Capuccino con sabor — $14.490
-- Latte con Sabor — $14.890
-- Mockaccino (360 ce) — $4.490
-- Tartas
-- Chocolate
-- Pie de Limón
-- Signature del mes — $1.990
-- Cheesecake
-- Bagel
-- Pan bagel de arándar tos come gS ee)
-- Pan bagel desésamo1
-- Croissant Queso
-- Croissant Pavo”
-- Y Jugo del día SÓN
-- > Flaky — $7.990
-- Sandwich del día y )
-- Jugo del día
-- Sandwich del dia
-- Tarta del dia
-- Torta del dia
-- Reg gOS — $7.990
-- Limonada Menta Jengibre — $4.990
-- Churrascottaliano — $8.990
-- Moscow Mule con sabor — $5.490
-- Tostadas con Palta — $5.490
-- Porción de Empanaditas — $5.990
-- Voleán de Chocolate
+- Muffin — $3.490
+- Brownie — $3.490
+- Rollo de Canela — $3.490
+
+#### Pastelería
+
+- Trozo de Torta — $4.990
+- Lingote — $4.290
+- Crumble de Fruta — $3.990
+- Profiteroles — $3.990
+- Tartas — $3.990
+- Pie de Limón — $3.990
+- Cheesecake — $4.990
+
+#### Salados
+
+- Ciabatta Capresse — $6.990
+- Bagel Rúcula Jamón Serrano — $6.990
+- Bagel Salmón Queso Crema — $7.990
+- Bagel Napolitano — $5.990
+- Croissant Queso — $3.990
+- Croissant Pavo Queso — $4.490
 
 
 ## Piegari Chile
@@ -4705,74 +4702,84 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** hamburguesa, pizza, sushi, pasta, gyosa, pastel
 - **Menciona en reseñas:** sushi, empanada, gyosa
 - **Fecha de registro:** 2025-10-02
-- **Dietético:** local 100% sin gluten, 3 veganos, 1 sin lactosa
+- **Dietético:** local 100% sin gluten
 
 ### Qué vende
 
+- PLATOS
+- GYOZAS
+- ONIGIRIS
+- APPETIZER
+- SASHIMI
 - ENSALADAS
-- COMPLETO VEGAN
 
 
 ### Carta
 
+#### PLATOS
+
+- CEVICHE QUIMEY — $8.900
 - CEVICHE PESCADO — $7.500
-- Er CEVICHE CAMARONES — $8.000
-- Pasta de arroz salteada — $6.000
-- Camarón 47 — $6.500
-- Camaron 9 — $7.300
-- POLLO SALTADO
-- > FUSION LOMO-POLLO SALTADO
-- CEVICHE PEGCADO
-- Pollo — $5.500
-- Camarón — $6.000
-- POLLO GALTADO
-- = 7 acompañado de honey mustard o cream cheese Quimey — $6.300
-- Camarones ecuatorianos apanado gluten free — $5.500
-- Camarén — $6.300
-- DEDITOS DE SALMÓN + SALSA DE LA CASA (5 UNIDADES) — $4.500
-- TUCCHINI MOZZARELLA (5 UNIDADES) [== — $4.500
-- ~ ENSALADA LECHUGA — $6.000
-- EA MIN HOJAS VERDES — $6.500
-- EXTRA ENSALADA — $1.200
-- WPAN — $1.500
-- Pollo — $5.800
-- Camarón — $6.300
-- J ENSALADA LECHUGA
-- => Ensalada base lechuga
-- J ENSALADA MIX HOJAS VERDES
-- Proteína Extra — $1.500
-- Vegetal Extra — $1.000
-- Pe AJÍ DE GALLINA QUIMEY — $8.700
-- > LOMO A LO POBRE — $8.500
-- PA eS REINETA FURAL (APANADA CON PAPAS) — $7.500
-- AO POLLO A LA PLANCHA — $35.000
-- Salmón — $6.000
-- Pollo 4 — $5.500
-- Carne — $5.900
-- TORIMESHI — $56.000
-- LASAWA BOLONESA (SIN LACTOSA) — $6.000 [sin lactosa]
-- © —- PANZOTTI POLLO
-- BHORRILLANA CARNES (PARA € PERSONAS)
-- = POLLO A LA PLANCHA
-- Camarón — $5.800
-- LASANA BOLONESA
-- MAR ¥ TIERRA ROLL — $8.500
-- CRIOLLO ROLL — $8.300
-- GYOZAS
+- CEVICHE CAMARONES — $8.000
+- YAKIMESHI Pollo — $5.500
+- YAKIMESHI Camarón — $6.000
+- YAKISOBA Pollo — $6.000
+- YAKISOBA Camarón — $6.500
+- PAD THAI QUIMEY Pollo — $7.000
+- PAD THAI QUIMEY Camarón — $7.300
+- PAD THAI TOFU TAMARINDO Pollo — $7.800
+- PAD THAI TOFU TAMARINDO Camarón — $8.000
+- KHAO PAD — $7.000
+- TALLARÍN SALTADO — $7.500
+- ATÚN TERIYAKI — $7.000
+- SALMÓN TERIYAKI — $7.500
+- LOMO SALTADO — $8.500
+- POLLO SALTADO — $8.000
+- FUSIÓN LOMO-POLLO SALTADO — $8.500
+
+#### GYOZAS
+
 - GYOZAS DE POLLO (5 unidades) — $5.000
-- = GYOZAS DE CAMARÓN (5 unidades) — $5.000
+- GYOZAS DE CAMARÓN (5 unidades) — $5.000
 - GYOZAS VEGETARIANAS (5 unidades) — $5.000
 - GYOZAS PREMIUM SALMÓN (5 unidades) — $5.800
-- ~ 5 cortes de Salmón — $54.200
-- ~ 5 cortes de Pulpo — $55.000
-- GYOZAS DE CAMARÓN (5 unidades)
-- GYOZAS PREMIUM DE ESPINACAS (5 unidades)
-- CHICKEN TEMPURA ROLL
-- CEVICHE CUAMPIAÓN pagan
-- PREMIUM VEGANO ACEVICHADO ROLL (SIN ARROZ) “ — $8.300 [vegano]
-- PREMIUM HUMMUS VEGANO ROLL (SIN ARROZ) [vegano]
-- SANDWICHE
-- HAMBURGUESA VEGANA CHACARERA [vegano]
+- GYOZAS PREMIUM DE ESPINACAS (5 unidades) — $5.800
+
+#### ONIGIRIS
+
+- TORI BOLL (3 unidades) — $3.500
+- EBI BOLL (3 unidades) — $3.500
+
+#### APPETIZER
+
+- PULPO AL OLIVO — $7.500
+- EBI MOZZARELLA (5 UNIDADES) — $6.500
+- TORI MOZZARELLA (5 UNIDADES) — $6.300
+- EBI FURAI (5 UNIDADES) — $5.500
+- TORI FURAI (5 UNIDADES) — $5.000
+- ARROLLADOS VIETNAMITAS (4 UNIDADES) Pollo — $5.800
+- ARROLLADOS VIETNAMITAS (4 UNIDADES) Camarón — $6.300
+- DEDITOS DE SALMÓN + SALSA DE LA CASA (5 UNIDADES) — $4.500
+- ZUCCHINI MOZZARELLA (5 UNIDADES) — $4.500
+
+#### SASHIMI
+
+- SASHIMI SAKE 5 cortes de Salmón — $4.200
+- SASHIMI SAKE 9 cortes de Salmón — $6.500
+- SASHIMI TAKO 5 cortes de Pulpo — $5.000
+- SASHIMI TAKO 9 cortes de Pulpo — $6.500
+- SASHIMI MAGURO 5 cortes de Atún — $4.000
+- SASHIMI MAGURO 9 cortes de Atún — $6.000
+
+#### ENSALADAS
+
+- ENSALADA LECHUGA — $6.000
+- ENSALADA MIX HOJAS VERDES — $6.500
+- Proteína Extra — $1.500
+- Vegetal Extra — $1.000
+- EXTRA ENSALADA — $1.200
+- APANADO — $1.500
+- SALSAS — $800
 
 
 ## Quinoa
@@ -4783,111 +4790,97 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://quinoarestaurante.cl/
 - **Menciona en reseñas:** lasaña, ceviche, completo, chocolate, jugo
 - **Fecha de registro:** 2025-11-23
+- **Dietético:** 2 veganos
 
 ### Qué vende
 
+- QUINOA
 - ENSALADAS
+- ENTRADAS
+- DE FONDO
+- PARA TOMAR
+- CAFETERÍA
+- POSTRES
 
 
 ### Carta
 
+#### QUINOA
+
+- SOPA DEL DÍA — $5.790
+
+#### ENSALADAS
+
+- VERANO — $11.590
+- ENSALADA GRIEGA — $11.590
+- INSALATA DI RISO — $11.590
+- QUINOA ROJA — $11.590
+- BUDDHA BOWL — $11.590
+- MEZZE — $11.990
+- SOLSTICIO — $11.590
+- CELEBRACIÓN — $11.590
+
+#### ENTRADAS
+
+- EMPANADITAS DE MASA PHILO — $10.990
+- CEVICHE DE COCHAYUYO — $9.990
+- ANTIPASTO — $11.990
+- GUACAMOLE — $9.990
+- HUMMUS — $7.590
+- CEVICHE DECOCHAYUYO — $9.990
+- TÁRTARO DE VEGETALES — $9.990
+
+#### ENTRADas
+
+- ROLLITO THAI — $9.990
+
+#### DE FONDO
+
+- PASTEL DE CHOCLO — $11.990
+- POROTOS GRANADOS — $11.590
+- PAD THAI — $11.990
+- GNOCCHI — $12.990
+- BURRITAS ( O opcional) — $11.590
+- LASAÑA DE BERENJENAS (Low carb) — $11.990
+- QUINOTTO — $11.590
+- DHAL DE LENTEJAS — $11.590
+- GNOCCHI DE ZAPALLO — $12.990
+- BURRITOS — $11.590
+- LASAÑA DE BERENJENAS (Keto) — $11.590
+
+#### PARA TOMAR
+
+- JUGOS NATURALES — $3.690
 - LIMONADA CON MENTA — $3.690
+- JUGO DE POMELO — $3.990
 - AGUA PRISMA — $2.690
-- ANTIPASTO Berries y Sabor Original — $11.990
+- CERVEZA SIN ALCOHOL — $3.590
+- BOATVIAN GINGER BEER — $3.590
+- KOMBUCHA — $4.190
+- JUGO DETOX (prensado en frío) — $4.590
+- LASSI DE MANGO — $4.590
+
+#### CAFETERÍA
+
 - ESPRESSO — $2.590
 - CAPUCCINO — $3.390
+- LATTE — $3.690
+- AFFOGATO — $4.790
 - INFUSIONES / TÉ ORGÁNICO — $2.990
-- INSALATA DI RISO — $11.590
-- MEZZE NP PERAS Y MEMBRILLO — $11.990
-- Con helado a elección
-- QUINOTTO — $11.590
-- GNOCCHI DE ZAPALLO — $12.990
-- BURRITOS (Y opcional) — $11.590
-- LASAÑA DE BERENJENAS (Keto) — $11.590
-- + JUGO NATURAL (200 ml)
-- + POSTRE 0 CAFÉ
-- SOPA DEL DÍA
-- JUGO DE POMELO
-- JUGO DETOX
 - LECHE DE ALMENDRAS / AVENA — $750
-- FLAN DE COCO
-- Con sorbete a elección
-- COULANT DE CHOCOLATE
-- TARTALETA DE NUEZ
-- Y MANJAR
-- PANQUEQUES CON MANJAR — $55.790
-- OUINOA ROJA Y 590 — $11
-- > ANTIPASTO — $11.990
-- PARA TOMAR GNOCCHI — $12.990
-- Sb LIMONADA — $23.690
-- LASAÑA DE BERENJENAS (Low carb) — $11.990
-- CERVEZA SIN ALCOHOL — $3.590
-- KOMBUCHA — $4.190
-- JUGO DETOX [prensado en frío) — $4.590
+
+#### POSTRES
+
 - FLAN DE COCO — $5.590
-- CEVICHE DE COCHAYUYO Y #
-- PASTEL DE CHOCLO
-- BURRITOS ( Y opcional)
-- JUGO DETOX (prensado en frío)
-- Ce ees Oe PLATO D (Lunes a Viernes] — $4.590
-- EN EG +3 — $5.590
-- A APA TES 4 . ión — $5.290
-- Agrega tu sopa por °
-- LASAÑA DE BERENJENAS (Keto)
-- Ms a teh Es BA 590 INSALATA DI RISO — $11.990
-- ORZO VERDE CREMOSO — $12.990
-- ESPRESSO LASAÑA DE BERENJENAS (Low carb) :990
-- CAPUCCINO acompañados de ensalada verde
-- INFUSIONES / TÉ ORGÁNICO GNOCCHI DE ZAPALLO — $3.290
-- BURRITOS (Y opcional) — $11.990
-- TARTALETA DE LIMÓN Y FRUTILLAS ae COULANT DE CHOCOLATE — $5.970
-- CRUMBLE DE MANZANAS. PERAS Y MEMBRILLO — $5
-- Agrega tu sopa por 590 — $4
-- LASAÑA DE BERENJENAS (Low carb)
-- TARTALETA DE LIMÓN Y FRUTILUAS
-- MELADOS & SORBETES
-- ANTIPASTO — $9.200
-- BURRITOS opcional : See — $9.900
-- Amigable — $9.900
-- GINGER BEER PADTHAL Y pee — $3.200
-- TARTALETA DE PUERROS
-- CAPUCCINO 2 — $2.600
-- LATTE Plátano verde frito — $3
-- CHAI LATTE cilantro acompanado de arroz — $3.200
-- TURMERIC GOLDEN LATTE — $3.200
-- TURMERIC CHOCOLATE — $3.200
-- AFFOGATO — $3.100
-- ENSALADA KETO 8
-- RISOTTO TRUFADO
-- TARTALETA DE NUEZ Y MANJAR
-- PANQUEQUES
-- Con manjar y helado
-- Sa VERANO — $11.590
-- ENSALADA GRIEGA — $11.590
-- GUACAMOLE Y 4 — $9.990
-- JUGO DE POMELO — $3.990
-- Con pino de berenjen
-- Tortillas de trigo relter
-- LASANA DE BERENJERAS (Low
-- ON MANJAR OND
-- SORBETES
-- LIMONADA CON MENTA — $3.990
-- JUGO DE POMELO — $4.290
-- ENTRADAS AGUA PRISMA — $2.990
-- CERVEZA CORONA CERO — $3.990
-- EMPANADITAS DE MASA PHILO THOMAS HENRY GINGER BEER — $11.990
-- CEVICHE DE COCHAYUYO PA SODA. POMELO — $9.990
-- ANTIPASTO JUGO DETOX — $12.990
-- ROLLITOS THAL VW LASSI DE MANGO — $9.990
-- HUMMUS 7 í — $7.990
-- ESPRESSO — $2.790
-- CAPUCCINO — $3.590
-- LATTE — $3.990
-- AFFOGATO — $4.990
-- CELEBRACIÓN INFUSIONES / TÉ ORGÁNICO — $11.990
-- INSALATA DI RISO — $11.990
-- El Huerto”. FLAN DE COCO
-- LECHE DE ALMENDRAS / AVENA — $790
+- CHEESECAKE VEGANO — $5.690 [vegano]
+- BROWNIE VEGANO — $5.590 [vegano]
+- COULANT DE CHOCOLATE — $6.990
+- CRUMBLE DE FRUTOS ROJOS — $5.590
+- KUCHEN DEL DÍA — $5.590
+- PANQUEQUES CON MANJAR O NUTELLA — $5.790
+- HELADOS & SORBETES — $4.990
+- FLAN DE COCO — $5.390
+- TARTALETA DE NUEZ Y MANJAR — $5.590
 
 
 ## Rebelde Pastelería Keto
@@ -4975,62 +4968,28 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 ### Qué vende
 
-- ENSALADAS
+- PLATOS TRADICIONALES / OUR TRADITIONAL SPECIALTIES
+- CARNES / MEATS
 
 
 ### Carta
 
+#### PLATOS TRADICIONALES / OUR TRADITIONAL SPECIALTIES
+
 - Huevos estrellados sobre papas fritas y chorizo — $15.900
 - Riñones al jerez con arroz — $15.900
-- Garbanzos con camarones al pil-pil — $15.900
-- E (2 porciones) — $42.900
-- CARNES / MEATS
-- Chuletitas de cordero con :900 — $31
-- Rifiones al jerez con arroz — $15.900
 - Guatitas a la madrileña — $15.900
-- Calamares en su tinta con arroz — $20.200
-- (2 porciones) — $42.900
-- } os asados
-- Huevos estrellados s bre papas fritas y chorizo — $15.900
+- Garbanzos con camarones al pil-pil — $15.900
+- Croquetas de congrio sobre puré de arvejas y salsa thai — $15.900
 - Calamares en su tinta con arroz — $20.900
-- Paillard de filete — $24.900
-- Escalopa Pinpilinpausha (fileteapanado — $24.900
-- Filete en salsa de chalotas al oporto — $24.900
-- Salsa thai — $16.900
-- 3 Calamares en su tinta con arroz — $20.900
-- (2 porciones) — $45.000
-- Merluza crocante — $424.900
-- Merluza a la vasca — $423.900
-- Flan casero Torta de merengue lúcuma — $6.900
-- Arroz con leche — $6.900
-- Turron español con sorbet Caraiillo café nae — $8.500
-- Torta de merengu
-- Flan casero
-- Panqueques €
-- PESCADOS pens
-- Merluzaa la vasca — $23.900
-- Caldillo de congrio — $24.900
-- E espane << y deleche con manjar
-- Merluza crocante con ensalada chilena
-- Torta de merengue lúcuma
-- PESCADOS FROM THE SEA
-- Corvina a la donostierra (en su jugo
-- ENSALADAS / SALADS
-- PASTAS Y RISOTTOS / FRESH PASTA
-- Camarones ala plancha — $13.900
-- Mozzarella de Búfala con crocante de pil-pil steak bites — $15.900
-- Rollitos de berenjena a la plancha — $13.900
-- PASTAS Y RISOTTOS / FRESH PAS
-- Risotto di sepia with pil pil quid rings
-- Risotto de hongos silvestre
-- Wild mushroom risotto with leek
-- Pur $ — $21.900
-- A Sar Caldillo de Congrio — $21.909
-- Y Sorbetes Artesa — $5.900
-- Rio A “Odin Mande — $5.100
-- Chocolate blan
-- Mar y helado
-- Sorbetes arte
+
+#### CARNES / MEATS
+
+- Confit de canard — $20.900
+- Filete en salsa de chalotas al oporto con papas fritas — $24.900
+- Lomo vetado en salsa a las tres pimientas — $24.900
+- Chuletitas de cordero con puré de garbanzos — $31.900
+- Escalopa Pinpilinpausha (filete apanado — $24.900
 
 
 ## Sabores para Alegrar
