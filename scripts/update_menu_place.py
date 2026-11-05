@@ -146,7 +146,7 @@ def main() -> int:
         vision_max_places=1,
         photo_cache=photo_cache,
         refresh_photos=args.refresh_photos,
-        reuse_recent_runs=0 if args.refresh_photos else 5,
+        reuse_recent_runs=0 if args.refresh_photos else 20,
         ocr=not args.no_ocr,
     )
     if not place.menu_json:

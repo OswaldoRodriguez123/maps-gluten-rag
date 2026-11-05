@@ -323,7 +323,25 @@ def _summary(dishes: list[dict]) -> str | None:
     return "; ".join(parts) if parts else None
 
 
-def _match_place(item: dict, by_url: dict, by_cid: dict, by_name: dict):
+GENERIC_NAME_TOKENS = {
+    "cafeteria", "panaderia", "restaurante", "restaurant", "bakery", "food",
+    "market", "tienda", "de", "del", "la", "el", "los", "las", "y", "and",
+    "the", "gluten", "free", "sin",
+}
+
+
+def _name_tokens(value: str) -> set[str]:
+    return {
+        token
+        for token in re.split(r"[^a-z0-9]+", _normalize(value))
+        if len(token) > 1 and token not in GENERIC_NAME_TOKENS
+    }
+
+
+def _match_place(item: dict, by_url: dict, by_cid: dict, by_name: dict, by_ftid: dict | None = None):
+    ftid = str(item.get("placeCid") or "").strip().lower()
+    if by_ftid and ftid and ftid in by_ftid:
+        return by_ftid[ftid]
     cid = str(item.get("placeCid") or "")
     if cid and cid in by_cid:
         return by_cid[cid]
@@ -339,6 +357,15 @@ def _match_place(item: dict, by_url: dict, by_cid: dict, by_name: dict):
         for key, record in by_name.items():
             if key and name and (key in name or name in key):
                 return record
+    item_tokens = _name_tokens(item.get("placeName") or "")
+    if item_tokens:
+        for record in by_name.values():
+            key_tokens = _name_tokens(record.name)
+            if not key_tokens:
+                continue
+            common = item_tokens & key_tokens
+            if len(common) / min(len(item_tokens), len(key_tokens)) >= 0.75:
+                return record
     return None
 
 
@@ -349,11 +376,12 @@ def _collect_photos(
     by_name: dict,
     photos: dict[str, list[str]],
     only: set[str] | None = None,
+    by_ftid: dict | None = None,
 ) -> None:
     for item in items:
         if item.get("photoCategory") not in {"menu", None, ""}:
             continue
-        place = _match_place(item, by_url, by_cid, by_name)
+        place = _match_place(item, by_url, by_cid, by_name, by_ftid)
         if place is None:
             continue
         if only is not None and place.ftid not in only:
@@ -421,6 +449,11 @@ def enrich_menus_photos(
     by_url = {place.url: place for place in targets}
     by_cid = {_cid(place.url): place for place in targets if _cid(place.url)}
     by_name = {_normalize(place.name): place for place in targets}
+    by_ftid = {
+        place.ftid.strip().lower(): place
+        for place in targets
+        if getattr(place, "ftid", None)
+    }
 
     photos: dict[str, list[str]] = {}
     if photo_cache and not refresh_photos:
@@ -437,7 +470,7 @@ def enrich_menus_photos(
     if missing and reuse_recent_runs > 0:
         missing_ids = {place.ftid for place in missing}
         for items in _recent_run_items(token, reuse_recent_runs):
-            _collect_photos(items, by_url, by_cid, by_name, photos, only=missing_ids)
+            _collect_photos(items, by_url, by_cid, by_name, photos, only=missing_ids, by_ftid=by_ftid)
             missing_ids = {
                 place.ftid for place in missing if not photos.get(place.ftid)
             }
@@ -474,6 +507,7 @@ def enrich_menus_photos(
             by_name,
             photos,
             only={place.ftid for place in missing},
+            by_ftid=by_ftid,
         )
 
     if photo_cache is not None:
