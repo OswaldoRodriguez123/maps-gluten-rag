@@ -165,7 +165,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.7 / 5
 - **Enlace:** https://www.google.com/maps?cid=12393475553772179856
 - **Menciona en reseñas:** pizza, mechada, torta, chocolate, jugo
-- **Carta (Google Maps):** Desayuno Aquelarre : Pan masa madre blanco y nuez c/ palta, quesillo y jamón + té o café + Jugo de Frutilla o Piña ($8500.-); Pie de limón + té o café o limonada ($6100.-); Porción de sopaipillas pasadas con tetera de té o americano ($6800.-); Sandwich Vegetariano o Ave Aceituna + té o café o limonada ($7200.-); simple ($2.600); doble ($3.600)
+- **Carta (Google Maps):** Pan masa madre blanco y nuez c/ palta, quesillo y jamón + té o café + Jugo de Frutilla o Piña ($8500.-); Pie de limón + té o café o limonada ($6100.-); Porción de sopaipillas pasadas con tetera de té o americano ($6800.-); Desayuno Aquelarre : Pan masa madre blanco y nuez c/ palta, quesillo y jamón + té o café + jugo de frutilla o piña (8500.-); Sandwich Vegetariano o Ave Aceituna + té o café o limonada (7200.-); helados simple ($2.600); helados doble ($3.600)
 - **Fecha de registro:** 2025-11-23
 
 ## Café Bicka
