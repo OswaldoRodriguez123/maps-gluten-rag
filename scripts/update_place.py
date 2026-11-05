@@ -116,10 +116,9 @@ def main() -> int:
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(headless=True)
         page = browser.new_page(locale="es-CL", viewport={"width": 1400, "height": 1000})
-        if enrich._is_spa_store(website):
+        products = enrich._site_dishes(website, ocr=False)
+        if not products:
             products = enrich._render_site_products(page, website)
-        else:
-            products = enrich._site_dishes(website, ocr=False)
         browser.close()
 
     dishes = ", ".join(products) if products else None

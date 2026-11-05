@@ -406,49 +406,94 @@ def _extract_website(page) -> str | None:
 
 
 SPA_STORE_HOSTS = ("menu.fu.do",)
-SPA_PRODUCT_PATHS = (
+PRODUCT_HINTS = (
+    "/product",
+    "/producto",
+    "/item",
+    "/shop",
+    "/tienda",
+    "/menu",
+    "/categoria",
+    "/category",
     "/pizzas/",
     "/sandwiches/",
-    "/extras/",
     "/galletas/",
+    "/tortas/",
     "/panaderia/",
     "/porciones/",
-    "/tortas/",
     "/bebidas/",
     "/platos/",
     "/papas/",
+    "/extras/",
 )
+NAV_WORDS = {
+    "inicio", "home", "contacto", "contact", "carrito", "cart", "login",
+    "ingresar", "registro", "privacidad", "terms", "instagram", "facebook",
+    "whatsapp", "nosotros", "about", "blog", "preguntas", "faq",
+}
 
 
 def _is_spa_store(url: str) -> bool:
     return any(host in (url or "").lower() for host in SPA_STORE_HOSTS)
 
 
+def _json_ld_names(data) -> list[str]:
+    names: list[str] = []
+    if isinstance(data, dict):
+        kind = data.get("@type")
+        kinds = kind if isinstance(kind, list) else [kind]
+        if any(value in {"Product", "MenuItem"} for value in kinds):
+            name = data.get("name")
+            if isinstance(name, str) and name.strip():
+                names.append(name.strip())
+        for value in data.values():
+            names.extend(_json_ld_names(value))
+    elif isinstance(data, list):
+        for value in data:
+            names.extend(_json_ld_names(value))
+    return names
+
+
+def _product_name(text: str, href: str) -> str | None:
+    first = (text or "").split("\n")[0].strip()
+    first = re.sub(r"\s+", " ", first)
+    if not (3 <= len(first) <= 90):
+        return None
+    normalized = _normalize(first)
+    if normalized in NAV_WORDS:
+        return None
+    has_price = bool(re.search(r"[$€]\s*\d|\d+[.,]\d{2,3}", text or ""))
+    has_dish = bool(detect_dishes(first))
+    has_hint = any(hint in (href or "").lower() for hint in PRODUCT_HINTS)
+    if has_price or has_dish or has_hint:
+        return first
+    return None
+
+
 def _render_site_products(page, url: str) -> list[str]:
     try:
         page.goto(url, wait_until="domcontentloaded", timeout=30_000)
-        try:
-            page.wait_for_selector(
-                'a[href*="/pizzas/"], a[href*="/sandwiches/"], a[href*="/galletas/"]',
-                timeout=15_000,
-            )
-        except Exception:
-            pass
-        page.wait_for_timeout(1_500)
+        page.wait_for_timeout(5_000)
+        names: list[str] = []
+        for raw in page.eval_on_selector_all(
+            'script[type="application/ld+json"]', "els => els.map(e => e.textContent)"
+        ):
+            try:
+                data = json.loads(raw)
+            except (json.JSONDecodeError, TypeError):
+                continue
+            for name in _json_ld_names(data):
+                if name not in names:
+                    names.append(name)
         anchors = page.eval_on_selector_all(
             "a",
             """els => els.map(e => ({text: (e.innerText || '').trim(), href: e.href}))
                 .filter(x => x.text && x.text.length < 300)""",
         )
-        names: list[str] = []
         for anchor in anchors:
-            href = anchor.get("href") or ""
-            if not any(path in href for path in SPA_PRODUCT_PATHS):
-                continue
-            first = (anchor.get("text") or "").split("\n")[0].strip()
-            first = re.sub(r"\s+", " ", first)
-            if 3 <= len(first) <= 80 and first not in names:
-                names.append(first)
+            name = _product_name(anchor.get("text") or "", anchor.get("href") or "")
+            if name and name not in names:
+                names.append(name)
         body = page.inner_text("body")
         for dish in detect_dishes(body):
             if dish not in names:
@@ -527,9 +572,18 @@ def enrich_places(
                 except Exception:
                     results[ftid] = []
 
+    if website_dishes:
+        for place in with_web:
+            if not results.get(place.ftid):
+                products = _render_site_products(page, place.website)
+                if products:
+                    place.dishes = ", ".join(products)
+
     for place in stale:
-        dishes = results.get(place.ftid) or []
-        place.dishes = ", ".join(dishes) if dishes else None
+        if place.ftid in results:
+            dishes = results.get(place.ftid) or []
+            if dishes:
+                place.dishes = ", ".join(dishes)
         place.enriched_at = today.isoformat()
         place.enrich_version = ENRICH_VERSION
     return len(stale)
