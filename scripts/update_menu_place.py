@@ -167,6 +167,44 @@ def main() -> int:
         "\n".join(json.dumps(record, ensure_ascii=False) for record in records) + "\n",
         encoding="utf-8",
     )
+    menus_path = data_dir / f"{args.basename}_menus.jsonl"
+    existing_menus = []
+    if menus_path.exists():
+        existing_menus = [
+            json.loads(line)
+            for line in menus_path.read_text(encoding="utf-8").splitlines()
+            if line.strip()
+        ]
+    kept = [
+        row
+        for row in existing_menus
+        if row.get("place_id") != target["id"] and row.get("place") != place.name
+    ]
+    new_rows = [
+        {
+            "place_id": target["id"],
+            "place": metadata["name"],
+            "address": metadata.get("address"),
+            "name": dish.get("name"),
+            "original_name": None,
+            "category": dish.get("category"),
+            "price": dish.get("price"),
+            "description": dish.get("description"),
+            "ingredients": None,
+            "allergens": None,
+            "dietary_type": None,
+            "is_alcoholic": None,
+            "nutrition": None,
+        }
+        for dish in metadata.get("menu") or []
+    ]
+    menus_path.write_text(
+        "\n".join(
+            json.dumps(row, ensure_ascii=False) for row in kept + new_rows
+        )
+        + ("\n" if kept or new_rows else ""),
+        encoding="utf-8",
+    )
     summary = photos._summary(dishes)
     markdown = _update_markdown(md_path, metadata["url"], summary)
 
