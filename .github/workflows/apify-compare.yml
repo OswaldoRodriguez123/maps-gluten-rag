@@ -15,7 +15,7 @@ on:
 jobs:
   compare:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - uses: actions/setup-python@v5
         with:
@@ -58,9 +58,23 @@ jobs:
               query = urllib.parse.urlencode(
                   {"timeout": timeout, "maxTotalChargeUsd": cap}
               )
-              run = call(
-                  f"/acts/{actor}/runs?{query}", method="POST", payload=actor_input
-              )["data"]
+              run = None
+              for attempt in range(40):
+                  try:
+                      run = call(
+                          f"/acts/{actor}/runs?{query}",
+                          method="POST",
+                          payload=actor_input,
+                      )["data"]
+                      break
+                  except urllib.error.HTTPError as error:
+                      if error.code in (402, 429):
+                          print(f"Apify sin cupo ({error.code}); espero 30s")
+                          time.sleep(30)
+                          continue
+                      raise
+              if run is None:
+                  raise RuntimeError("No se pudo iniciar el actor por falta de cupo")
               deadline = time.time() + timeout + 120
               while time.time() < deadline:
                   run = call(f"/actor-runs/{run['id']}")["data"]
