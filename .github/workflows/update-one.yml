@@ -1,0 +1,82 @@
+name: Actualizar un local
+
+on:
+  workflow_dispatch:
+    inputs:
+      place:
+        description: "Nombre parcial del local (ej: Crumbless)"
+        required: true
+        default: "Crumbless"
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Versión de Playwright
+        id: playwright
+        run: echo "version=$(python -m playwright --version | awk '{print $2}')" >> "$GITHUB_OUTPUT"
+
+      - name: Cache de Chromium
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ steps.playwright.outputs.version }}
+          restore-keys: playwright-${{ runner.os }}-
+
+      - name: Dependencias del sistema
+        run: python -m playwright install-deps chromium
+
+      - name: Chromium
+        run: python -m playwright install chromium
+
+      - name: Restaurar histórico
+        uses: actions/cache/restore@v4
+        with:
+          path: data/historial_lugares.db
+          key: maps-gluten-db-${{ github.run_id }}
+          restore-keys: maps-gluten-db-
+
+      - name: Actualizar local
+        env:
+          GDOC_ID: ${{ vars.GDOC_ID }}
+          GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
+          PLACE: ${{ inputs.place }}
+        run: python scripts/update_place.py --place "$PLACE" --db data/historial_lugares.db --publish
+
+      - name: Guardar cambios
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "Sin cambios"
+          else
+            git commit -m "chore: actualizar local $(date -u +%F)"
+            git pull --rebase --autostash origin main
+            git push
+          fi
+
+      - name: Guardar histórico
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/historial_lugares.db
+          key: maps-gluten-db-${{ github.run_id }}

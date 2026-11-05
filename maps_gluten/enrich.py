@@ -427,7 +427,14 @@ def _is_spa_store(url: str) -> bool:
 def _render_site_products(page, url: str) -> list[str]:
     try:
         page.goto(url, wait_until="domcontentloaded", timeout=30_000)
-        page.wait_for_timeout(5_000)
+        try:
+            page.wait_for_selector(
+                'a[href*="/pizzas/"], a[href*="/sandwiches/"], a[href*="/galletas/"]',
+                timeout=15_000,
+            )
+        except Exception:
+            pass
+        page.wait_for_timeout(1_500)
         anchors = page.eval_on_selector_all(
             "a",
             """els => els.map(e => ({text: (e.innerText || '').trim(), href: e.href}))
