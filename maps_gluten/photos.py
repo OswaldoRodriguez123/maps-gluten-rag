@@ -22,6 +22,13 @@ UA = (
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
 )
 
+VISION_MODELS = ("gemini-3.6-flash", "gemini-3.5-flash", "gemini-flash-lite-latest")
+VISION_PROMPT = (
+    "Eres un experto en cartas de restaurantes. Analiza la imagen y devuelve "
+    "SOLO un JSON array de objetos con las claves name, price y category. "
+    "Incluye todos los platos y precios legibles, con el texto exacto. "
+    "Si la imagen no es una carta o no se lee, devuelve []. No inventes nada."
+)
 PRICE_DOLLAR = re.compile(r"\$\s*(\d[\d.,]*)")
 PRICE_THOUSANDS = re.compile(r"\b(\d{1,3}(?:[.,]\d{3})+)\b")
 STOPWORDS = {
@@ -97,6 +104,111 @@ def _download(url: str, timeout: int = 15) -> bytes:
             return response.read(20_000_000)
     except Exception:
         return b""
+
+
+def _vision_menu(raw: bytes, api_key: str, model: str) -> list[dict]:
+    import base64
+
+    mime = "image/png" if raw[:8] == b"\x89PNG\r\n\x1a\n" else "image/jpeg"
+    body = {
+        "contents": [
+            {
+                "parts": [
+                    {"text": VISION_PROMPT},
+                    {
+                        "inline_data": {
+                            "mime_type": mime,
+                            "data": base64.b64encode(raw).decode("ascii"),
+                        }
+                    },
+                ]
+            }
+        ],
+        "generationConfig": {"temperature": 0.1, "maxOutputTokens": 2048},
+    }
+    request = urllib.request.Request(
+        "https://generativelanguage.googleapis.com/v1beta/models/"
+        f"{model}:generateContent?key={api_key}",
+        data=json.dumps(body).encode("utf-8"),
+        headers={"Content-Type": "application/json"},
+        method="POST",
+    )
+    with urllib.request.urlopen(request, timeout=120) as response:
+        result = json.loads(response.read().decode("utf-8"))
+    text = "".join(
+        part.get("text", "")
+        for candidate in result.get("candidates", [])
+        for part in candidate.get("content", {}).get("parts", [])
+    )
+    return _parse_vision_json(text)
+
+
+def _parse_vision_json(text: str) -> list[dict]:
+    text = (text or "").strip()
+    if text.startswith("```"):
+        text = re.sub(r"^```[a-zA-Z]*\s*", "", text)
+        text = re.sub(r"\s*```$", "", text)
+    start = text.find("[")
+    end = text.rfind("]")
+    if start < 0 or end <= start:
+        return []
+    try:
+        data = json.loads(text[start : end + 1])
+    except json.JSONDecodeError:
+        return []
+    if not isinstance(data, list):
+        return []
+    dishes: list[dict] = []
+    seen: set[str] = set()
+    for item in data:
+        if not isinstance(item, dict):
+            continue
+        name = _clean_name(str(item.get("name") or ""))
+        if len(name) < 3 or not re.search(r"[a-zA-ZÁÉÍÓÚÑáéíóúñ]", name):
+            continue
+        key = _normalize(name)
+        if key in seen:
+            continue
+        seen.add(key)
+        price = item.get("price")
+        if isinstance(price, (int, float)):
+            price = f"${int(price)}"
+        price = str(price).strip() if price not in (None, "", 0) else None
+        category = item.get("category")
+        category = str(category).strip() if category else None
+        dishes.append(
+            {
+                "name": name,
+                "price": price,
+                "category": category,
+                "description": None,
+                "source": "vision",
+            }
+        )
+    return dishes
+
+
+def _vision_with_fallback(raw: bytes, api_key: str) -> list[dict] | None:
+    """Devuelve platos, [] si no hay, o None si se agotó la cuota (detener)."""
+    for model in VISION_MODELS:
+        for attempt in range(1, 4):
+            try:
+                return _vision_menu(raw, api_key, model)
+            except Exception as error:
+                code = getattr(error, "code", None)
+                if code == 429:
+                    print("Visión Gemini: cuota agotada, se detiene", file=sys.stderr)
+                    return None
+                if code in {500, 502, 503, 504}:
+                    print(
+                        f"Visión Gemini {model}: {code}, reintento {attempt}",
+                        file=sys.stderr,
+                    )
+                    time.sleep(10 * attempt)
+                    continue
+                print(f"Visión Gemini {model}: {error}", file=sys.stderr)
+                break
+    return []
 
 
 def _ocr_menu_bytes(raw: bytes) -> str:
@@ -226,6 +338,9 @@ def enrich_menus_photos(
     max_charge_usd: float = 2.0,
     timeout: int = 1200,
     today: str | None = None,
+    vision_key: str | None = None,
+    vision_max_photos: int = 3,
+    vision_max_places: int = 12,
 ) -> int:
     targets = [place for place in places if getattr(place, "url", None)]
     if not targets:
@@ -293,6 +408,55 @@ def enrich_menus_photos(
                 with_text += 1
                 ocr_results.setdefault(ftid, []).extend(_parse_menu_text(text))
     print(f"Apify UnitBytes: {with_text} fotos con texto OCR")
+
+    vision_places = 0
+    vision_dishes = 0
+    if vision_key:
+        pending = [
+            place
+            for place in targets
+            if photos.get(place.ftid) and len(ocr_results.get(place.ftid) or []) < 2
+        ]
+        print(
+            f"Visión Gemini: {len(pending)} locales con OCR insuficiente, "
+            f"hasta {vision_max_places} por corrida"
+        )
+        for place in pending[:vision_max_places]:
+            found: list[dict] = []
+            stop = False
+            for url in photos.get(place.ftid, [])[:vision_max_photos]:
+                raw = _download(url, timeout=30)
+                if not raw:
+                    continue
+                items = _vision_with_fallback(raw, vision_key)
+                if items is None:
+                    stop = True
+                    break
+                found.extend(items)
+            if stop:
+                print("Visión Gemini: detenida por cuota", file=sys.stderr)
+                break
+            if not found:
+                continue
+            existing = ocr_results.setdefault(place.ftid, [])
+            seen = {_normalize(dish.get("name") or "") for dish in existing}
+            added = 0
+            for dish in found:
+                key = _normalize(dish.get("name") or "")
+                if key and key not in seen:
+                    existing.append(dish)
+                    seen.add(key)
+                    added += 1
+            if added:
+                vision_places += 1
+                vision_dishes += added
+                print(
+                    f"Visión Gemini: {place.name} -> {added} platos",
+                    file=sys.stderr,
+                )
+        print(
+            f"Visión Gemini: {vision_dishes} platos nuevos en {vision_places} locales"
+        )
 
     total = 0
     for place in targets:

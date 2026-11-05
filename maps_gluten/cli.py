@@ -133,6 +133,16 @@ def main(argv: list[str] | None = None) -> int:
     debug = args.debug or _env_bool("MAPS_DEBUG", False)
     enrich_enabled = args.enrich if args.enrich is not None else _env_bool("MAPS_ENRICH", True)
     ocr_enabled = args.ocr if args.ocr is not None else _env_bool("MAPS_OCR", False)
+    vision_key = os.getenv("GEMINI_API_KEY", "").strip() or None
+    vision_enabled = _env_bool("MAPS_VISION", bool(vision_key)) and bool(vision_key)
+    try:
+        vision_places = int(os.getenv("MAPS_VISION_PLACES", "12"))
+    except ValueError:
+        vision_places = 12
+    try:
+        vision_photos = int(os.getenv("MAPS_VISION_PHOTOS", "3"))
+    except ValueError:
+        vision_photos = 3
     apify_token = os.getenv("APIFY_TOKEN", "").strip()
     apify_enabled = _env_bool("MAPS_APIFY", True) and bool(apify_token)
     menu_actor = os.getenv("MAPS_MENU_ACTOR", "unitbytes").strip().lower()
@@ -216,6 +226,9 @@ def main(argv: list[str] | None = None) -> int:
                             max_photos=apify_photos,
                             max_charge_usd=apify_charge,
                             today=today,
+                            vision_key=vision_key if vision_enabled else None,
+                            vision_max_photos=vision_photos,
+                            vision_max_places=vision_places,
                         )
                     else:
                         from . import apify
