@@ -104,8 +104,19 @@ Cómo funciona:
 - El actor `unitbytes/google-maps-photos-scraper` con `category: menu` devuelve las fotos de la pestaña Carta (hasta 8 por local).
 - Se descargan en **alta resolución**, se convierten a gris, se upscalean/downscalean a ~1.800–2.600 px, se les aplica autocontraste y se OCR con Tesseract `spa+eng` y `psm 6/11`.
 - Se parsean platos y precios; el resultado va al Doc como `- **Carta (Google Maps):** ...`, a `metadata.menu` y a `menus.jsonl`.
-- Costo: ~$0.00025 por foto; 263 fotos ≈ **$0.07**, dentro de los $5 gratis de Apify. No usa Gemini ni Outscraper.
+- Costo: ~$0.00025 por foto; 263 fotos ≈ **$0.07**, dentro de los $5 gratis de Apify.
 - Caché 30 días (`menu_at`). `MAPS_MENU_ACTOR=unitbytes` y `MAPS_WEBSITE_MENU=0`.
+- Las URLs de las fotos se guardan en SQLite (`menu_photos_json`) y también se reutilizan las últimas corridas exitosas de UnitBytes, así que actualizar otra vez el mismo local no vuelve a raspar.
+
+#### Respaldo con visión (Gemini)
+
+Si el OCR de un local devuelve menos de 2 platos, se manda la foto a Gemini (visión) y se agrega lo que lea. Es automático y cubre cartas manuscritas o con letra difícil, como el pizarrón de Yoko Sea Food.
+
+- Usa `GEMINI_API_KEY` (gratis en Google AI Studio) y `MAPS_VISION=1`.
+- Orden de modelos: `gemini-flash-lite-latest` (el más barato) → `gemini-3.5-flash` → `gemini-3.6-flash`. Si un modelo responde **503** (saturado) pasa al siguiente; si responde **429** (cuota) se detiene.
+- Límite: `MAPS_VISION_PLACES` (12 por corrida) y `MAPS_VISION_PHOTOS` (3 fotos por local).
+- Se puede fijar un modelo con `GEMINI_VISION_MODEL=gemini-3.6-flash`.
+- Si la visión encuentra 2+ platos, descarta los fragmentos de OCR sin precio.
 
 Se activa con el secreto `APIFY_TOKEN`:
 
@@ -122,7 +133,7 @@ Salidas:
 
 El OCR puede meter fragmentos y los precios pueden faltar; es una mención, no una carta certificada. Verifica alérgenos y precios con el local.
 
-`MAPS_MENU_ACTOR` acepta `unitbytes` (por defecto), `none` (desactivado) o `nomad` (actor gestionado/BYO). La `GEMINI_API_KEY` queda guardada como fallback opcional, pero el pipeline actual no la usa. `MAPS_WEBSITE_MENU=1` mantiene el scan de menús en webs; está en `0` porque UnitBytes ya cubre las fotos de Maps.
+`MAPS_MENU_ACTOR` acepta `unitbytes` (por defecto), `none` (desactivado) o `nomad` (actor gestionado/BYO). `MAPS_WEBSITE_MENU=1` mantiene el scan de menús en webs; está en `0` porque UnitBytes ya cubre las fotos de Maps.
 
 ### Actualizar un solo local
 
@@ -148,6 +159,31 @@ También se puede ejecutar en local:
 GOOGLE_APPLICATION_CREDENTIALS='/ruta/service-account.json' \
 GDOC_ID='1N67XQI2sXARoeZe6wz87JlmH-a5Z83exgBiz9Q_j1H0' \
 .venv/bin/python scripts/update_place.py --place Crumbless --publish
+```
+
+### Actualizar la carta de un solo local
+
+Para releer las fotos de menú de un local (sin tocar el resto), usa:
+
+```bash
+gh workflow run update-menu-one.yml \
+  --repo OswaldoRodriguez123/maps-gluten-rag \
+  -f place=Yoko
+```
+
+- Usa la caché de fotos de SQLite; si no existe, reutiliza la última corrida de UnitBytes o raspa solo ese local.
+- Por defecto usa **visión Gemini** (flash-lite, el modelo más barato) y **omite Tesseract**, así que no instala paquetes del sistema.
+- `-f ocr=true` activa Tesseract como respaldo (más lento).
+- `-f refresh=true` ignora la caché de fotos y vuelve a raspar.
+- Publica el Doc y hace commit de `data/`.
+
+En local:
+
+```bash
+APIFY_TOKEN='...' GEMINI_API_KEY='...' \
+GDOC_ID='1N67XQI2sXARoeZe6wz87JlmH-a5Z83exgBiz9Q_j1H0' \
+GOOGLE_APPLICATION_CREDENTIALS='/ruta/service-account.json' \
+.venv/bin/python scripts/update_menu_place.py --place Yoko --publish
 ```
 
 ## Local (opcional)

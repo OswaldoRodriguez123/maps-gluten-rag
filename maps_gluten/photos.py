@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import sys
 import time
@@ -22,7 +23,16 @@ UA = (
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
 )
 
-VISION_MODELS = ("gemini-flash-lite-latest", "gemini-3.5-flash", "gemini-3.6-flash")
+DEFAULT_VISION_MODELS = (
+    "gemini-flash-lite-latest",
+    "gemini-3.5-flash",
+    "gemini-3.6-flash",
+)
+VISION_MODELS = tuple(
+    model.strip()
+    for model in os.getenv("GEMINI_VISION_MODEL", "").split(",")
+    if model.strip()
+) or DEFAULT_VISION_MODELS
 VISION_PROMPT = (
     "Eres un experto en cartas de restaurantes. Analiza la imagen y devuelve "
     "SOLO un JSON array de objetos con las claves name, price y category. "
