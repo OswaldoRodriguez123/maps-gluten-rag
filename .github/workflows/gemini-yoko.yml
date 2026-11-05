@@ -16,21 +16,18 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: UnitBytes + Gemini Menu Parser
+      - name: UnitBytes + Gemini directo
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           python - <<'PY'
+          import base64
           import json
           import os
-          import sys
           import time
           import urllib.parse
           import urllib.request
-
-          sys.path.insert(0, ".")
-          from maps_gluten import photos
 
           API = "https://api.apify.com/v2"
           TOKEN = os.environ["APIFY_TOKEN"]
@@ -40,24 +37,16 @@ jobs:
           def call(path, method="GET", payload=None):
               data = json.dumps(payload).encode() if payload is not None else None
               request = urllib.request.Request(
-                  API + path,
-                  data=data,
-                  headers={
-                      "Authorization": f"Bearer {TOKEN}",
-                      "Content-Type": "application/json",
-                  },
+                  API + path, data=data,
+                  headers={"Authorization": f"Bearer {TOKEN}", "Content-Type": "application/json"},
                   method=method,
               )
               with urllib.request.urlopen(request, timeout=60) as response:
                   return json.load(response)
 
           def run_actor(actor, actor_input, cap=0.2, timeout=600):
-              query = urllib.parse.urlencode(
-                  {"timeout": timeout, "maxTotalChargeUsd": cap}
-              )
-              run = call(
-                  f"/acts/{actor}/runs?{query}", method="POST", payload=actor_input
-              )["data"]
+              query = urllib.parse.urlencode({"timeout": timeout, "maxTotalChargeUsd": cap})
+              run = call(f"/acts/{actor}/runs?{query}", method="POST", payload=actor_input)["data"]
               deadline = time.time() + timeout + 120
               while time.time() < deadline:
                   run = call(f"/actor-runs/{run['id']}")["data"]
@@ -65,27 +54,28 @@ jobs:
                       break
                   time.sleep(10)
               dataset = run.get("defaultDatasetId")
-              items = (
-                  call(f"/datasets/{dataset}/items?format=json&clean=true&limit=10000")
-                  if dataset
-                  else []
-              )
+              items = call(f"/datasets/{dataset}/items?format=json&clean=true&limit=10000") if dataset else []
               if isinstance(items, dict):
                   items = items.get("items", [])
               return run, items
 
-          print("=== UnitBytes Yoko ===")
+          print("=== Modelos Gemini disponibles ===")
+          try:
+              url = f"https://generativelanguage.googleapis.com/v1beta/models?key={GEMINI}&pageSize=200"
+              with urllib.request.urlopen(url, timeout=60) as response:
+                  data = json.load(response)
+              for model in data.get("models", []):
+                  if "generateContent" in model.get("supportedGenerationMethods", []):
+                      print(" -", model["name"])
+          except Exception as error:
+              print(" error listando modelos:", error)
+
+          print("=== UnitBytes Yoko (menu) ===")
           run, items = run_actor(
               "unitbytes~google-maps-photos-scraper",
-              {
-                  "placeUrls": [YOKO],
-                  "category": "menu",
-                  "maxPhotos": 20,
-                  "highResOnly": False,
-                  "scrapePhotos": True,
-              },
-              cap=0.2,
-              timeout=600,
+              {"placeUrls": [YOKO], "category": "menu", "maxPhotos": 20,
+               "highResOnly": False, "scrapePhotos": True},
+              cap=0.2, timeout=600,
           )
           print("status", run.get("status"), "items", len(items))
           urls = []
@@ -95,24 +85,47 @@ jobs:
               url = item.get("photoUrl") or item.get("photoUrlHighRes")
               if url:
                   urls.append(url)
-          print("fotos Yoko", len(urls))
+          print("fotos", len(urls))
+          for url in urls:
+              print(" foto:", url[:160])
 
-          print("=== AI Menu Parser (Gemini) ===")
-          run, dishes = run_actor(
-              "nomad-agent~ai-menu-parser",
-              {
-                  "imageUrls": urls[:20],
-                  "geminiApiKey": GEMINI,
-                  "geminiModel": "gemini-2.5-flash",
-                  "language": "es",
-              },
-              cap=0.2,
-              timeout=600,
+          prompt = (
+              "Eres un experto en cartas de restaurantes. Analiza la imagen y devuelve "
+              "SOLO un JSON array de objetos con las claves name, price y category. "
+              "Incluye todos los platos y precios legibles, con el texto exacto. "
+              "Si la imagen no es una carta o no se lee, devuelve []. No inventes nada."
           )
-          print("status", run.get("status"), "filas", len(dishes))
-          for item in dishes:
-              if item.get("recordType") == "DISH":
-                  print(" ", item.get("name"), "|", item.get("price"), "|", item.get("category"))
-              elif item.get("diagnostic"):
-                  print(" diag:", str(item.get("message"))[:300])
+
+          for model in ("gemini-3.8-flash", "gemini-2.0-flash", "gemini-1.5-flash"):
+              print(f"=== Gemini {model} ===")
+              for index, url in enumerate(urls[:3]):
+                  try:
+                      with urllib.request.urlopen(url, timeout=90) as response:
+                          image = base64.b64encode(response.read()).decode()
+                      body = {
+                          "contents": [{
+                              "parts": [
+                                  {"text": prompt},
+                                  {"inline_data": {"mime_type": "image/jpeg", "data": image}},
+                              ]
+                          }],
+                          "generationConfig": {"temperature": 0.1, "maxOutputTokens": 2048},
+                      }
+                      request = urllib.request.Request(
+                          f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={GEMINI}",
+                          data=json.dumps(body).encode(),
+                          headers={"Content-Type": "application/json"},
+                          method="POST",
+                      )
+                      with urllib.request.urlopen(request, timeout=120) as response:
+                          result = json.load(response)
+                      text = "".join(
+                          part.get("text", "")
+                          for candidate in result.get("candidates", [])
+                          for part in candidate.get("content", {}).get("parts", [])
+                      )
+                      print(f" foto {index}: {text[:1500]}")
+                  except Exception as error:
+                      print(f" foto {index}: ERROR {error}")
+                      break
           PY
