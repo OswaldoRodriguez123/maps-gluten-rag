@@ -176,7 +176,7 @@ def enrich_menus(
     max_photos: int = 8,
     max_charge_usd: float = 2.0,
     chunk_size: int = 20,
-    concurrency: int = 4,
+    concurrency: int = 5,
     timeout: int = 1800,
     today: str | None = None,
 ) -> int:

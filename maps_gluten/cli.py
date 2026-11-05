@@ -139,9 +139,9 @@ def main(argv: list[str] | None = None) -> int:
     except ValueError:
         apify_charge = 2.0
     try:
-        apify_concurrency = int(os.getenv("APIFY_CONCURRENCY", "4"))
+        apify_concurrency = int(os.getenv("APIFY_CONCURRENCY", "5"))
     except ValueError:
-        apify_concurrency = 4
+        apify_concurrency = 5
     try:
         enrich_days = args.enrich_days if args.enrich_days is not None else int(os.getenv("MAPS_ENRICH_DAYS", "30"))
     except ValueError:
