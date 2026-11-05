@@ -2949,6 +2949,53 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://www.glutenberg.cl/
 - **Menciona en reseñas:** pizza, torta, pastel, galleta
 - **Fecha de registro:** 2025-11-05
+- **Dietético:** 11 platos sin gluten, 2 veganos, 9 sin lactosa
+
+### Qué vende
+
+- Dulces
+- AATienda
+- Coctel
+- Tortas
+- Pies y Tartas
+- Salados
+
+
+### Carta
+
+#### Dulces
+
+- ALFAJOR RELLENO MANJAR 6 UNIDADES — $10.500
+- EMPOLVADITOS — $6.500 [sin gluten, sin lactosa]
+- QUEQUE ZANAHORIA NUEZ 500G — $6.500 [sin gluten]
+
+#### AATienda
+
+- Caja surtida individual — $1.480
+- COCTEL DULCE 50 — $35.900 [sin gluten, sin lactosa]
+
+#### Coctel
+
+- CANAPES — $41.900 [sin gluten, sin lactosa]
+- PROFITEROLES DULCES 25 UNIDADES — $19.900 [sin gluten, sin lactosa]
+- PROFITEROLES QUESO CREMA CIBULLETTE 25 UNIDADES — $19.900 [sin gluten, sin lactosa, vegano]
+- PROFITEROLES SALMON AHUMADO — $29.900 [vegano]
+- TAPADITOS — $29.900 [sin gluten, sin lactosa]
+
+#### Tortas
+
+- PANQUEQUE MANJAR NUEZ — $44.900
+
+#### Pies y Tartas
+
+- PIE DE LIMON 20CM — $14.900 [sin gluten]
+- TARTA DE ARANDANOS — $14.900 [sin gluten, sin lactosa]
+- TARTA DE MANGO — $14.900 [sin gluten, sin lactosa]
+
+#### Salados
+
+- QUICHE — $15.900 [sin gluten, sin lactosa]
+
 
 ## Glutón
 - **Ubicación:** Elisa Cole 33, 8330106 Santiago, Región Metropolitana

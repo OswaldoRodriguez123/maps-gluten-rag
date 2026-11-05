@@ -1,13 +1,13 @@
-# Restaurantes con poca data — después de P0, visión y tiendas
+# Restaurantes con poca data — después de P0, visión y webs
 
 _Fecha: 2026-11-05 · Fuente: Doc regenerado_
 
 ## Resumen
 
 - **100 lugares** en la lista.
-- **76 con platos publicables**: 3553 platos.
+- **77 con platos publicables**: 3568 platos.
 - **1 solo con categorías**.
-- **23 sin carta ni categorías**: 15 sin web y 8 con web.
+- **22 sin carta ni categorías**: 15 sin web y 7 con web.
 - **15 con carta corta** (1-9 platos).
 - **14 con menos del 50% de precios**.
 - **4 con mucho ruido**.
@@ -44,7 +44,6 @@ _Fecha: 2026-11-05 · Fuente: Doc regenerado_
 | Popolo Pizza sin Gluten | Pizzería a domicilio | 2 | 1 | 0 | 0 | http://www.popolo.cl/ |
 | CO&keto | Cafetería | 0 | 4 | 0 | 0 | http://www.cokefoods.cl/ |
 | Casa Roque Chocolates | Centro comercial | 0 | 1 | 0 | 0 | https://wwww.casaroque.cl/ |
-| Glutenberg | Pastelería | 0 | 4 | 0 | 0 | https://www.glutenberg.cl/ |
 | Jardin de Gente | Cafetería | 0 | 3 | 0 | 0 | http://www.jardindegente.cl/ |
 
 ## 3. Solo categorías
