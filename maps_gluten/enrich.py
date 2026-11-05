@@ -361,13 +361,16 @@ def _format_price(value) -> str | None:
     if value is None:
         return None
     if isinstance(value, (int, float)):
-        return f"${int(value):,}".replace(",", ".")
+        return f"${int(value):,}".replace(",", ".") if value else None
     text = str(value).strip()
     if not text:
         return None
     digits = re.sub(r"[^\d]", "", text)
-    if digits and len(digits) >= 3:
-        return f"${int(digits):,}".replace(",", ".")
+    if digits:
+        number = int(digits)
+        if number == 0:
+            return None
+        return f"${number:,}".replace(",", ".")
     return text if text.startswith("$") else f"${text}"
 
 
