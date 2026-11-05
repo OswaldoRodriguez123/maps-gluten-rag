@@ -5438,6 +5438,109 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Fecha de registro:** 2025-10-25
 - **Dietético:** local 100% sin gluten
 
+### Qué vende
+
+- Dulces para llevar
+- Tartaletas
+- Tortas
+
+
+### Carta
+
+#### Dulces para llevar
+
+- Brazo de Reina — $12.500
+- Brazo de Reina Lucuma — $16.500
+- Brazo de Reina Selva Negra — $14.500
+- Delicias x6 — $3.950
+- Delicias S/A x6 — $4.850
+- Empolvados x6 — $7.500
+- Galletas de Navidad x6
+- Pan de Pascua
+- Pan de Pascua (Frutas Confitadas)
+- Queque de Limón — $10.000
+- Queque Marmolado — $10.000
+- Sweet Box — $13.000
+- Yogurt Frambuesas — $12.000
+
+#### Tartaletas
+
+- Chescake Frambuesas — $5.500
+- Chescake Maracuya — $5.500
+- Kuchen de Nuez (Familiar) — $25.190
+- Kuchen Sureño (Familiar) — $19.400
+- Mix (Familiar) — $25.190
+- Pasta Frola (Familiar) — $19.400
+- Pie de Frambuesas (Familiar) — $19.400
+- Pie de Limón (Familiar) — $18.100
+- Pie de Maracuyá (Familiar) — $19.400
+- Tarta de Manzana (Familiar) — $19.400
+- Tartaleta de Arandanos (Familiar) — $19.400
+- Tartaleta de Frambuesas (Familiar) — $19.400
+- Tartaleta de Frutillas (Familiar) — $19.400
+- Tartaleta Mix Berries (Familiar) — $19.400
+- Tartaleta Mix Frutas (Familiar) — $19.400
+- Tartaleta de Durazno (Familiar) — $19.400
+
+#### Tortas
+
+- 4 Leches (10 Personas) — $33.400
+- 4 Leches (15 Personas) — $50.100
+- 4 Leches (25 Personas) — $66.800
+- 4 Leches Frambuesas (10 Personas) — $35.000
+- 4 Leches Frambuesas (15 Personas) — $52.500
+- 4 Leches Frambuesas (20 Personas) — $70.000
+- 4 Leches Maracuyá (10 Personas) — $35.000
+- 4 Leches Maracuyá (15 Personas) — $52.500
+- 4 Leches Maracuyá (20 Personas) — $70.000
+- Amor (10 Personas) — $38.200
+- Amor (15 Personas) — $57.300
+- Amor (25 Personas) — $76.400
+- Chocolatossa (10 Personas) — $33.400
+- Chocolatossa (15 Personas) — $50.100
+- Chocolatossa (20 Personas) — $66.800
+- Durazno (10 Personas) — $26.000
+- Durazno (15 Personas) — $39.000
+- Durazno (25 Personas) — $52.000
+- Frambuesa (10 Personas) — $29.600
+- Frambuesa (15 Personas) — $44.400
+- Frambuesa (25 Personas) — $59.200
+- Frambuesa •Endulzada con Alulosa• (10 ersonas — $34.300
+- Frambuesa •Endulzada con Alulosa• (15 ersonas — $51.450
+- Frambuesa •Endulzada con Alulosa• (25 ersonas — $68.600
+- Frutilla (10 Personas) — $31.000
+- Frutilla (15 Personas) — $46.000
+- Frutilla (25 Personas) — $62.000
+- Frutilla •Endulzada con Alulosa• (10 Personas — $33.200
+- Frutilla •Endulzada con Alulosa• (15 Personas — $49.800
+- Frutilla •Endulzada con Alulosa• (25 Personas — $66.400
+- Fusión (10 Personas) — $38.200
+- Fusión (15 Personas) — $57.300
+- Fusión (25 Personas) — $76.400
+- Ganache (10 Personas) — $38.200
+- Ganache (15 Personas) — $57.300
+- Ganache (25 Personas) — $76.400
+- Lucuma (10 Personas) — $33.500
+- Lucuma (15 Personas) — $50.250
+- Lucuma (25 Personas) — $67.000
+- Manjar (10 Personas) — $28.000
+- Manjar (15 Personas) — $42.000
+- Manjar (25 Personas) — $56.000
+- Piña (10 Personas) — $28.500
+- Piña (15 Personas) — $42.750
+- Piña (25 Personas) — $57.000
+- Selva Negra (10 Personas) — $35.000
+- Selva Negra (15 Personas) — $52.500
+- Selva Negra (25 Personas) — $70.000
+- Selva Negra •Endulzada con Alulosa• (10 erson — $29.800
+- Selva Negra •Endulzada con Alulosa• (15 erson — $44.700
+- Selva Negra •Endulzada con Alulosa• (25 erson — $59.600
+- Sersayaan (10 Personas) — $38.200
+- Sersayaan (15 Personas) — $57.300
+- Sersayaan (25 Personas) — $76.400
+- TORTA AMOR 15PP — $57.300
+
+
 ## Sicily Pizza, Gelato e Caffe
 - **Ubicación:** Alonso de Córdova 4226, 7630000 Vitacura, Región Metropolitana
 - **Categoría:** Pizzería

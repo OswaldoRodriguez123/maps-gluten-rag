@@ -1,13 +1,13 @@
-# Restaurantes con poca data — después de P0, visión y webs
+# Restaurantes con poca data — después de P0, visión, webs y sin web
 
 _Fecha: 2026-11-05 · Fuente: Doc regenerado_
 
 ## Resumen
 
 - **100 lugares** en la lista.
-- **77 con platos publicables**: 3568 platos.
+- **78 con platos publicables**: 3652 platos.
 - **1 solo con categorías**.
-- **22 sin carta ni categorías**: 15 sin web y 7 con web.
+- **21 sin carta ni categorías**: 14 sin web y 7 con web.
 - **15 con carta corta** (1-9 platos).
 - **14 con menos del 50% de precios**.
 - **4 con mucho ruido**.
@@ -18,7 +18,6 @@ _Fecha: 2026-11-05 · Fuente: Doc regenerado_
 
 | name | cat | web_n | rev_n | review | rejected |
 |---|---|---|---|---|---|
-| SERSAYAAN ALIMENTOS SIN GLUTEN | Cafetería | 0 | 7 | 0 | 0 |
 | Simona Healthy Bakery | Pastelería | 0 | 6 | 0 | 0 |
 | Cafetería Molino | Cafetería apta para perros | 0 | 4 | 0 | 0 |
 | Lighthouse Bakery | Cafetería | 0 | 4 | 0 | 0 |
