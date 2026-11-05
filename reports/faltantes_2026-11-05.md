@@ -1,16 +1,16 @@
-# Restaurantes con poca data — después de P0
+# Restaurantes con poca data — después de P0 y reextracción
 
-_Fecha: 2026-11-05 · Fuente: Doc regenerado con normalización P0_
+_Fecha: 2026-11-05 · Fuente: Doc regenerado con normalización P0 + visión_
 
 ## Resumen
 
 - **100 lugares** en la lista.
-- **75 con platos publicables**: 2885 platos.
+- **75 con platos publicables**: 2930 platos.
 - **1 solo con categorías** (sin platos específicos).
 - **24 sin carta ni categorías**: 15 sin web y 9 con web.
 - **19 con carta corta** (1-9 platos).
-- **25 con menos del 50% de precios**.
-- **24 con mucho ruido** (revisión + rechazados >= 20).
+- **17 con menos del 50% de precios**.
+- **3 con mucho ruido** (revisión + rechazados >= 20).
 - **33 sin web registrada**.
 - **4 sin ningún dato** (sin web, sin menciones, sin reseñas, sin carta).
 
@@ -81,7 +81,7 @@ _Fecha: 2026-11-05 · Fuente: Doc regenerado con normalización P0_
 | name | cat | dishes | prices | review | rejected |
 |---|---|---|---|---|---|
 | Goût Gluten Free | Cafetería | 51 | 0 | 6 | 0 |
-| Cetortillas - Low Carb Factory | Tortillería | 20 | 0 | 8 | 6 |
+| Cetortillas - Low Carb Factory | Tortillería | 20 | 0 | 7 | 7 |
 | Sapiens | Restaurante vegano | 18 | 0 | 7 | 0 |
 | Biomercado Sin Gluten | Tienda de alimentación | 8 | 0 | 0 | 0 |
 | Crumbless Gluten Free Bakery | Restaurante de comida sin gluten | 8 | 0 | 0 | 0 |
@@ -93,47 +93,18 @@ _Fecha: 2026-11-05 · Fuente: Doc regenerado con normalización P0_
 | Las Petunias Pastelería sin azúcar y sin gluten | Pastelería | 1 | 0 | 1 | 0 |
 | Violeta Patisserie | Pastelería | 1 | 0 | 4 | 0 |
 | L'Arrabbiata Foodmarket | Supermercado | 13 | 1 | 3 | 0 |
-| Magnolia | Restaurante | 12 | 1 | 12 | 8 |
-| TastyFree | Panadería | 17 | 2 | 13 | 10 |
 | CASACIENCAFE | Snack bar | 50 | 9 | 9 | 1 |
 | Alma Chilanga | Restaurante mexicano | 24 | 5 | 15 | 9 |
-| Pizza Bistrot | Restaurante | 26 | 6 | 18 | 14 |
-| Fortunata | Tienda de pasta | 29 | 7 | 19 | 10 |
-| Tremus Las Condes Market & Coffee | Pastelería | 34 | 10 | 38 | 20 |
+| Pizza Bistrot | Restaurante | 24 | 8 | 2 | 2 |
 | Piegari Chile | Restaurante italiano | 21 | 7 | 9 | 1 |
-| Café Bicka | Cafetería | 41 | 14 | 27 | 16 |
-| Sicily Pizza, Gelato e Caffe | Pizzería | 32 | 12 | 23 | 9 |
-| Sushi y Pasteleria Dos Polos | Restaurante de comida sin gluten | 12 | 5 | 21 | 21 |
-| Restaurant La Escalera | Restaurante | 31 | 15 | 20 | 12 |
 
 ## 6. Mucho ruido de extracción (revisión + rechazados >= 20)
 
 | name | cat | dishes | review | rejected |
 |---|---|---|---|---|
-| Quinoa | Restaurante vegetariano | 97 | 118 | 83 |
-| NAOKI | Restaurante japonés | 79 | 54 | 50 |
-| Je Suis Raclette \| MUT | Restaurante suizo | 53 | 59 | 32 |
-| Restoran Pinpilinpausha | Restaurante de cocina española | 51 | 58 | 20 |
-| Dónde El Guatón | Restaurante chileno | 59 | 44 | 28 |
-| Lemongrass | Restaurante asiático | 55 | 45 | 17 |
-| Lynn Café \| Tostaduría y Cafetería de Café de Especialidad en Santiago | Cafetería | 39 | 42 | 18 |
-| P.F. Chang's | Restaurante asiático | 27 | 43 | 17 |
-| QUIMEY SUSHI FUSION & GLUTEN FREE | Restaurante de comida sin gluten | 58 | 41 | 19 |
-| Tremus Las Condes Market & Coffee | Pastelería | 34 | 38 | 20 |
-| Piaf Café | Cafetería | 86 | 40 | 10 |
-| José & José Tiendita de Café | Cafetería | 12 | 30 | 15 |
-| Café Bicka | Cafetería | 41 | 27 | 16 |
-| Panart® | Pastelería | 54 | 32 | 11 |
-| Sushi y Pasteleria Dos Polos | Restaurante de comida sin gluten | 12 | 21 | 21 |
 | Dulces aplv | Pastelería | 222 | 40 | 0 |
-| Patagonia Schokoland | Heladería | 15 | 12 | 21 |
-| Pizza Bistrot | Restaurante | 26 | 18 | 14 |
-| Restaurant La Escalera | Restaurante | 31 | 20 | 12 |
-| Sicily Pizza, Gelato e Caffe | Pizzería | 32 | 23 | 9 |
-| Fortunata | Tienda de pasta | 29 | 19 | 10 |
 | Alma Chilanga | Restaurante mexicano | 24 | 15 | 9 |
-| TastyFree | Panadería | 17 | 13 | 10 |
-| Magnolia | Restaurante | 12 | 12 | 8 |
+| Patagonia Schokoland | Heladería | 21 | 21 | 0 |
 
 ## 7. Sin ningún dato
 
