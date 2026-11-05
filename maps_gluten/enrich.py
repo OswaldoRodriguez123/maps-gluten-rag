@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import json
 import re
 import unicodedata
 import urllib.error
@@ -108,6 +109,10 @@ DISH_STEMS = {
 }
 
 MENU_RE = re.compile(r"(menu|menú|carta|order|pedir|productos|shop|tienda)", re.IGNORECASE)
+JSON_LD_RE = re.compile(
+    r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
+    re.IGNORECASE | re.DOTALL,
+)
 BAD_LINK_RE = re.compile(
     r"google\.|gstatic|googleusercontent|ggpht|schema\.org|youtube\.|instagram\.|facebook\.|tiktok\.",
     re.IGNORECASE,
@@ -352,7 +357,175 @@ def _menu_links(base: str, links: list[tuple[str, str]]) -> list[str]:
     return found[:2]
 
 
+def _format_price(value) -> str | None:
+    if value is None:
+        return None
+    if isinstance(value, (int, float)):
+        return f"${int(value):,}".replace(",", ".")
+    text = str(value).strip()
+    if not text:
+        return None
+    digits = re.sub(r"[^\d]", "", text)
+    if digits and len(digits) >= 3:
+        return f"${int(digits):,}".replace(",", ".")
+    return text if text.startswith("$") else f"${text}"
+
+
+def _menu_items_from_json_item(raw, category) -> list[dict]:
+    if not isinstance(raw, dict):
+        return []
+    name = (raw.get("name") or "").strip()
+    if not name:
+        return []
+    offers = raw.get("offers") or {}
+    if isinstance(offers, list):
+        offers = offers[0] if offers else {}
+    price = offers.get("price") if isinstance(offers, dict) else None
+    return [
+        {
+            "name": name,
+            "price": _format_price(price),
+            "category": category,
+            "description": raw.get("description"),
+            "url": raw.get("url"),
+            "source": "web",
+        }
+    ]
+
+
+def _menu_items_from_json(data) -> list[dict]:
+    items: list[dict] = []
+    if isinstance(data, dict):
+        types = data.get("@type")
+        types = types if isinstance(types, list) else [types]
+        if "Menu" in types:
+            sections = data.get("hasMenuSection") or []
+            if isinstance(sections, dict):
+                sections = [sections]
+            for section in sections:
+                if not isinstance(section, dict):
+                    continue
+                category = section.get("name")
+                raw_items = section.get("hasMenuItem") or []
+                if isinstance(raw_items, dict):
+                    raw_items = [raw_items]
+                for raw in raw_items:
+                    items.extend(_menu_items_from_json_item(raw, category))
+            raw_items = data.get("hasMenuItem") or []
+            if isinstance(raw_items, dict):
+                raw_items = [raw_items]
+            for raw in raw_items:
+                items.extend(_menu_items_from_json_item(raw, None))
+            return items
+        for value in data.values():
+            items.extend(_menu_items_from_json(value))
+    elif isinstance(data, list):
+        for value in data:
+            items.extend(_menu_items_from_json(value))
+    return items
+
+
+def _json_ld_menu(html: str) -> list[dict]:
+    found: list[dict] = []
+    for raw in JSON_LD_RE.findall(html or ""):
+        try:
+            data = json.loads(raw)
+        except (json.JSONDecodeError, TypeError):
+            continue
+        found.extend(_menu_items_from_json(data))
+    result: list[dict] = []
+    seen: set[str] = set()
+    for item in found:
+        key = _normalize(item["name"])
+        if key in seen:
+            continue
+        seen.add(key)
+        result.append(item)
+    return result
+
+
+def _fetch_html(url: str, timeout: int = 12) -> tuple[str, str]:
+    request = urllib.request.Request(
+        url,
+        headers={"User-Agent": UA, "Accept-Language": "es-CL,es;q=0.9,en;q=0.8"},
+    )
+    with urllib.request.urlopen(request, timeout=timeout) as response:
+        raw = response.read(5_000_000)
+        final_url = response.geturl()
+        content_type = (response.headers.get_content_type() or "").lower()
+        charset = response.headers.get_content_charset() or "utf-8"
+    if content_type and content_type not in {"text/html", "text/plain", "application/xhtml+xml"}:
+        return final_url, ""
+    try:
+        html = raw.decode(charset, "ignore")
+    except LookupError:
+        html = raw.decode("utf-8", "ignore")
+    return final_url, html
+
+
+def _catalog_links(base: str, links: list[tuple[str, str]]) -> list[str]:
+    base_host = urlparse(base).netloc
+    priority: list[str] = []
+    others: list[str] = []
+    for href, text in links:
+        if not href or href.startswith(("#", "mailto:", "tel:", "javascript:")):
+            continue
+        full = urljoin(base, href)
+        if urlparse(full).netloc != base_host:
+            continue
+        path = urlparse(full).path.rstrip("/").lower()
+        if path.endswith(("/pedir", "/menu", "/carta", "/tienda", "/shop", "/productos")):
+            priority.append(full)
+        elif MENU_RE.search(href) or MENU_RE.search(text):
+            others.append(full)
+    result: list[str] = []
+    for url in priority + others:
+        if url not in result:
+            result.append(url)
+    return result[:3]
+
+
+def _site_menu(url: str) -> list[dict]:
+    try:
+        final_url, html = _fetch_html(url)
+    except (urllib.error.URLError, ValueError, OSError):
+        return []
+    items = _json_ld_menu(html)
+    if items:
+        return items
+    parser = _LinkParser()
+    try:
+        parser.feed(html)
+    except Exception:
+        pass
+    for menu_url in _catalog_links(final_url, parser.links):
+        try:
+            _, menu_html = _fetch_html(menu_url)
+        except (urllib.error.URLError, ValueError, OSError):
+            continue
+        items = _json_ld_menu(menu_html)
+        if items:
+            return items
+    return []
+
+
+def _format_menu_labels(items: list[dict]) -> list[str]:
+    labels: list[str] = []
+    for item in items:
+        name = (item.get("name") or "").strip()
+        if not name:
+            continue
+        price = item.get("price")
+        label = f"{name} ({price})" if price else name
+        if label not in labels:
+            labels.append(label)
+    return labels
+
+
 def _site_dishes(url: str, ocr: bool = False) -> list[str]:
+    menu = _site_menu(url)
+    if menu:
+        return _format_menu_labels(menu)
     try:
         final_url, text, links, images = _fetch(url)
     except (urllib.error.URLError, ValueError, OSError):
