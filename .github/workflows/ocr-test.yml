@@ -6,7 +6,7 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 25
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -27,42 +27,38 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y tesseract-ocr tesseract-ocr-spa
 
-      - name: OCR de Zoliakie
+      - name: UnitBytes + OCR de Zoliakie
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
-          DATASET_ID: 4Eu3Eq2XgPJtvL23A
-          PLACE: Zoliakie
         run: |
           mkdir -p ocr-photos
           python - <<'PY'
           import io
-          import json
           import os
+          import sys
           import urllib.request
 
           import pytesseract
           from PIL import Image, ImageOps
 
+          sys.path.insert(0, ".")
+          from maps_gluten.photos import _fetch_items, _start_run, _wait_run
+
           TOKEN = os.environ["APIFY_TOKEN"]
-          DATASET = os.environ["DATASET_ID"]
-          PLACE = os.environ["PLACE"].lower()
+          PLACE = "https://www.google.com/maps?cid=9130566955029176875"
 
-          request = urllib.request.Request(
-              f"https://api.apify.com/v2/datasets/{DATASET}/items?format=json&clean=true&limit=10000",
-              headers={"Authorization": f"Bearer {TOKEN}"},
-          )
-          with urllib.request.urlopen(request, timeout=60) as response:
-              items = json.load(response)
-          if isinstance(items, dict):
-              items = items.get("items", [])
-          selected = [i for i in items if PLACE in (i.get("placeName") or "").lower()]
-          print("items:", len(items), "| seleccionadas:", len(selected))
+          run = _start_run(TOKEN, [PLACE], max_photos=20, max_charge=0.1, timeout=600)
+          print("run", run["id"])
+          completed = _wait_run(TOKEN, run["id"], 900)
+          print("status", completed.get("status"))
+          dataset = completed.get("defaultDatasetId") or run.get("defaultDatasetId")
+          items = _fetch_items(TOKEN, dataset) if dataset else []
+          print("items", len(items))
 
-          for index, item in enumerate(selected):
+          for index, item in enumerate(items):
               url = item.get("photoUrlHighRes") or item.get("photoUrl")
               print(f"\n--- foto {index} | {item.get('photoCategory')} | {item.get('imageWidth')}x{item.get('imageHeight')}")
               if not url:
-                  print("sin URL")
                   continue
               try:
                   with urllib.request.urlopen(url, timeout=40) as response:
@@ -87,7 +83,7 @@ jobs:
                       print(f"psm{psm} error:", error)
                       continue
                   print(f"psm{psm} len:", len(text.strip()))
-                  print(text.strip().replace("\n", " | ")[:800])
+                  print(text.strip().replace("\n", " | ")[:900])
           PY
 
       - name: Guardar fotos
