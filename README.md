@@ -124,6 +124,32 @@ El OCR puede meter fragmentos y los precios pueden faltar; es una mención, no u
 
 `MAPS_MENU_ACTOR` acepta `unitbytes` (por defecto), `none` (desactivado) o `nomad` (actor gestionado/BYO). La `GEMINI_API_KEY` queda guardada como fallback opcional, pero el pipeline actual no la usa. `MAPS_WEBSITE_MENU=1` mantiene el scan de menús en webs; está en `0` porque UnitBytes ya cubre las fotos de Maps.
 
+### Actualizar un solo local
+
+Para probar o corregir un local sin listar los 100 ni usar Apify:
+
+```bash
+gh workflow run update-one.yml \
+  --repo OswaldoRodriguez123/maps-gluten-rag \
+  -f place=Crumbless
+```
+
+El workflow restaura la caché, actualiza **solo** ese local, publica el Google Doc, guarda la caché y hace commit. No toca los otros 99 ni los menús ya extraídos.
+
+Funciona con webs normales y con tiendas SPA:
+
+- Primero intenta el parseo HTTP normal (`_site_dishes`).
+- Si no hay texto, renderiza la página con Playwright y extrae productos por **JSON-LD**, anclas con precio/palabra de plato y rutas de producto (`/product`, `/shop`, `/menu`, `/tienda`, etc.).
+- No depende de `menu.fu.do`; ese host solo queda como atajo de rendimiento para la corrida masiva.
+
+También se puede ejecutar en local:
+
+```bash
+GOOGLE_APPLICATION_CREDENTIALS='/ruta/service-account.json' \
+GDOC_ID='1N67XQI2sXARoeZe6wz87JlmH-a5Z83exgBiz9Q_j1H0' \
+.venv/bin/python scripts/update_place.py --place Crumbless --publish
+```
+
 ## Local (opcional)
 
 ```bash
