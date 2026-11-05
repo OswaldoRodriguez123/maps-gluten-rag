@@ -97,6 +97,8 @@ Límites: la calidad depende de la foto; cartas con letra muy pequeña, inclinad
 
 ### Carta estructurada con Apify (opcional)
 
+> **Estado actual:** el actor gestionado de Nomad se quedó sin crédito de Google AI Studio y devuelve diagnósticos 402. Alcanzamos a recuperar **916 platos de 14 locales** desde sus datasets; están en el Doc. UnitBytes devuelve fotos de menú, pero en la prueba de 2 locales las 14 fotos eran de comida y **0 tenían texto OCR**, así que no reemplaza a Nomad. El menú queda desactivado (`MAPS_MENU_ACTOR=none`) hasta usar Nomad BYO con una Gemini API key propia o hasta que el actor gestionado recupere crédito.
+
 Para recuperar los platos de la pestaña Carta, el workflow puede usar el actor de Apify `nomad-agent/google-maps-menu-scraper-managed`. Toma las fotos de menú del local, las pasa por IA y, si no hay, revisa la web o el PDF. Devuelve un registro por plato con nombre, precio, categoría, descripción, ingredientes, alérgenos estimados, tipo de dieta y nutrición.
 
 Se activa solo si existe el secreto `APIFY_TOKEN`:
@@ -115,6 +117,8 @@ Salidas:
 - `data/mis_lugares_sin_gluten_menus.jsonl`: una línea por plato con los campos completos.
 
 Los ingredientes, alérgenos y nutrición son **estimaciones de IA**, no datos verificados; confírmalos con el local.
+
+`MAPS_MENU_ACTOR` acepta `none` (por defecto), `nomad` (actor gestionado) o `unitbytes` (fotos de menú + OCR). `MAPS_WEBSITE_MENU=1` mantiene el scan de menús en webs; desactívalo solo si el actor de menú ya cubre esos locales.
 
 ## Local (opcional)
 
