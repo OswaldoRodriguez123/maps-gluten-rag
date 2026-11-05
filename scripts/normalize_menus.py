@@ -185,6 +185,8 @@ def classify(name: str, price_value, category: str | None) -> tuple[str, list[st
     score = 100
     if not name or not re.search(r"[A-Za-zÁÉÍÓÚÑáéíóúñ]", name):
         return "rejected", ["sin letras"]
+    if re.search(r"\b(producto de prueba|test|demo|ejemplo)\b", name, re.I):
+        return "rejected", ["producto de prueba"]
     if name[0].islower():
         score -= 30
         reasons.append("empieza en minúscula")

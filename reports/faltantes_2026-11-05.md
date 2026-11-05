@@ -5,12 +5,12 @@ _Fecha: 2026-11-05 · Fuente: Doc regenerado con normalización P0_
 ## Resumen
 
 - **100 lugares** en la lista.
-- **65 con platos publicables**: 2422 platos.
+- **69 con platos publicables**: 2846 platos.
 - **1 solo con categorías** (sin platos específicos).
-- **34 sin carta ni categorías**: 15 sin web y 19 con web.
+- **30 sin carta ni categorías**: 15 sin web y 15 con web.
 - **14 con carta corta** (1-9 platos).
 - **25 con menos del 50% de precios**.
-- **23 con mucho ruido** (revisión + rechazados >= 20).
+- **24 con mucho ruido** (revisión + rechazados >= 20).
 - **33 sin web registrada**.
 - **4 sin ningún dato** (sin web, sin menciones, sin reseñas, sin carta).
 
@@ -40,17 +40,13 @@ _Fecha: 2026-11-05 · Fuente: Doc regenerado con normalización P0_
 |---|---|---|---|---|---|---|
 | Sabores para Alegrar | Pastelería | 11 | 4 | 0 | 0 | http://www.saboresparaalegrar.cl/ |
 | ALLFREE | Tienda de alimentos naturales | 10 | 0 | 0 | 0 | https://www.allfree.cl/ |
-| Thani Gluten Free | Pastelería | 9 | 3 | 0 | 0 | https://www.thani.cl/ |
-| Pastelería La Celeste | Pastelería | 8 | 5 | 0 | 0 | http://www.pastelerialaceleste.cl/ |
 | Massanoglutenfree | Pastelería | 7 | 2 | 0 | 0 | http://www.massanoglutenfree.cl/ |
 | BuganVilla cafe & market | Tienda de delicatessen | 6 | 1 | 0 | 0 | http://www.buganvilla.cl/ |
 | COMERCIAL RAKKO | Tienda de alimentos naturales | 5 | 0 | 0 | 0 | https://www.rakkonatural.cl/ |
 | Libre Punto SpA | Tienda de alimentos naturales | 4 | 0 | 0 | 0 | http://www.librepunto.cl/ |
 | Fain | Tienda de alimentos naturales | 3 | 0 | 0 | 0 | http://www.fain.cl/ |
-| Mercadito sano y natural | Tienda de alimentos naturales | 2 | 0 | 0 | 0 | http://www.mercaditosyn.cl/ |
 | Popolo Pizza sin Gluten | Pizzería a domicilio | 2 | 1 | 0 | 0 | http://www.popolo.cl/ |
 | Productos El Pueblo | Panadería | 2 | 3 | 0 | 0 | https://www.productoselpueblo.cl/ |
-| Dulces aplv | Pastelería | 1 | 2 | 0 | 0 | https://dulcesaplv.com/ |
 | Pizzeria Latinoamericana | Pizzería a domicilio | 1 | 4 | 0 | 0 | https://www.pizzerialatinoamericana.com/ |
 | Sin Culpa Market | Tienda de alimentos naturales | 1 | 0 | 0 | 0 | https://www.sinculpamarket.cl/ |
 | CO&keto | Cafetería | 0 | 4 | 0 | 0 | http://www.cokefoods.cl/ |
@@ -130,6 +126,7 @@ _Fecha: 2026-11-05 · Fuente: Doc regenerado con normalización P0_
 | Café Bicka | Cafetería | 41 | 27 | 16 |
 | Panart® | Pastelería | 54 | 32 | 11 |
 | Sushi y Pasteleria Dos Polos | Restaurante de comida sin gluten | 12 | 21 | 21 |
+| Dulces aplv | Pastelería | 222 | 40 | 0 |
 | Patagonia Schokoland | Heladería | 15 | 12 | 21 |
 | Pizza Bistrot | Restaurante | 26 | 18 | 14 |
 | Restaurant La Escalera | Restaurante | 31 | 20 | 12 |
