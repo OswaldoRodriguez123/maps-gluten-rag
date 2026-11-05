@@ -7,6 +7,7 @@ import time
 import unicodedata
 import urllib.parse
 import urllib.request
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date
 from urllib.parse import parse_qs, unquote, urlparse
 
@@ -56,10 +57,8 @@ def _wait_run(token: str, run_id: str, timeout: int) -> dict:
         response = _request(f"{API}/actor-runs/{run_id}?{query}")
         run = response["data"]
         status = run.get("status")
-        if status == "SUCCEEDED":
+        if status in {"SUCCEEDED", "TIMED-OUT", "FAILED", "ABORTED"}:
             return run
-        if status in {"FAILED", "ABORTED", "TIMED-OUT"}:
-            raise RuntimeError(f"Apify terminó con estado {status}")
         time.sleep(POLL_SECONDS)
     raise TimeoutError("Apify no terminó dentro del tiempo esperado")
 
@@ -147,6 +146,28 @@ def _summary(dishes: list[dict]) -> str | None:
     return "; ".join(parts) if parts else None
 
 
+def _process_chunk(
+    chunk,
+    token: str,
+    language: str,
+    max_photos: int,
+    per_run_cap: float,
+    timeout: int,
+):
+    by_url = {place.url: place for place in chunk}
+    try:
+        run = _start_run(token, list(by_url), language, max_photos, per_run_cap, timeout)
+        completed = _wait_run(token, run["id"], timeout + 300)
+        status = completed.get("status")
+        dataset_id = completed.get("defaultDatasetId") or run.get("defaultDatasetId")
+        items = _fetch_items(token, dataset_id) if dataset_id else []
+        print(f"Apify: lote de {len(chunk)} locales -> {status}, {len(items)} filas")
+        return chunk, items, status in {"SUCCEEDED", "TIMED-OUT"}
+    except Exception as error:
+        print(f"Apify: fallo en un lote: {error}", file=sys.stderr)
+        return chunk, [], False
+
+
 def enrich_menus(
     places,
     token: str,
@@ -154,8 +175,9 @@ def enrich_menus(
     language: str = "es",
     max_photos: int = 8,
     max_charge_usd: float = 2.0,
-    chunk_size: int = 50,
-    timeout: int = 1200,
+    chunk_size: int = 20,
+    concurrency: int = 4,
+    timeout: int = 1800,
     today: str | None = None,
 ) -> int:
     targets = [place for place in places if getattr(place, "url", None)]
@@ -165,48 +187,50 @@ def enrich_menus(
     today = today or date.today().isoformat()
     chunks = [targets[index : index + chunk_size] for index in range(0, len(targets), chunk_size)]
     per_run_cap = max(0.05, round(max_charge_usd / max(1, len(chunks)), 4))
+    concurrency = max(1, min(5, concurrency))
     total = 0
 
-    for chunk in chunks:
-        by_url = {place.url: place for place in chunk}
-        by_ftid = {place.ftid: place for place in chunk}
-        by_cid = {_cid(place.url): place for place in chunk if _cid(place.url)}
-        by_name = {_normalize(place.name): place for place in chunk}
-        try:
-            run = _start_run(
+    with ThreadPoolExecutor(max_workers=concurrency) as pool:
+        futures = [
+            pool.submit(
+                _process_chunk,
+                chunk,
                 token,
-                list(by_url),
                 language,
                 max_photos,
                 per_run_cap,
                 timeout,
             )
-            completed = _wait_run(token, run["id"], timeout + 300)
-            items = _fetch_items(token, completed.get("defaultDatasetId") or run["defaultDatasetId"])
-        except Exception as error:
-            print(f"Apify: fallo en un lote: {error}", file=sys.stderr)
-            continue
+            for chunk in chunks
+        ]
+        for future in as_completed(futures):
+            chunk, items, ok = future.result()
+            by_url = {place.url: place for place in chunk}
+            by_ftid = {place.ftid: place for place in chunk}
+            by_cid = {_cid(place.url): place for place in chunk if _cid(place.url)}
+            by_name = {_normalize(place.name): place for place in chunk}
 
-        grouped: dict[str, list[dict]] = {}
-        seen: dict[str, set[tuple]] = {}
-        for item in items:
-            if item.get("recordType") != "DISH":
-                continue
-            place = _match_place(item, by_url, by_ftid, by_cid, by_name)
-            if place is None:
-                continue
-            dish = _clean_dish(item)
-            key = (dish.get("name"), dish.get("price"), dish.get("category"))
-            if key in seen.setdefault(place.ftid, set()):
-                continue
-            seen[place.ftid].add(key)
-            grouped.setdefault(place.ftid, []).append(dish)
+            grouped: dict[str, list[dict]] = {}
+            seen: dict[str, set[tuple]] = {}
+            for item in items:
+                if item.get("recordType") != "DISH":
+                    continue
+                place = _match_place(item, by_url, by_ftid, by_cid, by_name)
+                if place is None:
+                    continue
+                dish = _clean_dish(item)
+                key = (dish.get("name"), dish.get("price"), dish.get("category"))
+                if key in seen.setdefault(place.ftid, set()):
+                    continue
+                seen[place.ftid].add(key)
+                grouped.setdefault(place.ftid, []).append(dish)
 
-        for place in chunk:
-            dishes = grouped.get(place.ftid) or []
-            place.menu_dishes = _summary(dishes)
-            place.menu_json = json.dumps(dishes, ensure_ascii=False) if dishes else None
-            place.menu_at = today
-            total += len(dishes)
+            for place in chunk:
+                dishes = grouped.get(place.ftid) or []
+                place.menu_dishes = _summary(dishes)
+                place.menu_json = json.dumps(dishes, ensure_ascii=False) if dishes else None
+                if ok:
+                    place.menu_at = today
+                total += len(dishes)
 
     return total

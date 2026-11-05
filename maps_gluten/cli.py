@@ -139,6 +139,10 @@ def main(argv: list[str] | None = None) -> int:
     except ValueError:
         apify_charge = 2.0
     try:
+        apify_concurrency = int(os.getenv("APIFY_CONCURRENCY", "4"))
+    except ValueError:
+        apify_concurrency = 4
+    try:
         enrich_days = args.enrich_days if args.enrich_days is not None else int(os.getenv("MAPS_ENRICH_DAYS", "30"))
     except ValueError:
         enrich_days = 30
@@ -196,6 +200,7 @@ def main(argv: list[str] | None = None) -> int:
                         language=apify_language,
                         max_photos=apify_photos,
                         max_charge_usd=apify_charge,
+                        concurrency=apify_concurrency,
                         today=today,
                     )
                     print(f"Apify: {count} platos en {len(targets)} locales")

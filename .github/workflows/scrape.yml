@@ -53,6 +53,7 @@ jobs:
       APIFY_LANGUAGE: "es"
       APIFY_MAX_PHOTOS: "8"
       APIFY_MAX_CHARGE_USD: "2.0"
+      APIFY_CONCURRENCY: "4"
 
     steps:
       - name: Checkout
