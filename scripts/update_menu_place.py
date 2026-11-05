@@ -88,6 +88,11 @@ def main() -> int:
     parser.add_argument("--max-photos", type=int, default=12)
     parser.add_argument("--max-charge", type=float, default=0.5)
     parser.add_argument("--no-vision", action="store_true")
+    parser.add_argument(
+        "--refresh-photos",
+        action="store_true",
+        help="Ignora la caché de fotos de menú y vuelve a raspar UnitBytes.",
+    )
     args = parser.parse_args()
 
     token = os.getenv("APIFY_TOKEN", "").strip()
@@ -112,6 +117,9 @@ def main() -> int:
         raise SystemExit(f"No encontré un local que contenga {args.place!r}")
 
     metadata = target["metadata"]
+    today = date.today().isoformat()
+    connection = store.connect(Path(args.db)) if args.db else None
+    photo_cache = store.photo_cache(connection) if connection else {}
     place = Place(
         ftid=target["id"],
         name=metadata["name"],
@@ -130,12 +138,17 @@ def main() -> int:
         token,
         max_photos=args.max_photos,
         max_charge_usd=args.max_charge,
-        today=date.today().isoformat(),
+        today=today,
         vision_key=vision_key,
         vision_max_photos=args.max_photos,
         vision_max_places=1,
+        photo_cache=photo_cache,
+        refresh_photos=args.refresh_photos,
+        reuse_recent_runs=0 if args.refresh_photos else 5,
     )
     if not place.menu_json:
+        if connection:
+            connection.close()
         print(f"Sin carta legible para {place.name} ({count} platos)")
         return 1
 
@@ -154,12 +167,14 @@ def main() -> int:
     summary = photos._summary(dishes)
     markdown = _update_markdown(md_path, metadata["url"], summary)
 
-    if args.db and Path(args.db).exists():
-        connection = store.connect(Path(args.db))
+    if connection:
         try:
             connection.execute(
                 "UPDATE places SET menu_dishes = ?, menu_json = ?, menu_at = ? WHERE ftid = ?",
                 (summary, place.menu_json, place.menu_at, target["id"]),
+            )
+            store.save_photo_cache(
+                connection, {place.ftid: photo_cache.get(place.ftid, [])}, today
             )
             connection.commit()
         finally:

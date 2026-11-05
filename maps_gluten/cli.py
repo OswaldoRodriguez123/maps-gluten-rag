@@ -143,6 +143,10 @@ def main(argv: list[str] | None = None) -> int:
         vision_photos = int(os.getenv("MAPS_VISION_PHOTOS", "3"))
     except ValueError:
         vision_photos = 3
+    try:
+        reuse_runs = int(os.getenv("MAPS_REUSE_RUNS", "0"))
+    except ValueError:
+        reuse_runs = 0
     apify_token = os.getenv("APIFY_TOKEN", "").strip()
     apify_enabled = _env_bool("MAPS_APIFY", True) and bool(apify_token)
     menu_actor = os.getenv("MAPS_MENU_ACTOR", "unitbytes").strip().lower()
@@ -170,6 +174,7 @@ def main(argv: list[str] | None = None) -> int:
     conn = store.connect(db_path)
     try:
         cache = store.enrichment_cache(conn) if (enrich_enabled or apify_enabled) else {}
+        photo_cache = store.photo_cache(conn)
         if args.refresh_place:
             terms = [term.lower() for term in args.refresh_place]
             for row in conn.execute("SELECT ftid, name FROM places"):
@@ -229,6 +234,17 @@ def main(argv: list[str] | None = None) -> int:
                             vision_key=vision_key if vision_enabled else None,
                             vision_max_photos=vision_photos,
                             vision_max_places=vision_places,
+                            photo_cache=photo_cache,
+                            refresh_photos=_env_bool("MAPS_REFRESH_PHOTOS", False),
+                            reuse_recent_runs=reuse_runs,
+                        )
+                        store.save_photo_cache(
+                            conn,
+                            {
+                                place.ftid: photo_cache.get(place.ftid, [])
+                                for place in targets
+                            },
+                            today,
                         )
                     else:
                         from . import apify

@@ -330,6 +330,57 @@ def _match_place(item: dict, by_url: dict, by_cid: dict, by_name: dict):
     return None
 
 
+def _collect_photos(
+    items: list[dict],
+    by_url: dict,
+    by_cid: dict,
+    by_name: dict,
+    photos: dict[str, list[str]],
+    only: set[str] | None = None,
+) -> None:
+    for item in items:
+        if item.get("photoCategory") not in {"menu", None, ""}:
+            continue
+        place = _match_place(item, by_url, by_cid, by_name)
+        if place is None:
+            continue
+        if only is not None and place.ftid not in only:
+            continue
+        url = (
+            item.get("photoUrlHighRes")
+            or item.get("photoUrl")
+            or item.get("thumbnailUrl")
+        )
+        if not url:
+            continue
+        photos.setdefault(place.ftid, []).append(url)
+
+
+def _recent_run_items(token: str, limit: int) -> list[list[dict]]:
+    """Datasets de las últimas corridas exitosas de UnitBytes, para reutilizar fotos."""
+    query = urllib.parse.urlencode({"token": token, "limit": limit, "desc": "true"})
+    try:
+        response = _request(f"{API}/acts/{ACTOR}/runs?{query}")
+    except Exception as error:
+        print(f"Apify UnitBytes: no pude leer corridas recientes: {error}", file=sys.stderr)
+        return []
+    runs = (response.get("data") or {}).get("items") or []
+    datasets: list[list[dict]] = []
+    for run in runs:
+        if run.get("status") != "SUCCEEDED":
+            continue
+        dataset_id = run.get("defaultDatasetId")
+        if not dataset_id:
+            continue
+        try:
+            items = _fetch_items(token, dataset_id)
+        except Exception:
+            continue
+        if items:
+            datasets.append(items)
+    return datasets
+
+
 def enrich_menus_photos(
     places,
     token: str,
@@ -341,6 +392,9 @@ def enrich_menus_photos(
     vision_key: str | None = None,
     vision_max_photos: int = 3,
     vision_max_places: int = 12,
+    photo_cache: dict[str, list[str]] | None = None,
+    refresh_photos: bool = False,
+    reuse_recent_runs: int = 5,
 ) -> int:
     targets = [place for place in places if getattr(place, "url", None)]
     if not targets:
@@ -351,38 +405,65 @@ def enrich_menus_photos(
     by_cid = {_cid(place.url): place for place in targets if _cid(place.url)}
     by_name = {_normalize(place.name): place for place in targets}
 
-    try:
-        run = _start_run(token, list(by_url), max_photos, max_charge_usd, timeout)
-        completed = _wait_run(token, run["id"], timeout + 300)
-        status = completed.get("status")
-        dataset_id = completed.get("defaultDatasetId") or run.get("defaultDatasetId")
-        items = _fetch_items(token, dataset_id) if dataset_id else []
-        print(f"Apify UnitBytes: {status}, {len(items)} fotos de menú")
-    except Exception as error:
-        print(f"Apify UnitBytes: fallo: {error}", file=sys.stderr)
-        return 0
-    if status in {"FAILED", "ABORTED"}:
-        return 0
-
     photos: dict[str, list[str]] = {}
-    for item in items:
-        if item.get("photoCategory") not in {"menu", None, ""}:
-            continue
-        place = _match_place(item, by_url, by_cid, by_name)
-        if place is None:
-            continue
-        url = (
-            item.get("photoUrlHighRes")
-            or item.get("photoUrl")
-            or item.get("thumbnailUrl")
+    if photo_cache and not refresh_photos:
+        for place in targets:
+            urls = photo_cache.get(place.ftid) or []
+            if urls:
+                photos[place.ftid] = urls[:max_photos]
+        print(
+            f"Apify UnitBytes: caché con fotos para {len(photos)} locales, "
+            f"se evita volver a raspar"
         )
-        if not url:
-            continue
-        photos.setdefault(place.ftid, []).append(url)
+
+    missing = [place for place in targets if not photos.get(place.ftid)]
+    if missing and reuse_recent_runs > 0:
+        missing_ids = {place.ftid for place in missing}
+        for items in _recent_run_items(token, reuse_recent_runs):
+            _collect_photos(items, by_url, by_cid, by_name, photos, only=missing_ids)
+            missing_ids = {
+                place.ftid for place in missing if not photos.get(place.ftid)
+            }
+            if not missing_ids:
+                break
+        if photos:
+            print(
+                f"Apify UnitBytes: fotos reutilizadas de corridas recientes "
+                f"para {len(photos)} locales"
+            )
+        missing = [place for place in missing if not photos.get(place.ftid)]
+
+    if missing:
+        try:
+            run = _start_run(
+                token, [place.url for place in missing], max_photos, max_charge_usd, timeout
+            )
+            completed = _wait_run(token, run["id"], timeout + 300)
+            status = completed.get("status")
+            dataset_id = completed.get("defaultDatasetId") or run.get("defaultDatasetId")
+            items = _fetch_items(token, dataset_id) if dataset_id else []
+            print(f"Apify UnitBytes: {status}, {len(items)} fotos de menú")
+        except Exception as error:
+            print(f"Apify UnitBytes: fallo: {error}", file=sys.stderr)
+            items = []
+            status = "FAILED"
+        if status in {"FAILED", "ABORTED"} and not photos:
+            return 0
+
+        _collect_photos(
+            items,
+            by_url,
+            by_cid,
+            by_name,
+            photos,
+            only={place.ftid for place in missing},
+        )
+
+    if photo_cache is not None:
+        photo_cache.update({ftid: urls for ftid, urls in photos.items() if urls})
 
     print(
-        f"Apify UnitBytes: {len(items)} fotos, "
-        f"{len(photos)} locales con fotos, "
+        f"Apify UnitBytes: {len(photos)} locales con fotos, "
         f"{sum(len(urls[:max_photos]) for urls in photos.values())} por OCR"
     )
 

@@ -7,6 +7,14 @@ on:
         description: "Nombre parcial del local (ej: Yoko)"
         required: true
         default: "Yoko"
+      refresh:
+        description: "Volver a raspar fotos (ignora la caché)"
+        type: boolean
+        default: false
+
+concurrency:
+  group: update-menu-one
+  cancel-in-progress: false
 
 permissions:
   contents: write
@@ -47,7 +55,13 @@ jobs:
           GDOC_ID: ${{ vars.GDOC_ID }}
           GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
           PLACE: ${{ inputs.place }}
-        run: python scripts/update_menu_place.py --place "$PLACE" --db data/historial_lugares.db --publish
+          REFRESH: ${{ inputs.refresh }}
+        run: |
+          args=()
+          if [ "$REFRESH" = "true" ]; then
+            args+=(--refresh-photos)
+          fi
+          python scripts/update_menu_place.py --place "$PLACE" --db data/historial_lugares.db --publish "${args[@]}"
 
       - name: Guardar cambios
         run: |

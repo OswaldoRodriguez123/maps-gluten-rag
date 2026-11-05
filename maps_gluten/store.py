@@ -31,7 +31,9 @@ CREATE TABLE IF NOT EXISTS places (
     enrich_version INTEGER,
     menu_dishes TEXT,
     menu_json   TEXT,
-    menu_at     TEXT
+    menu_at     TEXT,
+    menu_photos_json TEXT,
+    menu_photos_at   TEXT
 );
 
 CREATE TABLE IF NOT EXISTS lists (
@@ -89,6 +91,8 @@ MIGRATIONS = (
     ("menu_dishes", "TEXT"),
     ("menu_json", "TEXT"),
     ("menu_at", "TEXT"),
+    ("menu_photos_json", "TEXT"),
+    ("menu_photos_at", "TEXT"),
 )
 
 
@@ -102,6 +106,37 @@ def connect(db_path: Path) -> sqlite3.Connection:
         if column not in existing:
             conn.execute(f"ALTER TABLE places ADD COLUMN {column} {kind}")
     return conn
+
+
+def photo_cache(conn: sqlite3.Connection) -> dict[str, list[str]]:
+    """URLs de fotos de menú ya descargadas por UnitBytes, por local."""
+    cached: dict[str, list[str]] = {}
+    for row in conn.execute(
+        "SELECT ftid, menu_photos_json FROM places "
+        "WHERE menu_photos_json IS NOT NULL AND menu_photos_json != ''"
+    ):
+        try:
+            urls = json.loads(row["menu_photos_json"])
+        except (json.JSONDecodeError, TypeError):
+            continue
+        if isinstance(urls, list):
+            values = [str(url) for url in urls if url]
+            if values:
+                cached[row["ftid"]] = values
+    return cached
+
+
+def save_photo_cache(
+    conn: sqlite3.Connection, photos: dict[str, list[str]], today: str
+) -> None:
+    for ftid, urls in photos.items():
+        if not urls:
+            continue
+        conn.execute(
+            "UPDATE places SET menu_photos_json = ?, menu_photos_at = ? WHERE ftid = ?",
+            (json.dumps(urls, ensure_ascii=False), today, ftid),
+        )
+    conn.commit()
 
 
 def save(
