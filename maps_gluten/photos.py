@@ -106,8 +106,10 @@ def _ocr_menu_bytes(raw: bytes) -> str:
         return ""
     try:
         image = Image.open(BytesIO(raw)).convert("L")
-    except Exception:
+    except Exception as error:
+        print("OCR: no se pudo abrir imagen:", error, file=sys.stderr)
         return ""
+    print("OCR: imagen", image.width, "x", image.height, "bytes", len(raw), file=sys.stderr)
     if image.width < 1800:
         ratio = 1800 / max(image.width, 1)
         image = image.resize(
@@ -127,8 +129,10 @@ def _ocr_menu_bytes(raw: bytes) -> str:
                     image, lang="spa+eng", config=f"--psm {psm}"
                 )
             )
-        except Exception:
+        except Exception as error:
+            print(f"OCR: psm{psm} error:", error, file=sys.stderr)
             continue
+        print(f"OCR: psm{psm} len", len(texts[-1].strip()), file=sys.stderr)
     return "\n".join(texts)
 
 
@@ -275,6 +279,7 @@ def enrich_menus_photos(
                 ftid = futures[future]
                 raw = future.result()
                 if not raw:
+                    print("OCR: descarga vacía", futures[future], file=sys.stderr)
                     continue
                 text = _ocr_menu_bytes(raw)
                 if not text:
