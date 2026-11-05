@@ -8,6 +8,7 @@ from collections import Counter
 from pathlib import Path
 
 from .extract import Place
+from .render import menu_lines
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS places (
@@ -258,6 +259,18 @@ def _titles(rows: list[sqlite3.Row]) -> dict[str, str]:
     return result
 
 
+def _menu_lines(menu_json: str | None) -> list[str]:
+    if not menu_json:
+        return []
+    try:
+        items = json.loads(menu_json)
+    except (json.JSONDecodeError, TypeError):
+        return []
+    if not isinstance(items, list):
+        return []
+    return menu_lines(items)
+
+
 def write_markdown(conn: sqlite3.Connection, key: str, path: Path, today: str) -> int:
     rows = _rows(conn, key)
     titles = _titles(rows)
@@ -286,11 +299,14 @@ def write_markdown(conn: sqlite3.Connection, key: str, path: Path, today: str) -
             lines.append(f"- **Menciona en su web:** {row['dishes']}")
         if row["review_dishes"]:
             lines.append(f"- **Menciona en reseñas:** {row['review_dishes']}")
-        if row["menu_dishes"]:
+        menu_lines = _menu_lines(row["menu_json"])
+        if row["menu_dishes"] and not menu_lines:
             lines.append(f"- **Carta (Google Maps):** {row['menu_dishes']}")
         lines.append(f"- **Fecha de registro:** {row['saved_on'] or row['first_seen']}")
         if row["note"]:
             lines.append(f"- **Nota:** {row['note']}")
+        if menu_lines:
+            lines.extend(menu_lines)
         lines.append("")
     _atomic_write(path, "\n".join(lines).rstrip() + "\n")
     return len(rows)
