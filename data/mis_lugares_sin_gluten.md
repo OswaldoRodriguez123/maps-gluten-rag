@@ -964,5 +964,5 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.6 / 5
 - **Enlace:** https://www.google.com/maps?cid=9733967257186336470
 - **Menciona en reseñas:** sushi, mariscos
-- **Carta (Google Maps):** PasTA SALTADADE rela; CHORITOS a la CHALACA ($4500); CALIFORNIA ROLLS ($4500); AJÍ DE GALLINA ($4500); PASTA SALTADA DE POLLO ($4500); TORTA 5 LECHES ($4500); MOUSSE FRUTILLA ($4500)
+- **Carta (Google Maps):** PasTA SALTADADE rela; CHORITOS A LA CHALACA ($ 4500); CALIFORNIA ROLLS ($ 4500); AJÍ DE GALLINA ($ 4500); PASTA SALTADA DE POLLO ($ 4500); TORTA 5 LECHES ($ 4500); MOUSSE FRUTILLA ($ 4500)
 - **Fecha de registro:** 2026-02-15
