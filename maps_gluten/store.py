@@ -8,7 +8,12 @@ from collections import Counter
 from pathlib import Path
 
 from .extract import Place
-from .render import menu_lines
+from .render import (
+    categories_from_items,
+    dietary_line,
+    dietary_summary,
+    menu_lines,
+)
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS places (
@@ -259,16 +264,14 @@ def _titles(rows: list[sqlite3.Row]) -> dict[str, str]:
     return result
 
 
-def _menu_lines(menu_json: str | None) -> list[str]:
+def _menu_items(menu_json: str | None) -> list[dict]:
     if not menu_json:
         return []
     try:
         items = json.loads(menu_json)
     except (json.JSONDecodeError, TypeError):
         return []
-    if not isinstance(items, list):
-        return []
-    return menu_lines(items)
+    return items if isinstance(items, list) else []
 
 
 def write_markdown(conn: sqlite3.Connection, key: str, path: Path, today: str) -> int:
@@ -299,14 +302,24 @@ def write_markdown(conn: sqlite3.Connection, key: str, path: Path, today: str) -
             lines.append(f"- **Menciona en su web:** {row['dishes']}")
         if row["review_dishes"]:
             lines.append(f"- **Menciona en reseñas:** {row['review_dishes']}")
-        menu_lines = _menu_lines(row["menu_json"])
-        if row["menu_dishes"] and not menu_lines:
+        items = _menu_items(row["menu_json"])
+        summary = dietary_summary(items, row["name"], row["category"])
+        if row["menu_dishes"] and not items:
             lines.append(f"- **Carta (Google Maps):** {row['menu_dishes']}")
         lines.append(f"- **Fecha de registro:** {row['saved_on'] or row['first_seen']}")
         if row["note"]:
             lines.append(f"- **Nota:** {row['note']}")
-        if menu_lines:
-            lines.extend(menu_lines)
+        diet = dietary_line(summary)
+        if diet:
+            lines.append(diet)
+        categories = categories_from_items(items)
+        if categories:
+            lines.append("")
+            lines.append("### Qué vende")
+            lines.append("")
+            lines.extend(f"- {category}" for category in categories)
+            lines.append("")
+        lines.extend(menu_lines(items, summary["gluten_free"]))
         lines.append("")
     _atomic_write(path, "\n".join(lines).rstrip() + "\n")
     return len(rows)

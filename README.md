@@ -211,8 +211,38 @@ También acepta `-f menu_url='https://menu.fu.do/...'` si no está en el archivo
 El Doc es la fuente para NotebookLM:
 
 - Cada local es un `##`.
-- Si tiene carta: `### Carta`, luego `#### Categoría` y un plato por línea (`- Plato — $precio`).
-- NotebookLM permite 500.000 palabras por fuente y 50 fuentes por cuaderno; el Doc completo usa ~32.000 palabras.
+- `### Qué vende`: categorías del local (Sandwiches, Empanadas, Pizzas...), aunque no tengan precio.
+- `- **Dietético:**`: si el local es 100% sin gluten, o cuántos platos son sin gluten/veganos/sin lactosa.
+- `### Carta`: platos con precio, agrupados por `#### Categoría`, con etiquetas `[sin gluten]`, `[vegano]`, `[sin lactosa]` cuando corresponden.
+- NotebookLM permite 500.000 palabras por fuente y 50 fuentes por cuaderno; el Doc completo usa ~35.000 palabras.
+
+### Normalización y etiquetas (P0)
+
+Antes de publicar, el pipeline separa lo publicable de lo dudoso:
+
+- `scripts/normalize_menus.py`: limpia nombres, separa descripciones, normaliza precios (CLP/EUR), deduplica, asigna categorías y etiquetas dietéticas.
+- `scripts/apply_normalization.py`: aplica el resultado al JSONL, al `_menus.jsonl` y a SQLite.
+- `scripts/rebuild_markdown.py`: regenera el Doc con `### Qué vende` + `### Carta`.
+- `menus_review.jsonl` y `menus_rejected.jsonl`: ítems que no se publican y quedan para reextraer.
+
+Comandos:
+
+```bash
+python scripts/normalize_menus.py \
+  --places data/mis_lugares_sin_gluten.jsonl \
+  --menus data/mis_lugares_sin_gluten_menus.jsonl \
+  --out-dir data/normalized
+
+python scripts/apply_normalization.py \
+  --places data/mis_lugares_sin_gluten.jsonl \
+  --normalized-dir data/normalized \
+  --out-dir data \
+  --db data/historial_lugares.db
+
+python scripts/rebuild_markdown.py --publish
+```
+
+La visión Gemini corre con concurrencia limitada por `MAPS_VISION_CONCURRENCY` (por defecto `2`) y la carga de datasets recientes usa hasta 4 hilos. Ajusta ese valor si tu cuota aguanta más.
 
 Para reconstruir el Doc desde los JSONL sin volver a listar los 100:
 

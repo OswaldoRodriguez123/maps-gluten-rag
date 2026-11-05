@@ -55,6 +55,7 @@ jobs:
       MAPS_VISION: "1"
       MAPS_VISION_PLACES: "12"
       MAPS_VISION_PHOTOS: "3"
+      MAPS_VISION_CONCURRENCY: "2"
       MAPS_APIFY: "1"
       MAPS_MENU_ACTOR: "unitbytes"
       MAPS_WEBSITE_MENU: "0"
@@ -119,6 +120,13 @@ jobs:
             args+=(--refresh-place "$REFRESH_PLACE")
           fi
           xvfb-run -a python -m maps_gluten run "${args[@]}"
+
+      - name: Normalizar cartas y etiquetas
+        run: |
+          python scripts/normalize_menus.py --places data/mis_lugares_sin_gluten.jsonl --menus data/mis_lugares_sin_gluten_menus.jsonl --out-dir data/normalized
+          python scripts/apply_normalization.py --places data/mis_lugares_sin_gluten.jsonl --normalized-dir data/normalized --out-dir data --db data/historial_lugares.db
+          python scripts/rebuild_markdown.py
+          rm -rf data/normalized
 
       - name: Guardar cambios
         run: |

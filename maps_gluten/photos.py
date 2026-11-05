@@ -227,6 +227,19 @@ def _vision_with_fallback(raw: bytes, api_key: str) -> list[dict] | None:
     return []
 
 
+def _vision_place(place, urls: list[str], api_key: str, max_photos: int):
+    found: list[dict] = []
+    for url in urls[:max_photos]:
+        raw = _download(url, timeout=30)
+        if not raw:
+            continue
+        items = _vision_with_fallback(raw, api_key)
+        if items is None:
+            return place, found, True
+        found.extend(items)
+    return place, found, False
+
+
 def _ocr_menu_bytes(raw: bytes) -> str:
     try:
         import pytesseract
@@ -422,19 +435,22 @@ def _recent_run_items(token: str, limit: int) -> list[list[dict]]:
         print(f"Apify UnitBytes: no pude leer corridas recientes: {error}", file=sys.stderr)
         return []
     runs = (response.get("data") or {}).get("items") or []
-    datasets: list[list[dict]] = []
-    for run in runs:
-        if run.get("status") != "SUCCEEDED":
-            continue
-        dataset_id = run.get("defaultDatasetId")
-        if not dataset_id:
-            continue
+    dataset_ids = [
+        run.get("defaultDatasetId")
+        for run in runs
+        if run.get("status") == "SUCCEEDED" and run.get("defaultDatasetId")
+    ]
+
+    def fetch(dataset_id: str) -> list[dict]:
         try:
-            items = _fetch_items(token, dataset_id)
+            return _fetch_items(token, dataset_id)
         except Exception:
-            continue
-        if items:
-            datasets.append(items)
+            return []
+
+    datasets: list[list[dict]] = []
+    if dataset_ids:
+        with ThreadPoolExecutor(max_workers=min(4, len(dataset_ids))) as pool:
+            datasets = [items for items in pool.map(fetch, dataset_ids) if items]
     print(
         f"Apify UnitBytes: {len(runs)} corridas recientes, "
         f"{len(datasets)} datasets con fotos"
@@ -453,6 +469,7 @@ def enrich_menus_photos(
     vision_key: str | None = None,
     vision_max_photos: int = 3,
     vision_max_places: int = 12,
+    vision_concurrency: int = 2,
     photo_cache: dict[str, list[str]] | None = None,
     refresh_photos: bool = False,
     reuse_recent_runs: int = 5,
@@ -568,61 +585,68 @@ def enrich_menus_photos(
             for place in targets
             if photos.get(place.ftid) and len(ocr_results.get(place.ftid) or []) < 2
         ]
+        selected = pending[:vision_max_places]
         print(
             f"Visión Gemini: {len(pending)} locales con OCR insuficiente, "
-            f"hasta {vision_max_places} por corrida"
+            f"hasta {vision_max_places} por corrida, "
+            f"concurrencia {vision_concurrency}"
         )
-        for place in pending[:vision_max_places]:
-            found: list[dict] = []
-            stop = False
-            for url in photos.get(place.ftid, [])[:vision_max_photos]:
-                raw = _download(url, timeout=30)
-                if not raw:
-                    continue
-                items = _vision_with_fallback(raw, vision_key)
-                if items is None:
-                    stop = True
-                    break
-                found.extend(items)
-            if stop:
-                print("Visión Gemini: detenida por cuota", file=sys.stderr)
-                break
-            if not found:
-                continue
-            existing = ocr_results.setdefault(place.ftid, [])
-            added = 0
-            for dish in found:
-                key = _normalize(dish.get("name") or "")
-                if not key:
-                    continue
-                match = next(
-                    (
-                        current
-                        for current in existing
-                        if _same_dish(key, _normalize(current.get("name") or ""))
-                        and _price_key(current.get("price")) == _price_key(dish.get("price"))
-                    ),
-                    None,
-                )
-                if match is not None:
-                    if len(dish.get("name") or "") > len(match.get("name") or ""):
-                        match["name"] = dish["name"]
-                    continue
-                existing.append(dish)
-                added += 1
-            if added:
-                if added >= 2:
-                    existing[:] = [
-                        dish
-                        for dish in existing
-                        if dish.get("source") != "ocr" or dish.get("price")
-                    ]
-                vision_places += 1
-                vision_dishes += added
-                print(
-                    f"Visión Gemini: {place.name} -> {added} platos",
-                    file=sys.stderr,
-                )
+        if selected:
+            with ThreadPoolExecutor(max_workers=max(1, vision_concurrency)) as pool:
+                futures = {
+                    pool.submit(
+                        _vision_place,
+                        place,
+                        photos.get(place.ftid, []),
+                        vision_key,
+                        vision_max_photos,
+                    ): place
+                    for place in selected
+                }
+                for future in as_completed(futures):
+                    place, found, quota_exhausted = future.result()
+                    if quota_exhausted:
+                        print("Visión Gemini: detenida por cuota", file=sys.stderr)
+                        for pending_future in futures:
+                            pending_future.cancel()
+                        break
+                    if not found:
+                        continue
+                    existing = ocr_results.setdefault(place.ftid, [])
+                    added = 0
+                    for dish in found:
+                        key = _normalize(dish.get("name") or "")
+                        if not key:
+                            continue
+                        match = next(
+                            (
+                                current
+                                for current in existing
+                                if _same_dish(key, _normalize(current.get("name") or ""))
+                                and _price_key(current.get("price"))
+                                == _price_key(dish.get("price"))
+                            ),
+                            None,
+                        )
+                        if match is not None:
+                            if len(dish.get("name") or "") > len(match.get("name") or ""):
+                                match["name"] = dish["name"]
+                            continue
+                        existing.append(dish)
+                        added += 1
+                    if added:
+                        if added >= 2:
+                            existing[:] = [
+                                dish
+                                for dish in existing
+                                if dish.get("source") != "ocr" or dish.get("price")
+                            ]
+                        vision_places += 1
+                        vision_dishes += added
+                        print(
+                            f"Visión Gemini: {place.name} -> {added} platos",
+                            file=sys.stderr,
+                        )
         print(
             f"Visión Gemini: {vision_dishes} platos nuevos en {vision_places} locales"
         )

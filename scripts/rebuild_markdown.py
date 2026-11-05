@@ -40,14 +40,7 @@ def main() -> int:
             place_id = row.get("place_id")
             if not place_id:
                 continue
-            menus.setdefault(place_id, []).append(
-                {
-                    "name": row.get("name"),
-                    "price": row.get("price"),
-                    "category": row.get("category"),
-                    "description": row.get("description"),
-                }
-            )
+            menus.setdefault(place_id, []).append(row)
 
     markdown = document(records, menus, date.today().isoformat())
     md_path = data_dir / f"{args.basename}.md"

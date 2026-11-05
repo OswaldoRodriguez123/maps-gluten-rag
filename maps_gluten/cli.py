@@ -144,6 +144,10 @@ def main(argv: list[str] | None = None) -> int:
     except ValueError:
         vision_photos = 3
     try:
+        vision_concurrency = int(os.getenv("MAPS_VISION_CONCURRENCY", "2"))
+    except ValueError:
+        vision_concurrency = 2
+    try:
         reuse_runs = int(os.getenv("MAPS_REUSE_RUNS", "0"))
     except ValueError:
         reuse_runs = 0
@@ -234,6 +238,7 @@ def main(argv: list[str] | None = None) -> int:
                             vision_key=vision_key if vision_enabled else None,
                             vision_max_photos=vision_photos,
                             vision_max_places=vision_places,
+                            vision_concurrency=vision_concurrency,
                             photo_cache=photo_cache,
                             refresh_photos=_env_bool("MAPS_REFRESH_PHOTOS", False),
                             reuse_recent_runs=reuse_runs,

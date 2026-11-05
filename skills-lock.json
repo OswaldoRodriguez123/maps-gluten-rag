@@ -1,0 +1,32 @@
+{
+  "version": 1,
+  "skills": {
+    "async-python-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "github",
+      "skillPath": "plugins/python-development/skills/async-python-patterns/SKILL.md",
+      "computedHash": "35bc80697c3ba879e32cee7e2728ed2db0d16499875bb718736fd1160fddc2d6"
+    },
+    "bash-defensive-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "autoskills-registry",
+      "computedHash": "2c6409224fbb56ceff6655b73cb03a736ea6c89e622734752c568efafd59a964"
+    },
+    "engineering-flow": {
+      "source": "danicat/skills",
+      "sourceType": "github",
+      "skillPath": "coding/engineering-flow/SKILL.md",
+      "computedHash": "e5b29ff1963e165034e91fc445a3f49d21d12d01a07c86f33290ab2296b80aab"
+    },
+    "python-executor": {
+      "source": "inferen-sh/skills",
+      "sourceType": "autoskills-registry",
+      "computedHash": "2e6c3a689e19bee7533b10d3b9954e38873e6dc3d0db73ff4e693e627f8c92cb"
+    },
+    "python-testing-patterns": {
+      "source": "wshobson/agents",
+      "sourceType": "autoskills-registry",
+      "computedHash": "c8f806cc10a5b3daeb0f5fd31bfaa751019e23e78e2708b7f4de470d6b7ad4e9"
+    }
+  }
+}

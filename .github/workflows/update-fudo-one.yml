@@ -74,7 +74,17 @@ jobs:
             args+=(--menu-url "$MENU_URL")
           fi
           python scripts/update_menu_place.py \
-            --place "$PLACE" --fudo --db data/historial_lugares.db --publish "${args[@]}"
+            --place "$PLACE" --fudo --db data/historial_lugares.db "${args[@]}"
+
+      - name: Normalizar y reconstruir
+        env:
+          GDOC_ID: ${{ vars.GDOC_ID }}
+          GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
+        run: |
+          python scripts/normalize_menus.py --places data/mis_lugares_sin_gluten.jsonl --menus data/mis_lugares_sin_gluten_menus.jsonl --out-dir data/normalized
+          python scripts/apply_normalization.py --places data/mis_lugares_sin_gluten.jsonl --normalized-dir data/normalized --out-dir data --db data/historial_lugares.db
+          python scripts/rebuild_markdown.py --publish
+          rm -rf data/normalized
 
       - name: Guardar cambios
         run: |
