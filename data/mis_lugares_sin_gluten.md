@@ -129,21 +129,85 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** pollo, sándwich, cheesecake, tiramisú, dulces
 - **Menciona en reseñas:** ensalada, cheesecake, dulces
 - **Fecha de registro:** 2026-03-23
+- **Dietético:** 1 platos sin gluten, 6 veganos
 
 ### Qué vende
 
-- «Ensaladas
-- Sandwich
-- Wraps
+- Arma tu plato
+- Cremas Calientes
+- Sándwich y Tostadas
+- Dulcería
+- Cafetería
+- Bebidas frías
 
 
 ### Carta
 
-- Shawarmas
-- Lasaña
-- Alfajor
-- Brownie
-- Galletones
+#### Arma tu plato
+
+- Atún — $9.690
+- Camarón — $9.890
+- Fettuccine al Pesto — $6.590
+- Fettuccine al Pesto con Pollo — $8.240
+- Fettuccine en salsa Napolitana — $6.590
+- Fettuccine en salsa Napolitana con Pollo — $8.340
+- Hummus — $8.590
+- Pollo — $9.690
+- Roast beef — $9.890
+- Tofu — $9.690
+
+#### Cremas Calientes
+
+- Crema De Zapallo — $6.990
+
+#### Sándwich y Tostadas
+
+- Croissant de jamón y queso — $3.990
+- Lasaña — $7.150
+- Paila de huevos — $8.790
+- Sandwich Ave Mayo — $3.990
+- Sandwich Ave Pimentón — $3.990
+- Sandwich Saludable — $6.040 [vegano]
+- Tostadas b-fresh hummus — $7.140 [vegano]
+- Tostadas b-fresh mixta — $7.140 [vegano]
+- Tostadas b-fresh palta — $7.140 [vegano]
+
+#### Dulcería
+
+- Alfajor Tradicional — $2.490
+- Alfajor de Coco sin gluten — $3.000 [sin gluten]
+- Cheesecake de frambuesa — $6.290
+- Kuchen de Nuez — $5.390
+- Media Luna — $1.200
+- PRALINÉ DE AVELLANAS — $5.990 [vegano]
+- Queque de Zanahoria — $4.490
+- Tiramisú — $5.990
+- Torta de zanahoria — $5.990 [vegano]
+
+#### Cafetería
+
+- Americano — $3.240
+- Cappuccino — $4.050
+- Chocolate caliente — $5.250
+- Espresso — $2.990
+- Flat white — $3.490
+- Ice coffee — $4.590
+- Latte — $4.630
+- Latte sabor caramelo — $5.530
+- Latte sabor vainilla — $5.530
+- Mocaccino — $5.440
+- Te chai latte — $5.250
+
+#### Bebidas frías
+
+- Agua saborizada — $4.940
+- Bebidas — $1.990
+- Frutos Rojos
+- Jugos — $4.590
+- Mango
+- Piña
+- Smoothies en agua — $4.940
+- Te frio — $4.940
 
 
 ## BAR EL BAJO
@@ -1659,21 +1723,87 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 ### Qué vende
 
-- Tortas
+- Pizzas
+- Sin Azúcar
+- Sándwiches
+- Porciones
+- Extras
 - Galletas
-- Jugos naturales
+- Panaderia
+- Bebidas frías
+- Papas
 
 
 ### Carta
 
-- Rústico
-- De queso
-- Rollos de canela
-- Papas fritas
-- Café
-- Mechada - Queso
-- Tomate - Queso
-- Jamón - Queso
+#### Pizzas
+
+- Pizza jamón — $10.500
+- Pizza promo 2x1 — $14.990
+- Pizza queso — $9.500
+- Pizza pepperoni — $11.500
+
+#### Sin Azúcar
+
+- Agua sin gas benedictino — $1.500 [sin azúcar]
+- Agua con gas benedictino — $1.500 [sin azúcar]
+
+#### Sándwiches
+
+- Sándwich clásico — $6.800
+- Sándwich mechada queso — $8.900
+- Sándwich tomate palmita — $7.900
+
+#### Porciones
+
+- Porción Choco Choco — $5.800
+- Porción Carrot Cake — $5.800
+- Porción Cheesecake — $5.800
+- Porción Tres Leches — $5.800
+- Porción Frutilla Cremosa — $5.800
+- Porción Cuatro Leches — $5.800
+- Porción de trufas — $2.800
+- Pie de limón — $5.800
+
+#### Extras
+
+- Extra mayo — $800
+- Extra ketchup — $800
+- Extra jamón — $1.000
+- Extra queso rodda — $1.500
+- Extra queso palmita — $1.500
+- Extra aceite de oliva — $1.000
+- Extra carne mechada — $1.500
+- Extra tomate — $800
+- Generico — $1.000
+
+#### Galletas
+
+- Galletas N.Y Chocolate — $4.890
+- Galletas N.Y Pistacho — $4.990
+- Galletas N.Y Red Velvet — $4.990
+- Brookie — $5.490
+
+#### Panaderia
+
+- Roles de canela — $4.800
+- Tequeños — $5.900
+- Profiteroles — $5.600
+- Pan de queso — $3.700
+- Pan rustico (Congelado) — $5.490
+- Empanada napolitana — $5.000
+
+#### Bebidas frías
+
+- Jugo de frutilla — $4.500
+- Jugo de mango — $4.500
+- Jugo de piña — $4.500
+
+#### Papas
+
+- Papas grandes — $4.500
+- Papas chicas — $2.500
+- Papas mechada queso — $7.500
 
 
 ## Dulces aplv
@@ -4954,13 +5084,58 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en reseñas:** torta, pastel, brownie, dulces
 - **Fecha de registro:** 2025-11-23
 
+### Qué vende
+
+- Tortas
+- Cheesecakes
+- Snacks y postres
+- Carta Cero Lácteos SIBO
+
+
 ### Carta
 
-- Filete de Pollo — $3.500
-- Garbanzos — $3.500
-- Fritos de Coliflor — $3.500
-- Tutos teriyaki — $3.500
-- Tortilla Española — $3.500
+#### Tortas
+
+- Brazo de la Reina Laly — $31.990
+- La Prima Dubái Style
+- Red Velvet
+- Torta Amor Rebelde
+- Torta Andreita
+- Torta Caluga — $37.990
+- Torta Carrot Cake Low Carb
+- Torta Corazón — $18.990
+
+#### Cheesecakes
+
+- Cheescake Chocolate
+- Cheesecake Capuccino
+- Cheesecake Frutos del bosque
+- Cheesecake Manjar y frambuesas
+- Cheesecake Nutella
+- Cheesecake de Maracuyá
+- Kuchen Nuez
+- Pie de Limón
+
+#### Snacks y postres
+
+- Alfajores Keto — $12.990
+- Galletón de Nuez — $4.490
+- Manjar Rebelde — $7.990
+- Manjarate — $5.290
+- Manjarate Familiar — $24.990
+- Muffin Red Velvet — $4.490
+- Negritas — $13.990
+
+#### Carta Cero Lácteos SIBO
+
+- Pie de Limón cero lacteos 6 porciones — $21.990
+- Torta Margarita Cero 4 porciones — $15.990
+- Torta Margarita Cero lacteos
+- Torta Red Velvet cero lacteos
+- Torta de la Negrita cero 4 porciones — $16.990
+- Torta de la Negrita cero lacteos
+- Torta del Padrino cero 4 porciones — $15.990
+- Torta del Padrino cero lacteos
 
 
 ## REFUGIO PUB ÑUÑOA
