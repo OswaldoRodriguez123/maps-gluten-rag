@@ -36,7 +36,8 @@ Qué hace el workflow (`.github/workflows/scrape.yml`):
 - guarda `data/historial_lugares.db` en la caché de Actions para mantener el dedup entre corridas (el archivo está en `.gitignore`);
 - copia el resultado a un Google Doc si `GDOC_ID` está configurado;
 - publica el `.md` y el `.jsonl` como artefacto descargable;
-- corre todos los lunes a las 08:00 UTC (03:00 en Colombia).
+- corre todos los lunes a las **13:00 de Chile**. Programa dos crons (16:00 y 17:00 UTC) y un paso comprueba la hora local, así sigue siendo la 1 pm cuando cambia el horario de verano.
+- usa `America/Santiago` y `es-CL` para fechas y textos.
 
 El cron de GitHub puede retrasarse unos minutos cuando hay carga. No requiere tu Mac encendido. Si agregas lugares antes del lunes, dispara el workflow a mano desde *Actions → Run workflow*.
 
@@ -78,10 +79,19 @@ Es una **mención**, no una garantía: puede venir de una reseña o de una secci
 
 - Las reseñas y los temas solo cargan en la ficha con **ventana**; por eso el workflow usa `xvfb` y `MAPS_HEADLESS=0`. En local, ejecuta con `--no-headless`.
 - Caché: 30 días (`MAPS_ENRICH_DAYS`) más una versión interna que fuerza una re-extracción cuando cambia el enriquecido.
-- La primera corrida tarda ~10–15 minutos; las siguientes no repiten las fichas.
+- La primera corrida tarda ~15–25 minutos; las siguientes no repiten las fichas.
 - Desactivar: `MAPS_ENRICH=0` o `--no-enrich`.
 - Forzar: `--refresh-enrichment`.
-- Menús en PDF: se leen con `pypdf`. Imágenes o cartas escaneadas no.
+
+### OCR de cartas escaneadas
+
+Con `MAPS_OCR=1` (activo en el workflow):
+
+- Los **PDF** se leen primero con `pypdf`. Si no tienen texto (escaneados), se renderizan con `pypdfium2` y se pasan por Tesseract (`spa+eng`).
+- En las webs, si la página de menú no tiene texto suficiente, se descargan hasta 3 imágenes candidatas (sin logos ni iconos) y se les aplica OCR.
+- En GitHub Actions se instala `tesseract-ocr` y `tesseract-ocr-spa`. En local: `brew install tesseract tesseract-lang` o el paquete equivalente.
+
+Límites: la calidad depende de la foto; cartas con letra muy pequeña, inclinadas o con fondo complejo pueden fallar. El OCR puede confundir palabras y generar falsos positivos. Las imágenes de la pestaña **Carta** de la app de Google Maps no se pueden aislar desde la web, así que no se intenta OCR sobre ellas.
 
 ## Local (opcional)
 
@@ -139,6 +149,6 @@ maps-gluten-rag/
 
 - `entitylist/getlist` es un endpoint interno, no una API pública. Puede cambiar sin aviso; el respaldo DOM y `--debug` existen para eso.
 - La valoración y la categoría no vienen en el payload de la lista: se toman de las filas del DOM. Google no las muestra para algunos locales, así que esos quedan sin valoración o sin categoría.
-- Los platos se detectan por palabras clave en la web y en las reseñas del local. No es un menú estructurado: puede haber falsos positivos y faltan los locales sin web o con carta solo en imagen.
+- Los platos se detectan por palabras clave en la web, en PDFs, en imágenes de menú con OCR y en las reseñas del local. No es un menú estructurado: puede haber falsos positivos y faltan los locales sin web ni reseñas.
 - Revisa los términos de uso de Google Maps antes de automatizarlo a diario. Para un uso personal y de bajo volumen es lo habitual; no lo uses como servicio para terceros.
 - Si la lista es privada y Google invalida la sesión, `run` falla sin tocar la base y te lo dice en el log. Vuelve a ejecutar `login`.

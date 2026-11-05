@@ -63,6 +63,12 @@ def _build_parser() -> argparse.ArgumentParser:
         action="store_true",
         help="Ignora la caché y vuelve a enriquecer todos los locales.",
     )
+    run.add_argument(
+        "--ocr",
+        action=argparse.BooleanOptionalAction,
+        default=None,
+        help="OCR en PDFs escaneados e imágenes de menú (por defecto MAPS_OCR o no).",
+    )
 
     publish = sub.add_parser("publish", help="Copia el Markdown generado a un Google Doc.")
     publish.add_argument("--doc-id", help="ID del Google Doc (por defecto GDOC_ID).")
@@ -120,6 +126,7 @@ def main(argv: list[str] | None = None) -> int:
     headless = args.headless if args.headless is not None else _env_bool("MAPS_HEADLESS", True)
     debug = args.debug or _env_bool("MAPS_DEBUG", False)
     enrich_enabled = args.enrich if args.enrich is not None else _env_bool("MAPS_ENRICH", True)
+    ocr_enabled = args.ocr if args.ocr is not None else _env_bool("MAPS_OCR", False)
     try:
         enrich_days = args.enrich_days if args.enrich_days is not None else int(os.getenv("MAPS_ENRICH_DAYS", "30"))
     except ValueError:
@@ -144,6 +151,7 @@ def main(argv: list[str] | None = None) -> int:
                 enrich_days=enrich_days,
                 enrich_force=args.refresh_enrichment,
                 today=today,
+                enrich_ocr=ocr_enabled,
             )
         except Exception as error:
             print(f"Error al extraer la lista: {error}", file=sys.stderr)

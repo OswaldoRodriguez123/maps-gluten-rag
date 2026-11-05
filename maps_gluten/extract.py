@@ -582,6 +582,7 @@ def scrape_list(
     enrich_days: int = 30,
     enrich_force: bool = False,
     today: str | None = None,
+    enrich_ocr: bool = False,
 ) -> tuple[str, str | None, list[Place], bool]:
     captured: dict[str, str] = {}
     with sync_playwright() as p:
@@ -661,6 +662,7 @@ def scrape_list(
                         max_age_days=enrich_days,
                         force=enrich_force,
                         today=datetime.fromisoformat(today).date() if today else None,
+                        ocr=enrich_ocr,
                     )
                 except Exception:
                     pass

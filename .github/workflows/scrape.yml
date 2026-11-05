@@ -2,7 +2,7 @@ name: Actualizar lista de Google Maps
 
 on:
   schedule:
-    - cron: "0 8 * * 1"
+    - cron: "0 16,17 * * 1"
   workflow_dispatch:
     inputs:
       url:
@@ -17,19 +17,38 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  scrape:
+  hora:
     runs-on: ubuntu-latest
-    timeout-minutes: 40
+    outputs:
+      run: ${{ steps.check.outputs.run }}
+    steps:
+      - name: Comprobar 13:00 en Chile
+        id: check
+        run: |
+          hora=$(TZ=America/Santiago date +%H)
+          echo "Hora en Chile: $hora"
+          if [ "$hora" = "13" ]; then
+            echo "run=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "run=false" >> "$GITHUB_OUTPUT"
+          fi
+
+  scrape:
+    needs: hora
+    if: github.event_name == 'workflow_dispatch' || needs.hora.outputs.run == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
     env:
       MAPS_LIST_URL: ${{ github.event.inputs.url || vars.MAPS_LIST_URL || 'https://maps.app.goo.gl/FWzyQ6w2AYSDTZZYA' }}
-      MAPS_TIMEZONE: America/Bogota
-      MAPS_LOCALE: es-CO
+      MAPS_TIMEZONE: America/Santiago
+      MAPS_LOCALE: es-CL
       MAPS_HEADLESS: "0"
       MAPS_BROWSER_CHANNEL: ""
       MAPS_OUT_DIR: data
       MAPS_OUT_BASENAME: mis_lugares_sin_gluten
       MAPS_ENRICH: "1"
       MAPS_ENRICH_DAYS: "30"
+      MAPS_OCR: "1"
 
     steps:
       - name: Checkout
@@ -49,8 +68,10 @@ jobs:
       - name: Chromium
         run: python -m playwright install --with-deps chromium
 
-      - name: Pantalla virtual
-        run: sudo apt-get update && sudo apt-get install -y xvfb
+      - name: Pantalla virtual y OCR
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y xvfb tesseract-ocr tesseract-ocr-spa
 
       - name: Restaurar histórico
         uses: actions/cache@v4

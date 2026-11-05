@@ -10,7 +10,7 @@ from html.parser import HTMLParser
 from io import BytesIO
 from urllib.parse import urljoin, urlparse
 
-ENRICH_VERSION = 2
+ENRICH_VERSION = 3
 
 DISH_STEMS = {
     "hamburgues": "hamburguesa",
@@ -183,6 +183,99 @@ class _LinkParser(HTMLParser):
             self._text = []
 
 
+class _ImageParser(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.images: list[str] = []
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "img":
+            data = dict(attrs)
+            source = data.get("src") or data.get("data-src") or ""
+            if source:
+                self.images.append(source)
+
+
+BAD_IMAGE_RE = re.compile(
+    r"(logo|icon|favicon|sprite|avatar|social|facebook|instagram|whatsapp|pixel|tracking|banner)",
+    re.IGNORECASE,
+)
+
+
+def _ocr_image(image) -> str:
+    try:
+        import pytesseract
+    except Exception:
+        return ""
+    for language in ("spa+eng", "eng"):
+        try:
+            return pytesseract.image_to_string(image, lang=language)
+        except Exception:
+            continue
+    return ""
+
+
+def _ocr_bytes(raw: bytes) -> str:
+    try:
+        from PIL import Image
+    except Exception:
+        return ""
+    try:
+        image = Image.open(BytesIO(raw))
+        if image.width < 300 or image.height < 200:
+            return ""
+        return _ocr_image(image)
+    except Exception:
+        return ""
+
+
+def _ocr_pdf(raw: bytes) -> str:
+    try:
+        import pypdfium2 as pdfium
+    except Exception:
+        return ""
+    try:
+        document = pdfium.PdfDocument(raw)
+        parts: list[str] = []
+        for index in range(min(10, len(document))):
+            page = document[index]
+            bitmap = page.render(scale=2.0)
+            parts.append(_ocr_image(bitmap.to_pil()))
+        return " ".join(parts)
+    except Exception:
+        return ""
+
+
+def _download_image(url: str, timeout: int = 10) -> bytes:
+    try:
+        request = urllib.request.Request(url, headers={"User-Agent": UA})
+        with urllib.request.urlopen(request, timeout=timeout) as response:
+            content_type = (response.headers.get_content_type() or "").lower()
+            if not content_type.startswith("image/"):
+                return b""
+            return response.read(8_000_000)
+    except Exception:
+        return b""
+
+
+def _candidate_images(images: list[str], base: str, limit: int = 3) -> list[str]:
+    found: list[str] = []
+    for source in images:
+        if not source or source.startswith("data:"):
+            continue
+        if BAD_IMAGE_RE.search(source):
+            continue
+        full = urljoin(base, source)
+        if not full.startswith(("http://", "https://")):
+            continue
+        if full in found:
+            continue
+        found.append(full)
+        if len(found) >= limit:
+            break
+    return found
+
+
 def _normalize(value: str) -> str:
     value = unicodedata.normalize("NFKD", value or "")
     value = "".join(ch for ch in value if not unicodedata.combining(ch))
@@ -200,7 +293,7 @@ def detect_dishes(text: str) -> list[str]:
     return found
 
 
-def _fetch(url: str, timeout: int = 12) -> tuple[str, str, list[tuple[str, str]]]:
+def _fetch(url: str, timeout: int = 12) -> tuple[str, str, list[tuple[str, str]], list[str]]:
     request = urllib.request.Request(
         url,
         headers={"User-Agent": UA, "Accept-Language": "es-CL,es;q=0.9,en;q=0.8"},
@@ -213,16 +306,19 @@ def _fetch(url: str, timeout: int = 12) -> tuple[str, str, list[tuple[str, str]]
 
     is_pdf = content_type == "application/pdf" or final_url.lower().split("?")[0].endswith(".pdf")
     if is_pdf:
+        text = ""
         try:
             from pypdf import PdfReader
 
             reader = PdfReader(BytesIO(raw))
             text = " ".join((page.extract_text() or "") for page in reader.pages[:40])
-            return final_url, text, []
         except Exception:
-            return final_url, "", []
+            text = ""
+        if len(text.strip()) < 100:
+            text = _ocr_pdf(raw)
+        return final_url, text, [], []
     if content_type and content_type not in {"text/html", "text/plain", "application/xhtml+xml"}:
-        return final_url, "", []
+        return final_url, "", [], []
 
     try:
         html = raw.decode(charset, "ignore")
@@ -232,7 +328,9 @@ def _fetch(url: str, timeout: int = 12) -> tuple[str, str, list[tuple[str, str]]
     text_parser.feed(html)
     link_parser = _LinkParser()
     link_parser.feed(html)
-    return final_url, " ".join(text_parser.parts), link_parser.links
+    image_parser = _ImageParser()
+    image_parser.feed(html)
+    return final_url, " ".join(text_parser.parts), link_parser.links, image_parser.images
 
 
 def _menu_links(base: str, links: list[tuple[str, str]]) -> list[str]:
@@ -254,22 +352,32 @@ def _menu_links(base: str, links: list[tuple[str, str]]) -> list[str]:
     return found[:2]
 
 
-def _site_dishes(url: str) -> list[str]:
+def _site_dishes(url: str, ocr: bool = False) -> list[str]:
     try:
-        final_url, text, links = _fetch(url)
+        final_url, text, links, images = _fetch(url)
     except (urllib.error.URLError, ValueError, OSError):
         return []
     dishes = detect_dishes(text)
     if dishes:
         return dishes
+    menu_images: list[str] = []
     for menu_url in _menu_links(final_url, links):
         try:
-            _, menu_text, _ = _fetch(menu_url)
+            menu_final, menu_text, _, menu_imgs = _fetch(menu_url)
         except (urllib.error.URLError, ValueError, OSError):
             continue
         dishes = detect_dishes(menu_text)
         if dishes:
             return dishes
+        menu_images.extend(urljoin(menu_final, source) for source in menu_imgs)
+    if ocr:
+        for image_url in _candidate_images(menu_images + images, final_url, limit=3):
+            raw = _download_image(image_url)
+            if not raw:
+                continue
+            dishes = detect_dishes(_ocr_bytes(raw))
+            if dishes:
+                return dishes
     return []
 
 
@@ -321,6 +429,7 @@ def enrich_places(
     max_age_days: int = 30,
     force: bool = False,
     today: date | None = None,
+    ocr: bool = False,
 ) -> int:
     cache = cache or {}
     today = today or date.today()
@@ -349,8 +458,11 @@ def enrich_places(
 
     results: dict[str, list[str]] = {}
     if with_web:
-        with ThreadPoolExecutor(max_workers=8) as pool:
-            futures = {pool.submit(_site_dishes, place.website): place.ftid for place in with_web}
+        with ThreadPoolExecutor(max_workers=4 if ocr else 8) as pool:
+            futures = {
+                pool.submit(_site_dishes, place.website, ocr): place.ftid
+                for place in with_web
+            }
             for future in as_completed(futures):
                 ftid = futures[future]
                 try:
