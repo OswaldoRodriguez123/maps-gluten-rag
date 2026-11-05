@@ -6,7 +6,7 @@ on:
       places:
         description: "Lista separada por comas"
         required: true
-        default: "ALFREE,Biomercado,BuganVilla,Crumbless,Rebelde"
+        default: "ALLFREE,Biomercado,BuganVilla,Crumbless,Rebelde"
       refresh:
         description: "Volver a raspar fotos (ignora la caché)"
         type: boolean
@@ -15,6 +15,9 @@ on:
         description: "Usar Tesseract además de Gemini"
         type: boolean
         default: false
+
+permissions:
+  contents: write
 
 concurrency:
   group: update-menus-batch
