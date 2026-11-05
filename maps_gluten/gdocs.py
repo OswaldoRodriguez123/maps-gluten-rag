@@ -23,6 +23,10 @@ def _blocks(markdown: str) -> list[dict]:
             blocks.append({"type": "h1", "text": line[2:].strip()})
         elif line.startswith("## "):
             blocks.append({"type": "h2", "text": line[3:].strip()})
+        elif line.startswith("### "):
+            blocks.append({"type": "h3", "text": line[4:].strip()})
+        elif line.startswith("#### "):
+            blocks.append({"type": "h4", "text": line[5:].strip()})
         elif line.startswith("- "):
             match = re.match(r"- \*\*(.+?):\*\*\s*(.*)", line)
             if match:
@@ -82,13 +86,18 @@ def _style_requests(positioned: list[dict]) -> list[dict]:
         start = 1 + block["start"]
         end = start + block["length"] + 1
         kind = block["type"]
-        if kind == "h1" or kind == "h2":
+        if kind in {"h1", "h2", "h3", "h4"}:
             requests.append(
                 {
                     "updateParagraphStyle": {
                         "range": {"startIndex": start, "endIndex": end},
                         "paragraphStyle": {
-                            "namedStyleType": "HEADING_1" if kind == "h1" else "HEADING_2"
+                            "namedStyleType": {
+                                "h1": "HEADING_1",
+                                "h2": "HEADING_2",
+                                "h3": "HEADING_3",
+                                "h4": "HEADING_4",
+                            }[kind]
                         },
                         "fields": "namedStyleType",
                     }
