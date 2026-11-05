@@ -94,7 +94,7 @@ jobs:
         run: python -m playwright install chromium
 
       - name: Restaurar histórico
-        uses: actions/cache@v4
+        uses: actions/cache/restore@v4
         with:
           path: data/historial_lugares.db
           key: maps-gluten-db-${{ github.run_id }}
@@ -114,17 +114,36 @@ jobs:
             echo "Sin cambios"
           else
             git commit -m "chore: actualizar lista $(date -u +%F)"
-            git push
+            ok=0
+            for i in 1 2 3; do
+              if git pull --rebase --autostash origin main && git push; then
+                ok=1
+                break
+              fi
+              sleep 5
+            done
+            if [ "$ok" != "1" ]; then
+              echo "No se pudo empujar el commit de datos" >&2
+              exit 1
+            fi
           fi
 
       - name: Publicar en Google Doc
-        if: ${{ vars.GDOC_ID != '' }}
+        if: ${{ always() && vars.GDOC_ID != '' }}
         env:
           GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
           GDOC_ID: ${{ vars.GDOC_ID }}
         run: python -m maps_gluten publish
 
+      - name: Guardar histórico
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/historial_lugares.db
+          key: maps-gluten-db-${{ github.run_id }}
+
       - name: Publicar artefactos
+        if: always()
         uses: actions/upload-artifact@v4
         with:
           name: mapas-sin-gluten
@@ -132,4 +151,5 @@ jobs:
             data/mis_lugares_sin_gluten.md
             data/mis_lugares_sin_gluten.jsonl
             data/mis_lugares_sin_gluten_menus.jsonl
+          if-no-files-found: warn
           retention-days: 30
