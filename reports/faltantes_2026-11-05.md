@@ -1,20 +1,20 @@
 # Restaurantes con poca data — después de P0, visión y tiendas
 
-_Fecha: 2026-11-05 · Fuente: Doc regenerado con normalización P0 + visión + catálogos web_
+_Fecha: 2026-11-05 · Fuente: Doc regenerado_
 
 ## Resumen
 
 - **100 lugares** en la lista.
-- **76 con platos publicables**: 3429 platos.
-- **1 solo con categorías** (sin platos específicos).
+- **76 con platos publicables**: 3553 platos.
+- **1 solo con categorías**.
 - **23 sin carta ni categorías**: 15 sin web y 8 con web.
-- **19 con carta corta** (1-9 platos).
-- **17 con menos del 50% de precios**.
-- **4 con mucho ruido** (revisión + rechazados >= 20).
+- **15 con carta corta** (1-9 platos).
+- **14 con menos del 50% de precios**.
+- **4 con mucho ruido**.
 - **33 sin web registrada**.
-- **4 sin ningún dato** (sin web, sin menciones, sin reseñas, sin carta).
+- **4 sin ningún dato**.
 
-## 1. Sin carta ni categorías y sin web (solo reseñas o nada)
+## 1. Sin carta ni categorías y sin web
 
 | name | cat | web_n | rev_n | review | rejected |
 |---|---|---|---|---|---|
@@ -34,7 +34,7 @@ _Fecha: 2026-11-05 · Fuente: Doc regenerado con normalización P0 + visión + c
 | Montenegro 391 | Sin categoría | 0 | 0 | 0 | 0 |
 | Mr Foodie | Supermercado | 0 | 0 | 1 | 0 |
 
-## 2. Sin carta ni categorías, pero con web (revisar web/JSON-LD)
+## 2. Sin carta ni categorías, pero con web
 
 | name | cat | web_n | rev_n | review | rejected | url |
 |---|---|---|---|---|---|---|
@@ -47,7 +47,7 @@ _Fecha: 2026-11-05 · Fuente: Doc regenerado con normalización P0 + visión + c
 | Glutenberg | Pastelería | 0 | 4 | 0 | 0 | https://www.glutenberg.cl/ |
 | Jardin de Gente | Cafetería | 0 | 3 | 0 | 0 | http://www.jardindegente.cl/ |
 
-## 3. Solo categorías (saben qué venden, pero no hay platos)
+## 3. Solo categorías
 
 - **La Comarca Celiaca**: Sandwiches, Empanadas, Sopaipillas, Pizzas, Pasteleria, Jugos Naturales
 
@@ -55,27 +55,23 @@ _Fecha: 2026-11-05 · Fuente: Doc regenerado con normalización P0 + visión + c
 
 | name | cat | dishes | prices | review | rejected |
 |---|---|---|---|---|---|
-| BAR EL BAJO | Bar | 1 | 1 | 2 | 2 |
+| BAR EL BAJO | Bar | 1 | 1 | 0 | 1 |
 | Emporio de la Tierra | Tienda de alimentos naturales | 1 | 0 | 0 | 0 |
 | Fain | Tienda de alimentos naturales | 1 | 1 | 0 | 0 |
 | Las Petunias Pastelería sin azúcar y sin gluten | Pastelería | 1 | 0 | 1 | 0 |
 | Violeta Patisserie | Pastelería | 1 | 0 | 4 | 0 |
-| Bonheur Keto Patisserie | Pastelería | 2 | 2 | 2 | 0 |
+| Bonheur Pâtisserie | Pastelería | 2 | 2 | 0 | 2 |
 | BuganVilla cafe & market | Tienda de delicatessen | 2 | 2 | 0 | 0 |
-| Café Kanela | Cafetería | 2 | 0 | 2 | 0 |
-| Pastelería Kleine Nuss | Pastelería | 2 | 0 | 5 | 1 |
 | COMERCIAL RAKKO | Tienda de alimentos naturales | 3 | 3 | 0 | 0 |
 | Gusto's - Keto, health & gluten free | Restaurante de comida sin gluten | 3 | 0 | 2 | 0 |
 | Pizzeria Latinoamericana | Pizzería a domicilio | 3 | 3 | 0 | 0 |
 | Productos El Pueblo | Panadería | 4 | 4 | 0 | 0 |
-| B Fresh | Cafetería | 5 | 0 | 1 | 1 |
-| Rebelde Pastelería Keto | Pastelería | 5 | 5 | 1 | 0 |
+| Pastelería Kleine Nuss | Pastelería | 5 | 5 | 0 | 0 |
 | Yoko Sea Food | Restaurante peruano | 6 | 6 | 0 | 0 |
+| Café Kanela | Cafetería | 7 | 7 | 1 | 0 |
 | Biomercado Sin Gluten | Tienda de alimentación | 8 | 0 | 0 | 0 |
-| Bonheur Pâtisserie | Pastelería | 8 | 8 | 9 | 1 |
-| Crumbless Gluten Free Bakery | Restaurante de comida sin gluten | 8 | 0 | 0 | 0 |
 
-## 5. Precios incompletos (<50% de platos con precio)
+## 5. Precios incompletos (<50%)
 
 | name | cat | dishes | prices | review | rejected |
 |---|---|---|---|---|---|
@@ -83,11 +79,7 @@ _Fecha: 2026-11-05 · Fuente: Doc regenerado con normalización P0 + visión + c
 | Cetortillas - Low Carb Factory | Tortillería | 20 | 0 | 7 | 7 |
 | Sapiens | Restaurante vegano | 18 | 0 | 7 | 0 |
 | Biomercado Sin Gluten | Tienda de alimentación | 8 | 0 | 0 | 0 |
-| Crumbless Gluten Free Bakery | Restaurante de comida sin gluten | 8 | 0 | 0 | 0 |
-| B Fresh | Cafetería | 5 | 0 | 1 | 1 |
 | Gusto's - Keto, health & gluten free | Restaurante de comida sin gluten | 3 | 0 | 2 | 0 |
-| Café Kanela | Cafetería | 2 | 0 | 2 | 0 |
-| Pastelería Kleine Nuss | Pastelería | 2 | 0 | 5 | 1 |
 | Emporio de la Tierra | Tienda de alimentos naturales | 1 | 0 | 0 | 0 |
 | Las Petunias Pastelería sin azúcar y sin gluten | Pastelería | 1 | 0 | 1 | 0 |
 | Violeta Patisserie | Pastelería | 1 | 0 | 4 | 0 |
@@ -96,8 +88,9 @@ _Fecha: 2026-11-05 · Fuente: Doc regenerado con normalización P0 + visión + c
 | Alma Chilanga | Restaurante mexicano | 24 | 5 | 15 | 9 |
 | Pizza Bistrot | Restaurante | 24 | 8 | 2 | 2 |
 | Piegari Chile | Restaurante italiano | 21 | 7 | 9 | 1 |
+| Rebelde Pastelería Keto | Pastelería | 31 | 14 | 1 | 0 |
 
-## 6. Mucho ruido de extracción (revisión + rechazados >= 20)
+## 6. Mucho ruido
 
 | name | cat | dishes | review | rejected |
 |---|---|---|---|---|
