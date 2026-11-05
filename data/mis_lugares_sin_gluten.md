@@ -219,9 +219,16 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en reseñas:** ceviche, poke, churro
 - **Fecha de registro:** 2025-10-05
 
+### Qué vende
+
+- Box Party
+
+
 ### Carta
 
-- LO LES — $7.500
+#### Box Party
+
+- Box Party con tu bebida de autor favorita — $11.500
 
 
 ## Bar Italia
@@ -295,10 +302,44 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en reseñas:** torta, pastel, alfajor, dulces
 - **Fecha de registro:** 2026-05-14
 
+### Qué vende
+
+- DESPACHOS
+- Café
+- Bebidas frías
+
+
 ### Carta
 
-- Santiago Centro — $54.500
-- Colina y CHICUREO — $56.000
+#### DESPACHOS
+
+- Santiago Centro — $4.500
+- Colina y CHICUREO — $6.000
+
+#### Café
+
+- Espresso — $2.200
+- Espresso doble — $3.000
+- Americano — $2.200
+- Cortado — $3.500
+- Latte — $4.000
+- Té variedades (en bolsita) — $2.500
+- Té chai — $3.000
+- Té pink detox — $3.000
+- Chai Latte — $4.600
+- Matcha Latte — $4.600
+- Leche vegetal extra — $1.000
+
+#### Bebidas frías
+
+- Cold brew — $3.900
+- Latte frío — $4.200
+- Iced Matcha latte — $4.900
+- Iced Matcha berries — $4.900
+- Chai latte frío — $5.300
+- Iced protein strawberries — $5.300
+- Jugo de Berries — $5.300
+- Jugo de Frutilla — $5.300
 
 
 ## Bonheur Pâtisserie
@@ -311,16 +352,17 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en reseñas:** torta, pastel, alfajor, muffin, postre, dulces
 - **Fecha de registro:** 2025-11-23
 
+### Qué vende
+
+- DESPACHOS
+
+
 ### Carta
 
-- ES = doble carga de café concentrado — $2.200
-- <i Té chai 3 — $3.000
-- Té pink detox : $ — $3.000
-- Chai Latte — $4.600
-- Latte frío — $4.200
-- Iced Matcha latte — $4.900
-- Jugo de Berries — $5.300
-- Jugo de Frutilla — $5.300
+#### DESPACHOS
+
+- Santiago Centro — $4.500
+- Colina y CHICUREO — $6.000
 
 
 ## BuganVilla cafe & market
@@ -1201,11 +1243,28 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=18377711895856028503
 - **Menciona en reseñas:** empanada, torta, pastel, brownie, dulces, jugo
 - **Fecha de registro:** 2026-03-23
+- **Dietético:** 2 veganos
+
+### Qué vende
+
+- Empanadas Veganas
+- Empanadas
+
 
 ### Carta
 
-- PINO NFS
-- + Jugo natural
+#### Empanadas Veganas
+
+- Seitán — $1.500 [vegano]
+- Espinaca Tofu — $1.500 [vegano]
+
+#### Empanadas
+
+- Pino — $1.400
+- Napolitana — $1.400
+- Champiñón Queso — $1.400
+- Camarón Queso — $1.400
+- Carne Mechada Queso — $15
 
 
 ## Casa Juliet
@@ -4356,10 +4415,20 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en reseñas:** pastel, brownie
 - **Fecha de registro:** 2025-11-05
 
-### Carta
+### Qué vende
 
 - Torta Kleine Nuss
-- PASTELERÍA ALEMANA
+
+
+### Carta
+
+#### Torta Kleine Nuss
+
+- Torta Kleine Nuss 10 pers — $28.800
+- Torta Kleine Nuss 15 pers — $37.500
+- Torta Kleine Nuss 20 pers — $46.500
+- Torta Kleine Nuss 30 pers — $61.300
+- Torta Kleine Nuss 40 pers — $74.000
 
 
 ## Pastelería La Celeste
@@ -6520,11 +6589,26 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en reseñas:** sushi, mariscos
 - **Fecha de registro:** 2026-02-15
 
+### Qué vende
+
+- ENTRADA
+- FONDO
+- POSTRE
+
+
 ### Carta
 
-- CHORITOS a la CHALACA — $4.500
+#### ENTRADA
+
+- CHORITOS A LA CHALACA — $4.500
 - CALIFORNIA ROLLS — $4.500
+
+#### FONDO
+
 - AJÍ DE GALLINA — $4.500
 - PASTA SALTADA DE POLLO — $4.500
+
+#### POSTRE
+
 - TORTA 5 LECHES — $4.500
 - MOUSSE FRUTILLA — $4.500
