@@ -549,7 +549,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 5.0 / 5
 - **Enlace:** https://www.google.com/maps?cid=4788914600406122981
 - **Web:** http://www.mercaditosyn.cl/
-- **Menciona en su web:** chocolate, flan, manjar
+- **Menciona en su web:** chocolate, jugo
 - **Fecha de registro:** 2026-04-23
 
 ## Mercado Condell
@@ -594,7 +594,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 ## Pan Pa' Mi
 - **Ubicación:** Av. Simón Bolívar 5145, 7790541 Ñuñoa, Región Metropolitana
 - **Categoría:** Panadería
-- **Valoración:** 2.8 / 5
+- **Valoración:** 2.7 / 5
 - **Enlace:** https://www.google.com/maps?cid=90729477491070284
 - **Web:** https://panpami.cl/
 - **Menciona en su web:** pizza, empanada, sopa, pastel, muffin, dulces
@@ -607,7 +607,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.5 / 5
 - **Enlace:** https://www.google.com/maps?cid=17494267475154547298
 - **Web:** https://www.panart.cl/
-- **Menciona en su web:** hamburguesa, pizza, empanada, hot dog
+- **Menciona en su web:** hamburguesa, pizza, empanada, hot dog, pino, torta, pastel, galleta, brownie, muffin, cheesecake, pie, postre, dulces
 - **Menciona en reseñas:** empanada, pollo, pino, torta, pastel, alfajor, brownie, chocolate, merengue
 - **Fecha de registro:** 2025-11-05
 
