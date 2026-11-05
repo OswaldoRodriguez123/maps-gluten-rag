@@ -93,9 +93,6 @@ def _download(url: str, timeout: int = 15) -> bytes:
     try:
         request = urllib.request.Request(url, headers={"User-Agent": UA})
         with urllib.request.urlopen(request, timeout=timeout) as response:
-            content_type = (response.headers.get_content_type() or "").lower()
-            if not content_type.startswith("image/"):
-                return b""
             return response.read(20_000_000)
     except Exception:
         return b""
