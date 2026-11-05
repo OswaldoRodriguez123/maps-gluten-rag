@@ -71,6 +71,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=5397116729930885107
 - **Web:** https://www.biomercado.cl/
 - **Menciona en su web:** galleta, chocolate, postre, dulces
+- **Carta (Google Maps):** PAN; PASTELES; AVENA; FIDEOS; QUESO VEGANO; HARINAS; GOMA XANTHAN; CHOCOLATES; EMPANADAS DE PINO SIN GLUTEN
 - **Fecha de registro:** 2026-03-23
 
 ## Bonheur Keto Patisserie
@@ -271,6 +272,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://menu.fu.do/crumblessglutenfreebakery
 - **Menciona en su web:** Pizza queso, Pizza pepperoni, Sándwich clásico, Sándwich mechada queso, Sándwich tomate palmita, Extra mayo, Extra ketchup, Extra jamón, Extra queso rodda, Extra queso palmita, Extra aceite de oliva, Extra carne mechada, Extra tomate, Generico, Galletas N.Y Chocolate, Galletas N.Y Pistacho, Galletas N.Y Red Velvet, Brookie, Roles de canela, Profiteroles, Pan de queso, Pan rustico (Congelado), Empanada napolitana, Porción Choco Choco, Porción Carrot Cake, Porción Tres Leches, Porción Frutilla Cremosa, Porción Cuatro Leches, Porción de trufas, Pie de limón, Jugo de frutilla, Jugo de mango, Jugo de piña, Coca cola C/A, Agua sin gas benedictino, Agua con gas benedictino, Papas grandes, Papas chicas, Papas mechada queso, pizza, empanada, carne, sándwich, mechada, torta, galleta, brownie, pie, chocolate, merengue, manjar, jugo
 - **Menciona en reseñas:** torta, galleta, manjar, postre, jugo
+- **Carta (Google Maps):** Rústico; De queso; Rollos de canela; Papas fritas; Tortas; Galletas; Café; Jugos naturales; Mechada - Queso; Tomate - Queso; Jamón - Queso
 - **Fecha de registro:** 2025-10-02
 
 ## Dulces aplv
@@ -788,6 +790,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://www.rebeldeketo.cl/
 - **Menciona en su web:** pastel
 - **Menciona en reseñas:** torta, pastel, brownie, dulces
+- **Carta (Google Maps):** asado Alimán ($3500); Filete de Pollo ($3500); Garbanzos ($3500); Fritos de Coliflor ($3500); Tutos teriyaki ($3500); Tortilla Española ($3500)
 - **Fecha de registro:** 2025-11-23
 
 ## REFUGIO PUB ÑUÑOA
