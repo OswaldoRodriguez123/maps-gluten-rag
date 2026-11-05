@@ -5,9 +5,9 @@ _Fecha: 2026-11-05 · Fuente: Doc regenerado con normalización P0_
 ## Resumen
 
 - **100 lugares** en la lista.
-- **64 con platos publicables**: 2380 platos.
+- **65 con platos publicables**: 2422 platos.
 - **1 solo con categorías** (sin platos específicos).
-- **35 sin carta ni categorías**: 15 sin web y 20 con web.
+- **34 sin carta ni categorías**: 15 sin web y 19 con web.
 - **14 con carta corta** (1-9 platos).
 - **25 con menos del 50% de precios**.
 - **23 con mucho ruido** (revisión + rechazados >= 20).
@@ -40,7 +40,6 @@ _Fecha: 2026-11-05 · Fuente: Doc regenerado con normalización P0_
 |---|---|---|---|---|---|---|
 | Sabores para Alegrar | Pastelería | 11 | 4 | 0 | 0 | http://www.saboresparaalegrar.cl/ |
 | ALLFREE | Tienda de alimentos naturales | 10 | 0 | 0 | 0 | https://www.allfree.cl/ |
-| Light Marías | Restaurante de comida sin gluten | 10 | 6 | 0 | 0 | http://www.lightmarias.cl/ |
 | Thani Gluten Free | Pastelería | 9 | 3 | 0 | 0 | https://www.thani.cl/ |
 | Pastelería La Celeste | Pastelería | 8 | 5 | 0 | 0 | http://www.pastelerialaceleste.cl/ |
 | Massanoglutenfree | Pastelería | 7 | 2 | 0 | 0 | http://www.massanoglutenfree.cl/ |

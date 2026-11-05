@@ -2793,7 +2793,76 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** pasta, curry, pollo, torta, galleta, alfajor, brownie, pie, chocolate, manjar
 - **Menciona en reseñas:** pasta, ensalada, pastel, brownie, chocolate, dulces
 - **Fecha de registro:** 2026-03-01
-- **Dietético:** local 100% sin gluten
+- **Dietético:** local 100% sin gluten, 11 veganos, 15 sin lactosa
+
+### Qué vende
+
+- Desayunos
+- Almuerzos
+- Keto
+- Keto-APLV-Vegano-Sin Lácteos
+- Cajas (2 DIAS DE ANTICIPACIÓN)
+
+
+### Carta
+
+#### Desayunos
+
+- Huevo pochado — $8.200
+- Huevo revuelto — $5.500
+- Mini baguette jamón palta — $5.500
+- Planchadito jamón queso — $5.500 [sin lactosa]
+
+#### Almuerzos
+
+- Palta Reina + Bebida — $15.990
+- Spaghetti de edamame al pesto + Bebida — $15.990
+- Salmón con agregado + Bebida — $17.990 [sin lactosa]
+- Atún grillado con sésamo con acompañamiento + Bebida — $17.990
+- Pollo curry + Bebida — $15.990
+
+#### Keto
+
+- Alfajor Pie de Limón Keto — $5.250
+- Brownie Manjar — $5.340 [sin lactosa]
+- Limonketo — $3.450
+- Florentina Chocolate Blanco — $5.550
+- Galletas finas Keto 50gr — $3.450
+- Barra Salted Caramel — $3.750 [sin azúcar, sin lactosa]
+- Barra Bon o Bon Chocolate Blanco — $3.850
+- Barra Bon o Bon Chocolate Negro — $3.850
+- Barra Manjar Frambuesa — $3.850
+- Barra Manjar S/L Chocolate Blanco — $3.750 [sin azúcar]
+- Barra Manjar S/L Chocolate Negro — $3.740 [sin azúcar, sin lactosa]
+- Barra de Caramelo Chocolate Blanco — $4.200
+- Barra de Caramelo Chocolate Negro — $4.200 [sin lactosa]
+- Alfajor Manjar S/L Chocolate Negro — $4.350 [sin lactosa]
+- Alfajor Bon o Bon Blanco — $4.350
+- Alfajor Manjar Frambuesa Keto — $4.750 [sin azúcar]
+- Alfajor Salted Caramel Chocolate Negro — $4.350 [sin lactosa]
+- Alfajor Mazapán Manjar Keto Chocolate Negro — $4.750 [sin lactosa]
+- Bolitas de nuez manjar — $5.550
+- Caja 7 volcanes manjar sin azúcar-sin lactosa — $14.040 [sin azúcar, sin lactosa]
+
+#### Keto-APLV-Vegano-Sin Lácteos
+
+- Naranjitas Veganas/Sin Lácteos — $8.950 [vegano]
+- Florentina Chocolate Negro — $5.550 [vegano]
+- Barra Manjar de Coco Chocolate Negro — $4.350 [sin azúcar, sin lactosa, vegano]
+- Barra Prestigio manjar de Coco Chocolate Negro — $4.350 [sin azúcar, sin lactosa, vegano]
+- Alfajor Manjar de Coco Keto/Vegano/APLV — $4.750 [sin azúcar, sin lactosa, vegano]
+- Alfajor Mazapán Manjar de Coco Chocolate Negro — $4.850 [sin lactosa, vegano]
+- Barra nutella — $4.550 [vegano]
+- Bastones mantequilla de maní — $6.550 [vegano]
+- Crema de coco Lady Coconut — $7.000 [vegano]
+- Ferroketo (100gr) — $7.040 [vegano]
+- Granola Keto APLV — $4.040 [sin lactosa, vegano]
+
+#### Cajas (2 DIAS DE ANTICIPACIÓN)
+
+- Caja Florentina Chocolate Blanco — $13.000
+- Caja Florentina Chocolate Negro — $13.000
+
 
 ## Lighthouse Bakery
 - **Ubicación:** Av. Gabriel González Videla 3508, 1700000 Coquimbo, La Serena, Coquimbo

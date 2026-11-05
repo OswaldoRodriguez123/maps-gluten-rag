@@ -233,7 +233,8 @@ def classify(name: str, price_value, category: str | None) -> tuple[str, list[st
 
 def normalize_item(row: dict, source: str, place_gluten_free: bool = False) -> dict:
     name, description = split_name_description(row.get("name"), row.get("description"))
-    price_value, currency, price_error = parse_price(row.get("price"))
+    raw_price = row.get("price_display") or row.get("price")
+    price_value, currency, price_error = parse_price(raw_price)
     category = clean_text(row.get("category")) or None
     if category:
         category = re.sub(r"\s+", " ", category).strip()
@@ -264,7 +265,7 @@ def normalize_item(row: dict, source: str, place_gluten_free: bool = False) -> d
         "currency": currency,
         "price_display": format_price(price_value, currency),
         "price_clp": price_value if currency == "CLP" else None,
-        "price_raw": clean_text(row.get("price")) or None,
+        "price_raw": clean_text(raw_price) or None,
         "source": source,
         "confidence": confidence,
         "status": status,
