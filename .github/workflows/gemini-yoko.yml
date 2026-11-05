@@ -145,4 +145,44 @@ jobs:
                               pass
                       print(f" intento {attempt}: ERROR {error} {detail}")
                       time.sleep(15 * attempt)
+
+          print("=== Gemini + Google Maps grounding ===")
+          grounded = {
+              "contents": [{
+                  "parts": [{
+                      "text": (
+                          "Busca Yoko Sea Food en La Serena, Chile. Devuelve SOLO JSON con "
+                          "las claves destacadas (lista de platos populares), carta_url "
+                          "(enlace al menú si existe) y direccion. No inventes."
+                      )
+                  }]
+              }],
+              "tools": [{"google_maps": {}}],
+              "generationConfig": {"temperature": 0.1, "maxOutputTokens": 2048},
+          }
+          for model in ("gemini-3.6-flash", "gemini-3.5-flash"):
+              try:
+                  request = urllib.request.Request(
+                      f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent?key={GEMINI}",
+                      data=json.dumps(grounded).encode(),
+                      headers={"Content-Type": "application/json"},
+                      method="POST",
+                  )
+                  with urllib.request.urlopen(request, timeout=180) as response:
+                      result = json.load(response)
+                  text = "".join(
+                      part.get("text", "")
+                      for candidate in result.get("candidates", [])
+                      for part in candidate.get("content", {}).get("parts", [])
+                  )
+                  print(f" {model}: {text[:1800]}")
+                  break
+              except Exception as error:
+                  detail = ""
+                  if hasattr(error, "read"):
+                      try:
+                          detail = error.read().decode()[:500]
+                      except Exception:
+                          pass
+                  print(f" {model}: ERROR {error} {detail}")
           PY
