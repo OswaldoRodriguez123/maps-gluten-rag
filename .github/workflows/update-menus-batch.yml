@@ -75,7 +75,7 @@ jobs:
           fi
           IFS=',' read -ra list <<< "$PLACES"
           for place in "${list[@]}"; do
-            place="$(echo "$place" | xargs)"
+            place="$(printf '%s' "$place" | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')"
             [ -z "$place" ] && continue
             echo "===== $place ====="
             python scripts/update_menu_place.py \
