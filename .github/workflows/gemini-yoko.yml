@@ -1,0 +1,118 @@
+name: Probar visión Gemini en Yoko
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: UnitBytes + Gemini Menu Parser
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import sys
+          import time
+          import urllib.parse
+          import urllib.request
+
+          sys.path.insert(0, ".")
+          from maps_gluten import photos
+
+          API = "https://api.apify.com/v2"
+          TOKEN = os.environ["APIFY_TOKEN"]
+          GEMINI = os.environ["GEMINI_API_KEY"]
+          YOKO = "https://www.google.com/maps?cid=9733967257186336470"
+
+          def call(path, method="GET", payload=None):
+              data = json.dumps(payload).encode() if payload is not None else None
+              request = urllib.request.Request(
+                  API + path,
+                  data=data,
+                  headers={
+                      "Authorization": f"Bearer {TOKEN}",
+                      "Content-Type": "application/json",
+                  },
+                  method=method,
+              )
+              with urllib.request.urlopen(request, timeout=60) as response:
+                  return json.load(response)
+
+          def run_actor(actor, actor_input, cap=0.2, timeout=600):
+              query = urllib.parse.urlencode(
+                  {"timeout": timeout, "maxTotalChargeUsd": cap}
+              )
+              run = call(
+                  f"/acts/{actor}/runs?{query}", method="POST", payload=actor_input
+              )["data"]
+              deadline = time.time() + timeout + 120
+              while time.time() < deadline:
+                  run = call(f"/actor-runs/{run['id']}")["data"]
+                  if run.get("status") in {"SUCCEEDED", "TIMED-OUT", "FAILED", "ABORTED"}:
+                      break
+                  time.sleep(10)
+              dataset = run.get("defaultDatasetId")
+              items = (
+                  call(f"/datasets/{dataset}/items?format=json&clean=true&limit=10000")
+                  if dataset
+                  else []
+              )
+              if isinstance(items, dict):
+                  items = items.get("items", [])
+              return run, items
+
+          print("=== UnitBytes Yoko ===")
+          run, items = run_actor(
+              "unitbytes~google-maps-photos-scraper",
+              {
+                  "placeUrls": [YOKO],
+                  "category": "menu",
+                  "maxPhotos": 20,
+                  "highResOnly": False,
+                  "scrapePhotos": True,
+              },
+              cap=0.2,
+              timeout=600,
+          )
+          print("status", run.get("status"), "items", len(items))
+          urls = []
+          for item in items:
+              if "yoko" not in (item.get("placeName") or "").lower():
+                  continue
+              url = item.get("photoUrl") or item.get("photoUrlHighRes")
+              if url:
+                  urls.append(url)
+          print("fotos Yoko", len(urls))
+
+          print("=== AI Menu Parser (Gemini) ===")
+          run, dishes = run_actor(
+              "nomad-agent~ai-menu-parser",
+              {
+                  "imageUrls": urls[:20],
+                  "geminiApiKey": GEMINI,
+                  "geminiModel": "gemini-2.5-flash",
+                  "language": "es",
+              },
+              cap=0.2,
+              timeout=600,
+          )
+          print("status", run.get("status"), "filas", len(dishes))
+          for item in dishes:
+              if item.get("recordType") == "DISH":
+                  print(" ", item.get("name"), "|", item.get("price"), "|", item.get("category"))
+              elif item.get("diagnostic"):
+                  print(" diag:", str(item.get("message"))[:300])
+          PY
