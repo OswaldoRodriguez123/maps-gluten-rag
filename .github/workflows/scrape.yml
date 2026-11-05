@@ -37,7 +37,7 @@ jobs:
     needs: hora
     if: github.event_name == 'workflow_dispatch' || needs.hora.outputs.run == 'true'
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 90
     env:
       MAPS_LIST_URL: ${{ github.event.inputs.url || vars.MAPS_LIST_URL || 'https://maps.app.goo.gl/FWzyQ6w2AYSDTZZYA' }}
       MAPS_TIMEZONE: America/Santiago
@@ -49,6 +49,10 @@ jobs:
       MAPS_ENRICH: "1"
       MAPS_ENRICH_DAYS: "30"
       MAPS_OCR: "1"
+      MAPS_APIFY: "1"
+      APIFY_LANGUAGE: "es"
+      APIFY_MAX_PHOTOS: "8"
+      APIFY_MAX_CHARGE_USD: "2.0"
 
     steps:
       - name: Checkout
@@ -81,6 +85,8 @@ jobs:
           restore-keys: maps-gluten-db-
 
       - name: Extraer lista
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
         run: xvfb-run -a python -m maps_gluten run
 
       - name: Guardar cambios
@@ -109,4 +115,5 @@ jobs:
           path: |
             data/mis_lugares_sin_gluten.md
             data/mis_lugares_sin_gluten.jsonl
+            data/mis_lugares_sin_gluten_menus.jsonl
           retention-days: 30

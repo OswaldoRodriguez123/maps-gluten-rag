@@ -3,7 +3,7 @@ from __future__ import annotations
 import argparse
 import os
 import sys
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
@@ -127,6 +127,17 @@ def main(argv: list[str] | None = None) -> int:
     debug = args.debug or _env_bool("MAPS_DEBUG", False)
     enrich_enabled = args.enrich if args.enrich is not None else _env_bool("MAPS_ENRICH", True)
     ocr_enabled = args.ocr if args.ocr is not None else _env_bool("MAPS_OCR", False)
+    apify_token = os.getenv("APIFY_TOKEN", "").strip()
+    apify_enabled = _env_bool("MAPS_APIFY", True) and bool(apify_token)
+    apify_language = os.getenv("APIFY_LANGUAGE", "es")
+    try:
+        apify_photos = int(os.getenv("APIFY_MAX_PHOTOS", "8"))
+    except ValueError:
+        apify_photos = 8
+    try:
+        apify_charge = float(os.getenv("APIFY_MAX_CHARGE_USD", "2.0"))
+    except ValueError:
+        apify_charge = 2.0
     try:
         enrich_days = args.enrich_days if args.enrich_days is not None else int(os.getenv("MAPS_ENRICH_DAYS", "30"))
     except ValueError:
@@ -136,7 +147,7 @@ def main(argv: list[str] | None = None) -> int:
 
     conn = store.connect(db_path)
     try:
-        cache = store.enrichment_cache(conn) if enrich_enabled else {}
+        cache = store.enrichment_cache(conn) if (enrich_enabled or apify_enabled) else {}
         try:
             key, title, places, complete = extract.scrape_list(
                 url=url,
@@ -161,11 +172,43 @@ def main(argv: list[str] | None = None) -> int:
             print("La lista no devolvió lugares. No se modificó la base.", file=sys.stderr)
             return 1
 
+        if apify_enabled:
+            today_date = date.fromisoformat(today)
+            targets = []
+            for place in places:
+                info = cache.get(place.ftid) or {}
+                menu_at = info.get("menu_at")
+                if not menu_at:
+                    targets.append(place)
+                    continue
+                try:
+                    if (today_date - date.fromisoformat(menu_at)).days >= enrich_days:
+                        targets.append(place)
+                except ValueError:
+                    targets.append(place)
+            if targets:
+                try:
+                    from . import apify
+
+                    count = apify.enrich_menus(
+                        targets,
+                        apify_token,
+                        language=apify_language,
+                        max_photos=apify_photos,
+                        max_charge_usd=apify_charge,
+                        today=today,
+                    )
+                    print(f"Apify: {count} platos en {len(targets)} locales")
+                except Exception as error:
+                    print(f"Apify: {error}", file=sys.stderr)
+
         total, new = store.save(conn, key, title, places, today, replace=complete)
         md_path = out_dir / f"{basename}.md"
         jsonl_path = out_dir / f"{basename}.jsonl"
+        menus_path = out_dir / f"{basename}_menus.jsonl"
         store.write_markdown(conn, key, md_path, today)
         store.write_jsonl(conn, key, jsonl_path)
+        store.write_menus_jsonl(conn, key, menus_path)
     finally:
         conn.close()
 
@@ -173,4 +216,5 @@ def main(argv: list[str] | None = None) -> int:
     print(f"Encontrados: {len(places)} | En la base: {total} | Nuevos: {new}")
     print(f"Markdown: {md_path}")
     print(f"JSONL:    {jsonl_path}")
+    print(f"Menús:    {menus_path}")
     return 0

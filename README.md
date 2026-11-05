@@ -4,6 +4,7 @@ Extrae los lugares de una lista compartida de Google Maps, elimina duplicados y 
 
 - `data/mis_lugares_sin_gluten.md` — un bloque `##` por local, ideal para NotebookLM o cualquier índice semántico.
 - `data/mis_lugares_sin_gluten.jsonl` — una línea JSON por local, con `text` y `metadata`, ideal para embeddings.
+- `data/mis_lugares_sin_gluten_menus.jsonl` — una línea por plato (nombre, precio, categoría, ingredientes, alérgenos y nutrición) cuando Apify está configurado.
 
 La fuente de verdad local es `data/historial_lugares.db` (SQLite). En GitHub Actions ese archivo vive en la caché del workflow, no en el repo. Cada corrida hace *upsert*: conserva la fecha de guardado de Google (`saved_on`) y solo marca como nuevos los lugares que no existían.
 
@@ -32,10 +33,11 @@ Qué hace el workflow (`.github/workflows/scrape.yml`):
 - instala Python 3.12, las dependencias y Chromium;
 - ejecuta `python -m maps_gluten run`;
 - enriquece con la web de cada local y con los temas de sus reseñas (si `MAPS_ENRICH=1`);
+- consulta Apify para la carta estructurada si `APIFY_TOKEN` está configurado;
 - hace commit de `data/*.md` y `data/*.jsonl` si cambió algo;
 - guarda `data/historial_lugares.db` en la caché de Actions para mantener el dedup entre corridas (el archivo está en `.gitignore`);
 - copia el resultado a un Google Doc si `GDOC_ID` está configurado;
-- publica el `.md` y el `.jsonl` como artefacto descargable;
+- publica el `.md`, el `.jsonl` y `_menus.jsonl` como artefacto descargable;
 - corre todos los lunes a las **13:00 de Chile**. Programa dos crons (16:00 y 17:00 UTC) y un paso comprueba la hora local, así sigue siendo la 1 pm cuando cambia el horario de verano.
 - usa `America/Santiago` y `es-CL` para fechas y textos.
 
@@ -93,6 +95,27 @@ Con `MAPS_OCR=1` (activo en el workflow):
 
 Límites: la calidad depende de la foto; cartas con letra muy pequeña, inclinadas o con fondo complejo pueden fallar. El OCR puede confundir palabras y generar falsos positivos. Las imágenes de la pestaña **Carta** de la app de Google Maps no se pueden aislar desde la web, así que no se intenta OCR sobre ellas.
 
+### Carta estructurada con Apify (opcional)
+
+Para recuperar los platos de la pestaña Carta, el workflow puede usar el actor de Apify `nomad-agent/google-maps-menu-scraper-managed`. Toma las fotos de menú del local, las pasa por IA y, si no hay, revisa la web o el PDF. Devuelve un registro por plato con nombre, precio, categoría, descripción, ingredientes, alérgenos estimados, tipo de dieta y nutrición.
+
+Se activa solo si existe el secreto `APIFY_TOKEN`:
+
+1. Crea una cuenta gratis en https://console.apify.com/sign-up (sin tarjeta; incluye **$5 de uso al mes**).
+2. Copia tu API token en *Settings → Integrations*.
+3. En GitHub → *Settings → Secrets and variables → Actions*, crea el secreto `APIFY_TOKEN` con ese valor.
+4. Dispara el workflow. La primera corrida procesa todos los locales; después se refresca cuando `menu_at` tenga más de `MAPS_ENRICH_DAYS` días (30).
+
+Costo: ~$0.0002 por plato en el plan gratis; 100 locales suelen quedar en **$0.10–$0.50**. El workflow limita el gasto con `APIFY_MAX_CHARGE_USD` (2.0 por defecto). Sin token, el paso se omite y todo lo demás sigue igual.
+
+Salidas:
+
+- `- **Carta (Google Maps):** ...` en el `.md` y en el Doc.
+- `metadata.menu` en el JSONL principal.
+- `data/mis_lugares_sin_gluten_menus.jsonl`: una línea por plato con los campos completos.
+
+Los ingredientes, alérgenos y nutrición son **estimaciones de IA**, no datos verificados; confírmalos con el local.
+
 ## Local (opcional)
 
 ```bash
@@ -134,8 +157,10 @@ maps-gluten-rag/
 ├── .github/workflows/scrape.yml
 ├── maps_gluten/
 │   ├── extract.py      # endpoint de la lista + respaldo DOM
+│   ├── enrich.py       # web, reseñas y OCR
+│   ├── apify.py        # carta estructurada (opcional)
 │   ├── store.py        # SQLite, deduplicación y salidas .md / .jsonl
-│   └── cli.py          # comandos `login` y `run`
+│   └── cli.py          # comandos `login`, `run` y `publish`
 ├── scripts/
 │   ├── install_launchd.sh
 │   └── sync_drive.sh
@@ -150,5 +175,6 @@ maps-gluten-rag/
 - `entitylist/getlist` es un endpoint interno, no una API pública. Puede cambiar sin aviso; el respaldo DOM y `--debug` existen para eso.
 - La valoración y la categoría no vienen en el payload de la lista: se toman de las filas del DOM. Google no las muestra para algunos locales, así que esos quedan sin valoración o sin categoría.
 - Los platos se detectan por palabras clave en la web, en PDFs, en imágenes de menú con OCR y en las reseñas del local. No es un menú estructurado: puede haber falsos positivos y faltan los locales sin web ni reseñas.
+- La carta de Apify es una estimación de IA: los alérgenos y la nutrición pueden estar mal. Verifica con el local antes de usarlos para decisiones de salud.
 - Revisa los términos de uso de Google Maps antes de automatizarlo a diario. Para un uso personal y de bajo volumen es lo habitual; no lo uses como servicio para terceros.
 - Si la lista es privada y Google invalida la sesión, `run` falla sin tocar la base y te lo dice en el log. Vuelve a ejecutar `login`.

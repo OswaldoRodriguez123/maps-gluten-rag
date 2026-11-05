@@ -206,6 +206,9 @@ class Place:
     review_dishes: str | None = None
     enriched_at: str | None = None
     enrich_version: int | None = None
+    menu_dishes: str | None = None
+    menu_json: str | None = None
+    menu_at: str | None = None
 
 
 def _normalize(value: str) -> str:

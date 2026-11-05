@@ -28,7 +28,10 @@ CREATE TABLE IF NOT EXISTS places (
     dishes     TEXT,
     review_dishes TEXT,
     enriched_at TEXT,
-    enrich_version INTEGER
+    enrich_version INTEGER,
+    menu_dishes TEXT,
+    menu_json   TEXT,
+    menu_at     TEXT
 );
 
 CREATE TABLE IF NOT EXISTS lists (
@@ -48,9 +51,9 @@ UPSERT = """
 INSERT INTO places (
     ftid, name, address, category, rating, reviews, note, url,
     first_seen, last_seen, saved_on, lat, lng, website, dishes, review_dishes,
-    enriched_at, enrich_version
+    enriched_at, enrich_version, menu_dishes, menu_json, menu_at
 )
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 ON CONFLICT(ftid) DO UPDATE SET
     name    = excluded.name,
     address = COALESCE(NULLIF(excluded.address, ''), places.address),
@@ -68,7 +71,10 @@ ON CONFLICT(ftid) DO UPDATE SET
     dishes   = COALESCE(NULLIF(excluded.dishes, ''), places.dishes),
     review_dishes = COALESCE(NULLIF(excluded.review_dishes, ''), places.review_dishes),
     enriched_at = COALESCE(NULLIF(excluded.enriched_at, ''), places.enriched_at),
-    enrich_version = COALESCE(excluded.enrich_version, places.enrich_version)
+    enrich_version = COALESCE(excluded.enrich_version, places.enrich_version),
+    menu_dishes = COALESCE(NULLIF(excluded.menu_dishes, ''), places.menu_dishes),
+    menu_json   = COALESCE(NULLIF(excluded.menu_json, ''), places.menu_json),
+    menu_at     = COALESCE(NULLIF(excluded.menu_at, ''), places.menu_at)
 """
 
 MIGRATIONS = (
@@ -80,6 +86,9 @@ MIGRATIONS = (
     ("review_dishes", "TEXT"),
     ("enriched_at", "TEXT"),
     ("enrich_version", "INTEGER"),
+    ("menu_dishes", "TEXT"),
+    ("menu_json", "TEXT"),
+    ("menu_at", "TEXT"),
 )
 
 
@@ -132,6 +141,9 @@ def save(
                 place.review_dishes,
                 place.enriched_at,
                 place.enrich_version,
+                place.menu_dishes,
+                place.menu_json,
+                place.menu_at,
             ),
         )
         conn.execute(
@@ -154,7 +166,7 @@ def save(
 
 def enrichment_cache(conn: sqlite3.Connection) -> dict[str, dict]:
     rows = conn.execute(
-        "SELECT ftid, website, dishes, review_dishes, enriched_at, enrich_version FROM places"
+        "SELECT ftid, website, dishes, review_dishes, enriched_at, enrich_version, menu_at FROM places"
     ).fetchall()
     return {
         row["ftid"]: {
@@ -163,6 +175,7 @@ def enrichment_cache(conn: sqlite3.Connection) -> dict[str, dict]:
             "review_dishes": row["review_dishes"],
             "enriched_at": row["enriched_at"],
             "enrich_version": row["enrich_version"],
+            "menu_at": row["menu_at"],
         }
         for row in rows
     }
@@ -238,6 +251,8 @@ def write_markdown(conn: sqlite3.Connection, key: str, path: Path, today: str) -
             lines.append(f"- **Menciona en su web:** {row['dishes']}")
         if row["review_dishes"]:
             lines.append(f"- **Menciona en reseñas:** {row['review_dishes']}")
+        if row["menu_dishes"]:
+            lines.append(f"- **Carta (Google Maps):** {row['menu_dishes']}")
         lines.append(f"- **Fecha de registro:** {row['saved_on'] or row['first_seen']}")
         if row["note"]:
             lines.append(f"- **Nota:** {row['note']}")
@@ -263,7 +278,20 @@ def write_jsonl(conn: sqlite3.Connection, key: str, path: Path) -> int:
             parts.append(f"Su web menciona: {row['dishes']}")
         if row["review_dishes"]:
             parts.append(f"Sus reseñas mencionan: {row['review_dishes']}")
+        if row["menu_dishes"]:
+            parts.append(f"Carta en Google Maps: {row['menu_dishes']}")
         parts.append("Guardado en mi lista de lugares sin gluten en Google Maps")
+        menu = []
+        if row["menu_json"]:
+            try:
+                menu = json.loads(row["menu_json"])
+            except (json.JSONDecodeError, TypeError):
+                menu = []
+        menu_compact = [
+            {"name": dish.get("name"), "price": dish.get("price")}
+            for dish in menu
+            if dish.get("name")
+        ]
         record = {
             "id": row["ftid"],
             "text": ". ".join(parts) + ".",
@@ -277,6 +305,8 @@ def write_jsonl(conn: sqlite3.Connection, key: str, path: Path) -> int:
                 "website": row["website"],
                 "dishes": row["dishes"],
                 "review_dishes": row["review_dishes"],
+                "menu": menu_compact,
+                "menu_count": len(menu_compact),
                 "saved_on": row["saved_on"],
                 "first_seen": row["first_seen"],
                 "last_seen": row["last_seen"],
@@ -287,3 +317,42 @@ def write_jsonl(conn: sqlite3.Connection, key: str, path: Path) -> int:
         lines.append(json.dumps(record, ensure_ascii=False))
     _atomic_write(path, "\n".join(lines) + ("\n" if lines else ""))
     return len(rows)
+
+
+def write_menus_jsonl(conn: sqlite3.Connection, key: str, path: Path) -> int:
+    rows = conn.execute(
+        """
+        SELECT p.ftid, p.name, p.address, p.menu_json FROM places p
+        JOIN list_places lp ON lp.ftid = p.ftid
+        WHERE lp.list_key = ? AND p.menu_json IS NOT NULL AND p.menu_json != ''
+        ORDER BY p.name COLLATE NOCASE
+        """,
+        (key,),
+    ).fetchall()
+    lines: list[str] = []
+    for row in rows:
+        try:
+            dishes = json.loads(row["menu_json"])
+        except (json.JSONDecodeError, TypeError):
+            continue
+        for dish in dishes:
+            if not isinstance(dish, dict) or not dish.get("name"):
+                continue
+            record = {
+                "place_id": row["ftid"],
+                "place": row["name"],
+                "address": row["address"],
+                "name": dish.get("name"),
+                "original_name": dish.get("original_name"),
+                "category": dish.get("category"),
+                "price": dish.get("price"),
+                "description": dish.get("description"),
+                "ingredients": dish.get("ingredients"),
+                "allergens": dish.get("allergens"),
+                "dietary_type": dish.get("dietary_type"),
+                "is_alcoholic": dish.get("is_alcoholic"),
+                "nutrition": dish.get("nutrition"),
+            }
+            lines.append(json.dumps(record, ensure_ascii=False))
+    _atomic_write(path, "\n".join(lines) + ("\n" if lines else ""))
+    return len(lines)
