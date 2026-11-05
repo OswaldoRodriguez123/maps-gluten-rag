@@ -208,14 +208,19 @@ def _vision_with_fallback(raw: bytes, api_key: str) -> list[dict] | None:
     Usa primero el modelo más barato (flash-lite) y, si está saturado (503),
     pasa al siguiente sin esperar.
     """
+    quota_models = 0
     for model in VISION_MODELS:
         try:
             return _vision_menu(raw, api_key, model)
         except Exception as error:
             code = getattr(error, "code", None)
             if code == 429:
-                print("Visión Gemini: cuota agotada, se detiene", file=sys.stderr)
-                return None
+                quota_models += 1
+                print(
+                    f"Visión Gemini {model}: cuota agotada, pruebo el siguiente",
+                    file=sys.stderr,
+                )
+                continue
             if code in {500, 502, 503, 504}:
                 print(
                     f"Visión Gemini {model}: {code} saturado, pruebo el siguiente",
@@ -224,6 +229,9 @@ def _vision_with_fallback(raw: bytes, api_key: str) -> list[dict] | None:
                 continue
             print(f"Visión Gemini {model}: {error}", file=sys.stderr)
             continue
+    if quota_models == len(VISION_MODELS):
+        print("Visión Gemini: cuota agotada en todos los modelos", file=sys.stderr)
+        return None
     return []
 
 
