@@ -91,6 +91,15 @@ def main() -> int:
     parser.add_argument("--no-vision", action="store_true")
     parser.add_argument("--no-ocr", action="store_true")
     parser.add_argument(
+        "--fudo",
+        action="store_true",
+        help="Leer el catálogo de una tienda Fudo (menu.fu.do).",
+    )
+    parser.add_argument(
+        "--menu-url",
+        help="URL del catálogo Fudo. Si se omite, se busca en data/menu_urls.json.",
+    )
+    parser.add_argument(
         "--refresh-photos",
         action="store_true",
         help="Ignora la caché de fotos de menú y vuelve a raspar UnitBytes.",
@@ -98,7 +107,7 @@ def main() -> int:
     args = parser.parse_args()
 
     token = os.getenv("APIFY_TOKEN", "").strip()
-    if not token:
+    if not token and not args.fudo:
         raise SystemExit("Falta APIFY_TOKEN")
     vision_key = None if args.no_vision else (os.getenv("GEMINI_API_KEY", "").strip() or None)
 
@@ -135,20 +144,59 @@ def main() -> int:
         dishes=metadata.get("dishes"),
         review_dishes=metadata.get("review_dishes"),
     )
-    count = photos.enrich_menus_photos(
-        [place],
-        token,
-        max_photos=args.max_photos,
-        max_charge_usd=args.max_charge,
-        today=today,
-        vision_key=vision_key,
-        vision_max_photos=args.vision_photos,
-        vision_max_places=1,
-        photo_cache=photo_cache,
-        refresh_photos=args.refresh_photos,
-        reuse_recent_runs=0 if args.refresh_photos else 20,
-        ocr=not args.no_ocr,
-    )
+    menu_url = args.menu_url
+    config_path = data_dir / "menu_urls.json"
+    if args.fudo and not menu_url and config_path.exists():
+        try:
+            config = json.loads(config_path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, TypeError):
+            config = {}
+        menu_url = config.get(metadata["name"]) or config.get(target["id"])
+
+    if args.fudo:
+        if not menu_url:
+            if connection:
+                connection.close()
+            raise SystemExit(
+                "Falta --menu-url o una entrada en data/menu_urls.json"
+            )
+        from maps_gluten import fudo
+
+        menu_items = fudo.fetch_menu(menu_url)
+        if menu_items:
+            place.menu_json = json.dumps(menu_items, ensure_ascii=False)
+            place.menu_dishes = photos._summary(menu_items)
+            place.menu_at = today
+            count = len(menu_items)
+            if args.menu_url:
+                config = {}
+                if config_path.exists():
+                    try:
+                        config = json.loads(config_path.read_text(encoding="utf-8"))
+                    except (json.JSONDecodeError, TypeError):
+                        config = {}
+                config[metadata["name"]] = args.menu_url
+                config_path.write_text(
+                    json.dumps(config, ensure_ascii=False, indent=2) + "\n",
+                    encoding="utf-8",
+                )
+        else:
+            count = 0
+    else:
+        count = photos.enrich_menus_photos(
+            [place],
+            token,
+            max_photos=args.max_photos,
+            max_charge_usd=args.max_charge,
+            today=today,
+            vision_key=vision_key,
+            vision_max_photos=args.vision_photos,
+            vision_max_places=1,
+            photo_cache=photo_cache,
+            refresh_photos=args.refresh_photos,
+            reuse_recent_runs=0 if args.refresh_photos else 20,
+            ocr=not args.no_ocr,
+        )
     if not place.menu_json:
         if connection:
             connection.close()
@@ -196,7 +244,7 @@ def main() -> int:
             "is_alcoholic": None,
             "nutrition": None,
         }
-        for dish in metadata.get("menu") or []
+        for dish in dishes
     ]
     menus_path.write_text(
         "\n".join(
