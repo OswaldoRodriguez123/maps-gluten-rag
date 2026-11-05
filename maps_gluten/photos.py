@@ -22,7 +22,7 @@ UA = (
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
 )
 
-VISION_MODELS = ("gemini-3.6-flash", "gemini-3.5-flash", "gemini-flash-lite-latest")
+VISION_MODELS = ("gemini-flash-lite-latest", "gemini-3.5-flash", "gemini-3.6-flash")
 VISION_PROMPT = (
     "Eres un experto en cartas de restaurantes. Analiza la imagen y devuelve "
     "SOLO un JSON array de objetos con las claves name, price y category. "
@@ -189,25 +189,27 @@ def _parse_vision_json(text: str) -> list[dict]:
 
 
 def _vision_with_fallback(raw: bytes, api_key: str) -> list[dict] | None:
-    """Devuelve platos, [] si no hay, o None si se agotó la cuota (detener)."""
+    """Devuelve platos, [] si no hay, o None si se agotó la cuota (detener).
+
+    Usa primero el modelo más barato (flash-lite) y, si está saturado (503),
+    pasa al siguiente sin esperar.
+    """
     for model in VISION_MODELS:
-        for attempt in range(1, 4):
-            try:
-                return _vision_menu(raw, api_key, model)
-            except Exception as error:
-                code = getattr(error, "code", None)
-                if code == 429:
-                    print("Visión Gemini: cuota agotada, se detiene", file=sys.stderr)
-                    return None
-                if code in {500, 502, 503, 504}:
-                    print(
-                        f"Visión Gemini {model}: {code}, reintento {attempt}",
-                        file=sys.stderr,
-                    )
-                    time.sleep(10 * attempt)
-                    continue
-                print(f"Visión Gemini {model}: {error}", file=sys.stderr)
-                break
+        try:
+            return _vision_menu(raw, api_key, model)
+        except Exception as error:
+            code = getattr(error, "code", None)
+            if code == 429:
+                print("Visión Gemini: cuota agotada, se detiene", file=sys.stderr)
+                return None
+            if code in {500, 502, 503, 504}:
+                print(
+                    f"Visión Gemini {model}: {code} saturado, pruebo el siguiente",
+                    file=sys.stderr,
+                )
+                continue
+            print(f"Visión Gemini {model}: {error}", file=sys.stderr)
+            continue
     return []
 
 
@@ -358,7 +360,7 @@ def _collect_photos(
 
 def _recent_run_items(token: str, limit: int) -> list[list[dict]]:
     """Datasets de las últimas corridas exitosas de UnitBytes, para reutilizar fotos."""
-    query = urllib.parse.urlencode({"token": token, "limit": limit, "desc": "true"})
+    query = urllib.parse.urlencode({"token": token, "limit": limit, "desc": "1"})
     try:
         response = _request(f"{API}/acts/{ACTOR}/runs?{query}")
     except Exception as error:
@@ -378,6 +380,10 @@ def _recent_run_items(token: str, limit: int) -> list[list[dict]]:
             continue
         if items:
             datasets.append(items)
+    print(
+        f"Apify UnitBytes: {len(runs)} corridas recientes, "
+        f"{len(datasets)} datasets con fotos"
+    )
     return datasets
 
 

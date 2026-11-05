@@ -86,6 +86,7 @@ def main() -> int:
     parser.add_argument("--publish", action="store_true", help="Actualiza el Google Doc.")
     parser.add_argument("--db", help="Ruta opcional al SQLite para persistir la caché.")
     parser.add_argument("--max-photos", type=int, default=12)
+    parser.add_argument("--vision-photos", type=int, default=3)
     parser.add_argument("--max-charge", type=float, default=0.5)
     parser.add_argument("--no-vision", action="store_true")
     parser.add_argument(
@@ -140,7 +141,7 @@ def main() -> int:
         max_charge_usd=args.max_charge,
         today=today,
         vision_key=vision_key,
-        vision_max_photos=args.max_photos,
+        vision_max_photos=args.vision_photos,
         vision_max_places=1,
         photo_cache=photo_cache,
         refresh_photos=args.refresh_photos,
