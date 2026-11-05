@@ -314,6 +314,19 @@ def _parse_menu_text(text: str) -> list[dict]:
     return found
 
 
+def _price_key(value) -> str:
+    return re.sub(r"\D", "", str(value or ""))
+
+
+def _same_dish(first: str, second: str) -> bool:
+    if not first or not second:
+        return False
+    if first == second:
+        return True
+    short, long = (first, second) if len(first) <= len(second) else (second, first)
+    return len(short) >= 15 and short in long
+
+
 def _summary(dishes: list[dict]) -> str | None:
     parts: list[str] = []
     for dish in dishes:
@@ -577,14 +590,26 @@ def enrich_menus_photos(
             if not found:
                 continue
             existing = ocr_results.setdefault(place.ftid, [])
-            seen = {_normalize(dish.get("name") or "") for dish in existing}
             added = 0
             for dish in found:
                 key = _normalize(dish.get("name") or "")
-                if key and key not in seen:
-                    existing.append(dish)
-                    seen.add(key)
-                    added += 1
+                if not key:
+                    continue
+                match = next(
+                    (
+                        current
+                        for current in existing
+                        if _same_dish(key, _normalize(current.get("name") or ""))
+                        and _price_key(current.get("price")) == _price_key(dish.get("price"))
+                    ),
+                    None,
+                )
+                if match is not None:
+                    if len(dish.get("name") or "") > len(match.get("name") or ""):
+                        match["name"] = dish["name"]
+                    continue
+                existing.append(dish)
+                added += 1
             if added:
                 if added >= 2:
                     existing[:] = [
