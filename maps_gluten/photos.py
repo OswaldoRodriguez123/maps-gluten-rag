@@ -218,12 +218,19 @@ def enrich_menus_photos(
             continue
         photos.setdefault(place.ftid, []).append(url)
 
+    print(
+        f"Apify UnitBytes: {len(items)} fotos, "
+        f"{len(photos)} locales con fotos, "
+        f"{sum(len(urls[:max_photos]) for urls in photos.values())} por OCR"
+    )
+
     ocr_results: dict[str, list[dict]] = {}
     tasks = [
         (place.ftid, url)
         for place in targets
         for url in photos.get(place.ftid, [])[:max_photos]
     ]
+    with_text = 0
     if tasks:
         with ThreadPoolExecutor(max_workers=6) as pool:
             futures = {pool.submit(_download, url): ftid for ftid, url in tasks}
@@ -235,7 +242,9 @@ def enrich_menus_photos(
                 text = _ocr_bytes(raw)
                 if not text:
                     continue
+                with_text += 1
                 ocr_results.setdefault(ftid, []).extend(_parse_menu_text(text))
+    print(f"Apify UnitBytes: {with_text} fotos con texto OCR")
 
     total = 0
     for place in targets:
