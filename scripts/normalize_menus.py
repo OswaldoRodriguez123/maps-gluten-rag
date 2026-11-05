@@ -326,6 +326,7 @@ def main() -> int:
     parser.add_argument("--menus", required=True)
     parser.add_argument("--menu-urls", default="data/menu_urls.json")
     parser.add_argument("--out-dir", required=True)
+    parser.add_argument("--no-history", action="store_true")
     parser.add_argument(
         "--sample-places",
         default="Quinoa,NAOKI,Café Aquelarre,Yoko Sea Food,La Comarca Celiaca",
@@ -337,11 +338,22 @@ def main() -> int:
         for line in Path(args.places).read_text(encoding="utf-8").splitlines()
         if line.strip()
     ]
+    menus_path = Path(args.menus)
     rows = [
         json.loads(line)
-        for line in Path(args.menus).read_text(encoding="utf-8").splitlines()
+        for line in menus_path.read_text(encoding="utf-8").splitlines()
         if line.strip()
     ]
+    for sibling in ("menus_review.jsonl", "menus_rejected.jsonl"):
+        if args.no_history:
+            break
+        path = menus_path.parent / sibling
+        if path.exists():
+            rows.extend(
+                json.loads(line)
+                for line in path.read_text(encoding="utf-8").splitlines()
+                if line.strip()
+            )
     menu_urls = {}
     if Path(args.menu_urls).exists():
         menu_urls = json.loads(Path(args.menu_urls).read_text(encoding="utf-8"))

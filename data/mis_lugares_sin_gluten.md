@@ -2385,43 +2385,361 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** pasta, lasaña, tarta, helado, manjar
 - **Menciona en reseñas:** pasta, helado, tiramisú
 - **Fecha de registro:** 2025-11-05
+- **Dietético:** 28 platos sin gluten, 7 veganos
 
 ### Qué vende
 
-- EMPANADAS
+- Novedades
+- Aperitivos
+- Pastas frescas
+- Lasañas s/g
+- Pastas rellenas
+- Pastas al horno
+- Panes s/g
+- Salsas y queso
+- Ñoquis s/g
+- Pastelería
+- Pasteles salados s/g
+- Helados
+- Panadería
+- Sin azúcar
+- Sin Gluten
+- Otros
+- Helados de yogurt
+- Helados de crema
+- Helados sin azúcar
+- Galletas y queques
+- Postres familiares
+- Postres individuales
+- Tortas y tartas
+- Salsa blanca
+- Salsa roja
+- Dips untables
+- Lasañas de carne
+- Lasañas del mar
+- Lasañas vegetarianas
+- Sorrentinos al horno
+- Tartas
+- Carnes
 
 
 ### Carta
 
-- PASTAS RELENAS
-- Í espinaca %0 — $4
-- PASTAS RELLENAS
-- Locos Prosciutto alcachof — $7.909
-- PASTAS 1808. 0 9
-- My bolonesa $ [8000 — $9.500
-- Campesina — $12.500
-- PASTAS AL HORNO
-- LASAÑA
-- Mariscos
-- SAT A A. Pao § Tarla de espinaca y locino — $13.900
-- Boloñesa — $4.100
-- E ] — $4.800
-- Brownies
-- PASTA RELLENA
-- Alfajor
-- Lasaña alcachofa
-- Tarta ricola sin azÚ
-- Lasaña boloñesa
-- Lasaña ricola
-- Torta choc
-- Lasaña espinaca
-- Brownie con helade
-- Tarta de cebolla
-- Torta de ricola
-- Tarta de espinaca y tocino
-- Pastel de zucchini
-- PASTAS
-- Empanada de pino
+#### Novedades
+
+- Boeuf bourguignon — $21.800
+- Fusilli tricolor 200 grs — $1.760
+- Fusilli tricolor 400 grs — $3.520
+- Galletas luna de nuez — $6.800
+- Helado cremino pistacho — $8.200
+- Helado miel — $8.200
+- Helado siciliano — $8.200
+- Ravioles ricota jamón — $6.300
+- Ravioles queso de cabra limón — $6.300
+- Raviolón alcachofa almendra — $6.600
+- Raviolón betarraga — $6.600
+
+#### Aperitivos
+
+- Empanada de pino — $3.200
+- Empanada de pino picante — $3.200
+- Empanada de queso — $3.200
+- Empanada de pequén — $3.200 [vegano]
+- Empanada camarón atomatado — $3.500
+- Paté tradicional — $5.400
+- Carne plateada braseada — $17.400
+- Carpaccio de pulpo — $9.400
+- Dip oliva verde — $4.800
+- Empanada caprese — $3.200
+- Focaccia cebolla orégano — $7.400
+- Focaccia tomate aceitunas — $7.400
+- Gravlax — $9.400
+- Grissini — $3.900
+- Harissa — $4.800
+- Hummus de betarraga — $4.800
+- Hummus de calabaza — $4.800
+- Hummus tradicional — $4.800
+- Medialunas — $3.600
+- Pastrami — $9.400
+
+#### Pastas frescas
+
+- Fettuccine al huevo — $6.200
+- Ñoquis papa — $6.600
+- Albóndigas al pomodoro sin gluten — $18.200 [sin gluten]
+- Chitarra — $6.200
+- Fettuccine espinaca — $6.200
+- Fettuccine huevo sin gluten — $3.600 [sin gluten]
+- Fettuccine integral — $6.200
+- Fettuccine negro — $6.700
+- Pappardelle al huevo — $6.200
+- Pappardelle espinaca — $6.200
+- Ñoquis betarraga — $6.600
+- Ñoquis calabaza — $6.600
+- Ñoquis espinaca — $6.600
+- Ñoquis ricota — $6.600
+
+#### Lasañas s/g
+
+- Lasaña Salmón Camarón sin gluten (Individual) — $9.700 [sin gluten]
+- Lasaña alcachofa sin gluten (individual) — $7.800 [sin gluten]
+- Lasaña alcachofa sin gluten mediana — $20.800 [sin gluten]
+- Lasaña boloñesa sin gluten (individual) — $7.400 [sin gluten]
+- Lasaña boloñesa sin gluten mediana — $19.700 [sin gluten]
+- Lasaña ricota sin gluten (individual) — $7.400 [sin gluten]
+- Lasaña ricota sin gluten mediana — $19.700 [sin gluten]
+- Musaka sin gluten solo tamaño mediana 3-4 porciones — $23.200 [sin gluten]
+
+#### Pastas rellenas
+
+- Sorrentinos calabaza — $6.600
+- Ravioles carne — $6.300
+- Ravioles cuatro quesos — $6.300
+- Ravioles de calabaza sin gluten — $7.300 [sin gluten]
+- Ravioles de carne sin gluten — $7.300 [sin gluten]
+- Ravioles de espinaca sin gluten — $7.300 [sin gluten]
+- Ravioles espinaca — $6.300
+- Ravioles ricota-nuez — $6.300
+- Raviolón de carne — $6.600
+- Raviolón funghi — $6.600
+- Raviolón pera y pecorino — $6.600
+- Sorrentinos berenjena — $6.600
+- Sorrentinos centolla — $9.600
+- Sorrentinos cordero — $7.300
+- Sorrentinos prosciutto-alcachofa — $6.600
+- Sorrentinos ricota — $6.600
+- Sorrentinos salmón — $7.300
+
+#### Pastas al horno
+
+- Canelones jaiba — $8.500
+- Canelones carne mechada — $6.600
+- Lasaña boloñesa grande 6-8 porciones — $32.000
+- Lasaña alcachofa grande 6-8 porciones — $34.300
+- Canelones calabaza — $6.600
+- Canelones espinaca — $6.600
+- Canelones ricota — $6.600
+- Lasaña alcachofa mediana 3-4 porciones — $19.500
+- Lasaña berenjena grande 6-8 porciones — $34.300
+- Lasaña berenjena mediana 3-4 porciones — $19.500
+- Lasaña boloñesa media 3-4 porciones — $18.600
+- Lasaña campesina grande 6-8 porciones — $36.400
+- Lasaña campesina mediana 3-4 porciones — $21.100
+- Lasaña centolla grande 6-8 porciones — $57.400
+- Lasaña centolla mediana 3-4 porciones — $31.900
+- Lasaña del huerto solo tamaño mediana 3-4 porciones — $19.500
+- Lasaña espinaca grande 6-8 porciones — $34.300
+- Lasaña espinaca mediana 3-4 porciones — $19.500
+- Lasaña funghi solo tamaño mediana 3-4 porciones — $19.500
+- Lasaña jaiba grande 6-8 porciones — $48.400
+
+#### Panes s/g
+
+- Pan de Molde Semillas sin gluten — $5.600 [sin gluten]
+- Pan de queso sin gluten — $5.900 [sin gluten]
+
+#### Salsas y queso
+
+- Queso parmesano grande 200grs aprox — $5.200
+- Salsa basílico grande 450 cc aprox — $6.500
+- Salsa nueces grande 450cc aprox — $6.500
+- Salsa pesto grande 450cc aprox — $8.700
+- Queso parmesano mediano 100grs aprox — $3.400
+- Salsa alfredo grande 450cc aprox — $6.500
+- Salsa alfredo mediana 250cc aprox — $3.900
+- Salsa basílico mediana 250cc aprox — $3.900
+- Salsa boloñesa grande 450cc aprox — $6.900
+- Salsa boloñesa mediana 250cc aprox — $4.100
+- Salsa champiñones grande 450cc aprox — $6.500
+- Salsa champiñones mediana 250cc aprox — $3.900
+- Salsa finas hierbas grande 450cc aprox — $6.500
+- Salsa finas hierbas mediana 250cc aprox — $3.900
+- Salsa napolitana grande 450cc aprox — $6.500
+- Salsa napolitana mediana 250cc aprox — $3.900
+- Salsa nueces mediana 250cc aprox — $3.900
+- Salsa pesto albahaca sin gluten 250cc aprox — $5.600 [sin gluten]
+- Salsa pesto mediana 250cc aprox — $5.500
+- Salsa pesto rosso mediana 250cc aprox — $5.500
+
+#### Ñoquis s/g
+
+- Ñoquis espinaca sin gluten — $4.200 [sin gluten]
+- Ñoquis papa sin gluten — $4.200 [sin gluten]
+
+#### Pastelería
+
+- Tiramisú grande — $25.600
+- Alfajor de chocolate — $2.300
+- Alfajor de maicena — $2.300
+- Alfajor sin gluten — $2.600 [sin gluten]
+- Amaretti — $4.900
+- Brazo hojarasca manjar — $9.900
+- Brownies sin gluten — $8.200 [sin gluten]
+- Brownies sin gluten con helado — $13.900 [sin gluten]
+- Cantuccini — $4.900
+- Carrot cake sin azúcar sin gluten — $13.900 [sin azúcar, sin gluten]
+- Cheesecake de maracuyá — $12.600
+- Crema volteada — $12.600
+- Flan — $3.300
+- Galletón de chocolate — $1.600
+- Hojarasca vainilla y frambuesa sin gluten — $10.800 [sin gluten]
+- Mousse de chocolate — $3.700
+- Panacota berries — $3.300
+- Panacota maracuyá — $3.300
+- Pie de limón — $15.600
+- Postre mascarpone frambuesa — $17.900
+
+#### Pasteles salados s/g
+
+- Tarta de alcachofa sin gluten — $15.200 [sin gluten]
+- Tarta de espinaca y tocino sin gluten — $15.200 [sin gluten]
+
+#### Helados
+
+- Cono de helado — $400
+- Helado canela — $8.200
+- Helado chocolate al 70% — $8.200
+- Helado chocolate al 80% — $8.200
+- Helado chocolate avellana — $8.200
+- Helado chocolate stevia — $8.200
+- Helado coco — $8.200
+- Helado dulce de leche — $8.200
+- Helado frambuesa — $8.200
+- Helado frambuesa stevia — $8.200
+- Helado frutos del bosque — $8.200
+- Helado jengibre limón confitado — $8.200
+- Helado limón menta albahaca stevia — $8.200
+- Helado lúcuma manjar — $8.200
+- Helado maracuyá — $8.200
+- Helado mascarpone amarena — $8.200
+- Helado nocciola — $8.200
+- Helado pistacho — $8.200
+- Helado super dulce de leche — $8.200
+
+#### Panadería
+
+- Pan de tomate — $4.400
+- Baguette — $2.100 [vegano]
+- Ciabatta — $650 [vegano]
+- Pan de campo — $3.800 [vegano]
+- Pan de hamburguesa — $3.800
+- Pan de hot dog — $3.800
+- Pan de molde blanco — $4.200
+- Pan de nuez — $4.200 [vegano]
+- Pan de semillas — $3.800 [vegano]
+- Pan hogaza — $4.200
+- Pan pita — $3.800 [vegano]
+- Pan prosciutto avellana — $4.400
+
+#### Sin azúcar
+
+- Panacota de berries sin azúcar sin gluten — $3.300 [sin azúcar, sin gluten]
+- Tarta linzer sin azúcar — $13.900 [sin azúcar]
+- Torta hojarasca sin azúcar — $17.700 [sin azúcar]
+
+#### Sin Gluten
+
+- Empanada de pino sin gluten 2 UNIDADES — $6.600 [sin gluten]
+- Tiramisú sin gluten — $16.200 [sin gluten]
+
+#### Otros
+
+- Coolbag fortunata — $2.490
+
+#### Helados de yogurt
+
+- Helado yogurt arándano stevia — $8.200
+
+#### Helados de crema
+
+- Helado torroncino — $8.200
+- Helado vainilla — $8.200
+
+#### Helados sin azúcar
+
+- Helado vainilla canela stevia — $8.200 [sin azúcar]
+- Helado vainilla stevia — $8.200 [sin azúcar]
+
+#### Galletas y queques
+
+- Queque de miel — $6.900
+- Queque de nuez — $6.900
+
+#### Postres familiares
+
+- Postre tres leches — $17.900
+- Postre tres leches frambuesa — $17.900
+- Tiramisú mediano — $15.200
+
+#### Postres individuales
+
+- Financier — $2.600
+- Madeleine — $2.000
+- Suspiro limeño — $3.700
+
+#### Tortas y tartas
+
+- Tarta de manzana — $15.600
+- Tarta de peras — $15.600
+- Torta cacao amarena — $21.700
+- Torta cacao dolce — $31.800
+- Torta frutos del bosque — $16.200
+- Torta hojarasca — $31.800
+- Torta lúcuma merengue manjar — $25.300
+- Torta ópera — $15.300
+
+#### Salsa blanca
+
+- Salsa tres quesos grande 450cc aprox — $6.900
+- Salsa tres quesos mediana 250cc aprox — $4.100
+
+#### Salsa roja
+
+- Salsa pomodoro grande 450cc aprox — $6.500
+- Salsa pomodoro mediana 250cc aprox — $3.900
+
+#### Dips untables
+
+- Peperonata — $4.800
+- Salsa verde picante — $4.800
+- Tzatziki — $4.800
+
+#### Lasañas de carne
+
+- Lasaña pollo amarillo mediana 3-4 porciones — $19.500
+
+#### Lasañas del mar
+
+- Lasaña jaiba mediana 3-4 porciones — $27.600
+- Lasaña salmón-camarón grande 6-8 porciones — $48.400
+- Lasaña salmón-camarón mediana 3-4 porciones — $27.600
+
+#### Lasañas vegetarianas
+
+- Lasaña ricota grande 6-8 porciones — $32.000
+- Lasaña ricota mediana 3-4 porciones — $18.600
+- Parmegiana solo tamaño mediana 3-4 porciones — $19.500
+
+#### Sorrentinos al horno
+
+- Sorrentinos capresse — $6.600
+- Sorrentinos horno funghi — $6.600
+- Sorrentinos mozzarella-jamón — $6.600
+
+#### Tartas
+
+- Tarta de alcachofa — $14.200
+- Tarta de berenjena — $14.200
+- Tarta de cebolla — $14.200
+- Tarta de champiñones — $14.200
+- Tarta de pollo — $15.200
+- Tarta de ricota — $14.200
+- Tarta lorraine — $15.200
+
+#### Carnes
+
+- Filete de cerdo con salsa higo — $17.400
+- Salmón en costra de almendras — $17.400
 
 
 ## Glutenberg
@@ -3622,38 +3940,143 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 ### Qué vende
 
-- ENSALADAS
+- Entradas
+- Sushi
+- Arroz y Fideos
+- Aves
+- Carnes
+- Pescados y Mariscos
+- Vegetariano
+- Menú Niños
+- Postres
+- Bebidas
+- Cervezas
+- Chang's for me Bowls
+- Promo Sushi
+- Family Meals
 
 
 ### Carta
 
-- SUSHI
-- > > Ss TABLA DE SUSHI
-- CRISPY CEVICHE ROLL
-- SWEET TEMPURA ROLL
-- TABLA DE SUSHI
-- ASIAN STEAK — $23.900
-- GF : = — $17.300
-- CARNES
-- Con 2 proteínas a elección — $14.900
-- Con 4 proteínas a elección — $17.900
-- = Ss i Con 2 proteínas a elección — $16.900
-- A) Ñ — $13.900
-- Opción Vegetariano — $11.900
-- Con 2 proteínas a elección — $16.900
-- Con 4 proteínas a elección — $18.300
-- MARISCOS
-- [ ] GF “a — SIGNATT RE ASIAN PADTHALZ — $17.900
-- Pollo crujiente con un ligero toqu
-- [] [] ae’ 1 — $14.900
-- [] : SWEET & SOUR CHICKEN O oes — $14.900
-- Láminas de pollo crujientes
-- Pollo crujiente con un lig
-- Crujientes laminas de pollo reboza
-- COCONUT CURRY CHICKEN
-- Cerdo [ ] Camarón [ ] 4 unidades [ ] — $8.900
-- Cerdo [] Camarón [ ] — $8.900
-- [] 6F — $16.900
+#### Entradas
+
+- Chang's Lettuce Wraps — $14.900
+- Crispy Green Beans — $10.900
+- Dumplings de cerdo — $10.400
+- Dumplings de camarón — $10.900
+- Dynamite Shrimp — $13.900
+- Vegetable Spring Rolls — $9.900
+- Karaage Chicken — $12.900
+- Spicy Green Beans — $10.900
+- Crab Wontons — $14.900
+- Chang's Edamame — $8.900
+
+#### Sushi
+
+- Crispy Ceviche Roll — $14.500
+- No Rice Oriental Roll — $14.500
+- White Maki Roll — $14.500
+- California Roll — $10.900
+- Dynamite Roll — $13.900
+- Tuna Roll — $14.500
+- Budda Roll — $13.900
+- Dinasty Roll — $14.500
+- Avocado Salmon Roll — $10.900
+- Chang's Tartar Salmon Roll — $13.900
+- Chang's Tartar Tuna Roll — $14.500
+- Sweet Tempura Roll — $12.900
+- Sesame Roll — $12.900
+- Acevichado Roll — $12.900
+
+#### Arroz y Fideos
+
+- Fried Rice de 4 proteínas — $21.500
+- Pad Thai Noodle — $21.900
+- Lo Mein de 2 proteínas — $16.500
+- Lo Mein de 4 proteínas — $19.000
+- Singapore Noodles — $18.800
+- Fried Rice de 2 proteínas — $18.500
+
+#### Aves
+
+- Crispy Honey Chicken — $21.500
+- Chang's Spicy Chicken — $16.700
+- Kung Pao Chicken — $16.900
+- Sesame Vegetable Chicken — $15.500
+- Sweet and Sour Chicken — $15.500
+- Orange Chicken — $15.500
+
+#### Carnes
+
+- Ginger Beef With Broccoli — $17.900
+- Signature Mongolian Beef — $21.900
+- Sweet and Sour Pork — $21.500
+- Wok Charred Beef — $17.900
+- Pepper Steak — $18.900
+- Sesame Steak — $18.900
+
+#### Pescados y Mariscos
+
+- Crispy Honey Shrimp — $17.900
+- Kung Pao Shrimp — $18.300
+- Red Chili Buttery Shrimp — $19.900
+
+#### Vegetariano
+
+- Vegetarian Fried Rice — $12.500
+- Vegetarian Lo Mein — $14.500
+- Asian Chicken Caesar Salad — $14.900
+
+#### Menú Niños
+
+- Fried Rice Kids — $8.900
+- Honey Chicken Kids — $8.900
+- Lo Mein Kids — $8.900
+
+#### Postres
+
+- Cream Cheese Wontons — $7.900
+- New York Cheesecake — $9.900
+- Asian Chocolate Brownie — $8.900
+- Chang's Apple Crunch — $7.900
+- Great Wall de Chocolate -- Para Compartir — $12.900
+- Banana Spring Rolls — $7.500
+- Great Wall of Chocolate – Individual — $7.900
+
+#### Bebidas
+
+- Agua mineral sin gas — $2.800
+- Pepsi Lata — $2.800
+- Pepsi Zero Lata — $2.800
+- Crush Lata — $2.800
+- Ginger Ale Lata — $2.800
+- Ginger Ale Zero Lata — $2.800
+
+#### Cervezas
+
+- Cerveza Corona — $3.200
+- Cerveza Heineken — $3.200
+- Cerveza Stella — $3.200
+
+#### Chang's for me Bowls
+
+- Beef & Broccoli Bowl — $18.200
+- Kung Pao Chicken Bowl — $18.200
+- Chicken Fried Rice Bowl — $18.200
+
+#### Promo Sushi
+
+- Duo Classic — $21.800
+- Duo Special — $26.800
+- Duo Premium — $29.000
+- Duo Emperador — $29.000
+
+#### Family Meals
+
+- Family Meals para 2 personas — $50.000
+- Family Meals para 4 personas — $110.000
+- Family Sushi para 2 personas — $63.500
+- Family Sushi para 4 personas — $116.300
 
 
 ## Pan Pa' Mi
@@ -3918,24 +4341,54 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** torta, galleta, alfajor, helado, chocolate, manjar, dulce de leche, postre, dulces
 - **Menciona en reseñas:** sándwich, torta, helado, chocolate, churro, manjar
 - **Fecha de registro:** 2025-11-05
+- **Dietético:** 1 veganos, 1 sin lactosa
+
+### Qué vende
+
+- Postres Helados
+- Packs Helados
+- Helados Clásicos
+- Barquillos
+- Chocolates Entrelagos
+
 
 ### Carta
 
-- Mistela Cereza y Amaretto. Peru — $3.399
-- Mazapán Alfajor. Etiopia
-- Mazapán Alfajor
-- Filete de res — $10.990
-- TABLA CHOCOLATES PATAGONIA
-- GALLETITAS DE LA TANTE
-- PORCIÓN KINDER — $2.500
-- ML MN - A 8 = — $7.500
-- AFFOGATO — $4.000
-- CHOCOLATE CALIENTE — $3.500
-- ÉS TÉ / INFUSIONES — $3.000
-- BEBIDA VEGETAL EXTRA — $500
-- SIMPLE J sabor -1 — $3.500
-- Se DOBLE 2 sabores — $4.500
-- CANO — $2.400
+#### Postres Helados
+
+- Cookies and Cream Lottus — $8.500
+- Dubai Schokoland — $9.000
+- Pistacho Frambuesa — $9.000
+- Yogurt maracuyá — $8.500
+
+#### Packs Helados
+
+- Pack helados clásicos 473 ml x 3 — $24.000
+
+#### Helados Clásicos
+
+- Chirimoya Alegre — $8.000
+- Chocolate leche 32% cacao — $8.500
+
+#### Barquillos
+
+- Barquillos artesanales x 6 — $2.490
+- Barquillos artesanales x 3 — $1.490
+
+#### Chocolates Entrelagos
+
+- Alfajor manjar chocolate bitter — $2.000
+- Alfajor frambuesa chocolate blanco — $2.000
+- Cuchuflí bitter x 3 — $2.500
+- Cuchufli blanco x 3 — $2.500
+- Cuchuflí bitter sin azúcar x 3 — $2.500 [sin azúcar]
+- Submarino Tradicional Leche — $3.000
+- Caja Pajarito Fiu Sin Azúcar — $10.500 [sin azúcar]
+- Submarino Sin Azúcar Leche — $3.000 [sin azúcar]
+- Submarino Tradicional Blanco — $3.000
+- 382 - Rollo de mazapán 90 gr (vegano sin lactosa) Entrelagos — $4.000 [sin lactosa, vegano]
+- Alfajor Manjar Sin Azucar — $2.500 [sin azúcar]
+- Café Kawas molido 250g — $12.000
 
 
 ## Piaf Café

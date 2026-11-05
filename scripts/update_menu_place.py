@@ -226,6 +226,26 @@ def main() -> int:
         + ("\n" if kept or new_rows else ""),
         encoding="utf-8",
     )
+
+    for sibling in ("menus_review.jsonl", "menus_rejected.jsonl"):
+        path = data_dir / sibling
+        if not path.exists():
+            continue
+        old_rows = [
+            json.loads(line)
+            for line in path.read_text(encoding="utf-8").splitlines()
+            if line.strip()
+        ]
+        filtered = [
+            row
+            for row in old_rows
+            if row.get("place_id") != target["id"] and row.get("place") != place.name
+        ]
+        path.write_text(
+            "\n".join(json.dumps(row, ensure_ascii=False) for row in filtered)
+            + ("\n" if filtered else ""),
+            encoding="utf-8",
+        )
     summary = photos._summary(dishes)
     menus_by_place: dict[str, list[dict]] = {}
     for row in kept + new_rows:
