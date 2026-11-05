@@ -9,6 +9,7 @@ import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date
+from io import BytesIO
 from urllib.parse import parse_qs, urlparse
 
 from .enrich import detect_dishes
