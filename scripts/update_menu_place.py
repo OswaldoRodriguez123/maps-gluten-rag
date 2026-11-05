@@ -13,6 +13,7 @@ sys.path.insert(0, str(ROOT))
 
 from maps_gluten import gdocs, photos, store  # noqa: E402
 from maps_gluten.extract import Place  # noqa: E402
+from maps_gluten.render import document  # noqa: E402
 
 
 def _normalize(value: str) -> str:
@@ -46,34 +47,6 @@ def _text(metadata: dict) -> str:
             parts.append("Carta en Google Maps: " + "; ".join(values))
     parts.append("Guardado en mi lista de lugares sin gluten en Google Maps")
     return ". ".join(parts) + "."
-
-
-def _update_markdown(path: Path, url: str, dishes: str | None) -> str:
-    lines = path.read_text(encoding="utf-8").splitlines()
-    try:
-        enlace = next(
-            index
-            for index, line in enumerate(lines)
-            if line.startswith("- **Enlace:** ")
-            and line.split("**Enlace:**", 1)[1].strip() == url
-        )
-    except StopIteration:
-        raise SystemExit(f"No encontré el enlace {url} en {path}")
-    start = next(index for index in range(enlace, -1, -1) if lines[index].startswith("## "))
-    end = next(
-        (index for index in range(start + 1, len(lines)) if lines[index].startswith("## ")),
-        len(lines),
-    )
-    section = [line for line in lines[start:end] if not line.startswith("- **Carta (Google Maps):**")]
-    if dishes:
-        insert_at = next(
-            (index for index, line in enumerate(section) if line.startswith("- **Fecha de registro:**")),
-            len(section) - 1,
-        )
-        section.insert(insert_at, f"- **Carta (Google Maps):** {dishes}")
-    content = "\n".join(lines[:start] + section + lines[end:]).rstrip() + "\n"
-    path.write_text(content, encoding="utf-8")
-    return content
 
 
 def main() -> int:
@@ -254,7 +227,13 @@ def main() -> int:
         encoding="utf-8",
     )
     summary = photos._summary(dishes)
-    markdown = _update_markdown(md_path, metadata["url"], summary)
+    menus_by_place: dict[str, list[dict]] = {}
+    for row in kept + new_rows:
+        place_id = row.get("place_id")
+        if place_id:
+            menus_by_place.setdefault(place_id, []).append(row)
+    markdown = document(records, menus_by_place, today)
+    md_path.write_text(markdown, encoding="utf-8")
 
     if connection:
         try:
