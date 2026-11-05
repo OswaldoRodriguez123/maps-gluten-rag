@@ -1952,67 +1952,85 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en reseñas:** carne, parrilla, pastel de choclo, cazuela, pastel, postre, jugo
 - **Fecha de registro:** 2026-02-15
 
+### Qué vende
+
+- ENSALADAS
+- BEBIDAS
+- CERVEZAS.
+- SOPAS
+- TRADICIONALES
+- SUGERENCIAS DEL CHEF
+- PESCADOS
+- AVES
+
+
 ### Carta
 
-- POLLO SERENENCE
-- WikechucatOuate Parra / AUSTRALLAGER — $5.200
-- É . Y” es CORONA — $4
-- Y GA SHOP ARTESANAL SOOML — $5.200
-- CAZUELA DE VACUNO $
-- CONSOMÉ DE AVE — $4.000
-- SOPA MARINA — $12.500
-- GUATITAS A LA PESCADOS — $9.600
-- PASTEL DECHOCLO — $8.900
-- PLATO GUATON — $7.800
-- TRUTO 1/4 ALAS — $4.900
-- CAZUELA DE VACUNO — $9.200
-- POROTOS GRANADOS — $9.600
-- Sopa de pollo con huevo
-- CHORRILLANA X2
-- ARROLLADO HUASO — $39.200
-- PLATEADA AL JUGO — $12.300
-- CONGRIO A LO POBRE — $14.200
-- PASTEL DE CHOCLO
-- POROTOS GRADADOS — $8.200
-- SASLOS — $2.000
-- CHILENA CAFE EXPRESSO — $2.300
-- JUGO DE FRUTAS — $3.600
-- Seasonal vegetables TÉ — $1.800
-- PALTA/PALMITO LIMONADA — $4.700
-- HEINEKEN — $3.500
-- ] ENSALADA GUATON — $6.500
-- ROYAL GUARD — $3.500
-- HEINEKEN SIN — $3.500
-- KUNSTMANN BOCK — $3.500
-- SHOP ARTESANAL ¢ — $5.000
-- ENSALADA DE APIO
-- ENSALADA SURTIDA
-- = Flank steak and cheese empanada
-- Él j Empanada frita rellena con queso
-- PISCO SOUR Cheese empanada — $4.000
-- TERREMOTO [SALSA VERDE — $4.400
-- VAINA — $4.500
-- 0 SOUR — $4.600
-- EMPANADA OSTIÓN
-- EMPANADA PLATEADA — $3.500
-- Empanada rellena con plateada y que
-- EMPANADA QUESO
-- Empanada frita rellena con queso
-- Cheese empanada
-- EMPANADA CAMARÓN — $3.000
-- Empanada frita rellena camarón queso
-- Shrimp and Cheese empanada
-- PISCO SOUR GOTEADO — $4.800
-- CEVICHE DE REINETA — $10.300
-- PASTEL DE JAIBA
-- Ensalada de apio y palta
-- Porción de Prieta... iii ] — $4.500
-- GRAN Parrillada x 2 (comen 3
-- GRAN Parrillada x 3 (comen 4
-- Parrillada GUATON x 2 (comen 3
-- Parrillada GUATON x 3 (comen 4)
-- Té uo MS 15% > 618 Ñ — $1.200
-- Limonada iO E owe — $3.000
+#### ENSALADAS
+
+- ENSALADA CHILENA — $4.600
+- ENSALADA SURTIDA — $5.600
+- PAPAS MAYO — $4.800
+
+#### BEBIDAS
+
+- BEBIDAS GASEOSA — $2.400
+- JUGO DE FRUTAS NATURAL 100% — $4.500
+- LIMONADA MENTA JENGIBRE — $4.200
+- NECTAR DE PAPAYA — $3.200
+- CAFE EXPRESSO — $2.800
+- CAFE EXPRESSO DOBLE — $3.200
+- INFUSION — $2.300
+- CAFE AMERICANO — $3.000
+
+#### CERVEZAS.
+
+- AUSTRAL LAGER — $4.000
+- CORONA — $4.000
+- CRISTAL — $2.600
+- HEINEKEN — $4.000
+- HEINEKEN SIN ALCOHOL — $4.000
+- KUNSTMANN TOROBAYO — $4.000
+- KUNSTMANN BOCK — $4.000
+- STELLA ARTOIS — $4.000
+- ROYAL GUARD — $4.000
+- SHOP ARTESANAL 500ML — $5.200
+
+#### SOPAS
+
+- CAZUELA DE VACUNO DE OSOBUCO — $10.500
+- CONSOMÉ DE AVE CON HUEVO — $4.600
+- CALDILLO DE CONGRIO — $10.900
+- SOPA MARINA — $13.400
+
+#### TRADICIONALES
+
+- GUATITAS A LA JARDINERA — $11.000
+- PASTEL DE CHOCLO — $10.200
+- PLATO GUATÓN — $9.980
+- POROTOS GRANADOS CON MAZAMORRA — $9.200
+- POROTOS GRANADOS CON PLATEADA — $10.800
+
+#### SUGERENCIAS DEL CHEF
+
+- TALLARINES CON PLATEADA — $9.100
+- CHORRILLANA X2 — $17.000
+- ARROLLADO HUASO — $10.600
+- PLATEADA AL JUGO — $13.800
+- CORDERO AL HORNO — $17.800
+- LENGUA CON SALSA NOGADA — $12.200
+- POLLO SERENENCE — $12.800
+
+#### PESCADOS
+
+- CONGRIO FRITO — $13.200
+- CONGRIO A LO POBRE — $16.950
+- REINETA A LA PLANCHA O FRITA — $12.250
+
+#### AVES
+
+- SUPREMA DE AVE A LAS BRASAS — $9.250
+- TRUTRO 1/4 A LAS BRASAS — $7.800
 
 
 ## Emporio de la Tierra
