@@ -1085,57 +1085,49 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** factura
 - **Menciona en reseñas:** lasaña, sándwich, pastel, muffin, chocolate, dulces
 - **Fecha de registro:** 2025-11-05
+- **Dietético:** 1 veganos
 
 ### Qué vende
 
-- Chocolate Caliente
-- Torta
+- Mocktails
+- Métodos de Filtrado
+- Bollería
 - PASTELERÍA
+- DULCE TENTACIÓN
 
 
 ### Carta
 
-- A ts NS one — $3.600
-- AA A Flat White... 7 SNS ” Cidookt
-- Ede Cascafa desató... a : tithes
-- > Macarons i>)
-- == CON CAFE idad. cc econo — $4.900
-- RA e Unidades tic — $4.200
-- SS z Galletón New York (Variedades) — $3.200
-- See Milkshake 900 Brownie a Elección — $4
-- Fe a 20 3 / Brownie a Elección con Helado — $5.200
-- ==> A Be ÓN cocina ccccocorooacccinaianoniooo — $4.800
-- Pande Chocolate
-- Pastel de Nata
-- Chocolate con marshmellow
-- Macarons
-- Muffin Cheescakede-Arandano
-- Café Helado
-- Galletón New York Variedades)
-- Brownie a Elección
-- Brownie a Elección con Helado
-- Pie de Limón
-- Muffin Frambuesa)
-- Galletas de Almendras@@@@ — $4.500
-- Láminas de Chocolate y Manjar®® — $4.800
-- E ee © CARROT CAKE — $3.500
-- Ex) MUFFIN A ANJA
-- > (5%) MINI ALFAJORES Mo... 0
-- MUFFIN
-- Chips de chocolate con vainilla
-- Chocolate
-- BROWNIE
-- Chocolate 70% cacao Caramelo
-- TARTAS
-- ALFAJORES
-- MINI ALFAJORES
-- Bañado de chocolate marca
-- Manjar ¢ cub
-- +e Hl Cerveza'Sin(Alcohól — $3.300
-- Cerveza Sin Alcohol Michelada........ a SMe — $3
+#### Mocktails
+
+- Cerveza Sin Alcohol — $3.300
+- Cerveza Sin Alcohol Michelada — $3.700
+- Espresso Naranja — $4.900
+- Espresso Tonic/Pink — $4.900
+
+#### Métodos de Filtrado
+
+- Filtrado Grano de la Semana — $5.200
 - Filtrado Grano a Elección — $6.000
-- >: Media Edna... A. Jeanerette feo — $1.900
-- Pan-de Chocolate
+
+#### Bollería
+
+- Media Luna — $1.900
+- Cannelé — $2.100
+- Pan de Chocolate — $2.100
+- Pastel de Nata — $2.300
+- Rollo de Canela — $2.700
+- Croissant Dulce (Variedades) — $4.800
+
+#### PASTELERÍA
+
+- MUFFIN Chips de chocolate — $2.900
+- CARROT CAKE VEGANO Queque de zanahoria — $3.500 [vegano]
+- PIE DE LIMÓN — $4.500
+
+#### DULCE TENTACIÓN
+
+- BARQUILLOS SIN AZÚCAR (3 unidades) Barquillo [sin azúcar]
 
 
 ## Café Kanela
@@ -3011,23 +3003,34 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 ### Qué vende
 
-- PASTELERIA ©
+- EXTRAS
+- PANCITOS
+- GUSTITOS DE FIN DE SEMANA
 
 
 ### Carta
 
-- Tostadas Hummus Cherry
-- Hummus
-- Galleta Limón
-- Galleta Chocolate
-- Brownie
-- PICADOS — $3.300
-- Vegetal .... Syrup..... Frio..... Shot leche — $800
-- Frio — $300
-- Shot leche — $900
+#### EXTRAS
+
 - Vegetal — $800
 - Syrup — $500
-- GAFB HELADO
+- Frío — $300
+- Shot leche — $900
+- Hummus — $900
+- Jamón — $900
+- Palta — $900
+- Queso — $900
+
+#### PANCITOS
+
+- Tostadas Hummus Cherry — $5.750
+- Tostadas Palta Cherry — $5.750
+- Planchadito Queso Cherry — $4.800
+- Planchadito Jamón Queso — $4.800
+
+#### GUSTITOS DE FIN DE SEMANA
+
+- Ciabattas — $6.900
 
 
 ## Kanu Cocina
@@ -3381,63 +3384,50 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en reseñas:** curry, gyosa, helado, jugo
 - **Fecha de registro:** 2026-02-15
 
+### Qué vende
+
+- POSTRES / DESSERTS
+- BEBESTIBLES / DRINKS
+- ENTRADAS / ENTRÉE
+- ARROZ FRITO / FRIED RICE
+
+
 ### Carta
 
-- VACUNO — $9.000
-- CURRY VERDE / GREEN CURRY
-- POLLO O CERDO MARISCOS — $8.000
-- DPA DE LECHE DE COCO CON CAMARONES VACUNO — $6.000
-- Huevo Frito 18. SAL STIR FRY WITH VEGGIES — $700
-- POLLO O CERDO — $8.000
-- CURRY MASSAMAN
-- CURRY ROJO / RED CURRY
-- CAMARÓN — $10.000
-- MARISCOS — $13.500
-- CARNE AL COMINO / CUMIN BEEF
-- POLLO A LA NARANJA / ORANGE CHICKEN
-- VEGETARIANO CAMARÓN 28. PANQUEQU — $7.500
-- Mundialmente famoso. Tallarín de arroz — $54
-- Coy 31. PANQUEQUE THAI /THAIPANCAKE = — $4.500
-- JUGO DE ALOE / ALOE JUICE — $1.600
-- DAN DAN MIAN — $8.000
-- Mundialmente famoso — $1.300
-- TALLARIN — $9.000
-- Tradicional de China — $51.100
-- TEMPURA DE PLATANO / BANANA TEMPURA
-- JUGO NATURAL / NATURAL JUICE
-- MARISC — $57.500
-- POLO o CERT — $59.000
-- VACUNO INGAPORE STYLE NOODLES — $8.000
-- MARISCOS ie. ~ — $13.500
-- ENSALADA DEL DÍA / SALAD OF THE DAY 11.¢ — $5.500
-- / 6. SOPA DE LECHE DE COCO CON CAMARONES — $56.000
-- VEGETARIANO = CAMARON — $7.000
-- GYOSAS LEMON
-- POLLO REB
-- POLLO O CERDO = — $7.500
-- VACUNO 5 — $8.000
-- Biker — $5.500
-- VEGETARIANO — $7.000
-- CARNE AL COMINO / CUMIN BEEF — $9
-- POLLO A LA NARANJA / ORANGE CHICKEN — $8
-- Pollo o cerdo p'
-- Cerdo o pollo reboza
-- Carne de vacuno salteada con verduras
-- POLLO A LA NARANJA
-- Pollo rebozado en salsa de soya
+#### POSTRES / DESSERTS
+
 - PANQUEQUE MANJAR / CARAMEL PANCAKE — $4.000
-- AD 32. TEMPURA DE PLÁTANO / BANANA TEMPURA — $4.000
-- MANJAR / CARAMEL PANCAKE
-- JUGO DE ALOE / ALOE JUICE
-- POLLO O Aressing dresseq
-- $. SOPA DE LECHE YAKISGBA
-- SHRIMp AND COconur MILK Soup MARONES igh
-- POLL CAMARÓN — $10.000
-- CERDO — $8.000
-- MARISCOS — $13
-- TALLARIN CON CARNE AL COMINO / CUMIN BEEF NOODLES
-- CAMARÓN — $510.000
-- MARISCOS 51 — $3.500
+- PANQUEQUE NUTELLA / NUTELLA PANCAKE — $4.500
+- PANQUEQUE THAI / THAI PANCAKE Relleno — $4.500
+- TEMPURA DE PLÁTANO / BANANA TEMPURA — $4.000
+- LECHE DE COCO ENDULZADA — $4.000
+
+#### BEBESTIBLES / DRINKS
+
+- JUGO NATURAL / NATURAL JUICE — $2.500
+- JUGO DE ALOE / ALOE JUICE — $1.600
+- BEBIDA (LATA) / CAN — $1.300
+- NECTAR / BOTTLED JUICE — $1.500
+- AGUA MINERAL / MINERAL WATER — $1.100
+- TÉ VERDE / GREEN TEA — $1.000
+
+#### ENTRADAS / ENTRÉE
+
+- ALITAS DE POLLO DEL MAESTRO / CHEF'S CHICKEN WINGS — $6.500
+- GYOSAS LEMONGRASS / LEMONGRASS DUMPLINGS — $8.000
+- POLLO REBOSADO CON SALSA AGRIDULCE / BATTERED CHICKEN — $6.000
+- LAAP POLLO O CERDO — $7.500
+- LAAP VACUNO — $8.000
+- ENSALADA DEL DÍA / SALAD OF THE DAY — $5.500
+- SOPA DE LECHE DE COCO — $6.000
+
+#### ARROZ FRITO / FRIED RICE
+
+- ARROZ FRITO / FRIED RICE VEGETARIANO — $7.000
+- ARROZ FRITO / FRIED RICE VACUNO — $9.000
+- ARROZ FRITO / FRIED RICE CAMARÓN — $10.000
+- ARROZ FRITO / FRIED RICE
+- ARROZ FRITO THAI / THAI FRIED RICE
 
 
 ## Libre Punto SpA
@@ -3546,57 +3536,86 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** tarta, dulces, jugo
 - **Menciona en reseñas:** croissant, dulces
 - **Fecha de registro:** 2026-03-23
-- **Dietético:** 1 platos sin gluten
 
 ### Qué vende
 
-- Chocolate Caliente
-- helado
-- SÁNDWICHES
+- RECOMENDADOS
+- CAFÉ FILTRADO
+- LO CLÁSICO
+- HAZ TU BEBIDA ÚNICA
+- RECOMENDADOS FRÍOS
+- FRAPPÉ
+- CON PROTEÍNA
+- MATCHA & JUGOS
+- HAZLO A TU GUSTO
 
 
 ### Carta
 
-- AN Método — $4.500
-- Espresso doble Quiero mi café descafeinado +600 — $2.400
-- Americano / Agrega syrup +600 — $2.900
-- Mocca / — $4.500
-- Chocolate Caliente / Agrega Crema +700 — $3.750
-- EE] — $12.950
-- EEE — $12.950
-- Froppu ManjartY
-- Tostada Huevo Palta — $6.500
-- Tostada Pollo Palta — $6.950
-- A q Waffle con syrup
-- Waffle recién
-- BA GTA iced Matcha Latte — $4.250
-- Brricado Iced Matcha £ Mango ó Frutilla — $5.501
-- HAZLO A TU GUSTO — $6.250
-- Je Chocolate
-- Jugo Tropical Mix
-- Golden Milk 300m1/500ml / 2 once ) 7 — $3.750
-- Ea SS ‘ a Método — $4.500
-- Cappuccino da sil “J00 — $3.400
-- Latte / eche veut — $3.700
-- Va Brownies de Torta de zanahoria — $2.350
-- Cheesecs Brownies Choconuez — $2.750
-- Pack de galletitas sin gluten Macarons Frances (1u) — $4.750 [sin gluten]
-- EA ee > — $4.750
-- E ERRE — $2.950
-- Waffle Matcha Romance
-- Cheesecake Tradicional
-- Torta Milhojas de Manjar
-- Torta de Oreo Double Stuff
-- Torta de zanahoria
-- Pie de manzana
-- Galletón
-- Torta Chocomanjar
-- Brownies Choconuez
-- Pie de limón
-- Macarons Frances (1u)
-- Muffins
-- Rejita de manzana o chocolate
-- Suave y Tala acidez - 38 — $4.500
+#### RECOMENDADOS
+
+- Cappuccino Creme Brulee 200ml — $4.500
+- Latte Nutella & Pistacho 300ml — $4.950
+- Chocomani 300ml — $4.700
+- Golden Milk 300ml / 500ml — $3.750
+- Matcha Latte 300ml / 500ml — $3.750
+- Chai Latte 300ml / 500ml — $3.750
+
+#### CAFÉ FILTRADO
+
+- Método — $4.500
+
+#### LO CLÁSICO
+
+- Espresso doble — $2.400
+- Americano — $2.900
+- Flatwhite / Cortado — $3.150
+- Cappuccino — $3.400
+- Latte — $3.700
+- Mocca — $4.500
+- Chocolate Caliente — $3.750
+
+#### HAZ TU BEBIDA ÚNICA
+
+- Quiero mi café descafeinado — $600
+- Agrega Crema — $700
+
+#### RECOMENDADOS FRÍOS
+
+- Iced Latte — $4.250
+- Summer Espresso Maracuyá — $4.700
+- Icecream Espresso — $5.900
+- Cold Brew — $3.950
+- Espresso Lichi — $4.500
+- Orange Americano — $4.250
+- Espresso Tonic — $4.500
+- Iced Americano — $3.500
+
+#### FRAPPÉ
+
+- Frappé Clásico — $5.500
+- Frappé de Chocolate — $5.500
+- Pink Love — $5.750
+
+#### CON PROTEÍNA
+
+- Protein Fit — $5.750
+- Proffee — $6.250
+- Agua — $1.500
+- Coca-Cola — $1.800
+
+#### MATCHA & JUGOS
+
+- Iced Matcha Latte — $4.250
+- Iced Matcha & Mango ó Frutilla — $4.500
+- Icecream Matcha — $5.950
+- Iced Matcha Lichi — $4.250
+- Jugos Frutilla / Mango — $3.900
+- Jugo Tropical Mix — $4.200
+
+#### HAZLO A TU GUSTO
+
+- Leche vegetal — $700
 
 
 ## Magnolia
@@ -3607,20 +3626,59 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en reseñas:** ceviche, mariscos, pino
 - **Fecha de registro:** 2026-02-17
 
+### Qué vende
+
+- Menú de Niños
+- Postres
+- Bebidas
+- Cervezas
+- Especialidades
+- Sugerencias del Chef
+
+
 ### Carta
 
-- Postre 1
-- Panqueques Celestino 2
-- Brownie de Chocolate <
-- Panqueques Cel
-- Panqueque relleño con man
-- EF Ceviche de Mariscos — $3
-- Ceviche Peruano
-- Ceviche de Camarón
-- Pollo
-- Pescado al ajo
-- Filete de pescado-all
-- Pescado a la plancha a elec
+#### Menú de Niños
+
+- Suprema de Ave Grillada — $5.800
+- Cubitos de Vacuno — $5.800
+
+#### Postres
+
+- Tiramisú — $3.200
+- Helado Casero de Chirimoyas — $3.600
+- Cheesecake de Maracuyá — $3.600
+- La Gula de Magnolia — $4.300
+- Panqueques Celestino — $3.600
+- Postre sin azúcar y bajas calorías — $3.600 [sin azúcar]
+
+#### Bebidas
+
+- Agua Mineral — $1.500
+- Jugos Naturales — $1.800
+
+#### Cervezas
+
+- Voll - Damn — $3.000
+- Estrella — $3.000
+- Atrapaniebla — $3.000
+- Cactus — $3.000
+- Miller — $3.000
+- Kross — $3.000
+
+#### Especialidades
+
+- Pescado al Pil Pil o Ajillo — $10.500
+- Asado de Tira a la Cacerola — $9.900
+- Pastelera Marina — $9.900
+- Picante de Pulpo — $10.500
+- Lomo Bravo — $11.500
+- Lomo al Pil Pil — $11.500
+
+#### Sugerencias del Chef
+
+- Chuletas Grilladas — $9.500
+- La Pesca de Poseidón — $23.500
 
 
 ## Maillard - Cocina a las Brasas
@@ -4117,68 +4175,45 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** hamburguesa, pizza, empanada, hot dog, pino, torta, pastel, galleta, brownie, muffin, cheesecake, pie, postre, dulces
 - **Menciona en reseñas:** empanada, pollo, pino, torta, pastel, alfajor, brownie, chocolate, merengue
 - **Fecha de registro:** 2025-11-05
+- **Dietético:** 12 platos sin gluten, 19 sin lactosa
 
 ### Qué vende
 
-- PASTELERIA
+- DULCES Sin gluten
+- PRODUCTOS SALADOS
 
 
 ### Carta
 
-- MUFFIN ZANAHORIA — $2.400
-- MUFFIN CHIPS DE CHOCOLATE — $2.400
-- ¢ BROWNIE — $2.000
-- ¢ GALLETAS CHIPS — $3.500
-- + GALLETAS CRAQUELADAS — $3.500
-- ALFAJOR — $4.200
-- ¢ GALLETAS MANTEQUILLA — $4.050
-- GALLETAS MANTEQUILLA SIN AZÚCAR — $4.200 [sin azúcar]
-- ¢ CAJA GALLETAS FLORENTINAS — $12.000
-- CAJA GALLETAS DELICIAS — $11.000
-- ¢ MUFFIN ZANAHORIA
-- BROWNIE
-- BROWNIE SIN AZUCAR [sin azúcar]
-- + GALLETAS CHIPS
-- + GALLETAS MANTEQUILLA
-- + GALLETAS MANTEQUILLA SIN AZÚCAR [sin azúcar]
-- + CAJA GALLETAS FLORENTINAS
-- + CAJA GALLETAS DELICIAS
-- EMPANADA ESPINACA QUESO — $4.900
-- + EMPANADA CAMARÓN QUESO — $5.900
-- EMPANADA PINO — $5.900
-- PIZZA NAPOLITANA — $4.300
-- PIZZA PEPPERONI — $4.300
-- PIZZA VEGETARIANA — $4.300
-- PIZZA JAMÓN SERRANO PESTO — $5.100
-- QUICHE JAMÓN SERRANO CHOCLO — $4.800
-- QUICHE VERDURAS — $4.800
-- + QUICHE SALMÓN PUERRO — $5.800
-- QUICHE QUESO CABRA ESPINACA — $5.800
-- + EMPANADA ESPINACA QUESO
-- + EMPANADA PINO
-- + PIZZA VEGETARIANA
-- QUEQUE DE YOGUR CON AZÚCAR FLOR — $7.500
-- + QUEQUE DE ZANAHORIA NUEZ — $9.800
-- QUEQUE DE YOGUR SIN AZÚCAR — $10.000 [sin azúcar]
-- QUEQUE SIN AZUCAR BANADO — $11.500 [sin azúcar]
-- EN CHOCOLATE Y ALMENDRAS
-- + QUEQUE DE CHOCOLATE BANADO — $14.500
-- ¢ QUEQUE DE CHOCOLATE BANADO
-- + PAQUETE PAN HOT DOG — $2.400
-- ¢ MINI BAGUETTE — $1.500
-- AAA 700 — $1
-- Empanada de Pino
-- Empanada Champiñón-queso
-- Qtsiche de SalmónPuUeIKro. srorcsroterccesisrereee BEN — $4.500
-- IN BAGUETTE — + TROP Moo — $2.600
-- CHAMPINON — # BROWNIE SA + 4800 — $3.000
-- PITTAS — $2.400
-- TROZO TORTA
-- PIZZAS -NADOLTANA
-- Pan Molde Blanco (960 grs. Aprox) serranas 200 — $5
-- Trozo Cheesecake
-- Torta Zanahoria- nuez
-- Cheesecake (frambuesas
+#### DULCES Sin gluten
+
+- MUFFIN ARÁNDANO Sin lactosa — $2.400 [sin gluten, sin lactosa]
+- MUFFIN ZANAHORIA Sin lactosa — $2.400 [sin gluten, sin lactosa]
+- BROWNIE Sin caseína — $2.000 [sin gluten]
+- BROWNIE SIN AZÚCAR Sin caseína — $2.200 [sin azúcar, sin gluten]
+- GALLETAS CHIPS Sin lactosa — $3.500 [sin gluten, sin lactosa]
+- GALLETAS CRAQUELADAS Sin lactosa — $3.500 [sin gluten, sin lactosa]
+- ALFAJOR — $4.200 [sin gluten]
+- GALLETAS MANTEQUILLA Sin lactosa — $4.050 [sin gluten, sin lactosa]
+- GALLETAS MANTEQUILLA SIN AZÚCAR Sin lactosa — $4.200 [sin azúcar, sin gluten, sin lactosa]
+- CAJA DULCES CHILENOS Sin lactosa — $7.500 [sin gluten, sin lactosa]
+- CAJA GALLETAS FLORENTINAS Sin lactosa — $12.000 [sin gluten, sin lactosa]
+- CAJA GALLETAS DELICIAS Sin lactosa — $11.000 [sin gluten, sin lactosa]
+
+#### PRODUCTOS SALADOS
+
+- EMPANADA ESPINACA QUESO Sin lactosa — $4.900 [sin lactosa]
+- EMPANADA CHAMPIÑÓN QUESO Sin lactosa — $4.900 [sin lactosa]
+- EMPANADA CAMARÓN QUESO Sin lactosa — $5.900 [sin lactosa]
+- EMPANADA PINO Sin lácteos — $5.900
+- PIZZA NAPOLITANA Sin lactosa — $4.300 [sin lactosa]
+- PIZZA PEPPERONI Sin lactosa — $4.300 [sin lactosa]
+- PIZZA VEGETARIANA Sin lactosa — $4.300 [sin lactosa]
+- PIZZA JAMÓN SERRANO PESTO Sin lactosa — $5.100 [sin lactosa]
+- QUICHE JAMÓN SERRANO CHOCLO Sin lactosa — $4.800 [sin lactosa]
+- QUICHE VERDURAS Sin lactosa — $4.800 [sin lactosa]
+- QUICHE SALMÓN PUERRO Sin lactosa — $5.800 [sin lactosa]
+- QUICHE QUESO CABRA ESPINACA Con lactosa — $5.800
 
 
 ## Pastelería Kleine Nuss
@@ -4556,37 +4591,45 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 ### Qué vende
 
-- PIZZAS
+- Fondos
+- Tablas
+- ENSALADAS
 
 
 ### Carta
 
-- Pizza Bistrot
-- CARNES
+#### Fondos
+
+- Entrecôte Frites (300gr)
+- Confit de Pato
+- Garrón de cordero
+- Conejo a la mostaza frances
+- Entraña con papas a la antigua
+- Entraña en picoteo
+- Boeuf Carotte
+- Boeuf Strogonoff
 - Boeuf Tartare
-- SOPAS
+- Pulpo a grillé
+- Salmón Al Quinoto
+- Choros con Papas fritas
 - Sopa de cebolla
+- Crema de Camote
 - Sopa de Tomate
-- Sova de pescado con chorros
-- E MT / Pizza Bistrot
-- ] Ensalada Mary Tierra. eves — $6
-- Ensalada de Salmón ahumado. A (
-- Ensalada St Raphaél
-- Pollo
-- Ensalada Cé
-- Ensalada César Camaron
-- Ensalada Mar y Tierra
-- Ensalada al Rojo NUEVA
-- Ensalada de Salmón ahumado
-- Pizza Bistrot i Pizza Bistrot )
-- JA PIZZAS
-- BES — $13.000
-- Pizza de los Me ndez
-- Ensalada de Pulpos y ( amarones a la Provenzal — $7.000
-- P Peer = — $5.900
-- Ensalada de queso Frances. NUEVA — $6.300
-- Ensalada de lentejas y tomate — $5.200
-- Ensalada de queso Frances. NU JEVA
+
+#### Tablas
+
+- Tabla de Saucisson Francés Clásico chorizo Francés
+
+#### ENSALADAS
+
+- Ensalada César Pollo — $5.900
+- Ensalada César Salmón — $5.900
+- Ensalada César Camaron — $6.800
+- Ensalada Mar y Tierra — $6.900
+- Ensalada al Rojo NUEVA — $5.500
+- Ensalada de Salmón ahumado — $6.800
+- Ensalada St Raphaël — $6.500
+- Ensalada de queso de cabra caliente — $5.900
 
 
 ## Pizzeria Latinoamericana
@@ -4937,41 +4980,79 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** pasta, lasaña, curry, pollo, carne, ensalada, panqueque, paella, mechada, torta, helado, chocolate, tiramisú, manjar, postre, dulces, jugo
 - **Menciona en reseñas:** pasta, lasaña, paella
 - **Fecha de registro:** 2026-02-15
-- **Dietético:** 3 platos sin gluten, 3 sin lactosa
+- **Dietético:** 5 platos sin gluten, 1 sin lactosa
+
+### Qué vende
+
+- PLATOS
+- Cumplimos 15 años con ustedes !!
+- ANTIPASTO
+- JUGOS NATURALES
+- Postres Tradicionales
+- Postres Sin Azúcar, Sin Gluten y Keto
+- BEBIDAS Y AGUAS
+
 
 ### Carta
 
-- SPAGHETTI CON CARNE MECHADA
-- ÑOQUIS CON MECHADA [sin gluten]
-- PAELLA ESTILO LA ESCALERA
-- ENSALADA CESAR
-- °7.- ENSALADA SUPREMA
-- COPA DE HELADO LA ESCALERA
-- PANQUEQUE CELESTINO
-- TIRAMISÚ
-- TORTA DEL DIA
-- MOSTACCIOLI CURRY
-- EXTRA — $2.500 [sin gluten, sin lactosa]
+#### PLATOS
+
+- SPAGHETTI MAR Y TIERRA — $17.990
+- GUISO VEGETARIANO — $12.990
+- ARROZ VERDI — $13.990
+- PAELLA ESTILO LA ESCALERA — $13.990
+- ENSALADA CESAR — $12.990
+- SPAGHETTI GAMBITO — $17.990
 - ENSALADA SUPREMA — $12.990
+- MOSTACCIOLI D'ANGELO — $13.990
 - SPAGHETTI CARBONARA — $13.990
-- MOSTACCIOLI MATRICIANA — $13.990
-- ENSALADA SUPREMA
-- FRICASE DE ACELGA POLLO
-- CAFÉ EXPRESS — $2.900
-- TÉ O INFUSIÓN: 500.- > — $2
-- EXTRA — $1
-- AA See raga PANQUEQUE CELESTINO
+- SPAGHETTI SALAMI — $13.990
 - MOSTACCIOLI CURRY — $13.990
-- N LACTOSA — $2.500
-- CAFÉ EXPRESS — $2.700
-- EXTRA — $1.500
-- TE O INFUSION — $2.500
-- SIN GLUTEN - SIN LACTOSA — $2.000 [sin gluten, sin lactosa]
-- N CARNE MECHADA
-- ON MECHADA
-- ENSALADA SUPRE
-- TEN - SIN LACTOSA — $2.500 [sin lactosa]
-- A > — $1.000
+- MOSTACCIOLI MATRICIANA — $13.990
+- MOSTACCIOLI VEGGI — $12.990
+
+#### Cumplimos 15 años con ustedes !!
+
+- SPAGHETTI CON CARNE MECHADA — $17.990
+- ÑQUIS DOS QUESOS — $20.990
+- SPAGHETTI BOLOGNESA — $12.990
+- SPAGHETTI VENECIANO — $16.990
+- ARROZ NEGRO — $19.990
+- ÑQUIS CON MECHADA — $22.990
+
+#### ANTIPASTO
+
+- POLPETTE AL PESTO — $23.990
+- POLPETTE POMODORO — $23.990
+- POLPETTE D'ANGELO — $23.990
+
+#### JUGOS NATURALES
+
+- PIÑA /FRUTILLA — $4.990
+- LIMONADA/JENGIBRE — $4.990
+- LIMONADA/FRUTILLA — $4.990
+- PIÑA O FRUTILLA — $4.990
+- PIÑA / COCO — $4.990
+
+#### Postres Tradicionales
+
+- COPA DE HELADO LA ESCALERA — $6.990
+- PANQUEQUE CELESTINO — $6.990
+
+#### Postres Sin Azúcar, Sin Gluten y Keto
+
+- CHEESCAKE (FRUTOS ROJOS) — $7.990 [sin azúcar, sin gluten]
+- TIRAMISÚ — $7.990 [sin azúcar, sin gluten]
+- TORTA DEL DÍA — $7.990 [sin azúcar, sin gluten]
+- PANQUEQUE RELLENO — $7.990 [sin azúcar, sin gluten]
+
+#### BEBIDAS Y AGUAS
+
+- BEBIDAS Y AGUAS — $2.990
+- CAFÉ EXPESO — $3.500
+- TÉ O INFUSIÓN — $2.990
+- EXTRA QUESO — $1.500
+- EXTRA — $2.500 [sin gluten, sin lactosa]
 
 
 ## Restoran Pinpilinpausha
@@ -5076,40 +5157,50 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en reseñas:** pizza, gelato
 - **Fecha de registro:** 2025-11-23
 
+### Qué vende
+
+- PIZZE MODERNE
+- DOLCI
+- Featured items
+
+
 ### Carta
 
-- TIRAMISU ALLA NUTELLA
-- TIRAMISU AL PISTACCHIO
-- GELATO
-- TIRAMISU CON GELATO
-- Desde — $17.990
-- Ay <> 3 E + — $12.990
-- CD AA OS ESO — $16.990
-- AS o 990 Y ° — $12.990
-- (Y) — $15.990
-- CLP + > CLP + 165 CLP — $11.990
-- CLP — $14.990
-- CLP + 16 92% (318) — $11.990
-- CLP + i 90% (20) — $15.990
-- 8 © ae © @ — $14.990
-- CROISSANT SICILIANO TAN
-- GELATO OGGI
-- Desde — $3.290
-- PIZZAMISÚ
-- Voloan de chocolate con gelsto de valide
-- CROISSANT SICILIANO
-- CROISSANT CLASSICO
-- CANNOLO GRANDE CON GELATO
-- Croissant clasico o con varios rellenos
-- Desde — $2.490
-- GELATO GRANDE
-- GELATO REGULAR
-- GELATO MINI
-- Distruta de un Tiramisú al poso
-- KILO DE GELATO PARA LLEVAR
-- GR DE GELATO PARA LLEVAR
-- CAFFE E GELATO
-- CAFFE E MUFFIN
+#### PIZZE MODERNE
+
+- TRUFFLE HONEY (NEW) — $17.990
+- DOLOMITI (NEW) — $16.990
+- PERAS CON MANZ... (NEW) — $14.990
+- ZUCCONA (NEW) — $15.990
+- TU VO FA L`AMERICANO (NEW) — $16.990
+- PISELLINA (NEW) — $12.990
+- HOT & HONEY — $16.990
+- GLUGLU — $14.990
+- ORO VERDE — $16.990
+- BOSCO — $13.990
+- CARBONARA — $13.990
+- DELLA NONNA — $15.990
+- DIAVOLA — $12.990
+- SICILY — $14.990
+- IL VERO PEPERONE — $12.990
+- PORCA — $14.990
+- CARCIOFONA — $13.990
+- PARMIGIANA — $13.990
+- AFFUMICATA — $14.990
+- FAKE CAPPUCCINO — $14.990
+- PECORINA — $13.990
+
+#### DOLCI
+
+- TIRAMISU CON GELATO — $7.990
+- TIRAMISÚ ALLA NUTELLA — $8.990
+- TIRAMISÚ AL PISTACCHIO — $9.990
+- TRIO DI CANNOLI SICILIANI — $4.990
+
+#### Featured items
+
+- Peppe & Roni — $11.990
+- Burrata — $14.990
 
 
 ## Simona Healthy Bakery
@@ -5138,20 +5229,119 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Fecha de registro:** 2025-11-05
 - **Dietético:** local 100% sin gluten
 
+### Qué vende
+
+- Postres y dulces
+- Bebestibles
+- Promociones
+- Rolls de la casa
+- Rolls clásicos
+- VEGETARIAN ROLL
+- Rolls tempura
+- Entradas
+- Ceviches
+- Gohan
+
+
 ### Carta
 
-- Trozo dé kuchen Jone — $14.490
-- Camarón tempura y queso
-- Hosomaki queso y pollo
-- SUSHI COFFEE
-- ENO — $1.990
-- CHOCOLATE CALIENTE — $2
-- DELI ROLL SAKEBI TEMPURA ue 2s
+#### Postres y dulces
+
+- TORTA DEL DÍA — $4.290
+- CHEESCAKE — $3.990
+- PIE DE LIMÓN — $3.590
+- STREUSSEL — $3.590
+- KUCHEN DE NUEZ — $3.590
+- BRAZO DE REINA — $1.990
+- BOLLITO — $3.590
+- ECLAIR — $2.890
+- MINI HOJARASCA — $2.890
+- PROFITEROL RELLENO — $1.990
+
+#### Bebestibles
+
+- CAFÉ — $2.500
+- CAPUCCINO — $2.900
+- CAPUCCINO SABOR — $2.900
+- CHOCOLATE CALIENTE — $2.900
+- BEBIDAS — $2.300
+- JUGOS — $2.300
+
+#### Promociones
+
+- PROMO 1 (22 PIEZAS) — $14.490
+- PROMO 2 (28 PIEZAS) — $18.990
+- PROMO 3 (36 PIEZAS) — $28.990
+- PROMO 4 (50 PIEZAS) — $39.990
+
+#### Rolls de la casa
+
+- GASPI ROLL (SIN ARROZ)
+- ANTON ROLL
+- EMI ROLL
+- PANCHI ROLL
+- VAL ROLL
+- POLO ROLL
+- DELI ROLL
+- SUKI ROLL
+- GASPI ROLL (SIN ARROZ) — $7.490
+- ANTON ROLL — $6.990
+- EMI ROLL — $6.990
+- PANCHI ROLL — $7.290
+- VAL ROLL — $6.990
+- POLO ROLL — $7.490
+- DELI ROLL — $6.990
+- SUKI ROLL — $6.990
+
+#### Rolls clásicos
+
+- TERI ROLL
+- SAKE EBI ROLL
+- TAKO ROLL
+- EBI ROLL
+- SHITAKE ROLL
+- SAKE ROLL
+- MAGURO ROLL
+- TERI ROLL — $5.990
+- SAKE EBI ROLL — $6.290
+- TAKO ROLL — $6.290
+- EBI ROLL — $5.990
+- SHITAKE ROLL — $5.490
+- VEGETARIAN ROLL — $5.490
+- SAKE ROLL — $6.290
+- MAGURO ROLL — $6.290
+
+#### Rolls tempura
+
 - SAKEBI TEMPURA
 - TERI TEMPURA
 - TAKO TEMPURA
-- Viche mixto bocado — $6.290
-- 22d — $6
+- TERI ESPECIAL
+- EBI ESPECIAL
+- SAKEBI TEMPURA — $6.290
+- TERI TEMPURA — $6.290
+- TAKO TEMPURA — $6.290
+- TERI ESPECIAL — $6.290
+- EBI ESPECIAL — $6.290
+
+#### Entradas
+
+- PULPO AL OLIVO — $10.990
+- CAMARONES FURAY — $7.990
+- CUCHARA ACEVICHADA — $9.990
+- MIX SASHIMI — $8.990
+- HOSOMAKI — $3.890
+
+#### Ceviches
+
+- DOS POLOS — $10.980
+- MIXTO — $10.980
+- A ELECCIÓN — $10.980
+
+#### Gohan
+
+- CLÁSICO — $6.490
+- APANADO — $6.490
 
 
 ## Tasty Bulnes
@@ -5220,32 +5410,75 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** hamburguesa, empanada, completo, torta
 - **Menciona en reseñas:** empanada, completo, cupcake, chocolate
 - **Fecha de registro:** 2025-11-05
-- **Dietético:** 1 veganos
+- **Dietético:** 9 veganos
 
 ### Qué vende
 
-- Torta
+- Tortas / Tamaños
+- Pasteleria
+- Masas
+- Pan
+- Platos Preparados
+- Pizzas
 
 
 ### Carta
 
-- Torta riedades h. Cr 7 — $36.990
-- Pizza Pepperoni 3
-- Y A Pizza Vegetariana mr Dp any tare
-- Torta vegana [vegano]
-- No Disponible — $15.500
-- A Torta hojarasca
-- Torta martina
-- Galletas (806
-- Torta4
-- Torta 4 leches
-- Sopaipill
-- Cheesecake
-- Empanada variedad
-- Pan hot dog (4uni)
-- Pizza POPPeroni
-- Pizza Vegang
-- Pizza Vegetariana
+#### Tortas / Tamaños
+
+- Torta vegana frutos rojos PEQUEÑO — $15.500 [vegano]
+- Torta vegana frutos rojos GRANDE — $36.990 [vegano]
+- Torta hojarasca frambuesa o lúcum PEQUEÑO — $15.500
+- Torta hojarasca frambuesa o lúcum MEDIANO — $25.990
+- Torta hojarasca frambuesa o lúcum GRANDE — $36.990
+- Torta martina MEDIANO — $19.990
+- Torta martina GRANDE — $36.990
+- Torta martina vegana MEDIANO — $19.990 [vegano]
+- Torta martina vegana GRANDE — $36.990 [vegano]
+- Torta manjarate PEQUEÑO — $15.500
+- Torta manjarate GRANDE — $36.990
+- Torta 4 leches PEQUEÑO — $15.500
+- Torta 4 leches MEDIANO — $25.990
+- Torta 4 leches GRANDE — $36.990
+- Torta 4 leches vegana MEDIANO — $25.990 [vegano]
+- Torta 4 leches vegana GRANDE — $36.990 [vegano]
+- Torta freeckers MEDIANO — $14.990
+- Cheesecake variedades — $16.990
+- Pie vegano o tradicional sabores — $16.990 [vegano]
+- KUCHEN DEL SUR MEDIANO — $16.990
+
+#### Pasteleria
+
+- Muffins (6 unidades) — $6.990
+- Muffins veganos (8 unidades) — $5.990 [vegano]
+- Brownies tradicional o vegano (1 unidad) — $1.500 [vegano]
+- Postre vaso variedades — $2.500
+- Trozo torta variedad — $3.500
+
+#### Masas
+
+- Masa pizza grande — $3.990
+- Masa pizza pequeña 2x — $3.990
+
+#### Pan
+
+- Pan molde multigrano (1 uni) — $4.400
+- Pan molde blanco (1 uni) — $4.400
+- Pan hot dog (4uni) — $4.400
+- Pan hamburquesa (4uni) — $4.400
+- Pan aceitunas (4uni) — $4.400
+- Pan fugazza (4 uni) — $4.400
+- Pan masa madre (1uni) — $4.400
+
+#### Platos Preparados
+
+- Quiche — $17.990
+- Empanada variedad — $3.500
+
+#### Pizzas
+
+- Pizza pepperoni PEQUEÑA — $4.990
+- Pizza pepperoni GRANDE — $7.990
 
 
 ## Thani Gluten Free
@@ -5309,45 +5542,24 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 ### Qué vende
 
-- Chocolate Caliente
+- Cafetería Tradicional
 
 
 ### Carta
 
-- Café Helado
-- Helado Simple
-- Helado Doble
-- Copa Brownie
-- / Pp “My Gee — $35.990
-- / Uan Crema le Tomate — $990
-- L a soas de Vacuno al Pomedoro
-- MO al E Stilo Peruano — $7.490
-- Plateada de Res — $9.990
-- Plateada de Vacuno — $9.990
-- Carne al jugo — $9.990
-- / (Consumo en local) ey ie. Teriyaki 2 — $9.990
-- Salmón a las Finas Hierbas — $9.990
-- PASTas
-- Lasaña Bos
-- CARNES
-- Carne al Jugo
-- Ensalada Roast Beef
-- Ensalada César
-- POLLO
-- Gohan de pollo Apana'
-- Poke Salmón Teriyaki
-- Poke Camarón Acevichado
-- Pollo Teriyaki
-- PASTEL
-- Pastel de Choclo
-- MIX1 — $2.000
-- PESCADO
-- MINI ENSALADA O CONSOMÉ
-- A + — ppuccino Cookies and Cream — $5.190
-- Y CON HELADO FRUTA
-- Helado Simple $.3000 1 MS re a p 4 30
-- WAFFLE
-- CON HELADO
+#### Cafetería Tradicional
+
+- Espresso — $2.790
+- Espresso Especialidad — $2.990
+- Espresso Doble — $3.290
+- Espresso Descafeinado — $2.990
+- Espresso Machiatto — $3.190
+- Americano — $2.890
+- Cappuccino — $3.990
+- Latte — $4.390
+- Mocaccino — $4.590
+- Chocolate Caliente — $4.790
+- Afogatto — $4.490
 
 
 ## Vapiano Parque Arauco
