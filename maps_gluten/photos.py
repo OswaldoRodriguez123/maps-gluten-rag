@@ -138,7 +138,8 @@ def _ocr_menu_bytes(raw: bytes) -> str:
 
 
 def _clean_name(value: str) -> str:
-    value = re.sub(r"^[\s•\-–—\d.)]+", "", value)
+    value = re.sub(r"^[\s•\-–—\d.)'‘’\"|]+", "", value)
+    value = re.sub(r"^(?:[a-z€$'‘’\"|:;.,\-–—]|I)\s+(?=[A-ZÁÉÍÓÚÑ])", "", value)
     value = PRICE_DOLLAR.sub("", value)
     value = PRICE_THOUSANDS.sub("", value)
     value = re.sub(r"\s+", " ", value).strip(" -–—:;|")
@@ -152,6 +153,8 @@ def _parse_menu_text(text: str) -> list[dict]:
         line = raw_line.strip()
         if len(line) < 3 or len(line) > 120:
             continue
+        if line.startswith("("):
+            continue
         normalized = _normalize(line)
         if any(stop in normalized for stop in STOPWORDS):
             continue
@@ -161,6 +164,8 @@ def _parse_menu_text(text: str) -> list[dict]:
             price = match.group(0).strip()
         name = _clean_name(line)
         if len(name) < 3 or not re.search(r"[a-zA-ZÁÉÍÓÚÑáéíóúñ]", name):
+            continue
+        if not price and len(name) > 40:
             continue
         detected = detect_dishes(line)
         if not detected and not price:
