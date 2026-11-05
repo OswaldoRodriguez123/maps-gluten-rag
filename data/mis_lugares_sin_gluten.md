@@ -21,8 +21,59 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.almachilanga.cl/
 - **Menciona en su web:** tacos
 - **Menciona en reseñas:** sushi, tacos, tortilla
-- **Carta (Google Maps):** Nachos "ARTI; Papa PEND coy UrFity Roe DELICIOSO APA? (8.500); PAS Tritas cop. 0 Queso Buri e Polo gados ($3.3); Cops rias enc dto BOM ge paste” E e sz.00n, Enusrolar canelo coh DO (56.909); EA Sigg ae nee 200 Flan des Abu ($25.009); Ae de pas OA pt ee al Seca = ($12.00); za TACOS taco. arte Bra a} 040 A e ct ma; Vacuno sar Bora a aoe ls CA ($1,000); Tacos de Bar 0 RELA coca . oe ts pr A 3; COS de Barbacos (3) tA OC TRAD oy eg pia ec ose win acaso ($4000); Vacome machado tra a a tele Docena de Tor E igus ea nia ($3,500); By (82 meca saxos bre torta Tostadas de cochinita 1 ec Ya PARA CCE PARA LA SERA Limonada Menta-Jengibre ($10,000); e] == = 4 conisin gas 600cC ($2500); Taco su Pa Agua confsn gas 600 ($320); amie ir en Cerveza sin Alcohol Halneken ($3500); Cerdo io trompe mitad, pita sobre tert Tostadas de Tinga (2) Co a Se ($10,000); mes scado (3) $iis00 piers (ol Sehop untsman Torobayo Bedestible lata 350cc Pepsi Se ($4800); Tacos de Tinga (3) Enchiladas verdes barbacoa (3) Vino Por Copa sins feats : JJ ($11.000); Chilaquiles con pollo sro E !; Totope cross bade sta vere cin pos crema ss ($3,200); Chitaguiles con barbacoa x Copa Blanco Chardon pS 4% ($3000); Tortie sunt rellesa te barbacon bañados en sa arte Y pia a De ($3.500); CARNES Fart 5 Cotler imericano AX ($3,000); Alambre de vacuno ee she Copa Blanco Sauvignon Blanc seston ‘<P SS ($3.00); Ti ñ Vacuno con pimventes, cebodas y queso grosa € Meng Bitte, Carmen Mocaching a, ($14.000); ortil soe ena de pol i = tó >. ($14.500); Nachos cy; Asado; Flan dela Abuelas"; TACOS Tacos; Tacos; de Tortillas; de pechuga de pollo (3); Tacos de Cochinita (3); Tacos de Pastor (3); Tacos de lengua (3); Flautas de pollo (2); Tacos de Pescado (3); Torta some rota epee bates esa tr; Tacos Vegetarianos (3); Enchiladas verdes pollo (3}; Tacos de Tinga (3); Tacos mixtos (3}; Chilaquiles con pollo; taco pastor »; pollo + taco barbacos; CARNES; Torta some rete de oa
 - **Fecha de registro:** 2026-03-13
+
+### Carta
+
+- Nachos "ARTI
+- Papa PEND coy UrFity Roe DELICIOSO APA? — 8.500
+- PAS Tritas cop. 0 Queso Buri e Polo gados — $3.3
+- Cops rias enc dto BOM ge paste” E e sz.00n, Enusrolar canelo coh DO — 56.909
+- EA Sigg ae nee 200 Flan des Abu — $25.009
+- Ae de pas OA pt ee al Seca = — $12.00
+- za TACOS taco. arte Bra a} 040 A e ct ma
+- Vacuno sar Bora a aoe ls CA — $1,000
+- Tacos de Bar 0 RELA coca . oe ts pr A 3
+- COS de Barbacos (3) tA OC TRAD oy eg pia ec ose win acaso — $4000
+- Vacome machado tra a a tele Docena de Tor E igus ea nia — $3,500
+- By (82 meca saxos bre torta Tostadas de cochinita 1 ec Ya PARA CCE PARA LA SERA Limonada Menta-Jengibre — $10,000
+- e] == = 4 conisin gas 600cC — $2500
+- Taco su Pa Agua confsn gas 600 — $320
+- amie ir en Cerveza sin Alcohol Halneken — $3500
+- Cerdo io trompe mitad, pita sobre tert Tostadas de Tinga (2) Co a Se — $10,000
+- mes scado (3) $iis00 piers (ol Sehop untsman Torobayo Bedestible lata 350cc Pepsi Se — $4800
+- Tacos de Tinga (3) Enchiladas verdes barbacoa (3) Vino Por Copa sins feats : JJ — $11.000
+- Chilaquiles con pollo sro E !
+- Totope cross bade sta vere cin pos crema ss — $3,200
+- Chitaguiles con barbacoa x Copa Blanco Chardon pS 4% — $3000
+- Tortie sunt rellesa te barbacon bañados en sa arte Y pia a De — $3.500
+- CARNES Fart 5 Cotler imericano AX — $3,000
+- Alambre de vacuno ee she Copa Blanco Sauvignon Blanc seston ‘<P SS — $3.00
+- Ti ñ Vacuno con pimventes, cebodas y queso grosa € Meng Bitte, Carmen Mocaching a, — $14.000
+- ortil soe ena de pol i = tó >. — $14.500
+- Nachos cy
+- Asado
+- Flan dela Abuelas"
+- TACOS Tacos
+- Tacos
+- de Tortillas
+- de pechuga de pollo (3)
+- Tacos de Cochinita (3)
+- Tacos de Pastor (3)
+- Tacos de lengua (3)
+- Flautas de pollo (2)
+- Tacos de Pescado (3)
+- Torta some rota epee bates esa tr
+- Tacos Vegetarianos (3)
+- Enchiladas verdes pollo (3}
+- Tacos de Tinga (3)
+- Tacos mixtos (3}
+- Chilaquiles con pollo
+- taco pastor »
+- pollo + taco barbacos
+- CARNES
+- Torta some rete de oa
+
 
 ## Açaí Experience
 - **Ubicación:** Av. Los Leones 2605, Local 103, 7511172 Providencia, Región Metropolitana
@@ -30,8 +81,51 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.0 / 5
 - **Enlace:** https://www.google.com/maps?cid=3927910667653578624
 - **Menciona en reseñas:** helado
-- **Carta (Google Maps):** MEDIANO 350ML S “ee ($6.590); GRANDE 470ML § (8.990); EXPERIENCE 760ML 5 ($12.890); PARALLEVARSOOML ($9.490); Sober GRAS. FRUTILLA ($350); Oita Nano) GRATIS MANTEQUILLA DE MANÍ ($550); MANÍ GRATIS ALMENDRAS LAMINADAS ($690); AVENA GRATIS NUECES ($690); LECHE CONDENSADA GRATIS ARANDANOS ($950); CHIPS DECHOCOLATE GRATIS 3 aes ($590); GRANOLA GRATIS AMBUESA ($890); MANJAR GRATIS MEM ($950); OREO ($950); MANJAR; MANJAR MILO; perience CHOCOLATE BLANCO; CHIPS DE CHOCOLATE; MANJAR; CHOCOLATE BLANCO; PEQUEÑO 269 ML Lok ($5.190); MEDIANO 350mL ($6.590); GRANDE 470ML ($8,999); CASSATA s500ML má ($9.490); AGUA S00ML o ($1.000); aioe ited le FRUTILLA os. ($350); COCO RALLADO GRATIS MANTEQUILLA DEMANÍ dul ($550); >. MANÍ GRATIS ALMENDRAS LAMINADAS _ ($6390); di J AVENA GRATIS NUECES ($690); CREMA DE PISTACHO ($1.290); ou a CHIA PUDDING GRATIS NUTELLA ($990); F “e, SEMILLAS DE ZAPALLOS GRATIS PACOCA ($590); pat CHIPS DE CHOCOLATE GRATIS FRAMBUESA ($890); ee ANA GRATIS OREO ($950); ll MILO ($350); on MIEL ($590); yh Oe : PROTEINA ($1.990); CHOCOLATE BLANCO ($990); MORAS ($890); CHIPS DE CHOCOLATE GRATIS; MANJAR
 - **Fecha de registro:** 2026-03-11
+
+### Carta
+
+- MEDIANO 350ML S “ee — $6.590
+- GRANDE 470ML § — 8.990
+- EXPERIENCE 760ML 5 — $12.890
+- PARALLEVARSOOML — $9.490
+- Sober GRAS. FRUTILLA — $350
+- Oita Nano) GRATIS MANTEQUILLA DE MANÍ — $550
+- MANÍ GRATIS ALMENDRAS LAMINADAS — $690
+- AVENA GRATIS NUECES — $690
+- LECHE CONDENSADA GRATIS ARANDANOS — $950
+- CHIPS DECHOCOLATE GRATIS 3 aes — $590
+- GRANOLA GRATIS AMBUESA — $890
+- MANJAR GRATIS MEM — $950
+- OREO — $950
+- MANJAR
+- MANJAR MILO
+- perience CHOCOLATE BLANCO
+- CHIPS DE CHOCOLATE
+- MANJAR
+- CHOCOLATE BLANCO
+- PEQUEÑO 269 ML Lok — $5.190
+- MEDIANO 350mL — $6.590
+- GRANDE 470ML — $8,999
+- CASSATA s500ML má — $9.490
+- AGUA S00ML o — $1.000
+- aioe ited le FRUTILLA os. — $350
+- COCO RALLADO GRATIS MANTEQUILLA DEMANÍ dul — $550
+- >. MANÍ GRATIS ALMENDRAS LAMINADAS _ — $6390
+- di J AVENA GRATIS NUECES — $690
+- CREMA DE PISTACHO — $1.290
+- ou a CHIA PUDDING GRATIS NUTELLA — $990
+- F “e, SEMILLAS DE ZAPALLOS GRATIS PACOCA — $590
+- pat CHIPS DE CHOCOLATE GRATIS FRAMBUESA — $890
+- ee ANA GRATIS OREO — $950
+- ll MILO — $350
+- on MIEL — $590
+- yh Oe : PROTEINA — $1.990
+- CHOCOLATE BLANCO — $990
+- MORAS — $890
+- CHIPS DE CHOCOLATE GRATIS
+- MANJAR
+
 
 ## B Fresh
 - **Ubicación:** P.º Bulnes 145, 8320000 Santiago, Región Metropolitana
@@ -41,8 +135,21 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.bfreshpaseo.cl/
 - **Menciona en su web:** pollo, sándwich, cheesecake, tiramisú, dulces
 - **Menciona en reseñas:** ensalada, cheesecake, dulces
-- **Carta (Google Maps):** a gra “Sandwich ‘Pizas - ¿ ad; EN SNA. y SU AN «Lasaña ~ BS ICEL 4; «Ensaladas; Shawarmas; Sandwich; Wraps; Lasaña; Alfajor; Brownie; Galletones
 - **Fecha de registro:** 2026-03-23
+
+### Carta
+
+- a gra “Sandwich ‘Pizas - ¿ ad
+- EN SNA. y SU AN «Lasaña ~ BS ICEL 4
+- «Ensaladas
+- Shawarmas
+- Sandwich
+- Wraps
+- Lasaña
+- Alfajor
+- Brownie
+- Galletones
+
 
 ## BAR EL BAJO
 - **Ubicación:** Av. Alameda Libertador Bernardo O'Higgins 227, 8320161 Santiago, Región Metropolitana
@@ -51,8 +158,17 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=17308584324880163070
 - **Web:** http://www.barelbajo.cl/
 - **Menciona en reseñas:** ceviche, poke, churro
-- **Carta (Google Maps):** Ms POMELO LEE OG. hd ($7.500); a | NOSMECHADA, HUMMUS), 4 Hb; AUTOR FAVORITA“*POR ($11.500); LO LES ($7.500); HADA, HUMMUS); AUTOR FAVORITA: POR ($11.500)
 - **Fecha de registro:** 2025-10-05
+
+### Carta
+
+- Ms POMELO LEE OG. hd — $7.500
+- a | NOSMECHADA, HUMMUS), 4 Hb
+- AUTOR FAVORITA“*POR — $11.500
+- LO LES — $7.500
+- HADA, HUMMUS)
+- AUTOR FAVORITA: POR — $11.500
+
 
 ## Bar Italia
 - **Ubicación:** Av. Italia 1423, 7501464 Providencia, Región Metropolitana
@@ -61,8 +177,39 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=16771263480017221694
 - **Web:** http://www.baritalia.cl/
 - **Menciona en reseñas:** lasaña, ceviche, sopa, risotto
-- **Carta (Google Maps):** @ Potato gnocchi (10,900); Tex-Mex Table (12,900); Chorrillana Platter; Me, yCevictes. ae. E | Mose piceNeL ¥2 : NN (9.990); Pl Tártaro os SALMON. |) O 14 MOT " E; ee WA E lo) 0 Qee? U2 NS (6,000); a mL bn ¿E (15.900); Bou ¥2. (4.990); Mai “popicenad YZ (9.990); pes ¥2. (11.090); NlattoU U4 (6.000); a) Chocolate bonbon (6,900); Warm chocolate brownie with homemade ice; Raspberry Cheesecake (6,900); a) Ice cream sundae (6,900); Chocolate bonbon; Chocolate cake; @ Quinoa Salad (9,900); @® Cajun Tuna (13,900); Espresso / Americano (2,900); Double espresso (3,000); Simple cut (3,500); Double cut (4,300); Latte (2,800); Cappuccino (4,000); Moccasin (4,500); Dilmah Tea (2,800); Infusion (2,500)
 - **Fecha de registro:** 2025-10-02
+
+### Carta
+
+- @ Potato gnocchi — 10,900
+- Tex-Mex Table — 12,900
+- Chorrillana Platter
+- Me, yCevictes. ae. E | Mose piceNeL ¥2 : NN — 9.990
+- Pl Tártaro os SALMON. |) O 14 MOT " E
+- ee WA E lo) 0 Qee? U2 NS — 6,000
+- a mL bn ¿E — 15.900
+- Bou ¥2. — 4.990
+- Mai “popicenad YZ — 9.990
+- pes ¥2. — 11.090
+- NlattoU U4 — 6.000
+- a) Chocolate bonbon — 6,900
+- Warm chocolate brownie with homemade ice
+- Raspberry Cheesecake — 6,900
+- a) Ice cream sundae — 6,900
+- Chocolate bonbon
+- Chocolate cake
+- @ Quinoa Salad — 9,900
+- @® Cajun Tuna — 13,900
+- Espresso / Americano — 2,900
+- Double espresso — 3,000
+- Simple cut — 3,500
+- Double cut — 4,300
+- Latte — 2,800
+- Cappuccino — 4,000
+- Moccasin — 4,500
+- Dilmah Tea — 2,800
+- Infusion — 2,500
+
 
 ## Biomercado Sin Gluten
 - **Ubicación:** Bandera 236, Local 6, 8340419 Santiago, Región Metropolitana
@@ -71,8 +218,20 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=5397116729930885107
 - **Web:** https://www.biomercado.cl/
 - **Menciona en su web:** galleta, chocolate, postre, dulces
-- **Carta (Google Maps):** PAN; PASTELES; AVENA; FIDEOS; QUESO VEGANO; HARINAS; GOMA XANTHAN; CHOCOLATES; EMPANADAS DE PINO SIN GLUTEN
 - **Fecha de registro:** 2026-03-23
+
+### Carta
+
+- PAN
+- PASTELES
+- AVENA
+- FIDEOS
+- QUESO VEGANO
+- HARINAS
+- GOMA XANTHAN
+- CHOCOLATES
+- EMPANADAS DE PINO SIN GLUTEN
+
 
 ## Bonheur Keto Patisserie
 - **Ubicación:** Av. La Dehesa 3265, Local 8, 7700239 Lo Barnechea, Región Metropolitana
@@ -82,8 +241,16 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://bonheurketopatisserie.com/
 - **Menciona en su web:** torta, pastel, alfajor, brownie, cheesecake, pie, chocolate, tiramisú, manjar, factura, postre, dulces
 - **Menciona en reseñas:** torta, pastel, alfajor, dulces
-- **Carta (Google Maps):** Providencia, Ñuñoa, La Reina ($3.000); Santiago Centro (54.500); Recoleta. Quinta Normal, Maipu (56.000); Colina y CHICUREO ($56.000); Providencia. Ñuñoa. La Reina ($3.000)
 - **Fecha de registro:** 2026-05-14
+
+### Carta
+
+- Providencia, Ñuñoa, La Reina — $3.000
+- Santiago Centro — 54.500
+- Recoleta. Quinta Normal, Maipu — 56.000
+- Colina y CHICUREO — $56.000
+- Providencia. Ñuñoa. La Reina — $3.000
+
 
 ## Bonheur Pâtisserie
 - **Ubicación:** Av. Nueva Costanera 4177, local 11, 7630156 Vitacura, Región Metropolitana
@@ -93,8 +260,29 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://bonheurketopatisserie.com/
 - **Menciona en su web:** torta, pastel, alfajor, brownie, cheesecake, pie, chocolate, tiramisú, manjar, factura, postre, dulces
 - **Menciona en reseñas:** torta, pastel, alfajor, muffin, postre, dulces
-- **Carta (Google Maps):** E A ($52.200); _ asl A café concentrado ($3.000); ES = doble carga de café concentrado ($2.200); Latte j ($4.000); , — a Té variedades (en bolsita) . ($2.500); <i Té chai 3 ($3.000); Té pink detox : $ ($3.000); Chai Latte . ($4.600); A | Matcha Latte "a ($4.600); dl Leche vegetal extra as. ($1.000); got / > Cold brew ($3.900); Latte frío ($4.200); Iced Matcha latte ($4.900); Iced Matcha berries a ($4.900); Chai latte frío » >. ($5.300); Iced protein strawberries h ($5.300); Jugo de Berries ($5.300); Jugo de Frutilla ($5.300)
 - **Fecha de registro:** 2025-11-23
+
+### Carta
+
+- E A — $52.200
+- _ asl A café concentrado — $3.000
+- ES = doble carga de café concentrado — $2.200
+- Latte j — $4.000
+- , — a Té variedades (en bolsita) . — $2.500
+- <i Té chai 3 — $3.000
+- Té pink detox : $ — $3.000
+- Chai Latte . — $4.600
+- A | Matcha Latte "a — $4.600
+- dl Leche vegetal extra as. — $1.000
+- got / > Cold brew — $3.900
+- Latte frío — $4.200
+- Iced Matcha latte — $4.900
+- Iced Matcha berries a — $4.900
+- Chai latte frío » >. — $5.300
+- Iced protein strawberries h — $5.300
+- Jugo de Berries — $5.300
+- Jugo de Frutilla — $5.300
+
 
 ## BuganVilla cafe & market
 - **Ubicación:** Tabancura 1348, 7650104 Vitacura, Región Metropolitana
@@ -112,8 +300,165 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 3.7 / 5
 - **Enlace:** https://www.google.com/maps?cid=9929853472343975745
 - **Menciona en reseñas:** chocolate, churro, dulces
-- **Carta (Google Maps):** Brunch Saludable ($26.990) · Desayuno y Brunch; Brunch París ($24.990) · Desayuno y Brunch; Brunch Costa Azul ($13.990) · Desayuno y Brunch; Brunch El Mejor ($41.990) · Desayuno y Brunch; Tostada de Jamón Serrano ($6.990) · Tostadas; Tostada de Palta y Huevo ($5.990) · Tostadas; Tostada de Hummus y Champiñones ($7.990) · Tostadas; Tostada de Salmón ($8.990) · Tostadas; Abadía de Lerins ($8.490) · Desayuno y Brunch; Brioche Amapola y Mermelada ($4.990) · Desayuno y Brunch; Pequeña Baguette · Desayuno y Brunch; Pequeña Baguette con Palta ($5.490) · Desayuno y Brunch; Pequeña Baguette con 2 Huevos Fritos y Tocino ($6.490) · Desayuno y Brunch; Pequeña Baguette con 2 Huevos Fritos ($4.990) · Desayuno y Brunch; Pequeña Baguette con Mermelada y Mantequilla ($3.990) · Desayuno y Brunch; Pequeño Keto · Desayuno y Brunch; Pequeño Keto con 2 Huevos Fritos ($5.990) · Desayuno y Brunch; Pequeño Keto con 2 Huevos Fritos y Tocino ($7.990) · Desayuno y Brunch; Quebec ($10.990) · Desayuno y Brunch; Bowl de Açaí ($10.990) · Desayuno y Brunch; Bowl Zoe · Desayuno y Brunch; Croque Madame ($9.990) · Sándwich; Croque Monsieur ($8.990) · Sándwich; Croque Versalles ($10.990) · Sándwich; Marsella ($7.990) · Sándwich; Montaña ($6.990) · Sándwich; Montecarlo ($6.990) · Sándwich; Croissant Bayona ($4.990) · Sándwich; Torta Primavera ($8.990) · Tortas; Torta María Antonieta ($8.990) · Tortas; Torta Tres Leches ($8.990) · Tortas; Torta Pompadour Plátano ($8.990) · Tortas; Brunch Bon Saine ($27.990) · Brunch; Tostada Palta-Huevo ($9.990) · Tostadas; Tostada Hummus-Champiñón ($7.990) · Tostadas; Bon Bénedictin ($9.990) · Desayuno; Brioche Amapola y Mermelada ($4.990) · Desayuno; Québec ($10.990) · Desayuno; Pudín de Palta y Mango ($6.990) · Desayuno; Bowl Fruta ($3.990) · Desayuno; Filet Mignon ($12.990) · Platos Principales; Salmón Papillote ($12.990) · Platos Principales; Atún Tataki ($12.990) · Platos Principales; Longe Bourguignon ($10.990) · Platos Principales; Lasagna Bolognesa ($8.990) · Platos Principales; Loire Salmon ($9.990) · Platos Principales; César Pollo ($8.990) · Ensaladas; Cordon Bleu ($9.990) · Platos Principales; La Naturista ($9.990) · Ensaladas; Hamburguesa Veggie ($8.990) · Hamburguesas; Quiche de Verduras ($8.990) · Platos Principales; Orleans Tabulé ($9.990) · Ensaladas; Petit Baguette con 2 Huevos fritos al aire y láminas de tocino ($6.490) · Desayunos & Brunch; Petit Baguette con 2 Huevos fritos al aire ($4.990) · Desayunos & Brunch; Petit Baguette con Mermelada y mantequilla ($3.990) · Desayunos & Brunch; Petit Keto con Huevos y palta ($7.990) · Desayunos & Brunch; Atún Poêlé ($12.990) · Almuerzos; Espresso Cosi il Bon ($2.790) · Café; Ristretto Italiano 15ml ($2.590) · Café; Ristretto Italiano 30ml ($2.590) · Café; Lungo ($2.890) · Café; Doppio ($2.890) · Café; Café Americano ($2.990) · Café; Macchiato ($2.990) · Café; Cappuccino ($3.290) · Café; Cappuccino Clásico ($3.290) · Café; Cappuccino Saborizado ($4.190) · Café; Moka Latte ($4.190) · Café; Café Au Lait ($4.290) · Café; Latte Macchiato ($4.290) · Café; Gran Chai Latte ($4.590) · Café; Latte Tiramisú ($4.590) · Café; Latte Pumpkin Spice ($4.590) · Café; Café Helado ($4.690) · Café Helado; Chocolate Belga 180 ml ($3.590) · Chocolate Caliente; Chocolate Belga 400 ml ($4.690) · Chocolate Caliente; Croissant ($2.290) · Bollería; Croissant Dulce ($2.290) · Bollería; Croissant Relleno de Crema Pastelera ($2.290) · Bollería; Croissant Relleno de Cacao y Avellana ($2.290) · Bollería; Croissant Relleno de Frutos Rojos ($2.290) · Bollería; Gran Croissant ($2.490) · Bollería; Churros ($3.990) · Postre; Churros con Manjar ($4.990) · Postre; Churros con Chocolate Caliente ($4.990) · Postre; Brunch Bon Saine ($23.990) · Brunch; Brunch París ($22.990) · Brunch; Tostada Vegetariana de Hummus y Champiñón ($6.490) · Tostadas; Tostada de Salmón ($6.990) · Tostadas; Tostada de Jamón Serrano ($6.490) · Tostadas; Tostada de Huevo ($4.990) · Tostadas; Opción descafeinado ($4.590) · Café; Opción de leche vegetal ($4.500) · Modificador de bebida; Leche de soya o almendra ($4.990) · Modificador de bebida; Trío de Macarrones ($5.990) · Postre; Bollería ($3.990) · Bollería; Macarones franceses ($1.690) · Postre; Macarones franceses ($3.490) · Postre; Postre artesanal ($2.990) · Postre; Postre de chocolate ($2.190) · Postre; Trío de Macarrones y café americano ($5.990) · Dulces Especialidades
 - **Fecha de registro:** 2026-03-30
+
+### Carta
+
+#### Desayuno y Brunch
+
+- Brunch Saludable — $26.990
+- Brunch París — $24.990
+- Brunch Costa Azul — $13.990
+- Brunch El Mejor — $41.990
+- Abadía de Lerins — $8.490
+- Brioche Amapola y Mermelada — $4.990
+- Pequeña Baguette
+- Pequeña Baguette con Palta — $5.490
+- Pequeña Baguette con 2 Huevos Fritos y Tocino — $6.490
+- Pequeña Baguette con 2 Huevos Fritos — $4.990
+- Pequeña Baguette con Mermelada y Mantequilla — $3.990
+- Pequeño Keto
+- Pequeño Keto con 2 Huevos Fritos — $5.990
+- Pequeño Keto con 2 Huevos Fritos y Tocino — $7.990
+- Quebec — $10.990
+- Bowl de Açaí — $10.990
+- Bowl Zoe
+
+#### Tostadas
+
+- Tostada de Jamón Serrano — $6.990
+- Tostada de Palta y Huevo — $5.990
+- Tostada de Hummus y Champiñones — $7.990
+- Tostada de Salmón — $8.990
+- Tostada Palta-Huevo — $9.990
+- Tostada Hummus-Champiñón — $7.990
+- Tostada Vegetariana de Hummus y Champiñón — $6.490
+- Tostada de Salmón — $6.990
+- Tostada de Jamón Serrano — $6.490
+- Tostada de Huevo — $4.990
+
+#### Sándwich
+
+- Croque Madame — $9.990
+- Croque Monsieur — $8.990
+- Croque Versalles — $10.990
+- Marsella — $7.990
+- Montaña — $6.990
+- Montecarlo — $6.990
+- Croissant Bayona — $4.990
+
+#### Tortas
+
+- Torta Primavera — $8.990
+- Torta María Antonieta — $8.990
+- Torta Tres Leches — $8.990
+- Torta Pompadour Plátano — $8.990
+
+#### Brunch
+
+- Brunch Bon Saine — $27.990
+- Brunch Bon Saine — $23.990
+- Brunch París — $22.990
+
+#### Desayuno
+
+- Bon Bénedictin — $9.990
+- Brioche Amapola y Mermelada — $4.990
+- Québec — $10.990
+- Pudín de Palta y Mango — $6.990
+- Bowl Fruta — $3.990
+
+#### Platos Principales
+
+- Filet Mignon — $12.990
+- Salmón Papillote — $12.990
+- Atún Tataki — $12.990
+- Longe Bourguignon — $10.990
+- Lasagna Bolognesa — $8.990
+- Loire Salmon — $9.990
+- Cordon Bleu — $9.990
+- Quiche de Verduras — $8.990
+
+#### Ensaladas
+
+- César Pollo — $8.990
+- La Naturista — $9.990
+- Orleans Tabulé — $9.990
+
+#### Hamburguesas
+
+- Hamburguesa Veggie — $8.990
+
+#### Desayunos & Brunch
+
+- Petit Baguette con 2 Huevos fritos al aire y láminas de tocino — $6.490
+- Petit Baguette con 2 Huevos fritos al aire — $4.990
+- Petit Baguette con Mermelada y mantequilla — $3.990
+- Petit Keto con Huevos y palta — $7.990
+
+#### Almuerzos
+
+- Atún Poêlé — $12.990
+
+#### Café
+
+- Espresso Cosi il Bon — $2.790
+- Ristretto Italiano 15ml — $2.590
+- Ristretto Italiano 30ml — $2.590
+- Lungo — $2.890
+- Doppio — $2.890
+- Café Americano — $2.990
+- Macchiato — $2.990
+- Cappuccino — $3.290
+- Cappuccino Clásico — $3.290
+- Cappuccino Saborizado — $4.190
+- Moka Latte — $4.190
+- Café Au Lait — $4.290
+- Latte Macchiato — $4.290
+- Gran Chai Latte — $4.590
+- Latte Tiramisú — $4.590
+- Latte Pumpkin Spice — $4.590
+- Opción descafeinado — $4.590
+
+#### Café Helado
+
+- Café Helado — $4.690
+
+#### Chocolate Caliente
+
+- Chocolate Belga 180 ml — $3.590
+- Chocolate Belga 400 ml — $4.690
+
+#### Bollería
+
+- Croissant — $2.290
+- Croissant Dulce — $2.290
+- Croissant Relleno de Crema Pastelera — $2.290
+- Croissant Relleno de Cacao y Avellana — $2.290
+- Croissant Relleno de Frutos Rojos — $2.290
+- Gran Croissant — $2.490
+- Bollería — $3.990
+
+#### Postre
+
+- Churros — $3.990
+- Churros con Manjar — $4.990
+- Churros con Chocolate Caliente — $4.990
+- Trío de Macarrones — $5.990
+- Macarones franceses — $1.690
+- Macarones franceses — $3.490
+- Postre artesanal — $2.990
+- Postre de chocolate — $2.190
+
+#### Modificador de bebida
+
+- Opción de leche vegetal — $4.500
+- Leche de soya o almendra — $4.990
+
+#### Dulces Especialidades
+
+- Trío de Macarrones y café americano — $5.990
+
 
 ## Cafe Zoliakie Gluten Free
 - **Ubicación:** Av. Providencia 2546, 7510007 Providencia, Región Metropolitana
@@ -121,8 +466,57 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.7 / 5
 - **Enlace:** https://www.google.com/maps?cid=9130566955029176875
 - **Menciona en reseñas:** hamburguesa, empanada, completo, chilenito, dulces, jugo
-- **Carta (Google Maps):** Empanadas (10 tipos) ($3200); Completo italiano ($3200); Hamburguesa Italiana o Americana ' ($4000); Hamburguesa Italiana/Queso ($4300); Hamburguesa Completa (Ital/Queso/Pepin) ($4600); Mechada Italiana o Americana ($4300); Mechada Italiana/Queso ($4600); Mechada Completa (Ital/Queso/Pepinillo ($4900); Quiche c/ensalada ($4400); Tostadas ($2500); Sandwich (Palta, Jamón o Queso) ($2600); Sandwich (Combinaciones Palta c/jamón...) ($2900); é Pan a granel ($1300); Copa Helado ($3800); Copa Niños Ñ ($2400); Café Helado : , | i ($3600); Hamburguesa Italiana o Americana; Café Helado; } Selva Negra ($3200); Ml Fusión (3 leches/Brownie) ($3200); Leches (3 leches/Manjar) ($3200); Hojarasca. +. ($3200); Pie de Limón A ($2800); Chilenitos ($800); “gi >: A Snicker ($1400); e (CL NN Alfajores ($1500); i os Alfajores Maicena ($400); Sopaipillas ($700); i . Calzones Rotos ($700); * >, q y Medialunas (3) ($1900); Medialunas con chocolate (3) i ($2200); } Cachitos (Manjar o Pastelera) ($1100); Fusión (3 leches/Brownie); Pie de Limón; Alfajores; Alfajores Maicena; Medialunas (3); Medialunas con chocolate (3); Cachitos (Manjar o Pastelera); NE —— -Sopaipillas — (CC; >= aa _ -Hamburguesas; Nh | 2 -Completos (Italiano) |”; Sopaipillas; Empanadas; Hamburguesas; Completos (Italiano)
 - **Fecha de registro:** 2025-10-04
+
+### Carta
+
+- Empanadas (10 tipos) — $3200
+- Completo italiano — $3200
+- Hamburguesa Italiana o Americana ' — $4000
+- Hamburguesa Italiana/Queso — $4300
+- Hamburguesa Completa (Ital/Queso/Pepin) — $4600
+- Mechada Italiana o Americana — $4300
+- Mechada Italiana/Queso — $4600
+- Mechada Completa (Ital/Queso/Pepinillo — $4900
+- Quiche c/ensalada — $4400
+- Tostadas — $2500
+- Sandwich (Palta, Jamón o Queso) — $2600
+- Sandwich (Combinaciones Palta c/jamón...) — $2900
+- é Pan a granel — $1300
+- Copa Helado — $3800
+- Copa Niños Ñ — $2400
+- Café Helado : , | i — $3600
+- Hamburguesa Italiana o Americana
+- Café Helado
+- } Selva Negra — $3200
+- Ml Fusión (3 leches/Brownie) — $3200
+- Leches (3 leches/Manjar) — $3200
+- Hojarasca. +. — $3200
+- Pie de Limón A — $2800
+- Chilenitos — $800
+- “gi >: A Snicker — $1400
+- e (CL NN Alfajores — $1500
+- i os Alfajores Maicena — $400
+- Sopaipillas — $700
+- i . Calzones Rotos — $700
+- * >, q y Medialunas (3) — $1900
+- Medialunas con chocolate (3) i — $2200
+- } Cachitos (Manjar o Pastelera) — $1100
+- Fusión (3 leches/Brownie)
+- Pie de Limón
+- Alfajores
+- Alfajores Maicena
+- Medialunas (3)
+- Medialunas con chocolate (3)
+- Cachitos (Manjar o Pastelera)
+- NE —— -Sopaipillas — (CC
+- >= aa _ -Hamburguesas
+- Nh | 2 -Completos (Italiano) |”
+- Sopaipillas
+- Empanadas
+- Hamburguesas
+- Completos (Italiano)
+
 
 ## Cafetería Gata Negra
 - **Ubicación:** Ramón Carnicer 83, Providencia, Región Metropolitana
@@ -130,8 +524,52 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.7 / 5
 - **Enlace:** https://www.google.com/maps?cid=15342600646252666197
 - **Menciona en reseñas:** pizza, cheesecake, chocolate, dulces, jugo
-- **Carta (Google Maps):** BRUNCH COMPLETO PIZZA + DULCE CAFÉ + JUGO ($12.500); BRUNCH SALADO PIZZA CAFÉ + JUGO ($10.000); BRUNCH DULCE DULCE CAFÉ + JUGO ($8.500); PIZZA DOLCE ARRIBIATA BASE DE TOMATE ASADO QUESO MOZARELLA TOFU CURADO, ZANAHORIA ENCURTIDA, AJO CONFITADO, ESPINACA SALSA ARRIABATA; PIZZA BIANCA DI YUBA BASE BECHAMEL DE COLIFLOR QUESO MOZZARELLA YUBA AL VINO MECHADA CEBOLLA PERLA GLASEADA RÚCULA BABY Y BBQ; CAFÉ ESPRESSO/AMERICANO/ CAPUCCINO/FLAT WHITE/LATTE; DULCE BANANA BREAD CON SALSA DE CARAMELO Y CAFÉ SALADO; JUGO NARANJA; ESPRESSO ($2.500); AMERICANO ($2.500); RISTRETTO ($2.500); LUNGO ($2.500); FILTRADO V60 ($3.400); CHOCOLATE CALIENTE ($4.500); MATCHA LATTE ($4.500); CHAI LATTE ($4.500); GOLDEN MILK ($4.500); TÉ/INFUSIONES ($2.500); AGUA CON/SIN GAS ($1.800); MACCHIATO ($2.700); CAPUCCINO ($3.600); LATTE ($3.900); FLAT WHITE ($3.600); MOCACCINO ($4.500); DIRTY CHAI ($5.000); MATCHA ICHIGO MATCHA/PURÉ DE FRUTILLA/LECHE ($5.000); GATA MULE TÉ VERDE/SYRUP LEMONGRASS/ LIMÓN Y GINGERBEER ($5.000); COLDBREW ($3.800); ESPRESSO TÓNICA ($4.000); COLDBREW GINGER ($4.500); ESPRESSO NARANJA ($4.000); LATTE FRÍO ($4.000); MATCHA LATTE FRÍO ($4.500); JUGO NATURAL ($3.000); KOMBUCHA CASA SATURNO ($3.300); LECHE NUDE 1LT ($4.200); SANDWICH FOCACCIA CONSULTA X EL PANCITO DE HOY ($5.000); BAGUETTE ($1.200 x unidad); MARRAQUETA DOBLE ($2.000 x unidad); FOCACCIA ($1.500 x unidad); HOGAZA ($3.800 x unidad)
 - **Fecha de registro:** 2025-11-08
+
+### Carta
+
+- BRUNCH COMPLETO PIZZA + DULCE CAFÉ + JUGO — $12.500
+- BRUNCH SALADO PIZZA CAFÉ + JUGO — $10.000
+- BRUNCH DULCE DULCE CAFÉ + JUGO — $8.500
+- PIZZA DOLCE ARRIBIATA BASE DE TOMATE ASADO QUESO MOZARELLA TOFU CURADO, ZANAHORIA ENCURTIDA, AJO CONFITADO, ESPINACA SALSA ARRIABATA
+- PIZZA BIANCA DI YUBA BASE BECHAMEL DE COLIFLOR QUESO MOZZARELLA YUBA AL VINO MECHADA CEBOLLA PERLA GLASEADA RÚCULA BABY Y BBQ
+- CAFÉ ESPRESSO/AMERICANO/ CAPUCCINO/FLAT WHITE/LATTE
+- DULCE BANANA BREAD CON SALSA DE CARAMELO Y CAFÉ SALADO
+- JUGO NARANJA
+- ESPRESSO — $2.500
+- AMERICANO — $2.500
+- RISTRETTO — $2.500
+- LUNGO — $2.500
+- FILTRADO V60 — $3.400
+- CHOCOLATE CALIENTE — $4.500
+- MATCHA LATTE — $4.500
+- CHAI LATTE — $4.500
+- GOLDEN MILK — $4.500
+- TÉ/INFUSIONES — $2.500
+- AGUA CON/SIN GAS — $1.800
+- MACCHIATO — $2.700
+- CAPUCCINO — $3.600
+- LATTE — $3.900
+- FLAT WHITE — $3.600
+- MOCACCINO — $4.500
+- DIRTY CHAI — $5.000
+- MATCHA ICHIGO MATCHA/PURÉ DE FRUTILLA/LECHE — $5.000
+- GATA MULE TÉ VERDE/SYRUP LEMONGRASS/ LIMÓN Y GINGERBEER — $5.000
+- COLDBREW — $3.800
+- ESPRESSO TÓNICA — $4.000
+- COLDBREW GINGER — $4.500
+- ESPRESSO NARANJA — $4.000
+- LATTE FRÍO — $4.000
+- MATCHA LATTE FRÍO — $4.500
+- JUGO NATURAL — $3.000
+- KOMBUCHA CASA SATURNO — $3.300
+- LECHE NUDE 1LT — $4.200
+- SANDWICH FOCACCIA CONSULTA X EL PANCITO DE HOY — $5.000
+- BAGUETTE — $1.200 x unidad
+- MARRAQUETA DOBLE — $2.000 x unidad
+- FOCACCIA — $1.500 x unidad
+- HOGAZA — $3.800 x unidad
+
 
 ## Cafetería Molino
 - **Ubicación:** Av. Pocuro 2385, 7500000 Providencia, Región Metropolitana
@@ -156,8 +594,204 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=5490965489095011194
 - **Web:** http://www.pascucci.cl/
 - **Menciona en reseñas:** pastel, tiramisú, jugo
-- **Carta (Google Maps):** Espresso ($2.700 - $3.900) · Cafetería; Espresso Orgánico ($3.000 - $4.200) · Cafetería; Cappuccino ($3.700 - $4.600) · Cafetería; Café de Filtro ($4.400) · Cafetería; Americano ($3.200 - $4.100) · Cafetería; Latte ($3.900) · Cafetería; Té e Infusiones ($3.400) · Cafetería; Matcha Helado ($5.200) · Café Helado; Mocha Helado ($4.900 - $5.400) · Café Helado; Mocha Canela Helado ($5.900 - $6.200) · Café Helado; Espressini Pistacho ($3.800) · Espressini; Espressini Bianco ($3.400) · Espressini; Espressini Ruby ($3.100) · Espressini; Espressini Padovano ($3.400) · Espressini; Espressini Caramelo ($3.200) · Espressini; Espressini Clásico ($2.800) · Espressini; Argentino ($3.900) · Clásicos Pascucci; Mokaccino ($4.300) · Clásicos Pascucci; Gianduidio ($4.600) · Clásicos Pascucci; Bon Bon ($4.200) · Clásicos Pascucci; Latte Caliente ($3.990 - $4.500) · Latte Caliente; Matcha Caliente ($4.200 - $4.800) · Latte Caliente; Mocha Caliente ($4.690 - $5.200) · Latte Caliente; Latte de Avellana Caliente ($5.200) · Latte Caliente; Frappé Mocha Chip ($5.200 - $5.900) · Frappé; Frappé Confuso ($4.690 - $5.900) · Frappé; Frappé Shake de Mango ($5.400 - $6.000) · Frappé Shake; Frappé Shake de Arándanos ($5.400 - $6.000) · Frappé Shake; Frappé Shake de Fresa ($5.200 - $5.900) · Frappé Shake; Té Helado de Yuzu ($3.900) · Té Helado; Pasciòk ($3.490 - $4.690) · Chocolate; Pasciòk Panna ($3.990 - $5.190) · Chocolate; Jamaica Iced Chocolate ($5.990) · Postre Helado; Guatemala ($5.990) · Postre Helado; Haití ($5.990) · Postre Helado; Bebida de Miel, Naranja y Yuzu · Bebidas Heladas; Café Helado ($5.490) · Coppe; Coppa del Padrino ($6.490) · Coppe; Coppa Crema Confuso ($6.490) · Coppe; Jamaica Iced Coffee ($6.490) · Coppe; Coppa Greca ($6.490) · Coppe; Gelatti Simple ($2.800) · Gelatti; Gelatti Doble ($3.500) · Gelatti; Gelatti Triple ($4.200) · Gelatti; Tramezzino Jamón Pimentón ($4.300) · Tramezzini; Tramezzino Pollo a la Mostaza Passi ($4.600) · Tramezzini; Tramezzino Jamón Queso ($4.300) · Tramezzini; Pan Multigrano Vegano ($5.890) · Tramezzini; Croissant Multigrano Jamón de Pavo ($5.300) · Croissant; Croissant Jamón Queso ($4.900) · Croissant; Croissant Queso ($4.900) · Croissant; Baguette Prosciutto ($6.500) · Baguettes; Baguette Seitán ($7.000) · Baguettes; Baguette Caprese ($6.300) · Baguettes; Porción de Quiche más Ensalada ($7.500) · Quiche; Porción de Quiche más Ensalada y Té Helado ($9.000) · Quiche; Quiche Salmón Ahumado · Quiche; Quiche Pollo Espinaca · Quiche; Quiche Lorraine · Quiche; Quiche Ratatouille · Quiche; Quiche Camarón · Quiche; Quiche Mechada · Quiche; Espresso Doble ($2.300) · Cafetería Italiana; Descafeinado ($1.800) · Cafetería Italiana; Iced Americano ($2.700) · Cafetería Italiana; Latte Macchiato ($2.800) · Cafetería Italiana; Bebida de Soya / Almendra (+$400) · Cafetería Italiana; Chemex 3 Tazas ($3.300) · Filter Coffee; Té en Hojas ($2.290) · Té e Infusiones; Infusiones en Hojas ($2.290) · Té e Infusiones; Chai Latte ($2.890) · Chai Latte; Caffè dei Bimbi ($1.800) · Pascucci Baby; Café Confuso ($2.800) · Clásicos Pascucci; Montebianco ($2.900) · Clásicos Pascucci; Pascuccino ($2.690) · Clásicos Pascucci; Gianduia ($3.500) · Clásicos Pascucci; Affogato ($2.690) · Clásicos Pascucci; Mentino ($2.800) · Clásicos Pascucci; Clásica ($2.600) · Pas-Ciok; Iced ($3.990) · Pas-Ciok; Sabores ($3.990) · Pas-Ciok; Mocha Chip Frappé ($3.990) · Pas-Ciok; Frappé Shake ($3.990) · Pas-Ciok; Frutilla ($4.400) · Pas-Ciok; Plátano ($4.400) · Pas-Ciok; Iced Mocha ($3.500) · Pas-Ciok; Iced Latte ($2.800) · Pas-Ciok; Café Pompato ($2.400) · Pas-Ciok; Saborizado ($3.500) · Hot; Café del Día ($2.100) · Pop News; Pas-Ciok Panna ($3.000) · Pop News; Mocha 3 Tazas ($3.000) · Pop News; Mokambú ($4.200) · Pop News; Espressino Baci ($4.800) · Bebidas de café especiales; Mokacappuccino ($4.300) · Clásicos Pascucci; Guanqidio ($4.600) · Clásicos Pascucci; Espresso Doble ($3.000 - $3.800) · Cafetería; Espresso Macchiato ($3.000 - $3.800) · Cafetería; Té ($3.100) · Cafetería; Infusión ($3.100) · Cafetería; Té Chai Latte ($3.900) · Cafetería; Té Frío ($3.900) · Cafetería; Frappé Modiccia ($3.300 - $3.900) · Frappés; Chocolate Pascucci ($4.500 - $5.800) · Chocolates; Chocolate Pascucci Baci ($5.100 - $6.000) · Chocolates; Café Helado Jamaica · Postres de helado; Haití · Postres de helado
 - **Fecha de registro:** 2026-05-28
+
+### Carta
+
+#### Cafetería
+
+- Espresso — $2.700 - $3.900
+- Espresso Orgánico — $3.000 - $4.200
+- Cappuccino — $3.700 - $4.600
+- Café de Filtro — $4.400
+- Americano — $3.200 - $4.100
+- Latte — $3.900
+- Té e Infusiones — $3.400
+- Espresso Doble — $3.000 - $3.800
+- Espresso Macchiato — $3.000 - $3.800
+- Té — $3.100
+- Infusión — $3.100
+- Té Chai Latte — $3.900
+- Té Frío — $3.900
+
+#### Café Helado
+
+- Matcha Helado — $5.200
+- Mocha Helado — $4.900 - $5.400
+- Mocha Canela Helado — $5.900 - $6.200
+
+#### Espressini
+
+- Espressini Pistacho — $3.800
+- Espressini Bianco — $3.400
+- Espressini Ruby — $3.100
+- Espressini Padovano — $3.400
+- Espressini Caramelo — $3.200
+- Espressini Clásico — $2.800
+
+#### Clásicos Pascucci
+
+- Argentino — $3.900
+- Mokaccino — $4.300
+- Gianduidio — $4.600
+- Bon Bon — $4.200
+- Café Confuso — $2.800
+- Montebianco — $2.900
+- Pascuccino — $2.690
+- Gianduia — $3.500
+- Affogato — $2.690
+- Mentino — $2.800
+- Mokacappuccino — $4.300
+- Guanqidio — $4.600
+
+#### Latte Caliente
+
+- Latte Caliente — $3.990 - $4.500
+- Matcha Caliente — $4.200 - $4.800
+- Mocha Caliente — $4.690 - $5.200
+- Latte de Avellana Caliente — $5.200
+
+#### Frappé
+
+- Frappé Mocha Chip — $5.200 - $5.900
+- Frappé Confuso — $4.690 - $5.900
+
+#### Frappé Shake
+
+- Frappé Shake de Mango — $5.400 - $6.000
+- Frappé Shake de Arándanos — $5.400 - $6.000
+- Frappé Shake de Fresa — $5.200 - $5.900
+
+#### Té Helado
+
+- Té Helado de Yuzu — $3.900
+
+#### Chocolate
+
+- Pasciòk — $3.490 - $4.690
+- Pasciòk Panna — $3.990 - $5.190
+
+#### Postre Helado
+
+- Jamaica Iced Chocolate — $5.990
+- Guatemala — $5.990
+- Haití — $5.990
+
+#### Bebidas Heladas
+
+- Bebida de Miel, Naranja y Yuzu
+
+#### Coppe
+
+- Café Helado — $5.490
+- Coppa del Padrino — $6.490
+- Coppa Crema Confuso — $6.490
+- Jamaica Iced Coffee — $6.490
+- Coppa Greca — $6.490
+
+#### Gelatti
+
+- Gelatti Simple — $2.800
+- Gelatti Doble — $3.500
+- Gelatti Triple — $4.200
+
+#### Tramezzini
+
+- Tramezzino Jamón Pimentón — $4.300
+- Tramezzino Pollo a la Mostaza Passi — $4.600
+- Tramezzino Jamón Queso — $4.300
+- Pan Multigrano Vegano — $5.890
+
+#### Croissant
+
+- Croissant Multigrano Jamón de Pavo — $5.300
+- Croissant Jamón Queso — $4.900
+- Croissant Queso — $4.900
+
+#### Baguettes
+
+- Baguette Prosciutto — $6.500
+- Baguette Seitán — $7.000
+- Baguette Caprese — $6.300
+
+#### Quiche
+
+- Porción de Quiche más Ensalada — $7.500
+- Porción de Quiche más Ensalada y Té Helado — $9.000
+- Quiche Salmón Ahumado
+- Quiche Pollo Espinaca
+- Quiche Lorraine
+- Quiche Ratatouille
+- Quiche Camarón
+- Quiche Mechada
+
+#### Cafetería Italiana
+
+- Espresso Doble — $2.300
+- Descafeinado — $1.800
+- Iced Americano — $2.700
+- Latte Macchiato — $2.800
+- Bebida de Soya / Almendra — +$400
+
+#### Filter Coffee
+
+- Chemex 3 Tazas — $3.300
+
+#### Té e Infusiones
+
+- Té en Hojas — $2.290
+- Infusiones en Hojas — $2.290
+
+#### Chai Latte
+
+- Chai Latte — $2.890
+
+#### Pascucci Baby
+
+- Caffè dei Bimbi — $1.800
+
+#### Pas-Ciok
+
+- Clásica — $2.600
+- Iced — $3.990
+- Sabores — $3.990
+- Mocha Chip Frappé — $3.990
+- Frappé Shake — $3.990
+- Frutilla — $4.400
+- Plátano — $4.400
+- Iced Mocha — $3.500
+- Iced Latte — $2.800
+- Café Pompato — $2.400
+
+#### Hot
+
+- Saborizado — $3.500
+
+#### Pop News
+
+- Café del Día — $2.100
+- Pas-Ciok Panna — $3.000
+- Mocha 3 Tazas — $3.000
+- Mokambú — $4.200
+
+#### Bebidas de café especiales
+
+- Espressino Baci — $4.800
+
+#### Frappés
+
+- Frappé Modiccia — $3.300 - $3.900
+
+#### Chocolates
+
+- Chocolate Pascucci — $4.500 - $5.800
+- Chocolate Pascucci Baci — $5.100 - $6.000
+
+#### Postres de helado
+
+- Café Helado Jamaica
+- Haití
+
 
 ## Café Aquelarre
 - **Ubicación:** Gran Av. José Miguel Carrera 4813, 8920052 San Miguel, Región Metropolitana
@@ -165,8 +799,259 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.7 / 5
 - **Enlace:** https://www.google.com/maps?cid=12393475553772179856
 - **Menciona en reseñas:** pizza, mechada, torta, chocolate, jugo
-- **Carta (Google Maps):** AGREGADO POLLO O CARNE ($2.500); AGUA MINERAL CON GAS ($1.700); AGUA MINERAL SIN GAS ($1.700); COCA COLA ORIGINAL ($1.990); COCA COLA ZERO ($1.990); FANTA ORIGINAL ($1.990); JUGO CHIRIMOYA ($3.900); JUGO FRAMBUESA ($3.900); JUGO FRUTILLA ($3.900); JUGO MANGO ($3.900); JUGO MANGO MARACUYA ($4.300); JUGO MARACUYÁ ($3.900); JUGO NATURAL CHIRIMOYA ALEGRE ($4.300); JUGO NATURAL DE NARANJA ($3.900); JUGO NATURAL NARANJA PLATANO ($4.300); JUGO PIÑA ($3.900); LIMONADA FRAMBUESA ($3.500); LIMONADA MARACUYA ($3.500); LIMONADA MENTA ($3.300); LIMONADA MENTA JENGIBRE ($3.400); SPRITE NORMAL ($1.990); SPRITE ZERO ($1.990); AFFOGATO ($4.300); AMERICANO DOBLE ($3.700); AMERICANO DOBLE SABORES ($4.100); AMERICANO SIMPLE ($3.000); CAFÉ AQUELARRE ($4.800); CAPPUCCINO DOBLE ($4.100); CAPPUCCINO DOBLE SABORES ($4.500); CAPPUCCINO SIMPLE ($3.600); CAPPUCCINO SIMPLE SABORES ($4.200); CARAMEL MACCHIATO ($4.600); CORTADO DOBLE ($4.100); CORTADO SIMPLE ($3.700); ESPRESSO DOBLE ($2.700); ESPRESSO DOBLE SABORES ($3.200); ESPRESSO SIMPLE ($2.300); FLAT WHITE (doble carga) ($4.100); LATTE ($3.700); LATTE BOMBÓN ($4.500); LATTE NUTELLA CROCANTE ($4.800); LATTE SABORES ($4.200); MACCHIATO DOBLE ($3.700); MACCHIATO SIMPLE ($3.000); MOCACCINO ($4.100); TAZON DE LECHE VEGETAL ($2.800); CHOCOLATE CALIENTE ($4.100); CONO TRIPLE ($4.600); COPA EMBRUJO NARANJA ($6.500); COPA HECHIZO DEL BOSQUE ($6.500); COPA PÓCIMA DE LOS BAJITOS ($6.500); CAFÉ HELADO ($5.500); FRAPUCCINO SABORES ($5.200); FRAPUCCINO TRADICIONAL ($4.800); ICED AMERICANO DOBLE ($3.800); ICED AMERICANO SIMPLE ($3.500); ICED AMERICANO SIMPLE CON ESCENCIA ($3.800); ICED CAPUCCINO ($4.400); ICED CAPUCCINO SABORES ($4.700); ICED CARAMEL MACCIATO ($4.800); ICED CHAILATTE ($4.200); ICED LATTE ($4.400); ICED LATTE BOMBÓN ($4.500); ICED LATTE SABORES ($4.700); ICED TEA ($3.500); ICED TEA SABORES ($3.900); CHEESECAKE DE FRAMBUESA ($4.600); CHEESECAKE DE MARACUYÁ ($4.600); CHEESECAKE FRUTOS ROJOS ($4.600); CROISSANT DUBAI ($9.990); GALLETON DE CHOCOLATE CON FRAMBUESA ($2.700); MEDIALUNA GRANDE ($1.900); MUFFIN RELLENO CON PIE DE LIMÓN / CHOCOLATE / NUTELLA ($2.700); PIE DE LIMÓN ($3.990); PORCIÓN GALLETAS ARTESANALES (80 gramos) ($2.500); SOPAIPILLAS PASADAS_ ($3.900); WAFFLE AQUELARRE ($5.500); WAFLE ÓREO ($5.500); PAILA DE HUEVOS ($4.100); PAILA DE HUEVOS CON JAMÓN ($4.500); PAILA DE HUEVOS CON JAMÓN Y QUESO ($4.900); PAILA DE HUEVOS CON QUESO ($4.400); PAILA HUEVOS CON TOCINO ($4.900); ONCE LAVANDA ($26.900); ONCE MARGARITAS ($27.900); DESAYUNO AQUELARRE ($8.500); MENÚ JUNAEB BÁSICO ($2.350); MENÚ JUNAEB PREMIUM ($4.700); PROMO AVE ACEITUNA CON TÉ O AMERICANO ($8.200); PROMOCIÓN SOPAIPILLAS PASADAS MÁS TÉ O CAFÉ ($6.800); PROMO MEDIA LUNA CON TE O AMERICANO ($4.400); PROMO MUFFIN CON TÉ O AMERICANO ($5.100); PROMO PIE DE LIMÓN CON TÉ O AMERICANO ($6.100); PROMO VEGETARIANO  MÁS TÉ O AMERICANO ($8.200); CIABATTA AVE ACEITUNA ($6.300); CIABATTA AVE ITALIANA ($6.300); CIABATTA AVE MAYO ($6.300); CIABATTA  AVE PALTA ($6.300); CIABATTA AVE PALTA MAYO ($6.300); CIABATTA AVE QUESO ($6.300); CIABATTA AVE SOLA ($5.900); CIABATTA CHICKEN CÉSAR ($6.300); CIABATTA JAMON PALTA ($6.000); CIABATTA JAMÓN-QUESO ($4.900); CIABATTA MECHADA A LO POBRE ($6.990); CIABATTA MECHADA CAMPESTRE ($6.700); CIABATTA MECHADA ITALIANA ($6.700); CIABATTA MECHADA PALTA ($6.700); CIABATTA MECHADA QUESO ($6.700); CIABATTA MECHADA SOLA ($6.500); CIABATTA NAPOLITANA ($6.300); CIABATTA PALTA QUESILLO ($6.300); CIABATTA QUESILLO PALTA ($6.300); CIABATTA QUESO ACEITUNA ($6.300); CIABATTA QUESO SOLO ($4.500); CIABATTA VEGETARIANO ($6.300); PIZZA INDIVIDUAL NAPOLITANA ($6.500); PIZZA INDIVIDUAL VEGETARIANA ($6.500); PIZZA MECHADA CAMPESTRE ($6.990); LECHE CON PLÁTANO ($4.200); MILKSHAKE CHOCOLATE ($5.500); MILKSHAKE MANJAR ($5.500); MILKSHAKE OREO ($5.500); MILKSHAKE PIE DE LIMON ($5.500); MILKSHAKE SABORES PARA LLEVAR ($5.800); MILKSHAKE VAINILLA ($5.500); SMOOTHIE DE BERRIES ($5.500); SMOOTHIE DE CHIRIMOYA ($5.500); SMOOTHIE DE FRAMBUESA ($5.500); SMOOTHIE DE FRUTILLA ($5.500); SMOOTHIE DE MANGO ($5.500); SMOOTHIE DE PIÑA ($5.500); SMOOTHIE DE SABORES PARA LLEVAR ($5.800); CHAI LATTE DE LA CASA ($3.900); DIRTY CHAI LTTE ($4.800); MANZANILLA ($2.900); MENTA ($2.900); TÉ CHAI DE LA CASA ($3.500); TÉ CON LECHE ($3.500); TÉ DE CACAO ($3.500); TÉ NEGRO CANELA ($3.500); TÉ NEGRO DE HOJAS ($2.900); TÉ SABORES ($3.500); TÉ VAINILLA NARANJA ($3.500); TÉ VERDE MENTA ($3.500); TÉ VERDE TRADICIONAL ($3.500); CARROT CAKE SIN AZUCAR ($5.500); TORTA AQUELARRE ($5.800); TORTA BIZCOCHO CHOCOLATE ($4.900); TORTA CHOCOLATE SIN AZUCAR ($5.500); TORTA CHOCO MANJAR ($4.900); TORTA DE AMAPOLA NUEZ ($4.900); TORTA FRÍA DE MERENGUE FRAMBUESA ($4.900); TORTA MILHOJAS MANJAR FRAMBUESA ($4.900); TORTA POMPADUR ($4.900); TORTA REINA ANA  FRAMBUESA ($4.900); TOSTADAS CON MANTEQUILLA ($3.700); TOSTADAS CON MANTEQUILLA Y MERMELADA ($3.900); TOSTADAS CON PALTA ($4.300); TOSTADAS MEDITERRANEAS ($5.900); TOSTADAS PALTA HUEVO ($4.990); TOSTADAS TOSCANAS ($6.900); TOSTADAS FRANCESAS TRADICIONALES ($5.900); BIZCOCHITO SIN GLUTEN BAÑADO EN CHOCOLATE ($2.490); CHOCOLATE CALIENTE SIN GLUTEN ($4.100); DESAYUNO AQUELARRE CELIACO ($9.000); PAILA DE HUEVOS SIN GLUTEN ($4.500); PAILA DE HUEVOS SIN GLUTEN CON  JAMON Y QUESO ($5.300); PAILA DE HUEVOS SIN GLUTEN CON QUESO ($4.900); PAILA DE HUEVOS SIN GLUTEN CON TOCINO ($5.300); PIE DE LIMÓN SIN GLUTEN ($5.700); PIZZA SIN GLUTEN ($6.990); PRESTIGIO VEGANO ($4.800); SADNWICH CELIACO MECHADA CAMPESTRE ($7.100); SADNWICH CELIACO MECHADA QUESO ($6.990); SANDWICH CELIACO AVE ACEITUNA ($6.600); SANDWICH CELIACO AVE ITALIANA ($6.990); SANDWICH CELIACO AVE MAYO ($6.700); SANDWICH CELIACO AVE PALTA ($6.700); SANDWICH CELIACO AVE PALTA MAYO ($6.890); SANDWICH CELIACO JAMON PALTA ($6.400); SANDWICH CELIACO JAMON QUESO ($6.400); SANDWICH CELIACO MECHADA A LO POBRE ($7.300); SANDWICH CELIACO MECHADA ITALIANA ($7.100); SANDWICH CELIACO NAPOLITANO ($6.700); SANDWICH CELIACO VEGETARIAN ($6.700); SANDWICH  VEGANO ($6.900); TORTA SIN GLUTEN ($5.700); TORTA VEGANA BROWNIE ($5.400); TOSTADAS SIN GLUTEN CON MANTEQUILLA ($4.400); TOSTADAS SIN GLUTEN PALTA ($4.990); TOSTADAS SIN GLUTEN PALTA HUEVO ($5.600); COPA DE FRUTAS DE LA ESTACIÓN ($3.500); ENSALADA AQUELARRE ($7.400); ENSALADA CESAR ($6.900); WRAPS CHICKÉN CÉSAR ($5.700); WRAPS MECHADA VACUNO BBQ ($5.700); WRAPS VEGETARIANO ($5.700)
 - **Fecha de registro:** 2025-11-23
+
+### Carta
+
+#### BEBIDAS Y JUGOS FRÍOS
+
+- AGUA MINERAL CON GAS — $1.700
+- AGUA MINERAL SIN GAS — $1.700
+- COCA COLA ORIGINAL — $1.990
+- COCA COLA ZERO — $1.990
+- FANTA ORIGINAL — $1.990
+- JUGO CHIRIMOYA — $3.900
+- JUGO FRAMBUESA — $3.900
+- JUGO FRUTILLA — $3.900
+- JUGO MANGO — $3.900
+- JUGO MANGO MARACUYA — $4.300
+- JUGO MARACUYÁ — $3.900
+- JUGO NATURAL CHIRIMOYA ALEGRE — $4.300
+- JUGO NATURAL DE NARANJA — $3.900
+- JUGO NATURAL NARANJA PLATANO — $4.300
+- JUGO PIÑA — $3.900
+- LIMONADA FRAMBUESA — $3.500
+- LIMONADA MARACUYA — $3.500
+- LIMONADA MENTA — $3.300
+- LIMONADA MENTA JENGIBRE — $3.400
+- SPRITE NORMAL — $1.990
+- SPRITE ZERO — $1.990
+
+#### CAFETERÍA
+
+- AFFOGATO — $4.300
+- AMERICANO DOBLE — $3.700
+- AMERICANO DOBLE SABORES — $4.100
+- AMERICANO SIMPLE — $3.000
+- CAFÉ AQUELARRE — $4.800
+- CAPPUCCINO DOBLE — $4.100
+- CAPPUCCINO DOBLE SABORES — $4.500
+- CAPPUCCINO SIMPLE — $3.600
+- CAPPUCCINO SIMPLE SABORES — $4.200
+- CARAMEL MACCHIATO — $4.600
+- CORTADO DOBLE — $4.100
+- CORTADO SIMPLE — $3.700
+- ESPRESSO DOBLE — $2.700
+- ESPRESSO DOBLE SABORES — $3.200
+- ESPRESSO SIMPLE — $2.300
+- FLAT WHITE (doble carga) — $4.100
+- LATTE — $3.700
+- LATTE BOMBÓN — $4.500
+- LATTE NUTELLA CROCANTE — $4.800
+- LATTE SABORES — $4.200
+- MACCHIATO DOBLE — $3.700
+- MACCHIATO SIMPLE — $3.000
+- MOCACCINO — $4.100
+- TAZON DE LECHE VEGETAL — $2.800
+
+#### CHOCOLATE CALIENTE
+
+- CHOCOLATE CALIENTE — $4.100
+
+#### HELADOS
+
+- CONO TRIPLE — $4.600
+- COPA EMBRUJO NARANJA — $6.500
+- COPA HECHIZO DEL BOSQUE — $6.500
+- COPA PÓCIMA DE LOS BAJITOS — $6.500
+
+#### ICED COFFEE
+
+- CAFÉ HELADO — $5.500
+- FRAPUCCINO SABORES — $5.200
+- FRAPUCCINO TRADICIONAL — $4.800
+- ICED AMERICANO DOBLE — $3.800
+- ICED AMERICANO SIMPLE — $3.500
+- ICED AMERICANO SIMPLE CON ESCENCIA — $3.800
+- ICED CAPUCCINO — $4.400
+- ICED CAPUCCINO SABORES — $4.700
+- ICED CARAMEL MACCIATO — $4.800
+- ICED CHAILATTE — $4.200
+- ICED LATTE — $4.400
+- ICED LATTE BOMBÓN — $4.500
+- ICED LATTE SABORES — $4.700
+- ICED TEA — $3.500
+- ICED TEA SABORES — $3.900
+
+#### MASAS DULCES
+
+- CHEESECAKE DE FRAMBUESA — $4.600
+- CHEESECAKE DE MARACUYÁ — $4.600
+- CHEESECAKE FRUTOS ROJOS — $4.600
+- CROISSANT DUBAI — $9.990
+- GALLETON DE CHOCOLATE CON FRAMBUESA — $2.700
+- MEDIALUNA GRANDE — $1.900
+- MUFFIN RELLENO CON PIE DE LIMÓN / CHOCOLATE / NUTELLA — $2.700
+- PIE DE LIMÓN — $3.990
+- PORCIÓN GALLETAS ARTESANALES (80 gramos) — $2.500
+- SOPAIPILLAS PASADAS_ — $3.900
+- WAFFLE AQUELARRE — $5.500
+- WAFLE ÓREO — $5.500
+
+#### PAILAS DE HUEVO
+
+- PAILA DE HUEVOS — $4.100
+- PAILA DE HUEVOS CON JAMÓN — $4.500
+- PAILA DE HUEVOS CON JAMÓN Y QUESO — $4.900
+- PAILA DE HUEVOS CON QUESO — $4.400
+- PAILA HUEVOS CON TOCINO — $4.900
+
+#### PROMOCIONES
+
+- DESAYUNO AQUELARRE — $8.500
+- MENÚ JUNAEB BÁSICO — $2.350
+- MENÚ JUNAEB PREMIUM — $4.700
+- PROMO AVE ACEITUNA CON TÉ O AMERICANO — $8.200
+- PROMOCIÓN SOPAIPILLAS PASADAS MÁS TÉ O CAFÉ — $6.800
+- PROMO MEDIA LUNA CON TE O AMERICANO — $4.400
+- PROMO MUFFIN CON TÉ O AMERICANO — $5.100
+- PROMO PIE DE LIMÓN CON TÉ O AMERICANO — $6.100
+- PROMO VEGETARIANO  MÁS TÉ O AMERICANO — $8.200
+
+#### SANDWICHES Y PIZZAS
+
+- CIABATTA AVE ACEITUNA — $6.300
+- CIABATTA AVE ITALIANA — $6.300
+- CIABATTA AVE MAYO — $6.300
+- CIABATTA  AVE PALTA — $6.300
+- CIABATTA AVE PALTA MAYO — $6.300
+- CIABATTA AVE QUESO — $6.300
+- CIABATTA AVE SOLA — $5.900
+- CIABATTA CHICKEN CÉSAR — $6.300
+- CIABATTA JAMON PALTA — $6.000
+- CIABATTA JAMÓN-QUESO — $4.900
+- CIABATTA MECHADA A LO POBRE — $6.990
+- CIABATTA MECHADA CAMPESTRE — $6.700
+- CIABATTA MECHADA ITALIANA — $6.700
+- CIABATTA MECHADA PALTA — $6.700
+- CIABATTA MECHADA QUESO — $6.700
+- CIABATTA MECHADA SOLA — $6.500
+- CIABATTA NAPOLITANA — $6.300
+- CIABATTA PALTA QUESILLO — $6.300
+- CIABATTA QUESILLO PALTA — $6.300
+- CIABATTA QUESO ACEITUNA — $6.300
+- CIABATTA QUESO SOLO — $4.500
+- CIABATTA VEGETARIANO — $6.300
+- PIZZA INDIVIDUAL NAPOLITANA — $6.500
+- PIZZA INDIVIDUAL VEGETARIANA — $6.500
+- PIZZA MECHADA CAMPESTRE — $6.990
+
+#### SMOOTHIES Y MILKSHAKES
+
+- LECHE CON PLÁTANO — $4.200
+- MILKSHAKE CHOCOLATE — $5.500
+- MILKSHAKE MANJAR — $5.500
+- MILKSHAKE OREO — $5.500
+- MILKSHAKE PIE DE LIMON — $5.500
+- MILKSHAKE SABORES PARA LLEVAR — $5.800
+- MILKSHAKE VAINILLA — $5.500
+- SMOOTHIE DE BERRIES — $5.500
+- SMOOTHIE DE CHIRIMOYA — $5.500
+- SMOOTHIE DE FRAMBUESA — $5.500
+- SMOOTHIE DE FRUTILLA — $5.500
+- SMOOTHIE DE MANGO — $5.500
+- SMOOTHIE DE PIÑA — $5.500
+- SMOOTHIE DE SABORES PARA LLEVAR — $5.800
+
+#### TÉ / INFUSIONES
+
+- CHAI LATTE DE LA CASA — $3.900
+- DIRTY CHAI LTTE — $4.800
+- MANZANILLA — $2.900
+- MENTA — $2.900
+- TÉ CHAI DE LA CASA — $3.500
+- TÉ CON LECHE — $3.500
+- TÉ DE CACAO — $3.500
+- TÉ NEGRO CANELA — $3.500
+- TÉ NEGRO DE HOJAS — $2.900
+- TÉ SABORES — $3.500
+- TÉ VAINILLA NARANJA — $3.500
+- TÉ VERDE MENTA — $3.500
+- TÉ VERDE TRADICIONAL — $3.500
+
+#### TORTAS
+
+- CARROT CAKE SIN AZUCAR — $5.500
+- TORTA AQUELARRE — $5.800
+- TORTA BIZCOCHO CHOCOLATE — $4.900
+- TORTA CHOCOLATE SIN AZUCAR — $5.500
+- TORTA CHOCO MANJAR — $4.900
+- TORTA DE AMAPOLA NUEZ — $4.900
+- TORTA FRÍA DE MERENGUE FRAMBUESA — $4.900
+- TORTA MILHOJAS MANJAR FRAMBUESA — $4.900
+- TORTA POMPADUR — $4.900
+- TORTA REINA ANA  FRAMBUESA — $4.900
+
+#### TOSTADAS
+
+- TOSTADAS CON MANTEQUILLA — $3.700
+- TOSTADAS CON MANTEQUILLA Y MERMELADA — $3.900
+- TOSTADAS CON PALTA — $4.300
+- TOSTADAS MEDITERRANEAS — $5.900
+- TOSTADAS PALTA HUEVO — $4.990
+- TOSTADAS TOSCANAS — $6.900
+
+#### TOSTADAS FRANCESAS
+
+- TOSTADAS FRANCESAS TRADICIONALES — $5.900
+
+#### VEGANOS Y LIBRES DE GLUTEN
+
+- BIZCOCHITO SIN GLUTEN BAÑADO EN CHOCOLATE — $2.490
+- CHOCOLATE CALIENTE SIN GLUTEN — $4.100
+- DESAYUNO AQUELARRE CELIACO — $9.000
+- PAILA DE HUEVOS SIN GLUTEN — $4.500
+- PAILA DE HUEVOS SIN GLUTEN CON  JAMON Y QUESO — $5.300
+- PAILA DE HUEVOS SIN GLUTEN CON QUESO — $4.900
+- PAILA DE HUEVOS SIN GLUTEN CON TOCINO — $5.300
+- PIE DE LIMÓN SIN GLUTEN — $5.700
+- PIZZA SIN GLUTEN — $6.990
+- PRESTIGIO VEGANO — $4.800
+- SADNWICH CELIACO MECHADA CAMPESTRE — $7.100
+- SADNWICH CELIACO MECHADA QUESO — $6.990
+- SANDWICH CELIACO AVE ACEITUNA — $6.600
+- SANDWICH CELIACO AVE ITALIANA — $6.990
+- SANDWICH CELIACO AVE MAYO — $6.700
+- SANDWICH CELIACO AVE PALTA — $6.700
+- SANDWICH CELIACO AVE PALTA MAYO — $6.890
+- SANDWICH CELIACO JAMON PALTA — $6.400
+- SANDWICH CELIACO JAMON QUESO — $6.400
+- SANDWICH CELIACO MECHADA A LO POBRE — $7.300
+- SANDWICH CELIACO MECHADA ITALIANA — $7.100
+- SANDWICH CELIACO NAPOLITANO — $6.700
+- SANDWICH CELIACO VEGETARIAN — $6.700
+- SANDWICH  VEGANO — $6.900
+- TORTA SIN GLUTEN — $5.700
+- TORTA VEGANA BROWNIE — $5.400
+- TOSTADAS SIN GLUTEN CON MANTEQUILLA — $4.400
+- TOSTADAS SIN GLUTEN PALTA — $4.990
+- TOSTADAS SIN GLUTEN PALTA HUEVO — $5.600
+
+#### WRAPS Y ENSALADAS
+
+- COPA DE FRUTAS DE LA ESTACIÓN — $3.500
+- ENSALADA AQUELARRE — $7.400
+- ENSALADA CESAR — $6.900
+- WRAPS CHICKÉN CÉSAR — $5.700
+- WRAPS MECHADA VACUNO BBQ — $5.700
+- WRAPS VEGETARIANO — $5.700
+
+#### Otros
+
+- AGREGADO POLLO O CARNE — $2.500
+- ONCE LAVANDA — $26.900
+- ONCE MARGARITAS — $27.900
+
 
 ## Café Bicka
 - **Ubicación:** Av. Luis Pasteur 6156, 7640503 Vitacura, Región Metropolitana
@@ -176,8 +1061,126 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.bickacafe.cl/
 - **Menciona en su web:** factura
 - **Menciona en reseñas:** lasaña, sándwich, pastel, muffin, chocolate, dulces
-- **Carta (Google Maps):** A ee eS Es are CervezaSidlÁlcohól asociacion CA TC dla ($3,300); RA ee BArtssso Bicka. | Cerveza/Sin Alcohol Michelada........ ==" Mantequil ($3.700); = SSS 2 EOS ÓN Espresso Naratija..\ rats Palit ($3.100); A ees | SRresso Corto (Ris Pee oc | so Tonic/PiNki.lenicicicicincoooo 0.0.1 Huevos Ri ($3.50); A ee O lungo..\\ ee Patton i ($2500); SS === Americano... NR Métodos de Filtrado aan Capresse ($3.700); A ts NS one ($3.600); “= SS Latte vainilla / cakamélo. oP e | ae = sá ($4.500); See | Capuchino Sencillo... Nk E] k Pah de! (54,900); AA A Flat White... 7 SNS ” Cidookt ($4.0); = Mocaccino....... ls IR ORIGAMI | 39 ARITA B75 |V60 ESPIRAL | V60 SWITCH i ($4.300); OS | SUE: les Filtrado Grano de la Semana........... Salenc ($5.200); Se See, SIN CAFE Filtrado Grano a Elección................. ($6.000); Ede Cascafa desató... a : tithes ($3.70); SS Matcha Wf at x -700 [— [Media Kuna... A. YA... Le , (8.951.900); =) Matcha Late se gst Cartel S.A 2rd... Sat BA (2.100); E TY oe Pan de Chocolate tinca plane ($2100); E > Chocolate Cali A A) 2500 | | Paterd Nata: Jesse. ($2300); SS SS Chocolate con/marshmellow $ ¥ | | Rollo de Canela gate SA ($2.700); > Macarons i>); == CON CAFE idad. cc econo ($4,900); RA e Unidades tic... ($4.200); E Ng 4 Unies... ES 200 P ($4.600); = ATO GED A O, cue 0 Muffin Cheescake-de Arandano...... ($4.700); SS z Galletón New York (Variedades)... ($3.200); Se, Cat lado. A 4... /900 ; a ($4); See Milkshake 900 Brownie a Elección:=.................... 6 ($4); Fe a 20 3 / Brownie a Elección con Helado....... ($5.200); ==> A Be ÓN cocina ccccocorooacccinaianoniooo ($4,800); > == Bebidaen Lata 350 Muffin Frambuesa D....ooma....... ($2.500); ~~ ~=AgtlaBenedictino (Con o'Sin'Gas)...... Carrot Cake Gl mm... ($2,500); O Kefir ginger ta fermentista......../. Queque de Miel Dv... :900 ($8,900); E ge a Limonada (Natural/Menta/Jengibre)... Láminas de Chocolate y Manjar 8%) ($4.500); = = = Vitamina de Naranja Natural............. Cheéescake de FrambuesasQB).. ($4.800); eee = Ce Mat nr. Kuchen de Manzana@ DE..../....../ ($4,500); al es — HiedelimónOBE)............/...É... ($4.800); oo? Cee ($4.500); Pande Chocolate; Chocolate Caliente; Pastel de Nata; Chocolate con marshmellow; Macarons; Muffin Cheescakede-Arandano; Café Helado; Galletón New York Variedades); Brownie a Elección; Brownie a Elección con Helado; Pie de Limón; Torta; Muffin Frambuesa); Galletas de Almendras@@@@.... ($4.500); Láminas de Chocolate y Manjar®® ($4.800); a oO MUFFIN | taser SIN; > e | Chips de chocolate con vainilla, | ee a 05 a fe. ($2.900); ee Chocolate. Bul ci; E ee © CARROT CAKE ($3.500); E ae PIE DE LIMÓN J con mania! 2 ($4500); Ex) MUFFIN A ANJA; nea > Harina de almendras, mezcla de 3 WN Finísima hojarasca ($3.600); ee ALFAJORES CUATRO LEcHES; a (6%) BE Bizcochuelo reller ($3.600); > (5%) MINI ALFAJORES Mo... 0; Bañado de chocolate marca .D., de cho,; PASTELERÍA; MUFFIN; Chips de chocolate con vainilla; Chocolate; BROWNIE; Chocolate 70% cacao Caramelo; TARTAS; se a galletone; PIE DE LIMÓN; con manjar a; ALFAJORES; Capa de manjar: y; MINI ALFAJORES; Bañado de chocolate marca; Manjar ¢ cub; +e Hl Cerveza'Sin(Alcohól:.<.................... " iG “TE ($3,300); Cerveza Sin Alcohol Michelada........ a SMe ($3); sate Espresso NaraMja..iciimicicóccccccancrcoooo Pa ($4,900); ae 4 Espresso TonicAPIAk).l.....oooooooooooomo. LA Hi ($4,900); => Me (1.000); a | Filtrado Grano de la Semana........... ($5.200); Filtrado Grano a Elección................. ($6.000); >: Media Edna... A. Jeanerette feo ($1.900); > Pande Chocolate... ocres: pa de; Pan-de Chocolate; Pastel de Nata.; a oO MUFFIN | taser SIN; > e | Chips de chocolate con vainilla, | ee a 05 a fe. ($2.900); ee Chocolate. Bul ci; E ee © CARROT CAKE ($3.500); E ae PIE DE LIMÓN J con mania! 2 ($4500); Ex) MUFFIN A ANJA; nea > Harina de almendras, mezcla de 3 WN Finísima hojarasca ($3.600); ee ALFAJORES CUATRO LEcHES; a (6%) BE Bizcochuelo reller ($3.600); > (5%) MINI ALFAJORES Mo... 0; Bañado de chocolate marca .D., de cho,; PASTELERÍA; MUFFIN; Chips de chocolate con vainilla; Chocolate; BROWNIE; Chocolate 70% cacao Caramelo; TARTAS; se a galletone; PIE DE LIMÓN; con manjar a; ALFAJORES; Capa de manjar: y; MINI ALFAJORES; Bañado de chocolate marca; Manjar ¢ cub
 - **Fecha de registro:** 2025-11-05
+
+### Carta
+
+- A ee eS Es are CervezaSidlÁlcohól asociacion CA TC dla — $3,300
+- RA ee BArtssso Bicka. | Cerveza/Sin Alcohol Michelada........ ==" Mantequil — $3.700
+- = SSS 2 EOS ÓN Espresso Naratija..\ rats Palit — $3.100
+- A ees | SRresso Corto (Ris Pee oc | so Tonic/PiNki.lenicicicicincoooo 0.0.1 Huevos Ri — $3.50
+- A ee O lungo..\\ ee Patton i — $2500
+- SS === Americano... NR Métodos de Filtrado aan Capresse — $3.700
+- A ts NS one — $3.600
+- “= SS Latte vainilla / cakamélo. oP e | ae = sá — $4.500
+- See | Capuchino Sencillo... Nk E] k Pah de! — 54,900
+- AA A Flat White... 7 SNS ” Cidookt — $4.0
+- = Mocaccino....... ls IR ORIGAMI | 39 ARITA B75 |V60 ESPIRAL | V60 SWITCH i — $4.300
+- OS | SUE: les Filtrado Grano de la Semana........... Salenc — $5.200
+- Se See, SIN CAFE Filtrado Grano a Elección................. — $6.000
+- Ede Cascafa desató... a : tithes — $3.70
+- SS Matcha Wf at x -700 [— [Media Kuna... A. YA... Le , — 8.951.900
+- =) Matcha Late se gst Cartel S.A 2rd... Sat BA — 2.100
+- E TY oe Pan de Chocolate tinca plane — $2100
+- E > Chocolate Cali A A) 2500 | | Paterd Nata: Jesse. — $2300
+- SS SS Chocolate con/marshmellow $ ¥ | | Rollo de Canela gate SA — $2.700
+- > Macarons i>)
+- == CON CAFE idad. cc econo — $4,900
+- RA e Unidades tic... — $4.200
+- E Ng 4 Unies... ES 200 P — $4.600
+- = ATO GED A O, cue 0 Muffin Cheescake-de Arandano...... — $4.700
+- SS z Galletón New York (Variedades)... — $3.200
+- Se, Cat lado. A 4... /900 ; a — $4
+- See Milkshake 900 Brownie a Elección:=.................... 6 — $4
+- Fe a 20 3 / Brownie a Elección con Helado....... — $5.200
+- ==> A Be ÓN cocina ccccocorooacccinaianoniooo — $4,800
+- > == Bebidaen Lata 350 Muffin Frambuesa D....ooma....... — $2.500
+- ~~ ~=AgtlaBenedictino (Con o'Sin'Gas)...... Carrot Cake Gl mm... — $2,500
+- O Kefir ginger ta fermentista......../. Queque de Miel Dv... :900 — $8,900
+- E ge a Limonada (Natural/Menta/Jengibre)... Láminas de Chocolate y Manjar 8%) — $4.500
+- = = = Vitamina de Naranja Natural............. Cheéescake de FrambuesasQB).. — $4.800
+- eee = Ce Mat nr. Kuchen de Manzana@ DE..../....../ — $4,500
+- al es — HiedelimónOBE)............/...É... — $4.800
+- oo? Cee — $4.500
+- Pande Chocolate
+- Chocolate Caliente
+- Pastel de Nata
+- Chocolate con marshmellow
+- Macarons
+- Muffin Cheescakede-Arandano
+- Café Helado
+- Galletón New York Variedades)
+- Brownie a Elección
+- Brownie a Elección con Helado
+- Pie de Limón
+- Torta
+- Muffin Frambuesa)
+- Galletas de Almendras@@@@.... — $4.500
+- Láminas de Chocolate y Manjar®® — $4.800
+- a oO MUFFIN | taser SIN
+- > e | Chips de chocolate con vainilla, | ee a 05 a fe. — $2.900
+- ee Chocolate. Bul ci
+- E ee © CARROT CAKE — $3.500
+- E ae PIE DE LIMÓN J con mania! 2 — $4500
+- Ex) MUFFIN A ANJA
+- nea > Harina de almendras, mezcla de 3 WN Finísima hojarasca — $3.600
+- ee ALFAJORES CUATRO LEcHES
+- a (6%) BE Bizcochuelo reller — $3.600
+- > (5%) MINI ALFAJORES Mo... 0
+- Bañado de chocolate marca .D., de cho,
+- PASTELERÍA
+- MUFFIN
+- Chips de chocolate con vainilla
+- Chocolate
+- BROWNIE
+- Chocolate 70% cacao Caramelo
+- TARTAS
+- se a galletone
+- PIE DE LIMÓN
+- con manjar a
+- ALFAJORES
+- Capa de manjar: y
+- MINI ALFAJORES
+- Bañado de chocolate marca
+- Manjar ¢ cub
+- +e Hl Cerveza'Sin(Alcohól:.<.................... " iG “TE — $3,300
+- Cerveza Sin Alcohol Michelada........ a SMe — $3
+- sate Espresso NaraMja..iciimicicóccccccancrcoooo Pa — $4,900
+- ae 4 Espresso TonicAPIAk).l.....oooooooooooomo. LA Hi — $4,900
+- => Me — 1.000
+- a | Filtrado Grano de la Semana........... — $5.200
+- Filtrado Grano a Elección................. — $6.000
+- >: Media Edna... A. Jeanerette feo — $1.900
+- > Pande Chocolate... ocres: pa de
+- Pan-de Chocolate
+- Pastel de Nata.
+- a oO MUFFIN | taser SIN
+- > e | Chips de chocolate con vainilla, | ee a 05 a fe. — $2.900
+- ee Chocolate. Bul ci
+- E ee © CARROT CAKE — $3.500
+- E ae PIE DE LIMÓN J con mania! 2 — $4500
+- Ex) MUFFIN A ANJA
+- nea > Harina de almendras, mezcla de 3 WN Finísima hojarasca — $3.600
+- ee ALFAJORES CUATRO LEcHES
+- a (6%) BE Bizcochuelo reller — $3.600
+- > (5%) MINI ALFAJORES Mo... 0
+- Bañado de chocolate marca .D., de cho,
+- PASTELERÍA
+- MUFFIN
+- Chips de chocolate con vainilla
+- Chocolate
+- BROWNIE
+- Chocolate 70% cacao Caramelo
+- TARTAS
+- se a galletone
+- PIE DE LIMÓN
+- con manjar a
+- ALFAJORES
+- Capa de manjar: y
+- MINI ALFAJORES
+- Bañado de chocolate marca
+- Manjar ¢ cub
+
 
 ## Café Kanela
 - **Ubicación:** Av. Almte. Blanco Encalada 1723, Local 1, Santiago, Región Metropolitana
@@ -185,16 +1188,215 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.7 / 5
 - **Enlace:** https://www.google.com/maps?cid=18377711895856028503
 - **Menciona en reseñas:** empanada, torta, pastel, brownie, dulces, jugo
-- **Carta (Google Maps):** PINO NFS; + Jugo natural + Focwurita, $; + Jugo natural; hacolal ernest oy ($ 1500)
 - **Fecha de registro:** 2026-03-23
+
+### Carta
+
+- PINO NFS
+- + Jugo natural + Focwurita, $
+- + Jugo natural
+- hacolal ernest oy — $ 1500
+
 
 ## Casa Juliet
 - **Ubicación:** Av. Pocuro 3015, 7510712 Providencia, Región Metropolitana
 - **Enlace:** https://www.google.com/maps?cid=10416907072710934038
 - **Web:** https://ciaofiorentina.cl/wp-content/uploads/2026/07/Copy-of-FINALFINALCartaEspJunio2026-2-1.pdf
 - **Menciona en su web:** pasta, pollo, carne, ensalada, sándwich, bagel, tortilla, hummus, asado, mechada, torta, pastel, galleta, cheesecake, pie, tarta, helado, chocolate, merengue, tiramisú, manjar, croissant, dulces, jugo
-- **Carta (Google Maps):** Bastoncitos Fritos ($4.800) · Antipasto; Ravioles al Pesto ($8.900) · Antipasto; Charcutería ($10.900) · Antipasto; Marinara ($8.500) · Pizza; Margherita ($8.900) · Pizza; Prosciutto ($12.900) · Pizza; Fugazza ($9.900) · Pizza; Peppe ($11.900) · Pizza; Al Pesto ($12.900) · Pizza; Lasagne ($13.900) · Pasta; Hummus y Escalibada ($9.900) · Ensaladas; Ensalada de Pera y Queso Azul ($10.900) · Ensaladas; Quinoa Salmón ($10.900) · Ensaladas; César en Crocante Parmesano ($10.900) · Ensaladas; Fetuccini Boloñesa ($6.900) · Menú Niños; Carne con Papas Fritas ($7.900) · Menú Niños; Pollo Apanado con Arroz ($6.900) · Menú Niños; Jugo para Niños ($2.800) · Menú Niños; Sirena ($7.500) · Mocktails sin alcohol; Fresh Tonic ($7.500) · Mocktails sin alcohol; Mojito Jengibre ($7.500) · Mocktails sin alcohol; Tropical ($7.500) · Mocktails sin alcohol; Espresso Tonic ($7.500) · Mocktails sin alcohol; Chocolate Caliente ($3.500) · Bebidas Calientes; Bastoncini de Ajo ($4.900) · Antipasto; Bastoncini al Tartufo ($5.900) · Antipasto; Pizza Stagione ($13.900) · Pizza; Tostadas Francesas ($8.900) · Desayunos y Hora del Té; Dúo de Tostadas Vegetarianas ($8.900) · Desayunos y Hora del Té; Trilogía de Bruschetas: Salmón laminado con queso crema ($10.900) · Desayunos y Hora del Té; Croissant Jamón Queso ($6.900) · Desayunos y Hora del Té; Croissant Jamón Serrano ($9.500) · Desayunos y Hora del Té; Croissant Capresse ($8.900) · Desayunos y Hora del Té; Croque Madame ($7.900) · Desayunos y Hora del Té; Huevos revueltos con tostadas de focaccia ($6.900) · Desayunos y Hora del Té; Huevos en salsa pomodoro, tomate y palta con focaccia ($8.900) · Desayunos y Hora del Té; Huevos con champiñones salteados y tomates cherry asados, acompañados de tostadas de focaccia ($8.900) · Desayunos y Hora del Té; Huevos Benedictinos ($10.990) · Desayunos y Hora del Té; Celestinos ($5.900) · Desayunos y Hora del Té; Espresso ($2.800) · Cafetería de especialidad; Americano ($2.800) · Cafetería de especialidad; Macchiato ($2.900) · Cafetería de especialidad; Affogato ($3.700) · Cafetería de especialidad; Cappuccino ($3.900) · Cafetería de especialidad; Latte ($3.900) · Cafetería de especialidad; Mocha ($4.200) · Cafetería de especialidad; Filtrado ($5.600) · Cafetería de especialidad; Chai Latte ($3.800) · Té; Matcha Latte ($3.800) · Té; Tetera individual ($2.900) · Té; Tetera para compartir ($5.900) · Té; Té Negro con Canela · Té; Té Verde · Té; Infusión Azul / Morada / Fucsia · Té; Gaseosas ($2.000) · Bebestibles; Jugos Naturales ($4.000) · Bebestibles; Agua con Gas / Sin Gas ($2.300) · Bebestibles; Limonadas ($3.500) · Bebestibles; Cerveza sin Alcohol ($3.200) · Bebestibles; Kombuchas ($3.200) · Bebestibles; Ginger Beer ($3.800) · Bebestibles; Tostadas con palta y huevo pochado ($10.990) · Desayunos y Hora del Té; Tostadas con palta y salmón ahumado ($12.990) · Desayunos y Hora del Té; Tostadas con palta y queso de cabra ($11.990) · Desayunos y Hora del Té; Yogurt con granola y frutos rojos ($9.990) · Desayunos y Hora del Té; Açaí bowl ($10.990) · Desayunos y Hora del Té; Huevos revueltos con tostadas ($9.990) · Desayunos y Hora del Té; Huevos revueltos con tocino ($11.990) · Desayunos y Hora del Té; Huevos revueltos con salmón ahumado ($12.990) · Desayunos y Hora del Té; Waffles con frutos rojos y crema ($10.990) · Desayunos y Hora del Té; Waffles con plátano y Nutella ($10.990) · Desayunos y Hora del Té; Panqueques con manjar y crema ($10.990) · Desayunos y Hora del Té; Panqueques con frutos rojos y crema ($10.990) · Desayunos y Hora del Té; Tabla de quesos y charcutería ($24.990) · Entradas, platitos y para compartir; Hummus con pan pita ($10.990) · Entradas, platitos y para compartir; Guacamole con totopos ($10.990) · Entradas, platitos y para compartir; Bruschetta de tomate y albahaca ($9.990) · Entradas, platitos y para compartir; Bruschetta de salmón ahumado y queso crema ($12.990) · Entradas, platitos y para compartir; Sopa del día ($8.990) · Entradas, platitos y para compartir; Ensalada Caprese ($11.990) · Entradas, platitos y para compartir; Ensalada César con pollo ($13.990) · Entradas, platitos y para compartir; Ensalada de quinoa y vegetales ($12.990) · Entradas, platitos y para compartir; Risotto de hongos ($17.990) · Platos de Estación; Salmón a la plancha con puré de coliflor ($19.990) · Platos de Estación; Curry de garbanzos y espinacas ($15.990) · Platos de Estación; Tortilla española ($12.990) · Platos de Estación; Latte Vainilla ($4.990) · Cafetería de Especialidad; Latte Caramelo ($4.990) · Cafetería de Especialidad; Latte Chocolate ($4.990) · Cafetería de Especialidad; Mocaccino ($4.990) · Cafetería de Especialidad; Cortado ($3.890) · Cafetería de Especialidad; Flat White ($4.290) · Cafetería de Especialidad; Té Negro ($4.290) · Té de Origen; Té Blanco ($4.290) · Té de Origen; Oolong ($4.290) · Té de Origen; Pu-erh ($4.290) · Té de Origen; Manzanilla ($3.890) · Infusiones; Menta ($3.890) · Infusiones; Jengibre y limón ($3.890) · Infusiones; Frutos rojos ($3.890) · Infusiones; Pink Sunset ($6.990) · Mocktails; Berry Bliss ($6.990) · Mocktails; Tropical Breeze ($6.990) · Mocktails; Mojito sin alcohol ($6.990) · Mocktails; Apple Spice ($6.990) · Mocktails; Ginger Fizz ($6.990) · Mocktails; Ensalada de pollo y palta ($14.990) · Ensaladas; Ensalada de salmón ahumado y queso crema ($15.990) · Ensaladas; Ensalada de burrata y tomates asados ($14.990) · Ensaladas; Brownie con helado ($8.990) · Postres; Crumble de manzana con salsa de vainilla ($8.990) · Postres; Panna Cotta de frutos rojos ($7.990) · Postres; Hojarasca ($5990) · Tortas de la Casa; Caluga Frambuesa Manjar ($5990) · Tortas de la Casa; Torta Amor ($5990) · Tortas de la Casa; Cheesecake Frutos Rojos ($5490) · Pastelería Artesanal; Pie de limón ($5490) · Pastelería Artesanal; Carrot cake ($5690) · Pastelería Artesanal; Kuchen de nuez ($5490) · Pastelería Artesanal; Torta Caluga Frambuesa Manjar (sin gluten ni azúcar) ($6990) · Pastelería sin gluten y sin azúcar; Tarta Maracuyá con Berries (sin gluten ni azúcar) ($6990) · Pastelería sin gluten y sin azúcar; Croissant relleno de Crema de Pistacho ($6990) · Bollería; Croissant relleno de Mousse de Chocolate ($6990) · Bollería; Croissant relleno de Crema Pastelera, Frutillas Frescas y Salsa de Berries ($6990) · Bollería
 - **Fecha de registro:** 2025-11-23
+
+### Carta
+
+#### Antipasto
+
+- Bastoncitos Fritos — $4.800
+- Ravioles al Pesto — $8.900
+- Charcutería — $10.900
+- Bastoncini de Ajo — $4.900
+- Bastoncini al Tartufo — $5.900
+
+#### Pizza
+
+- Marinara — $8.500
+- Margherita — $8.900
+- Prosciutto — $12.900
+- Fugazza — $9.900
+- Peppe — $11.900
+- Al Pesto — $12.900
+- Pizza Stagione — $13.900
+
+#### Pasta
+
+- Lasagne — $13.900
+
+#### Ensaladas
+
+- Hummus y Escalibada — $9.900
+- Ensalada de Pera y Queso Azul — $10.900
+- Quinoa Salmón — $10.900
+- César en Crocante Parmesano — $10.900
+- Ensalada de pollo y palta — $14.990
+- Ensalada de salmón ahumado y queso crema — $15.990
+- Ensalada de burrata y tomates asados — $14.990
+
+#### Menú Niños
+
+- Fetuccini Boloñesa — $6.900
+- Carne con Papas Fritas — $7.900
+- Pollo Apanado con Arroz — $6.900
+- Jugo para Niños — $2.800
+
+#### Mocktails sin alcohol
+
+- Sirena — $7.500
+- Fresh Tonic — $7.500
+- Mojito Jengibre — $7.500
+- Tropical — $7.500
+- Espresso Tonic — $7.500
+
+#### Bebidas Calientes
+
+- Chocolate Caliente — $3.500
+
+#### Desayunos y Hora del Té
+
+- Tostadas Francesas — $8.900
+- Dúo de Tostadas Vegetarianas — $8.900
+- Trilogía de Bruschetas: Salmón laminado con queso crema — $10.900
+- Croissant Jamón Queso — $6.900
+- Croissant Jamón Serrano — $9.500
+- Croissant Capresse — $8.900
+- Croque Madame — $7.900
+- Huevos revueltos con tostadas de focaccia — $6.900
+- Huevos en salsa pomodoro, tomate y palta con focaccia — $8.900
+- Huevos con champiñones salteados y tomates cherry asados, acompañados de tostadas de focaccia — $8.900
+- Huevos Benedictinos — $10.990
+- Celestinos — $5.900
+- Tostadas con palta y huevo pochado — $10.990
+- Tostadas con palta y salmón ahumado — $12.990
+- Tostadas con palta y queso de cabra — $11.990
+- Yogurt con granola y frutos rojos — $9.990
+- Açaí bowl — $10.990
+- Huevos revueltos con tostadas — $9.990
+- Huevos revueltos con tocino — $11.990
+- Huevos revueltos con salmón ahumado — $12.990
+- Waffles con frutos rojos y crema — $10.990
+- Waffles con plátano y Nutella — $10.990
+- Panqueques con manjar y crema — $10.990
+- Panqueques con frutos rojos y crema — $10.990
+
+#### Cafetería de especialidad
+
+- Espresso — $2.800
+- Americano — $2.800
+- Macchiato — $2.900
+- Affogato — $3.700
+- Cappuccino — $3.900
+- Latte — $3.900
+- Mocha — $4.200
+- Filtrado — $5.600
+
+#### Té
+
+- Chai Latte — $3.800
+- Matcha Latte — $3.800
+- Tetera individual — $2.900
+- Tetera para compartir — $5.900
+- Té Negro con Canela
+- Té Verde
+- Infusión Azul / Morada / Fucsia
+
+#### Bebestibles
+
+- Gaseosas — $2.000
+- Jugos Naturales — $4.000
+- Agua con Gas / Sin Gas — $2.300
+- Limonadas — $3.500
+- Cerveza sin Alcohol — $3.200
+- Kombuchas — $3.200
+- Ginger Beer — $3.800
+
+#### Entradas, platitos y para compartir
+
+- Tabla de quesos y charcutería — $24.990
+- Hummus con pan pita — $10.990
+- Guacamole con totopos — $10.990
+- Bruschetta de tomate y albahaca — $9.990
+- Bruschetta de salmón ahumado y queso crema — $12.990
+- Sopa del día — $8.990
+- Ensalada Caprese — $11.990
+- Ensalada César con pollo — $13.990
+- Ensalada de quinoa y vegetales — $12.990
+
+#### Platos de Estación
+
+- Risotto de hongos — $17.990
+- Salmón a la plancha con puré de coliflor — $19.990
+- Curry de garbanzos y espinacas — $15.990
+- Tortilla española — $12.990
+
+#### Cafetería de Especialidad
+
+- Latte Vainilla — $4.990
+- Latte Caramelo — $4.990
+- Latte Chocolate — $4.990
+- Mocaccino — $4.990
+- Cortado — $3.890
+- Flat White — $4.290
+
+#### Té de Origen
+
+- Té Negro — $4.290
+- Té Blanco — $4.290
+- Oolong — $4.290
+- Pu-erh — $4.290
+
+#### Infusiones
+
+- Manzanilla — $3.890
+- Menta — $3.890
+- Jengibre y limón — $3.890
+- Frutos rojos — $3.890
+
+#### Mocktails
+
+- Pink Sunset — $6.990
+- Berry Bliss — $6.990
+- Tropical Breeze — $6.990
+- Mojito sin alcohol — $6.990
+- Apple Spice — $6.990
+- Ginger Fizz — $6.990
+
+#### Postres
+
+- Brownie con helado — $8.990
+- Crumble de manzana con salsa de vainilla — $8.990
+- Panna Cotta de frutos rojos — $7.990
+
+#### Tortas de la Casa
+
+- Hojarasca — $5990
+- Caluga Frambuesa Manjar — $5990
+- Torta Amor — $5990
+
+#### Pastelería Artesanal
+
+- Cheesecake Frutos Rojos — $5490
+- Pie de limón — $5490
+- Carrot cake — $5690
+- Kuchen de nuez — $5490
+
+#### Pastelería sin gluten y sin azúcar
+
+- Torta Caluga Frambuesa Manjar (sin gluten ni azúcar) — $6990
+- Tarta Maracuyá con Berries (sin gluten ni azúcar) — $6990
+
+#### Bollería
+
+- Croissant relleno de Crema de Pistacho — $6990
+- Croissant relleno de Mousse de Chocolate — $6990
+- Croissant relleno de Crema Pastelera, Frutillas Frescas y Salsa de Berries — $6990
+
 
 ## Casa Roque Chocolates
 - **Ubicación:** Planta baja Casa Costanera - Av. Nueva Costanera 3900, 7630000 Vitacura, Región Metropolitana
@@ -213,8 +1415,81 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.casaciencafe.cl/
 - **Menciona en su web:** hamburguesa, pollo, carne, ensalada, sopa, sándwich, bagel, hummus, parrilla, mechada, torta, pastel, galleta, alfajor, brownie, muffin, donut, pie, tarta, helado, chocolate, manjar, croissant, postre, dulces, jugo
 - **Menciona en reseñas:** pastel, pie, chocolate, jugo
-- **Carta (Google Maps):** AT TORTADELACASA; CHOCOLATE CALIENTE BOLLERIA E IMPULSOS; LECHE VEGETAL .—s— ALFAJOR CHOCOLATE cc; ALFAJOR MAICENA cscennonensnennnn; ALFAJOR SWEET VARIEDADES .............; TE GALLETON inn; JUGO NARANJA 120 CC cc FRUTOS SECOS; JUGO NARANJA 330 CC; LECHE CON PLATANO SANDWICHES; ENSALADAS CIABATTA QUESO TOMATE PESTO...; CIABATTA MECHADA QUESO ...............; PASTELERIA; PIE DE LIMON INDIVIDUAL; BROWNIE; TARTALETA VARIEDADES; TARTALETA NUEZ; TORTA DELACASA .; CHOCOLATE CALIENTE; ALFAJOR CHOCOLATE .; ALFAJOR MAICENA; ALFAJOR SWEET VARIEDADES; GALLETON; GALLETON VEGANO; GALLETON SIN GLUTEN; GINGER ESPRESSO y jugo naranja; MUFFIN; JUGO NARANJA 120 CC; SANDWICHES; ENSALADAS; CIABATTA MECHADA QUESO; ENSALADAS VARIEDADES; porción brownie o barrita keto; [JE [5] / LUNES AJUEVES gett Oe, ($ 9.990); ae Pa /VIERNES Y SÁBADO il C) % ($ 10.990); Lasaña boloñesa; Garbanzos al curry; Mousse chocolate; Carne mechada; Pollo salteado; Mini Ensalada; Mechada de cerdo; ma /VIERNES Y SÁBADO ($ 10.990); Ment del dia S (7.990); Estofado de carne; Carne Mongoliana; Lasagna de Pollo espinaca a la crema; Brownie con salsa de manjar; Lunes Martes Miércoles ($7.990); Jueves Veggie Viernes Especial ($7.990); *Falafel -Medallón de filete; Lunes ($7.990); Martes ($7.990); Miércoles ($7.990); Jueves Veggie ($7.990); Viernes Especial ($9.990); Falafel; Ment del dia S (7.990); VIERNES ESPECIAL SABADO ESPECIAL ($9.990); Carne Mechada; Tiramisu; Panqueques c/manjar; Pollo relleno de champiñoñes; Canelones de pollo y espinaca, pomodoro; Ment del dia S (7.990); Jueves Viernes ESPECIAL ($9.990); Babarois de piña -Pie de limón; Pastel de papas; Pollo a la mostaza; Lasaña; Pie de limón
 - **Fecha de registro:** 2026-04-22
+
+### Carta
+
+- AT TORTADELACASA
+- CHOCOLATE CALIENTE BOLLERIA E IMPULSOS
+- LECHE VEGETAL .—s— ALFAJOR CHOCOLATE cc
+- ALFAJOR MAICENA cscennonensnennnn
+- ALFAJOR SWEET VARIEDADES .............
+- TE GALLETON inn
+- JUGO NARANJA 120 CC cc FRUTOS SECOS
+- JUGO NARANJA 330 CC
+- LECHE CON PLATANO SANDWICHES
+- ENSALADAS CIABATTA QUESO TOMATE PESTO...
+- CIABATTA MECHADA QUESO ...............
+- PASTELERIA
+- PIE DE LIMON INDIVIDUAL
+- BROWNIE
+- TARTALETA VARIEDADES
+- TARTALETA NUEZ
+- TORTA DELACASA .
+- CHOCOLATE CALIENTE
+- ALFAJOR CHOCOLATE .
+- ALFAJOR MAICENA
+- ALFAJOR SWEET VARIEDADES
+- GALLETON
+- GALLETON VEGANO
+- GALLETON SIN GLUTEN
+- GINGER ESPRESSO y jugo naranja
+- MUFFIN
+- JUGO NARANJA 120 CC
+- SANDWICHES
+- ENSALADAS
+- CIABATTA MECHADA QUESO
+- ENSALADAS VARIEDADES
+- porción brownie o barrita keto
+- [JE [5] / LUNES AJUEVES gett Oe, — $ 9.990
+- ae Pa /VIERNES Y SÁBADO il C) % — $ 10.990
+- Lasaña boloñesa
+- Garbanzos al curry
+- Mousse chocolate
+- Carne mechada
+- Pollo salteado
+- Mini Ensalada
+- Mechada de cerdo
+- ma /VIERNES Y SÁBADO — $ 10.990
+- Ment del dia S — 7.990
+- Estofado de carne
+- Carne Mongoliana
+- Lasagna de Pollo espinaca a la crema
+- Brownie con salsa de manjar
+- Lunes Martes Miércoles — $7.990
+- Jueves Veggie Viernes Especial — $7.990
+- *Falafel -Medallón de filete
+- Lunes — $7.990
+- Martes — $7.990
+- Miércoles — $7.990
+- Jueves Veggie — $7.990
+- Viernes Especial — $9.990
+- Falafel
+- Ment del dia S — 7.990
+- VIERNES ESPECIAL SABADO ESPECIAL — $9.990
+- Carne Mechada
+- Tiramisu
+- Panqueques c/manjar
+- Pollo relleno de champiñoñes
+- Canelones de pollo y espinaca, pomodoro
+- Ment del dia S — 7.990
+- Jueves Viernes ESPECIAL — $9.990
+- Babarois de piña -Pie de limón
+- Pastel de papas
+- Pollo a la mostaza
+- Lasaña
+- Pie de limón
+
 
 ## CASI PERFECTO
 - **Ubicación:** P.º Bulnes 144, Santiago, Región Metropolitana
@@ -232,8 +1507,45 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.cetortillas.cl/
 - **Menciona en su web:** burrito, empanada, carne, sopa, wrap, panqueque, tortilla, asado, nachos, completo, pino, torta, pastel, brownie, donut, cheesecake, pie, helado, chocolate, manjar
 - **Menciona en reseñas:** empanada, torta, dulces
-- **Carta (Google Maps):** ba Esas Moines a o KETO BARQUILLOS __ = nice eee a. 0 AS ($300); Ps | O kETO DONUTS — econ al Eos are Sa ae e AN ($35.000); Hy ee | oF y il “ nt Gam Bath se.an0 ea ie ($18,000); dl bo er | | ES ¿PAN MADRE KETO cana vane Entero 12 personas , ($12,000); JE hh. Pa > 7 z a $ lot Chocolate 250cc ns ($3.500); E ie. ft HN 2P BROWNIES > nidad y ¿senos Tadiionaes ] [tice cacas ¡anclas 2 poto ie ($2500); ey ' Bee |) ee + Crema de Mani con Praline + Nachos Parmesanos Roa SON ma ($3.500); A @ CHOCOLATE KETO; Pa , : 7 1-0 + Mantequilla de Avellanas Europeas Cioccolata ii (55.000); Torta completa 18 personas; tortillas F; tortillas Cioccola; © Torta 3 leches Low Carb; © KETO DONUTS; + Torta Amor Keto; +1 Donut; +2 Donuts; +6 Donuts; +4 Donuts; +8 Donuts; Empanada Pino de Carne Picada; + Pie de Limon Keto; Empanada Vegetariana; Empanada Camarón Queso; G KETO NACHOS vos; + Hot Chocolate; BROWNIES; © Nachos Coliflor; + Nachos Tradicionales; + Hot Chocolate Instantáneo en Polvo 180; + Nachos Parmesanos; CHOCOLATE KETO; Chocolate Keto y; ¡Que tu helado
 - **Fecha de registro:** 2025-11-23
+
+### Carta
+
+- ba Esas Moines a o KETO BARQUILLOS __ = nice eee a. 0 AS — $300
+- Ps | O kETO DONUTS — econ al Eos are Sa ae e AN — $35.000
+- Hy ee | oF y il “ nt Gam Bath se.an0 ea ie — $18,000
+- dl bo er | | ES ¿PAN MADRE KETO cana vane Entero 12 personas , — $12,000
+- JE hh. Pa > 7 z a $ lot Chocolate 250cc ns — $3.500
+- E ie. ft HN 2P BROWNIES > nidad y ¿senos Tadiionaes ] [tice cacas ¡anclas 2 poto ie — $2500
+- ey ' Bee |) ee + Crema de Mani con Praline + Nachos Parmesanos Roa SON ma — $3.500
+- A @ CHOCOLATE KETO
+- Pa , : 7 1-0 + Mantequilla de Avellanas Europeas Cioccolata ii — 55.000
+- Torta completa 18 personas
+- tortillas F
+- tortillas Cioccola
+- © Torta 3 leches Low Carb
+- © KETO DONUTS
+- + Torta Amor Keto
+- +1 Donut
+- +2 Donuts
+- +6 Donuts
+- +4 Donuts
+- +8 Donuts
+- Empanada Pino de Carne Picada
+- + Pie de Limon Keto
+- Empanada Vegetariana
+- Empanada Camarón Queso
+- G KETO NACHOS vos
+- + Hot Chocolate
+- BROWNIES
+- © Nachos Coliflor
+- + Nachos Tradicionales
+- + Hot Chocolate Instantáneo en Polvo 180
+- + Nachos Parmesanos
+- CHOCOLATE KETO
+- Chocolate Keto y
+- ¡Que tu helado
+
 
 ## Ciudadano Restaurant
 - **Ubicación:** Seminario 400, 7501448 Providencia, Región Metropolitana
@@ -243,8 +1555,100 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.ciudadanorestaurant.cl/
 - **Menciona en su web:** pizza, pasta, empanada, ceviche, carne, pescado, ensalada, sopa, milanesa, falafel, asado, pastel de choclo, pastel, postre
 - **Menciona en reseñas:** pizza, ceviche, carne
-- **Carta (Google Maps):** Aperol ($14.500) · Jarra de Cóctel; Sangría ($12.500) · Jarra de Cóctel; Tiki OAC ($14.500) · Jarra de Cóctel; St-Germain ($16.500) · Jarra de Cóctel; Clericó ($10.000) · Jarra de Cóctel; Borgoña ($10.000) · Jarra de Cóctel; Romana ($5.500) · Pizza; Carbonara ($5.400) · Pizza; Rúcula ($4.200) · Pizza; Parma ($6.300) · Pizza; Melanzane ($5.800) · Pizza; Florentina ($5.400) · Pizza; Fugazza ($5.900) · Pizza; Caperi ($6.300) · Pizza; Ciudadano ($5.500) · Pizza; Prezzaglio ($5.900) · Pizza; Di Bufala ($6.400) · Pizza; Hawaiana ($6.200) · Pizza; Española ($6.600) · Pizza; Gamberi ($6.500) · Pizza; Dante ($6.700) · Pizza; Orleans ($6.300) · Pizza; Jardinera ($6.100) · Pizza; Alcachofas ($6.300) · Pizza; Funghi ($5.900) · Pizza; Cuatro Quesos ($6.100) · Pizza; Imola ($5.900) · Pizza; Toscana ($5.900) · Pizza; Boloñesa ($6.100) · Pizza; Royal Guard Golden Ale ($2.600) · Cerveza Nacional; Royal Guard Smooth Lager ($2.600) · Cerveza Nacional; Cristal ($2.400) · Cerveza Nacional; Escudo ($2.400) · Cerveza Nacional; Heineken 0.0 ($2.600) · Cerveza Internacional; Heineken (México) ($2.600) · Cerveza Internacional; Kross 5 (Bélgica) ($2.700) · Cerveza Internacional; Kross Lager (Bélgica) ($2.700) · Cerveza Internacional; Erdinger Rubia 500 cc. (Alemania) ($3.900) · Cerveza Internacional; Erdinger Sin Alcohol (Alemania) ($3.900) · Cerveza Internacional; Stella Artois 650 cc. (Bélgica) ($3.800) · Cerveza Internacional; Corona 355 cc. (México) ($3.700) · Cerveza Internacional; Mahou Maestra 7.2 (España) ($2.800) · Cerveza Internacional; Moritz Rubia (Barcelona) ($2.700) · Cerveza Internacional; Moritz Sin Gluten (España) ($2.800) · Cerveza Internacional; Moritz Red IPA (Barcelona) ($2.700) · Cerveza Internacional; Agua de Moritz 0.0 (Barcelona) ($2.400) · Cerveza Internacional; Austral Calafate ($3.900) · Cerveza de Especialidad; Austral Patagona Pale Ale ($3.900) · Cerveza de Especialidad; Kunstmann Lager sin Filtrar ($3.700) · Cerveza de Especialidad; Kunstmann Bock ($3.700) · Cerveza de Especialidad; Kunstmann Torobayo ($3.700) · Cerveza de Especialidad; Imperial Lager sin Filtrar ($3.800) · Cerveza de Especialidad; Imperial Dunkel ($3.800) · Cerveza de Especialidad; Guayacán Pale Ale ($2.500) · Cerveza Artesanal; Guayacán Stout ($2.500) · Cerveza Artesanal; D'Olbek Ale ($2.400) · Cerveza Artesanal; D'Olbek Pale Ale ($2.400) · Cerveza Artesanal; Del Puerto Rubia Roja ($2.400) · Cerveza Artesanal; Del Puerto Atlantica Pale Ale ($2.400) · Cerveza Artesanal; Schop Cerveza Artesanal Tarumahara 500 cc. ($3.500) · Cerveza de Barril; Schop Cerveza Artesanal Tarumahara 250 cc. ($1.900) · Cerveza de Barril; Schop Heineken 500 cc. ($3.000) · Cerveza de Barril; Schop Heineken 250 cc. ($1.700) · Cerveza de Barril; Heineken Fusions Ginger Beer ($3.000) · Cerveza de Barril; Lechita de Tigre ($800) · Bebida; Michelada Clásica ($500) · Bebida
 - **Fecha de registro:** 2026-08-02
+
+### Carta
+
+#### Jarra de Cóctel
+
+- Aperol — $14.500
+- Sangría — $12.500
+- Tiki OAC — $14.500
+- St-Germain — $16.500
+- Clericó — $10.000
+- Borgoña — $10.000
+
+#### Pizza
+
+- Romana — $5.500
+- Carbonara — $5.400
+- Rúcula — $4.200
+- Parma — $6.300
+- Melanzane — $5.800
+- Florentina — $5.400
+- Fugazza — $5.900
+- Caperi — $6.300
+- Ciudadano — $5.500
+- Prezzaglio — $5.900
+- Di Bufala — $6.400
+- Hawaiana — $6.200
+- Española — $6.600
+- Gamberi — $6.500
+- Dante — $6.700
+- Orleans — $6.300
+- Jardinera — $6.100
+- Alcachofas — $6.300
+- Funghi — $5.900
+- Cuatro Quesos — $6.100
+- Imola — $5.900
+- Toscana — $5.900
+- Boloñesa — $6.100
+
+#### Cerveza Nacional
+
+- Royal Guard Golden Ale — $2.600
+- Royal Guard Smooth Lager — $2.600
+- Cristal — $2.400
+- Escudo — $2.400
+
+#### Cerveza Internacional
+
+- Heineken 0.0 — $2.600
+- Heineken (México) — $2.600
+- Kross 5 (Bélgica) — $2.700
+- Kross Lager (Bélgica) — $2.700
+- Erdinger Rubia 500 cc. (Alemania) — $3.900
+- Erdinger Sin Alcohol (Alemania) — $3.900
+- Stella Artois 650 cc. (Bélgica) — $3.800
+- Corona 355 cc. (México) — $3.700
+- Mahou Maestra 7.2 (España) — $2.800
+- Moritz Rubia (Barcelona) — $2.700
+- Moritz Sin Gluten (España) — $2.800
+- Moritz Red IPA (Barcelona) — $2.700
+- Agua de Moritz 0.0 (Barcelona) — $2.400
+
+#### Cerveza de Especialidad
+
+- Austral Calafate — $3.900
+- Austral Patagona Pale Ale — $3.900
+- Kunstmann Lager sin Filtrar — $3.700
+- Kunstmann Bock — $3.700
+- Kunstmann Torobayo — $3.700
+- Imperial Lager sin Filtrar — $3.800
+- Imperial Dunkel — $3.800
+
+#### Cerveza Artesanal
+
+- Guayacán Pale Ale — $2.500
+- Guayacán Stout — $2.500
+- D'Olbek Ale — $2.400
+- D'Olbek Pale Ale — $2.400
+- Del Puerto Rubia Roja — $2.400
+- Del Puerto Atlantica Pale Ale — $2.400
+
+#### Cerveza de Barril
+
+- Schop Cerveza Artesanal Tarumahara 500 cc. — $3.500
+- Schop Cerveza Artesanal Tarumahara 250 cc. — $1.900
+- Schop Heineken 500 cc. — $3.000
+- Schop Heineken 250 cc. — $1.700
+- Heineken Fusions Ginger Beer — $3.000
+
+#### Bebida
+
+- Lechita de Tigre — $800
+- Michelada Clásica — $500
+
 
 ## CO&keto
 - **Ubicación:** Av Guillermo Ulriksen 3100, 1700000 La Serena, Coquimbo
@@ -272,8 +1676,22 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://menu.fu.do/crumblessglutenfreebakery
 - **Menciona en su web:** Pizza queso, Pizza pepperoni, Sándwich clásico, Sándwich mechada queso, Sándwich tomate palmita, Extra mayo, Extra ketchup, Extra jamón, Extra queso rodda, Extra queso palmita, Extra aceite de oliva, Extra carne mechada, Extra tomate, Generico, Galletas N.Y Chocolate, Galletas N.Y Pistacho, Galletas N.Y Red Velvet, Brookie, Roles de canela, Profiteroles, Pan de queso, Pan rustico (Congelado), Empanada napolitana, Porción Choco Choco, Porción Carrot Cake, Porción Tres Leches, Porción Frutilla Cremosa, Porción Cuatro Leches, Porción de trufas, Pie de limón, Jugo de frutilla, Jugo de mango, Jugo de piña, Coca cola C/A, Agua sin gas benedictino, Agua con gas benedictino, Papas grandes, Papas chicas, Papas mechada queso, pizza, empanada, carne, sándwich, mechada, torta, galleta, brownie, pie, chocolate, merengue, manjar, jugo
 - **Menciona en reseñas:** torta, galleta, manjar, postre, jugo
-- **Carta (Google Maps):** Rústico; De queso; Rollos de canela; Papas fritas; Tortas; Galletas; Café; Jugos naturales; Mechada - Queso; Tomate - Queso; Jamón - Queso
 - **Fecha de registro:** 2025-10-02
+
+### Carta
+
+- Rústico
+- De queso
+- Rollos de canela
+- Papas fritas
+- Tortas
+- Galletas
+- Café
+- Jugos naturales
+- Mechada - Queso
+- Tomate - Queso
+- Jamón - Queso
+
 
 ## Dulces aplv
 - **Ubicación:** Montenegro 1768, 7790123 Ñuñoa, Región Metropolitana
@@ -292,8 +1710,144 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=5626173014652709828
 - **Web:** http://www.dondelguaton.cl/
 - **Menciona en reseñas:** carne, parrilla, pastel de choclo, cazuela, pastel, postre, jugo
-- **Carta (Google Maps):** a .: ee and 4 SERE A > &§ AU ($10.96); Pa § > POLLO SERENENCE | hee; A ER RADO Pe: RITO ¿1 (515.200); Lx Psy ensalada | air. Po RITA; pry, OS A RASAS ($9.250); oy "gy A (57.801); POLLO SERENENCE; PASTEL DE C; WikechucatOuate Parra / AUSTRALLAGER ($5.200); É . Y” es CORONA : me W S =N ($4.); “Jedwga, papa, huevo duro, - pF i ef en é, ($2.600); en 7 8 AAN | | _ ($4,000); PE _ HEINEKEN SIN ALCOHOL ($7200); CCOnts 5, ) ee< ’ fg ‘a KUNSTMANN TOROBAYO " ($4.000); im ae ‘ ___KUNSTMANN Bock ($ 4.000); dA, n | |) STELLA ARTONS ($ 4.000); A > y oq ROYAL GUARD i ($ 4.000); Y GA SHOP ARTESANAL SOOML ($ 5.200); MM |. ——soPAS-. -TRADICIONALES; O | POROTOS GRANADOS $ ($9.200); CAZUELA DE VACUNO $ : PLATEADA; CONSOMÉ DE AVE ($ 4.000); CON HUEVO TALLARINES CON a ($ 8.200); Sopa de pollo con huevo PLATEADA A A E; CALDILLO DE | CHORRILLANA X2 ($ 10.200); remplacer par n' import quel poisson a la ARROLLADO HUASO ($ 9.200); SOPA MARINA ($ 12.500); A Sea food soup PLATEADA AL JUGO ($12.300); GUATITAS A LA PESCADOS ($ 9.600); 4 Popular stew of chopped triple, corn, Peas, CONGRI OALO POBRE ($ 14.200); PASTEL DECHOCLO ($8,900); a i Corn and beef caserole REINETA (PLANCH A) ($ 10.500); PLATO GUATON ($ 7.800); papas y ensalada; SUPREMA DE AVE A ($8.900); POROTOS GRADADOS | LAS BRASAS ($8.200); TRUTO 1/4 ALAS ($4,900); * SOPAS; CAZUELA DE VACUNO ($ 9.200); POROTOS GRANADOS ($9.600); Sopa de pollo con huevo; CHORRILLANA X2; ARROLLADO HUASO ($39.200); PLATEADA AL JUGO ($12.300); CONGRIO A LO POBRE ($ 14.200); PASTEL DE CHOCLO; POROTOS GRADADOS ($8.200); SASLOS (2.000); ENSALADA A LA AA ae lage es ($ 3.900); CHILENA CAFE EXPRESSO ($ 2.300); ENSALADA DE APIO, CAFEAMERICANO ($4,900); JUGO DE FRUTAS ($ 3.600); ENSALADA SURTIDA | F"“tluiceall natural ingredientes ($4.900); Seasonal vegetables TÉ ($ 1.800); PALTA/PALMITO LIMONADA ($4.700); TOMATE/PALTA | NECTAR DE ($4.200); Celery and avocado AUSTRAL LAGER ñ > ($ 3.500); dq PAPAS MAYO | CORONA ($4500); a | Boil potatoes with mayo CRISTAL ($ 2.300); HEINEKEN ($ 3.500); ] ENSALADA GUATON ($6,500); Lechuga, cebolla morada, aceitunas, eo. SAN N ($ 3.500); Apple, walnuts STELLA ARTOIS ($ 3.500); ROYAL GUARD ($ 3.500); HEINEKEN SIN ($ 3.500); KUNSTMANN BOCK ($ 3.500); SHOP ARTESANAL ¢ (5.000); ENSALADA A LA; ENSALADA DE APIO; ENSALADA SURTIDA; ENSALADA GUATÓN ($6.500); A 4 AHUESILLADO | EMPANADA OSTION ¢ ($ 5.000); at Ñ BORGOÑA ($ 4.600); $ j Red wine with chopped strawberries EMPANADA PLATEADA ($ 3.500); = Flank steak and cheese empanada; a a y A. y CHARDONNAY SOUR viande de bouef cuite dans ($ 4.600); i 4 — ar, avery refreshing EMPANADA QUESO ($ 3.000); Él j Empanada frita rellena con queso; PISCO SOUR Cheese empanada ($ 4.000); DR Chilean pisco is distilled spirit made from EMPANADA CAMARON ($ 3.000); ror if Shrimp and Cheese empanada; ri Lee | PISCO SOUR GOTEADO ($ 4.800); BT CON WHISKY CEVICHE DE REINETA a ($10.300); á ER SANGRÍA ($ 4.600); B | SERENA SOUR | ASTEL DE JAIBA ($4.600); LOCOS MAYO O ($ 13.500); TERREMOTO [SALSA VERDE ($ 4.400); VAINA ($ 4.500); “0 SOUR ($ 4.600); EMPANADA OSTIÓN; Empanada rellena de; EMPANADA PLATEADA ($3.500); Empanada rellena con plateada y que; Flank steak and cheese empanada; EMPANADA QUESO; Empanada frita rellena con queso; Cheese empanada; EMPANADA CAMARÓN ($3.000); Empanada frita rellena camarón queso; Shrimp and Cheese empanada; PISCO SOUR GOTEADO ($4.800); CEVICHE DE REINETA ($ 10.300); PASTEL DE JAIBA; salsa VERDE ($ 4.400); Salsa Champitiones —_—— 1 A —_ _—_——————_ O ON A ($2.500); Ensalada de apio y palta; <a in GRAN Parrillada x 2 (comen 3) | 14 ($ 25); gos GRAN Parrillada x 3 (comen 4). |” ($ 38,000); Small grill . ; pollo, papas cocidas; ae Parrillada GUATON x 2 (omen 3) occ caca [140 (3,500); Parrillada GUATON x 3 (comen jew ke el CN ($ 45,000); ¿Y y papas cocidas ($ 1); Porción de Prieta... iii ] _. ($ 4500); GRAN Parrillada x 2 (comen 3; GRAN Parrillada x 3 (comen 4; Parrillada GUATON x 2 (comen 3; Parrillada GUATON x 3 (comen 4); poa CN ($ 1,300); A A A | Zs IS =} ($ 1,800); Té uo MS 15% > 618 Ñ (1,200); Limonada iO E owe (3,000); O ed AM O S |. a (3,500); LAO ON [y AM ($ 3,500); ti A ; = ~ oe ($ 2,300); Guayacán ae ee) ie LT 500; S LR AE | O ($ 3); Kunstmann Torobayo 500 1143 e a y ($ 3); Royal Guarg Y > e (3,500); val Guardes una cojos: Chilena de buen guste fi gare re linceapoae E E 6 | , ($ 3,500); /aN Sabor y 4.5 alcoho) 272 lMiana y relrescante, O | s i (3,500); A AO ($ 1,800); Tone GP 8 Ba o CU ($ 1,200); TUNA ee A ($ 2,300); fecha OA (93,500)
 - **Fecha de registro:** 2026-02-15
+
+### Carta
+
+- a .: ee and 4 SERE A > &§ AU — $10.96
+- Pa § > POLLO SERENENCE | hee
+- A ER RADO Pe: RITO ¿1 — 515.200
+- Lx Psy ensalada | air. Po RITA
+- pry, OS A RASAS — $9.250
+- oy "gy A — 57.801
+- POLLO SERENENCE
+- PASTEL DE C
+- WikechucatOuate Parra / AUSTRALLAGER — $5.200
+- É . Y” es CORONA : me W S =N — $4.
+- “Jedwga, papa, huevo duro, - pF i ef en é, — $2.600
+- en 7 8 AAN | | _ — $4,000
+- PE _ HEINEKEN SIN ALCOHOL — $7200
+- CCOnts 5, ) ee< ’ fg ‘a KUNSTMANN TOROBAYO " — $4.000
+- im ae ‘ ___KUNSTMANN Bock — $ 4.000
+- dA, n | |) STELLA ARTONS — $ 4.000
+- A > y oq ROYAL GUARD i — $ 4.000
+- Y GA SHOP ARTESANAL SOOML — $ 5.200
+- MM |. ——soPAS-. -TRADICIONALES
+- O | POROTOS GRANADOS $ — $9.200
+- CAZUELA DE VACUNO $ : PLATEADA
+- CONSOMÉ DE AVE — $ 4.000
+- CON HUEVO TALLARINES CON a — $ 8.200
+- Sopa de pollo con huevo PLATEADA A A E
+- CALDILLO DE | CHORRILLANA X2 — $ 10.200
+- remplacer par n' import quel poisson a la ARROLLADO HUASO — $ 9.200
+- SOPA MARINA — $ 12.500
+- A Sea food soup PLATEADA AL JUGO — $12.300
+- GUATITAS A LA PESCADOS — $ 9.600
+- 4 Popular stew of chopped triple, corn, Peas, CONGRI OALO POBRE — $ 14.200
+- PASTEL DECHOCLO — $8,900
+- a i Corn and beef caserole REINETA (PLANCH A) — $ 10.500
+- PLATO GUATON — $ 7.800
+- papas y ensalada
+- SUPREMA DE AVE A — $8.900
+- POROTOS GRADADOS | LAS BRASAS — $8.200
+- TRUTO 1/4 ALAS — $4,900
+- * SOPAS
+- CAZUELA DE VACUNO — $ 9.200
+- POROTOS GRANADOS — $9.600
+- Sopa de pollo con huevo
+- CHORRILLANA X2
+- ARROLLADO HUASO — $39.200
+- PLATEADA AL JUGO — $12.300
+- CONGRIO A LO POBRE — $ 14.200
+- PASTEL DE CHOCLO
+- POROTOS GRADADOS — $8.200
+- SASLOS — 2.000
+- ENSALADA A LA AA ae lage es — $ 3.900
+- CHILENA CAFE EXPRESSO — $ 2.300
+- ENSALADA DE APIO, CAFEAMERICANO — $4,900
+- JUGO DE FRUTAS — $ 3.600
+- ENSALADA SURTIDA | F"“tluiceall natural ingredientes — $4.900
+- Seasonal vegetables TÉ — $ 1.800
+- PALTA/PALMITO LIMONADA — $4.700
+- TOMATE/PALTA | NECTAR DE — $4.200
+- Celery and avocado AUSTRAL LAGER ñ > — $ 3.500
+- dq PAPAS MAYO | CORONA — $4500
+- a | Boil potatoes with mayo CRISTAL — $ 2.300
+- HEINEKEN — $ 3.500
+- ] ENSALADA GUATON — $6,500
+- Lechuga, cebolla morada, aceitunas, eo. SAN N — $ 3.500
+- Apple, walnuts STELLA ARTOIS — $ 3.500
+- ROYAL GUARD — $ 3.500
+- HEINEKEN SIN — $ 3.500
+- KUNSTMANN BOCK — $ 3.500
+- SHOP ARTESANAL ¢ — 5.000
+- ENSALADA A LA
+- ENSALADA DE APIO
+- ENSALADA SURTIDA
+- ENSALADA GUATÓN — $6.500
+- A 4 AHUESILLADO | EMPANADA OSTION ¢ — $ 5.000
+- at Ñ BORGOÑA — $ 4.600
+- $ j Red wine with chopped strawberries EMPANADA PLATEADA — $ 3.500
+- = Flank steak and cheese empanada
+- a a y A. y CHARDONNAY SOUR viande de bouef cuite dans — $ 4.600
+- i 4 — ar, avery refreshing EMPANADA QUESO — $ 3.000
+- Él j Empanada frita rellena con queso
+- PISCO SOUR Cheese empanada — $ 4.000
+- DR Chilean pisco is distilled spirit made from EMPANADA CAMARON — $ 3.000
+- ror if Shrimp and Cheese empanada
+- ri Lee | PISCO SOUR GOTEADO — $ 4.800
+- BT CON WHISKY CEVICHE DE REINETA a — $10.300
+- á ER SANGRÍA — $ 4.600
+- B | SERENA SOUR | ASTEL DE JAIBA — $4.600
+- LOCOS MAYO O — $ 13.500
+- TERREMOTO [SALSA VERDE — $ 4.400
+- VAINA — $ 4.500
+- “0 SOUR — $ 4.600
+- EMPANADA OSTIÓN
+- Empanada rellena de
+- EMPANADA PLATEADA — $3.500
+- Empanada rellena con plateada y que
+- Flank steak and cheese empanada
+- EMPANADA QUESO
+- Empanada frita rellena con queso
+- Cheese empanada
+- EMPANADA CAMARÓN — $3.000
+- Empanada frita rellena camarón queso
+- Shrimp and Cheese empanada
+- PISCO SOUR GOTEADO — $4.800
+- CEVICHE DE REINETA — $ 10.300
+- PASTEL DE JAIBA
+- salsa VERDE — $ 4.400
+- Salsa Champitiones —_—— 1 A —_ _—_——————_ O ON A — $2.500
+- Ensalada de apio y palta
+- <a in GRAN Parrillada x 2 (comen 3) | 14 — $ 25
+- gos GRAN Parrillada x 3 (comen 4). |” — $ 38,000
+- Small grill . ; pollo, papas cocidas
+- ae Parrillada GUATON x 2 (omen 3) occ caca [140 — 3,500
+- Parrillada GUATON x 3 (comen jew ke el CN — $ 45,000
+- ¿Y y papas cocidas — $ 1
+- Porción de Prieta... iii ] _. — $ 4500
+- GRAN Parrillada x 2 (comen 3
+- GRAN Parrillada x 3 (comen 4
+- Parrillada GUATON x 2 (comen 3
+- Parrillada GUATON x 3 (comen 4)
+- poa CN — $ 1,300
+- A A A | Zs IS =} — $ 1,800
+- Té uo MS 15% > 618 Ñ — 1,200
+- Limonada iO E owe — 3,000
+- O ed AM O S |. a — 3,500
+- LAO ON [y AM — $ 3,500
+- ti A ; = ~ oe — $ 2,300
+- Guayacán ae ee) ie LT 500; S LR AE | O — $ 3
+- Kunstmann Torobayo 500 1143 e a y — $ 3
+- Royal Guarg Y > e — 3,500
+- val Guardes una cojos: Chilena de buen guste fi gare re linceapoae E E 6 | , — $ 3,500
+- /aN Sabor y 4.5 alcoho) 272 lMiana y relrescante, O | s i — 3,500
+- A AO — $ 1,800
+- Tone GP 8 Ba o CU — $ 1,200
+- TUNA ee A — $ 2,300
+- fecha OA — 93,500
+
 
 ## Emporio de la Tierra
 - **Ubicación:** José Miguel Carrera 408, 8370199 Santiago, Región Metropolitana
@@ -301,8 +1855,12 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.6 / 5
 - **Enlace:** https://www.google.com/maps?cid=3939868548447124716
 - **Menciona en reseñas:** empanada, jugo
-- **Carta (Google Maps):** SABOR CHOCOLATE
 - **Fecha de registro:** 2026-03-23
+
+### Carta
+
+- SABOR CHOCOLATE
+
 
 ## Entre Sabores Café
 - **Ubicación:** Av. Manquehue Nte. 1788, 7640706 Vitacura, Región Metropolitana
@@ -312,8 +1870,116 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://entresaborescafe.cl/
 - **Menciona en su web:** pasta, pollo, carne, sándwich, waffle, panqueque, asado, mechada, pastel, galleta, brownie, chocolate, croissant, crepe, postre, dulces, jugo
 - **Menciona en reseñas:** torta, pastel, galleta, pie, chocolate, jugo
-- **Carta (Google Maps):** Espresso ($ 2.000) · Café de Especialidad; Lungo ($ 2.000) · Café de Especialidad; Ristretto ($ 2.000) · Café de Especialidad; Americano ($ 2.100) · Café de Especialidad; Macchiato ($ 2.200) · Café de Especialidad; Latte ($ 3.400) · Café de Especialidad; Cappuccino ($ 3.100) · Café de Especialidad; Flat White ($ 3.100) · Café de Especialidad; Mocaccino ($ 3.800) · Café de Especialidad; Dirty Chai Latte ($ 3.900) · Café de Especialidad; Coffee Cookie ($ 4.990) · Café de Especialidad; Cold Brew ($ 3.500) · Bebidas Frías; Affogato ($ 3.500) · Bebidas Frías; Jamaica Ice Tea ($ 4.200) · Bebidas Frías; Frappuccino Sabores ($ 4.400) · Bebidas Frías; Matcha Mango Ice ($ 4.200) · Bebidas Frías; Latte Ice ($ 3.400) · Bebidas Frías; Americano Ice ($ 2.600) · Bebidas Frías; Matcha Latte ($ 3.800) · Bebidas Frías; Espresso Tonic ($ 3.900) · Bebidas Frías; Affogato Cookie ($ 4.990) · Bebidas Frías; Malteada Oreo (M. $ 4.990) · Malteadas; Malteada Berries (M. $ 4.990) · Malteadas; Malteada Nutella (M. $ 4.990) · Malteadas; Malteada Choco Cookie (M. $ 4.990) · Malteadas; Jugo de Piña ($ 3.500) · Jugos Naturales; Jugo de Mango ($ 3.500) · Jugos Naturales; Jugo de Frambuesa ($ 3.500) · Jugos Naturales; Jugo de Frutilla ($ 3.500) · Jugos Naturales; Chocolate Caliente ($ 3.500) · Sin Café; Chai Latte ($ 3.500) · Sin Café; Tetera ($ 2.900) · Sin Café; Chocolate Cookie ($ 5.990) · Sin Café; Canelé ($ 2.100) · Pastelería; Tarta de Zanahoria ($ 2.600) · Pastelería; Brownie ($ 2.500) · Pastelería; Pie ($ 3.900) · Pastelería; Cheesecake Berries ($ 4.200) · Pastelería; Medialuna ($ 1.900) · Pastelería; Medialuna Nutella ($ 2.500) · Pastelería; Medialuna Manjar ($ 2.400) · Pastelería; Queque de Limón ($ 2.000) · Pastelería; Torta Choco/Manjar ($ 4.200) · Pastelería; Galletónes ($ 1.600) · Pastelería; Muffin vegano ($ 1.900) · Pastelería; Brownie vegano ($ 1.900) · Pastelería; Galletón Chips Sin Azúcar ($ 1.900) · Sin Azúcar; Alfajor Sin Azúcar ($ 2.090) · Sin Azúcar; Queque Marmelada Sin Azúcar ($ 2.090) · Sin Azúcar; Queque de Naranja Sin Azúcar ($ 2.090) · Sin Azúcar; Waffle Oreo Nutella ($ 6.490) · Waffles; Waffle Brownie Nutella ($ 6.490) · Waffles; Waffle Banana Split ($ 7.490) · Waffles; Cachito Jamón Queso Gauda ($ 2.800) · Sandwich; Cachito Jamón Queso Crema ($ 2.900) · Sandwich; Croissant Jamón Queso ($ 4.200) · Sandwich; Ciabatta Pesto ($ 4.800) · Sandwich; Ciabatta Salame ($ 4.800) · Sandwich; Paila de Huevos ($ 6.200) · Desayunos & Brunch; Paila Huevos Bacon ($ 7.500) · Desayunos & Brunch; Benedictinos Palta ($ 7.500) · Desayunos & Brunch; Tentaciones de la Reina ($ 8.900) · Desayunos & Brunch; Huevos Benedictinos ($ 8.900) · Desayunos & Brunch; Tostadas con Palta ($ 5.900) · Desayunos & Brunch; Tostadas Francesas ($ 7.900) · Desayunos & Brunch; Brunch para Compartir ($ 16.900) · Desayunos & Brunch; Deliciosos Crepes Pancake de la Casa con Fruta de Temporada ($ 7.490) · Crepes and Pancakes; Coca Cola / Zero ($ 1.100) · Bebidas Envasadas; Agua con o sin gas ($ 1.200) · Bebidas Envasadas; Vitamina Naranja ($ 2.700) · Bebidas Envasadas
 - **Fecha de registro:** 2025-11-23
+
+### Carta
+
+#### Café de Especialidad
+
+- Espresso — $ 2.000
+- Lungo — $ 2.000
+- Ristretto — $ 2.000
+- Americano — $ 2.100
+- Macchiato — $ 2.200
+- Latte — $ 3.400
+- Cappuccino — $ 3.100
+- Flat White — $ 3.100
+- Mocaccino — $ 3.800
+- Dirty Chai Latte — $ 3.900
+- Coffee Cookie — $ 4.990
+
+#### Bebidas Frías
+
+- Cold Brew — $ 3.500
+- Affogato — $ 3.500
+- Jamaica Ice Tea — $ 4.200
+- Frappuccino Sabores — $ 4.400
+- Matcha Mango Ice — $ 4.200
+- Latte Ice — $ 3.400
+- Americano Ice — $ 2.600
+- Matcha Latte — $ 3.800
+- Espresso Tonic — $ 3.900
+- Affogato Cookie — $ 4.990
+
+#### Malteadas
+
+- Malteada Oreo — M. $ 4.990
+- Malteada Berries — M. $ 4.990
+- Malteada Nutella — M. $ 4.990
+- Malteada Choco Cookie — M. $ 4.990
+
+#### Jugos Naturales
+
+- Jugo de Piña — $ 3.500
+- Jugo de Mango — $ 3.500
+- Jugo de Frambuesa — $ 3.500
+- Jugo de Frutilla — $ 3.500
+
+#### Sin Café
+
+- Chocolate Caliente — $ 3.500
+- Chai Latte — $ 3.500
+- Tetera — $ 2.900
+- Chocolate Cookie — $ 5.990
+
+#### Pastelería
+
+- Canelé — $ 2.100
+- Tarta de Zanahoria — $ 2.600
+- Brownie — $ 2.500
+- Pie — $ 3.900
+- Cheesecake Berries — $ 4.200
+- Medialuna — $ 1.900
+- Medialuna Nutella — $ 2.500
+- Medialuna Manjar — $ 2.400
+- Queque de Limón — $ 2.000
+- Torta Choco/Manjar — $ 4.200
+- Galletónes — $ 1.600
+- Muffin vegano — $ 1.900
+- Brownie vegano — $ 1.900
+
+#### Sin Azúcar
+
+- Galletón Chips Sin Azúcar — $ 1.900
+- Alfajor Sin Azúcar — $ 2.090
+- Queque Marmelada Sin Azúcar — $ 2.090
+- Queque de Naranja Sin Azúcar — $ 2.090
+
+#### Waffles
+
+- Waffle Oreo Nutella — $ 6.490
+- Waffle Brownie Nutella — $ 6.490
+- Waffle Banana Split — $ 7.490
+
+#### Sandwich
+
+- Cachito Jamón Queso Gauda — $ 2.800
+- Cachito Jamón Queso Crema — $ 2.900
+- Croissant Jamón Queso — $ 4.200
+- Ciabatta Pesto — $ 4.800
+- Ciabatta Salame — $ 4.800
+
+#### Desayunos & Brunch
+
+- Paila de Huevos — $ 6.200
+- Paila Huevos Bacon — $ 7.500
+- Benedictinos Palta — $ 7.500
+- Tentaciones de la Reina — $ 8.900
+- Huevos Benedictinos — $ 8.900
+- Tostadas con Palta — $ 5.900
+- Tostadas Francesas — $ 7.900
+- Brunch para Compartir — $ 16.900
+
+#### Crepes and Pancakes
+
+- Deliciosos Crepes Pancake de la Casa con Fruta de Temporada — $ 7.490
+
+#### Bebidas Envasadas
+
+- Coca Cola / Zero — $ 1.100
+- Agua con o sin gas — $ 1.200
+- Vitamina Naranja — $ 2.700
+
 
 ## Estró Santiago
 - **Ubicación:** El Alcalde 15, 7550655 Las Condes, Región Metropolitana
@@ -321,8 +1987,47 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.6 / 5
 - **Enlace:** https://www.google.com/maps?cid=8297176570080127089
 - **Menciona en reseñas:** ceviche
-- **Carta (Google Maps):** peras y jugo de cocción especiado; ENSALADAS; praliné y helado de fresas; Chocolate en texturas; helado de chocolate y avellana; POSTRE A ELECCIÓN; LAMENTO DEL COBRE ECOS DEL FIN DEL MUNDO (9.900); DORADO AUSTRAL EL ULTIMO CANTO DEL LITORAL (9.900); FUEGO DEL PEHUEN PISCO SOUR (9.500); Spumante Limari Gemma Brut CHARDONNAY/PINOT NOIR LIMARI (9.900); Spumante Limari Gemma Rosé CHARDONNAY/PINOT NOIR LIMARI (9.900); Ventisquero Dos Almas CHARDONNAY/MOSCATEL CASABLANCA (8.900); Casa Silva Cool Coast SAUVIGNON BLANC PAREDONES (9.500); Montes Outer Limits SAUVIGNON BLANC ZAPALLAR (9.900); Undurraga TH CHARDONNAY LIMARI (7.900); Calyptra Gran CHARDONNAY CACHAPOAL (10.500); Ritual Supertuga CHARDONNAY CASABLANCA (15.900); Ritual Monster Block PINOT NOIR CASABLANCA (15.900); Undurraga TH CARMENERE PEUMO (7.900); Tesis de Primus CARMENERE COLCHAGUA (9.900); Undurraga TH CABERNET SAUVIGNON ALTO MAIPO (7.900); Invina Por Fin CS/CR/CF/T/PT MAULE (11.900); Caballo Loco Apalta CA/CS COLCHAGUA (19.900); Vinedos Emiliana COYAM SY/CA/CS/MO/PV/CG COLCHAGUA (13.500); Neyen CA/CS APALTA (22.900); CHARDONNAY/PINOT NOIR; PINOT NOIR; peras y jugo de cocción especiado; ENSALADAS - SALADS wee; ® ENSALADA DE POLLO CRIOLLO - COUNTRY-STYLE CHICKEN SALAD E ($23.500); CALDILLO DE CONGRIO FRITO - FRIED CONGER FISH SOUP ($26.000); SALMÓN DE PUERTO MONTT - PUERTO MONTT SALMON ($25.500); ©) CORDERO PATAGONICO EN COSTRA DE HIERBAS - HERB COATED PATAGONIAN LAMB ($28.000); PESCA DEL DIA - CATCH OF THE DAY ($27.000); ENSALADAS - SALADS; POSTRE A ELECCIÓN
 - **Fecha de registro:** 2025-11-05
+
+### Carta
+
+- peras y jugo de cocción especiado
+- ENSALADAS
+- praliné y helado de fresas
+- Chocolate en texturas
+- helado de chocolate y avellana
+- POSTRE A ELECCIÓN
+- LAMENTO DEL COBRE ECOS DEL FIN DEL MUNDO — 9.900
+- DORADO AUSTRAL EL ULTIMO CANTO DEL LITORAL — 9.900
+- FUEGO DEL PEHUEN PISCO SOUR — 9.500
+- Spumante Limari Gemma Brut CHARDONNAY/PINOT NOIR LIMARI — 9.900
+- Spumante Limari Gemma Rosé CHARDONNAY/PINOT NOIR LIMARI — 9.900
+- Ventisquero Dos Almas CHARDONNAY/MOSCATEL CASABLANCA — 8.900
+- Casa Silva Cool Coast SAUVIGNON BLANC PAREDONES — 9.500
+- Montes Outer Limits SAUVIGNON BLANC ZAPALLAR — 9.900
+- Undurraga TH CHARDONNAY LIMARI — 7.900
+- Calyptra Gran CHARDONNAY CACHAPOAL — 10.500
+- Ritual Supertuga CHARDONNAY CASABLANCA — 15.900
+- Ritual Monster Block PINOT NOIR CASABLANCA — 15.900
+- Undurraga TH CARMENERE PEUMO — 7.900
+- Tesis de Primus CARMENERE COLCHAGUA — 9.900
+- Undurraga TH CABERNET SAUVIGNON ALTO MAIPO — 7.900
+- Invina Por Fin CS/CR/CF/T/PT MAULE — 11.900
+- Caballo Loco Apalta CA/CS COLCHAGUA — 19.900
+- Vinedos Emiliana COYAM SY/CA/CS/MO/PV/CG COLCHAGUA — 13.500
+- Neyen CA/CS APALTA — 22.900
+- CHARDONNAY/PINOT NOIR
+- PINOT NOIR
+- peras y jugo de cocción especiado
+- ENSALADAS - SALADS wee
+- ® ENSALADA DE POLLO CRIOLLO - COUNTRY-STYLE CHICKEN SALAD E — $23.500
+- CALDILLO DE CONGRIO FRITO - FRIED CONGER FISH SOUP — $26.000
+- SALMÓN DE PUERTO MONTT - PUERTO MONTT SALMON — $25.500
+- ©) CORDERO PATAGONICO EN COSTRA DE HIERBAS - HERB COATED PATAGONIAN LAMB — $28.000
+- PESCA DEL DIA - CATCH OF THE DAY — $27.000
+- ENSALADAS - SALADS
+- POSTRE A ELECCIÓN
+
 
 ## Excepto Gluten
 - **Ubicación:** Av. Grecia 3234, 7760196 Ñuñoa, Región Metropolitana
@@ -330,8 +2035,44 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.5 / 5
 - **Enlace:** https://www.google.com/maps?cid=4928912943320336581
 - **Menciona en reseñas:** empanada
-- **Carta (Google Maps):** VÍ ASADO; Empanadas; PINO HORNEADA C/U, CRUDA ($3500); PINO VEGANA C/U, CRUDA ($3500); // TAMAÑOS ($2500); CRUDA ($2500); LACTOSA CRUDA ($2500); QUESO CABRA CRUDA ($3000); CIBOULETTE CRUDA ($3000); MASA PARA EMPANADA veganas; Tradicional ($4990); Quinoa ($5200); Integral linaza chia ($5200); Keto almendra ($5500); Keto coco ($5200); Keto coco almendra ($5500); Keto nuez ($5200); Empanadas; PINO HORNEADA C/U, CRUDA ($3500); PINO VEGANA C/U, CRUDA ($3500); // TAMAÑOS ($2500); CRUDA ($2500); LACTOSA CRUDA ($2500); QUESO CABRA CRUDA ($3000); CIBOULETTE CRUDA ($3000); MASA PARA EMPANADA veganas; Tradicional ($4990); Quinoa ($5200); Integral linaza chia ($5200); Keto almendra ($5500); Keto coco ($5200); Keto coco almendra ($5500); Keto nuez ($5200)
 - **Fecha de registro:** 2026-04-29
+
+### Carta
+
+- VÍ ASADO
+- Empanadas
+- PINO HORNEADA C/U, CRUDA — $3500
+- PINO VEGANA C/U, CRUDA — $3500
+- // TAMAÑOS — $2500
+- CRUDA — $2500
+- LACTOSA CRUDA — $2500
+- QUESO CABRA CRUDA — $3000
+- CIBOULETTE CRUDA — $3000
+- MASA PARA EMPANADA veganas
+- Tradicional — $4990
+- Quinoa — $5200
+- Integral linaza chia — $5200
+- Keto almendra — $5500
+- Keto coco — $5200
+- Keto coco almendra — $5500
+- Keto nuez — $5200
+- Empanadas
+- PINO HORNEADA C/U, CRUDA — $3500
+- PINO VEGANA C/U, CRUDA — $3500
+- // TAMAÑOS — $2500
+- CRUDA — $2500
+- LACTOSA CRUDA — $2500
+- QUESO CABRA CRUDA — $3000
+- CIBOULETTE CRUDA — $3000
+- MASA PARA EMPANADA veganas
+- Tradicional — $4990
+- Quinoa — $5200
+- Integral linaza chia — $5200
+- Keto almendra — $5500
+- Keto coco — $5200
+- Keto coco almendra — $5500
+- Keto nuez — $5200
+
 
 ## Fain
 - **Ubicación:** Las Tranqueras 1380, 7560801 Vitacura, Región Metropolitana
@@ -350,8 +2091,95 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.familiaglutenfree.cl/
 - **Menciona en su web:** hamburguesa, empanada, carne, sopa, churrasco, barros luco, pastel, pie, merengue
 - **Menciona en reseñas:** hamburguesa, empanada, torta
-- **Carta (Google Maps):** Taza de té ($3.000) · Tetería; Tetera de té en hoja ($5.400) · Tetería; Jugo de frutilla ($3.500) · Jugos Naturales; Jugo de frambuesas ($3.500) · Jugos Naturales; Jugo de frutos del bosque ($3.500) · Jugos Naturales; Jugo de mango ($3.500) · Jugos Naturales; Mini hamburguesa y papas fritas ($8.500) · Menú para niños; Espresso ($2.400) · Café sin lactosa; Espresso doble ($2.790) · Café sin lactosa; Café latte ($3.500) · Café sin lactosa; Capuchino ($3.700) · Café sin lactosa; Capuchino canela ($3.200) · Café sin lactosa; Americano ($2.500) · Café sin lactosa; Café Frío ($3.200) · Café sin lactosa; Café Frío con crema ($3.500) · Café sin lactosa; Coca Cola ($2.000) · Bebidas; Sprite ($2.000) · Bebidas; Fanta ($2.000) · Bebidas; Kombucha ($2.950) · Bebidas; Mix de desayuno para dos ($13.800) · Desayunos; Sándwich de jamón serrano y queso planchado ($3.950) · Desayunos; Paila de huevos ($4.200) · Desayunos; Huevo pochado ($5.950) · Desayunos; Empanada de queso ($4.500) · Empanadas sin lactosa; Empanada de champiñón ($5.100) · Empanadas sin lactosa; Empanada de queso y camarón ($5.100) · Empanadas sin lactosa; Hamburguesa "La Chispa" ($10.800) · Hamburguesas sin lactosa; Hamburguesa con queso ($11.900) · Hamburguesas sin lactosa; Hamburguesa "La Chispa del Chef" ($11.800) · Hamburguesas sin lactosa; Hamburguesa "La Sin Reglas" ($11.400) · Hamburguesas sin lactosa; Sopapillas pasadas ($5.400) · Sopapillas; 8 Sopapillas sin lactosa ($6.800) · Para compartir; Completo Clásico ($5.400) · Completos sin lactosa; Completo Italiano ($5.980) · Completos sin lactosa; Completo Dinámico ($5.980) · Completos sin lactosa; Sándwich Salmón Pura Vida ($11.800) · Sandwich; Sándwich Barros Luco ($8.900) · Sandwich; Chorrillana para 2 personas ($17.800) · Chorrillanas; Papa natural ($4.300) · Acompañamientos; Capuchino con crema ($3.700) · Café
 - **Fecha de registro:** 2026-05-14
+
+### Carta
+
+#### Tetería
+
+- Taza de té — $3.000
+- Tetera de té en hoja — $5.400
+
+#### Jugos Naturales
+
+- Jugo de frutilla — $3.500
+- Jugo de frambuesas — $3.500
+- Jugo de frutos del bosque — $3.500
+- Jugo de mango — $3.500
+
+#### Menú para niños
+
+- Mini hamburguesa y papas fritas — $8.500
+
+#### Café sin lactosa
+
+- Espresso — $2.400
+- Espresso doble — $2.790
+- Café latte — $3.500
+- Capuchino — $3.700
+- Capuchino canela — $3.200
+- Americano — $2.500
+- Café Frío — $3.200
+- Café Frío con crema — $3.500
+
+#### Bebidas
+
+- Coca Cola — $2.000
+- Sprite — $2.000
+- Fanta — $2.000
+- Kombucha — $2.950
+
+#### Desayunos
+
+- Mix de desayuno para dos — $13.800
+- Sándwich de jamón serrano y queso planchado — $3.950
+- Paila de huevos — $4.200
+- Huevo pochado — $5.950
+
+#### Empanadas sin lactosa
+
+- Empanada de queso — $4.500
+- Empanada de champiñón — $5.100
+- Empanada de queso y camarón — $5.100
+
+#### Hamburguesas sin lactosa
+
+- Hamburguesa "La Chispa" — $10.800
+- Hamburguesa con queso — $11.900
+- Hamburguesa "La Chispa del Chef" — $11.800
+- Hamburguesa "La Sin Reglas" — $11.400
+
+#### Sopapillas
+
+- Sopapillas pasadas — $5.400
+
+#### Para compartir
+
+- 8 Sopapillas sin lactosa — $6.800
+
+#### Completos sin lactosa
+
+- Completo Clásico — $5.400
+- Completo Italiano — $5.980
+- Completo Dinámico — $5.980
+
+#### Sandwich
+
+- Sándwich Salmón Pura Vida — $11.800
+- Sándwich Barros Luco — $8.900
+
+#### Chorrillanas
+
+- Chorrillana para 2 personas — $17.800
+
+#### Acompañamientos
+
+- Papa natural — $4.300
+
+#### Café
+
+- Capuchino con crema — $3.700
+
 
 ## Fortunata
 - **Ubicación:** Av. Pdte. Kennedy Lateral 7927, 7560060 Las Condes, Región Metropolitana
@@ -361,8 +2189,73 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.fortunata.cl/
 - **Menciona en su web:** pasta, lasaña, tarta, helado, manjar
 - **Menciona en reseñas:** pasta, helado, tiramisú
-- **Carta (Google Maps):** PASTAS RELENAS; Í espinaca %0 ($ 4); carne; a pecorino ($ 9.600); PASTAS RELLENAS; carne con salsa betarraga; PASTAS A; calabaza ($ 4.900); ibaca ($ 8.00); carne; mozzarella jamón ($ 4900); PASTAS RELLENAS; ricota cordero 600 ($ 5); Locos Prosciutto alcachof ($ 7.909); ad espaca ae, ($ 3.400); A chitarra de al ($ 2.400); cordero 600 ($ 5); PASTAS 1808. 0 9; chitarra ($ 4400); My bolonesa $ [8000 ($9500); Campesina _ ($ 12500); lees’ P20 ($ 28.000); centolla $ [1500 dl ($ 34.000); PASTAS AL HORNO; LASAÑA; Mariscos; E na na MT —_ PASTA RELLE / 2 pore. e; al e z <i a Lasaña salmón camarón do Ravioles de cane act i d Panacolo erri ($58.900); = — — ET a E a ] Lasaña alcachola | Ravioles de espinaca E 3 Hojarasca manjar ($6.900); Lasaña boloñesa | a Hoj. vainilla y pral ($ 6.200); Ji" E Fran Y ¿ vainilla y fram (6.900); = ae —_— 1 a Lasaña ricota 51 E Hoj. vaini la y ($ 6.200); á 7 | 3 Torta ricola sin azu; = a —— ee | E a ] Tarta de alcachofa : : Torta chocolate fra! ($12.900); 4 1 ÑOQUIS 1 pore / 250 grs. Tarta de cebolla 5 Brownie con heladc (12.900); aa a Tarla de ricola | 4 ($15.900); SAT A A. Pao § Tarla de espinaca y locino ($13.900); es or Pastel de zucchini § j PANES (13.900); q 4 PASTAS 2 pore. / 200 grs. Pomodoro | 3 ($ 3.700); ' | Boloñesa ($4,100); ae __ - Fettuccine huevo Alfredo F = ($ 2.900); a | , 1 Felluccine espinaca | Champiñones | EM PA N A ) AS ($ 2.900); E ] : | Pesto albahaca i ($ 4.800); E r e ~ a 4 Queso parmesano / 100 grs. | Empanada de pino ($ 2.900); Brownies; PASTA RELLENA; Alfajor; LASAÑA; Lasaña alcachofa; Tarta ricola sin azÚ; Lasaña boloñesa; Lasaña ricola; Torta choc; Lasaña espinaca; Brownie con helade; Tarta de cebolla; Torta de ricola; Tarta de espinaca y tocino; Pastel de zucchini; PASTAS; EMPANADAS; Empanada de pino
 - **Fecha de registro:** 2025-11-05
+
+### Carta
+
+- PASTAS RELENAS
+- Í espinaca %0 — $ 4
+- carne
+- a pecorino — $ 9.600
+- PASTAS RELLENAS
+- carne con salsa betarraga
+- PASTAS A
+- calabaza — $ 4.900
+- ibaca — $ 8.00
+- carne
+- mozzarella jamón — $ 4900
+- PASTAS RELLENAS
+- ricota cordero 600 — $ 5
+- Locos Prosciutto alcachof — $ 7.909
+- ad espaca ae, — $ 3.400
+- A chitarra de al — $ 2.400
+- cordero 600 — $ 5
+- PASTAS 1808. 0 9
+- chitarra — $ 4400
+- My bolonesa $ [8000 — $9500
+- Campesina _ — $ 12500
+- lees’ P20 — $ 28.000
+- centolla $ [1500 dl — $ 34.000
+- PASTAS AL HORNO
+- LASAÑA
+- Mariscos
+- E na na MT —_ PASTA RELLE / 2 pore. e
+- al e z <i a Lasaña salmón camarón do Ravioles de cane act i d Panacolo erri — $58.900
+- = — — ET a E a ] Lasaña alcachola | Ravioles de espinaca E 3 Hojarasca manjar — $6.900
+- Lasaña boloñesa | a Hoj. vainilla y pral — $ 6.200
+- Ji" E Fran Y ¿ vainilla y fram — 6.900
+- = ae —_— 1 a Lasaña ricota 51 E Hoj. vaini la y — $ 6.200
+- á 7 | 3 Torta ricola sin azu
+- = a —— ee | E a ] Tarta de alcachofa : : Torta chocolate fra! — $12.900
+- 4 1 ÑOQUIS 1 pore / 250 grs. Tarta de cebolla 5 Brownie con heladc — 12.900
+- aa a Tarla de ricola | 4 — $15.900
+- SAT A A. Pao § Tarla de espinaca y locino — $13.900
+- es or Pastel de zucchini § j PANES — 13.900
+- q 4 PASTAS 2 pore. / 200 grs. Pomodoro | 3 — $ 3.700
+- ' | Boloñesa — $4,100
+- ae __ - Fettuccine huevo Alfredo F = — $ 2.900
+- a | , 1 Felluccine espinaca | Champiñones | EM PA N A ) AS — $ 2.900
+- E ] : | Pesto albahaca i — $ 4.800
+- E r e ~ a 4 Queso parmesano / 100 grs. | Empanada de pino — $ 2.900
+- Brownies
+- PASTA RELLENA
+- Alfajor
+- LASAÑA
+- Lasaña alcachofa
+- Tarta ricola sin azÚ
+- Lasaña boloñesa
+- Lasaña ricola
+- Torta choc
+- Lasaña espinaca
+- Brownie con helade
+- Tarta de cebolla
+- Torta de ricola
+- Tarta de espinaca y tocino
+- Pastel de zucchini
+- PASTAS
+- EMPANADAS
+- Empanada de pino
+
 
 ## Glutenberg
 - **Ubicación:** Isabel La Católica 7446, 7500000 Las Condes, Región Metropolitana
@@ -384,8 +2277,97 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.4 / 5
 - **Enlace:** https://www.google.com/maps?cid=5379718974427408333
 - **Menciona en reseñas:** hamburguesa, empanada, pastel, medialuna, dulces
-- **Carta (Google Maps):** Empanadas de Carne · Pizzetas, Empanadas y Quiches; Empanadas de Jamón y Queso · Pizzetas, Empanadas y Quiches; Pizzetas de Muzzarella · Pizzetas, Empanadas y Quiches; Pizzetas Margarita con Muzzarella y Cebolla Caramelizada · Pizzetas, Empanadas y Quiches; Pizzetas Margarita con Muzzarella, Tomates Confitados y Albahaca · Pizzetas, Empanadas y Quiches; Quiche de Jamón y Queso · Pizzetas, Empanadas y Quiches; Quiche de Calabaza · Pizzetas, Empanadas y Quiches; Quiche de Cebolla · Pizzetas, Empanadas y Quiches; Quiche de Espinaca · Pizzetas, Empanadas y Quiches; Pasta Rellena con Salsa Fileto · Pasta; Pasta Rellena con Salsa Rosa · Pasta; Pasta Rellena con Salsa Pesto · Pasta; Pasta Seca con Salsa Fileto · Pasta; Pasta Seca con Salsa Rosa · Pasta; Pasta Seca con Salsa Pesto · Pasta; Milanesa con Guarnición · Al Plato; Milanesa a la Napolitana con Guarnición · Al Plato; Pollo con Guarnición · Al Plato; Ensalada de Brie y Jamón Serrano · Ensaladas; Ensalada Caesar con Pollo · Ensaladas; Ensalada Fresca · Ensaladas; Ensalada de Salmón · Ensaladas; Ensalada de Vegetales · Ensaladas; Hamburguesa Goût · Sandwiches y Hamburguesas; Lomito · Sandwiches y Hamburguesas; Sándwich de Milanesa · Sandwiches y Hamburguesas; Sándwich de Pollo · Sandwiches y Hamburguesas; Sándwich de Vegetales Grillados · Sandwiches y Hamburguesas; Sándwich Caprese · Sandwiches y Hamburguesas; Sándwich de Jamón Serrano · Sandwiches y Hamburguesas; Sándwich de Jamón Crudo · Sandwiches y Hamburguesas; Sándwich de Pollo Frío · Sandwiches y Hamburguesas; Tostado de Jamón y Queso · Para Acompañar; Tostado de Palta y Huevo · Para Acompañar; Tostado de Palta y Tomate · Para Acompañar; Tostado de Queso y Tomate · Para Acompañar; Tostado de Queso y Palta · Para Acompañar; Tostado de Queso y Huevo · Para Acompañar; Tostado de Queso, Palta y Huevo · Para Acompañar; Tostado de Queso, Jamón y Tomate · Para Acompañar; Tostado de Queso, Jamón y Huevo · Para Acompañar; Tostado de Queso, Jamón y Palta · Para Acompañar; Cortado o Té con 2 acompañamientos · Bebidas; Cortado · Bebidas; Té · Bebidas; Tostado con huevos revueltos · Desayuno; Tostado con palta · Desayuno; Tostado con mermelada con J&Q · Desayuno; Pancakes con Frutas · Para Desayunar; Muffin Manzana · Pastelería; Muffin Naranja · Pastelería; Muffin Frutos Rojos · Pastelería; Tostado con palta y huevo · Para Desayunar; Tostado con jamón y queso · Para Desayunar; Tostado con jamón y queso y tomate · Para Desayunar; Tostado con jamón y queso y palta · Para Desayunar; Tostado con queso y tomate · Para Desayunar
 - **Fecha de registro:** 2025-11-23
+
+### Carta
+
+#### Pizzetas, Empanadas y Quiches
+
+- Empanadas de Carne
+- Empanadas de Jamón y Queso
+- Pizzetas de Muzzarella
+- Pizzetas Margarita con Muzzarella y Cebolla Caramelizada
+- Pizzetas Margarita con Muzzarella, Tomates Confitados y Albahaca
+- Quiche de Jamón y Queso
+- Quiche de Calabaza
+- Quiche de Cebolla
+- Quiche de Espinaca
+
+#### Pasta
+
+- Pasta Rellena con Salsa Fileto
+- Pasta Rellena con Salsa Rosa
+- Pasta Rellena con Salsa Pesto
+- Pasta Seca con Salsa Fileto
+- Pasta Seca con Salsa Rosa
+- Pasta Seca con Salsa Pesto
+
+#### Al Plato
+
+- Milanesa con Guarnición
+- Milanesa a la Napolitana con Guarnición
+- Pollo con Guarnición
+
+#### Ensaladas
+
+- Ensalada de Brie y Jamón Serrano
+- Ensalada Caesar con Pollo
+- Ensalada Fresca
+- Ensalada de Salmón
+- Ensalada de Vegetales
+
+#### Sandwiches y Hamburguesas
+
+- Hamburguesa Goût
+- Lomito
+- Sándwich de Milanesa
+- Sándwich de Pollo
+- Sándwich de Vegetales Grillados
+- Sándwich Caprese
+- Sándwich de Jamón Serrano
+- Sándwich de Jamón Crudo
+- Sándwich de Pollo Frío
+
+#### Para Acompañar
+
+- Tostado de Jamón y Queso
+- Tostado de Palta y Huevo
+- Tostado de Palta y Tomate
+- Tostado de Queso y Tomate
+- Tostado de Queso y Palta
+- Tostado de Queso y Huevo
+- Tostado de Queso, Palta y Huevo
+- Tostado de Queso, Jamón y Tomate
+- Tostado de Queso, Jamón y Huevo
+- Tostado de Queso, Jamón y Palta
+
+#### Bebidas
+
+- Cortado o Té con 2 acompañamientos
+- Cortado
+- Té
+
+#### Desayuno
+
+- Tostado con huevos revueltos
+- Tostado con palta
+- Tostado con mermelada con J&Q
+
+#### Para Desayunar
+
+- Pancakes con Frutas
+- Tostado con palta y huevo
+- Tostado con jamón y queso
+- Tostado con jamón y queso y tomate
+- Tostado con jamón y queso y palta
+- Tostado con queso y tomate
+
+#### Pastelería
+
+- Muffin Manzana
+- Muffin Naranja
+- Muffin Frutos Rojos
+
 
 ## guffsushi.cl
 - **Ubicación:** Nueva Las Condes 12251, local 66, 7550000 Las Condes, Región Metropolitana
@@ -402,8 +2384,17 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=6143024512600834281
 - **Web:** https://ketoandglutenfree.com/
 - **Menciona en reseñas:** hamburguesa, pizza, pastel, tarta, jugo
-- **Carta (Google Maps):** HAMBURGUESAS KETO | \; PIZZAS INDIVIDUALES KETO; [ HAMBURGUESAS KETO_; LECHUGA, TOMATE Y CARNE DE VACUNO 180GR); MIXTO VACUNO Y POLLO 360GR); GR O MIXTO VACUNO Y POLLO 360GR)
 - **Fecha de registro:** 2025-11-05
+
+### Carta
+
+- HAMBURGUESAS KETO | \
+- PIZZAS INDIVIDUALES KETO
+- [ HAMBURGUESAS KETO_
+- LECHUGA, TOMATE Y CARNE DE VACUNO 180GR)
+- MIXTO VACUNO Y POLLO 360GR)
+- GR O MIXTO VACUNO Y POLLO 360GR)
+
 
 ## Helados Quinto Pino
 - **Ubicación:** Av Vitacura 7166, 7640560 Vitacura, Región Metropolitana
@@ -428,8 +2419,195 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.2 / 5
 - **Enlace:** https://www.google.com/maps?cid=1967840283875010394
 - **Menciona en reseñas:** hamburguesa, sándwich, tortilla
-- **Carta (Google Maps):** CON PAPAS FRITAS RUSTICAS Y EN UN RICO PAN BRIOCHE Camarón Racletin Deluxe er (13.000); Racle Burger simple 13500 BLT Burger simple queso raclotto. Con mix de verdes y tomates queso raclette. ” (1.500); Raclebacon simple are desmechada, topping de hongos Papos bañados en fondué de quesos y ciboulette, (10.000); Roger Burger simple salteados y 100g de queso raclette. Con mix de *Sugerencia: ogrega cebolla coromelizada y ? (1.000); alioli y mostaza. a Pulled Pork Racletín 7 > (12.000); le ‘erdo desmechado, cebolla coramelizado, Papas fritas rústicas doble cocción bah ES (8.000); Mechada Barros Luclette (13.000); Come desmechad de " ? Sandwich de ya lotto fundid Mi Pulled Pork . opos Camorón (13.000); Polloclette vy queso? S56) (13.000); Pollo apanado, queso raclette, tocino grillado, y" y > MO JESTÁS SOLO! Montañés (10.000); Champi | 500 TA BURGER O; Bebida del día ] Fondué adicional (3.500); Ostiones a la Raclette € llana de Fondué aed (14.500); Porción de seis ostiones cocinados con or AA Agua con/sin gas 1800 Proteína (2.000); raclette y un toque de ciboulette, porción de fondué. ¡Especial pora comport! Cambia a Veggie Burger (2.000); Tabla de Fondue '2 JE SUIS Champifion portobello a la plancha (13.500); Fondué acompañado de chompis salteados, El io} Bacon grillado (1.000); A Mya inset - R E Huevo frito (1.500); Rocio Burger; Racle Burger; simple (13.500); BLT Burger; *Sugorencia: agrego champis + (1.000); doble (13.000); Roger Burger; Veggie Burger )~; VARIEDAD DE SANDWICHES, SERVIDOS CON; SANDWICHES; Mechada; Polloclette; BURGER O; SANDWICH; Chorrillana de Fondué; Carne, pulled pork, pollo, hamburguesa; Cambia a Veggie Burger; SANDWICHES PAPAS RACLETTE RÓSTIS; “o. + Carne Mechada Raclenerca Carne Mechada Rósti Carne Mechada (11.000); ¿A *Sugerencia: agrega bacon grillado +. Raclenerca de Pulled Pork Rósti Pulled Pork & a E) A (1.500); oo aS: one or : 3 *Sugerencia: agrega un huevo frito + cherry confitados. 2-7 Y El (1.000); *Sugerencia: agrega un huevo frito +. Raclenerca al Cognac Rósti Pollo al Cognac Wie | / (1.000); Le Coq Raclette o ae BZA (9.500); Champi V Mix de hongos salteados estilo mechada "Sugerencia: agrega un huevo frito + BE | 3 (10.000); GRE Mix de hongos salteados estilo mechada al vino tinto Racleveggie V Rósti Veggie y 2; EAN (7.500); BA x Veggie V *Sugerencia: agrega un huevo frito + »-. OÍ (9.000); < A O Vegetales salteados (Zapallo camote, zuccini, anes Rósti Montañés . SS (8.500); re Bacon grillado, pepinillos y cebollitas perla. *Sugerencia: agrega cebolla caramelizada + == (1.000); BURGERS; Raclette adiciona == (3.900); SU : > (12.000); Racleburger a caeie JE IS Proteína n = (2.000); anes S “Sugerencia: agrega cebolla caramelizada + Bacon grillado = (1.000); = 7 E po Rogerburger IS Huevo Frito = \ (10.000); eee 208 ont Pan de papa, smash burger, tocino ahumado, cebolla Vegetales y/o Encurtidos X= (1.000); SANDWICHES; Carne Mechada; Raclenerca Carne Mechada; Rósti Carne Mechada; *Sugerencia: agrega bacon grillado +. (1.500); Sugerencia: agrega un huevo frito + (1.000); *Sugerencia: agrega un huevo frito +. (1.000); Rósti Pollo al Cognac; Mix de hongos salteados estilo mechada; Mix de hongos salteados estilo mechada.; *Sugerencia: agrega un huevo frito + (1.000); *Sugerencia: agrega cebolla caramelizada + (1.000); Carne, pulled pork, pollo, hamburguesa; pinillos +. (1.000); Baguettin relleno Acer . ($7.990); Pesto, tomate cherry confitado me De ee con pepinillos y cebollitas ($5); De Jamón Serrano con pepinillos ($10.300); COn queso Raclette fundido acompañados de Meal ($9.990); Carne Mechada : » Cerdo (pulled pork) ($10.800); *.* Raclechori ($10.400); Pulled Pork' 3 *., Chorizo artesanal con salsa criolla ($10.500.); Carne de cerdo (pulled pork) mechada con; cebolla caramelizada, rúcula, tomates cherry : Racleveggie ed ($9.600); Veggie ” ES : ae Raclechampi ¡4 ($11.300); Racleburger Spay vibe asian és ($10.990); on See Champi +4 ($11.600); E oe E , Veggie 7) ñ ($9.900); oe ae. ae Carne Mechada a Mebaad; oe ats + Carne de res mechada con hongos salteados, Be ($2.100); _ Aguac/gasys/gas PuledPork a a... mt ($180); SANDWICHES; Carne mechada; Mix de hongos salteados estilo mechada,; Tortilla fhe see facto a base de : SS; Hamburguesa de carne vacuna,; s estilo mechada,; Carne de res mechada con hon; Carne de cerdo (pulled; RUSTIC FRIES AND ON A DELICIOUS BRIOCHE BUN = Camarén Racletin Deluxe, MZ (13.000); Racle Burger simple BLT Burger simple raclotto cheese. With green mix and cherry cheese. % (13.500); sauce. The best! Mechada PapasFondué ” 8000 | ó (12.000); oger Burger sd 9 of raclette cheese. With green mix an “Suggestion: add caramelized onion + e (1.000); mustard. Pulled Pork Racletín 7 S (12.000); Cheeseburger single Shredded pork, ized 880 Double-cooked rustic fries drenched in e (8.000); Veggie Burger imple yedded pork, caramelized onion, BBQ sauce y (1.500); OF RACLETTE CHEESE ON CIABATTA BREAD. | RÓSTIS. || “ AN ae a. =I (2.000); Mechada Barros Luclette (13.000); > Mechada Pulled Pork 12500. oscanorn (13.000); Pulled Pork Camarón Champi 7 (12.500); Polloclette ey (13.000); Breaded chicken, raclette cheese, grlled bacon, or. Sa YOU'RE NOT Montañés (10.000); BURGER OR; Drink of the day Y Extra Fondue (3.500); Ostiones a la Raclette € llana de Fondué 7 aed (14.500); {A portion of six scallops cooked with white wine ‘ ner ie Fe aT Sparkling/still water 1800 Protein (2.000); es: Special for sharing! Switch to Veggie Burger (2.000); Tabla de Fondúe /2 SUI: Grilled portobello mushroom (13.500); Ta Y . AA pet care > Veggies and/or pickles (1.000); Rocio Burger; Racle Burger; simple (13.500); BLT Burger; *Suggestion: add mushrooms « (1,000); doble (13.000); single (10.000); Roger Burger; double (12.000); “Suggestion: add caramelized onion + (1.000); Veggie Burger )~; VARIETY OF SANDWICHES, SERVED WITH 1006; SANDWICHES; Mechada; Polloclette; SANDWICH; Chorrillana de Fondué; Boef, pulled pork, chicken, burger; Switch to Veggie Burger; we 1. - Carne; NG ee Mechada Raclenerca Carne (1.000); eo 2, "Sugerencia: agrega bacon grillado +. Raclenerca de Pull (1.500); , sia ed er ie Pulled Pork "Sugerencia: agrega un hu (10.500); ca E "Sugerencia: agrega un huevo frito +. pa FF (1.000); ae Raclette bd (9.500); LAE D ‘mn (0.000); SANDWICHES; Carne Mechada; Raclenerca Carne; Carne desmechada, topp; *Sugerencia: agrega bacon grillado +. (1.500); huevo frito +. (1.000); pollo al cognac clásico ¢; sti Carne Mechada 10.5 > j (10.000); sti Pulled Pork 10.0061 y (9.500); rósti Pollo al Cognac », (8.500); DO Rósti Champi Y e (9.500); *Sugerencia: agrega un huevo frito + e (1.000); Rósti Veggie / 00 . A (7.500); Rósti Montañés (8.500); *Sugerencia: agrega cebolla caramelizada + q (1.000); Raclette adicional (3.900); Bacon grillado =| TIN (1.500); sti Carne Mechada; sti Pollo al Cognac; Mix de hongos salteados estilo mechada; *Sugerencia: agrega un huevo frito + (1.000); Sugerencia: agrega cebolla caramelizada + (1.000); Carne, pulled pork, pollo, hamburguesa; _—— UE al ade — a (11.000); AA So gerencia: agrega bacon grillado +. a (1.500); > . : gerencia: agrega un huevo frito +. Raclenerc (1.000); ae pi ong = Oud (9.500); ZAC om a Mixcdehon (10.000); AN egetales (9.000); BURGERS ds; Racleburger (12.000); ao "Sugerencia: agrega cebolla caramelizada + (1.000); Rogerburger (10.000); o "Sugerencia: agrega encurtidos o pepinillos +. (1.000); Carne Mechada; Carne desmechada, tomate; Sugerencia: agrega bacon grillado +. (1.500); “Sugerencia: agrega un huevo frito +. (1.000); BURGERS; *Sugerencia: agrega cebolla caramelizada + (1.000); Pan de papa, smash burger, to; dos o pepinillos +. (1.000); vied Bebida (2.100); > de crema de zapallo dí . (1.800); te Woter ia ty gies A WU 4 (12.500); aa) "a (5.500); zada +. (1.000)
 - **Fecha de registro:** 2025-11-23
+
+### Carta
+
+- CON PAPAS FRITAS RUSTICAS Y EN UN RICO PAN BRIOCHE Camarón Racletin Deluxe er — 13.000
+- Racle Burger simple 13500 BLT Burger simple queso raclotto. Con mix de verdes y tomates queso raclette. ” — 1.500
+- Raclebacon simple are desmechada, topping de hongos Papos bañados en fondué de quesos y ciboulette, — 10.000
+- Roger Burger simple salteados y 100g de queso raclette. Con mix de *Sugerencia: ogrega cebolla coromelizada y ? — 1.000
+- alioli y mostaza. a Pulled Pork Racletín 7 > — 12.000
+- le ‘erdo desmechado, cebolla coramelizado, Papas fritas rústicas doble cocción bah ES — 8.000
+- Mechada Barros Luclette — 13.000
+- Come desmechad de " ? Sandwich de ya lotto fundid Mi Pulled Pork . opos Camorón — 13.000
+- Polloclette vy queso? S56) — 13.000
+- Pollo apanado, queso raclette, tocino grillado, y" y > MO JESTÁS SOLO! Montañés — 10.000
+- Champi | 500 TA BURGER O
+- Bebida del día ] Fondué adicional — 3.500
+- Ostiones a la Raclette € llana de Fondué aed — 14.500
+- Porción de seis ostiones cocinados con or AA Agua con/sin gas 1800 Proteína — 2.000
+- raclette y un toque de ciboulette, porción de fondué. ¡Especial pora comport! Cambia a Veggie Burger — 2.000
+- Tabla de Fondue '2 JE SUIS Champifion portobello a la plancha — 13.500
+- Fondué acompañado de chompis salteados, El io} Bacon grillado — 1.000
+- A Mya inset - R E Huevo frito — 1.500
+- Rocio Burger
+- Racle Burger
+- simple — 13.500
+- BLT Burger
+- *Sugorencia: agrego champis + — 1.000
+- doble — 13.000
+- Roger Burger
+- Veggie Burger )~
+- VARIEDAD DE SANDWICHES, SERVIDOS CON
+- SANDWICHES
+- Mechada
+- Polloclette
+- BURGER O
+- SANDWICH
+- Chorrillana de Fondué
+- Carne, pulled pork, pollo, hamburguesa
+- Cambia a Veggie Burger
+- SANDWICHES PAPAS RACLETTE RÓSTIS
+- “o. + Carne Mechada Raclenerca Carne Mechada Rósti Carne Mechada — 11.000
+- ¿A *Sugerencia: agrega bacon grillado +. Raclenerca de Pulled Pork Rósti Pulled Pork & a E) A — 1.500
+- oo aS: one or : 3 *Sugerencia: agrega un huevo frito + cherry confitados. 2-7 Y El — 1.000
+- *Sugerencia: agrega un huevo frito +. Raclenerca al Cognac Rósti Pollo al Cognac Wie | / — 1.000
+- Le Coq Raclette o ae BZA — 9.500
+- Champi V Mix de hongos salteados estilo mechada "Sugerencia: agrega un huevo frito + BE | 3 — 10.000
+- GRE Mix de hongos salteados estilo mechada al vino tinto Racleveggie V Rósti Veggie y 2; EAN — 7.500
+- BA x Veggie V *Sugerencia: agrega un huevo frito + »-. OÍ — 9.000
+- < A O Vegetales salteados (Zapallo camote, zuccini, anes Rósti Montañés . SS — 8.500
+- re Bacon grillado, pepinillos y cebollitas perla. *Sugerencia: agrega cebolla caramelizada + == — 1.000
+- BURGERS
+- Raclette adiciona == — 3.900
+- SU : > — 12.000
+- Racleburger a caeie JE IS Proteína n = — 2.000
+- anes S “Sugerencia: agrega cebolla caramelizada + Bacon grillado = — 1.000
+- = 7 E po Rogerburger IS Huevo Frito = \ — 10.000
+- eee 208 ont Pan de papa, smash burger, tocino ahumado, cebolla Vegetales y/o Encurtidos X= — 1.000
+- SANDWICHES
+- Carne Mechada
+- Raclenerca Carne Mechada
+- Rósti Carne Mechada
+- *Sugerencia: agrega bacon grillado +. — 1.500
+- Sugerencia: agrega un huevo frito + — 1.000
+- *Sugerencia: agrega un huevo frito +. — 1.000
+- Rósti Pollo al Cognac
+- Mix de hongos salteados estilo mechada
+- Mix de hongos salteados estilo mechada.
+- *Sugerencia: agrega un huevo frito + — 1.000
+- *Sugerencia: agrega cebolla caramelizada + — 1.000
+- Carne, pulled pork, pollo, hamburguesa
+- pinillos +. — 1.000
+- Baguettin relleno Acer . — $7.990
+- Pesto, tomate cherry confitado me De ee con pepinillos y cebollitas — $5
+- De Jamón Serrano con pepinillos — $10.300
+- COn queso Raclette fundido acompañados de Meal — $9.990
+- Carne Mechada : » Cerdo (pulled pork) — $10.800
+- *.* Raclechori — $10.400
+- Pulled Pork' 3 *., Chorizo artesanal con salsa criolla — $10.500.
+- Carne de cerdo (pulled pork) mechada con
+- cebolla caramelizada, rúcula, tomates cherry : Racleveggie ed — $9.600
+- Veggie ” ES : ae Raclechampi ¡4 — $11.300
+- Racleburger Spay vibe asian és — $10.990
+- on See Champi +4 — $11.600
+- E oe E , Veggie 7) ñ — $9.900
+- oe ae. ae Carne Mechada a Mebaad
+- oe ats + Carne de res mechada con hongos salteados, Be — $2.100
+- _ Aguac/gasys/gas PuledPork a a... mt — $180
+- SANDWICHES
+- Carne mechada
+- Mix de hongos salteados estilo mechada,
+- Tortilla fhe see facto a base de : SS
+- Hamburguesa de carne vacuna,
+- s estilo mechada,
+- Carne de res mechada con hon
+- Carne de cerdo (pulled
+- RUSTIC FRIES AND ON A DELICIOUS BRIOCHE BUN = Camarén Racletin Deluxe, MZ — 13.000
+- Racle Burger simple BLT Burger simple raclotto cheese. With green mix and cherry cheese. % — 13.500
+- sauce. The best! Mechada PapasFondué ” 8000 | ó — 12.000
+- oger Burger sd 9 of raclette cheese. With green mix an “Suggestion: add caramelized onion + e — 1.000
+- mustard. Pulled Pork Racletín 7 S — 12.000
+- Cheeseburger single Shredded pork, ized 880 Double-cooked rustic fries drenched in e — 8.000
+- Veggie Burger imple yedded pork, caramelized onion, BBQ sauce y — 1.500
+- OF RACLETTE CHEESE ON CIABATTA BREAD. | RÓSTIS. || “ AN ae a. =I — 2.000
+- Mechada Barros Luclette — 13.000
+- > Mechada Pulled Pork 12500. oscanorn — 13.000
+- Pulled Pork Camarón Champi 7 — 12.500
+- Polloclette ey — 13.000
+- Breaded chicken, raclette cheese, grlled bacon, or. Sa YOU'RE NOT Montañés — 10.000
+- BURGER OR
+- Drink of the day Y Extra Fondue — 3.500
+- Ostiones a la Raclette € llana de Fondué 7 aed — 14.500
+- {A portion of six scallops cooked with white wine ‘ ner ie Fe aT Sparkling/still water 1800 Protein — 2.000
+- es: Special for sharing! Switch to Veggie Burger — 2.000
+- Tabla de Fondúe /2 SUI: Grilled portobello mushroom — 13.500
+- Ta Y . AA pet care > Veggies and/or pickles — 1.000
+- Rocio Burger
+- Racle Burger
+- simple — 13.500
+- BLT Burger
+- *Suggestion: add mushrooms « — 1,000
+- doble — 13.000
+- single — 10.000
+- Roger Burger
+- double — 12.000
+- “Suggestion: add caramelized onion + — 1.000
+- Veggie Burger )~
+- VARIETY OF SANDWICHES, SERVED WITH 1006
+- SANDWICHES
+- Mechada
+- Polloclette
+- SANDWICH
+- Chorrillana de Fondué
+- Boef, pulled pork, chicken, burger
+- Switch to Veggie Burger
+- we 1. - Carne
+- NG ee Mechada Raclenerca Carne — 1.000
+- eo 2, "Sugerencia: agrega bacon grillado +. Raclenerca de Pull — 1.500
+- , sia ed er ie Pulled Pork "Sugerencia: agrega un hu — 10.500
+- ca E "Sugerencia: agrega un huevo frito +. pa FF — 1.000
+- ae Raclette bd — 9.500
+- LAE D ‘mn — 0.000
+- SANDWICHES
+- Carne Mechada
+- Raclenerca Carne
+- Carne desmechada, topp
+- *Sugerencia: agrega bacon grillado +. — 1.500
+- huevo frito +. — 1.000
+- pollo al cognac clásico ¢
+- sti Carne Mechada 10.5 > j — 10.000
+- sti Pulled Pork 10.0061 y — 9.500
+- rósti Pollo al Cognac », — 8.500
+- DO Rósti Champi Y e — 9.500
+- *Sugerencia: agrega un huevo frito + e — 1.000
+- Rósti Veggie / 00 . A — 7.500
+- Rósti Montañés — 8.500
+- *Sugerencia: agrega cebolla caramelizada + q — 1.000
+- Raclette adicional — 3.900
+- Bacon grillado =| TIN — 1.500
+- sti Carne Mechada
+- sti Pollo al Cognac
+- Mix de hongos salteados estilo mechada
+- *Sugerencia: agrega un huevo frito + — 1.000
+- Sugerencia: agrega cebolla caramelizada + — 1.000
+- Carne, pulled pork, pollo, hamburguesa
+- _—— UE al ade — a — 11.000
+- AA So gerencia: agrega bacon grillado +. a — 1.500
+- > . : gerencia: agrega un huevo frito +. Raclenerc — 1.000
+- ae pi ong = Oud — 9.500
+- ZAC om a Mixcdehon — 10.000
+- AN egetales — 9.000
+- BURGERS ds
+- Racleburger — 12.000
+- ao "Sugerencia: agrega cebolla caramelizada + — 1.000
+- Rogerburger — 10.000
+- o "Sugerencia: agrega encurtidos o pepinillos +. — 1.000
+- Carne Mechada
+- Carne desmechada, tomate
+- Sugerencia: agrega bacon grillado +. — 1.500
+- “Sugerencia: agrega un huevo frito +. — 1.000
+- BURGERS
+- *Sugerencia: agrega cebolla caramelizada + — 1.000
+- Pan de papa, smash burger, to
+- dos o pepinillos +. — 1.000
+- vied Bebida — 2.100
+- > de crema de zapallo dí . — 1.800
+- te Woter ia ty gies A WU 4 — 12.500
+- aa) "a — 5.500
+- zada +. — 1.000
+
 
 ## José & José Tiendita de Café
 - **Ubicación:** Merced 349, local 8, 8320115 Santiago, Región Metropolitana
@@ -437,8 +2615,74 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.4 / 5
 - **Enlace:** https://www.google.com/maps?cid=14447409296815519584
 - **Menciona en reseñas:** hummus, dulces, jugo
-- **Carta (Google Maps):** Tostadas Hummus Cherry ooococconicccconoccconoccnononc conan cn nnnnn cn nona coran nc orar ncnnnrnannooa (9.750); Tostadas Palta Cherry ..ooocooicccconococcooococononcnononc conan cnn nnnncnnona coran rc orar rcnnnrnocnono (9.750); Planchadito Queso Cherry ...........ccccceccsesecseeeseseetereeseeteaeeterettsetteetereeeeeres (94.800); Planchadito Jamón Queso ..0coccconiocococccionocinncnn crono no cion cnn n raro rcan or cnn a rara rca azar ($4,800); « Una base de Hummus y/o Palta.; HumMMys oo... TA MÓN coco cocc cinco cinco ron ($900); AA NS A ($900); Tostadas Hummus Cherry; Hummus; PASTELERIA ©; FU A (922.200); Galleta Chocolate inn nani S224 OO; Barras Kukei Variedades .o.............ccccccccccececeecececeeeneneresrereeeerereteeeetereseeeseeees ($ 4,100); Variedad de Traful ......ooooococonnónococcccccoooooccnononononnnnnnononnonnanonnoncn cnn rnazaarananannono (95.500); ¿% PASTELERÍA ©; Galleta Limón; Galleta Chocolate; Brownie; COLE ccoconcecnaccnconnecococonsecococooconoccecoconseonecoocennconae ($2.850); PICADOS: sisissisisissiiisssssisssscsssasaiaisasaisisesciaisaaaisasaaaisiaasaia ($3.300); Filtrados Especiales .............cccccsccesseceeeeeteeeeneeeeeeeens ($4.900); TL) cococcocococonsococoococococoocococoncococoocococoocococoncecocoocospoocoocecooce: = ($2.600); APO OLEO conococonnncocoonscoecnencoccsoncecoooooococeneocooce ($4,500); NOM OMVONY CHOC) csssissscseiesissereesescisccstesessasssetsesessissecs ($4.300); Chai, Earl Grey & Golden Milk Latte ...................... ($3.800); EURO cccosaennnoncneconooncsaoceoccocaoncoaoccoccocponcneocsocecnn - » ($4.500); Vegetal .... Syrup..... Frio..... Shot leche...... ($800); Ly E Micano L E HN ($2.500); A | I | 850 x hy ($3.009); Ma | hr N BIN ($2900); My r Oir A A ($3,); \ Y Y IM Chai, Earl Grey q , A $ IN ($4,300); lo 4 "| h ‘ ($3.800); Bl - IN NI ($4,500); Y a o . - IN ($2600); \ i l = Espresso Ginger : z EN ($4600); la UNS Filtrados - x iy ($3300); IN UN | a Filtrados Especiales M- > (54,900); \ la ») y Extras lo Shot leche E 1, ($300); Te y oll 00 Syrup Frio [| NN \ ($500); iN ‘ 4 Vegetal i Ñ ($8); Frio ($300); Shot leche ($900); Vegetal ($800); Syrup ($500); GAFB HELADO; W Y | - 2 - | z 1, », (2.600); WA A zg aN ($2.850); IN E d ¡E HA I, ($2.900); Y :00 | a i ($2.900); i, "No IN Noir & Moka Choc E S E Al » ($4.300); WANT Golden Milk Latte E ; E i JN ($3.800); Y Y Matccha Latte : - E nN ($4500); » % le Té - : E NO ($2.600); W 2 Espresso Ginger é IN ($4.600); la ‘ pa - El dE ($3.300); » ) > A “bl y ($4,900); IN » lg Extra 00 Frio Shotleche i ts ($300); \ » he Vegetal Syrup $ | E NN ($800); Vegetal ($800); Syrup ($500); Frio ($300); Shot leche ($900)
 - **Fecha de registro:** 2025-11-08
+
+### Carta
+
+- Tostadas Hummus Cherry ooococconicccconoccconoccnononc conan cn nnnnn cn nona coran nc orar ncnnnrnannooa — 9.750
+- Tostadas Palta Cherry ..ooocooicccconococcooococononcnononc conan cnn nnnncnnona coran rc orar rcnnnrnocnono — 9.750
+- Planchadito Queso Cherry ...........ccccceccsesecseeeseseetereeseeteaeeterettsetteetereeeeeres — 94.800
+- Planchadito Jamón Queso ..0coccconiocococccionocinncnn crono no cion cnn n raro rcan or cnn a rara rca azar — $4,800
+- « Una base de Hummus y/o Palta.
+- HumMMys oo... TA MÓN coco cocc cinco cinco ron — $900
+- AA NS A — $900
+- Tostadas Hummus Cherry
+- Hummus
+- PASTELERIA ©
+- FU A — 922.200
+- Galleta Chocolate inn nani S224 OO
+- Barras Kukei Variedades .o.............ccccccccccececeecececeeeneneresrereeeerereteeeetereseeeseeees — $ 4,100
+- Variedad de Traful ......ooooococonnónococcccccoooooccnononononnnnnnononnonnanonnoncn cnn rnazaarananannono — 95.500
+- ¿% PASTELERÍA ©
+- Galleta Limón
+- Galleta Chocolate
+- Brownie
+- COLE ccoconcecnaccnconnecococonsecococooconoccecoconseonecoocennconae — $2.850
+- PICADOS: sisissisisissiiisssssisssscsssasaiaisasaisisesciaisaaaisasaaaisiaasaia — $3.300
+- Filtrados Especiales .............cccccsccesseceeeeeteeeeneeeeeeeens — $4.900
+- TL) cococcocococonsococoococococoocococoncococoocococoocococoncecocoocospoocoocecooce: = — $2.600
+- APO OLEO conococonnncocoonscoecnencoccsoncecoooooococeneocooce — $4,500
+- NOM OMVONY CHOC) csssissscseiesissereesescisccstesessasssetsesessissecs — $4.300
+- Chai, Earl Grey & Golden Milk Latte ...................... — $3.800
+- EURO cccosaennnoncneconooncsaoceoccocaoncoaoccoccocponcneocsocecnn - » — $4.500
+- Vegetal .... Syrup..... Frio..... Shot leche...... — $800
+- Ly E Micano L E HN — $2.500
+- A | I | 850 x hy — $3.009
+- Ma | hr N BIN — $2900
+- My r Oir A A — $3,
+- \ Y Y IM Chai, Earl Grey q , A $ IN — $4,300
+- lo 4 "| h ‘ — $3.800
+- Bl - IN NI — $4,500
+- Y a o . - IN — $2600
+- \ i l = Espresso Ginger : z EN — $4600
+- la UNS Filtrados - x iy — $3300
+- IN UN | a Filtrados Especiales M- > — 54,900
+- \ la ») y Extras lo Shot leche E 1, — $300
+- Te y oll 00 Syrup Frio [| NN \ — $500
+- iN ‘ 4 Vegetal i Ñ — $8
+- Frio — $300
+- Shot leche — $900
+- Vegetal — $800
+- Syrup — $500
+- GAFB HELADO
+- W Y | - 2 - | z 1, », — 2.600
+- WA A zg aN — $2.850
+- IN E d ¡E HA I, — $2.900
+- Y :00 | a i — $2.900
+- i, "No IN Noir & Moka Choc E S E Al » — $4.300
+- WANT Golden Milk Latte E ; E i JN — $3.800
+- Y Y Matccha Latte : - E nN — $4500
+- » % le Té - : E NO — $2.600
+- W 2 Espresso Ginger é IN — $4.600
+- la ‘ pa - El dE — $3.300
+- » ) > A “bl y — $4,900
+- IN » lg Extra 00 Frio Shotleche i ts — $300
+- \ » he Vegetal Syrup $ | E NN — $800
+- Vegetal — $800
+- Syrup — $500
+- Frio — $300
+- Shot leche — $900
+
 
 ## Kanu Cocina
 - **Ubicación:** José Miguel Carrera 314, 8370138 Santiago, Región Metropolitana
@@ -456,8 +2700,61 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://micartaqr.cl/larrabbiata
 - **Menciona en su web:** pasta, pollo, ensalada, sándwich, churrasco, nachos, torta, pastel, galleta, brownie, cheesecake, pie, tarta, helado, chocolate, merengue, manjar, croissant, dulces, jugo
 - **Menciona en reseñas:** completo, dulces
-- **Carta (Google Maps):** Pollo Asado con Patatas · Plato Principal; Ensalada de Atún · Ensalada; Helado Danky Vulcano ($1.000 CLP) · Postre; Pollo a la Plancha con Ensalada · Plato Principal; Coca-Cola Sin Azúcar · Bebida; Bistec con Judías Verdes, Tomate y Aguacate · Plato Principal; Café con Leche · Bebida; Croissant · Bollería; Tostada con Jamón y Queso · Desayuno; Zumo de Naranja · Bebida; Huevo Cocido · Desayuno; Chocolate Caliente · Bebidas; Café Negro · Bebidas; Rebanada de Tarta de Capas · Postres; Sándwich Tostado de Pollo y Pimiento · Sándwiches; Café con Leche · Bebidas; Huevos Fritos y Revueltos con Pan · Desayunos; Panecillos Tostados · Panadería
 - **Fecha de registro:** 2025-11-23
+
+### Carta
+
+#### Plato Principal
+
+- Pollo Asado con Patatas
+- Pollo a la Plancha con Ensalada
+- Bistec con Judías Verdes, Tomate y Aguacate
+
+#### Ensalada
+
+- Ensalada de Atún
+
+#### Postre
+
+- Helado Danky Vulcano — $1.000 CLP
+
+#### Bebida
+
+- Coca-Cola Sin Azúcar
+- Café con Leche
+- Zumo de Naranja
+
+#### Bollería
+
+- Croissant
+
+#### Desayuno
+
+- Tostada con Jamón y Queso
+- Huevo Cocido
+
+#### Bebidas
+
+- Chocolate Caliente
+- Café Negro
+- Café con Leche
+
+#### Postres
+
+- Rebanada de Tarta de Capas
+
+#### Sándwiches
+
+- Sándwich Tostado de Pollo y Pimiento
+
+#### Desayunos
+
+- Huevos Fritos y Revueltos con Pan
+
+#### Panadería
+
+- Panecillos Tostados
+
 
 ## La casita Myfoods - gluten free
 - **Ubicación:** Los Maitenes 2380, 7510487 Providencia, Región Metropolitana
@@ -465,8 +2762,28 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.6 / 5
 - **Enlace:** https://www.google.com/maps?cid=1094634913511685091
 - **Menciona en reseñas:** pizza, torta, pastel, helado, postre
-- **Carta (Google Maps):** Tostada de aguacate (3,50€) · Tostadas; Tostada de salmón (4,50€) · Tostadas; Tostada de jamón ibérico (4,50€) · Tostadas; Tostada de queso de cabra (4,00€) · Tostadas; Tostada de tomate y aceite (2,50€) · Tostadas; Tostada de huevo revuelto (3,50€) · Tostadas; Tostada de atún (3,50€) · Tostadas; Tostada de pollo (3,50€) · Tostadas; Tostada de pavo (3,50€) · Tostadas; Tostada de tortilla francesa (3,50€) · Tostadas; Tostada de queso fresco (3,00€) · Tostadas; Tostada de crema de cacahuete (3,00€) · Tostadas; Tostada de crema de cacao (3,00€) · Tostadas; Tostada de mermelada (2,50€) · Tostadas; Tostada de miel (2,50€) · Tostadas
 - **Fecha de registro:** 2026-09-27
+
+### Carta
+
+#### Tostadas
+
+- Tostada de aguacate — 3,50€
+- Tostada de salmón — 4,50€
+- Tostada de jamón ibérico — 4,50€
+- Tostada de queso de cabra — 4,00€
+- Tostada de tomate y aceite — 2,50€
+- Tostada de huevo revuelto — 3,50€
+- Tostada de atún — 3,50€
+- Tostada de pollo — 3,50€
+- Tostada de pavo — 3,50€
+- Tostada de tortilla francesa — 3,50€
+- Tostada de queso fresco — 3,00€
+- Tostada de crema de cacahuete — 3,00€
+- Tostada de crema de cacao — 3,00€
+- Tostada de mermelada — 2,50€
+- Tostada de miel — 2,50€
+
 
 ## La Comarca Celiaca
 - **Ubicación:** Concha y Toro 41, 8340579 Santiago, Región Metropolitana
@@ -476,16 +2793,65 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.lacomarcaceliaca.cl/
 - **Menciona en su web:** Empanada Camarón Queso ($5.000), Empanada de Pino ($5.000), Empanda Frita de Queso ($4.000), Quiche de Camarones ($14.990), Quiche de Champiñones ($13.990), Sopaipillas ($4.500), 12 Churros ($8.990), 6 Churros ($4.990), Alfajor Mantequilla de Maní - Frambuesa🌱 ($2.500), Alfajor Mantequilla de Maní - Manjar de Datiles🌱 ($2.500), Carrot Cake ($4.990), Cheesecake New York Frutos Rojos ($6.500), Kuchen de Nuez 🌰 ($4.200), Pie de Limón 🍋 ($3.800), Porción de Panqueque ($3.990), Snickers 🌱 ($3.800), Tarta Manzana Canela 🌱 ($4.190), Tarta Naranja 🍊🌱 ($3.000), Tarta de Granada 🌱 ($4.500), Tarta de Maracuyá 🌱 ($4.500), Torta 4 leches ($4.990), Torta Chocolatisima ($5.500), Torta Fusión ($4.990), Torta Hojarasca Frambuesa ($4.990), Torta Hojarasca Lúcuma ($4.990), As Italiano ($8.000), Barros Luco + Papas Fritas 🍟 ($11.990), Churrasco Italiano + Papas Fritas 🍟 ($10.990), Completo Chaparrita ($4.000), Completo Italiano ($4.000), Lomito Italiano + Papas Fritas 🍟 ($9.990), Papas Fritas 🍟 ($4.000), Pizza Española ($14.990), Pizza Mechada ($14.990), Pizza Napolitana ($14.990), Pizza Pepperoni ($14.990), Salchipapas ($6.000), Empanada de Pino Vegan🌱 ($4.000), Tarta Choco Frambuesa 🌿 ($4.800), Tarta Chocoblanco Frambuesa🌱 ($4.800), 🌱 Champi + Papas Fritas 🍟 ($11.990), 🌱 Completo Italiano Vegano 🌭 ($4.800), Bebida en Lata ($2.500), Botella de Agua ($1.500), Cerveza Damm Sin Alcohol ($3.500), Fanshop ($4.500), Jugo de Frambuesa ($3.000), Jugo de Frutilla🍓 ($3.000), Jugo de Kiwi Jengibre 🥝 ($3.000), Jugo de Mango 🥭 ($3.500), Jugo de Mote ($3.000), Jugo de Piña🍍 ($3.000), Mote con Huesillo ($3.500), Americano, Café cortado ($2.500), Capuccino, Chocolate caliente ($3.500), Espresso ($2.000), Espresso doble ($3.800), Ice Coffe 500 ml ($4.000), Ice Latte 500 ml ($4.500), Ice Milk Tea 500 ml ($3.400), Ice Tea 500 ml ($2.500), Latte, Mocaccino, Taza de Té ($2.000), Chucrut ($890), Salsa americana ($890), Salsa tartara ($890), Salsa verde ($890)
 - **Menciona en reseñas:** empanada, sopa, churrasco, completo, pino, churro
-- **Carta (Google Maps):** Sandwiches; Empanadas; Sopaipillas; Pizzas; Pasteleria; Jugos Naturales
 - **Fecha de registro:** 2025-10-04
+
+### Carta
+
+- Sandwiches
+- Empanadas
+- Sopaipillas
+- Pizzas
+- Pasteleria
+- Jugos Naturales
+
 
 ## La Friet Amsterdam
 - **Ubicación:** Av. Italia 1213, 7501295 Santiago, Providencia, Región Metropolitana
 - **Categoría:** Restaurante
 - **Valoración:** 4.4 / 5
 - **Enlace:** https://www.google.com/maps?cid=3683391876785139705
-- **Carta (Google Maps):** Con agua o bebida : Upgrade a Grand + ($1.000); Carne Braseada; Mostaza en Gran ............................ (911.990); Trufa Negra 8: Parmesano > (9.990); Cheddar & Tocino....................................... ($59,990); Parmesano & PestoO.............occimmc (98.990); GAN O (0.490); DE LA CASA (c/u)............................. ($590); SALSAS PREMIUM (c/u)............. ($990); BBQ Ahumada Salsa Tártara; TUS TOPPINGG.....................¢/u ($1.490); AQUA eococcconccnonncnonacnnnncncononcononaonaracuoracnnonoroo 9 (1,490); Bebida ....occoooccnoncninncnionncinnnncnnnacinnacinnananos (91.990); c/u ($1.490); La Friet(Original)..................... ($5.490); DE LA CASA (c/u)...................... ($500); Salsa Tártara; La Trufad aa... (98.990); La Cheddar.................................... ($59.990); Upgrade a Grand + ($1.000); La Cheddar..................................... ($9.990); Tocino Crujiente....................... (91.190); Cheddar Rallado........................ ($51.490); Parmesano Rallado.................. (51.490); Agua - Bebida ($1.490); Premium ($2.990); Barbecue Salsa Tártara Mayo Trufada /; eieddar Rallado —_—__ E ($490); Parmesano Rallado AA ($ 1.490); de A a. ($9,990); Upgrade a Grand + xp ($1.000); Salsa Tartara; Upgrade a Grand + ($1.000); Cheddar Rallado be ($1.490); O nendado: Incluye Agua o BSH a o ($8.990); ses a a RE k pub v (59.990); Salsa Tartara
 - **Fecha de registro:** 2026-03-16
+
+### Carta
+
+- Con agua o bebida : Upgrade a Grand + — $1.000
+- Carne Braseada
+- Mostaza en Gran ............................ — 911.990
+- Trufa Negra 8: Parmesano > — 9.990
+- Cheddar & Tocino....................................... — $59,990
+- Parmesano & PestoO.............occimmc — 98.990
+- GAN O — 0.490
+- DE LA CASA (c/u)............................. — $590
+- SALSAS PREMIUM (c/u)............. — $990
+- BBQ Ahumada Salsa Tártara
+- TUS TOPPINGG.....................¢/u — $1.490
+- AQUA eococcconccnonncnonacnnnncncononcononaonaracuoracnnonoroo 9 — 1,490
+- Bebida ....occoooccnoncninncnionncinnnncnnnacinnacinnananos — 91.990
+- c/u — $1.490
+- La Friet(Original)..................... — $5.490
+- DE LA CASA (c/u)...................... — $500
+- Salsa Tártara
+- La Trufad aa... — 98.990
+- La Cheddar.................................... — $59.990
+- Upgrade a Grand + — $1.000
+- La Cheddar..................................... — $9.990
+- Tocino Crujiente....................... — 91.190
+- Cheddar Rallado........................ — $51.490
+- Parmesano Rallado.................. — 51.490
+- Agua - Bebida — $1.490
+- Premium — $2.990
+- Barbecue Salsa Tártara Mayo Trufada /
+- eieddar Rallado —_—__ E — $490
+- Parmesano Rallado AA — $ 1.490
+- de A a. — $9,990
+- Upgrade a Grand + xp — $1.000
+- Salsa Tartara
+- Upgrade a Grand + — $1.000
+- Cheddar Rallado be — $1.490
+- O nendado: Incluye Agua o BSH a o — $8.990
+- ses a a RE k pub v — 59.990
+- Salsa Tartara
+
 
 ## La Ruta Del Waffle
 - **Ubicación:** Av. Alameda Libertador Bernardo O'Higgins 363, Loc 1, Santiago, Región Metropolitana
@@ -495,8 +2861,138 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.larutadelwaffle.cl/
 - **Menciona en su web:** waffle, completo, brownie, helado, postre, dulces
 - **Menciona en reseñas:** waffle, cheesecake, dulces
-- **Carta (Google Maps):** Waffle de Cheesecake y Brownie ($5.000) · Waffle; Waffle de Cheesecake Vegano y Brownie Vegano ($6.000) · Waffle; Waffle Clásico ($4.900) · Waffle; Waffle con Helado ($6.500) · Waffle; Waffle Vegano con Helado ($6.500) · Waffle; Waffle Vegano de Frutas ($5.500) · Waffle; Waffle de Cheesecake y Berries ($4.900) · Waffle; Waffle de Cheesecake Vegano y Galletas Oreo ($5.500) · Waffle; Waffle de Cheesecake y Galletas Oreo ($5.000) · Waffle; Smoothie Detox ($4000) · Smoothies; Smoothie de Mango ($4000) · Smoothies; Smoothie de Frambuesa ($4000) · Smoothies; Smoothie de Arándanos ($4000) · Smoothies; Smoothie de Frutilla y Plátano ($4000) · Smoothies; Smoothie Tropical ($4000) · Smoothies; Smoothie de Piña y Coco ($4000) · Smoothies; Waffle con Tocino ($5800) · Waffles Salados; Waffle con Jamón Serrano ($6200) · Waffles Salados; Waffle con Salmón Ahumado ($6800) · Waffles Salados; Waffle con Jamón de Pavo ($5500) · Waffles Salados; Waffle con Mantequilla de Maní ($5800) · Waffles Salados; Waffle Vegano con Semillas ($6000) · Waffles Salados; Waffle Vegano ($5500) · Waffles Salados; Waffle Vegetariano ($4900) · Waffles Salados; Salsa de Ajo ($900) · Salsas y Quesos; Salsa de Mostaza Dulce ($900) · Salsas y Quesos; Salsa Picante ($900) · Salsas y Quesos; Salsa Barbecue ($900) · Salsas y Quesos; Salsa de Ajo Vegana ($900) · Salsas y Quesos; Queso ($1500) · Salsas y Quesos; Mix de Semillas ($800) · Adicionales; Papas Fritas ($1000) · Adicionales; Sour Cream ($2000) · Adicionales; Tocino Ahumado ($2500) · Adicionales; Hummus ($3000) · Adicionales; Refrescos ($1500) · Bebidas; Agua Vital ($1500) · Bebidas; Néctar Andina ($1200) · Bebidas; Agua Purificada · Líquido para Smoothie; Leche Entera · Líquido para Smoothie; Leche Descremada · Líquido para Smoothie; Leche de Almendras · Líquido para Smoothie; Leche Deslactosada · Líquido para Smoothie; Leche de Coco · Líquido para Smoothie; Leche de Arroz · Líquido para Smoothie; Leche de Avena · Líquido para Smoothie; Miel · Endulzante; Stevia · Endulzante; Azúcar Blanca · Endulzante; Dátil · Endulzante; Azúcar Rubia · Endulzante; Coca-Cola Original · Bebida en Lata; Coca-Cola Zero · Bebida en Lata; Sprite Zero · Bebida en Lata; Fanta · Bebida en Lata; Royal · Bebida en Lata; Nordic Mist · Bebida en Lata; Schweppes · Bebida en Lata; Waffle Bacon ($3.990) · Waffles Salados; Waffle Serrano Ham ($4.490) · Waffles Salados; Waffle Smoked Salmon ($4.800) · Waffles Salados; Waffle Turkey ($3.990) · Waffles Salados; Waffle Vegan ($5.000) · Waffles Salados; Waffle Vegan Seeds ($5.500) · Waffles Salados; Waffle Vegetarian ($4.900) · Waffles Salados; Salsa Spicy ($500) · Salsas; Salsa de Ajo ($500) · Salsas; Salsa BBQ ($500) · Salsas; Salsa Mostaza Dulce ($500) · Salsas; Salsa de Ajo Vegana ($500) · Salsas; Queso Cream ($1.000) · Adicionales; Papas Tika (Hilo y Palito) ($800) · Adicionales; Cheddar · Adicionales; Mantecoso · Adicionales; Shoestring · Adicionales; Cheesecake Brownie ($6.500) · Postres; Vegan Brownie · Postres; Cheesecake Oreo · Postres; Cheesecake Berries · Postres; Fritas Tradicionales · Papas; Camote Betarraga Horneadas · Papas; Smoothie The Real ($4000) · Smoothie; Coca-Cola Light ($1.200) · Bebida en Lata; Tónica ($1.200) · Bebida en Lata; Ginger Ale ($1.200) · Bebida en Lata; Salsa Adicional ($900) · Adicional
 - **Fecha de registro:** 2026-10-19
+
+### Carta
+
+#### Waffle
+
+- Waffle de Cheesecake y Brownie — $5.000
+- Waffle de Cheesecake Vegano y Brownie Vegano — $6.000
+- Waffle Clásico — $4.900
+- Waffle con Helado — $6.500
+- Waffle Vegano con Helado — $6.500
+- Waffle Vegano de Frutas — $5.500
+- Waffle de Cheesecake y Berries — $4.900
+- Waffle de Cheesecake Vegano y Galletas Oreo — $5.500
+- Waffle de Cheesecake y Galletas Oreo — $5.000
+
+#### Smoothies
+
+- Smoothie Detox — $4000
+- Smoothie de Mango — $4000
+- Smoothie de Frambuesa — $4000
+- Smoothie de Arándanos — $4000
+- Smoothie de Frutilla y Plátano — $4000
+- Smoothie Tropical — $4000
+- Smoothie de Piña y Coco — $4000
+
+#### Waffles Salados
+
+- Waffle con Tocino — $5800
+- Waffle con Jamón Serrano — $6200
+- Waffle con Salmón Ahumado — $6800
+- Waffle con Jamón de Pavo — $5500
+- Waffle con Mantequilla de Maní — $5800
+- Waffle Vegano con Semillas — $6000
+- Waffle Vegano — $5500
+- Waffle Vegetariano — $4900
+- Waffle Bacon — $3.990
+- Waffle Serrano Ham — $4.490
+- Waffle Smoked Salmon — $4.800
+- Waffle Turkey — $3.990
+- Waffle Vegan — $5.000
+- Waffle Vegan Seeds — $5.500
+- Waffle Vegetarian — $4.900
+
+#### Salsas y Quesos
+
+- Salsa de Ajo — $900
+- Salsa de Mostaza Dulce — $900
+- Salsa Picante — $900
+- Salsa Barbecue — $900
+- Salsa de Ajo Vegana — $900
+- Queso — $1500
+
+#### Adicionales
+
+- Mix de Semillas — $800
+- Papas Fritas — $1000
+- Sour Cream — $2000
+- Tocino Ahumado — $2500
+- Hummus — $3000
+- Queso Cream — $1.000
+- Papas Tika (Hilo y Palito) — $800
+- Cheddar
+- Mantecoso
+- Shoestring
+
+#### Bebidas
+
+- Refrescos — $1500
+- Agua Vital — $1500
+- Néctar Andina — $1200
+
+#### Líquido para Smoothie
+
+- Agua Purificada
+- Leche Entera
+- Leche Descremada
+- Leche de Almendras
+- Leche Deslactosada
+- Leche de Coco
+- Leche de Arroz
+- Leche de Avena
+
+#### Endulzante
+
+- Miel
+- Stevia
+- Azúcar Blanca
+- Dátil
+- Azúcar Rubia
+
+#### Bebida en Lata
+
+- Coca-Cola Original
+- Coca-Cola Zero
+- Sprite Zero
+- Fanta
+- Royal
+- Nordic Mist
+- Schweppes
+- Coca-Cola Light — $1.200
+- Tónica — $1.200
+- Ginger Ale — $1.200
+
+#### Salsas
+
+- Salsa Spicy — $500
+- Salsa de Ajo — $500
+- Salsa BBQ — $500
+- Salsa Mostaza Dulce — $500
+- Salsa de Ajo Vegana — $500
+
+#### Postres
+
+- Cheesecake Brownie — $6.500
+- Vegan Brownie
+- Cheesecake Oreo
+- Cheesecake Berries
+
+#### Papas
+
+- Fritas Tradicionales
+- Camote Betarraga Horneadas
+
+#### Smoothie
+
+- Smoothie The Real — $4000
+
+#### Adicional
+
+- Salsa Adicional — $900
+
 
 ## Las Petunias Pastelería sin azúcar y sin gluten
 - **Ubicación:** San Patricio 4270, 7630275 Vitacura, Región Metropolitana
@@ -505,8 +3001,13 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=11966918123986919341
 - **Web:** http://www.laspetunias.cl/
 - **Menciona en reseñas:** torta, pastel, alfajor, pie, dulces
-- **Carta (Google Maps):** A e i PASTELERÍA SIN AZÚCAR ME; PASTELERÍA SIN AZUCAR
 - **Fecha de registro:** 2026-05-14
+
+### Carta
+
+- A e i PASTELERÍA SIN AZÚCAR ME
+- PASTELERÍA SIN AZUCAR
+
 
 ## Lemongrass
 - **Ubicación:** Las Rojas Pte. 261, 1710293 La Serena, Coquimbo
@@ -515,8 +3016,147 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=10873598726340938300
 - **Web:** https://api.whatsapp.com/send?phone=56997606361&text=Hola,%20quiero%20hacer%20un%20pedido!
 - **Menciona en reseñas:** curry, gyosa, helado, jugo
-- **Carta (Google Maps):** LITAS DE POLLO DEL MAESTRO / CHEF'S CHICKEN WINGS SOON Fhe VEGETARIANO CAMARÓN VEGETARIANO ($7.50); attered Chicken wings with special chef's sauce : POLLO O CERDO = MARISCOS POLLO O CER 58. ($8.500); VACUNO ($9.000); CURRY VERDE / GREEN CURRY; POLLO O CERDO VACUNO Thai curry with coconut milk, veggies, ground peanuts and onion ($7.500); POLLO O CERDO MARISCOS ($8.000); DPA DE LECHE DE COCO CON CAMARONES VACUNO ($6.000); VEGETARIANO CAMARÓN || é aS : E ue ($7.000); POLLO O CERDO MARISCOS bolso AiToz Blanco ) A A ($58.000); Huevo Frito 18. SAL STIR FRY WITH VEGGIES ($700); VACUNO || 4 z Proteina a elección con muchos vegetales salteados y aderezo especia ($9.000); Porción de Tallarín Choice of meat stir fry with veggies and special dressing ($1.500); iS Mice Se E oe ; : 19. CARNE AL COMINO / CUMIN BEEF / ($9.00); rroz salteado con huevo, verduras, ajo, piña, castañas de cajú y hojas de 20. POLLO A LA NARANJA / ORANGE CHICKEN ($8.00); LITAS DE POLLO DEL; rocantes alitas de; POLLO O CERDO ($8.000); CURRY MASSAMAN; CURRY ROJO / RED CURRY; CAMARÓN ($10.000); MARISCOS ($13.500); CARNE AL COMINO / CUMIN BEEF; POLLO A LA NARANJA / ORANGE CHICKEN; ulce con cebolla,ajo y jugo de naranj; VEGETARIANO CAMARÓN 28. PANQUEQU : Pt a TS 0 ($7.500); POLLO O CERDO MARISCOS 4 Pe : ‘Rt Lo ee ($8.000); Mundialmente famoso. Tallarín de arroz con camarones, diente de dragón, | E PANQUEQU e paris ‘ Be cpt ut, ee ae ae ($54); Coy 31. PANQUEQUE THAI /THAIPANCAKE = ($4.500); dressed with soy and chil 32. TEMPURA DE PLATANO / BANANA TEMPURA ($4.000); os iN ogg. vougies: 0 = an 33. LECHE DE COCO ENDULZADA CON PLATANO ($4.000); del er cee JUGO NATURAL / NATURAL JUICE ($2.500); JUGO DE ALOE / ALOE JUICE ($1.600); DAN DAN MIAN ($8.000); Mundialmente famoso: tallarín chino salteado con cerdo molido, vegetales, BEBIDA (LATA) / CAN ($1.300); ground peanuts and chinese spices NECTAR / BOTTLED JUICE ($1.500); TALLARIN CON CARNE AL COMINO / CUMIN BEEF NOODLES ~ MINERAL / MINERAL WATER ($9.000); Tradicional de China: came al comino con ajo, ají, cebolla y pimentón AGUA / . > (51.100); House spec al: beef, seasoned with spices, chilli oil, onions, garlic and TÉ VERDE / GREEN. 4 Vil yn ($1.000); CAMARÓN ($10.000); POLLO O CERDO ($8.000); MARISCOS ($13.500); PANQUEQUE L; TEMPURA DE PLATANO / BANANA TEMPURA; JUGO NATURAL / NATURAL JUICE; \ RON ($10.000); cAMA os ($13.500); MARISC (57.500); POLO o CERT (59.000); VACUNO INGAPORE STYLE NOODLES ($8.000); oN CAMARONES _ Tallin chino de trigo salteado con repollo y verduras, aderezado « ($6.0,); D CAMARON and chinese Spices , Veggies dressed with se ($10.000); MARISCOS ie. ~ ($13.500); verduras y polvo curry de; d curry powder; CAMARON ($10.000); MARISCOS ($13.500); ig Ny 4. ALTAS DE POLLO DEL MAESTRO / CHEF'S CHICKEN WINGS ($6.500); ? 2. GYOSAS LEMONGRASS / LEMONGRASS DUMPLINGS ($58.000); POLLO O CERDO = VACUNO dg ($7.500); ENSALADA DEL DÍA / SALAD OF THE DAY 11.¢ ($5.500); / 6. SOPA DE LECHE DE COCO CON CAMARONES ($56.000); VEGETARIANO = CAMARON ($7.000); POLLO O CERDO MARISCOS ($8.000); VACUNO ($9.000); ALITAS DE POLLO DEL; Crocantes alitas de po; GYOSAS LEMON; POLLO REB; Ensalada Thai con; POLLO O CERDO = ($7.500); VACUNO 5 ($8.000); Biker ($5.500); ENSALADA DEL DIA / SA; SOPA DE LECHE D; VEGETARIANO ($7.000); CAMARÓN ($10.000); POLLO O CERDO ($8.000); MARISCOS ($13.500); ae VEGETARIANO 5 ($7.000); pr: POLLO O CERDO ($8.000); VEGETARIANO CAMARÓN ($7.000); POLLO O CERDO MARISCOS ($8.000); VACUNO ($9.000); CARNE AL COMINO / CUMIN BEEF ($9.); POLLO A LA NARANJA / ORANGE CHICKEN ($8); POLLO O CERDO ($8.000); Pollo o cerdo p'; Cerdo o pollo reboza; Cerdo o pollo rebozado, saltea; CAMARÓN ($10.000); MARISCOS ($13.500); Carne de vacuno salteada con verduras,; POLLO A LA NARANJA; Pollo rebozado en salsa de soya; a.ajo y jugo de nar; PANQUEQUE MANJAR / CARAMEL PANCAKE ($4.000); y 4 99. PANQUEQUE NUTELLA / NUTELLA PANCAKE ($4.500); J I LATANO Mi ($4.500); wy E NCAKE ($4.500); AD 32. TEMPURA DE PLÁTANO / BANANA TEMPURA ($4.000); ES 0 ©) 33, LECHE DE COCO ENDULZADA CON PLÁTANO ($4.000); =~ = _JUGO NATURAL / NATURAL JUICE ($2.500); Se = JUGO DE ALOE / ALOE JUICE | fi ($1.600); pANQUEQUE; MANJAR / CARAMEL PANCAKE; pANQUEQUE LEC; PANQUEQUE T; mezcla de manjar; TEMPURA DE PLÁTANO / BANANA TEMPURA; JUGO NATURAL / NATURAL JUICE; JUGO DE ALOE / ALOE JUICE; Croc, POLLO ogy MAESTRO =; °Y s0uce, black Vinegar chm 0 Qj, asd de JOvG = 4 ($8.00,); POLLO O Aressing dresseq; CERDO VACUNO ; A ($57.500); $. SOPA DE LECHE YAKISGBA; SHRIMp AND COconur MILK Soup MARONES igh : Bacall de sésamo ($6.00); POLL CAMARÓN ($10.000); me, SERDO MARISCOS ($13.500); VACUNO a ($9.000); $. SOPA p,; POLLO O; CERDO ($8.000); MARISCOS ($13); VEGETARIANO CAMARÓN Me ($7.500); POLLO O CERDO MARISCOS ii) ($8.000); VACUNO ap ($9.000); Ie str, / H ($6.50); EN 22. CHAR QUAY TEAW * TS, ($6.00); de ostras y aceite de sésamo : V ($6.00); DAN DAN MIAN oe ($8.000); TALLARIN CON CARNE AL COMINO / CUMIN BEEF NOODLES ($9.00); CAMARÓN (510.000); POLLO O CERDO ($8.000); MARISCOS 51 (3.500); y polvo curry de la India
 - **Fecha de registro:** 2026-02-15
+
+### Carta
+
+- LITAS DE POLLO DEL MAESTRO / CHEF'S CHICKEN WINGS SOON Fhe VEGETARIANO CAMARÓN VEGETARIANO — $7.50
+- attered Chicken wings with special chef's sauce : POLLO O CERDO = MARISCOS POLLO O CER 58. — $8.500
+- VACUNO — $9.000
+- CURRY VERDE / GREEN CURRY
+- POLLO O CERDO VACUNO Thai curry with coconut milk, veggies, ground peanuts and onion — $7.500
+- POLLO O CERDO MARISCOS — $8.000
+- DPA DE LECHE DE COCO CON CAMARONES VACUNO — $6.000
+- VEGETARIANO CAMARÓN || é aS : E ue — $7.000
+- POLLO O CERDO MARISCOS bolso AiToz Blanco ) A A — $58.000
+- Huevo Frito 18. SAL STIR FRY WITH VEGGIES — $700
+- VACUNO || 4 z Proteina a elección con muchos vegetales salteados y aderezo especia — $9.000
+- Porción de Tallarín Choice of meat stir fry with veggies and special dressing — $1.500
+- iS Mice Se E oe ; : 19. CARNE AL COMINO / CUMIN BEEF / — $9.00
+- rroz salteado con huevo, verduras, ajo, piña, castañas de cajú y hojas de 20. POLLO A LA NARANJA / ORANGE CHICKEN — $8.00
+- LITAS DE POLLO DEL
+- rocantes alitas de
+- POLLO O CERDO — $8.000
+- CURRY MASSAMAN
+- CURRY ROJO / RED CURRY
+- CAMARÓN — $10.000
+- MARISCOS — $13.500
+- CARNE AL COMINO / CUMIN BEEF
+- POLLO A LA NARANJA / ORANGE CHICKEN
+- ulce con cebolla,ajo y jugo de naranj
+- VEGETARIANO CAMARÓN 28. PANQUEQU : Pt a TS 0 — $7.500
+- POLLO O CERDO MARISCOS 4 Pe : ‘Rt Lo ee — $8.000
+- Mundialmente famoso. Tallarín de arroz con camarones, diente de dragón, | E PANQUEQU e paris ‘ Be cpt ut, ee ae ae — $54
+- Coy 31. PANQUEQUE THAI /THAIPANCAKE = — $4.500
+- dressed with soy and chil 32. TEMPURA DE PLATANO / BANANA TEMPURA — $4.000
+- os iN ogg. vougies: 0 = an 33. LECHE DE COCO ENDULZADA CON PLATANO — $4.000
+- del er cee JUGO NATURAL / NATURAL JUICE — $2.500
+- JUGO DE ALOE / ALOE JUICE — $1.600
+- DAN DAN MIAN — $8.000
+- Mundialmente famoso: tallarín chino salteado con cerdo molido, vegetales, BEBIDA (LATA) / CAN — $1.300
+- ground peanuts and chinese spices NECTAR / BOTTLED JUICE — $1.500
+- TALLARIN CON CARNE AL COMINO / CUMIN BEEF NOODLES ~ MINERAL / MINERAL WATER — $9.000
+- Tradicional de China: came al comino con ajo, ají, cebolla y pimentón AGUA / . > — 51.100
+- House spec al: beef, seasoned with spices, chilli oil, onions, garlic and TÉ VERDE / GREEN. 4 Vil yn — $1.000
+- CAMARÓN — $10.000
+- POLLO O CERDO — $8.000
+- MARISCOS — $13.500
+- PANQUEQUE L
+- TEMPURA DE PLATANO / BANANA TEMPURA
+- JUGO NATURAL / NATURAL JUICE
+- \ RON — $10.000
+- cAMA os — $13.500
+- MARISC — 57.500
+- POLO o CERT — 59.000
+- VACUNO INGAPORE STYLE NOODLES — $8.000
+- oN CAMARONES _ Tallin chino de trigo salteado con repollo y verduras, aderezado « — $6.0,
+- D CAMARON and chinese Spices , Veggies dressed with se — $10.000
+- MARISCOS ie. ~ — $13.500
+- verduras y polvo curry de
+- d curry powder
+- CAMARON — $10.000
+- MARISCOS — $13.500
+- ig Ny 4. ALTAS DE POLLO DEL MAESTRO / CHEF'S CHICKEN WINGS — $6.500
+- ? 2. GYOSAS LEMONGRASS / LEMONGRASS DUMPLINGS — $58.000
+- POLLO O CERDO = VACUNO dg — $7.500
+- ENSALADA DEL DÍA / SALAD OF THE DAY 11.¢ — $5.500
+- / 6. SOPA DE LECHE DE COCO CON CAMARONES — $56.000
+- VEGETARIANO = CAMARON — $7.000
+- POLLO O CERDO MARISCOS — $8.000
+- VACUNO — $9.000
+- ALITAS DE POLLO DEL
+- Crocantes alitas de po
+- GYOSAS LEMON
+- POLLO REB
+- Ensalada Thai con
+- POLLO O CERDO = — $7.500
+- VACUNO 5 — $8.000
+- Biker — $5.500
+- ENSALADA DEL DIA / SA
+- SOPA DE LECHE D
+- VEGETARIANO — $7.000
+- CAMARÓN — $10.000
+- POLLO O CERDO — $8.000
+- MARISCOS — $13.500
+- ae VEGETARIANO 5 — $7.000
+- pr: POLLO O CERDO — $8.000
+- VEGETARIANO CAMARÓN — $7.000
+- POLLO O CERDO MARISCOS — $8.000
+- VACUNO — $9.000
+- CARNE AL COMINO / CUMIN BEEF — $9.
+- POLLO A LA NARANJA / ORANGE CHICKEN — $8
+- POLLO O CERDO — $8.000
+- Pollo o cerdo p'
+- Cerdo o pollo reboza
+- Cerdo o pollo rebozado, saltea
+- CAMARÓN — $10.000
+- MARISCOS — $13.500
+- Carne de vacuno salteada con verduras,
+- POLLO A LA NARANJA
+- Pollo rebozado en salsa de soya
+- a.ajo y jugo de nar
+- PANQUEQUE MANJAR / CARAMEL PANCAKE — $4.000
+- y 4 99. PANQUEQUE NUTELLA / NUTELLA PANCAKE — $4.500
+- J I LATANO Mi — $4.500
+- wy E NCAKE — $4.500
+- AD 32. TEMPURA DE PLÁTANO / BANANA TEMPURA — $4.000
+- ES 0 ©) 33, LECHE DE COCO ENDULZADA CON PLÁTANO — $4.000
+- =~ = _JUGO NATURAL / NATURAL JUICE — $2.500
+- Se = JUGO DE ALOE / ALOE JUICE | fi — $1.600
+- pANQUEQUE
+- MANJAR / CARAMEL PANCAKE
+- pANQUEQUE LEC
+- PANQUEQUE T
+- mezcla de manjar
+- TEMPURA DE PLÁTANO / BANANA TEMPURA
+- JUGO NATURAL / NATURAL JUICE
+- JUGO DE ALOE / ALOE JUICE
+- Croc, POLLO ogy MAESTRO =
+- °Y s0uce, black Vinegar chm 0 Qj, asd de JOvG = 4 — $8.00,
+- POLLO O Aressing dresseq
+- CERDO VACUNO ; A — $57.500
+- $. SOPA DE LECHE YAKISGBA
+- SHRIMp AND COconur MILK Soup MARONES igh : Bacall de sésamo — $6.00
+- POLL CAMARÓN — $10.000
+- me, SERDO MARISCOS — $13.500
+- VACUNO a — $9.000
+- $. SOPA p,
+- POLLO O
+- CERDO — $8.000
+- MARISCOS — $13
+- VEGETARIANO CAMARÓN Me — $7.500
+- POLLO O CERDO MARISCOS ii) — $8.000
+- VACUNO ap — $9.000
+- Ie str, / H — $6.50
+- EN 22. CHAR QUAY TEAW * TS, — $6.00
+- de ostras y aceite de sésamo : V — $6.00
+- DAN DAN MIAN oe — $8.000
+- TALLARIN CON CARNE AL COMINO / CUMIN BEEF NOODLES — $9.00
+- CAMARÓN — 510.000
+- POLLO O CERDO — $8.000
+- MARISCOS 51 — 3.500
+- y polvo curry de la India
+
 
 ## Libre Punto SpA
 - **Ubicación:** Av. Pedro de Valdivia 1783, Local 163, Santiago, Providencia, Región Metropolitana
@@ -553,8 +3193,117 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://lynncafe.cl/
 - **Menciona en su web:** tarta, dulces, jugo
 - **Menciona en reseñas:** croissant, dulces
-- **Carta (Google Maps):** morena, caramelo, leve manjar; Cappuccino Creme Brulee 2000 ae hae ts, Pee + (4.500); Latte Nutella 8 Pistacho som 4 A dl (4.950); Chocomani 300™! SY & 8 (4.700); Golden Milk 300m1/500mi / AG ¿ADA (3.750); Matcha Latte 300m! / 500m! / NGS ( yA A a (3.750); Chai Latte 300m!/500m! & / AG, . APA Oy) (3.750); ge, Método: V60 300m! / 500m! / (4.500); AN Método: AEROPRESS 220m! (4.500); Espresso doble Quiero mi café descafeinado +600 (2.400); Americano / Agrega syrup +600 (2.900); Mocca / (4,500); Chocolate Caliente / Agrega Crema +700 (3.750); Chocolate Caliente; > | aS | a = Iced Tea ( (13.950); Chocolate Caliente; EE] (12.950); EEE (12.950); Froppu ManjartY; une doe pasta las 14:30 ' E; ¡ jugo nature 100 ayy Teka a (13.500); Jugo natura! NS o ES FIT . (25.900); Banana brea Ec Ed a » 4 > >" (7.500); Huevo i croissant, o stig hm Us a) "; Café ote Fsuoro pa oe LA ee ¿ A 24 (6.500); sand jugo de frutilla /; ss Pare Tostada Serrano ena (6.850); Tostada Huevo Palta (6.500); Tostada Pollo Palta (6.950); he y md a + (2.000); Tostada orc. de y (42.000); A q Waffle con syrup; n tostado, waffle con; jugo natu!; ,2 mini croissant,; o salsa de chocolate); y chocolate; Waffle recién; sandwichitO; Tostada Pollo P; orc. de Pollo; eee ante y equillo” ouye 8 == (4.700); A 5 de ve darte un gus a (3.950); Suave y Tala acidez - 38 | _ (4.500); Refresc? erfil suave, Se “a wo ha de (4.250); Ora ante y citrico 0 een E + "A (4.500); Espress espresso Sean ar dl (3.500); BA GTA iced Matcha Latte (4.250); Brricado Iced Matcha £ Mango ó Frutilla (5.501); granizado al icecream Matcha ak (5.950); leche, con | NA iced Matcha Lichi (4.250); HAZLO A TU GUSTO (6.250); rament; helado; cano frío con Jugo; Je Chocolate; Jugo Tropical Mix; Cappuceino Creme Brulee Y ; > a E (4.500); Latte Nutella & Pistacho s0 is ee, Y (4.950); Chocomani 200! Y (4.700); Golden Milk 300m1/500ml / 2 once ) 7 , (3.750); Matcha Latte 300m1/500m! / SÓ E EN Ez > ZY A ’ (3.750); Chai Latte 30071 / 500m! / Hz G> A J >) y 4 (3.750); ye e me Método: V60 300m! / 500m! / (4.500); Ea SS ‘ a Método: AEROPRESS 220m! e] (4.500); Espresso doble Q (2.400); Flatwhite / Cortado Vainilla, Caramelo, Canela (3.150); Cappuccino da sil “J00 (3.400); Latte / eche veut (3.700); Mocca / (4.500); Chocolate Caliente / Agrega Crema +700 (3.750); Chocolate Caliente; SÁNDWICHES; croissant OO ai se pa E _ me (8.350); croissant Le o fresco, huev Pt GQ MA da; rano TL O Ae ‘ 3 (8.250); rese > eee € - nt (7.500); ve Carrot cake ¿ly Waffle Matcha Romance E (3.250); biscoc frutillas y crocante de frutos secos. a (5.950); a nesa de tiramisu ; Cheesecake Tradicional ‘ na (4.950); qa oco espresso 4.99U Torta Milhojas de Manjar (5.500); Va Brownies de Torta de zanahoria (2.350); ke sin gluten / Sin azucar Torta Chocomanjar (5.500); Cheesecs Brownies Choconuez (2.750); Pie de limón sin gluten / sin azúcar Queque de Banana Artesanal (5.250); Pack de galletitas sin gluten Macarons Frances (1u) (4.750); = (¿a NY Roll de Chocolate (5.500); EA ee > (4.750); E ERRE (2.950); pollo; croissant de; Waffle Matcha Romance; Cheesecake Tradicional; e tiramisu; Torta Milhojas de Manjar; Torta de Oreo Double Stuff; Torta de zanahoria; Pie de manzana; Galletón; Torta Chocomanjar; Cheesecake sin gl; Brownies Choconuez; Pie de limón; Macarons Frances (1u); Muffins; Rejita de manzana o chocolate
 - **Fecha de registro:** 2026-03-23
+
+### Carta
+
+- morena, caramelo, leve manjar
+- Cappuccino Creme Brulee 2000 ae hae ts, Pee + — 4.500
+- Latte Nutella 8 Pistacho som 4 A dl — 4.950
+- Chocomani 300™! SY & 8 — 4.700
+- Golden Milk 300m1/500mi / AG ¿ADA — 3.750
+- Matcha Latte 300m! / 500m! / NGS ( yA A a — 3.750
+- Chai Latte 300m!/500m! & / AG, . APA Oy) — 3.750
+- ge, Método: V60 300m! / 500m! / — 4.500
+- AN Método: AEROPRESS 220m! — 4.500
+- Espresso doble Quiero mi café descafeinado +600 — 2.400
+- Americano / Agrega syrup +600 — 2.900
+- Mocca / — 4,500
+- Chocolate Caliente / Agrega Crema +700 — 3.750
+- Chocolate Caliente
+- > | aS | a = Iced Tea ( — 13.950
+- Chocolate Caliente
+- EE] — 12.950
+- EEE — 12.950
+- Froppu ManjartY
+- une doe pasta las 14:30 ' E
+- ¡ jugo nature 100 ayy Teka a — 13.500
+- Jugo natura! NS o ES FIT . — 25.900
+- Banana brea Ec Ed a » 4 > >" — 7.500
+- Huevo i croissant, o stig hm Us a) "
+- Café ote Fsuoro pa oe LA ee ¿ A 24 — 6.500
+- sand jugo de frutilla /
+- ss Pare Tostada Serrano ena — 6.850
+- Tostada Huevo Palta — 6.500
+- Tostada Pollo Palta — 6.950
+- he y md a + — 2.000
+- Tostada orc. de y — 42.000
+- A q Waffle con syrup
+- n tostado, waffle con
+- jugo natu!
+- ,2 mini croissant,
+- o salsa de chocolate)
+- y chocolate
+- Waffle recién
+- sandwichitO
+- Tostada Pollo P
+- orc. de Pollo
+- eee ante y equillo” ouye 8 == — 4.700
+- A 5 de ve darte un gus a — 3.950
+- Suave y Tala acidez - 38 | _ — 4.500
+- Refresc? erfil suave, Se “a wo ha de — 4.250
+- Ora ante y citrico 0 een E + "A — 4.500
+- Espress espresso Sean ar dl — 3.500
+- BA GTA iced Matcha Latte — 4.250
+- Brricado Iced Matcha £ Mango ó Frutilla — 5.501
+- granizado al icecream Matcha ak — 5.950
+- leche, con | NA iced Matcha Lichi — 4.250
+- HAZLO A TU GUSTO — 6.250
+- rament
+- helado
+- cano frío con Jugo
+- Je Chocolate
+- Jugo Tropical Mix
+- Cappuceino Creme Brulee Y ; > a E — 4.500
+- Latte Nutella & Pistacho s0 is ee, Y — 4.950
+- Chocomani 200! Y — 4.700
+- Golden Milk 300m1/500ml / 2 once ) 7 , — 3.750
+- Matcha Latte 300m1/500m! / SÓ E EN Ez > ZY A ’ — 3.750
+- Chai Latte 30071 / 500m! / Hz G> A J >) y 4 — 3.750
+- ye e me Método: V60 300m! / 500m! / — 4.500
+- Ea SS ‘ a Método: AEROPRESS 220m! e] — 4.500
+- Espresso doble Q — 2.400
+- Flatwhite / Cortado Vainilla, Caramelo, Canela — 3.150
+- Cappuccino da sil “J00 — 3.400
+- Latte / eche veut — 3.700
+- Mocca / — 4.500
+- Chocolate Caliente / Agrega Crema +700 — 3.750
+- Chocolate Caliente
+- SÁNDWICHES
+- croissant OO ai se pa E _ me — 8.350
+- croissant Le o fresco, huev Pt GQ MA da
+- rano TL O Ae ‘ 3 — 8.250
+- rese > eee € - nt — 7.500
+- ve Carrot cake ¿ly Waffle Matcha Romance E — 3.250
+- biscoc frutillas y crocante de frutos secos. a — 5.950
+- a nesa de tiramisu ; Cheesecake Tradicional ‘ na — 4.950
+- qa oco espresso 4.99U Torta Milhojas de Manjar — 5.500
+- Va Brownies de Torta de zanahoria — 2.350
+- ke sin gluten / Sin azucar Torta Chocomanjar — 5.500
+- Cheesecs Brownies Choconuez — 2.750
+- Pie de limón sin gluten / sin azúcar Queque de Banana Artesanal — 5.250
+- Pack de galletitas sin gluten Macarons Frances (1u) — 4.750
+- = (¿a NY Roll de Chocolate — 5.500
+- EA ee > — 4.750
+- E ERRE — 2.950
+- pollo
+- croissant de
+- Waffle Matcha Romance
+- Cheesecake Tradicional
+- e tiramisu
+- Torta Milhojas de Manjar
+- Torta de Oreo Double Stuff
+- Torta de zanahoria
+- Pie de manzana
+- Galletón
+- Torta Chocomanjar
+- Cheesecake sin gl
+- Brownies Choconuez
+- Pie de limón
+- Macarons Frances (1u)
+- Muffins
+- Rejita de manzana o chocolate
+
 
 ## Magnolia
 - **Ubicación:** Av. Costanera 500, 1791463 Coquimbo
@@ -562,8 +3311,43 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.6 / 5
 - **Enlace:** https://www.google.com/maps?cid=14203530335195811967
 - **Menciona en reseñas:** ceviche, mariscos, pino
-- **Carta (Google Maps):** Postre 1; } Brownie de Chocolate cz; artesanal de chocolate. “4; Panqueques Celestino 2; Postre it; Helado G; Brownie de Chocolate <; artesanal de chocolate.; Panqueques Cel; Panqueque relleño con man; i 2 06000080900 .:6.0% oe ($059); cosorsó ($09); mariscos y camarón.; db Pescado, ají verde, apio, pin di, y; EF Ceviche de Mariscos ($ 3); i; Ceviche Peruano......... $; veFde, pollo a; Pescado, aji verde, apio, Bir; Ceviche de Marisco A; Ceviche Peruano.........; Pescado a elección, cebolla morada, jug; Ceviche de Camarón .....; jugo = limon, aji rocot en p; Pollo; ji j Filete de pescado al $ de; ostiones, jugo de vir 8; Pescado al ajo; Pescado ala plancha a eleccit E; y y ($ 50006); Filete de pescado-all; ostiones, jugo del; Pescado a la plancha a elec
 - **Fecha de registro:** 2026-02-17
+
+### Carta
+
+- Postre 1
+- } Brownie de Chocolate cz
+- artesanal de chocolate. “4
+- Panqueques Celestino 2
+- Postre it
+- Helado G
+- Brownie de Chocolate <
+- artesanal de chocolate.
+- Panqueques Cel
+- Panqueque relleño con man
+- i 2 06000080900 .:6.0% oe — $059
+- cosorsó — $09
+- mariscos y camarón.
+- db Pescado, ají verde, apio, pin di, y
+- EF Ceviche de Mariscos — $ 3
+- i; Ceviche Peruano......... $
+- veFde, pollo a
+- Pescado, aji verde, apio, Bir
+- Ceviche de Marisco A
+- Ceviche Peruano.........
+- Pescado a elección, cebolla morada, jug
+- Ceviche de Camarón .....
+- jugo = limon, aji rocot en p
+- Pollo
+- ji j Filete de pescado al $ de
+- ostiones, jugo de vir 8
+- Pescado al ajo
+- Pescado ala plancha a eleccit E
+- y y — $ 50006
+- Filete de pescado-all
+- ostiones, jugo del
+- Pescado a la plancha a elec
+
 
 ## Maillard - Cocina a las Brasas
 - **Ubicación:** Av. Nueva Costanera 3802, 7560801 Vitacura, Región Metropolitana
@@ -572,8 +3356,82 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=16142662062234390808
 - **Web:** https://www.apparta.co/maillard/reservas
 - **Menciona en reseñas:** empanada, carne, milanesa, parrilla, asado
-- **Carta (Google Maps):** Ceviche a las Brasas ($17.990) · Para Empezar; Ostiones Maillard ($14.990) · Para Empezar; Tartare de Atún ($18.990) · Para Empezar; Tartare de Salmón ($18.990) · Para Empezar; Empanadas de Entraña / 5 unidades ($13.990) · Para Empezar; Provoleta Maillard ($13.990) · Para Empezar; Mollejas de Vacuno ($13.990) · Para Empezar; Croquetas de Rabo / 5 Unidades ($13.990) · Para Empezar; Provoleta & Mermelada de Morrón ($14.990) · Para Empezar; Caviar Oscietra Kenoz (15g) ($47.990) · Para Empezar; Asado de Tira 4 cm USA / 550 g ($33.990) · Carnes a las Brasas; Lomo Vetado Black Angus Arg / 500 g ($28.990) · Carnes a las Brasas; Lomo Liso Black Angus Arg / 500 g ($21.990) · Carnes a las Brasas; Punta de Ganso Ahumada / 350 g ($21.990) · Carnes a las Brasas; Pollo Barriga Angus / 400 g ($18.990) · Carnes a las Brasas; Malaya de Cerdo / 450 g ($18.990) · Carnes a las Brasas; Milanesa Napolitana / 300 g ($18.990) · Carnes a las Brasas; Pulpo a la Parrilla / 250 g ($15.990) · Carnes a las Brasas; Salmón a las Brasas / 300 g ($15.990) · Carnes a las Brasas; Chistorra de la Casa / 200 g ($13.990) · Carnes a las Brasas; Chilena a las Brasas ($6.990) · Acompañamientos; Arroz Cremoso de Cebolla Caramelizada ($6.990) · Acompañamientos; Fondue de Zapallo Calabaza ($6.990) · Acompañamientos; Papas Fritas Trufadas ($6.990) · Acompañamientos; Mix Verde, Palta & Parmesano ($6.990) · Acompañamientos; Maillard Pollo ($13.990) · Ensaladas de la Casa; Pera & Queso Cabra ($13.990) · Ensaladas de la Casa; Salmón & Ricotta ($13.990) · Ensaladas de la Casa; Tuétano Salt Caramel ($12.990) · Cierre Dulce; Torta Caluga Frambuesa ($7.990) · Cierre Dulce; Flan Dulce de Leche ($7.990) · Cierre Dulce; Piña Asada Maillard ($7.990) · Cierre Dulce; Tentación Ferrero ($7.990) · Cierre Dulce; Copa de Helado El Taller ($8.990) · Cierre Dulce; Ojo de Bife USA / 600 g ($44.990) · Selección Maillard; Bife de Chorizo USA / 600 g ($42.990) · Selección Maillard; Asado de Tira Angus / 500 g ($35.990) · Selección Maillard; Entraña USA / 300 g ($30.990) · Selección Maillard; Berenjena Asada ($8.990) · Vegetales al Fuego; Papa Grille Maillard ($8.990) · Vegetales al Fuego; Coliflor Ahumada ($8.990) · Vegetales al Fuego; Choclo a la Llama ($8.990) · Vegetales al Fuego; Maillard Burger ($13.990) · Nuestra Burger; Extra Carne ($2.990) · Nuestra Burger; Carne a la Parrilla ($13.990) · Para los Niños
 - **Fecha de registro:** 2026-06-30
+
+### Carta
+
+#### Para Empezar
+
+- Ceviche a las Brasas — $17.990
+- Ostiones Maillard — $14.990
+- Tartare de Atún — $18.990
+- Tartare de Salmón — $18.990
+- Empanadas de Entraña / 5 unidades — $13.990
+- Provoleta Maillard — $13.990
+- Mollejas de Vacuno — $13.990
+- Croquetas de Rabo / 5 Unidades — $13.990
+- Provoleta & Mermelada de Morrón — $14.990
+- Caviar Oscietra Kenoz (15g) — $47.990
+
+#### Carnes a las Brasas
+
+- Asado de Tira 4 cm USA / 550 g — $33.990
+- Lomo Vetado Black Angus Arg / 500 g — $28.990
+- Lomo Liso Black Angus Arg / 500 g — $21.990
+- Punta de Ganso Ahumada / 350 g — $21.990
+- Pollo Barriga Angus / 400 g — $18.990
+- Malaya de Cerdo / 450 g — $18.990
+- Milanesa Napolitana / 300 g — $18.990
+- Pulpo a la Parrilla / 250 g — $15.990
+- Salmón a las Brasas / 300 g — $15.990
+- Chistorra de la Casa / 200 g — $13.990
+
+#### Acompañamientos
+
+- Chilena a las Brasas — $6.990
+- Arroz Cremoso de Cebolla Caramelizada — $6.990
+- Fondue de Zapallo Calabaza — $6.990
+- Papas Fritas Trufadas — $6.990
+- Mix Verde, Palta & Parmesano — $6.990
+
+#### Ensaladas de la Casa
+
+- Maillard Pollo — $13.990
+- Pera & Queso Cabra — $13.990
+- Salmón & Ricotta — $13.990
+
+#### Cierre Dulce
+
+- Tuétano Salt Caramel — $12.990
+- Torta Caluga Frambuesa — $7.990
+- Flan Dulce de Leche — $7.990
+- Piña Asada Maillard — $7.990
+- Tentación Ferrero — $7.990
+- Copa de Helado El Taller — $8.990
+
+#### Selección Maillard
+
+- Ojo de Bife USA / 600 g — $44.990
+- Bife de Chorizo USA / 600 g — $42.990
+- Asado de Tira Angus / 500 g — $35.990
+- Entraña USA / 300 g — $30.990
+
+#### Vegetales al Fuego
+
+- Berenjena Asada — $8.990
+- Papa Grille Maillard — $8.990
+- Coliflor Ahumada — $8.990
+- Choclo a la Llama — $8.990
+
+#### Nuestra Burger
+
+- Maillard Burger — $13.990
+- Extra Carne — $2.990
+
+#### Para los Niños
+
+- Carne a la Parrilla — $13.990
+
 
 ## Massanoglutenfree
 - **Ubicación:** Santa Luisa 145, 8732429 Quilicura, Región Metropolitana
@@ -605,15 +3463,18 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Ubicación:** Montenegro 391, 7790745 Ñuñoa, Región Metropolitana
 - **Enlace:** https://www.google.com/maps?cid=2591736801254275963
 - **Fecha de registro:** 2026-10-31
-- **Nota:** Montenegro 391, 7790745 Ñuñoa, Región Metropolitana
 
 ## Mr Foodie
 - **Ubicación:** Antonia López de Bello 743, Loc 266, 8420000 Recoleta, Región Metropolitana
 - **Categoría:** Supermercado
 - **Valoración:** 5.0 / 5
 - **Enlace:** https://www.google.com/maps?cid=9052477891491470661
-- **Carta (Google Maps):** 7) - AN "4 ' E ($0)
 - **Fecha de registro:** 2026-10-29
+
+### Carta
+
+- 7) - AN "4 ' E — $0
+
 
 ## NAOKI
 - **Ubicación:** Av Vitacura 3875, 7630358 Vitacura, Región Metropolitana
@@ -622,8 +3483,230 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=9616485031210592336
 - **Web:** http://www.naoki.cl/
 - **Menciona en su web:** pescado, completo
-- **Carta (Google Maps):** Sakana Spicy ($ 5.000); U 28 ($ 6.500); Ebi ($ 5.500); Sake ($ 5.500); Tako ($ 5500); Temaki spider ($ 9.000); Cangrejo picante ($ 9.500); Unagi pimiento y cebolla ($ 7.500); Nigiri Sushi; Suzuki ($ 4.500); aoe ($ 6.500); War Guias ($ 5.500); Otate Gunkan ($ 5.500); Spicy Gunkan ($ 6.000); Unagi fo (4.000); Nasu Miso Berengena asada en miso. : . » (7.800); Unagi / foie grass oo ($ 7.800); Uni / foie grass 5 MN (6.500); Pobre Nigiri Cebolla caramelizada, huevo de codorniz.) sal de cabuil : E (8.500); Atún Foie Grass Sopleteado con un trozo de foie grass) salsa unagt ; á (6.500); Sake Picante Con salsa picante) id ie onés EN ($ 6.500); Uni foie Con un 10x? de foie, cítrico japonés Y AN ($ 6.000); Otate Ikura MAN ($ 6.500); 5 ME (7.000); Sushi; te y crispi tempura; Sake Miso Con pasta; Naoki 9 cortes. ($ 9.500); Moriawase 15 cortes. ($ 12.500); Moriawase 25 cortes. ($ 18.000); Shirashi tradicional estilo de comer pescado con arroz. ($ 13.500); Sake Oyakodon sashimi de salmón sobre arroz acompañado de ¡kura. ($ 13.500); Kani 6 patas de centolla fresca, según disponibilidad ($ 13.000); Risotto Frio ikura ($ 8.500); Risotto Frio uni ($ 9.500); Sakana pescado del dia con aderezo estilo Naoki, ají cacho de cabra y cebollin. ($ 10.000); Otate ostiones patagónicos con aderezo estilo Naoki. ($ 11.000); Sakana erizo ($ 12.000); Sake Trufado ($ 12.000); Maguro Foie sopleteado con foie y salsa unagi. 4 ($ 12.000); Awabi loco chileno con emulsión de wasabi. y ($ 11.000); Toro Maguro atin graso con aceite de sésamo y emulsión de wasabi. ($ 12.000); C O cina aoe + mejillas e POCA ETE ICDS 00% salsa tempura. b e ($ 9.500); pura a ano acompañado con salsa tempura. 4 ($ 9.500); C e n t emp ura Soba caldo Japonés con fideos integrales (harina de trigo), huevo pochado con ($ 8.500); / E Yakimeshi arroz, salteado con verduras, shitake, salsa de ostras y gambas. ($ 9.000); Sake Teriyaki con onigiri. ($ 12.000); Toti Ka ($ 12.000); tsu apanado de pollo en salsa de vegetales y huesillos. ($ 10.000); Pollo Teriyaki acompañado con koroke al cedrón. ($ 10.000); Tori Supaishi pollo picante al estilo Naoki. ($ 11.000); Beef Teriyaki flete en salsa teriyaki con onigiri. ($ 12.000); a ¥ : » nte. y cruyientes (versión picante). ($ 10.000); pibas Ribu costas de cerdo picante al estilo Naoki. ($ 7.000); re bacalao a la Plancha en salsa miso tare y algas crujientes. .000 ($ 13); Katzu - don tortilla de cerd j; Saru Soba : o apanado con huevo. ($ 12.500); A OS eeu Mio sa Wntegrales fríos con salsa sar, ($ 8.000); Gyosas de Pa: ; o; trozos de pollo marinado, ligeramente; ishina Ribu costillas de cerdo picante a; tortilla de cerdo apanado con hue; Gyosas de Pa; Naoki 9 cortes. ($ 9.500); Moriawase 15 cortes. 5 (12.500); Moriawase 25 cortes. ($ 18.000); Shirashi tradicional estilo de comer pescado con arroz. ($ 13.500); Sake Oyakodon sashimi de salmón sobre arroz acompañado de ikura. ($ 13.500); Kani 6 Patas de centolla fresca, según disponibilidad ($ 13.000); Risotto Frio ikura ($ 8.500); Risotto Frio uni ($ 9.500); Sakana pescado del dia con aderezo estilo Naoki, ají cacho de cabra y cebollin. ($ 10.000); Otate ostiones patagónicos con aderezo estilo Naoki. ($ 11.000); Sakana erizo ($ 12.000); Sake Trufado ($ 12.000); Maguro Foie sopleteado con foie y salsa unagi. ($ 12.000); Awabi /oco chileno con emulsión de wasabi. ($ 11.000); Toro Maguro atin graso con aceite de sésamo y emulsión de wasabi. ($ 12.000); C y , Tempura de mejillas al merquén acompañado con salsa tempura. ($ 9.500); ocina | Ebi ‘Tempura camarón ecuatoriano acompañado con salsa tempura. ($ 9500); Tempura Soba caldo japonés con fideos integrales (harina de trigo), huevo pochado con ($ 8.500); Yakimeshi arroz salteado con verduras, shitake, salsa de ostras y gambas. ($ 9.000); é Sake Teriyaki con onigini. ($ 12.000); Unagi ala plancha con onigir. ($ 12.000); E A Tori Katsu apanado de pollo en salsa de vegetales y huesillos. ($ 10.000); _— Pollo Teriyaki acompañado con koroke al cedrón. 2 ($ 10.000); E o a le Tori Supaishi pollo picante al estilo Naoki. o ($ 11.000); Lo >» Beef Teriyaki jilete en salsa teriyaki con onigin. ($ 12.000); pa _ E . — Karaage trozos de pollo marinado, ligeramente fritos y crujientes (versión picante). ($ 10.000); Lo . o. o 4 : Supaishina Ribu costillas de cerdo picante al estilo Naoki. S (7.600); eo = : : a a Taramisoyaki bacalao a la plancha en salsa miso tare y algas crujientes. ($ 13.000); dl ON o 4 Katzu - don tortilla de cerdo apanado con huevo. ($ 12.500); AÑ i A Ñ ‘. ao lo. Saru Soba /fideos integrales fríos con salsa sar. ($ 8.000); E ds Gyosas de Pato /ritas en salsa yuzu picante. 000 ($ 7); o. Yakitori Butayaki de cerdo ($ 6.000); Nasu berenjenas asadas, yasai tempura, takuan y sal de luche envuelto en palta. ($ 9.000); Tako Tartar relleno de salmón picante con un toping de tártaro de pulpo e ikura. ($ 10.500); Uni tempura roll relleno de erizos a la chilena, con salsa de erizos y sake (6 bocados). ($ 9.000); Naruto pepino relleno con anguila, alga, salmón, palta, masago y ají verde (6 bocados). ($ 9.000); Naoki Unagi anguila a la parrilla en salsa picante, cebollín, takuan y palta, envuelto en sésamo ($ 11.500); Tomodashi camarón tempura, salmón, palos de cilantro tempurizados, masago, cubierto en palta, ($ 10.500); Roppongi /oco apanado, salteado de verduras al chañar gratinado con katsoubushi. ($ 10.000); Kuru camarón tempura, salmón, cebollin cubierto en palta, salsa Naoki y toping de crispy tempura. ($ 9.500); Japón cilantro tempura, cebollin, pepino y tártaro de salmón picante. ($ 10.000); A Fukasawa camarón tempura, cebollin, pimiento, cubierto en anguila gratinada y toping de masago. ($ 11.500); Shibuya ro// gratinado unagi crocante, masago, cebollin, pepino, pimiento tempura y salsa ($ 10.500); Hotate salmón, camarón tempura, palta y tártaro picante de ostión con emulsión de masago, ($ 10.500); [ Z Roll salmón relleno con masago, tempurizado. ($ 10.500); Deba mai caramelizada, pepino, masago, cebolla tempurizada cubierta en palta, furikake de wasabi. ($ 10.500); ia ' Geisha unagi ($ 11.000); us - Geisha camarón salmón ($ 11.000); E a bi: Kaninosofuto roll cangrejo de caparazón blanda envuelto en masago. ($ 12.000); e 4 : Unagui Tamago anguila, pimiento, cebolla tempurizada, ají, cebollin envuelto en tortilla debuevo ($ 11.000); a 2 Piuremalá ro// tempurizado relleno de pinres al estilo naoki, acompañado con salsa de erizo y sake. ($ 9.000); Msc Geisha Spider cangrejo picante, palta, cebollín envuelto en papel de arroz ($ 12.000); he, ln AN Tamago Vegetariano pimiento, cebolla tempurizada, ají, cebollin, berenjena asada envuelta en ($ 9.000); E Tsukiji anguila crocante, pepino, masago, palta, cebollin cubierto en nori con salsa unagui con sutil picante ($ 11.000); ie AN es a camarón tempura, cebollin, palta, pepino, ají verde, envuelto en salmón, toping ikura ($ 12.); NN Kappes Mak ($ 4.000); _ Ebi Maki ($ 4.200); in se ($ 3.000); Gyutataki Jomo de res sellado a la sal con salsa ponzu. ($ 6.000); Edamame Poroto de soya cocinado al vapor con sal de Cab ($ 4.500); Edamame salteados en aceite de sésamo, sal de Cahuil y siosbim > (5.500); Sarada Wakame ensalada de algas con nabo y pepino aderezado con vinagre de arroz ($ 6.500); Naoki Salad Pulpo, salmón, mix de hojas verdes y pepino. ($ 8.000); Gyosas de Cochayuyo y Papaya con salsa ponzu (7 und.) 3 (5.500); Uni erizos al estilo Naoki. ($ 11.000); Naoki Nigiri crocante de arroz con tataki de salmón y kisami nori (5 und.) ($ 7.500); Katsu Ball bolitas de carne de cerdo al estilo Naoki salteadas en salsa de la casa. (5 und.) . ($ 7.500); Yaki Tori brochetas de pollo estilo Naokz. (3 und.) 51500 ($11); Atsuage tofu frito con cebollín y jengibre fresco y atsoubusly. me ($ 6.000); oe o Sake karamiyaki salmón rebozado picante estilo Naoki (8 und.) < ($ 8.000); ¡Ots e € Erizos ($ 5.500); Ostras y Exizos E ($ 5.500); M onos berenjenas asadas, yasai tempura, takuan y sal de luche envuelto en palta. ($ 9.000); Tako Tartar relleno de salmón picante con un toping de tártaro de pulpo e ¡Rura. ($ 10.500); Uni tempura rol! relleno de erizos a la chilena, con salsa de erizos y sake (6 bocados). ($ 9.000); Naruto pepino relleno con anguila, alga, salmón, palta, masago y ají verde (6 bocados). ($ 9.000); Naoki Unagi anguila a la parrilla en salsa picante, cebollín, takuan y palta, envuelto en sésamo i ($ 11.500); Tomodashi camarón tempura, salmón, palos de cilantro tempurizados, masago, cubierto en palta, i ($ 10.500); Roppongi loco apanado, salteado de verduras al chañar gratinado con katsoubushi. i ($ 10.000); Kuru camarón tempura, salmón, cebollín cubierto en palta, salsa Naoki y toping de crispy tempura. P ($ 9.500); Japón cilantro tempura, cebollin, pepino y tártaro de salmón picante. ($ 10.000); Fukasawa camarón tempura, cebollin, pimiento, cubierto en anguila gratinada y toping de masago. ($ 11.500); Shibuya roll gratinado unagi crocante, masago, cebollín, pepino, pimiento tempura y salsa ($ 10.500); Hotate salmón, camarón tempura, palta y tártaro picante de ostión con emulsión de masago, ($ 10.500); Z Roll salmón relleno con masago, tempurizado. ($ 10.500); Deba unagi caramelizada, pepino, masago, cebolla tempurizada cubierta en palta, furikake de wasabi. ($ 10.500); Geisha unag ($ 11.000); Geisha camarón salmón q ($ 11.000); Kaninosofuto rol! cangrejo de caparazón blanda envuelto en masago. E ($ 12.000); Unagui Tamago anguila, pimiento, cebolla tempurizada, ajt, cebollin envuelto en tortilla de huevo ($ 11.000); Piuremaki ro// tempurizado relleno de pinres al estilo naoki, acompañado con salsa de erizo y sake. Y (9.000); Geisha Spider cangrejo picante, palta, cebollin envuelto en papel de arroz ($ 12.000); Tamago Vegetariano pimiento, cebolla tempurizada, ají, cebollín, berenjena asada envuelta en ($ 9.000); Tsukiji anguila crocante, pepino, masago, palta, cebollin cubierto en nori con salsa unagui con sutil picante Ss 4 (1.000); Sake Trufa Roll camarón tempura, cebollin, palta, pepino, ají verde, envuelto en salmón, toping ikura ($ 12.500); Sake Maki ($ 4200); Kappa Maki ($ 4.000); Ebi Maki ($ 4200); Unagi Maki ($ 5.500); ay | Shirashi tradicional estilo de comer pescado con arroz, 500 ($ 13,); = Sake Oyakodon Sashimi de salmón sobre arroz acompañado de ikura, ($ 13.500); = Kani 6 patas de centolla Sresca, según disponibilidad ($ 13.000); Risotto Frío ikura ($ 8.500); Risotto Frío yn ($ 9.500); Sakana Pescado del día con aderezo estilo Naoki, ají cacho de cabra y cebollin, ($ 10.000); Otate ostiones Palagónicos con aderezo estilo Naoki. ($ 11.000); Sakana erizo ($ 12.000); Sake Trufado ($ 12.000); Maguro Foie sopleteado con foie ) salsa unagi. ($ 12.000); Awabi /oco chileno con emulsión de wasabi. ($ 11.000); Toro Maguto atún graso con aceite de sésamo y emulsión de wasabi, ($ 12.000); C y Tempura de mejillas al merquén acompañado con salsa tempura. ($ 9.500); ocina | Ebi Tempura camarón ecuatoriano acompañado con salsa tempura. ($ 9.500); « Tempura Soba caldo Japonés con fideos integrales (harina de trigo), huevo pochado con ($ 8.500); Yakimeshi arroz salteado con verduras, shitake, salsa de ostras y gambas. ($ 9.000); Sake Teriyaki con onigiri. ($ 12.000); Unagi a la plancha con onigiri. ($ 12.000); Tori Katsu apanado de pollo en salsa de vegetales y huesillos. ($ 10.000); Pollo Teriyaki acompañado con koroke al cedrón, ($ 10.000); Tori Supaishi pollo picante al estilo Naoki. ($ 11.000); Beef Teriyaki Filete en salsa teriyaki con onigire, ($ 12.000); Karaage trozos de pollo marinado, ligeramente fritos y crujientes (versión picante). ($ 10.000); Supaishina Ribu costillas de cerdo picante al estilo Naoki. ($ 7.000); Taramisoyaki bacalao a la plancha en salsa miso tare y algas crujientes. ($ 13.000); Nasu Miso berenjena asada. ($ 7.000); Gyosas de Pato fritas en salsa | YUU picante. a ($ 6.000); Pescado con arroz,; Risotto Frío ¿kura; Sakana Pescado del día con ad; Tempura de me; atoriano acompañado con salsa tempura.; Tempura Soba caldo japo; Pollo Teri; aishi pollo picante al estilo Naoki; trozos de pollo marinado,; Gyosas de Pato; Ntra eS Misoshiru ($ 3.000); Gyutataki domo de res sellado a la sal con salsa pone. ($ 6.000); Edamame poroto de soya cocinado al vapor con sal de Cabuil. ($ 4.500); Edamame salteados en aceite de sésamo, sal de Cabuil y shishimi. ($ 5.500); Sarada Wakame ensalada de algas con nabo y pepino aderezado con vinagre de arroz ($ 6,500); Naoki Salad pu/po, salmón, mix de hojas verdes y pepino. ($ 8.000); Gyosas de Cochayuyo y Papaya con salsa ponzu (7 und,) ($ 5.500); Agedashi Tofu pequeños trozos de tofu fritos en caldo tempura y katsoubushi. ($ 1,500); Uni erizos al estilo Naoki. ($ 11.000); Naoki Nigiri crocante de arroz con tataki de salmón y kisami nori (5 und.) ($ 7.500); Katsu Ball bolitas de carne de cerdo al estilo Naoki salteadas en salsa de la casa. (5 und. ) ($ 7.500); Yaki Tori brochetas de pollo estilo Naoki. (3 und. ) $.. (5.500); Atsuage tofu frito con cebollin y jengibre fresco y Ratsoubushi. ($ 6.000); Hotate Furay ostiones patagónicos apanados con salsa kattn (7 und.) ($ 9.000); Gyutan lengua de ternera sellada en aceite sésamo, sal de cábuil y shishimi. ($ 7.800); Sake karamiyaki sa/món rebozado picante estilo Naoki (8 und.) ($ 8.000); Ika Furai calamares en panko ($ 9.000); La Casa | o0s ($ 5.500); Almejas ($ 5.500); Dl y Mia ($ 5500)
 - **Fecha de registro:** 2025-11-05
+
+### Carta
+
+- Sakana Spicy — $ 5.000
+- U 28 — $ 6.500
+- Ebi — $ 5.500
+- Sake — $ 5.500
+- Tako — $ 5500
+- Temaki spider — $ 9.000
+- Cangrejo picante — $ 9.500
+- Unagi pimiento y cebolla — $ 7.500
+- Nigiri Sushi
+- Suzuki — $ 4.500
+- aoe — $ 6.500
+- War Guias — $ 5.500
+- Otate Gunkan — $ 5.500
+- Spicy Gunkan — $ 6.000
+- Unagi fo — 4.000
+- Nasu Miso Berengena asada en miso. : . » — 7.800
+- Unagi / foie grass oo — $ 7.800
+- Uni / foie grass 5 MN — 6.500
+- Pobre Nigiri Cebolla caramelizada, huevo de codorniz.) sal de cabuil : E — 8.500
+- Atún Foie Grass Sopleteado con un trozo de foie grass) salsa unagt ; á — 6.500
+- Sake Picante Con salsa picante) id ie onés EN — $ 6.500
+- Uni foie Con un 10x? de foie, cítrico japonés Y AN — $ 6.000
+- Otate Ikura MAN — $ 6.500
+- 5 ME — 7.000
+- Sushi
+- te y crispi tempura
+- Sake Miso Con pasta
+- Naoki 9 cortes. — $ 9.500
+- Moriawase 15 cortes. — $ 12.500
+- Moriawase 25 cortes. — $ 18.000
+- Shirashi tradicional estilo de comer pescado con arroz. — $ 13.500
+- Sake Oyakodon sashimi de salmón sobre arroz acompañado de ¡kura. — $ 13.500
+- Kani 6 patas de centolla fresca, según disponibilidad — $ 13.000
+- Risotto Frio ikura — $ 8.500
+- Risotto Frio uni — $ 9.500
+- Sakana pescado del dia con aderezo estilo Naoki, ají cacho de cabra y cebollin. — $ 10.000
+- Otate ostiones patagónicos con aderezo estilo Naoki. — $ 11.000
+- Sakana erizo — $ 12.000
+- Sake Trufado — $ 12.000
+- Maguro Foie sopleteado con foie y salsa unagi. 4 — $ 12.000
+- Awabi loco chileno con emulsión de wasabi. y — $ 11.000
+- Toro Maguro atin graso con aceite de sésamo y emulsión de wasabi. — $ 12.000
+- C O cina aoe + mejillas e POCA ETE ICDS 00% salsa tempura. b e — $ 9.500
+- pura a ano acompañado con salsa tempura. 4 — $ 9.500
+- C e n t emp ura Soba caldo Japonés con fideos integrales (harina de trigo), huevo pochado con — $ 8.500
+- / E Yakimeshi arroz, salteado con verduras, shitake, salsa de ostras y gambas. — $ 9.000
+- Sake Teriyaki con onigiri. — $ 12.000
+- Toti Ka — $ 12.000
+- tsu apanado de pollo en salsa de vegetales y huesillos. — $ 10.000
+- Pollo Teriyaki acompañado con koroke al cedrón. — $ 10.000
+- Tori Supaishi pollo picante al estilo Naoki. — $ 11.000
+- Beef Teriyaki flete en salsa teriyaki con onigiri. — $ 12.000
+- a ¥ : » nte. y cruyientes (versión picante). — $ 10.000
+- pibas Ribu costas de cerdo picante al estilo Naoki. — $ 7.000
+- re bacalao a la Plancha en salsa miso tare y algas crujientes. .000 — $ 13
+- Katzu - don tortilla de cerd j
+- Saru Soba : o apanado con huevo. — $ 12.500
+- A OS eeu Mio sa Wntegrales fríos con salsa sar, — $ 8.000
+- Gyosas de Pa: ; o
+- trozos de pollo marinado, ligeramente
+- ishina Ribu costillas de cerdo picante a
+- tortilla de cerdo apanado con hue
+- Gyosas de Pa
+- Naoki 9 cortes. — $ 9.500
+- Moriawase 15 cortes. 5 — 12.500
+- Moriawase 25 cortes. — $ 18.000
+- Shirashi tradicional estilo de comer pescado con arroz. — $ 13.500
+- Sake Oyakodon sashimi de salmón sobre arroz acompañado de ikura. — $ 13.500
+- Kani 6 Patas de centolla fresca, según disponibilidad — $ 13.000
+- Risotto Frio ikura — $ 8.500
+- Risotto Frio uni — $ 9.500
+- Sakana pescado del dia con aderezo estilo Naoki, ají cacho de cabra y cebollin. — $ 10.000
+- Otate ostiones patagónicos con aderezo estilo Naoki. — $ 11.000
+- Sakana erizo — $ 12.000
+- Sake Trufado — $ 12.000
+- Maguro Foie sopleteado con foie y salsa unagi. — $ 12.000
+- Awabi /oco chileno con emulsión de wasabi. — $ 11.000
+- Toro Maguro atin graso con aceite de sésamo y emulsión de wasabi. — $ 12.000
+- C y , Tempura de mejillas al merquén acompañado con salsa tempura. — $ 9.500
+- ocina | Ebi ‘Tempura camarón ecuatoriano acompañado con salsa tempura. — $ 9500
+- Tempura Soba caldo japonés con fideos integrales (harina de trigo), huevo pochado con — $ 8.500
+- Yakimeshi arroz salteado con verduras, shitake, salsa de ostras y gambas. — $ 9.000
+- é Sake Teriyaki con onigini. — $ 12.000
+- Unagi ala plancha con onigir. — $ 12.000
+- E A Tori Katsu apanado de pollo en salsa de vegetales y huesillos. — $ 10.000
+- _— Pollo Teriyaki acompañado con koroke al cedrón. 2 — $ 10.000
+- E o a le Tori Supaishi pollo picante al estilo Naoki. o — $ 11.000
+- Lo >» Beef Teriyaki jilete en salsa teriyaki con onigin. — $ 12.000
+- pa _ E . — Karaage trozos de pollo marinado, ligeramente fritos y crujientes (versión picante). — $ 10.000
+- Lo . o. o 4 : Supaishina Ribu costillas de cerdo picante al estilo Naoki. S — 7.600
+- eo = : : a a Taramisoyaki bacalao a la plancha en salsa miso tare y algas crujientes. — $ 13.000
+- dl ON o 4 Katzu - don tortilla de cerdo apanado con huevo. — $ 12.500
+- AÑ i A Ñ ‘. ao lo. Saru Soba /fideos integrales fríos con salsa sar. — $ 8.000
+- E ds Gyosas de Pato /ritas en salsa yuzu picante. 000 — $ 7
+- o. Yakitori Butayaki de cerdo — $ 6.000
+- Nasu berenjenas asadas, yasai tempura, takuan y sal de luche envuelto en palta. — $ 9.000
+- Tako Tartar relleno de salmón picante con un toping de tártaro de pulpo e ikura. — $ 10.500
+- Uni tempura roll relleno de erizos a la chilena, con salsa de erizos y sake (6 bocados). — $ 9.000
+- Naruto pepino relleno con anguila, alga, salmón, palta, masago y ají verde (6 bocados). — $ 9.000
+- Naoki Unagi anguila a la parrilla en salsa picante, cebollín, takuan y palta, envuelto en sésamo — $ 11.500
+- Tomodashi camarón tempura, salmón, palos de cilantro tempurizados, masago, cubierto en palta, — $ 10.500
+- Roppongi /oco apanado, salteado de verduras al chañar gratinado con katsoubushi. — $ 10.000
+- Kuru camarón tempura, salmón, cebollin cubierto en palta, salsa Naoki y toping de crispy tempura. — $ 9.500
+- Japón cilantro tempura, cebollin, pepino y tártaro de salmón picante. — $ 10.000
+- A Fukasawa camarón tempura, cebollin, pimiento, cubierto en anguila gratinada y toping de masago. — $ 11.500
+- Shibuya ro// gratinado unagi crocante, masago, cebollin, pepino, pimiento tempura y salsa — $ 10.500
+- Hotate salmón, camarón tempura, palta y tártaro picante de ostión con emulsión de masago, — $ 10.500
+- [ Z Roll salmón relleno con masago, tempurizado. — $ 10.500
+- Deba mai caramelizada, pepino, masago, cebolla tempurizada cubierta en palta, furikake de wasabi. — $ 10.500
+- ia ' Geisha unagi — $ 11.000
+- us - Geisha camarón salmón — $ 11.000
+- E a bi: Kaninosofuto roll cangrejo de caparazón blanda envuelto en masago. — $ 12.000
+- e 4 : Unagui Tamago anguila, pimiento, cebolla tempurizada, ají, cebollin envuelto en tortilla debuevo — $ 11.000
+- a 2 Piuremalá ro// tempurizado relleno de pinres al estilo naoki, acompañado con salsa de erizo y sake. — $ 9.000
+- Msc Geisha Spider cangrejo picante, palta, cebollín envuelto en papel de arroz — $ 12.000
+- he, ln AN Tamago Vegetariano pimiento, cebolla tempurizada, ají, cebollin, berenjena asada envuelta en — $ 9.000
+- E Tsukiji anguila crocante, pepino, masago, palta, cebollin cubierto en nori con salsa unagui con sutil picante — $ 11.000
+- ie AN es a camarón tempura, cebollin, palta, pepino, ají verde, envuelto en salmón, toping ikura — $ 12.
+- NN Kappes Mak — $ 4.000
+- _ Ebi Maki — $ 4.200
+- in se — $ 3.000
+- Gyutataki Jomo de res sellado a la sal con salsa ponzu. — $ 6.000
+- Edamame Poroto de soya cocinado al vapor con sal de Cab — $ 4.500
+- Edamame salteados en aceite de sésamo, sal de Cahuil y siosbim > — 5.500
+- Sarada Wakame ensalada de algas con nabo y pepino aderezado con vinagre de arroz — $ 6.500
+- Naoki Salad Pulpo, salmón, mix de hojas verdes y pepino. — $ 8.000
+- Gyosas de Cochayuyo y Papaya con salsa ponzu (7 und.) 3 — 5.500
+- Uni erizos al estilo Naoki. — $ 11.000
+- Naoki Nigiri crocante de arroz con tataki de salmón y kisami nori (5 und.) — $ 7.500
+- Katsu Ball bolitas de carne de cerdo al estilo Naoki salteadas en salsa de la casa. (5 und.) . — $ 7.500
+- Yaki Tori brochetas de pollo estilo Naokz. (3 und.) 51500 — $11
+- Atsuage tofu frito con cebollín y jengibre fresco y atsoubusly. me — $ 6.000
+- oe o Sake karamiyaki salmón rebozado picante estilo Naoki (8 und.) < — $ 8.000
+- ¡Ots e € Erizos — $ 5.500
+- Ostras y Exizos E — $ 5.500
+- M onos berenjenas asadas, yasai tempura, takuan y sal de luche envuelto en palta. — $ 9.000
+- Tako Tartar relleno de salmón picante con un toping de tártaro de pulpo e ¡Rura. — $ 10.500
+- Uni tempura rol! relleno de erizos a la chilena, con salsa de erizos y sake (6 bocados). — $ 9.000
+- Naruto pepino relleno con anguila, alga, salmón, palta, masago y ají verde (6 bocados). — $ 9.000
+- Naoki Unagi anguila a la parrilla en salsa picante, cebollín, takuan y palta, envuelto en sésamo i — $ 11.500
+- Tomodashi camarón tempura, salmón, palos de cilantro tempurizados, masago, cubierto en palta, i — $ 10.500
+- Roppongi loco apanado, salteado de verduras al chañar gratinado con katsoubushi. i — $ 10.000
+- Kuru camarón tempura, salmón, cebollín cubierto en palta, salsa Naoki y toping de crispy tempura. P — $ 9.500
+- Japón cilantro tempura, cebollin, pepino y tártaro de salmón picante. — $ 10.000
+- Fukasawa camarón tempura, cebollin, pimiento, cubierto en anguila gratinada y toping de masago. — $ 11.500
+- Shibuya roll gratinado unagi crocante, masago, cebollín, pepino, pimiento tempura y salsa — $ 10.500
+- Hotate salmón, camarón tempura, palta y tártaro picante de ostión con emulsión de masago, — $ 10.500
+- Z Roll salmón relleno con masago, tempurizado. — $ 10.500
+- Deba unagi caramelizada, pepino, masago, cebolla tempurizada cubierta en palta, furikake de wasabi. — $ 10.500
+- Geisha unag — $ 11.000
+- Geisha camarón salmón q — $ 11.000
+- Kaninosofuto rol! cangrejo de caparazón blanda envuelto en masago. E — $ 12.000
+- Unagui Tamago anguila, pimiento, cebolla tempurizada, ajt, cebollin envuelto en tortilla de huevo — $ 11.000
+- Piuremaki ro// tempurizado relleno de pinres al estilo naoki, acompañado con salsa de erizo y sake. Y — 9.000
+- Geisha Spider cangrejo picante, palta, cebollin envuelto en papel de arroz — $ 12.000
+- Tamago Vegetariano pimiento, cebolla tempurizada, ají, cebollín, berenjena asada envuelta en — $ 9.000
+- Tsukiji anguila crocante, pepino, masago, palta, cebollin cubierto en nori con salsa unagui con sutil picante Ss 4 — 1.000
+- Sake Trufa Roll camarón tempura, cebollin, palta, pepino, ají verde, envuelto en salmón, toping ikura — $ 12.500
+- Sake Maki — $ 4200
+- Kappa Maki — $ 4.000
+- Ebi Maki — $ 4200
+- Unagi Maki — $ 5.500
+- ay | Shirashi tradicional estilo de comer pescado con arroz, 500 — $ 13,
+- = Sake Oyakodon Sashimi de salmón sobre arroz acompañado de ikura, — $ 13.500
+- = Kani 6 patas de centolla Sresca, según disponibilidad — $ 13.000
+- Risotto Frío ikura — $ 8.500
+- Risotto Frío yn — $ 9.500
+- Sakana Pescado del día con aderezo estilo Naoki, ají cacho de cabra y cebollin, — $ 10.000
+- Otate ostiones Palagónicos con aderezo estilo Naoki. — $ 11.000
+- Sakana erizo — $ 12.000
+- Sake Trufado — $ 12.000
+- Maguro Foie sopleteado con foie ) salsa unagi. — $ 12.000
+- Awabi /oco chileno con emulsión de wasabi. — $ 11.000
+- Toro Maguto atún graso con aceite de sésamo y emulsión de wasabi, — $ 12.000
+- C y Tempura de mejillas al merquén acompañado con salsa tempura. — $ 9.500
+- ocina | Ebi Tempura camarón ecuatoriano acompañado con salsa tempura. — $ 9.500
+- « Tempura Soba caldo Japonés con fideos integrales (harina de trigo), huevo pochado con — $ 8.500
+- Yakimeshi arroz salteado con verduras, shitake, salsa de ostras y gambas. — $ 9.000
+- Sake Teriyaki con onigiri. — $ 12.000
+- Unagi a la plancha con onigiri. — $ 12.000
+- Tori Katsu apanado de pollo en salsa de vegetales y huesillos. — $ 10.000
+- Pollo Teriyaki acompañado con koroke al cedrón, — $ 10.000
+- Tori Supaishi pollo picante al estilo Naoki. — $ 11.000
+- Beef Teriyaki Filete en salsa teriyaki con onigire, — $ 12.000
+- Karaage trozos de pollo marinado, ligeramente fritos y crujientes (versión picante). — $ 10.000
+- Supaishina Ribu costillas de cerdo picante al estilo Naoki. — $ 7.000
+- Taramisoyaki bacalao a la plancha en salsa miso tare y algas crujientes. — $ 13.000
+- Nasu Miso berenjena asada. — $ 7.000
+- Gyosas de Pato fritas en salsa | YUU picante. a — $ 6.000
+- Pescado con arroz,
+- Risotto Frío ¿kura
+- Sakana Pescado del día con ad
+- Tempura de me
+- atoriano acompañado con salsa tempura.
+- Tempura Soba caldo japo
+- Pollo Teri
+- aishi pollo picante al estilo Naoki
+- trozos de pollo marinado,
+- Gyosas de Pato
+- Ntra eS Misoshiru — $ 3.000
+- Gyutataki domo de res sellado a la sal con salsa pone. — $ 6.000
+- Edamame poroto de soya cocinado al vapor con sal de Cabuil. — $ 4.500
+- Edamame salteados en aceite de sésamo, sal de Cabuil y shishimi. — $ 5.500
+- Sarada Wakame ensalada de algas con nabo y pepino aderezado con vinagre de arroz — $ 6,500
+- Naoki Salad pu/po, salmón, mix de hojas verdes y pepino. — $ 8.000
+- Gyosas de Cochayuyo y Papaya con salsa ponzu (7 und,) — $ 5.500
+- Agedashi Tofu pequeños trozos de tofu fritos en caldo tempura y katsoubushi. — $ 1,500
+- Uni erizos al estilo Naoki. — $ 11.000
+- Naoki Nigiri crocante de arroz con tataki de salmón y kisami nori (5 und.) — $ 7.500
+- Katsu Ball bolitas de carne de cerdo al estilo Naoki salteadas en salsa de la casa. (5 und. ) — $ 7.500
+- Yaki Tori brochetas de pollo estilo Naoki. (3 und. ) $.. — 5.500
+- Atsuage tofu frito con cebollin y jengibre fresco y Ratsoubushi. — $ 6.000
+- Hotate Furay ostiones patagónicos apanados con salsa kattn (7 und.) — $ 9.000
+- Gyutan lengua de ternera sellada en aceite sésamo, sal de cábuil y shishimi. — $ 7.800
+- Sake karamiyaki sa/món rebozado picante estilo Naoki (8 und.) — $ 8.000
+- Ika Furai calamares en panko — $ 9.000
+- La Casa | o0s — $ 5.500
+- Almejas — $ 5.500
+- Dl y Mia — $ 5500
+
 
 ## P.F. Chang's
 - **Ubicación:** Av. Pdte. Kennedy 5413, Local 362, Piso 1, 7560994 Las Condes, Región Metropolitana
@@ -633,8 +3716,101 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://www.pfchangs.cl/
 - **Menciona en su web:** sushi, ceviche, curry, pollo, carne, pescado, mariscos, wrap, tempura, pastel, brownie, cheesecake, pie, tarta, chocolate, postre, dulces, jugo
 - **Menciona en reseñas:** carne
-- **Carta (Google Maps):** SUSHI; al ge H CRISPY CEVICHE ROLL; / E (12.900); j ; SWEET TEMPURA ROLL; a lo (11.900); > l (12.900); > > Ss TABLA DE SUSHI; ij ENSALADAS Ñ; CRISPY CEVICHE ROLL; rallado. Cubierto con ceviche; SWEET TEMPURA ROLL; Roll tempurizado, camarón tempura,; y ciboulette, envuelto en nori tempura; TABLA DE SUSHI; piña tropical, ceviche vibran; ENSALADAS; pollo marinada con lemon; GF A N ES ee (18.300); rven con A Gs a a (22.900); ASIAN STEAK (23.900); E > A (22.900); AU E (13.900); GF : = (17.300); CARNES; ozos de carne tiernizados, 1; Con 2 proteínas a elección: Normal | GF & (14.900); Con 4 proteínas a elección: Normal | GF 4 (17.900); u] Opción Vegetariano (11.900); A ae 2. SA | GF (17.900); = Ss i Con 2 proteínas a elección (16.900); a sm i y AA Con 4 proteínas a elección (18.300); A) Ñ : - Opción Vegetariano (13.900); E | GF le (18.300); pl Tomate cherry, broccoli y otros por (1.500); ISPY HONEY SHRIMP Salsas y aderezos por . (1.500); ee $ Res, pollo, hongo, tofu o champiñon por (2.500); NN UB Camarón por (4.000); ANN A (17.900); acompañado de carne de res, poll; Con 2 proteínas a elección: Normal | GF (14.900); Con 4 proteínas a elección: Normal | GF (17.900); Opción Vegetariano (11.900); Con 2 proteínas a elección (16.900); Con 4 proteínas a elección (18.300); Tomate cherry, broccoli y otros por (1.500); Salsas y aderezos por (1.500); Res, pollo, hongo, tofu o champiñon por (2.500); Camarón por (4.000); MARISCOS; [] delicadamente rebozados en nuestra exquisita y picante a a “y (10.500); Porotos verdes crujientes, acompañados de nuestra : [] _ aga J ig (12.900); con arroz blanco o integral para disfrutarlo a tu gusto. ; : pee ee ae ge EN ] La (15.900); [ ] : ’ eT 0 - 'GF[ ] A (14.900); [] a> CS E - | 2 (16.900); [ ] GF “a — SIGNATT RE ASIAN PADTHALZ . (17.900); Pollo crujiente con un ligero toqu; pollo, tomate cherry,; exquisitos trozos de carne tierna,; [ ] GF (17.900); pescados, leche, soja, entre otros.; [] ALE e 1 12-900 J ‘i (10.500); ] “es ATES oe (19.900); 14:900] A eee pe ) o (115.900); [] Gr (17.900); CON camarones, Pollo, h; [] [] ae’ 1 (14.900); [ ] GF Me ; ea (15.900); vegetales. Preparado con una combinación de tres salsas: es E de ye = = ae ee E an ] ae 2 (14.900); [] : SWEET & SOUR CHICKEN O oes (14.900); portobello, champiñón, tallo de bambú, tomate cherry blanco o integral. [] Mi. ee (14.900); curry y leche de coco. > = i ee ioe; Láminas de pollo crujientes,; [ ] GF (15.900); Pollo crujiente con un lig; blanco o integral. [ 1 (14.900); Crujientes laminas de pollo reboza; COCONUT CURRY CHICKEN; blanco o integral. [ (14.900); curry y leche de coco.; fresca para que armes tus wraps, Incluye refill de lechuga, ] (140.500); y [] «O (13.900); Cerdo [ ] Camarón [ ] 4 unidades [ ] (8.900); CHANG'S CHICKEN LETTUCE WRAPS GF; [ ] GF (14.900); Cerdo [] Camarón [ ] (8.900); unidades [ (8.900); [] e A ie he hongos. Se sirve con We (14.900); IE ae . NOW pt () 66 <A (16.900); is ISS Ps # ¢ 0 me” Oe a 2 sd ($ 7.); [] 6F (16.900)
 - **Fecha de registro:** 2025-11-05
+
+### Carta
+
+- SUSHI
+- al ge H CRISPY CEVICHE ROLL
+- / E — 12.900
+- j ; SWEET TEMPURA ROLL
+- a lo — 11.900
+- > l — 12.900
+- > > Ss TABLA DE SUSHI
+- ij ENSALADAS Ñ
+- CRISPY CEVICHE ROLL
+- rallado. Cubierto con ceviche
+- SWEET TEMPURA ROLL
+- Roll tempurizado, camarón tempura,
+- y ciboulette, envuelto en nori tempura
+- TABLA DE SUSHI
+- piña tropical, ceviche vibran
+- ENSALADAS
+- pollo marinada con lemon
+- GF A N ES ee — 18.300
+- rven con A Gs a a — 22.900
+- ASIAN STEAK — 23.900
+- E > A — 22.900
+- AU E — 13.900
+- GF : = — 17.300
+- CARNES
+- ozos de carne tiernizados, 1
+- Con 2 proteínas a elección: Normal | GF & — 14.900
+- Con 4 proteínas a elección: Normal | GF 4 — 17.900
+- u] Opción Vegetariano — 11.900
+- A ae 2. SA | GF — 17.900
+- = Ss i Con 2 proteínas a elección — 16.900
+- a sm i y AA Con 4 proteínas a elección — 18.300
+- A) Ñ : - Opción Vegetariano — 13.900
+- E | GF le — 18.300
+- pl Tomate cherry, broccoli y otros por — 1.500
+- ISPY HONEY SHRIMP Salsas y aderezos por . — 1.500
+- ee $ Res, pollo, hongo, tofu o champiñon por — 2.500
+- NN UB Camarón por — 4.000
+- ANN A — 17.900
+- acompañado de carne de res, poll
+- Con 2 proteínas a elección: Normal | GF — 14.900
+- Con 4 proteínas a elección: Normal | GF — 17.900
+- Opción Vegetariano — 11.900
+- Con 2 proteínas a elección — 16.900
+- Con 4 proteínas a elección — 18.300
+- Tomate cherry, broccoli y otros por — 1.500
+- Salsas y aderezos por — 1.500
+- Res, pollo, hongo, tofu o champiñon por — 2.500
+- Camarón por — 4.000
+- MARISCOS
+- [] delicadamente rebozados en nuestra exquisita y picante a a “y — 10.500
+- Porotos verdes crujientes, acompañados de nuestra : [] _ aga J ig — 12.900
+- con arroz blanco o integral para disfrutarlo a tu gusto. ; : pee ee ae ge EN ] La — 15.900
+- [ ] : ’ eT 0 - 'GF[ ] A — 14.900
+- [] a> CS E - | 2 — 16.900
+- [ ] GF “a — SIGNATT RE ASIAN PADTHALZ . — 17.900
+- Pollo crujiente con un ligero toqu
+- pollo, tomate cherry,
+- exquisitos trozos de carne tierna,
+- [ ] GF — 17.900
+- pescados, leche, soja, entre otros.
+- [] ALE e 1 12-900 J ‘i — 10.500
+- ] “es ATES oe — 19.900
+- 14:900] A eee pe ) o — 115.900
+- [] Gr — 17.900
+- CON camarones, Pollo, h
+- [] [] ae’ 1 — 14.900
+- [ ] GF Me ; ea — 15.900
+- vegetales. Preparado con una combinación de tres salsas: es E de ye = = ae ee E an ] ae 2 — 14.900
+- [] : SWEET & SOUR CHICKEN O oes — 14.900
+- portobello, champiñón, tallo de bambú, tomate cherry blanco o integral. [] Mi. ee — 14.900
+- curry y leche de coco. > = i ee ioe
+- Láminas de pollo crujientes,
+- [ ] GF — 15.900
+- Pollo crujiente con un lig
+- blanco o integral. [ 1 — 14.900
+- Crujientes laminas de pollo reboza
+- COCONUT CURRY CHICKEN
+- blanco o integral. [ — 14.900
+- curry y leche de coco.
+- fresca para que armes tus wraps, Incluye refill de lechuga, ] — 140.500
+- y [] «O — 13.900
+- Cerdo [ ] Camarón [ ] 4 unidades [ ] — 8.900
+- CHANG'S CHICKEN LETTUCE WRAPS GF
+- [ ] GF — 14.900
+- Cerdo [] Camarón [ ] — 8.900
+- unidades [ — 8.900
+- [] e A ie he hongos. Se sirve con We — 14.900
+- IE ae . NOW pt () 66 <A — 16.900
+- is ISS Ps # ¢ 0 me” Oe a 2 sd — $ 7.
+- [] 6F — 16.900
+
 
 ## Pan Pa' Mi
 - **Ubicación:** Av. Simón Bolívar 5145, 7790541 Ñuñoa, Región Metropolitana
@@ -644,8 +3820,31 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://panpami.cl/
 - **Menciona en su web:** pizza, empanada, sopa, pastel, muffin, dulces
 - **Menciona en reseñas:** pizza
-- **Carta (Google Maps):** Pizza Margarita ($12.000) · Pizzas SIN GLUTEN; Pizza Margarita Vegana ($12.000) · Pizzas SIN GLUTEN; Pizza Diábola ($12.000) · Pizzas SIN GLUTEN; Pizza La Cabrita ($12.000) · Pizzas SIN GLUTEN; Pan de Masa Madre Blanco 500grs ($5.500) · Pan masa madre; Pan de Masa Madre Sarraceno Amarant 500grs ($5.500) · Pan masa madre; Pan de Masa Madre Multigrano 500grs ($5.500) · Pan masa madre; Pan de Masa Madre Blanco 1kg ($9.000) · Pan masa madre; Pan de Masa Madre Sarraceno Amarant 1kg ($9.000) · Pan masa madre; Pan de Masa Madre Multigrano 1kg ($9.000) · Pan masa madre; Kombucha ($3.300) · Bebidas; Shot de Kombucha ($2.500) · Bebidas
 - **Fecha de registro:** 2026-10-31
+
+### Carta
+
+#### Pizzas SIN GLUTEN
+
+- Pizza Margarita — $12.000
+- Pizza Margarita Vegana — $12.000
+- Pizza Diábola — $12.000
+- Pizza La Cabrita — $12.000
+
+#### Pan masa madre
+
+- Pan de Masa Madre Blanco 500grs — $5.500
+- Pan de Masa Madre Sarraceno Amarant 500grs — $5.500
+- Pan de Masa Madre Multigrano 500grs — $5.500
+- Pan de Masa Madre Blanco 1kg — $9.000
+- Pan de Masa Madre Sarraceno Amarant 1kg — $9.000
+- Pan de Masa Madre Multigrano 1kg — $9.000
+
+#### Bebidas
+
+- Kombucha — $3.300
+- Shot de Kombucha — $2.500
+
 
 ## Panart®
 - **Ubicación:** Av. Presidente José Batlle Y Ordóñez 3545, 7790517 Ñuñoa, Región Metropolitana
@@ -655,8 +3854,113 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://www.panart.cl/
 - **Menciona en su web:** hamburguesa, pizza, empanada, hot dog, pino, torta, pastel, galleta, brownie, muffin, cheesecake, pie, postre, dulces
 - **Menciona en reseñas:** empanada, pollo, pino, torta, pastel, alfajor, brownie, chocolate, merengue
-- **Carta (Google Maps):** » MUFFIN ARÁNDANO ($2.400); MUFFIN ZANAHORIA ($2.400); MUFFIN CHIPS DE CHOCOLATE ($2.400); ¢ BROWNIE ($2.000); » BROWNIE SIN AZÚCAR ($2.200); ¢ GALLETAS CHIPS ($3.500); + GALLETAS CRAQUELADAS ($3.500); ALFAJOR ($4.200); ¢ GALLETAS MANTEQUILLA ($4.050); GALLETAS MANTEQUILLA SIN AZÚCAR ($4.200); ¢ CAJA GALLETAS FLORENTINAS ($12.000); CAJA GALLETAS DELICIAS ($11.000); « MUFFIN ARANDANO; ¢ MUFFIN ZANAHORIA; ¢ MUFFIN CHIPS DE CHOCOLATE; BROWNIE; BROWNIE SIN AZUCAR; + GALLETAS CHIPS; « ALFAJOR; + GALLETAS MANTEQUILLA; + GALLETAS MANTEQUILLA SIN AZÚCAR; + CAJA GALLETAS FLORENTINAS; + CAJA GALLETAS DELICIAS; EMPANADA ESPINACA QUESO ($4.900); « EMPANADA CHAMPIÑÓN QUESO ($4.900); + EMPANADA POLLO ESPINACA QUESO ($5.900); + EMPANADA CAMARÓN QUESO ($5.900); EMPANADA PINO ($5.900); PIZZA NAPOLITANA ($4.300); PIZZA PEPPERONI ($4.300); PIZZA VEGETARIANA ($4.300); PIZZA JAMÓN SERRANO PESTO ($5.100); QUICHE JAMÓN SERRANO CHOCLO ($4.800); QUICHE VERDURAS ($4.800); + QUICHE SALMÓN PUERRO ($5.800); QUICHE QUESO CABRA ESPINACA ($5.800); + EMPANADA ESPINACA QUESO; EMPANADA POLLO ESPINACA QUESO; + EMPANADA PINO; + PIZZA VEGETARIANA; « PIZZA JAMÓN SERRANO PESTO; QUEQUE DE YOGUR CON AZÚCAR FLOR ($7.500); QUEQUE DE YOGUR Y LIMÓN CON ($8.000); « QUEQUE SURENO ($8.000); + QUEQUE DE ZANAHORIA NUEZ ($9.800); QUEQUE DE YOGUR SIN AZÚCAR ($10.000); QUEQUE SIN AZUCAR BANADO ($11.500); EN CHOCOLATE Y ALMENDRAS; + QUEQUE DE CHOCOLATE BANADO ($14.500); + QUEQUE DE YOGUR CON AZÚCAR FLOR ($7.500); ¢ QUEQUE DE CHOCOLATE BANADO; « PAN MOLDE BLANCO ($7.400); « PAN MOLDE LINAZA ($8.200); « PAN MOLDE NUEZ ($7.800); « PAQUETE PAN FRICA ($2.400); + PAQUETE PAN HOT DOG ($2.400); « PAQUETE DOBLADITAS ($2.900); « BAGUETTE ($3.000); ¢ MINI BAGUETTE ($1.500); AMET ICAMO....--.sesseeconeeneeeeneesnessnessnessrersesssnecnsersnensnenanennssneet BOO ($4); mango-naranja, liMONada)...ccccacssssencesasscssscascsccssosessccsccsescasessseseseres ($1.400); Empanada Pollo-Espinaca (Pollo, espinaca, crema y queso)-...-++ ($2.000); Empanada ChampifiOn-queso............-.-sssesesesseeseess 000 ($2); Quiche de Verduras (Berenjena, Champiñón, Pimentón, zitaliano)»..» ($3.800); Quiche de Queso cabra, espinaca y miel ...................... ($54.500); = Ge CVA ¥ o ($3.100); AAA 700 ($1); Empanada de Pino; Empanada Pollo-Espinaca (Pollo, espinaca, crema y queSO)auananaan. ($2.000); Empanada Champiñón-queso; Empanada Espinaca (Espinaca, crema y QUESO) macncamanornnma she diaddde mado ($2.000); Quiche de Verduras (Berenjena, Champiñón, Pimentón, z.italiano)..... ($3.800); Qtsiche de SalmónPuUeIKro. srorcsroterccesisrereee BEN .. ($4.500); IN BAGUETTE — + TROP Moo (2,600); MOLDENUEZ © #©°°° TRNZOCARLSECARE *] (4,200); =POLLOJESPIÑACA BRN NIE F ($300); CHAMPINON — # BROWNIE SA + 4800 (3,000); PITTAS:-NAPDIWA #300 GALLETIS MANTEQUILLA * (2.400); PASTELERIA; TROZO TORTA; x GOO ($4); TIOLO CALESETANE. * (4.200); i t iu *3000 BROWNIE; BROWNIE“; PIZZAS -NADOLTANA; ~ GALLETAS ah; GALLETON Gn; ! Pavlova (disco de merengue, relleno con mousse de lúcuma o Maracuyá)...... ($2.500); De Muffins (Zanahoria, Arándanos, Chocolate CRIAS) iuoicrrrriac da ni (51.400); Galletón (Avena-Pasas, Mantequilla con Chocolate, Chocolate Chips)......».== (51.200); Trazo Plenaria ato a ($53.000); Pan Molde Blanco (960 grs. Aprox) serranas 200 ($5); Pan Molde Linaza (940 grs. Aprox) -.-sessssssetseteessesecaseseennssnsessees ($5600); Brownie; Trozo torta; Trozo Cheesecake; manjar y ganache de chocolate)15/20p........ww..ww.....» ($20.000); Hojarasca (manjar, manjar-nuez, manjar-lúcuma)..... ($25.000); Pie (de limón o maracuyá) BPonconicncccommommommm>m>mm”*m”m””b. OOO á ($14); Torta Zanahoria- nuez; manjar y ganache de chocolate)15/20p; Cheesecake (frambuesas
 - **Fecha de registro:** 2025-11-05
+
+### Carta
+
+- » MUFFIN ARÁNDANO — $2.400
+- MUFFIN ZANAHORIA — $2.400
+- MUFFIN CHIPS DE CHOCOLATE — $2.400
+- ¢ BROWNIE — $2.000
+- » BROWNIE SIN AZÚCAR — $2.200
+- ¢ GALLETAS CHIPS — $3.500
+- + GALLETAS CRAQUELADAS — $3.500
+- ALFAJOR — $4.200
+- ¢ GALLETAS MANTEQUILLA — $4.050
+- GALLETAS MANTEQUILLA SIN AZÚCAR — $4.200
+- ¢ CAJA GALLETAS FLORENTINAS — $12.000
+- CAJA GALLETAS DELICIAS — $11.000
+- « MUFFIN ARANDANO
+- ¢ MUFFIN ZANAHORIA
+- ¢ MUFFIN CHIPS DE CHOCOLATE
+- BROWNIE
+- BROWNIE SIN AZUCAR
+- + GALLETAS CHIPS
+- « ALFAJOR
+- + GALLETAS MANTEQUILLA
+- + GALLETAS MANTEQUILLA SIN AZÚCAR
+- + CAJA GALLETAS FLORENTINAS
+- + CAJA GALLETAS DELICIAS
+- EMPANADA ESPINACA QUESO — $4.900
+- « EMPANADA CHAMPIÑÓN QUESO — $4.900
+- + EMPANADA POLLO ESPINACA QUESO — $5.900
+- + EMPANADA CAMARÓN QUESO — $5.900
+- EMPANADA PINO — $5.900
+- PIZZA NAPOLITANA — $4.300
+- PIZZA PEPPERONI — $4.300
+- PIZZA VEGETARIANA — $4.300
+- PIZZA JAMÓN SERRANO PESTO — $5.100
+- QUICHE JAMÓN SERRANO CHOCLO — $4.800
+- QUICHE VERDURAS — $4.800
+- + QUICHE SALMÓN PUERRO — $5.800
+- QUICHE QUESO CABRA ESPINACA — $5.800
+- + EMPANADA ESPINACA QUESO
+- EMPANADA POLLO ESPINACA QUESO
+- + EMPANADA PINO
+- + PIZZA VEGETARIANA
+- « PIZZA JAMÓN SERRANO PESTO
+- QUEQUE DE YOGUR CON AZÚCAR FLOR — $7.500
+- QUEQUE DE YOGUR Y LIMÓN CON — $8.000
+- « QUEQUE SURENO — $8.000
+- + QUEQUE DE ZANAHORIA NUEZ — $9.800
+- QUEQUE DE YOGUR SIN AZÚCAR — $10.000
+- QUEQUE SIN AZUCAR BANADO — $11.500
+- EN CHOCOLATE Y ALMENDRAS
+- + QUEQUE DE CHOCOLATE BANADO — $14.500
+- + QUEQUE DE YOGUR CON AZÚCAR FLOR — $7.500
+- ¢ QUEQUE DE CHOCOLATE BANADO
+- « PAN MOLDE BLANCO — $7.400
+- « PAN MOLDE LINAZA — $8.200
+- « PAN MOLDE NUEZ — $7.800
+- « PAQUETE PAN FRICA — $2.400
+- + PAQUETE PAN HOT DOG — $2.400
+- « PAQUETE DOBLADITAS — $2.900
+- « BAGUETTE — $3.000
+- ¢ MINI BAGUETTE — $1.500
+- AMET ICAMO....--.sesseeconeeneeeeneesnessnessnessrersesssnecnsersnensnenanennssneet BOO — $4
+- mango-naranja, liMONada)...ccccacssssencesasscssscascsccssosessccsccsescasessseseseres — $1.400
+- Empanada Pollo-Espinaca (Pollo, espinaca, crema y queso)-...-++ — $2.000
+- Empanada ChampifiOn-queso............-.-sssesesesseeseess 000 — $2
+- Quiche de Verduras (Berenjena, Champiñón, Pimentón, zitaliano)»..» — $3.800
+- Quiche de Queso cabra, espinaca y miel ...................... — $54.500
+- = Ge CVA ¥ o — $3.100
+- AAA 700 — $1
+- Empanada de Pino
+- Empanada Pollo-Espinaca (Pollo, espinaca, crema y queSO)auananaan. — $2.000
+- Empanada Champiñón-queso
+- Empanada Espinaca (Espinaca, crema y QUESO) macncamanornnma she diaddde mado — $2.000
+- Quiche de Verduras (Berenjena, Champiñón, Pimentón, z.italiano)..... — $3.800
+- Qtsiche de SalmónPuUeIKro. srorcsroterccesisrereee BEN .. — $4.500
+- IN BAGUETTE — + TROP Moo — 2,600
+- MOLDENUEZ © #©°°° TRNZOCARLSECARE *] — 4,200
+- =POLLOJESPIÑACA BRN NIE F — $300
+- CHAMPINON — # BROWNIE SA + 4800 — 3,000
+- PITTAS:-NAPDIWA #300 GALLETIS MANTEQUILLA * — 2.400
+- PASTELERIA
+- TROZO TORTA
+- x GOO — $4
+- TIOLO CALESETANE. * — 4.200
+- i t iu *3000 BROWNIE
+- BROWNIE“
+- PIZZAS -NADOLTANA
+- ~ GALLETAS ah
+- GALLETON Gn
+- ! Pavlova (disco de merengue, relleno con mousse de lúcuma o Maracuyá)...... — $2.500
+- De Muffins (Zanahoria, Arándanos, Chocolate CRIAS) iuoicrrrriac da ni — 51.400
+- Galletón (Avena-Pasas, Mantequilla con Chocolate, Chocolate Chips)......».== — 51.200
+- Trazo Plenaria ato a — $53.000
+- Pan Molde Blanco (960 grs. Aprox) serranas 200 — $5
+- Pan Molde Linaza (940 grs. Aprox) -.-sessssssetseteessesecaseseennssnsessees — $5600
+- Brownie
+- Trozo torta
+- Trozo Cheesecake
+- manjar y ganache de chocolate)15/20p........ww..ww.....» — $20.000
+- Hojarasca (manjar, manjar-nuez, manjar-lúcuma)..... — $25.000
+- Pie (de limón o maracuyá) BPonconicncccommommommm>m>mm”*m”m””b. OOO á — $14
+- Torta Zanahoria- nuez
+- manjar y ganache de chocolate)15/20p
+- Cheesecake (frambuesas
+
 
 ## Pastelería Kleine Nuss
 - **Ubicación:** Av. Manquehue Sur 1810, 7571423 Las Condes, Región Metropolitana
@@ -666,8 +3970,19 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.kleinenuss.cl/
 - **Menciona en su web:** panqueque, torta, pastel, galleta, brownie, chocolate, postre
 - **Menciona en reseñas:** pastel, brownie
-- **Carta (Google Maps):** rellena Ton,crema de nuez, manjar y; pers. - ~~ ae ($ 28.8001); pers. ($ 37.500.); pers. $-. (46.500); pers ($ 74.000.); Torta Kleine Nuss; pets. ($ 61.300.); PASTELERÍA ALEMANA
 - **Fecha de registro:** 2025-11-05
+
+### Carta
+
+- rellena Ton,crema de nuez, manjar y
+- pers. - ~~ ae — $ 28.8001
+- pers. — $ 37.500.
+- pers. $-. — 46.500
+- pers — $ 74.000.
+- Torta Kleine Nuss
+- pets. — $ 61.300.
+- PASTELERÍA ALEMANA
+
 
 ## Pastelería La Celeste
 - **Ubicación:** Gerónimo de Alderete 1380, 7650521 Vitacura, Región Metropolitana
@@ -687,8 +4002,59 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.patagoniaschokoland.cl/
 - **Menciona en su web:** torta, galleta, alfajor, helado, chocolate, manjar, dulce de leche, postre, dulces
 - **Menciona en reseñas:** sándwich, torta, helado, chocolate, churro, manjar
-- **Carta (Google Maps):** thocolato lige re para cormapartir AED, ali > i 3% 4 (4.400); CHOCOLATE CALIENTE ESPESO | E he, endulzado con Panela (2.600); Mistela Cereza y Amaretto. Peru (3,399); BOMBONES BITTER Romero al Limon, Cabernet Macchiato (3.300); PRALINÉS Tricolor, Cookies, Nocciola Espresso (3.300); BOMBONES DE MAZAPÁN Guinda, Naranja, Moka y Espresso (3.300); Mazapán Alfajor. Etiopia; ELECCIÓN BOMBONES Romero al Limón, Miel de Té de Valdiv (3.300); Mazapán Alfajor.; Filete de salmón a la plancha acompañado de cremoso de ($9.990); quinoa y vegetales asados.; Filete de res con salsa demi glace al chocolate bitter 70% ff ($ 10.990); Tarta salada de masa quebradiza acompañada de ($5.900); ensalada verde y dressing cítrico.; La perfecta combinación de charcutería, quesos, pancitos, ($14.900); chocolate y fruta de estación.; unidad del tradicional crudo valdiviano servido en pan ($3.200); TABLA CHOCOLATES PATAGONIA; ingredientes australes como murta, maqui, ruibarbo ($4.900); GALLETITAS DE LA TANTE p; g de galletas surtidas artesanales con toques { | 4 ($2.500); Amasadito jamón/queso, galletitas, una cuchara de ($4.290); GALLETITAS DE LA TANTE; E del chocolate. a; Por ss ingredientes dl chocolate en.; del chocolate.; PORCIÓN KINDER ($ 2.500); ML MN - A 8 = ($ 7.500); i - _ _ _ _ __— a ES. 2 ($ 2); ESPRESSO DOBLE | fe: SN a ($ 2.400); AMERICANO | | | E ae B ($ 2.500); MACHIATO | | | 5 ES ($ 2.400); CAPPUCCINO | dia moe AAA O O ($ 3.000); LATTE | nn (53,200); MOCACCINO | [e ESE? a ($ 3.400); AFFOGATO ($ 4.000); CHOCOLATE CALIENTE ($ 3.500); ÉS TÉ / INFUSIONES ($ 3.000); > Y CHAI LATTE | ae Teal ($ 3.400); A > BEBIDA VEGETAL EXTRA | A ($500); BEBIDA VEGETAL EXTRA ($500); TRADICIONAL | | 32500 A j (4.800); EXTRA BITTER | | SN nn (5.200); SIN AZÚCAR | | a (5.200); E Cris Pearl Bitte, Pipoca, (5.700); SIMPLE J sabor -1 ($ 3500); Se DOBLE 2 sabores ($ 4.500); CANO (2.400)
 - **Fecha de registro:** 2025-11-05
+
+### Carta
+
+- thocolato lige re para cormapartir AED, ali > i 3% 4 — 4.400
+- CHOCOLATE CALIENTE ESPESO | E he, endulzado con Panela — 2.600
+- Mistela Cereza y Amaretto. Peru — 3,399
+- BOMBONES BITTER Romero al Limon, Cabernet Macchiato — 3.300
+- PRALINÉS Tricolor, Cookies, Nocciola Espresso — 3.300
+- BOMBONES DE MAZAPÁN Guinda, Naranja, Moka y Espresso — 3.300
+- Mazapán Alfajor. Etiopia
+- ELECCIÓN BOMBONES Romero al Limón, Miel de Té de Valdiv — 3.300
+- Mazapán Alfajor.
+- Filete de salmón a la plancha acompañado de cremoso de — $9.990
+- quinoa y vegetales asados.
+- Filete de res con salsa demi glace al chocolate bitter 70% ff — $ 10.990
+- Tarta salada de masa quebradiza acompañada de — $5.900
+- ensalada verde y dressing cítrico.
+- La perfecta combinación de charcutería, quesos, pancitos, — $14.900
+- chocolate y fruta de estación.
+- unidad del tradicional crudo valdiviano servido en pan — $3.200
+- TABLA CHOCOLATES PATAGONIA
+- ingredientes australes como murta, maqui, ruibarbo — $4.900
+- GALLETITAS DE LA TANTE p
+- g de galletas surtidas artesanales con toques { | 4 — $2.500
+- Amasadito jamón/queso, galletitas, una cuchara de — $4.290
+- GALLETITAS DE LA TANTE
+- E del chocolate. a
+- Por ss ingredientes dl chocolate en.
+- del chocolate.
+- PORCIÓN KINDER — $ 2.500
+- ML MN - A 8 = — $ 7.500
+- i - _ _ _ _ __— a ES. 2 — $ 2
+- ESPRESSO DOBLE | fe: SN a — $ 2.400
+- AMERICANO | | | E ae B — $ 2.500
+- MACHIATO | | | 5 ES — $ 2.400
+- CAPPUCCINO | dia moe AAA O O — $ 3.000
+- LATTE | nn — 53,200
+- MOCACCINO | [e ESE? a — $ 3.400
+- AFFOGATO — $ 4.000
+- CHOCOLATE CALIENTE — $ 3.500
+- ÉS TÉ / INFUSIONES — $ 3.000
+- > Y CHAI LATTE | ae Teal — $ 3.400
+- A > BEBIDA VEGETAL EXTRA | A — $500
+- BEBIDA VEGETAL EXTRA — $500
+- TRADICIONAL | | 32500 A j — 4.800
+- EXTRA BITTER | | SN nn — 5.200
+- SIN AZÚCAR | | a — 5.200
+- E Cris Pearl Bitte, Pipoca, — 5.700
+- SIMPLE J sabor -1 — $ 3500
+- Se DOBLE 2 sabores — $ 4.500
+- CANO — 2.400
+
 
 ## Piaf Café
 - **Ubicación:** Av. Ejército Libertador 591, 8370243 Santiago, Región Metropolitana
@@ -696,8 +4062,162 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.7 / 5
 - **Enlace:** https://www.google.com/maps?cid=10248643407148170209
 - **Menciona en reseñas:** churrasco, pastel, brownie, chocolate, dulce de leche, dulces
-- **Carta (Google Maps):** Espresso / Ristretto / Lungo Tazón de Té ($2.500); Espresso Doble Té con Leche ($3.000); Americano Chai Latte / Golden Milk ($2.900); Americano Doble Matcha Latte ($3.400); Shot de espresso adicional Iced Tea ($900); Café con Leche Chocolate Caliente; Machiatto Chocolate Caliente ($2.900); Capuccino (Frío o Caliente) Chocolate Caliente ($3.500); Capuccino Doble ($4.000); Chocolate Caliente Menta ($5.500); Latte (Frío o caliente) Ñ ($4.000); Chocolate Caliente de Antaño ($5.500); Latte Doble (Frío o caliente) . ($4.500); Mockaccino (Frío o caliente) ($4.500); Mocka Blanco (Frio o caliente) Gaseosa ($4.800); Mocka Menta (Frio o caliente) Agua Tónica / Ginger Beer ($4.800); Banana Cream (Frio o caliente) Agua Mineral ($4.700); Café Helado Jugo Natural ($6.500); Dirty Chai Limonada Sola ($4.500); Tazón de Leche Limonada con Sabor ($3.000); Syrup Adicional Limonada Menta Jengibre ($700); Leche Vegetal Adicional Vitamina Naranja ($700); Porción de Crema Adicional Smoothie ($700); Chocolate Caliente; Mocka Blanco (Frio o caliente) ($4.800); Mocka Menta (Frio o caliente) ($4.800); Banana Cream (Frio o caliente) ($4.700); Café Helado; Jugo Natural; io Ave Pimiento a te a E Poche. Be ’ y E ($ 7.490); Pan ciabatta con pasta de | | q nena olc : ea : E ($46); Moscow Muleconsabor ($5490); Agua Mineral ($ 2.490); tomate Ginger Beer ($4.490); eladas Ensaladas y Quiche; Copa de Helado Aisalada César ($ 5.990); ownie con Helado : ie; o) heeds (Consultar disponibilidad) £ ($5.990); © CroffleconHelado (5.990); Pan ciabatta con pasta de; Jugo Chirimoya; Churrasco taliano; Ensaladas y Quiche; Copa de Helado; Ensalada César; Brownie con Helado; Quiche con ensalada; Volcán de Chocolate; Croffle con Helado; Ave Mayo Jugo Natural Isabor —- “AB ($ 7.490); ave y mayonesa. Jugo Chirimoya Alegre uff ($14.990); Ave Pimiento Limenada sola A ($7.490); Pan ciabatta con pasta de Limonada Menta Jengibre + a ($14,990); A ETE ‘Limonada Albahaca IN ($14.990); a dro Smoothie UP ($14.990); Churrasco Ttaliano = | Mul % ($ 8.990); = gostadasconPalta and a Y ($5490); Paila de Huevos o OS ($ 3.990); qe > Ensaladas y Quiche; ae Copa de Helado Ensalada César ($5.990); LA Volcánde Chocolate (Consultar disponibilidad) ($5.990); Jugo Natural | sabor; Pan cisbatta con pasta de; Jugo Chirimoya Alegre; Pan ciabatta con pasta de; Limonada Menta Jengibre ($14.990); Churrasco Ttaliano; i bor ($3490); Ensaladas y Quiche; de Helado; Brownie con Helado; Volcán de Chocolate; Croffle con Helado; Café, Té y Chocolate A, ens; Caliente Frio Medi ialuna ? ($ 1990); Espresso - : Ee i ($2.490); Americano (240.ce) Muffin anne ALADO ' ($2.990); Capuccino (360cc) B , pn090 ($ 3.890); Capuccino con sabor rowue 2 ($ 3.490); latte (180ce) :390 Rollo de Canela y ($4490); Latte con Sabor —C re 95 0—0 ($4); ockaccino(360ee) 490 Pastelería ($ 4.499); Blanco ($490); Affogato E TrogodeTorta ($2990); Café Helado ee eae | Epos ($4.290); Tazón de Té Crumble de ruta ($2990); Tce Tea - ake Tartas ($4490); Chocolate | Pie de Limón y ($4.490); Signaturedelmes ¢» 990 SS Cheesecake ($ 4.990); Ciabatta Capresse ($ 6.990); \ i Pan ciabatta con queso crema, tomate, albahaca y aceitunas. E ($6.990); bagel de arándanos cong : y; Lat ($7.990); Y Chocolate; Americano (240 ce) ($ 2.990); Medialuna Manjar ($ 2.490); Muffin; Capuccino (360cc) ($3.890); Brownie; Capuccino con sabor ($14.490); Latte con Sabor ($14.890); Mockaccino (360 ce) ($4.490); Pastelería; eye de Torta; Café Helado; Tartas; Chocolate; Pie de Limón; Signature del mes ($ 1.990); Cheesecake; Bagel; Pan bagel de arándar tos come gS ee); Pan bagel desésamo1; Croissant Queso; Croissant Pavo”; Y Jugo del día SÓN; Sandwich del día S RS; > Flaky (7.990); if Jugo del dia ee; le | Tarta del día Ni; W k ($8.990); S Torta del día Y; Sandwich del día y ); IN Z r ($9.990); Jugo del día; Sandwich del dia; Tarta del dia; Torta del dia; Pan ciabatta con pasta de Limonada Menta Jengibre he (94.990); Reg gOS: Limonada Albahaca Ap ($7,990); Churrasco taliano oo. WY ($8.990); Tostadas con Palta Signature del Mes a ($5.490); E Paila de huevos con Ginger Beer ae ($41.490); , 7 Ensaladas y Quiche; ¡A Copa de Helado Ensalada César ($5.990); % 9 Volednde Chocolate — (Consultar disponibilidad) i ($5.990); AS Crofflecon Helado | we ($5,990); Jugo Natural | sabor; Ven cinbatia con pasta de; Jugo Chirimoya Alegre; Pan ciabatta con pasta de; Limonada Menta Jengibre ($4990); Churrascottaliano ($8.990); Moscow Mule con sabor ($ 5.490); Tostadas con Palta ($5.490); Porción de Empanaditas ($5.990); Ensalada César; Copa de Helado; Brownie con Helado; Voleán de Chocolate; Croffle con Helado
 - **Fecha de registro:** 2026-03-23
+
+### Carta
+
+- Espresso / Ristretto / Lungo Tazón de Té — $2.500
+- Espresso Doble Té con Leche — $3.000
+- Americano Chai Latte / Golden Milk — $2.900
+- Americano Doble Matcha Latte — $3.400
+- Shot de espresso adicional Iced Tea — $900
+- Café con Leche Chocolate Caliente
+- Machiatto Chocolate Caliente — $2.900
+- Capuccino (Frío o Caliente) Chocolate Caliente — $3.500
+- Capuccino Doble — $4.000
+- Chocolate Caliente Menta — $5.500
+- Latte (Frío o caliente) Ñ — $4.000
+- Chocolate Caliente de Antaño — $5.500
+- Latte Doble (Frío o caliente) . — $4.500
+- Mockaccino (Frío o caliente) — $4.500
+- Mocka Blanco (Frio o caliente) Gaseosa — $4.800
+- Mocka Menta (Frio o caliente) Agua Tónica / Ginger Beer — $4.800
+- Banana Cream (Frio o caliente) Agua Mineral — $4.700
+- Café Helado Jugo Natural — $6.500
+- Dirty Chai Limonada Sola — $4.500
+- Tazón de Leche Limonada con Sabor — $3.000
+- Syrup Adicional Limonada Menta Jengibre — $700
+- Leche Vegetal Adicional Vitamina Naranja — $700
+- Porción de Crema Adicional Smoothie — $700
+- Chocolate Caliente
+- Mocka Blanco (Frio o caliente) — $4.800
+- Mocka Menta (Frio o caliente) — $4.800
+- Banana Cream (Frio o caliente) — $4.700
+- Café Helado
+- Jugo Natural
+- io Ave Pimiento a te a E Poche. Be ’ y E — $ 7.490
+- Pan ciabatta con pasta de | | q nena olc : ea : E — $46
+- Moscow Muleconsabor — $5490
+- Agua Mineral — $ 2.490
+- tomate Ginger Beer — $4.490
+- eladas Ensaladas y Quiche
+- Copa de Helado Aisalada César — $ 5.990
+- ownie con Helado : ie
+- o) heeds (Consultar disponibilidad) £ — $5.990
+- © CroffleconHelado — 5.990
+- Pan ciabatta con pasta de
+- Jugo Chirimoya
+- Churrasco taliano
+- Ensaladas y Quiche
+- Copa de Helado
+- Ensalada César
+- Brownie con Helado
+- Quiche con ensalada
+- Volcán de Chocolate
+- Croffle con Helado
+- Ave Mayo Jugo Natural Isabor —- “AB — $ 7.490
+- ave y mayonesa. Jugo Chirimoya Alegre uff — $14.990
+- Ave Pimiento Limenada sola A — $7.490
+- Pan ciabatta con pasta de Limonada Menta Jengibre + a — $14,990
+- A ETE ‘Limonada Albahaca IN — $14.990
+- a dro Smoothie UP — $14.990
+- Churrasco Ttaliano = | Mul % — $ 8.990
+- = gostadasconPalta and a Y — $5490
+- Paila de Huevos o OS — $ 3.990
+- qe > Ensaladas y Quiche
+- ae Copa de Helado Ensalada César — $5.990
+- LA Volcánde Chocolate (Consultar disponibilidad) — $5.990
+- Jugo Natural | sabor
+- Pan cisbatta con pasta de
+- Jugo Chirimoya Alegre
+- Pan ciabatta con pasta de
+- Limonada Menta Jengibre — $14.990
+- Churrasco Ttaliano
+- i bor — $3490
+- Ensaladas y Quiche
+- de Helado
+- Brownie con Helado
+- Volcán de Chocolate
+- Croffle con Helado
+- Café, Té y Chocolate A, ens
+- Caliente Frio Medi ialuna ? — $ 1990
+- Espresso - : Ee i — $2.490
+- Americano (240.ce) Muffin anne ALADO ' — $2.990
+- Capuccino (360cc) B , pn090 — $ 3.890
+- Capuccino con sabor rowue 2 — $ 3.490
+- latte (180ce) :390 Rollo de Canela y — $4490
+- Latte con Sabor —C re 95 0—0 — $4
+- ockaccino(360ee) 490 Pastelería — $ 4.499
+- Blanco — $490
+- Affogato E TrogodeTorta — $2990
+- Café Helado ee eae | Epos — $4.290
+- Tazón de Té Crumble de ruta — $2990
+- Tce Tea - ake Tartas — $4490
+- Chocolate | Pie de Limón y — $4.490
+- Signaturedelmes ¢» 990 SS Cheesecake — $ 4.990
+- Ciabatta Capresse — $ 6.990
+- \ i Pan ciabatta con queso crema, tomate, albahaca y aceitunas. E — $6.990
+- bagel de arándanos cong : y
+- Lat — $7.990
+- Y Chocolate
+- Americano (240 ce) — $ 2.990
+- Medialuna Manjar — $ 2.490
+- Muffin
+- Capuccino (360cc) — $3.890
+- Brownie
+- Capuccino con sabor — $14.490
+- Latte con Sabor — $14.890
+- Mockaccino (360 ce) — $4.490
+- Pastelería
+- eye de Torta
+- Café Helado
+- Tartas
+- Chocolate
+- Pie de Limón
+- Signature del mes — $ 1.990
+- Cheesecake
+- Bagel
+- Pan bagel de arándar tos come gS ee)
+- Pan bagel desésamo1
+- Croissant Queso
+- Croissant Pavo”
+- Y Jugo del día SÓN
+- Sandwich del día S RS
+- > Flaky — 7.990
+- if Jugo del dia ee
+- le | Tarta del día Ni
+- W k — $8.990
+- S Torta del día Y
+- Sandwich del día y )
+- IN Z r — $9.990
+- Jugo del día
+- Sandwich del dia
+- Tarta del dia
+- Torta del dia
+- Pan ciabatta con pasta de Limonada Menta Jengibre he — 94.990
+- Reg gOS: Limonada Albahaca Ap — $7,990
+- Churrasco taliano oo. WY — $8.990
+- Tostadas con Palta Signature del Mes a — $5.490
+- E Paila de huevos con Ginger Beer ae — $41.490
+- , 7 Ensaladas y Quiche
+- ¡A Copa de Helado Ensalada César — $5.990
+- % 9 Volednde Chocolate — (Consultar disponibilidad) i — $5.990
+- AS Crofflecon Helado | we — $5,990
+- Jugo Natural | sabor
+- Ven cinbatia con pasta de
+- Jugo Chirimoya Alegre
+- Pan ciabatta con pasta de
+- Limonada Menta Jengibre — $4990
+- Churrascottaliano — $8.990
+- Moscow Mule con sabor — $ 5.490
+- Tostadas con Palta — $5.490
+- Porción de Empanaditas — $5.990
+- Ensalada César
+- Copa de Helado
+- Brownie con Helado
+- Voleán de Chocolate
+- Croffle con Helado
+
 
 ## Piegari Chile
 - **Ubicación:** Av. Nueva Costanera 4092, 7630191 Vitacura, Región Metropolitana
@@ -707,8 +4227,45 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.piegari.cl/
 - **Menciona en su web:** pasta, carne, pescado, mariscos, risotto
 - **Menciona en reseñas:** pasta, ensalada, asado, flan
-- **Carta (Google Maps):** S y parmesano con aderezo) (10.900); berenjenas siciliana, salamame napoli, spianatta, S (12.900); (3p) ($25.900); Entradas Pastas; (Finos spaghettis frescos al huevo con salsa ($13.900); pomodoro y mariscos); Malfatti ($13.900); Sorrentini Alla Francesa (26.900); e ' ($14.500); en su concha. 6un) ($15.900); Carnes y Pollos; (Filete a la plancha con salsa a la pimienta ($13.900); Pastas; Risottos; Pollo a la Calabresa; Risotto con Camarones; Risotto con Ragú de Cordero; PASTA ARTESANAL RELLENA; ile champignones) (11.900); lee ($15.900); lentamente en salsa de citricos) ($1); mozzarella y salsa pomodoro) ($13.900); ane ($15.900); tártara); OTRAS PASTAS ARTESANALES; CARNES Y POLLOS; Matambrito al Verdeo Milanesa Napolitana; S acaramelado y queso mozzarella) (12.900); Pollo a la Calabresa : .; Pollo a la Guadalupe; Milanesa Napolitana; Pollo a la Calabresa; Pollo a la Fiorentina; Pollo al Champignon
 - **Fecha de registro:** 2025-11-05
+
+### Carta
+
+- S y parmesano con aderezo) — 10.900
+- berenjenas siciliana, salamame napoli, spianatta, S — 12.900
+- (3p) — $25.900
+- Entradas Pastas
+- (Finos spaghettis frescos al huevo con salsa — $13.900
+- pomodoro y mariscos)
+- Malfatti — $13.900
+- Sorrentini Alla Francesa — 26.900
+- e ' — $14.500
+- en su concha. 6un) — $15.900
+- Carnes y Pollos
+- (Filete a la plancha con salsa a la pimienta — $13.900
+- Pastas
+- Risottos
+- Pollo a la Calabresa
+- Risotto con Camarones
+- Risotto con Ragú de Cordero
+- PASTA ARTESANAL RELLENA
+- ile champignones) — 11.900
+- lee — $15.900
+- lentamente en salsa de citricos) — $1
+- mozzarella y salsa pomodoro) — $13.900
+- ane — $15.900
+- tártara)
+- OTRAS PASTAS ARTESANALES
+- CARNES Y POLLOS
+- Matambrito al Verdeo Milanesa Napolitana
+- S acaramelado y queso mozzarella) — 12.900
+- Pollo a la Calabresa : .
+- Pollo a la Guadalupe
+- Milanesa Napolitana
+- Pollo a la Calabresa
+- Pollo a la Fiorentina
+- Pollo al Champignon
+
 
 ## Pizza Bistrot
 - **Ubicación:** Av Chicureo 2A4, Av. Chicureo, Colina, Región Metropolitana
@@ -717,8 +4274,76 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=8706754037076873966
 - **Web:** http://www.pizzabistrot.cl/
 - **Menciona en reseñas:** pizza, sopa
-- **Carta (Google Maps):** Pizza Bistrot; CARNES; Boeuf Tartare; SOPAS; Sopa de cebolla; Sopa de Tomate; Sova de pescado con chorros; E MT / Pizza Bistrot; CARNES; Boeuf Tartare; SOPAS; Sopa de cebolla; Sopa de Tomate; Sopa de pescado con chorros; LZ / Ensalada César Pollo VALE y ]; =~ | Ensalada César Salmón AS ($5.900); Ensalada César Camaron. © i ($ 6.800); ] Ensalada Mary Tierra. eves ($6.); Ensalada al Rojo NUEVA sit Ni; Mix de lechugas, Frutilla, arandanos, cramberries deshidratados, Vinagreta a base de pulpa d 2300 i ($5); Ensalada de Salmón ahumado. A (; Ensalada St Raphaél.; da I (3 unidades), nueces, tomate confitados y ($ 6.500); pizza Bis.; Pollo; Ensalada Cé; Ensalada César Camaron.; Ensalada Mar y Tierra.; Ensalada al Rojo NUEVA; Ensalada de Salmón ahumado.; Ensalada de queso de; Pizza Bistrot i Pizza Bistrot ); PIZZAS y; JA PIZZAS; BES ($13.000); jamón cocido Didier + A ($12.900); na on ural lapolitana origia champiñones, alcachofas, Jamón Didier ($13.00); alsa de tomat Salsa de tomate, queso mozzarella ($11.400); s f j I ($17.000); } ere h r ($17.000); n queso crem A i , alota ($12.200); salmón ahumado, alcaparras y rica I narones E ($20.000); vincent ($11.300); j ' ; No ($12.100); Salsa de tomate, queso mozzarella, jamón | } La Marseillaise y ($12.000); jamón crudo y rúcula | Lyonnaise ($11.500); / y | \ NS > 9 N ($11.100); i tomate cherry confitado, Albahaca, aceite | f | Pizza de los Mendez | ds ) ($11.000); bdo, EN . ais ($14,000); Salsa de tomate, queso mozzarella, quesos franceses, Niños © § ew o ($11.300); Pizza Bistrot; PIZZAS; asado y aj; arella, carne.; a, Carne, cebolla,; Pizza de los Me ndez; lla y pollo al curry; Ensalada de Pulpos y ( amarones a la Provenzal. ($7.000); P Peer = ($ 5.900); Ensalada de queso Frances. NUEVA ($ 6.300); Ensalada de lentejas y tomate. ($ 5.200); Ensalada de queso de cabra sobre pan de campo. ($5.900); Pizza Bi; Ensalada de queso Frances. NU JEVA; LE es Edu - WA . (71.500)
 - **Fecha de registro:** 2025-11-23
+
+### Carta
+
+- Pizza Bistrot
+- CARNES
+- Boeuf Tartare
+- SOPAS
+- Sopa de cebolla
+- Sopa de Tomate
+- Sova de pescado con chorros
+- E MT / Pizza Bistrot
+- CARNES
+- Boeuf Tartare
+- SOPAS
+- Sopa de cebolla
+- Sopa de Tomate
+- Sopa de pescado con chorros
+- LZ / Ensalada César Pollo VALE y ]
+- =~ | Ensalada César Salmón AS — $5.900
+- Ensalada César Camaron. © i — $ 6.800
+- ] Ensalada Mary Tierra. eves — $6.
+- Ensalada al Rojo NUEVA sit Ni
+- Mix de lechugas, Frutilla, arandanos, cramberries deshidratados, Vinagreta a base de pulpa d 2300 i — $5
+- Ensalada de Salmón ahumado. A (
+- Ensalada St Raphaél.
+- da I (3 unidades), nueces, tomate confitados y — $ 6.500
+- pizza Bis.
+- Pollo
+- Ensalada Cé
+- Ensalada César Camaron.
+- Ensalada Mar y Tierra.
+- Ensalada al Rojo NUEVA
+- Ensalada de Salmón ahumado.
+- Ensalada de queso de
+- Pizza Bistrot i Pizza Bistrot )
+- PIZZAS y
+- JA PIZZAS
+- BES — $13.000
+- jamón cocido Didier + A — $12.900
+- na on ural lapolitana origia champiñones, alcachofas, Jamón Didier — $13.00
+- alsa de tomat Salsa de tomate, queso mozzarella — $11.400
+- s f j I — $17.000
+- } ere h r — $17.000
+- n queso crem A i , alota — $12.200
+- salmón ahumado, alcaparras y rica I narones E — $20.000
+- vincent — $11.300
+- j ' ; No — $12.100
+- Salsa de tomate, queso mozzarella, jamón | } La Marseillaise y — $12.000
+- jamón crudo y rúcula | Lyonnaise — $11.500
+- / y | \ NS > 9 N — $11.100
+- i tomate cherry confitado, Albahaca, aceite | f | Pizza de los Mendez | ds ) — $11.000
+- bdo, EN . ais — $14,000
+- Salsa de tomate, queso mozzarella, quesos franceses, Niños © § ew o — $11.300
+- Pizza Bistrot
+- PIZZAS
+- asado y aj
+- arella, carne.
+- a, Carne, cebolla,
+- Pizza de los Me ndez
+- lla y pollo al curry
+- Ensalada de Pulpos y ( amarones a la Provenzal. — $7.000
+- P Peer = — $ 5.900
+- Ensalada de queso Frances. NUEVA — $ 6.300
+- Ensalada de lentejas y tomate. — $ 5.200
+- Ensalada de queso de cabra sobre pan de campo. — $5.900
+- Pizza Bi
+- Ensalada de queso Frances. NU JEVA
+- LE es Edu - WA . — 71.500
+
 
 ## Pizzeria Latinoamericana
 - **Ubicación:** Rancagua 0133, 7500928 Providencia, Región Metropolitana
@@ -738,8 +4363,64 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.poga.cl/
 - **Menciona en su web:** pasta, alfajor, brownie, helado, chocolate, manjar, dulces
 - **Menciona en reseñas:** brownie, helado
-- **Carta (Google Maps):** Helado (Copa/Cono Pequeño) ($3.500) · Helados; Helado (Copa/Cono Mediano) ($4.200) · Helados; Helado (Copa/Cono Grande) ($5.000) · Helados; Helado (Pinta 250cc) ($5.000) · Helados; Helado (Pinta 450cc) (desde $9.000) · Helados; Paleta de Helado ($3.800) · Helados; Helado (Flor) ($1.500) · Helados; Sorbet de Frutas (Copa/Vaso) ($3.500) · Helados; Brownie con Helado ($5.500) · Postres Helados; Galletón con Helado ($4.700) · Postres Helados; Sándwich de Galleta con Helado ($4.900) · Postres Helados; Americano ($2.100) · Café Especialidad; Capuccino ($2.500) · Café Especialidad; Latte ($3.200) · Café Especialidad; Cortado ($2.300) · Café Especialidad; Espresso ($1.900) · Café Especialidad; Espresso Doble ($2.700) · Café Especialidad; Affogato ($3.900) · Café Especialidad; Café con Helado Premium · Café Especialidad; Kombucha 350cc ($2.700) · Bebidas; Agua con Gas ($2.500) · Bebidas; Agua sin Gas ($2.500) · Bebidas; Agua de Coco ($3.000) · Bebidas; Calugón Manjar Coco ($6.900) · Repostería; Calugón Frutos del Bosque ($6.900) · Repostería; Muffin de Arándano ($3.200) · Repostería; Muffin de Chocolate ($3.200) · Repostería; Alfajor Choco Manjar ($3.300) · Repostería; Torta Frutos del Bosque ($7.350) · Repostería; Torta Manjar Nuez ($7.350) · Repostería; Torta Choco Avellana ($7.350) · Repostería; Pie de Limón ($7.350) · Repostería; Brownie ($3.500) · Repostería; Cinnamon Roll ($4.200) · Repostería; Panna Cotta ($5.000) · Repostería; Salsa de Manjar o Berries · Repostería; Galletón Vanilla Chips ($2.200) · Repostería; Galletón Chocolate Chips ($2.200) · Repostería; Café con Helado · Café Especialidad
 - **Fecha de registro:** 2025-11-23
+
+### Carta
+
+#### Helados
+
+- Helado (Copa/Cono Pequeño) — $3.500
+- Helado (Copa/Cono Mediano) — $4.200
+- Helado (Copa/Cono Grande) — $5.000
+- Helado (Pinta 250cc) — $5.000
+- Helado (Pinta 450cc) — desde $9.000
+- Paleta de Helado — $3.800
+- Helado (Flor) — $1.500
+- Sorbet de Frutas (Copa/Vaso) — $3.500
+
+#### Postres Helados
+
+- Brownie con Helado — $5.500
+- Galletón con Helado — $4.700
+- Sándwich de Galleta con Helado — $4.900
+
+#### Café Especialidad
+
+- Americano — $2.100
+- Capuccino — $2.500
+- Latte — $3.200
+- Cortado — $2.300
+- Espresso — $1.900
+- Espresso Doble — $2.700
+- Affogato — $3.900
+- Café con Helado Premium
+- Café con Helado
+
+#### Bebidas
+
+- Kombucha 350cc — $2.700
+- Agua con Gas — $2.500
+- Agua sin Gas — $2.500
+- Agua de Coco — $3.000
+
+#### Repostería
+
+- Calugón Manjar Coco — $6.900
+- Calugón Frutos del Bosque — $6.900
+- Muffin de Arándano — $3.200
+- Muffin de Chocolate — $3.200
+- Alfajor Choco Manjar — $3.300
+- Torta Frutos del Bosque — $7.350
+- Torta Manjar Nuez — $7.350
+- Torta Choco Avellana — $7.350
+- Pie de Limón — $7.350
+- Brownie — $3.500
+- Cinnamon Roll — $4.200
+- Panna Cotta — $5.000
+- Salsa de Manjar o Berries
+- Galletón Vanilla Chips — $2.200
+- Galletón Chocolate Chips — $2.200
+
 
 ## Popolo Pizza sin Gluten
 - **Ubicación:** No disponible
@@ -769,8 +4450,136 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.quimeysushi.cl/
 - **Menciona en su web:** hamburguesa, pizza, sushi, pasta, gyosa, pastel
 - **Menciona en reseñas:** sushi, empanada, gyosa
-- **Carta (Google Maps):** « oe CEVICHE QUIMEN ($8,900); CEVICHE PESCADO ($7,500); Er CEVICHE CAMARONES ($8,000); ES Pollo nit, SF ON \ ($5,500); Pasta de arroz salteada con juliana de verduras acompañado de: Pollo a ($6,000); Camarón 47 ($6,500); acompañada con: Pay Y (57.000); Camaron 9 (7,300); toque de casa, acompañado de: Pollo ($7,800); ¡ Camarón ($8,000); Arroz frito, salteado con cebolla, cebollin, tomate, huevo, soya, zanahoria,camarón ($7,000); más el toque de la casa. ($7,500); acompañado de arroz blanco. I ($7,000); acompañado de arroz blanco. ($7,500); Fr Se ($8,500); POLLO SALTADO; todo al estilo Quimey ($8,000); > FUSION LOMO-POLLO SALTADO; > papas fritas, todo al estilo Quimey ($8,500); CEVICHE PEGCADO; Pollo ($5,500); Camarón ($6,000); Carne de lomo vacuno, cebolla morada,; POLLO GALTADO; FUSIÓN LOMO-POLLO SALTADO; = 7 acompañado de honey mustard o cream cheese Quimey. ($6,300); Camarones ecuatorianos apanado gluten free, acompañado de cream cheese Quimey. ($5,500); _ Sticks de pollo apanado gluten free, acompañado de cream cheese Quimey. ($5,000); de arroz, acompañados en salsa cream chesse Quimey o not mayo green. Pollo ¡== ($5,800); Camarén ($6,300); DEDITOS DE SALMÓN + SALSA DE LA CASA (5 UNIDADES) ($4,500); TUCCHINI MOZZARELLA (5 UNIDADES) [== ($4,500); ~ ENSALADA LECHUGA ($6,000); EA MIN HOJAS VERDES ($6,500); E. =) Pollo, camarón, atún, salmón, pulpo, reineta, carne, jamón,champiñon. Proteína Extra ($1,500); E Palta, aceítuna, choclo, espárrago, alcachofa, zanahoria, zapallo italiano, Vegetal Extra ($1,000); EXTRA ENSALADA ($1,200); WPAN ($1,500); SALSAS | ae ($800); Pollo ($5,800); Camarón ($6,300); ENSALADAS; J ENSALADA LECHUGA; => Ensalada base lechuga,; J ENSALADA MIX HOJAS VERDES; + Ensalada base rúcula, espinaca y; Proteína Extra ($1,500); Pollo, camarón,; atún, salmón, pulpo, reineta, carne,; Vegetal Extra ($1,000); Pe AJÍ DE GALLINA QUIMEY ($8,700); > LOMO A LO POBRE ($8,500); PA eS REINETA FURAL (APANADA CON PAPAS) ($7,500); ame 2) BHORRILLANA CARNES (PARA € PERSONAS) ($15,000); AO POLLO A LA PLANCHA (35,000); MO Pollo a la plancha con arroz o pasta.; Base de Arroz, palta, queso crema y cebollin, acompañado: Camarón ($5,800); Salmón ($6,000); \, : Tako ($6,000); Pollo 4 ($5,500); Carne ($5,900); TORIMESHI (56,000); LASAWA BOLONESA (SIN LACTOSA) ($6,000); © —- PANZOTTI POLLO; rosa o de champiñón. H ($6,000); BHORRILLANA CARNES (PARA € PERSONAS); = POLLO A LA PLANCHA; Camarón ($5,800); Tako ($6,000); Pollo ($5,500); LASANA BOLONESA; PANZOTTI POLLO; tae», Uf, Y XA pS e acor ($9,000); MAR ¥ TIERRA ROLL ($8,500); CRIOLLO ROLL ($8,300); guacamole, salsa picante y nachos de; y a Casa. ($8,700); salsa picante y nachos de la casa.; GYOZAS; GYOZAS DE POLLO (5 unidades) ($5,000); = GYOZAS DE CAMARÓN (5 unidades) ($5,000); GYOZAS VEGETARIANAS (5 unidades) ($5,000); GYOZAS PREMIUM SALMÓN (5 unidades) ($5,800); GYOZAS PREMIUM DE ESPINACAS (5 unidades) | = ($5,800); rele TORI BOLL (3 unidades) ($3,500); A. O | Pollo, queso crema, ciboulette.; ae i EBI BOLL (3 unidades) ($3,500); A ES >) MS ($7,500); * SASHIMI (5 y 9 cortes de pescado); ~ 5 cortes de Salmón. (54,200); =! 9 cortes de Salmón. ($6,500); ~ 5 cortes de Pulpo. (55,000); cortes de Pulpo. (56,500); cortes de Atún. ($4,000); ==! 9 cortes de Atún. ($6,000); ES 2 cortes de Atún, 2 Cortes de Salmón y 2 cortes de Pulpo. ($5,000); GYOZAS DE CAMARÓN (5 unidades); GYOZAS PREMIUM DE ESPINACAS (5 unidades); Pollo, queso crema, ciboulette .; SASHIMI (5 y 9 cortes de pescado); si SN QUEERE FRUIT KANE (HIN ARROZ) ($6500); Y QUICKEN TEMPURA ROLL ‘eh Y me,; en pollo y apanado, acompañado ( a apt Y; JO \ 4 ($8,900); o go > 4 > ($8,700); Al , ($5,000); pescado blanco y salsa acevichada.; CHICKEN TEMPURA ROLL; Reineta tempura, verduras; en pollo y apanado, acompañado; Pollo fural, queso Ef; he de chocolate, ac; = echugas, champiñón salteado con verduras mixtas, e (56.500); CEVICHE CUAMPIAÓN pagan; Palta, aceituna, apio cubierto con quinoa cre (55,800); ~ Nueces, palta, tomate, ciboulette (54.500); PREMIUM VEGANO ACEVICHADO ROLL (SIN ARROZ) “ ($8.300); SANDWICH HAMBURGUESA VEGANA DE LA CASA ($7.500); SANDWICH HAMBURGUESA VEGANA ITALIANA ($7.000); SANDWICH HAMBURGUESA VEGANA CHACARERA ($7.000); PREMIUM HUMMUS VEGANO ROLL (SIN ARROZ); SANDWICHE; HAMBURGUESA VEGANA CHACARERA; COMPLETO VEGAN; a “Sandwiches duo JE |] a
 - **Fecha de registro:** 2025-10-02
+
+### Carta
+
+- « oe CEVICHE QUIMEN — $8,900
+- CEVICHE PESCADO — $7,500
+- Er CEVICHE CAMARONES — $8,000
+- ES Pollo nit, SF ON \ — $5,500
+- Pasta de arroz salteada con juliana de verduras acompañado de: Pollo a — $6,000
+- Camarón 47 — $6,500
+- acompañada con: Pay Y — 57.000
+- Camaron 9 — 7,300
+- toque de casa, acompañado de: Pollo — $7,800
+- ¡ Camarón — $8,000
+- Arroz frito, salteado con cebolla, cebollin, tomate, huevo, soya, zanahoria,camarón — $7,000
+- más el toque de la casa. — $7,500
+- acompañado de arroz blanco. I — $7,000
+- acompañado de arroz blanco. — $7,500
+- Fr Se — $8,500
+- POLLO SALTADO
+- todo al estilo Quimey — $8,000
+- > FUSION LOMO-POLLO SALTADO
+- > papas fritas, todo al estilo Quimey — $8,500
+- CEVICHE PEGCADO
+- Pollo — $5,500
+- Camarón — $6,000
+- Carne de lomo vacuno, cebolla morada,
+- POLLO GALTADO
+- FUSIÓN LOMO-POLLO SALTADO
+- = 7 acompañado de honey mustard o cream cheese Quimey. — $6,300
+- Camarones ecuatorianos apanado gluten free, acompañado de cream cheese Quimey. — $5,500
+- _ Sticks de pollo apanado gluten free, acompañado de cream cheese Quimey. — $5,000
+- de arroz, acompañados en salsa cream chesse Quimey o not mayo green. Pollo ¡== — $5,800
+- Camarén — $6,300
+- DEDITOS DE SALMÓN + SALSA DE LA CASA (5 UNIDADES) — $4,500
+- TUCCHINI MOZZARELLA (5 UNIDADES) [== — $4,500
+- ~ ENSALADA LECHUGA — $6,000
+- EA MIN HOJAS VERDES — $6,500
+- E. =) Pollo, camarón, atún, salmón, pulpo, reineta, carne, jamón,champiñon. Proteína Extra — $1,500
+- E Palta, aceítuna, choclo, espárrago, alcachofa, zanahoria, zapallo italiano, Vegetal Extra — $1,000
+- EXTRA ENSALADA — $1,200
+- WPAN — $1,500
+- SALSAS | ae — $800
+- Pollo — $5,800
+- Camarón — $6,300
+- ENSALADAS
+- J ENSALADA LECHUGA
+- => Ensalada base lechuga,
+- J ENSALADA MIX HOJAS VERDES
+- + Ensalada base rúcula, espinaca y
+- Proteína Extra — $1,500
+- Pollo, camarón,
+- atún, salmón, pulpo, reineta, carne,
+- Vegetal Extra — $1,000
+- Pe AJÍ DE GALLINA QUIMEY — $8,700
+- > LOMO A LO POBRE — $8,500
+- PA eS REINETA FURAL (APANADA CON PAPAS) — $7,500
+- ame 2) BHORRILLANA CARNES (PARA € PERSONAS) — $15,000
+- AO POLLO A LA PLANCHA — 35,000
+- MO Pollo a la plancha con arroz o pasta.
+- Base de Arroz, palta, queso crema y cebollin, acompañado: Camarón — $5,800
+- Salmón — $6,000
+- \, : Tako — $6,000
+- Pollo 4 — $5,500
+- Carne — $5,900
+- TORIMESHI — 56,000
+- LASAWA BOLONESA (SIN LACTOSA) — $6,000
+- © —- PANZOTTI POLLO
+- rosa o de champiñón. H — $6,000
+- BHORRILLANA CARNES (PARA € PERSONAS)
+- = POLLO A LA PLANCHA
+- Camarón — $5,800
+- Tako — $6,000
+- Pollo — $5,500
+- LASANA BOLONESA
+- PANZOTTI POLLO
+- tae», Uf, Y XA pS e acor — $9,000
+- MAR ¥ TIERRA ROLL — $8,500
+- CRIOLLO ROLL — $8,300
+- guacamole, salsa picante y nachos de
+- y a Casa. — $8,700
+- salsa picante y nachos de la casa.
+- GYOZAS
+- GYOZAS DE POLLO (5 unidades) — $5,000
+- = GYOZAS DE CAMARÓN (5 unidades) — $5,000
+- GYOZAS VEGETARIANAS (5 unidades) — $5,000
+- GYOZAS PREMIUM SALMÓN (5 unidades) — $5,800
+- GYOZAS PREMIUM DE ESPINACAS (5 unidades) | = — $5,800
+- rele TORI BOLL (3 unidades) — $3,500
+- A. O | Pollo, queso crema, ciboulette.
+- ae i EBI BOLL (3 unidades) — $3,500
+- A ES >) MS — $7,500
+- * SASHIMI (5 y 9 cortes de pescado)
+- ~ 5 cortes de Salmón. — 54,200
+- =! 9 cortes de Salmón. — $6,500
+- ~ 5 cortes de Pulpo. — 55,000
+- cortes de Pulpo. — 56,500
+- cortes de Atún. — $4,000
+- ==! 9 cortes de Atún. — $6,000
+- ES 2 cortes de Atún, 2 Cortes de Salmón y 2 cortes de Pulpo. — $5,000
+- GYOZAS DE CAMARÓN (5 unidades)
+- GYOZAS PREMIUM DE ESPINACAS (5 unidades)
+- Pollo, queso crema, ciboulette .
+- SASHIMI (5 y 9 cortes de pescado)
+- si SN QUEERE FRUIT KANE (HIN ARROZ) — $6500
+- Y QUICKEN TEMPURA ROLL ‘eh Y me,
+- en pollo y apanado, acompañado ( a apt Y
+- JO \ 4 — $8,900
+- o go > 4 > — $8,700
+- Al , — $5,000
+- pescado blanco y salsa acevichada.
+- CHICKEN TEMPURA ROLL
+- Reineta tempura, verduras
+- en pollo y apanado, acompañado
+- Pollo fural, queso Ef
+- he de chocolate, ac
+- = echugas, champiñón salteado con verduras mixtas, e — 56.500
+- CEVICHE CUAMPIAÓN pagan
+- Palta, aceituna, apio cubierto con quinoa cre — 55,800
+- ~ Nueces, palta, tomate, ciboulette — 54.500
+- PREMIUM VEGANO ACEVICHADO ROLL (SIN ARROZ) “ — $8.300
+- SANDWICH HAMBURGUESA VEGANA DE LA CASA — $7.500
+- SANDWICH HAMBURGUESA VEGANA ITALIANA — $7.000
+- SANDWICH HAMBURGUESA VEGANA CHACARERA — $7.000
+- PREMIUM HUMMUS VEGANO ROLL (SIN ARROZ)
+- SANDWICHE
+- HAMBURGUESA VEGANA CHACARERA
+- COMPLETO VEGAN
+- a “Sandwiches duo JE |] a
+
 
 ## Quinoa
 - **Ubicación:** Av. Luis Pasteur 5393, Vitacura, Región Metropolitana
@@ -779,8 +4588,417 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=14784354193663098393
 - **Web:** http://quinoarestaurante.cl/
 - **Menciona en reseñas:** lasaña, ceviche, completo, chocolate, jugo
-- **Carta (Google Maps):** jengibre o frutos rojos ($5.790); LIMONADA CON MENTA ($3.690); AGUA PRISMA ($2.690); EMPANADITAS DE MASA PHILO CERVEZASIN ALCOHOL ($10.990); queso de cabra y ricotta. BOATVIAN GINGER BEER ($3.590); CEVICHE DE COCHAYUYO Y _4 BOTAVIAN GRAPEFRUIT ($9.990); Cochayuyo, zanahoria, pimentón rojo, SODA, POMELO ($3.590); pep manga cebolla morada, cilantro KOMBUCHA ($4.190); ANTIPASTO Berries y Sabor Original ($11.990); Burrata, higos, aceitunas, tomates cherry asados y JUGO DETOX ($4.590); TÁRTARO DE VEGETALES Y pepino y jengibre ($9.990); ártaro betarraga, palta y zanahoria con emulsion de LASSI DE MANGO ($4.590); ROLLITOS THAI Y? mango y una pizca de cúrcuma ($9.990); GUACAMOLE Y ($9.990); HUMMUS Y eS ($7590); ESPRESSO ($2.590); CAPUCCINO ($3.390); EN SALADAS Agrega tu sopa por LATTE ($45.590); INFUSIONES / TÉ ORGÁNICO ($2.990); soLsTicio Y ($11.590); Quinoa blanca, puerro, manzana verde salteada, LECHE DE ALMENDRAS / AVENA ($750); INSALATA DI RISO ($11.590); palta, tomates asados, alcaparras, aceitunas FLAN DE COCO ($5.390); OEREDRADIÓN CHEESECAKE VEGANO Y? ($11.590); BROWNIE VEGANO Y ($5.590); QUINOA ROJA Y Con sorbete a elección ($11.590); cilantro, tomates cherry, palta, almendras COULANT DE CHOCOLATE ($6.990); BUDDHA BOWL Y? 611590 TARTALETA DE NUEZ ($5.590); marinade: AABrezO A. CRUMBLE DE MANZANAS, (55.290); MEZZE NP PERAS Y MEMBRILLO ($11.990); quínoa, salsa de pimientos asados con nueces KUCHEN DEL DÍA ($5.590); chips de pan pita. ¿On helado a elección; O Cualquiera de nuestras ensaladas puede ser vegana PANQUEQUES CON MANJAR ($55.790); Con helado a elección; D E FO N D 0 Agrega tu sopa por ($4.590); QUINOTTO ($11.590); DHAL DE LENTEJAS Y ($11.590); PAD THAI? _Y ($11.990); GNOCCHI DE ZAPALLO ($12.990); BURRITOS (Y opcional) ($11.590); acompañado de ensalada de lechuga,; LASAÑA DE BERENJENAS (Keto) ($11.590); con ensalada verde.; + JUGO NATURAL (200 ml); + POSTRE 0 CAFÉ; SOPA DEL DÍA; JUGO DE POMELO; CEVICHE DE COCHAYUYO \7_#; JUGO DETOX; TÁRTARO DE VEGETALES Y?; HUMMUS Y; Agrega tu sopa por ($4.590); ENSALADAS; LECHE DE ALMENDRAS / AVENA ($750); FLAN DE COCO; CHEESECAKE VEGANO Y; Con sorbete a elección; COULANT DE CHOCOLATE; TARTALETA DE NUEZ; Y MANJAR; tostadas y ensalada griega acompañado de; PANQUEQUES CON MANJAR ($55.790); eR o ENSALADAS Pis; Dn el ? ENSALADA GRIEGA 4 KC; waists We INSALATA DI RISO ($11.590); OUINOA ROJA Y 590 ($11); E ENTRADAS BUDDHA BOWL Y ($11.590); E EMPANADITAS DE MASA PHILO + told rraesdo. Adaro taki A A eS ro ae emi ($10.99); > ANTIPASTO ($11.990); compiriado de pon da dertieaeairdd xa DE FONDO Agrega tu sopa por ($4.590); Verduras rescas envucitas en papal” ‘PASTEL DE cHocto ($11.990); con chips de maiz AÑO POROTOS GRANADOS Y ($11.590); con chips de pan pita. 3 PAD THAI! Y 4 y ($11.990); PARA TOMAR GNOCCHI ($12.990); Naranja, zanahoria, piña con jengibre BURRITOS ( Y opcional) ($11.590); “Sb LIMONADA CON MENTA iD pico de gallo y crema ácida acompañado de ensalada de lechuga, tomates cherry y ($23.690); LASAÑA DE BERENJENAS (Low carb) ($11.990); JU60 DE POMELO Berenjena, zapallo italiano, tomates asados, albahaca, queso de cabra y mozzarella (sin masa), ($3.990); AGUA PRISMA acompañados de ensalada verde. ($2.690); CERVEZA SIN ALCOHOL ($3.590); BOTAVIAN GRAPEFRUIT SODA, POMELO. (Lunes a Viernes) ($3.590); KOMBUCHA ($4.190); JUGO DETOX [prensado en frío) ($4.590); LASSI DE MANGO ——— a ($4.590); ESPRESSO (ees e Libro que reúne más de 100 recetas de Quinoa para celebrar sus 15 años ($2.590); CAPUCCINO Y? sm Sea de vida. Esta organizado por estaciones, porque asi se cocina en Quinoa ($3.390); LATTE i e e | cada día. ($3.690); AFFOGATO EY A ($4.790); INFUSIONES / TÉ ORGÁNICO A ($2.990); LECHE DE ALMENDRAS / AVENA ($750); FLAN DE COCO Con escamas de coco tostado. CRUMBLE DE FRUTOS ROJOS Con helado a elección. ($5.590); CHEESECAKE VEGANO Y KUCHEN DEL DÍA Con helado a elección. ($5.590); ¿ MEE y PANQUEQUES CON MANJAR O NUTELLA Con helado a elección. ($5.90); > BROWNIE VEGANO Y Con sorbete a elección. ($5.590); COULANT DE CHOCOLATE Con helado a elección. ($65.990); ENSALADAS; SOPA DEL DIA; Falafel, hur; salsa de pimientos asados con nuece; CEVICHE DE COCHAYUYO Y #; Agrega tu sopa por ($4.590); PASTEL DE CHOCLO; HUMMUS Y; BURRITOS ( Y opcional); JUGO DE POMELO; acompañados de ensalada verde.; JUGO DETOX (prensado en frío); KUCHEN DEL DÍA Con helado a elección.; CHEESECAKE VEGANO Y; BROWNIE VEGANO Y Con sorbete a elección.; o a Sos ie des ES ee Agrega tu sopa por :590 rad ($4); o ee ee PSUR ES Yeon i ($11.5); a ne A oo e PAR Ni ERES puerro, manzana epee) rabanito y cranberries pun ($11.590); ee [as INSALATA DIRISO O os NR ($11.590); Me ae | ee ee SOs Sane QUINOA ROJA ja, zanahoria, aceitunas, cilantro, toma! Beis ($11.590); See 5 E O. ENTRADAS BUDDHA BOWL Y brócoli, camote horneado, pa de ars (1.990); pc ee RAS de pan de m: Pees ($9.990); o o SS CN TÁRTARO DE it Maisie con DE FONDO pe ($11.590); ae a AS acompañado de tos cence quinoa con zapallo, ragout de champiñones. p 0 feel 590 ps ($9.990); Pani <p OS EN nori con Lentejas y verdu y ($11.990); o area TS E doo! Í y cranberries. ($9.990); AS ES RS Pibe Salteado tallarines de arroz, plata) rdeaean curry verde, salsa Load ($7.590); oF eee eae es PARA TOMAR ese ce sapello con pesto, champin ($11.590); eu tee de a Hees Ee mozzarella. Salsa pico de gallo y ($3.690); ee a: ies o Limonada con LASANA DE BERENJENAS (Keto) ados, albahaca, queso de cabra y mozzarella, (s ($3.990); oe NS UITSODA, POMELO ($3.590); Ce ees Oe PLATO D (Lunes a Viernes] ($4,590); o e JUGO . engibre.; NENE Sl Be Manzana verde, espinaca, pepino y jeng ($14.990); ee essa 2 ($750); EN EG +3 ($5,590); A APA TES 4 . ión. ($5,290); aa: FLAN DE COCO Con escamas de coco tostado CRUMBLE DE MANZANAS, PERAS Y MEMBRILLO Con helado a elecci ($5.690); rd bs SAE see nae 5 Ci KE VEGANO Y di one eit. Le ($5.590); iS ee a Con castañas de ealdupasas EEN NAO JAR 0 NUTELLA Con helado a elección ($5.590); Agrega tu sopa por ° ($4.59); ENSALADAS; zapallo asado, ricotta de castaña; SOPA DEL DÍA; CEVICHE DE COCHAYUYO Y _#; salsa de pimientos asados con nueces; TÁRTARO DE VEGETALES Y; Tártaro betarraga, palta y zanahoria con; Agrega tu sopa por (54.590); HUMMUS Y; BURRITOS ( Y opcional); JUGO DE POMELO; LASAÑA DE BERENJENAS (Keto); con ensalada verde.; JUGO DETOX (prensado en frío); CHEESECAKE VEGANO Y; CRUMBLE DE MANZANAS, PERAS Y MEMBRILLO Con helado a elección. ($5,290); KUCHEN DEL DÍA Con helado a elección.; kas ws t/ SOPA DEL DIA Y PS ($5,790); Raines EMPANADITAS DE MASA PHILO ¿3 ($11,990); PAS MEZZE \ ON ($12.990); po CEVICHE DE COCHAYUYO Y 4 (59.990); pu ROLLITO THAI Y i) ($9.990); ETSII GUACAMOLE Y con chips de maiz. a ($9.990); ELA ey, LS es HUMMUS Y con chips de pan pita ($7.990); Po Naranja, zanahoria, piña con jengibre ENSALADAS Agrega tu sopa por y ($4.590); LARES es oon FRUTILLAS Y MOZZARELLA ' ($11.990); en ok JUGO DE POMELO NUERTA DE PRIMAVERA wes ($4,290); vi Con has hear 990 Lechuga, « Sporragos, apio, papas baby, brócoli. ncotts, huevo pochado menta, e m fu ($3); } i AGUA PRISMA Con gas gas perejit e hinojo, con timmonetg ($2.99); Ms a teh Es BA 590 INSALATA DI RISO . ($11,990); CERVEZA SIN ALCOHOL QUINOA ROJA \ q ($3.990); “ THOMAS HENRY GINGER BEER 90; Quinoa blanca y roja zanahoria, aceitunas, cilantro, tomates cherry, palta, almendras ($3); R POMELO A ($3.990); ye THOMAS HENRY GRAPEFRUIT SODA. POM LO $ BUDDHA BOWL Y “Y ($12.590); KOMBUCHA DR. KOMBU Hummus, quinoa, kale salteado, brócoli, camote horneado, palta, zanahoria, betarraga ($4.490); JUGO DETOX (prensado en frío) O Cualquiera de nuestras ensaladas puede ser vegana cambiando el queso por tofu. * ($5.990); LASSI DE MANGO se990 DE FONDO Agrega tu sopa por ($4590); ORZO VERDE CREMOSO ($12.990); ESPRESSO LASAÑA DE BERENJENAS (Low carb) :990 ($2.79); CAPUCCINO acompañados de ensalada verde ($3.50); LATTE PAD THAI Pv ($3.990); AFFOGATO Salteado tallarines de arroz, zanahoria, pimiento rojo, zapallito italiano, tofu, cebollin, kale, ($4990); INFUSIONES / TÉ ORGÁNICO GNOCCHI DE ZAPALLO ($3.290); con leche vegetal + go ($7); DHAL DE LENTEJAS Y ($12.990); BURRITOS (Y opcional) ($11.990); TARTALETA DE LIMÓN Y FRUTILLAS ae COULANT DE CHOCOLATE Con helado a elección. ($5,970); CRUMBLE DE MANZANAS. PERAS Y MEMBRILLO Con helado a elección 990 ($5); FLAN DE COCO Con escamas de coco tostado. (95.990); KUCHEN DEL DIA Cor hotado a elección. ($5.590); CHEESECAKE VEGANO Y ' E ($5.90); Con castañas de cojÓ, pasas y salsa de frutos rojos | PANQUEQUES CON MANJAR O NUTELLA Con helado a elección ($5.990); SOPA DEL DÍA Y; ensalada fres¢; CEVICHE DE COCHAYUYO Y _4; aceitunas, tomates cherry asados y fresc; HUMMUS Y; ENSALADAS; JUGO DE POMELO; alta, tomates asados,; Hummus, quinoa, kale salteado,; JUGO DETOX (prensado en frío); Agrega tu sopa por 590 ($4); LASAÑA DE BERENJENAS (Low carb); ena, zapallo italiano, tomates asados,; acompañados de ensalada verde; TARTALETA DE LIMÓN Y FRUTILUAS; CHEESECAKE VEGANO Y; BROWNIE VEGANO Y Con sorbete a elección; MELADOS & SORBETES; kas ws t/ SOPA DEL DIA Y PS ($5,790); Raines EMPANADITAS DE MASA PHILO ¿3 ($11,990); PAS MEZZE \ ON ($12.990); po CEVICHE DE COCHAYUYO Y 4 (59.990); pu ROLLITO THAI Y i) ($9.990); ETSII GUACAMOLE Y con chips de maiz. a ($9.990); ELA ey, LS es HUMMUS Y con chips de pan pita ($7.990); Po Naranja, zanahoria, piña con jengibre ENSALADAS Agrega tu sopa por y ($4.590); LARES es oon FRUTILLAS Y MOZZARELLA ' ($11.990); en ok JUGO DE POMELO NUERTA DE PRIMAVERA wes ($4,290); vi Con has hear 990 Lechuga, « Sporragos, apio, papas baby, brócoli. ncotts, huevo pochado menta, e m fu ($3); } i AGUA PRISMA Con gas gas perejit e hinojo, con timmonetg ($2.99); Ms a teh Es BA 590 INSALATA DI RISO . ($11,990); CERVEZA SIN ALCOHOL QUINOA ROJA \ q ($3.990); “ THOMAS HENRY GINGER BEER 90; Quinoa blanca y roja zanahoria, aceitunas, cilantro, tomates cherry, palta, almendras ($3); R POMELO A ($3.990); ye THOMAS HENRY GRAPEFRUIT SODA. POM LO $ BUDDHA BOWL Y “Y ($12.590); KOMBUCHA DR. KOMBU Hummus, quinoa, kale salteado, brócoli, camote horneado, palta, zanahoria, betarraga ($4.490); JUGO DETOX (prensado en frío) O Cualquiera de nuestras ensaladas puede ser vegana cambiando el queso por tofu. * ($5.990); LASSI DE MANGO se990 DE FONDO Agrega tu sopa por ($4590); ORZO VERDE CREMOSO ($12.990); ESPRESSO LASAÑA DE BERENJENAS (Low carb) :990 ($2.79); CAPUCCINO acompañados de ensalada verde ($3.50); LATTE PAD THAI Pv ($3.990); AFFOGATO Salteado tallarines de arroz, zanahoria, pimiento rojo, zapallito italiano, tofu, cebollin, kale, ($4990); INFUSIONES / TÉ ORGÁNICO GNOCCHI DE ZAPALLO ($3.290); con leche vegetal + go ($7); DHAL DE LENTEJAS Y ($12.990); BURRITOS (Y opcional) ($11.990); TARTALETA DE LIMÓN Y FRUTILLAS ae COULANT DE CHOCOLATE Con helado a elección. ($5,970); CRUMBLE DE MANZANAS. PERAS Y MEMBRILLO Con helado a elección 990 ($5); FLAN DE COCO Con escamas de coco tostado. (95.990); KUCHEN DEL DIA Cor hotado a elección. ($5.590); CHEESECAKE VEGANO Y ' E ($5.90); Con castañas de cojÓ, pasas y salsa de frutos rojos | PANQUEQUES CON MANJAR O NUTELLA Con helado a elección ($5.990); SOPA DEL DÍA Y; ensalada fres¢; CEVICHE DE COCHAYUYO Y _4; aceitunas, tomates cherry asados y fresc; HUMMUS Y; ENSALADAS; JUGO DE POMELO; alta, tomates asados,; Hummus, quinoa, kale salteado,; JUGO DETOX (prensado en frío); Agrega tu sopa por 590 ($4); LASAÑA DE BERENJENAS (Low carb); ena, zapallo italiano, tomates asados,; acompañados de ensalada verde; TARTALETA DE LIMÓN Y FRUTILUAS; CHEESECAKE VEGANO Y; BROWNIE VEGANO Y Con sorbete a elección; MELADOS & SORBETES; ENSALADAS y e— ri; alcaparrones, almendras y pesto (sin ajo). ($9.500); SOPA DEL D QUINOA ROJA E a; Rey Quinoa blanca y roja, zanahoria, aceitunas, cilantro, tomates cherry, palta, almendras E ($5.500); con chips de maíz. eeu MEZZE Y ($10.900); con chips de maíz tostadas y ensalada griega acompañado de chips de pan pita. 500 7 a ($6.500); eet o y ensalada griega acompañado QUESO DE CABRA APANADO EN PANKO ($92); Cochayuyo, zanahoria A ón roj ae El S Z ($59.900); ANTIPASTO ($9.200); frutos rojos. GNOCCHI DE TOMATE E ($10.900); LIMONADA CON MENTA mozzarella fresca y almendras tostadas. ($3.500); BURRITOS opcional : See (9.900); AGUA PRISMA *Pidela versión sin gluten en tortillas de maíz ( +) Y a ($2.500); Amigable con el medio ambiente. LASAÑA DE BERENJENAS (Keto) NY" ($9.900); GINGER BEER PADTHAL Y pee ($3.200); Sabor Original) AS a a En E ($10.900); JUGO DETOX (prensado en frío) aceitedetrufa. ; P y un toque de ($3,900); TARTALETA DE PUERROS; LASSI DE MANGO Tarta de masa quebradiza rellena con puerros, azafrán y queso parmesano acompañada de ($4.200); CAPUCCINO 2 ($2.600); PATACÓN Ne ($10.300); LATTE Plátano verde frito con ensalada coleslaw, tomate, cilantro, cebolla morada y veganesa de ($3.); CHAI LATTE cilantro acompanado de arroz con coco y pebre de mango. ($3.200); TURMERIC GOLDEN LATTE ($3.200); TURMERIC CHOCOLATE ($3.200); AFFOGATO ($3.100); INFUSIONES / TE ORGANICO CLAVE WIFI quinoa5393 QUINOARESTAURANTE.CL ($2.300); LECHE DE ALMENDRAS / AVENA a A ($500); TARTALETA DE NUEZ Y MANJAR CRUMBLE DE FRUTOS ROJOS $ Y ($4,900); COULANT DE CHOCOLATE $; Con helado a elección. y; a tu sopa por 945%; ENSALADAS; Hummus, quínoa, kale salteado,; HUMMUS Y; a, tomates asados, alcaparras, aceitunas; Falafel, hummus, baba ganoush, tabouleh; de quínoa, salsa de pimientos asados con; CEVICHE DE COCHAYUYO Y; ENSALADA KETO 8; Agrega tu sopa por (54.500); BURRITOS ( Y opcional); *Pide la versión sin gluten en tortillas de maíz (+ ) Y ($1.000); LASAÑA DE BERENJENAS (Keto) Y; ensalada verde.; RISOTTO TRUFADO; JUGO DETOX (prensado en frío); ensalada fresca y semillas tostadas.; LA HAMBURGUESA Y; TARTALETA DE NUEZ Y MANJAR; Con helado a elección.; TARTA DE COCO Y CHOCOLATE Y y; PANQUEQUES; BROWNIE VEGANO (70% cacao) Y; Con manjar y helado.; FLAN DE coco ©; COULANT DE CHOCOLATE; ENSALADAS Agrega tu sopa por -590 ($4); Sa VERANO ($11.590); ENSALADA GRIEGA ($11.590); ye INSALATA DI RISO ($11.590); QUINOA ROJA Y ($11.590); ENTRADAS BUDDHA BOWL Y ($11.590); EMPANADITAS DE MASA PHILO y tofu marinado. Aderezo t! ($10.990); queso de cabra y ricotta. MEZZE Y ($11.990); CEVICHE DE COCHAYUYO Y # tostadas y ensalada griego a ($9.990); ANTIPASTO ($11.990); acompañado de pan de masa madre. DE FONDO ] 5 E Agrega tu sopa por ($4.590); ROLLITO THAI Y ($9.990); GUACAMOLE Y 4 ($9.990); con chips de maiz. POROTOS GRANADOS Y ($11.590); HUMMUS Y (7.590); con chips de pan pita. 2 PAD THAI Y 5 A ($11.990); PARA TOMAR GNOCCHI ($12.990); Naranja, zanahoria, piña con jengibre BURRITOS { Y opcional! > ($11.590); LIMONADA CON MENTA cebolla morada. ee f ($3.690); LASANA DE BERENJENAS (Low carb! ($11.990); JUGO DE POMELO : Berenjena, zapallo :\3\ cndptomates :ueso de cabra y mozzarella (sin masal, ($3.990); CERVEZA SIN ALCOHOL : a —. DE ($3.590); IR [IN E ATURAL (200 ml) + POSTRE O CAFE ($9.50); BOTAVIAN GRAPEFRUIT SODA, POMELO i a be ernes) ($3.590); JUGO DETOX [prensado en frío) Ta ($44.590); __ LASSI DE MANGO E ¿oa ($4.590); ae “ESPRESSO al a A - de 100 recetas de Quinoa para celebrar sus 15 años ($2.590); CAPUCCINO 9 añ lo por estaciones, porque así se cocina en Quínoa: { ($3.390); = AFFOGATO ee ¢ ae E ($4.790); E LECHE DE ALMENDRAS / AVENA see E. ($750); pe LAN DECOCO Con escamas de coco tostado. p! FRUTOS ROJOS Con helado a elección ($5.590); Pos el -HEESECAKE VEGANO Y A DEL DÍA Con held ($5.590); (a ee UES CON MANJAR O NUTELLA Con helado a elección. - el ($5.790); ENSALADAS; Agrega tu sopa por -590 ($4); SOPA DEL DÍA; Hummus, quinoa, kale; Falafel, hummus, baba y; ¡entos asados con nueces; CEVICHE DE COCHAYUYO Y #; tostadas y ensalada grieg; Agrega tu sopa por ($4.590); PASTEL DE CHOCLO; Con pino de berenjen; BURRITOS { Y opcional); Tortillas de trigo relter; do de ensalada iS tomates cherry y; LASANA DE BERENJERAS (Low; JUGO DE POMELO; i (200 ml] + POSTRE O CAFE; JUGO DETOX [prensado en frío); y helado; ON MANJAR OND; SORBETES; jengibre o frutos rojos. ($5.990); LIMONADA CON MENTA ($3.990); JUGO DE POMELO ($4.290); ENTRADAS AGUA PRISMA ($2.990); CERVEZA CORONA CERO ($3.990); EMPANADITAS DE MASA PHILO THOMAS HENRY GINGER BEER ($11.990); CEVICHE DE COCHAYUYO PA SODA. POMELO ($09.990); Cochayuyo, zanahoria, pimentón rojo, KOMBUCHA DR.KOMBU ($4.490); ANTIPASTO JUGO DETOX ($12.990); ROLLITOS THAL VW LASSI DE MANGO ($9.990); GUACAMOLE Y ($9.990); HUMMUS 7 í ($7.990); ESPRESSO ($2.790); CAPUCCINO ($3.590); ENSALADAS Agrega tu sopa por ($4.990); LATTE ($3.990); AFFOGATO ($4.990); CELEBRACIÓN INFUSIONES / TÉ ORGÁNICO ($11.990); granada, semillas de zapallo y reducción de vinagre LECHE DE ALMENDRAS / AVENA ($790); INSALATA DI RISO ($11.990); El Huerto”. FLAN DE COCO ($5.90); QUINOA ROJA Y Conescamas de ($11.990); cilantro, tomates cherry, palta, almendras CHEESECAKE VEGANO y ($5.990); BUDDHA BOWL y pasas y salsa de frutos rojos. ($12.590); Hummus, quínoa, kale salteado, brócoli, camote BROWNIE VEGANO y ($5.990); Con sorbete a elección; SOPA DEL DÍA; CEVICHE DE COCHAYUYO YP_3; JUGO DETOX; HUMMUS Y; ENSALADAS; Agrega tu sopa por ($4.990); LECHE DE ALMENDRAS / AVENA ($790); FLAN DE COCO; CHEESECAKE VEGANO Vv; BROWNIE VEGANO Y?
 - **Fecha de registro:** 2025-11-23
+
+### Carta
+
+- jengibre o frutos rojos — $5.790
+- LIMONADA CON MENTA — $3.690
+- AGUA PRISMA — $2.690
+- EMPANADITAS DE MASA PHILO CERVEZASIN ALCOHOL — $10.990
+- queso de cabra y ricotta. BOATVIAN GINGER BEER — $3.590
+- CEVICHE DE COCHAYUYO Y _4 BOTAVIAN GRAPEFRUIT — $9.990
+- Cochayuyo, zanahoria, pimentón rojo, SODA, POMELO — $3.590
+- pep manga cebolla morada, cilantro KOMBUCHA — $4.190
+- ANTIPASTO Berries y Sabor Original — $11.990
+- Burrata, higos, aceitunas, tomates cherry asados y JUGO DETOX — $4.590
+- TÁRTARO DE VEGETALES Y pepino y jengibre — $9.990
+- ártaro betarraga, palta y zanahoria con emulsion de LASSI DE MANGO — $4.590
+- ROLLITOS THAI Y? mango y una pizca de cúrcuma — $9.990
+- GUACAMOLE Y — $9.990
+- HUMMUS Y eS — $7590
+- ESPRESSO — $2.590
+- CAPUCCINO — $3.390
+- EN SALADAS Agrega tu sopa por LATTE — $45.590
+- INFUSIONES / TÉ ORGÁNICO — $2.990
+- soLsTicio Y — $11.590
+- Quinoa blanca, puerro, manzana verde salteada, LECHE DE ALMENDRAS / AVENA — $750
+- INSALATA DI RISO — $11.590
+- palta, tomates asados, alcaparras, aceitunas FLAN DE COCO — $5.390
+- OEREDRADIÓN CHEESECAKE VEGANO Y? — $11.590
+- BROWNIE VEGANO Y — $5.590
+- QUINOA ROJA Y Con sorbete a elección — $11.590
+- cilantro, tomates cherry, palta, almendras COULANT DE CHOCOLATE — $6.990
+- BUDDHA BOWL Y? 611590 TARTALETA DE NUEZ — $5.590
+- marinade: AABrezO A. CRUMBLE DE MANZANAS, — 55.290
+- MEZZE NP PERAS Y MEMBRILLO — $11.990
+- quínoa, salsa de pimientos asados con nueces KUCHEN DEL DÍA — $5.590
+- chips de pan pita. ¿On helado a elección
+- O Cualquiera de nuestras ensaladas puede ser vegana PANQUEQUES CON MANJAR — $55.790
+- Con helado a elección
+- D E FO N D 0 Agrega tu sopa por — $4.590
+- QUINOTTO — $11.590
+- DHAL DE LENTEJAS Y — $11.590
+- PAD THAI? _Y — $11.990
+- GNOCCHI DE ZAPALLO — $12.990
+- BURRITOS (Y opcional) — $11.590
+- acompañado de ensalada de lechuga,
+- LASAÑA DE BERENJENAS (Keto) — $11.590
+- con ensalada verde.
+- + JUGO NATURAL (200 ml)
+- + POSTRE 0 CAFÉ
+- SOPA DEL DÍA
+- JUGO DE POMELO
+- CEVICHE DE COCHAYUYO \7_#
+- JUGO DETOX
+- TÁRTARO DE VEGETALES Y?
+- HUMMUS Y
+- Agrega tu sopa por — $4.590
+- ENSALADAS
+- LECHE DE ALMENDRAS / AVENA — $750
+- FLAN DE COCO
+- CHEESECAKE VEGANO Y
+- Con sorbete a elección
+- COULANT DE CHOCOLATE
+- TARTALETA DE NUEZ
+- Y MANJAR
+- tostadas y ensalada griega acompañado de
+- PANQUEQUES CON MANJAR — $55.790
+- eR o ENSALADAS Pis
+- Dn el ? ENSALADA GRIEGA 4 KC
+- waists We INSALATA DI RISO — $11.590
+- OUINOA ROJA Y 590 — $11
+- E ENTRADAS BUDDHA BOWL Y — $11.590
+- E EMPANADITAS DE MASA PHILO + told rraesdo. Adaro taki A A eS ro ae emi — $10.99
+- > ANTIPASTO — $11.990
+- compiriado de pon da dertieaeairdd xa DE FONDO Agrega tu sopa por — $4.590
+- Verduras rescas envucitas en papal” ‘PASTEL DE cHocto — $11.990
+- con chips de maiz AÑO POROTOS GRANADOS Y — $11.590
+- con chips de pan pita. 3 PAD THAI! Y 4 y — $11.990
+- PARA TOMAR GNOCCHI — $12.990
+- Naranja, zanahoria, piña con jengibre BURRITOS ( Y opcional) — $11.590
+- “Sb LIMONADA CON MENTA iD pico de gallo y crema ácida acompañado de ensalada de lechuga, tomates cherry y — $23.690
+- LASAÑA DE BERENJENAS (Low carb) — $11.990
+- JU60 DE POMELO Berenjena, zapallo italiano, tomates asados, albahaca, queso de cabra y mozzarella (sin masa), — $3.990
+- AGUA PRISMA acompañados de ensalada verde. — $2.690
+- CERVEZA SIN ALCOHOL — $3.590
+- BOTAVIAN GRAPEFRUIT SODA, POMELO. (Lunes a Viernes) — $3.590
+- KOMBUCHA — $4.190
+- JUGO DETOX [prensado en frío) — $4.590
+- LASSI DE MANGO ——— a — $4.590
+- ESPRESSO (ees e Libro que reúne más de 100 recetas de Quinoa para celebrar sus 15 años — $2.590
+- CAPUCCINO Y? sm Sea de vida. Esta organizado por estaciones, porque asi se cocina en Quinoa — $3.390
+- LATTE i e e | cada día. — $3.690
+- AFFOGATO EY A — $4.790
+- INFUSIONES / TÉ ORGÁNICO A — $2.990
+- LECHE DE ALMENDRAS / AVENA — $750
+- FLAN DE COCO Con escamas de coco tostado. CRUMBLE DE FRUTOS ROJOS Con helado a elección. — $5.590
+- CHEESECAKE VEGANO Y KUCHEN DEL DÍA Con helado a elección. — $5.590
+- ¿ MEE y PANQUEQUES CON MANJAR O NUTELLA Con helado a elección. — $5.90
+- > BROWNIE VEGANO Y Con sorbete a elección. — $5.590
+- COULANT DE CHOCOLATE Con helado a elección. — $65.990
+- ENSALADAS
+- SOPA DEL DIA
+- Falafel, hur
+- salsa de pimientos asados con nuece
+- CEVICHE DE COCHAYUYO Y #
+- Agrega tu sopa por — $4.590
+- PASTEL DE CHOCLO
+- HUMMUS Y
+- BURRITOS ( Y opcional)
+- JUGO DE POMELO
+- acompañados de ensalada verde.
+- JUGO DETOX (prensado en frío)
+- KUCHEN DEL DÍA Con helado a elección.
+- CHEESECAKE VEGANO Y
+- BROWNIE VEGANO Y Con sorbete a elección.
+- o a Sos ie des ES ee Agrega tu sopa por :590 rad — $4
+- o ee ee PSUR ES Yeon i — $11.5
+- a ne A oo e PAR Ni ERES puerro, manzana epee) rabanito y cranberries pun — $11.590
+- ee [as INSALATA DIRISO O os NR — $11.590
+- Me ae | ee ee SOs Sane QUINOA ROJA ja, zanahoria, aceitunas, cilantro, toma! Beis — $11.590
+- See 5 E O. ENTRADAS BUDDHA BOWL Y brócoli, camote horneado, pa de ars — 1.990
+- pc ee RAS de pan de m: Pees — $9.990
+- o o SS CN TÁRTARO DE it Maisie con DE FONDO pe — $11.590
+- ae a AS acompañado de tos cence quinoa con zapallo, ragout de champiñones. p 0 feel 590 ps — $9.990
+- Pani <p OS EN nori con Lentejas y verdu y — $11.990
+- o area TS E doo! Í y cranberries. — $9.990
+- AS ES RS Pibe Salteado tallarines de arroz, plata) rdeaean curry verde, salsa Load — $7.590
+- oF eee eae es PARA TOMAR ese ce sapello con pesto, champin — $11.590
+- eu tee de a Hees Ee mozzarella. Salsa pico de gallo y — $3.690
+- ee a: ies o Limonada con LASANA DE BERENJENAS (Keto) ados, albahaca, queso de cabra y mozzarella, (s — $3.990
+- oe NS UITSODA, POMELO — $3.590
+- Ce ees Oe PLATO D (Lunes a Viernes] — $4,590
+- o e JUGO . engibre.
+- NENE Sl Be Manzana verde, espinaca, pepino y jeng — $14.990
+- ee essa 2 — $750
+- EN EG +3 — $5,590
+- A APA TES 4 . ión. — $5,290
+- aa: FLAN DE COCO Con escamas de coco tostado CRUMBLE DE MANZANAS, PERAS Y MEMBRILLO Con helado a elecci — $5.690
+- rd bs SAE see nae 5 Ci KE VEGANO Y di one eit. Le — $5.590
+- iS ee a Con castañas de ealdupasas EEN NAO JAR 0 NUTELLA Con helado a elección — $5.590
+- Agrega tu sopa por ° — $4.59
+- ENSALADAS
+- zapallo asado, ricotta de castaña
+- SOPA DEL DÍA
+- CEVICHE DE COCHAYUYO Y _#
+- salsa de pimientos asados con nueces
+- TÁRTARO DE VEGETALES Y
+- Tártaro betarraga, palta y zanahoria con
+- Agrega tu sopa por — 54.590
+- HUMMUS Y
+- BURRITOS ( Y opcional)
+- JUGO DE POMELO
+- LASAÑA DE BERENJENAS (Keto)
+- con ensalada verde.
+- JUGO DETOX (prensado en frío)
+- CHEESECAKE VEGANO Y
+- CRUMBLE DE MANZANAS, PERAS Y MEMBRILLO Con helado a elección. — $5,290
+- KUCHEN DEL DÍA Con helado a elección.
+- kas ws t/ SOPA DEL DIA Y PS — $5,790
+- Raines EMPANADITAS DE MASA PHILO ¿3 — $11,990
+- PAS MEZZE \ ON — $12.990
+- po CEVICHE DE COCHAYUYO Y 4 — 59.990
+- pu ROLLITO THAI Y i) — $9.990
+- ETSII GUACAMOLE Y con chips de maiz. a — $9.990
+- ELA ey, LS es HUMMUS Y con chips de pan pita — $7.990
+- Po Naranja, zanahoria, piña con jengibre ENSALADAS Agrega tu sopa por y — $4.590
+- LARES es oon FRUTILLAS Y MOZZARELLA ' — $11.990
+- en ok JUGO DE POMELO NUERTA DE PRIMAVERA wes — $4,290
+- vi Con has hear 990 Lechuga, « Sporragos, apio, papas baby, brócoli. ncotts, huevo pochado menta, e m fu — $3
+- } i AGUA PRISMA Con gas gas perejit e hinojo, con timmonetg — $2.99
+- Ms a teh Es BA 590 INSALATA DI RISO . — $11,990
+- CERVEZA SIN ALCOHOL QUINOA ROJA \ q — $3.990
+- “ THOMAS HENRY GINGER BEER 90; Quinoa blanca y roja zanahoria, aceitunas, cilantro, tomates cherry, palta, almendras — $3
+- R POMELO A — $3.990
+- ye THOMAS HENRY GRAPEFRUIT SODA. POM LO $ BUDDHA BOWL Y “Y — $12.590
+- KOMBUCHA DR. KOMBU Hummus, quinoa, kale salteado, brócoli, camote horneado, palta, zanahoria, betarraga — $4.490
+- JUGO DETOX (prensado en frío) O Cualquiera de nuestras ensaladas puede ser vegana cambiando el queso por tofu. * — $5.990
+- LASSI DE MANGO se990 DE FONDO Agrega tu sopa por — $4590
+- ORZO VERDE CREMOSO — $12.990
+- ESPRESSO LASAÑA DE BERENJENAS (Low carb) :990 — $2.79
+- CAPUCCINO acompañados de ensalada verde — $3.50
+- LATTE PAD THAI Pv — $3.990
+- AFFOGATO Salteado tallarines de arroz, zanahoria, pimiento rojo, zapallito italiano, tofu, cebollin, kale, — $4990
+- INFUSIONES / TÉ ORGÁNICO GNOCCHI DE ZAPALLO — $3.290
+- con leche vegetal + go — $7
+- DHAL DE LENTEJAS Y — $12.990
+- BURRITOS (Y opcional) — $11.990
+- TARTALETA DE LIMÓN Y FRUTILLAS ae COULANT DE CHOCOLATE Con helado a elección. — $5,970
+- CRUMBLE DE MANZANAS. PERAS Y MEMBRILLO Con helado a elección 990 — $5
+- FLAN DE COCO Con escamas de coco tostado. — 95.990
+- KUCHEN DEL DIA Cor hotado a elección. — $5.590
+- CHEESECAKE VEGANO Y ' E — $5.90
+- Con castañas de cojÓ, pasas y salsa de frutos rojos | PANQUEQUES CON MANJAR O NUTELLA Con helado a elección — $5.990
+- SOPA DEL DÍA Y
+- ensalada fres¢
+- CEVICHE DE COCHAYUYO Y _4
+- aceitunas, tomates cherry asados y fresc
+- HUMMUS Y
+- ENSALADAS
+- JUGO DE POMELO
+- alta, tomates asados,
+- Hummus, quinoa, kale salteado,
+- JUGO DETOX (prensado en frío)
+- Agrega tu sopa por 590 — $4
+- LASAÑA DE BERENJENAS (Low carb)
+- ena, zapallo italiano, tomates asados,
+- acompañados de ensalada verde
+- TARTALETA DE LIMÓN Y FRUTILUAS
+- CHEESECAKE VEGANO Y
+- BROWNIE VEGANO Y Con sorbete a elección
+- MELADOS & SORBETES
+- kas ws t/ SOPA DEL DIA Y PS — $5,790
+- Raines EMPANADITAS DE MASA PHILO ¿3 — $11,990
+- PAS MEZZE \ ON — $12.990
+- po CEVICHE DE COCHAYUYO Y 4 — 59.990
+- pu ROLLITO THAI Y i) — $9.990
+- ETSII GUACAMOLE Y con chips de maiz. a — $9.990
+- ELA ey, LS es HUMMUS Y con chips de pan pita — $7.990
+- Po Naranja, zanahoria, piña con jengibre ENSALADAS Agrega tu sopa por y — $4.590
+- LARES es oon FRUTILLAS Y MOZZARELLA ' — $11.990
+- en ok JUGO DE POMELO NUERTA DE PRIMAVERA wes — $4,290
+- vi Con has hear 990 Lechuga, « Sporragos, apio, papas baby, brócoli. ncotts, huevo pochado menta, e m fu — $3
+- } i AGUA PRISMA Con gas gas perejit e hinojo, con timmonetg — $2.99
+- Ms a teh Es BA 590 INSALATA DI RISO . — $11,990
+- CERVEZA SIN ALCOHOL QUINOA ROJA \ q — $3.990
+- “ THOMAS HENRY GINGER BEER 90; Quinoa blanca y roja zanahoria, aceitunas, cilantro, tomates cherry, palta, almendras — $3
+- R POMELO A — $3.990
+- ye THOMAS HENRY GRAPEFRUIT SODA. POM LO $ BUDDHA BOWL Y “Y — $12.590
+- KOMBUCHA DR. KOMBU Hummus, quinoa, kale salteado, brócoli, camote horneado, palta, zanahoria, betarraga — $4.490
+- JUGO DETOX (prensado en frío) O Cualquiera de nuestras ensaladas puede ser vegana cambiando el queso por tofu. * — $5.990
+- LASSI DE MANGO se990 DE FONDO Agrega tu sopa por — $4590
+- ORZO VERDE CREMOSO — $12.990
+- ESPRESSO LASAÑA DE BERENJENAS (Low carb) :990 — $2.79
+- CAPUCCINO acompañados de ensalada verde — $3.50
+- LATTE PAD THAI Pv — $3.990
+- AFFOGATO Salteado tallarines de arroz, zanahoria, pimiento rojo, zapallito italiano, tofu, cebollin, kale, — $4990
+- INFUSIONES / TÉ ORGÁNICO GNOCCHI DE ZAPALLO — $3.290
+- con leche vegetal + go — $7
+- DHAL DE LENTEJAS Y — $12.990
+- BURRITOS (Y opcional) — $11.990
+- TARTALETA DE LIMÓN Y FRUTILLAS ae COULANT DE CHOCOLATE Con helado a elección. — $5,970
+- CRUMBLE DE MANZANAS. PERAS Y MEMBRILLO Con helado a elección 990 — $5
+- FLAN DE COCO Con escamas de coco tostado. — 95.990
+- KUCHEN DEL DIA Cor hotado a elección. — $5.590
+- CHEESECAKE VEGANO Y ' E — $5.90
+- Con castañas de cojÓ, pasas y salsa de frutos rojos | PANQUEQUES CON MANJAR O NUTELLA Con helado a elección — $5.990
+- SOPA DEL DÍA Y
+- ensalada fres¢
+- CEVICHE DE COCHAYUYO Y _4
+- aceitunas, tomates cherry asados y fresc
+- HUMMUS Y
+- ENSALADAS
+- JUGO DE POMELO
+- alta, tomates asados,
+- Hummus, quinoa, kale salteado,
+- JUGO DETOX (prensado en frío)
+- Agrega tu sopa por 590 — $4
+- LASAÑA DE BERENJENAS (Low carb)
+- ena, zapallo italiano, tomates asados,
+- acompañados de ensalada verde
+- TARTALETA DE LIMÓN Y FRUTILUAS
+- CHEESECAKE VEGANO Y
+- BROWNIE VEGANO Y Con sorbete a elección
+- MELADOS & SORBETES
+- ENSALADAS y e— ri
+- alcaparrones, almendras y pesto (sin ajo). — $9.500
+- SOPA DEL D QUINOA ROJA E a
+- Rey Quinoa blanca y roja, zanahoria, aceitunas, cilantro, tomates cherry, palta, almendras E — $5.500
+- con chips de maíz. eeu MEZZE Y — $10.900
+- con chips de maíz tostadas y ensalada griega acompañado de chips de pan pita. 500 7 a — $6.500
+- eet o y ensalada griega acompañado QUESO DE CABRA APANADO EN PANKO — $92
+- Cochayuyo, zanahoria A ón roj ae El S Z — $59.900
+- ANTIPASTO — $9.200
+- frutos rojos. GNOCCHI DE TOMATE E — $10.900
+- LIMONADA CON MENTA mozzarella fresca y almendras tostadas. — $3.500
+- BURRITOS opcional : See — 9.900
+- AGUA PRISMA *Pidela versión sin gluten en tortillas de maíz ( +) Y a — $2.500
+- Amigable con el medio ambiente. LASAÑA DE BERENJENAS (Keto) NY" — $9.900
+- GINGER BEER PADTHAL Y pee — $3.200
+- Sabor Original) AS a a En E — $10.900
+- JUGO DETOX (prensado en frío) aceitedetrufa. ; P y un toque de — $3,900
+- TARTALETA DE PUERROS
+- LASSI DE MANGO Tarta de masa quebradiza rellena con puerros, azafrán y queso parmesano acompañada de — $4.200
+- CAPUCCINO 2 — $2.600
+- PATACÓN Ne — $10.300
+- LATTE Plátano verde frito con ensalada coleslaw, tomate, cilantro, cebolla morada y veganesa de — $3.
+- CHAI LATTE cilantro acompanado de arroz con coco y pebre de mango. — $3.200
+- TURMERIC GOLDEN LATTE — $3.200
+- TURMERIC CHOCOLATE — $3.200
+- AFFOGATO — $3.100
+- INFUSIONES / TE ORGANICO CLAVE WIFI quinoa5393 QUINOARESTAURANTE.CL — $2.300
+- LECHE DE ALMENDRAS / AVENA a A — $500
+- TARTALETA DE NUEZ Y MANJAR CRUMBLE DE FRUTOS ROJOS $ Y — $4,900
+- COULANT DE CHOCOLATE $
+- Con helado a elección. y
+- a tu sopa por 945%
+- ENSALADAS
+- Hummus, quínoa, kale salteado,
+- HUMMUS Y
+- a, tomates asados, alcaparras, aceitunas
+- Falafel, hummus, baba ganoush, tabouleh
+- de quínoa, salsa de pimientos asados con
+- CEVICHE DE COCHAYUYO Y
+- ENSALADA KETO 8
+- Agrega tu sopa por — 54.500
+- BURRITOS ( Y opcional)
+- *Pide la versión sin gluten en tortillas de maíz (+ ) Y — $1.000
+- LASAÑA DE BERENJENAS (Keto) Y
+- ensalada verde.
+- RISOTTO TRUFADO
+- JUGO DETOX (prensado en frío)
+- ensalada fresca y semillas tostadas.
+- LA HAMBURGUESA Y
+- TARTALETA DE NUEZ Y MANJAR
+- Con helado a elección.
+- TARTA DE COCO Y CHOCOLATE Y y
+- PANQUEQUES
+- BROWNIE VEGANO (70% cacao) Y
+- Con manjar y helado.
+- FLAN DE coco ©
+- COULANT DE CHOCOLATE
+- ENSALADAS Agrega tu sopa por -590 — $4
+- Sa VERANO — $11.590
+- ENSALADA GRIEGA — $11.590
+- ye INSALATA DI RISO — $11.590
+- QUINOA ROJA Y — $11.590
+- ENTRADAS BUDDHA BOWL Y — $11.590
+- EMPANADITAS DE MASA PHILO y tofu marinado. Aderezo t! — $10.990
+- queso de cabra y ricotta. MEZZE Y — $11.990
+- CEVICHE DE COCHAYUYO Y # tostadas y ensalada griego a — $9.990
+- ANTIPASTO — $11.990
+- acompañado de pan de masa madre. DE FONDO ] 5 E Agrega tu sopa por — $4.590
+- ROLLITO THAI Y — $9.990
+- GUACAMOLE Y 4 — $9.990
+- con chips de maiz. POROTOS GRANADOS Y — $11.590
+- HUMMUS Y — 7.590
+- con chips de pan pita. 2 PAD THAI Y 5 A — $11.990
+- PARA TOMAR GNOCCHI — $12.990
+- Naranja, zanahoria, piña con jengibre BURRITOS { Y opcional! > — $11.590
+- LIMONADA CON MENTA cebolla morada. ee f — $3.690
+- LASANA DE BERENJENAS (Low carb! — $11.990
+- JUGO DE POMELO : Berenjena, zapallo :\3\ cndptomates :ueso de cabra y mozzarella (sin masal, — $3.990
+- CERVEZA SIN ALCOHOL : a —. DE — $3.590
+- IR [IN E ATURAL (200 ml) + POSTRE O CAFE — $9.50
+- BOTAVIAN GRAPEFRUIT SODA, POMELO i a be ernes) — $3.590
+- JUGO DETOX [prensado en frío) Ta — $44.590
+- __ LASSI DE MANGO E ¿oa — $4.590
+- ae “ESPRESSO al a A - de 100 recetas de Quinoa para celebrar sus 15 años — $2.590
+- CAPUCCINO 9 añ lo por estaciones, porque así se cocina en Quínoa: { — $3.390
+- = AFFOGATO ee ¢ ae E — $4.790
+- E LECHE DE ALMENDRAS / AVENA see E. — $750
+- pe LAN DECOCO Con escamas de coco tostado. p! FRUTOS ROJOS Con helado a elección — $5.590
+- Pos el -HEESECAKE VEGANO Y A DEL DÍA Con held — $5.590
+- (a ee UES CON MANJAR O NUTELLA Con helado a elección. - el — $5.790
+- ENSALADAS
+- Agrega tu sopa por -590 — $4
+- SOPA DEL DÍA
+- Hummus, quinoa, kale
+- Falafel, hummus, baba y
+- ¡entos asados con nueces
+- CEVICHE DE COCHAYUYO Y #
+- tostadas y ensalada grieg
+- Agrega tu sopa por — $4.590
+- PASTEL DE CHOCLO
+- Con pino de berenjen
+- BURRITOS { Y opcional)
+- Tortillas de trigo relter
+- do de ensalada iS tomates cherry y
+- LASANA DE BERENJERAS (Low
+- JUGO DE POMELO
+- i (200 ml] + POSTRE O CAFE
+- JUGO DETOX [prensado en frío)
+- y helado
+- ON MANJAR OND
+- SORBETES
+- jengibre o frutos rojos. — $5.990
+- LIMONADA CON MENTA — $3.990
+- JUGO DE POMELO — $4.290
+- ENTRADAS AGUA PRISMA — $2.990
+- CERVEZA CORONA CERO — $3.990
+- EMPANADITAS DE MASA PHILO THOMAS HENRY GINGER BEER — $11.990
+- CEVICHE DE COCHAYUYO PA SODA. POMELO — $09.990
+- Cochayuyo, zanahoria, pimentón rojo, KOMBUCHA DR.KOMBU — $4.490
+- ANTIPASTO JUGO DETOX — $12.990
+- ROLLITOS THAL VW LASSI DE MANGO — $9.990
+- GUACAMOLE Y — $9.990
+- HUMMUS 7 í — $7.990
+- ESPRESSO — $2.790
+- CAPUCCINO — $3.590
+- ENSALADAS Agrega tu sopa por — $4.990
+- LATTE — $3.990
+- AFFOGATO — $4.990
+- CELEBRACIÓN INFUSIONES / TÉ ORGÁNICO — $11.990
+- granada, semillas de zapallo y reducción de vinagre LECHE DE ALMENDRAS / AVENA — $790
+- INSALATA DI RISO — $11.990
+- El Huerto”. FLAN DE COCO — $5.90
+- QUINOA ROJA Y Conescamas de — $11.990
+- cilantro, tomates cherry, palta, almendras CHEESECAKE VEGANO y — $5.990
+- BUDDHA BOWL y pasas y salsa de frutos rojos. — $12.590
+- Hummus, quínoa, kale salteado, brócoli, camote BROWNIE VEGANO y — $5.990
+- Con sorbete a elección
+- SOPA DEL DÍA
+- CEVICHE DE COCHAYUYO YP_3
+- JUGO DETOX
+- HUMMUS Y
+- ENSALADAS
+- Agrega tu sopa por — $4.990
+- LECHE DE ALMENDRAS / AVENA — $790
+- FLAN DE COCO
+- CHEESECAKE VEGANO Vv
+- BROWNIE VEGANO Y?
+
 
 ## Rebelde Pastelería Keto
 - **Ubicación:** Manuel Montt 187, local 3, 7500000 Providencia, Región Metropolitana
@@ -790,8 +5008,17 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://www.rebeldeketo.cl/
 - **Menciona en su web:** pastel
 - **Menciona en reseñas:** torta, pastel, brownie, dulces
-- **Carta (Google Maps):** asado Alimán ($3500); Filete de Pollo ($3500); Garbanzos ($3500); Fritos de Coliflor ($3500); Tutos teriyaki ($3500); Tortilla Española ($3500)
 - **Fecha de registro:** 2025-11-23
+
+### Carta
+
+- asado Alimán — $3500
+- Filete de Pollo — $3500
+- Garbanzos — $3500
+- Fritos de Coliflor — $3500
+- Tutos teriyaki — $3500
+- Tortilla Española — $3500
+
 
 ## REFUGIO PUB ÑUÑOA
 - **Ubicación:** Av. Irarrázaval 3097, 2° PISO, 7750000 Ñuñoa, Región Metropolitana
@@ -809,8 +5036,119 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://laescalera.cl/
 - **Menciona en su web:** pasta, lasaña, curry, pollo, carne, ensalada, panqueque, paella, mechada, torta, helado, chocolate, tiramisú, manjar, postre, dulces, jugo
 - **Menciona en reseñas:** pasta, lasaña, paella
-- **Carta (Google Maps):** eae :7.- ENSALADA SUPREMA: Valo) - dos quesos, terminados con perejil picado.) === ($12.990.); att , salsa bechamel, nueces y cilantro or ($ 6.990.); ] queso parmesano y perejil) TÉ O INFUSION ($ 2.990.); _ fi 14.- MOSTACCIOLI VEGGI: LNG eo Reet ASE GLUTEN Sa LACTOSA ($ 2.500.); Seip itali q i hamel, semillas y perejil) : 5 . ($ 2.); SPAGHETTI CON CARNE MECHADA; ÑOQUIS CON MECHADA; came mechada; PAELLA ESTILO LA ESCALERA; ENSALADA CESAR; °7.- ENSALADA SUPREMA; COPA DE HELADO LA ESCALERA; PANQUEQUE CELESTINO; TIRAMISÚ; TORTA DEL DIA; MOSTACCIOLI CURRY; EXTRA: SIN GLUTEN - SIN LACTOSA ($ 2.500.); jaa} y salsa César) y nueces, terminadas con queso parmesano y perejil picado.) Sr pS 1) ($23,990); ENSALADA SUPREMA: Valo. - dos quesos, terminados con perejil picado.) y ($12.990.); SPAGHETTI CARBONARA: yore - MIMONAGRIERGOELA ta E ($13.990.); MOSTACCIOLI MATRICIANA: a ae - CAFE EXPRESO: - E . A = ($13.990.); il (Tocino, ajo, salsa de aoe casera, jamón, salsa bechamel, TE O INFUSION: - Ñ A, 0 ($ 2.990.); E Soke O o Slee la bechamel, semis pero) EXTRA: SIN GLUTEN - SIN LACTOSA - - CC PES ($ 2.500.); SPAGHETTI CON CARNE MECHADA; ÑOQUIS CON MECHADA; PAELLA ESTILO LA ESCALERA; ENSALADA CESAR; ENSALADA SUPREMA; COPA DE HELADO LA ESCALERA; PANQUEQUE CELESTINO; TIRAMISÚ; TORTA DEL DÍA; MOSTACCIOLI CURRY; EXTRA: SIN GLUTEN - SIN LACTOSA ($ 2.500.); ___Ingredientes: pesto, queso parmesano, salsa bechamel, nueces y cilantro Ag ae SIN GLUTEN - SIN'LACTOSA ($ 2.500.); de carne, perejil; FRICASE DE ACELGA POLLO; ENSALADA CESAR; ENSALADA SUPREMA; CAFÉ EXPRESS ($ 2.900.); TÉ O INFUSIÓN: 500.- > ($ 2.); EXTRA: : QUESO EXTRA 500. ($1.); SIN eats SIN! peeks 500.- > ($2.); ENSALADA SUPREMA: Valo: - dos quesos, terminados con perejil picado.) ($12.990.); AA See raga PANQUEQUE CELESTINO; cilantro y queso parmesano) TIRAMISÚ; MOSTACCIOLI CURRY: dl - TORTA DEL DÍA ($13.990.); , 13.7 MOSTACCIOLE MAN RIC [ANA paises NE lor ($13.990.); » Ease ioc ManRuGGAG Voc ie ee aKa TÉ O INFUSIÓN ($ 2.990.); es AS taliano, A IA ear ate , salsa bechamel semilasypereil). EXTRA: SIN GLUTEN - SIN LACTOSA - : = ($ 2.500.); SPAGHETTI CON CARNE MECHADA; ÑOQUIS CON MECHADA; PAELLA ESTILO LA ESCALERA; ENSALADA CESAR; ENSALADA SUPREMA; COPA DE HELADO LA ESCALERA; PANQUEQUE CELESTINO; TIRAMISÚ; TORTA DEL DIA; lor ($13.990.); PANQUEQUE RELLENO C; ON MANJAR, SALSA DE CHOCO; N LACTOSA ($ 2.500.); i is EXTRA QUESO: - : qa ($1.500.); ZT/eA ($  10); SPAGHETTI CON CARNE MECHADA; ÑOQUIS CON MECHADA: (Sin Gluten; PAELLA ESTILO LA ESCALERA; ENSALADA CESAR; ENSALADA SUPREMA; COPA DE HELADO LA ESCALERA; PANQUEQUE CELESTINO; TIRAMISÚ; MOSTACCIOLI CURRY.; TORTA DEL; EXTRA: SIN GLUTEN - SINLACTOSA ($ 2,500.); mas acompañamiento: arroz o ensalada. O; CHEESCAKE - TIRAMISÚ, sin azúcar, sin gluten - Tl ($ 5.990.); CAFÉ EXPRESS: - TÉ O INFUSIÓN: - 3 ($ 2.700.); EXTRA: QUESO EXTRA - la ($ 1.500.); SIN GLUTEN - SIN LACTOSA - E ($ 2.000.); mas acompañamiento: arroz o ensalada; PANQUEQUE CELESTINO; CAFE EXPRESS ($ 2.700.); TE O INFUSION ($ 2.500.); EXTRA: QUESO EXTRA ($ 1.500.); SIN GLUTEN - SIN LACTOSA ($ 2.000.); ep — Restaurant PLAT! 16.- ÑOQUIS DOS QUESOS: (SIN gluten) falór - = SSS ($20.990.); ENSALADA SUPREMA: Valo: - dos quesos, terminados con perejil picado.) = ==” a ($12.990.); PANQUEQUE CELESTINO ==; [7 queso parmesano y perejil) TÉ O INFUSION ($ 2.990.); N CARNE MECHADA; y suprema de pollo de; ON MECHADA; PAELLA ESTILO LA ESCALERA; ENSALADA CESAR; crutones, pollo desmechado, perejil; ENSALADA SUPRE; mentón, pollo. desmechado,; COPA DE HELADO LA ESCALERA; PANQUEQUE CELESTINO; TIRAMISU; TORTA DEL DÍA; MOSTACCIOLI CURRY; PANQUEQUE RELLENO CON M; ANJAR, SALSA DE CHOCOLATE Y TOQUES; TEN - SIN LACTOSA ($ 2.500.); A > (1.000)
 - **Fecha de registro:** 2026-02-15
+
+### Carta
+
+- eae :7.- ENSALADA SUPREMA: Valo) - dos quesos, terminados con perejil picado.) === — $12.990.
+- att , salsa bechamel, nueces y cilantro or — $ 6.990.
+- ] queso parmesano y perejil) TÉ O INFUSION — $ 2.990.
+- _ fi 14.- MOSTACCIOLI VEGGI: LNG eo Reet ASE GLUTEN Sa LACTOSA — $ 2.500.
+- Seip itali q i hamel, semillas y perejil) : 5 . — $ 2.
+- SPAGHETTI CON CARNE MECHADA
+- ÑOQUIS CON MECHADA
+- came mechada
+- PAELLA ESTILO LA ESCALERA
+- ENSALADA CESAR
+- °7.- ENSALADA SUPREMA
+- COPA DE HELADO LA ESCALERA
+- PANQUEQUE CELESTINO
+- TIRAMISÚ
+- TORTA DEL DIA
+- MOSTACCIOLI CURRY
+- EXTRA: SIN GLUTEN - SIN LACTOSA — $ 2.500.
+- jaa} y salsa César) y nueces, terminadas con queso parmesano y perejil picado.) Sr pS 1) — $23,990
+- ENSALADA SUPREMA: Valo. - dos quesos, terminados con perejil picado.) y — $12.990.
+- SPAGHETTI CARBONARA: yore - MIMONAGRIERGOELA ta E — $13.990.
+- MOSTACCIOLI MATRICIANA: a ae - CAFE EXPRESO: - E . A = — $13.990.
+- il (Tocino, ajo, salsa de aoe casera, jamón, salsa bechamel, TE O INFUSION: - Ñ A, 0 — $ 2.990.
+- E Soke O o Slee la bechamel, semis pero) EXTRA: SIN GLUTEN - SIN LACTOSA - - CC PES — $ 2.500.
+- SPAGHETTI CON CARNE MECHADA
+- ÑOQUIS CON MECHADA
+- PAELLA ESTILO LA ESCALERA
+- ENSALADA CESAR
+- ENSALADA SUPREMA
+- COPA DE HELADO LA ESCALERA
+- PANQUEQUE CELESTINO
+- TIRAMISÚ
+- TORTA DEL DÍA
+- MOSTACCIOLI CURRY
+- EXTRA: SIN GLUTEN - SIN LACTOSA — $ 2.500.
+- ___Ingredientes: pesto, queso parmesano, salsa bechamel, nueces y cilantro Ag ae SIN GLUTEN - SIN'LACTOSA — $ 2.500.
+- de carne, perejil
+- FRICASE DE ACELGA POLLO
+- ENSALADA CESAR
+- ENSALADA SUPREMA
+- CAFÉ EXPRESS — $ 2.900.
+- TÉ O INFUSIÓN: 500.- > — $ 2.
+- EXTRA: : QUESO EXTRA 500. — $1.
+- SIN eats SIN! peeks 500.- > — $2.
+- ENSALADA SUPREMA: Valo: - dos quesos, terminados con perejil picado.) — $12.990.
+- AA See raga PANQUEQUE CELESTINO
+- cilantro y queso parmesano) TIRAMISÚ
+- MOSTACCIOLI CURRY: dl - TORTA DEL DÍA — $13.990.
+- , 13.7 MOSTACCIOLE MAN RIC [ANA paises NE lor — $13.990.
+- » Ease ioc ManRuGGAG Voc ie ee aKa TÉ O INFUSIÓN — $ 2.990.
+- es AS taliano, A IA ear ate , salsa bechamel semilasypereil). EXTRA: SIN GLUTEN - SIN LACTOSA - : = — $ 2.500.
+- SPAGHETTI CON CARNE MECHADA
+- ÑOQUIS CON MECHADA
+- PAELLA ESTILO LA ESCALERA
+- ENSALADA CESAR
+- ENSALADA SUPREMA
+- COPA DE HELADO LA ESCALERA
+- PANQUEQUE CELESTINO
+- TIRAMISÚ
+- TORTA DEL DIA
+- lor — $13.990.
+- PANQUEQUE RELLENO C
+- ON MANJAR, SALSA DE CHOCO
+- N LACTOSA — $ 2.500.
+- i is EXTRA QUESO: - : qa — $1.500.
+- ZT/eA — $  10
+- SPAGHETTI CON CARNE MECHADA
+- ÑOQUIS CON MECHADA: (Sin Gluten
+- PAELLA ESTILO LA ESCALERA
+- ENSALADA CESAR
+- ENSALADA SUPREMA
+- COPA DE HELADO LA ESCALERA
+- PANQUEQUE CELESTINO
+- TIRAMISÚ
+- MOSTACCIOLI CURRY.
+- TORTA DEL
+- EXTRA: SIN GLUTEN - SINLACTOSA — $ 2,500.
+- mas acompañamiento: arroz o ensalada. O
+- CHEESCAKE - TIRAMISÚ, sin azúcar, sin gluten - Tl — $ 5.990.
+- CAFÉ EXPRESS: - TÉ O INFUSIÓN: - 3 — $ 2.700.
+- EXTRA: QUESO EXTRA - la — $ 1.500.
+- SIN GLUTEN - SIN LACTOSA - E — $ 2.000.
+- mas acompañamiento: arroz o ensalada
+- PANQUEQUE CELESTINO
+- CAFE EXPRESS — $ 2.700.
+- TE O INFUSION — $ 2.500.
+- EXTRA: QUESO EXTRA — $ 1.500.
+- SIN GLUTEN - SIN LACTOSA — $ 2.000.
+- ep — Restaurant PLAT! 16.- ÑOQUIS DOS QUESOS: (SIN gluten) falór - = SSS — $20.990.
+- ENSALADA SUPREMA: Valo: - dos quesos, terminados con perejil picado.) = ==” a — $12.990.
+- PANQUEQUE CELESTINO ==
+- [7 queso parmesano y perejil) TÉ O INFUSION — $ 2.990.
+- N CARNE MECHADA
+- y suprema de pollo de
+- ON MECHADA
+- PAELLA ESTILO LA ESCALERA
+- ENSALADA CESAR
+- crutones, pollo desmechado, perejil
+- ENSALADA SUPRE
+- mentón, pollo. desmechado,
+- COPA DE HELADO LA ESCALERA
+- PANQUEQUE CELESTINO
+- TIRAMISU
+- TORTA DEL DÍA
+- MOSTACCIOLI CURRY
+- PANQUEQUE RELLENO CON M
+- ANJAR, SALSA DE CHOCOLATE Y TOQUES
+- TEN - SIN LACTOSA — $ 2.500.
+- A > — 1.000
+
 
 ## Restoran Pinpilinpausha
 - **Ubicación:** Isidora Goyenechea 2900, 7550033 Las Condes, Región Metropolitana
@@ -820,8 +5158,163 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.pinpilinpausha.cl/
 - **Menciona en su web:** tortilla, paella, chocolate, churro
 - **Menciona en reseñas:** carne, pescado, mariscos, ensalada, chocolate, churro
-- **Carta (Google Maps):** Huevos estrellados sobre papas fritas y chorizo ($15.900); Riñones al jerez con arroz ($15.900); Guatitas a la madrileña F ($15.900); Garbanzos con camarones al pil-pil ($15.900); y salsa thai ($15.900); da A a Calamares en su tinta con arroz ($20.900); E (2 porciones) ($42.900); CARNES / MEATS; uré de | Lomo vetado en salsa a las ($20900); Chuletitas de cordero con :900 ($31); ona Pinpilinpausha (filete apanado ($24.900); Rifiones al jerez con arroz ($15.900); Guatitas a la madrileña ($15.900); Calamares en su tinta con arroz ($20.200); (2 porciones) ($42.900); } os asados; Huevos estrellados s bre papas fritas y chorizo ($15.900); Riñones al jerez con arroz ( ($15.900); Guatitas a la madrileña ($15.900); Garbanzos con camarones al pil-pil ($15.900); y salsa thai ($15.900); Calamares en su tinta con arroz ($20.900); (2 porciones) ($42.900); CARNES / MEATS; Confit de canard con puré de | Lomo vetado en salsa a las ($20.900); Paillard de filete con rúcula, tomates Chuletitas de cordero con ($24.900); Escalopa Pinpilinpausha (fileteapanado ($24.900); Filete en salsa de chalotas al oporto acompañado de puré, pimientos asados ($24.900); wos estrellados sobre papas fritas y « horizo ($15.900); Riñones al jerez con arroz ($15.900); zapallo y zanahoria asado al aroma; acompañado de puré, pimientos asados; Huevos estrellados sobre papas fritas y chorizo ($15.900); Rifiones al jerez con arroz ($15.900); Guatitas a la madrilena ($15.900); ? Garbanzos con camarones al pil-pil ($16.900); ane (salsa vasca en base a pimiento y tomate) ($16.900); Salsa thai ($16.900); 3 Calamares en su tinta con arroz ($20.900); o - (2 porciones) ($45.000); e aa a pu ré de | Lomo vetado en salsa a las ($20.900); ae o Chuletitas de cordero con Aa ($32.900); Garbanzos con camarones al pil-pil ($16.900); y salsa thai ($16.900); Calamares en su tinta con arroz ($20.900); (2 porciones) ($45.000); CARNES / MEATS; Merchotas, accitunas, ate 100 123900 qe did is piancns pe res age (924.990); Merluza crocante con ensalada chilena avin taquendo en sales de mie (424,900); Merluza a la vasca (423.900); Cheesecake español con Torta de láminas chocolate blanco 500 ($8.500); salsa de maracuyá y de leche con manjar; Flan casero Torta de merengue lúcuma ($6,900); Crema catalana Panqueques COn miel o manja! y helado ($6,900); Arroz con leche ($6.900); Turron español con sorbet Caraiillo café nae ($8.500); spanish turrón with sorbet Sarajillo café con ¡cor 45 ($8); nte con ensalada chilena; ra (en su jugo; Torta de \ami; n manjar; anish cheesecake wi; Torta de merengu; Flan casero; y helado; on miel o manjar; Panqueques €; sorbetes artesanales; PESCADOS pens; Merluza austral al estilo mediterráneo galmng O ($23,900); ao crocante con ensalada chilena Atún laqueado en salsa de miel y $ ($23900); Merluzaa la vasca ($23.900); Hake in Basque style (with garlic and green sauce) Congrio en costra de chorizo español, ($24.900); Caldillo de congrio ($24.900); he e $e5oo | Tortade laminas chocolate blanco ($8.500); E espane << y deleche con manjar; E Torta de merengue lúcuma a ($8.500); <= | Panqueques con miel o manjar y bado (8.500); lo café con licor 43 ($8,500); PESCADOS / FR; Merluza crocante con ensalada chilena; aala donostierra (en su jugo; Torta de láminas chocolate blanco; y de leche con manjar; chocolate cake 8 caramel spread; Torta de merengue lúcuma; miel o manjar y helado; Panqueques con; a. PESCADOS / FROM THE SEA A; Merluza austral al estilo mediterráneo Salmé a NM ($23.900); Merluza crocante con ensalada chi , a; Share chilena a en salsa de miel y e ($23.900); Merluza a la vasca ee ($23.900); Hake in Basque style (with garlic and green sauce) Congrio en costra de chorizo español, E ($24.900); Caldillo de congrio ($24.900); Cheesecake español con Torta de laminas chocolate blanco ($8.500); salsa de maracuya y de leche con manjar; Flan casero Torta de merengue lúcuma ($6,900); j lado ($8.500); ñ | O ($8.500); PESCADOS FROM THE SEA; Merluza crocante con ensalada chilena; Corvina a la donostierra (en su jugo; Torta de laminas chocolate blanco; Cheesecake español con; y de leche con manjar; Spanish cheesecake with passion fruit sa; Torta de merengue lúcuma; Flan casero; Panqueques con miel o m; anjar y helado; ENSALADAS / SALADS; PASTAS Y RISOTTOS / FRESH PASTA; Ensalada de pepino, tomate, albahaca ¢ ($17); queso de cabra, aceitunas y palta > paguetti a la española con champiñones, 516900 ($13.900); Eiletitos de pollo a las brasas cx y; / rurderezo . oh a os Risotto con alcacholas, che ‘ . 47. (913.900); aderezo de yoghurt y romero acompañado champiñones y 900 ($11); Camarones ala plancha con edamame Risotto de sepia con anillos de 4709009 ($13.900); vocodo, Chr nat J arugula with Risotto de hongos silvestres y puerros ($721900); Mozzarella de Búfala con crocante de pil-pil steak bites ($15.900); ¡iamón serrano y ensalada de rúcula,; Atún plancha con salsa de sésamo VEGAN - LACTOSE FREI ($22.900); sobre ensalada verde con palta; Grifed tuno yv i green salad avocado and ( ynocchis de butternut con tomate 900 ($13); ostras asados sobre coulis de albahaca; Rollitos de berenjena a la plancha ($13900); ENSALADAS; PASTAS Y RISOTTOS / FRESH PAS; Eiletitos de pollo a las brasas con; Risotto de se pia con anios de; Risotto di sepia with pil pil quid rings; Risotto de hongos silvestre; Wild mushroom risotto with leek; ón serrano y ensalada de rúcula,; rem , ($20.900); Pur $: Atún eo de Miel y ($21.900); A lerluza ala Vasca F ($20.900); Noe ue sp, © OWED po Co Breen SaUGe@) Congrio en COStra de Chorizo “SPafio) ($21,909); A Sar Caldillo de Congrio ($21.909); Torta de láminas chocolate blanco fat ($6.900); Torta de Merengue lúcuma a pe ($5.900); P, Yeques con miel o Manjar y A; ~ e anq a "or Dutterscoto» ques e 3 ‘ ($6.900); Cato, lan ON eam (Yóme Orulós) 108 cream 900 i ($5); Y Sorbetes Artesa ($5.900); Rio A “Odin Mande ($5.100); a illo café con licor 45 ($6.900); Chocolate blan; Panqueques; Mar y helado; Sorbetes arte
 - **Fecha de registro:** 2025-11-05
+
+### Carta
+
+- Huevos estrellados sobre papas fritas y chorizo — $15.900
+- Riñones al jerez con arroz — $15.900
+- Guatitas a la madrileña F — $15.900
+- Garbanzos con camarones al pil-pil — $15.900
+- y salsa thai — $15.900
+- da A a Calamares en su tinta con arroz — $20.900
+- E (2 porciones) — $42.900
+- CARNES / MEATS
+- uré de | Lomo vetado en salsa a las — $20900
+- Chuletitas de cordero con :900 — $31
+- ona Pinpilinpausha (filete apanado — $24.900
+- Rifiones al jerez con arroz — $15.900
+- Guatitas a la madrileña — $15.900
+- Calamares en su tinta con arroz — $20.200
+- (2 porciones) — $42.900
+- } os asados
+- Huevos estrellados s bre papas fritas y chorizo — $15.900
+- Riñones al jerez con arroz ( — $15.900
+- Guatitas a la madrileña — $15.900
+- Garbanzos con camarones al pil-pil — $15.900
+- y salsa thai — $15.900
+- Calamares en su tinta con arroz — $20.900
+- (2 porciones) — $42.900
+- CARNES / MEATS
+- Confit de canard con puré de | Lomo vetado en salsa a las — $20.900
+- Paillard de filete con rúcula, tomates Chuletitas de cordero con — $24.900
+- Escalopa Pinpilinpausha (fileteapanado — $24.900
+- Filete en salsa de chalotas al oporto acompañado de puré, pimientos asados — $24.900
+- wos estrellados sobre papas fritas y « horizo — $15.900
+- Riñones al jerez con arroz — $15.900
+- zapallo y zanahoria asado al aroma
+- acompañado de puré, pimientos asados
+- Huevos estrellados sobre papas fritas y chorizo — $15.900
+- Rifiones al jerez con arroz — $15.900
+- Guatitas a la madrilena — $15.900
+- ? Garbanzos con camarones al pil-pil — $16.900
+- ane (salsa vasca en base a pimiento y tomate) — $16.900
+- Salsa thai — $16.900
+- 3 Calamares en su tinta con arroz — $20.900
+- o - (2 porciones) — $45.000
+- e aa a pu ré de | Lomo vetado en salsa a las — $20.900
+- ae o Chuletitas de cordero con Aa — $32.900
+- Garbanzos con camarones al pil-pil — $16.900
+- y salsa thai — $16.900
+- Calamares en su tinta con arroz — $20.900
+- (2 porciones) — $45.000
+- CARNES / MEATS
+- Merchotas, accitunas, ate 100 123900 qe did is piancns pe res age — 924.990
+- Merluza crocante con ensalada chilena avin taquendo en sales de mie — 424,900
+- Merluza a la vasca — 423.900
+- Cheesecake español con Torta de láminas chocolate blanco 500 — $8.500
+- salsa de maracuyá y de leche con manjar
+- Flan casero Torta de merengue lúcuma — $6,900
+- Crema catalana Panqueques COn miel o manja! y helado — $6,900
+- Arroz con leche — $6.900
+- Turron español con sorbet Caraiillo café nae — $8.500
+- spanish turrón with sorbet Sarajillo café con ¡cor 45 — $8
+- nte con ensalada chilena
+- ra (en su jugo
+- Torta de \ami
+- n manjar
+- anish cheesecake wi
+- Torta de merengu
+- Flan casero
+- y helado
+- on miel o manjar
+- Panqueques €
+- sorbetes artesanales
+- PESCADOS pens
+- Merluza austral al estilo mediterráneo galmng O — $23,900
+- ao crocante con ensalada chilena Atún laqueado en salsa de miel y $ — $23900
+- Merluzaa la vasca — $23.900
+- Hake in Basque style (with garlic and green sauce) Congrio en costra de chorizo español, — $24.900
+- Caldillo de congrio — $24.900
+- he e $e5oo | Tortade laminas chocolate blanco — $8.500
+- E espane << y deleche con manjar
+- E Torta de merengue lúcuma a — $8.500
+- <= | Panqueques con miel o manjar y bado — 8.500
+- lo café con licor 43 — $8,500
+- PESCADOS / FR
+- Merluza crocante con ensalada chilena
+- aala donostierra (en su jugo
+- Torta de láminas chocolate blanco
+- y de leche con manjar
+- chocolate cake 8 caramel spread
+- Torta de merengue lúcuma
+- miel o manjar y helado
+- Panqueques con
+- a. PESCADOS / FROM THE SEA A
+- Merluza austral al estilo mediterráneo Salmé a NM — $23.900
+- Merluza crocante con ensalada chi , a
+- Share chilena a en salsa de miel y e — $23.900
+- Merluza a la vasca ee — $23.900
+- Hake in Basque style (with garlic and green sauce) Congrio en costra de chorizo español, E — $24.900
+- Caldillo de congrio — $24.900
+- Cheesecake español con Torta de laminas chocolate blanco — $8.500
+- salsa de maracuya y de leche con manjar
+- Flan casero Torta de merengue lúcuma — $6,900
+- j lado — $8.500
+- ñ | O — $8.500
+- PESCADOS FROM THE SEA
+- Merluza crocante con ensalada chilena
+- Corvina a la donostierra (en su jugo
+- Torta de laminas chocolate blanco
+- Cheesecake español con
+- y de leche con manjar
+- Spanish cheesecake with passion fruit sa
+- Torta de merengue lúcuma
+- Flan casero
+- Panqueques con miel o m
+- anjar y helado
+- ENSALADAS / SALADS
+- PASTAS Y RISOTTOS / FRESH PASTA
+- Ensalada de pepino, tomate, albahaca ¢ — $17
+- queso de cabra, aceitunas y palta > paguetti a la española con champiñones, 516900 — $13.900
+- Eiletitos de pollo a las brasas cx y
+- / rurderezo . oh a os Risotto con alcacholas, che ‘ . 47. — 913.900
+- aderezo de yoghurt y romero acompañado champiñones y 900 — $11
+- Camarones ala plancha con edamame Risotto de sepia con anillos de 4709009 — $13.900
+- vocodo, Chr nat J arugula with Risotto de hongos silvestres y puerros — $721900
+- Mozzarella de Búfala con crocante de pil-pil steak bites — $15.900
+- ¡iamón serrano y ensalada de rúcula,
+- Atún plancha con salsa de sésamo VEGAN - LACTOSE FREI — $22.900
+- sobre ensalada verde con palta
+- Grifed tuno yv i green salad avocado and ( ynocchis de butternut con tomate 900 — $13
+- ostras asados sobre coulis de albahaca
+- Rollitos de berenjena a la plancha — $13900
+- ENSALADAS
+- PASTAS Y RISOTTOS / FRESH PAS
+- Eiletitos de pollo a las brasas con
+- Risotto de se pia con anios de
+- Risotto di sepia with pil pil quid rings
+- Risotto de hongos silvestre
+- Wild mushroom risotto with leek
+- ón serrano y ensalada de rúcula,
+- rem , — $20.900
+- Pur $: Atún eo de Miel y — $21.900
+- A lerluza ala Vasca F — $20.900
+- Noe ue sp, © OWED po Co Breen SaUGe@) Congrio en COStra de Chorizo “SPafio) — $21,909
+- A Sar Caldillo de Congrio — $21.909
+- Torta de láminas chocolate blanco fat — $6.900
+- Torta de Merengue lúcuma a pe — $5.900
+- P, Yeques con miel o Manjar y A
+- ~ e anq a "or Dutterscoto» ques e 3 ‘ — $6.900
+- Cato, lan ON eam (Yóme Orulós) 108 cream 900 i — $5
+- Y Sorbetes Artesa — $5.900
+- Rio A “Odin Mande — $5.100
+- a illo café con licor 45 — $6.900
+- Chocolate blan
+- Panqueques
+- Mar y helado
+- Sorbetes arte
+
 
 ## Sabores para Alegrar
 - **Ubicación:** Totoral 4980, I, 7750000 Ñuñoa, Región Metropolitana
@@ -841,8 +5334,38 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.sapiensrestaurant.cl/
 - **Menciona en su web:** pizza, burrito, ensalada, completo, jugo
 - **Menciona en reseñas:** burrito, postre, jugo
-- **Carta (Google Maps):** ag : Tarta de limon o trufas de cacao.; 3 Pastelera con bolognesa; a 3 Pizza Sapiens; Tarta de limon o trufas de cacao.; Pastelera con bolognesa; Pizza Sapiens; ¿E Helado POGA; Galletitas de perro (3u); Helado POGA; Pastelera (GF); Risotto de Mote; Tarta de Maracuyá y Berries; Tarta Matcha; ce) Muffin Cacao Naranja; Bombón de Chocolate; Muffin Cacao Naranja; Tártaro de Palta; ¿> Quesadillas; Quesadillas; ENSALADAS; Ceviche; pRB Burrito Keto (GF); Gea 9 Burrito Cariota; ye Burrito Chick; Burrito Keto (GF); Burrito Cariota; Burrito Chick
 - **Fecha de registro:** 2025-10-02
+
+### Carta
+
+- ag : Tarta de limon o trufas de cacao.
+- 3 Pastelera con bolognesa
+- a 3 Pizza Sapiens
+- Tarta de limon o trufas de cacao.
+- Pastelera con bolognesa
+- Pizza Sapiens
+- ¿E Helado POGA
+- Galletitas de perro (3u)
+- Helado POGA
+- Pastelera (GF)
+- Risotto de Mote
+- Tarta de Maracuyá y Berries
+- Tarta Matcha
+- ce) Muffin Cacao Naranja
+- Bombón de Chocolate
+- Muffin Cacao Naranja
+- Tártaro de Palta
+- ¿> Quesadillas
+- Quesadillas
+- ENSALADAS
+- Ceviche
+- pRB Burrito Keto (GF)
+- Gea 9 Burrito Cariota
+- ye Burrito Chick
+- Burrito Keto (GF)
+- Burrito Cariota
+- Burrito Chick
+
 
 ## SERSAYAAN ALIMENTOS SIN GLUTEN
 - **Ubicación:** Capitán Fuentes 33, 7750018 Ñuñoa, Región Metropolitana
@@ -860,8 +5383,78 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://www.covermanager.com/reserve/module_restaurant/Sicily-Pizzeria-Moderna-Alonso-de-Cordova/spanish?source=GoogleSpecialLink
 - **Menciona en su web:** completo, factura
 - **Menciona en reseñas:** pizza, gelato
-- **Carta (Google Maps):** TIRAMISU CON GELATO (EES A; TIRAMISU ALLA NUTELLA; chocolate.; TIRAMISU AL PISTACCHIO; y pistacho, con helado de pistacho.; unidades del clásicos postre PA; GELATO; TIRAMISU CON GELATO; unidades del clásicos postre; Desde: Y ad 9 Desde: SRG TRY ro cay eae, ($17.990); © | 20 AO | s16:090 0 at cog | 2d ($16.990); Ay <> 3 E + ($12.990); CD AA OS ESO ($16.990); Y aie AOS | NS ($12.990); AS O% SE | ¢ ($12.990); Y) o ($13.990); Desde ($17.990); tartaro de aji verde, Aceite; (95) O || sis @@ o ($12.990); pa Bal My soso z ASA o ($12.990); @@ o ($10.990); E = Se Bags olaa Aceno EVO SCA | tro. Postos de tomates secos y albahaca, reduce coe ($13.990); “ E ARS | © eee Y Ai (514.990); Y \ © 7 | Y RS ($14.990); sae © me ee | OA ae A ESE ($11.990); > SA | 12000 (2 ($13.990); AS o 990 Y ° ($12.990); ec 512990 E] ($12.990); (Y) ($15.990); CLP + > CLP + 165 CLP (11,990); CLP - ib 92% (318) ERA de (11,990); CLP - (y 90% (20) Pe $e rae Se A (15,990); CLP «> (11,990); CLP «10 (15,990); CLP (14,990); CLP + 16 92% (318) (11,990); CLP + i 90% (20) (15,990); 8 © ae © @ ($14.990); CROISSANT SICILIANO TAN; ado de pistacho or or ($3.990); } , Desde: © ($6.290); GELATO OGGI; o A ey Dy TS ($4,990); Desde: ) Desde: | Desde: ee ($17.990); Desde: O | | Pesde: O || Desde: O || Desde: o ($3.290); PIZZAMISÚ; TIRAMISU CON GELATO; Voloan de chocolate con gelsto de valide; CROISSANT SICILIANO; CROISSANT CLASSICO; CANNOLO GRANDE CON GELATO.; Croissant clasico o con varios rellenos.; Desde ($2.490); GELATO GRANDE; GELATO REGULAR; GELATO MINI; TIRAMISU EXPRESSO (SOLO AL; Distruta de un Tiramisú al poso; KILO DE GELATO PARA LLEVAR; GR DE GELATO PARA LLEVAR; CAFFE E GELATO.; CAFFE E MUFFIN; Miss @ € , WERO Po s6.990 © ie ME ($8,990); ape = ($6.990); © o ($5.990); a @ de pistacho. icine if , ($14,990); “O, ES DA ($14.990)
 - **Fecha de registro:** 2025-11-23
+
+### Carta
+
+- TIRAMISU CON GELATO (EES A
+- TIRAMISU ALLA NUTELLA
+- chocolate.
+- TIRAMISU AL PISTACCHIO
+- y pistacho, con helado de pistacho.
+- unidades del clásicos postre PA
+- GELATO
+- TIRAMISU CON GELATO
+- unidades del clásicos postre
+- Desde: Y ad 9 Desde: SRG TRY ro cay eae, — $17.990
+- © | 20 AO | s16:090 0 at cog | 2d — $16.990
+- Ay <> 3 E + — $12.990
+- CD AA OS ESO — $16.990
+- Y aie AOS | NS — $12.990
+- AS O% SE | ¢ — $12.990
+- Y) o — $13.990
+- Desde — $17.990
+- tartaro de aji verde, Aceite
+- (95) O || sis @@ o — $12.990
+- pa Bal My soso z ASA o — $12.990
+- @@ o — $10.990
+- E = Se Bags olaa Aceno EVO SCA | tro. Postos de tomates secos y albahaca, reduce coe — $13.990
+- “ E ARS | © eee Y Ai — 514.990
+- Y \ © 7 | Y RS — $14.990
+- sae © me ee | OA ae A ESE — $11.990
+- > SA | 12000 (2 — $13.990
+- AS o 990 Y ° — $12.990
+- ec 512990 E] — $12.990
+- (Y) — $15.990
+- CLP + > CLP + 165 CLP — 11,990
+- CLP - ib 92% (318) ERA de — 11,990
+- CLP - (y 90% (20) Pe $e rae Se A — 15,990
+- CLP «> — 11,990
+- CLP «10 — 15,990
+- CLP — 14,990
+- CLP + 16 92% (318) — 11,990
+- CLP + i 90% (20) — 15,990
+- 8 © ae © @ — $14.990
+- CROISSANT SICILIANO TAN
+- ado de pistacho or or — $3.990
+- } , Desde: © — $6.290
+- GELATO OGGI
+- o A ey Dy TS — $4,990
+- Desde: ) Desde: | Desde: ee — $17.990
+- Desde: O | | Pesde: O || Desde: O || Desde: o — $3.290
+- PIZZAMISÚ
+- TIRAMISU CON GELATO
+- Voloan de chocolate con gelsto de valide
+- CROISSANT SICILIANO
+- CROISSANT CLASSICO
+- CANNOLO GRANDE CON GELATO.
+- Croissant clasico o con varios rellenos.
+- Desde — $2.490
+- GELATO GRANDE
+- GELATO REGULAR
+- GELATO MINI
+- TIRAMISU EXPRESSO (SOLO AL
+- Distruta de un Tiramisú al poso
+- KILO DE GELATO PARA LLEVAR
+- GR DE GELATO PARA LLEVAR
+- CAFFE E GELATO.
+- CAFFE E MUFFIN
+- Miss @ € , WERO Po s6.990 © ie ME — $8,990
+- ape = — $6.990
+- © o — $5.990
+- a @ de pistacho. icine if , — $14,990
+- “O, ES DA — $14.990
+
 
 ## Simona Healthy Bakery
 - **Ubicación:** Av. Gabriela Mistral 3250, 1700000 La Serena, Coquimbo
@@ -886,8 +5479,72 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.3 / 5
 - **Enlace:** https://www.google.com/maps?cid=8600383574881611182
 - **Menciona en reseñas:** sushi, ceviche, pastel, manjar, postre, dulces
-- **Carta (Google Maps):** PIE DE LIMÓN mn - O O, Ss; Trozo dé kuchen Jone : «590 | 1 20 20 - 8 ($14.490); are singh Pollo, queso y cebollin (* ES; Eclair relleno de pastelera y crema paz } Es ($18.990); de merengue italiano. ~ Peis ie SUE KS; PROFITEROL RELLENO Hosomaki o ones E ($1.990); Pollo, queso y cebollín (tempura) x; Camarón tempura y queso; Pepino, palta y palmito (*) LUNES A SÁBADO: 12 A 22 HR ($2.500); CAPUCCINO a a queso y pala DOMINGO Y FESTIVOS: 12 A 17 HRS ($2.900); CAPUCCINO SABOR _ | osomaki queso¥ Bales (32.900); Queso, cebollin y pollo (*); Camarón, salmon y queso (tempura); Pollo, queso y cebollín (*); Bollito relleno de manjar ye; Hosomaki queso y pollo; SUSHI COFFEE; ENO ($1.990); Pulpo, queso, pimentón rojo (tempura); Pollo, queso y cebollín (tempura); CHOCOLATE CALIENTE ($2); Salmón tempura, palta y cebollin. - Y; DELI ROLL SAKEBI TEMPURA ue 2s; Pollo, queso y cebollín. A; Jj | SUIEOCL TAKO TEMPURA =; Camarón tempura, ciboulette y queso; Salmón tempura, palta y cebollin; Pollo, queso, pime; Queso, palta, cubierto de ceviche mixto; SAKEBI TEMPURA; Pollo, champifion, queso, en tempura; TERI TEMPURA; Pollo, queso y cebollín; TAKO TEMPURA; Pollo, palta, envuelto en pollo apanado; Viche mixto bocado : A Ki j SAKE EBI ROLL MS ($6.290.); ait. a Mi 3 Queso, ciboulette, salmon, env oc Sl . TAKO ROLL « 2 ($6.290); Hoca ae E El EBI ROLL fe ($6.990); con una protej =, Y Palta, pulpo, con salsa de olivo MY 7) ES ($5.490); be ON, pulpo e'camarón) | ‘erg gc EE ($6.990); > e -..... PANCHIROLL DL | SAKEROLL $ (36.290); re | 2 a ($6.2); Camarón, pulpo y salmón ¿e a e | di F ($6.990); Pulpo, cama ron (o) aimon. Re Queso, palta, cubierto de ceviche mixto — E | Camarén, salmón y E ($6.290); £ : 3 8 ' Pollo, champiñon, queso, en tempura | e: Pulpo, queso y pimetón pS Ss ($6.290); _ bes ‘d SI O ió ta. ' ES ES E Ga E Pollo, palt: ) SNS ($6.); > YN Ve a A SUKI ROLL GR ty Camarón O SS ($6.2); Pulpo, pollo, champiñon, cebellin; q; cebollin y pollo tenpuí; Camarón tempura, ciboulette y q; Salmon tempura, palta y cebollin.; SAKEBI TEMPURA; Queso, palta, cubierto de ceviche mixto; 22d ($6); TERI TEMPURA; Pollo, queso y cebollín.; TAKO TEMPURA; Pollo, champiñon, q; ueso, en tempura; Pollo, Palta, envuelto en Pollo apana; pollo y
 - **Fecha de registro:** 2025-11-05
+
+### Carta
+
+- PIE DE LIMÓN mn - O O, Ss
+- Trozo dé kuchen Jone : «590 | 1 20 20 - 8 — $14.490
+- are singh Pollo, queso y cebollin (* ES
+- Eclair relleno de pastelera y crema paz } Es — $18.990
+- de merengue italiano. ~ Peis ie SUE KS
+- PROFITEROL RELLENO Hosomaki o ones E — $1.990
+- Pollo, queso y cebollín (tempura) x
+- Camarón tempura y queso
+- Pepino, palta y palmito (*) LUNES A SÁBADO: 12 A 22 HR — $2.500
+- CAPUCCINO a a queso y pala DOMINGO Y FESTIVOS: 12 A 17 HRS — $2.900
+- CAPUCCINO SABOR _ | osomaki queso¥ Bales — 32.900
+- Queso, cebollin y pollo (*)
+- Camarón, salmon y queso (tempura)
+- Pollo, queso y cebollín (*)
+- Bollito relleno de manjar ye
+- Hosomaki queso y pollo
+- SUSHI COFFEE
+- ENO — $1.990
+- Pulpo, queso, pimentón rojo (tempura)
+- Pollo, queso y cebollín (tempura)
+- CHOCOLATE CALIENTE — $2
+- Salmón tempura, palta y cebollin. - Y
+- DELI ROLL SAKEBI TEMPURA ue 2s
+- Pollo, queso y cebollín. A
+- Jj | SUIEOCL TAKO TEMPURA =
+- Camarón tempura, ciboulette y queso
+- Salmón tempura, palta y cebollin
+- Pollo, queso, pime
+- Queso, palta, cubierto de ceviche mixto
+- SAKEBI TEMPURA
+- Pollo, champifion, queso, en tempura
+- TERI TEMPURA
+- Pollo, queso y cebollín
+- TAKO TEMPURA
+- Pollo, palta, envuelto en pollo apanado
+- Viche mixto bocado : A Ki j SAKE EBI ROLL MS — $6.290.
+- ait. a Mi 3 Queso, ciboulette, salmon, env oc Sl . TAKO ROLL « 2 — $6.290
+- Hoca ae E El EBI ROLL fe — $6.990
+- con una protej =, Y Palta, pulpo, con salsa de olivo MY 7) ES — $5.490
+- be ON, pulpo e'camarón) | ‘erg gc EE — $6.990
+- > e -..... PANCHIROLL DL | SAKEROLL $ — 36.290
+- re | 2 a — $6.2
+- Camarón, pulpo y salmón ¿e a e | di F — $6.990
+- Pulpo, cama ron (o) aimon. Re Queso, palta, cubierto de ceviche mixto — E | Camarén, salmón y E — $6.290
+- £ : 3 8 ' Pollo, champiñon, queso, en tempura | e: Pulpo, queso y pimetón pS Ss — $6.290
+- _ bes ‘d SI O ió ta. ' ES ES E Ga E Pollo, palt: ) SNS — $6.
+- > YN Ve a A SUKI ROLL GR ty Camarón O SS — $6.2
+- Pulpo, pollo, champiñon, cebellin; q
+- cebollin y pollo tenpuí
+- Camarón tempura, ciboulette y q
+- Salmon tempura, palta y cebollin.
+- SAKEBI TEMPURA
+- Queso, palta, cubierto de ceviche mixto
+- 22d — $6
+- TERI TEMPURA
+- Pollo, queso y cebollín.
+- TAKO TEMPURA
+- Pollo, champiñon, q
+- ueso, en tempura
+- Pollo, Palta, envuelto en Pollo apana
+- pollo y
+
 
 ## Tasty Bulnes
 - **Ubicación:** P.º Bulnes 182, 8320000 Santiago, Región Metropolitana
@@ -897,8 +5554,64 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.tastybulnes.cl/
 - **Menciona en su web:** pastel
 - **Menciona en reseñas:** empanada, pastel, dulces
-- **Carta (Google Maps):** Desayuno Americano Paila de Huevos ($10.900); Chilensis Capricho ($5.000); Sweet Lunch ($6.000); Day ($7.000); Croissant All the Way Focaccia Tasty ($5.990); Croissant Caprese Salmón £ Centeno ($6.490); Croissant Jamón Queso Cachito Venezolano ($3.990); Sándwich de Ave Saludable ($4.490); Cada taza nace en Santa Rosa de Cabal, en el Eje Cafetero Espresso ($2.690); de Colombia, a metros de altura, donde familias . (1.700); > Americano ($2.790); y tostado en Santiago, con notas de caramelo y nueces, Flat White ($2.990); yay P Capuccino ($3.490); ORIGEN ALTURA PROCESO NOTAS Latte ($3.990); Iced Latte ($4.290); Saborizado vainilla o caramelo + - Leche vegetal + ($700); PASTELERÍA; SANDWICH; o2 Croissants y sándwiches; Croissant All the Way; Croissant Caprese; Croissant Jamón Queso; Sándwich de Ave; de Colombia, a metros de altura, donde familias (1.700); Saborizado vainilla o caramelo + ($700); eche vegetal + ($800); Desayuno Americano Espresso ($10.900); Paila de Huevos Americano ($9.900); Promo Day Flat White ($7.000); Promo Lunch Capuccino ($6.500); Promo Sweet Latte ($6.000); Combo Capricho MED) Moccacino ($5.500); Promo Chilensis Affogato ($5.000); Iced Coffee Latte ($4.290); Espresso Tonic fa ($4.190); Saborizados vainilla o caramelo + - leche vegetal ($700); Tiramisú Latte MED) Matcha Tropical MED) ($4.790); Choco-Banana MED) Matcha Strawberry ($4.790); Choco-Marshmallow Limonada Salvaje ($4.790); Matcha Latte Milkshake ($3.990); Chai Latte Cocada ($4.490); Dirty Chai Latte Granizado ($4.690); Té Jugo Natural ($2.490); Chocolates, matcha y chai; Tiramisú Latte MED); Jugo Natural; PASTEL PORCIÓN...; “PASTEL PORCIÓN ES; PASTEL PORCIÓN....; GALLET AS; PASTEL ENTERO; Cachitos TT AS | Sándwich Saludable ° Ar; Sándwich Saludable
 - **Fecha de registro:** 2026-03-23
+
+### Carta
+
+- Desayuno Americano Paila de Huevos — $10.900
+- Chilensis Capricho — $5.000
+- Sweet Lunch — $6.000
+- Day — $7.000
+- Croissant All the Way Focaccia Tasty — $5.990
+- Croissant Caprese Salmón £ Centeno — $6.490
+- Croissant Jamón Queso Cachito Venezolano — $3.990
+- Sándwich de Ave Saludable — $4.490
+- Cada taza nace en Santa Rosa de Cabal, en el Eje Cafetero Espresso — $2.690
+- de Colombia, a metros de altura, donde familias . — 1.700
+- > Americano — $2.790
+- y tostado en Santiago, con notas de caramelo y nueces, Flat White — $2.990
+- yay P Capuccino — $3.490
+- ORIGEN ALTURA PROCESO NOTAS Latte — $3.990
+- Iced Latte — $4.290
+- Saborizado vainilla o caramelo + - Leche vegetal + — $700
+- PASTELERÍA
+- SANDWICH
+- o2 Croissants y sándwiches
+- Croissant All the Way
+- Croissant Caprese
+- Croissant Jamón Queso
+- Sándwich de Ave
+- de Colombia, a metros de altura, donde familias — 1.700
+- Saborizado vainilla o caramelo + — $700
+- eche vegetal + — $800
+- Desayuno Americano Espresso — $10.900
+- Paila de Huevos Americano — $9.900
+- Promo Day Flat White — $7.000
+- Promo Lunch Capuccino — $6.500
+- Promo Sweet Latte — $6.000
+- Combo Capricho MED) Moccacino — $5.500
+- Promo Chilensis Affogato — $5.000
+- Iced Coffee Latte — $4.290
+- Espresso Tonic fa — $4.190
+- Saborizados vainilla o caramelo + - leche vegetal — $700
+- Tiramisú Latte MED) Matcha Tropical MED) — $4.790
+- Choco-Banana MED) Matcha Strawberry — $4.790
+- Choco-Marshmallow Limonada Salvaje — $4.790
+- Matcha Latte Milkshake — $3.990
+- Chai Latte Cocada — $4.490
+- Dirty Chai Latte Granizado — $4.690
+- Té Jugo Natural — $2.490
+- Chocolates, matcha y chai
+- Tiramisú Latte MED)
+- Jugo Natural
+- PASTEL PORCIÓN...
+- “PASTEL PORCIÓN ES
+- PASTEL PORCIÓN....
+- GALLET AS
+- PASTEL ENTERO
+- Cachitos TT AS | Sándwich Saludable ° Ar
+- Sándwich Saludable
+
 
 ## TastyFree
 - **Ubicación:** La Quintrala 2361, 8420000 Recoleta, Región Metropolitana
@@ -908,8 +5621,52 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.tastyfree.cl/
 - **Menciona en su web:** hamburguesa, empanada, completo, torta
 - **Menciona en reseñas:** empanada, completo, cupcake, chocolate
-- **Carta (Google Maps):** l ohla amano (Pastelenia UA di; a . Torta vegana A A, AA Muffins h (6.990); Bo Muffins veganos | S A ($ 5.990); Torta a, ee 4 unidad eo 7 SS; (1 unidad) 1 A] Po (36.990); Torta martina Galletas (80gr) No Disponible . — | il ($ 19.990); Torta riedades h. Cr 7 (36.990); ba eos pe : cae ae Eh i ($ 3.500); Trozo torta variedad_?_ 2 ay; iad Torta4 5500 mm ($ 25.999); vega Masa pizza pe f 2x a" 21 (3.990); A Torta Masa empan > No Disponible r 3 AA ($ 14.990); Pie verano o — M l UN ($ 16.990); o a 2S i) KUCHEN DEL SUR ( ' A EY N ($ 16.990); bos ° = 5 Ds __ F ; AN i (4.400); SH Pan aceitunas (4uni) i BS ) chupe de mariscos = 7 / (4.400); a <A di Pan fugazza (4 uni) 2 LS | sandwiches Preparados (4.400); Pizza Pepperoni 3; Y A Pizza Vegetariana mr Dp any tare; e xx TE Pizzawariedad PAR | ' E) l AURA; Torta vegana; No Disponible ($ 15.500); A Torta hojarasca; Torta; Torta martina; Galletas (806; manjarate; Torta4; Torta 4 leches; Masa pizza 9!; Masa pizza p; Sopaipill; Cheesecake; Empanada variedad ,; Pan hot dog (4uni); Pan hamburguesa (4uni) ¿+ (4.400); chupe de mariscos; sandwiches Preparados; Pizza POPPeroni; Pizza Vegang; Pizza Vegetariana
 - **Fecha de registro:** 2025-11-05
+
+### Carta
+
+- l ohla amano (Pastelenia UA di
+- a . Torta vegana A A, AA Muffins h — 6.990
+- Bo Muffins veganos | S A — $ 5.990
+- Torta a, ee 4 unidad eo 7 SS
+- (1 unidad) 1 A] Po — 36.990
+- Torta martina Galletas (80gr) No Disponible . — | il — $ 19.990
+- Torta riedades h. Cr 7 — 36.990
+- ba eos pe : cae ae Eh i — $ 3.500
+- Trozo torta variedad_?_ 2 ay
+- iad Torta4 5500 mm — $ 25.999
+- vega Masa pizza pe f 2x a" 21 — 3.990
+- A Torta Masa empan > No Disponible r 3 AA — $ 14.990
+- Pie verano o — M l UN — $ 16.990
+- o a 2S i) KUCHEN DEL SUR ( ' A EY N — $ 16.990
+- bos ° = 5 Ds __ F ; AN i — 4.400
+- SH Pan aceitunas (4uni) i BS ) chupe de mariscos = 7 / — 4.400
+- a <A di Pan fugazza (4 uni) 2 LS | sandwiches Preparados — 4.400
+- Pizza Pepperoni 3
+- Y A Pizza Vegetariana mr Dp any tare
+- e xx TE Pizzawariedad PAR | ' E) l AURA
+- Torta vegana
+- No Disponible — $ 15.500
+- A Torta hojarasca
+- Torta
+- Torta martina
+- Galletas (806
+- manjarate
+- Torta4
+- Torta 4 leches
+- Masa pizza 9!
+- Masa pizza p
+- Sopaipill
+- Cheesecake
+- Empanada variedad ,
+- Pan hot dog (4uni)
+- Pan hamburguesa (4uni) ¿+ — 4.400
+- chupe de mariscos
+- sandwiches Preparados
+- Pizza POPPeroni
+- Pizza Vegang
+- Pizza Vegetariana
+
 
 ## Thani Gluten Free
 - **Ubicación:** Avenida Quilín 5305, Avenida 4 Esquinas 1589, La Serena, Peñalolén, Región Metropolitana
@@ -929,8 +5686,110 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://tremus.cl/tiendas/estoril/?utm_source=google&utm_medium=organic&utm_campaign=gbp
 - **Menciona en su web:** pastel, galleta
 - **Menciona en reseñas:** pastel, postre
-- **Carta (Google Maps):** FPF $$ a e... ($ 666); qe j LPI nccancinncinacinncincccciccica 21790, Té e Infusiones QU a a. .... ($3.490); + Espresso Doble... o nc ma ($3290.); ue ¢ J Cappuccino Cúrcuma Latte á : . = ($3.990); p: o Afogatto Vegetal, pregunta por disponibilidad + Ia, ($4.490); d ho Latte Frío en Base a Té ($4.590); eye Café Helado Helado Simple ($5.790); Tie Frappuccino Cookies and Cream Hed Tes A a ee, Helado Doble ($5.190); Me, Frappuccino Salted Caramel KkedTeaTeVerde-Pina AP Copa Brownie ($5.190); y ed Frappuccino Caramel Latte Iced Tea Té Hibisco- Limón Copa Fruta ($5.190); po Frappuccino Matcha Mint Chips O + Bananalsplt ($5.190); eg Frappuccino Caramelo sin Azúcar, Keto Boba Taro compops enn oO, ($6.990); Frappuccino Mokka sin Azúcar, Keto ($8); Chocolate Caliente; Café Helado; Helado Simple; Helado Doble; Copa Brownie; Waffle Chocolate con Helado; Waffle Vainilla con Helado; / Pp “My Gee , (35.990); Lasa Parr A VEGET njenas cor r ow (44.990); Noquis de Pap. 5 Quesos cuny y ($4.); Cancion de ¢ rs a, Polos estilo Thal ™ Kah ($4,990); Canekin oe nace “29 Bechamel y Pomodoro, key REMA ja y Coco == (87.990); Es Lasaño Boies, eae todas y Pomodoro, Keto y) crema de LS camoto ($0.99); > Raviow DR is ($0.990); y > as > een Salsa de Champinones ere E IS ($8.90); / Uan Crema le Tomate ($0.990); a (Consumo en local) Cie WLS ($6.990); CARNES SALADA Y BO . ($9.990); L a soas de Vacuno al Pomedoro con Arroz E lada de Prosciutto ($8.99); MO al E Stilo Peruano con Papas Fritas al Horno She oe Roast Beef ($7.490); Plateada de Res con Pastelera de Choclo y Salsa ae aa meeesco ie César ($9.990); Plateada de Vacuno con Puré de Papas Lonesa' millo Ensala' Camarón Palta ara ($9.990); Carne al jugo CON Puré de Papas GERD de pollo Apanado y /P: 90 ($9.990); / (Consumo en local) ey ie. Teriyaki 2 ($9.990); yy SA ($6.490); > , = sine ee pore Con Queso Azul Y Espinacas a la Crema, Keto G A TU MIX ($8.990); e (Consumo en local) ELIGE TU PLATO Y AGRE ($5.990); Pastel de Papas Con Carne de Ternero de Libre Pastoreo MIX 1 ($6.990); Pastel de Choclo, con Pino de Carne Natural ($8.490); PESCADO cyt 0 eg; Salmón a las Finas Hierbas con Puré de Coliflor Keto O SE ae o ($9.990); PASTas; Lasaña Bos; Pasta de q; CARNES; con Pastelera; Carne al Jugo; Ensalada Roast Beef; Ensalada César; POLLO; Gohan de pollo Apana'; Pollo Mi; Poke Salmón Teriyaki; Poke Camarón Acevichado; Pollo Rellena con; Pollo Teriyaki; PASTEL; Pastel de Papas Ci; on Carne de Ternero q; Pastel de Choclo,; con Pino de Carne Natu,; MIX1 ($2.000); PESCADO; MINI ENSALADA O CONSOMÉ; w»” " ($55); bes cea, >. 3 ade Afogatto . (54.490); Chocolate Caliente; A + — ppuccino Cookies and Cream (5.190); TUS SENTIDOS! é => we Frappuccino Salted Caramel ($5.190); con nuestros | E “5 os 2 |) Frappuccino Caramel Latte ($5.190); tee Irresistibles ñ ( a > ) £ | Le Frappuccino Matcha Mint Chips ($5.190); FRAPPUCCINOS La e i A _ Frappuccino Java Mocha Chip ($5.190); EN Ne —_ di Keto (36.990); Irresistibles | - a — Iced Tea Té Negro-Frutilla ($2.990); Iced Teas | Iced Tea Té Verde- Piña ($2.990); sin Azúcar ' | | Iced Tea Té Hibisco- Limón ($2.990); , de Maracuyá o L ) [ , (35.300); de Arandanos o ($5.300); de Arándanos ft = (35.300); , e WAFFLE COPA a; Y CON HELADO FRUTA; Helado Simple $.3000 1 MS re a p 4 30; Helado Doble vow - ES aN > a. Z y ($3.900); + Copa Brownie “w ¿ _ hs A ~~ ~ AÑ ($8.200); * Copa Fruta > : 4 Lg 4 gi . ($7.550); * Banana Split ea a dd ba k k 4 ($7.800); Waffle Chocolate con Helado ta ($8.990); > Waffle Vainilla con Helado == BANANA ($8.990); as — y ($7.800); WAFFLE; CON HELADO; Helado Simple; Helado Doble; Copa Brownie; Waffle Chocolate con Helado; Waffle Vainilla con Helado
 - **Fecha de registro:** 2025-11-05
+
+### Carta
+
+- FPF $$ a e... — $ 666
+- qe j LPI nccancinncinacinncincccciccica 21790, Té e Infusiones QU a a. .... — $3.490
+- + Espresso Doble... o nc ma — $3290.
+- ue ¢ J Cappuccino Cúrcuma Latte á : . = — $3.990
+- p: o Afogatto Vegetal, pregunta por disponibilidad + Ia, — $4.490
+- d ho Latte Frío en Base a Té — $4.590
+- eye Café Helado Helado Simple — $5.790
+- Tie Frappuccino Cookies and Cream Hed Tes A a ee, Helado Doble — $5.190
+- Me, Frappuccino Salted Caramel KkedTeaTeVerde-Pina AP Copa Brownie — $5.190
+- y ed Frappuccino Caramel Latte Iced Tea Té Hibisco- Limón Copa Fruta — $5.190
+- po Frappuccino Matcha Mint Chips O + Bananalsplt — $5.190
+- eg Frappuccino Caramelo sin Azúcar, Keto Boba Taro compops enn oO, — $6.990
+- Frappuccino Mokka sin Azúcar, Keto — $8
+- Chocolate Caliente
+- Café Helado
+- Helado Simple
+- Helado Doble
+- Copa Brownie
+- Waffle Chocolate con Helado
+- Waffle Vainilla con Helado
+- / Pp “My Gee , — 35.990
+- Lasa Parr A VEGET njenas cor r ow — 44.990
+- Noquis de Pap. 5 Quesos cuny y — $4.
+- Cancion de ¢ rs a, Polos estilo Thal ™ Kah — $4,990
+- Canekin oe nace “29 Bechamel y Pomodoro, key REMA ja y Coco == — 87.990
+- Es Lasaño Boies, eae todas y Pomodoro, Keto y) crema de LS camoto — $0.99
+- > Raviow DR is — $0.990
+- y > as > een Salsa de Champinones ere E IS — $8.90
+- / Uan Crema le Tomate — $0.990
+- a (Consumo en local) Cie WLS — $6.990
+- CARNES SALADA Y BO . — $9.990
+- L a soas de Vacuno al Pomedoro con Arroz E lada de Prosciutto — $8.99
+- MO al E Stilo Peruano con Papas Fritas al Horno She oe Roast Beef — $7.490
+- Plateada de Res con Pastelera de Choclo y Salsa ae aa meeesco ie César — $9.990
+- Plateada de Vacuno con Puré de Papas Lonesa' millo Ensala' Camarón Palta ara — $9.990
+- Carne al jugo CON Puré de Papas GERD de pollo Apanado y /P: 90 — $9.990
+- / (Consumo en local) ey ie. Teriyaki 2 — $9.990
+- yy SA — $6.490
+- > , = sine ee pore Con Queso Azul Y Espinacas a la Crema, Keto G A TU MIX — $8.990
+- e (Consumo en local) ELIGE TU PLATO Y AGRE — $5.990
+- Pastel de Papas Con Carne de Ternero de Libre Pastoreo MIX 1 — $6.990
+- Pastel de Choclo, con Pino de Carne Natural — $8.490
+- PESCADO cyt 0 eg
+- Salmón a las Finas Hierbas con Puré de Coliflor Keto O SE ae o — $9.990
+- PASTas
+- Lasaña Bos
+- Pasta de q
+- CARNES
+- con Pastelera
+- Carne al Jugo
+- Ensalada Roast Beef
+- Ensalada César
+- POLLO
+- Gohan de pollo Apana'
+- Pollo Mi
+- Poke Salmón Teriyaki
+- Poke Camarón Acevichado
+- Pollo Rellena con
+- Pollo Teriyaki
+- PASTEL
+- Pastel de Papas Ci
+- on Carne de Ternero q
+- Pastel de Choclo,
+- con Pino de Carne Natu,
+- MIX1 — $2.000
+- PESCADO
+- MINI ENSALADA O CONSOMÉ
+- w»” " — $55
+- bes cea, >. 3 ade Afogatto . — 54.490
+- Chocolate Caliente
+- A + — ppuccino Cookies and Cream — 5.190
+- TUS SENTIDOS! é => we Frappuccino Salted Caramel — $5.190
+- con nuestros | E “5 os 2 |) Frappuccino Caramel Latte — $5.190
+- tee Irresistibles ñ ( a > ) £ | Le Frappuccino Matcha Mint Chips — $5.190
+- FRAPPUCCINOS La e i A _ Frappuccino Java Mocha Chip — $5.190
+- EN Ne —_ di Keto — 36.990
+- Irresistibles | - a — Iced Tea Té Negro-Frutilla — $2.990
+- Iced Teas | Iced Tea Té Verde- Piña — $2.990
+- sin Azúcar ' | | Iced Tea Té Hibisco- Limón — $2.990
+- , de Maracuyá o L ) [ , — 35.300
+- de Arandanos o — $5.300
+- de Arándanos ft = — 35.300
+- , e WAFFLE COPA a
+- Y CON HELADO FRUTA
+- Helado Simple $.3000 1 MS re a p 4 30
+- Helado Doble vow - ES aN > a. Z y — $3.900
+- + Copa Brownie “w ¿ _ hs A ~~ ~ AÑ — $8.200
+- * Copa Fruta > : 4 Lg 4 gi . — $7.550
+- * Banana Split ea a dd ba k k 4 — $7.800
+- Waffle Chocolate con Helado ta — $8.990
+- > Waffle Vainilla con Helado == BANANA — $8.990
+- as — y — $7.800
+- WAFFLE
+- CON HELADO
+- Helado Simple
+- Helado Doble
+- Copa Brownie
+- Waffle Chocolate con Helado
+- Waffle Vainilla con Helado
+
 
 ## Vapiano Parque Arauco
 - **Ubicación:** #393, Av. Pdte. Kennedy 5413, Las Condes, Región Metropolitana
@@ -940,8 +5799,212 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://www.vapiano-pedidos.cl/reservas
 - **Menciona en su web:** pizza, pasta
 - **Menciona en reseñas:** pizza, pasta
-- **Carta (Google Maps):** Carpaccio ($5.700) · Antipasti; Bruschetta ($2.600) · Antipasti; Plato de Antipasti ($9.000) · Antipasti; Ensalada Caprese ($5.700) · Antipasti; Sopa de Tomate (Pequeña) (PEQUEÑA $2.200) · Zuppe; Sopa de Tomate (Grande) (GRANDE $3.200) · Zuppe; Sopa de Temporada (Pequeña) (PEQUEÑA $2.200) · Zuppe; Sopa de Temporada (Grande) (GRANDE $3.200) · Zuppe; Crema de Fresa (Pequeña) (PEQUEÑO $2.100) · Postre; Crema de Fresa (Grande) (GRANDE $3.100) · Postre; Tiramisú (Pequeño) (PEQUEÑO $2.100) · Postre; Tiramisú (Grande) (GRANDE $3.100) · Postre; Panna Cotta (Pequeña) (PEQUEÑO $2.100) · Postre; Panna Cotta (Grande) (GRANDE $3.100) · Postre; Muerte por Chocolate ($2.600) · Postre; Mousse de Chocolate (Pequeña) (PEQUEÑO $2.100) · Postre; Mousse de Chocolate (Grande) (GRANDE $3.100) · Postre; Carpaccio de Filete de Res ($14.900) · Antipasti; Bruschetta Tradicional ($4.900) · Antipasti; Bruschetta Di Parma ($6.200) · Antipasti; Bruschetta Fior Di Latte ($6.200) · Antipasti; Bruschetta Gamberetti ($6.200) · Antipasti; Plato de Antipasti para Compartir ($15.900) · Antipasti; Reef'n Beef ($12.800) · Ensalada; Ensalada de Pollo y Camarones ($12.900) · Ensalada; Ensalada de Quinoa y Palta ($11.900) · Ensalada; Salmón ($11.900) · Ensalada; Ensalada Mixta ($9.700) · Ensalada; Ensalada César ($8.900) · Ensalada; Ensalada Niçoise ($9.800) · Ensalada; Ensalada Mini ($4.900) · Ensalada; Ensalada Mixta Pequeña ($7.500) · Ensalada; Bruschetta Variedades ($6.200) · Antipasti; Pan de ajo ($ 6.950) · Antipasti; Pizza Caprese ($ 7.500) · Antipasti; Pizza Ruculana ($ 7.500) · Antipasti; Extra prosciutto ($ 900) · Antipasti; Hoegaarden ($ 3000) · Schop; Stella Artois ($ 3500) · Schop; Aperol Spritz ($ 3.700) · Aperitivos; Campari Spritz ($ 3.700) · Aperitivos; Margarita ($ 3.700) · Aperitivos; Mojito Clásico ($ 3.700) · Aperitivos; Pisco Sour ($ 3.700) · Aperitivos; Pisco Sour Catedral ($ 4.500) · Aperitivos; Pisco Sour Peruano ($ 4.500) · Aperitivos; Pisco Sour Peruano Catedral ($ 5.500) · Aperitivos; Tropical Gin ($ 3.700) · Cocktails; Berry Gin ($ 3.700) · Cocktails; Frutos del Trópico ($ 3.700) · Cocktails; Mojito Vapiano ($ 3.700) · Cocktails; Mai Tai ($ 5.500) · Cocktails; Disaronno Sour ($ 4.500) · Cocktails; Aperol Sour ($ 4.500) · Cocktails; Mojito Redonna ($ 4.500) · Cocktails; Mojito Maracuyá ($ 4.500) · Cocktails; Caipiroska ($ 4.500) · Cocktails; Elderflower Martini ($ 4.500) · Cocktails; Pizza Prosciutto Cotto e Funghi ($ 12.900) · Pizza con Carne; Pizza Pollo BBQ ($ 13.900) · Pizza con Carne; Pizza Salame ($ 12.500) · Pizza con Carne; Pizza Pepperoni ($ 12.500) · Pizza con Carne; Pizza Toscana ($ 13.900) · Pizza con Carne; Pizza Capricciosa ($ 13.900) · Pizza con Carne; Pizza Calzone ($ 13.900) · Pizza con Carne; Pizza Diavolo ($ 13.900) · Pizza con Carne; Pizza Crudo Jamón Crudo ($ 14.900) · Pizza con Carne; Camarones ($ 2.800) · Extras; Mozzarella ($ 1.500) · Extras; Champiñones ($ 1.500) · Extras; Jamón ($ 1.300) · Extras; Aceitunas Negras ($ 1.300) · Extras; Pimentones ($ 1.300) · Extras; Pizza Scampi e Rucola ($ 14.900) · Del Mar; Spaghetti Funghi ($ 14.900) · Pasta & Lasagne vegan; Risotto Funghi ($ 12.800) · Pasta & Lasagne vegan; Aglio e Olio con Spaghetti ($ 13.900) · Pasta & Lasagne vegan; Crema di Funghi con Fusilli ($ 11.800) · Pasta & Lasagne vegan; Lasagne Mediterránea ($ 11.800) · Pasta & Lasagne vegan; Cannelloni ($ 13.900) · Pasta & Lasagne vegan; Gnocchi al Funghi ($ 13.900) · Pasta & Lasagne vegan; Gnocchi Pesto Basílico ($ 13.900) · Pasta & Lasagne vegan; Risotto di Zucca ($ 12.800) · Risotto Vegan; Pizza Bruschetta ($ 13.500) · Pizza Vegan; Pizza Funghi ($ 13.500) · Pizza Vegan; Pizza Margherita ($ 12.900) · Pizza Vegan; Pizza Verdure ($ 13.500) · Pizza Vegan; Pesto Vegano ($12.800) · Pasta vegana; Espagueti con champiñones ($12.800) · Pasta vegana; Pizza Margherita ($5.200) · Pizza; Pizza Pesto con Espinacas ($5.800) · Pizza; Pizza Funghi ($5.400) · Pizza; Pizza Verdure ($6.400) · Pizza; Pizza Prosciutto Cotto y Funghi ($6.300) · Pizza; Pizza Pollo BBQ ($7.500) · Pizza; Pizza Salame ($6.300) · Pizza; Pizza Pepperoni ($6.300) · Pizza; Pizza Toscana ($7.300) · Pizza; Pizza Capricciosa ($7.300) · Pizza; Calzone ($6.800) · Pizza; Pizza Diavolo ($7.600) · Pizza; Pizza Crudo ($7.600) · Pizza; Pizza Scampi y Rúcula ($7.800) · Pizza; Ensalada Beef N Beef ($8.500) · Ensalada; Ensalada Niçoise ($5.500) · Ensalada; Ensalada Mixta Pequeña ($3.600) · Ensalada; Risotto Gamberetti y Espinacas ($8.000) · Risotto; Risotto Pomodoro Scampi ($8.700) · Risotto; Risotto Pollo con Gorgonzola ($8.500) · Risotto; Lasaña ($6.900) · Risotto; Pasta Pesto Basilico ($6.800) · Pasta; Pasta Aglio e Olio ($5.800) · Pasta; Pasta All'Arrabbiata con Pomodorini ($6.800) · Pasta; Ravioles con Ricotta y Rúcula ($7.300) · Pasta; Spaghetti Pomodoro ($5.800) · Pasta; Pasta Aglio e Olio y Espinacas ($6.900) · Pasta; Penne Ratatouille ($7.400) · Pasta; Pasta Carbonara ($7.600) · Pasta; Pasta Boloñesa ($7.400) · Pasta; Ravioles con Carne ($8.300) · Pasta; Filete de Res y Rúcula ($9.500) · Pasta; Pappardelle Pollo Picante ($8.100) · Pasta; Ravioles Salame y Ricotta con Rúcula ($8.900) · Pasta; Carbonara Salmón ($8.900) · Pasta; Balsámico · Aderezo; Rúcula Montana · Aderezo; Pechuga de pollo (+€1.500) · Extra para ensalada/risotto; Mozzarella Di Bufala Italiana (+€4.000) · Extra para ensalada; Filete de res (+€3.950) · Extra para ensalada; Atún (+€1.500) · Extra para ensalada; Mozzarella fior di latte (+€1.500) · Extra para ensalada; Grana Padano (+€1.000) · Extra para risotto; Scampi y Espinacas con Salmón (€11.50) · Pasta; Espárragos (€1.50) · Extras; Jalapeños (€1.50) · Extras; Aderezo César (0) · Aderezos de la Casa
 - **Fecha de registro:** 2026-03-01
+
+### Carta
+
+#### Antipasti
+
+- Carpaccio — $5.700
+- Bruschetta — $2.600
+- Plato de Antipasti — $9.000
+- Ensalada Caprese — $5.700
+- Carpaccio de Filete de Res — $14.900
+- Bruschetta Tradicional — $4.900
+- Bruschetta Di Parma — $6.200
+- Bruschetta Fior Di Latte — $6.200
+- Bruschetta Gamberetti — $6.200
+- Plato de Antipasti para Compartir — $15.900
+- Bruschetta Variedades — $6.200
+- Pan de ajo — $ 6.950
+- Pizza Caprese — $ 7.500
+- Pizza Ruculana — $ 7.500
+- Extra prosciutto — $ 900
+
+#### Zuppe
+
+- Sopa de Tomate (Pequeña) — PEQUEÑA $2.200
+- Sopa de Tomate (Grande) — GRANDE $3.200
+- Sopa de Temporada (Pequeña) — PEQUEÑA $2.200
+- Sopa de Temporada (Grande) — GRANDE $3.200
+
+#### Postre
+
+- Crema de Fresa (Pequeña) — PEQUEÑO $2.100
+- Crema de Fresa (Grande) — GRANDE $3.100
+- Tiramisú (Pequeño) — PEQUEÑO $2.100
+- Tiramisú (Grande) — GRANDE $3.100
+- Panna Cotta (Pequeña) — PEQUEÑO $2.100
+- Panna Cotta (Grande) — GRANDE $3.100
+- Muerte por Chocolate — $2.600
+- Mousse de Chocolate (Pequeña) — PEQUEÑO $2.100
+- Mousse de Chocolate (Grande) — GRANDE $3.100
+
+#### Ensalada
+
+- Reef'n Beef — $12.800
+- Ensalada de Pollo y Camarones — $12.900
+- Ensalada de Quinoa y Palta — $11.900
+- Salmón — $11.900
+- Ensalada Mixta — $9.700
+- Ensalada César — $8.900
+- Ensalada Niçoise — $9.800
+- Ensalada Mini — $4.900
+- Ensalada Mixta Pequeña — $7.500
+- Ensalada Beef N Beef — $8.500
+- Ensalada Niçoise — $5.500
+- Ensalada Mixta Pequeña — $3.600
+
+#### Schop
+
+- Hoegaarden — $ 3000
+- Stella Artois — $ 3500
+
+#### Aperitivos
+
+- Aperol Spritz — $ 3.700
+- Campari Spritz — $ 3.700
+- Margarita — $ 3.700
+- Mojito Clásico — $ 3.700
+- Pisco Sour — $ 3.700
+- Pisco Sour Catedral — $ 4.500
+- Pisco Sour Peruano — $ 4.500
+- Pisco Sour Peruano Catedral — $ 5.500
+
+#### Cocktails
+
+- Tropical Gin — $ 3.700
+- Berry Gin — $ 3.700
+- Frutos del Trópico — $ 3.700
+- Mojito Vapiano — $ 3.700
+- Mai Tai — $ 5.500
+- Disaronno Sour — $ 4.500
+- Aperol Sour — $ 4.500
+- Mojito Redonna — $ 4.500
+- Mojito Maracuyá — $ 4.500
+- Caipiroska — $ 4.500
+- Elderflower Martini — $ 4.500
+
+#### Pizza con Carne
+
+- Pizza Prosciutto Cotto e Funghi — $ 12.900
+- Pizza Pollo BBQ — $ 13.900
+- Pizza Salame — $ 12.500
+- Pizza Pepperoni — $ 12.500
+- Pizza Toscana — $ 13.900
+- Pizza Capricciosa — $ 13.900
+- Pizza Calzone — $ 13.900
+- Pizza Diavolo — $ 13.900
+- Pizza Crudo Jamón Crudo — $ 14.900
+
+#### Extras
+
+- Camarones — $ 2.800
+- Mozzarella — $ 1.500
+- Champiñones — $ 1.500
+- Jamón — $ 1.300
+- Aceitunas Negras — $ 1.300
+- Pimentones — $ 1.300
+- Espárragos — €1.50
+- Jalapeños — €1.50
+
+#### Del Mar
+
+- Pizza Scampi e Rucola — $ 14.900
+
+#### Pasta & Lasagne vegan
+
+- Spaghetti Funghi — $ 14.900
+- Risotto Funghi — $ 12.800
+- Aglio e Olio con Spaghetti — $ 13.900
+- Crema di Funghi con Fusilli — $ 11.800
+- Lasagne Mediterránea — $ 11.800
+- Cannelloni — $ 13.900
+- Gnocchi al Funghi — $ 13.900
+- Gnocchi Pesto Basílico — $ 13.900
+
+#### Risotto Vegan
+
+- Risotto di Zucca — $ 12.800
+
+#### Pizza Vegan
+
+- Pizza Bruschetta — $ 13.500
+- Pizza Funghi — $ 13.500
+- Pizza Margherita — $ 12.900
+- Pizza Verdure — $ 13.500
+
+#### Pasta vegana
+
+- Pesto Vegano — $12.800
+- Espagueti con champiñones — $12.800
+
+#### Pizza
+
+- Pizza Margherita — $5.200
+- Pizza Pesto con Espinacas — $5.800
+- Pizza Funghi — $5.400
+- Pizza Verdure — $6.400
+- Pizza Prosciutto Cotto y Funghi — $6.300
+- Pizza Pollo BBQ — $7.500
+- Pizza Salame — $6.300
+- Pizza Pepperoni — $6.300
+- Pizza Toscana — $7.300
+- Pizza Capricciosa — $7.300
+- Calzone — $6.800
+- Pizza Diavolo — $7.600
+- Pizza Crudo — $7.600
+- Pizza Scampi y Rúcula — $7.800
+
+#### Risotto
+
+- Risotto Gamberetti y Espinacas — $8.000
+- Risotto Pomodoro Scampi — $8.700
+- Risotto Pollo con Gorgonzola — $8.500
+- Lasaña — $6.900
+
+#### Pasta
+
+- Pasta Pesto Basilico — $6.800
+- Pasta Aglio e Olio — $5.800
+- Pasta All'Arrabbiata con Pomodorini — $6.800
+- Ravioles con Ricotta y Rúcula — $7.300
+- Spaghetti Pomodoro — $5.800
+- Pasta Aglio e Olio y Espinacas — $6.900
+- Penne Ratatouille — $7.400
+- Pasta Carbonara — $7.600
+- Pasta Boloñesa — $7.400
+- Ravioles con Carne — $8.300
+- Filete de Res y Rúcula — $9.500
+- Pappardelle Pollo Picante — $8.100
+- Ravioles Salame y Ricotta con Rúcula — $8.900
+- Carbonara Salmón — $8.900
+- Scampi y Espinacas con Salmón — €11.50
+
+#### Aderezo
+
+- Balsámico
+- Rúcula Montana
+
+#### Extra para ensalada/risotto
+
+- Pechuga de pollo — +€1.500
+
+#### Extra para ensalada
+
+- Mozzarella Di Bufala Italiana — +€4.000
+- Filete de res — +€3.950
+- Atún — +€1.500
+- Mozzarella fior di latte — +€1.500
+
+#### Extra para risotto
+
+- Grana Padano — +€1.000
+
+#### Aderezos de la Casa
+
+- Aderezo César — 0
+
 
 ## VICTORIA KETO
 - **Ubicación:** Estación Domeiko 895, 8700000 Quilicura, Región Metropolitana
@@ -959,8 +6022,16 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.violetapatisserie.cl/
 - **Menciona en su web:** empanada, torta, pastel, galleta, muffin, cheesecake
 - **Menciona en reseñas:** empanada, completo, torta, pastel, galleta, muffin, dulces
-- **Carta (Google Maps):** Chocolate | 100% Maestro Gelato; Auténticas Recetas, Auténticos Gelatos; Chocolate | 100%; Gelato; de chocolate
 - **Fecha de registro:** 2025-11-23
+
+### Carta
+
+- Chocolate | 100% Maestro Gelato
+- Auténticas Recetas, Auténticos Gelatos
+- Chocolate | 100%
+- Gelato
+- de chocolate
+
 
 ## Yoko Sea Food
 - **Ubicación:** Strip Center - Alberto Arenas Carvajal, Cuatro Esquinas 3986, Local 12, 1700000 La Serena, Coquimbo
@@ -968,5 +6039,13 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.6 / 5
 - **Enlace:** https://www.google.com/maps?cid=9733967257186336470
 - **Menciona en reseñas:** sushi, mariscos
-- **Carta (Google Maps):** CHORITOS a la CHALACA ($4500); CALIFORNIA ROLLS ($4500); AJÍ DE GALLINA ($4500); PASTA SALTADA DE POLLO ($4500); TORTA 5 LECHES ($4500); MOUSSE FRUTILLA ($4500)
 - **Fecha de registro:** 2026-02-15
+
+### Carta
+
+- CHORITOS a la CHALACA — $4500
+- CALIFORNIA ROLLS — $4500
+- AJÍ DE GALLINA — $4500
+- PASTA SALTADA DE POLLO — $4500
+- TORTA 5 LECHES — $4500
+- MOUSSE FRUTILLA — $4500
