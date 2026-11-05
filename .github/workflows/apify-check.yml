@@ -1,0 +1,32 @@
+name: Comprobar token de Apify
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Validar token
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import urllib.request
+
+          token = os.environ.get("APIFY_TOKEN", "").strip()
+          if not token:
+              raise SystemExit("APIFY_TOKEN está vacío")
+
+          request = urllib.request.Request(
+              "https://api.apify.com/v2/users/me",
+              headers={"Authorization": f"Bearer {token}"},
+          )
+          with urllib.request.urlopen(request, timeout=30) as response:
+              data = json.load(response)["data"]
+
+          print("Token válido para:", data.get("username"))
+          print("Plan:", json.dumps(data.get("plan"), ensure_ascii=False))
+          PY
