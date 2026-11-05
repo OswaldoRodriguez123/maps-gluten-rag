@@ -7,7 +7,7 @@ jobs:
   check:
     runs-on: ubuntu-latest
     steps:
-      - name: Validar token
+      - name: Validar token y ver corridas
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
         run: |
@@ -20,13 +20,30 @@ jobs:
           if not token:
               raise SystemExit("APIFY_TOKEN está vacío")
 
-          request = urllib.request.Request(
-              "https://api.apify.com/v2/users/me",
-              headers={"Authorization": f"Bearer {token}"},
-          )
-          with urllib.request.urlopen(request, timeout=30) as response:
-              data = json.load(response)["data"]
+          def get(path):
+              request = urllib.request.Request(
+                  "https://api.apify.com/v2" + path,
+                  headers={"Authorization": f"Bearer {token}"},
+              )
+              with urllib.request.urlopen(request, timeout=30) as response:
+                  return json.load(response)
 
-          print("Token válido para:", data.get("username"))
-          print("Plan:", json.dumps(data.get("plan"), ensure_ascii=False))
+          me = get("/users/me")["data"]
+          plan = me.get("plan") or {}
+          print("Token válido para:", me.get("username"))
+          print("Plan:", plan.get("id"), "| crédito mensual:", plan.get("monthlyUsageCreditsUsd"))
+
+          runs = get("/actor-runs?desc=true&limit=10")["data"]
+          items = runs.get("items", [])
+          print("Corridas recientes:", len(items))
+          for item in items:
+              print(
+                  item.get("id"),
+                  "| act", item.get("actId"),
+                  "|", item.get("status"),
+                  "|", item.get("startedAt"),
+                  "->", item.get("finishedAt"),
+                  "| USD", item.get("usageTotalUsd"),
+                  "| dataset", item.get("defaultDatasetId"),
+              )
           PY
