@@ -70,13 +70,28 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
-      - name: Chromium
-        run: python -m playwright install --with-deps chromium
+      - name: Versión de Playwright
+        id: playwright
+        run: echo "version=$(python -m playwright --version | awk '{print $2}')" >> "$GITHUB_OUTPUT"
 
-      - name: Pantalla virtual y OCR
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y xvfb tesseract-ocr tesseract-ocr-spa
+      - name: Cache de paquetes del sistema
+        uses: awalsh128/cache-apt-pkgs-action@latest
+        with:
+          packages: xvfb tesseract-ocr tesseract-ocr-spa
+          version: 1.0
+
+      - name: Dependencias del sistema
+        run: python -m playwright install-deps chromium
+
+      - name: Cache de Chromium
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ steps.playwright.outputs.version }}
+          restore-keys: playwright-${{ runner.os }}-
+
+      - name: Chromium
+        run: python -m playwright install chromium
 
       - name: Restaurar histórico
         uses: actions/cache@v4
