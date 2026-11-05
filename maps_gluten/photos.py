@@ -37,6 +37,10 @@ VISION_PROMPT = (
     "Eres un experto en cartas de restaurantes. Analiza la imagen y devuelve "
     "SOLO un JSON array de objetos con las claves name, price y category. "
     "Incluye todos los platos y precios legibles, con el texto exacto. "
+    "Usa como category el título o sección visible (por ejemplo Helados, "
+    "Cafetería, Desayunos). Si un ítem se llama solo 'simple', 'doble', "
+    "'individual', 'grande' o similar, antepón la categoría al name "
+    "(por ejemplo 'Helado simple'). "
     "Si la imagen no es una carta o no se lee, devuelve []. No inventes nada."
 )
 PRICE_DOLLAR = re.compile(r"\$\s*(\d[\d.,]*)")
