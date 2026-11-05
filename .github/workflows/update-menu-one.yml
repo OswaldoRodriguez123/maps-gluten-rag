@@ -11,6 +11,10 @@ on:
         description: "Volver a raspar fotos (ignora la caché)"
         type: boolean
         default: false
+      ocr:
+        description: "Usar Tesseract además de Gemini (más lento)"
+        type: boolean
+        default: false
 
 concurrency:
   group: update-menu-one
@@ -39,6 +43,7 @@ jobs:
           pip install -r requirements.txt
 
       - name: Tesseract
+        if: ${{ inputs.ocr }}
         uses: awalsh128/cache-apt-pkgs-action@latest
         with:
           packages: tesseract-ocr tesseract-ocr-spa
@@ -59,10 +64,14 @@ jobs:
           GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
           PLACE: ${{ inputs.place }}
           REFRESH: ${{ inputs.refresh }}
+          OCR: ${{ inputs.ocr }}
         run: |
           args=()
           if [ "$REFRESH" = "true" ]; then
             args+=(--refresh-photos)
+          fi
+          if [ "$OCR" != "true" ]; then
+            args+=(--no-ocr)
           fi
           python scripts/update_menu_place.py --place "$PLACE" --db data/historial_lugares.db --publish "${args[@]}"
 

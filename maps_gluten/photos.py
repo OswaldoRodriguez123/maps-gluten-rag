@@ -401,6 +401,7 @@ def enrich_menus_photos(
     photo_cache: dict[str, list[str]] | None = None,
     refresh_photos: bool = False,
     reuse_recent_runs: int = 5,
+    ocr: bool = True,
 ) -> int:
     targets = [place for place in places if getattr(place, "url", None)]
     if not targets:
@@ -480,7 +481,9 @@ def enrich_menus_photos(
         for url in photos.get(place.ftid, [])[:max_photos]
     ]
     with_text = 0
-    if tasks:
+    if tasks and not ocr:
+        print("OCR: desactivado, se usará solo visión Gemini")
+    if tasks and ocr:
         with ThreadPoolExecutor(max_workers=6) as pool:
             futures = {pool.submit(_download, url): ftid for ftid, url in tasks}
             for future in as_completed(futures):
@@ -535,6 +538,12 @@ def enrich_menus_photos(
                     seen.add(key)
                     added += 1
             if added:
+                if added >= 2:
+                    existing[:] = [
+                        dish
+                        for dish in existing
+                        if dish.get("source") != "ocr" or dish.get("price")
+                    ]
                 vision_places += 1
                 vision_dishes += added
                 print(

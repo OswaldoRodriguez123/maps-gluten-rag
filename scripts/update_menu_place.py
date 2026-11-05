@@ -89,6 +89,7 @@ def main() -> int:
     parser.add_argument("--vision-photos", type=int, default=3)
     parser.add_argument("--max-charge", type=float, default=0.5)
     parser.add_argument("--no-vision", action="store_true")
+    parser.add_argument("--no-ocr", action="store_true")
     parser.add_argument(
         "--refresh-photos",
         action="store_true",
@@ -146,6 +147,7 @@ def main() -> int:
         photo_cache=photo_cache,
         refresh_photos=args.refresh_photos,
         reuse_recent_runs=0 if args.refresh_photos else 5,
+        ocr=not args.no_ocr,
     )
     if not place.menu_json:
         if connection:
