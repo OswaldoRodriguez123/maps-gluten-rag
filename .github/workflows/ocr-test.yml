@@ -1,0 +1,99 @@
+name: Probar OCR de fotos de menú
+
+on:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Tesseract
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y tesseract-ocr tesseract-ocr-spa
+
+      - name: OCR de Zoliakie
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          DATASET_ID: 4Eu3Eq2XgPJtvL23A
+          PLACE: Zoliakie
+        run: |
+          mkdir -p ocr-photos
+          python - <<'PY'
+          import io
+          import json
+          import os
+          import urllib.request
+
+          import pytesseract
+          from PIL import Image, ImageOps
+
+          TOKEN = os.environ["APIFY_TOKEN"]
+          DATASET = os.environ["DATASET_ID"]
+          PLACE = os.environ["PLACE"].lower()
+
+          request = urllib.request.Request(
+              f"https://api.apify.com/v2/datasets/{DATASET}/items?format=json&clean=true&limit=10000",
+              headers={"Authorization": f"Bearer {TOKEN}"},
+          )
+          with urllib.request.urlopen(request, timeout=60) as response:
+              items = json.load(response)
+          if isinstance(items, dict):
+              items = items.get("items", [])
+          selected = [i for i in items if PLACE in (i.get("placeName") or "").lower()]
+          print("items:", len(items), "| seleccionadas:", len(selected))
+
+          for index, item in enumerate(selected):
+              url = item.get("photoUrlHighRes") or item.get("photoUrl")
+              print(f"\n--- foto {index} | {item.get('photoCategory')} | {item.get('imageWidth')}x{item.get('imageHeight')}")
+              if not url:
+                  print("sin URL")
+                  continue
+              try:
+                  with urllib.request.urlopen(url, timeout=40) as response:
+                      raw = response.read(20_000_000)
+              except Exception as error:
+                  print("download error:", error)
+                  continue
+              with open(f"ocr-photos/zoliakie-{index}.jpg", "wb") as handle:
+                  handle.write(raw)
+              image = Image.open(io.BytesIO(raw)).convert("L")
+              if image.width < 1800:
+                  ratio = 1800 / max(image.width, 1)
+                  image = image.resize((int(image.width * ratio), int(image.height * ratio)), Image.LANCZOS)
+              elif image.width > 2600:
+                  ratio = 2600 / image.width
+                  image = image.resize((int(image.width * ratio), int(image.height * ratio)), Image.LANCZOS)
+              image = ImageOps.autocontrast(image)
+              for psm in (6, 11, 3):
+                  try:
+                      text = pytesseract.image_to_string(image, lang="spa+eng", config=f"--psm {psm}")
+                  except Exception as error:
+                      print(f"psm{psm} error:", error)
+                      continue
+                  print(f"psm{psm} len:", len(text.strip()))
+                  print(text.strip().replace("\n", " | ")[:800])
+          PY
+
+      - name: Guardar fotos
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: ocr-fotos-zoliakie
+          path: ocr-photos
+          if-no-files-found: warn
