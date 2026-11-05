@@ -1,16 +1,16 @@
-# Restaurantes con poca data — después de P0 y reextracción
+# Restaurantes con poca data — después de P0, visión y tiendas
 
-_Fecha: 2026-11-05 · Fuente: Doc regenerado con normalización P0 + visión_
+_Fecha: 2026-11-05 · Fuente: Doc regenerado con normalización P0 + visión + catálogos web_
 
 ## Resumen
 
 - **100 lugares** en la lista.
-- **75 con platos publicables**: 2930 platos.
+- **76 con platos publicables**: 3429 platos.
 - **1 solo con categorías** (sin platos específicos).
-- **24 sin carta ni categorías**: 15 sin web y 9 con web.
+- **23 sin carta ni categorías**: 15 sin web y 8 con web.
 - **19 con carta corta** (1-9 platos).
 - **17 con menos del 50% de precios**.
-- **3 con mucho ruido** (revisión + rechazados >= 20).
+- **4 con mucho ruido** (revisión + rechazados >= 20).
 - **33 sin web registrada**.
 - **4 sin ningún dato** (sin web, sin menciones, sin reseñas, sin carta).
 
@@ -42,7 +42,6 @@ _Fecha: 2026-11-05 · Fuente: Doc regenerado con normalización P0 + visión_
 | Massanoglutenfree | Pastelería | 7 | 2 | 0 | 0 | http://www.massanoglutenfree.cl/ |
 | Libre Punto SpA | Tienda de alimentos naturales | 4 | 0 | 0 | 0 | http://www.librepunto.cl/ |
 | Popolo Pizza sin Gluten | Pizzería a domicilio | 2 | 1 | 0 | 0 | http://www.popolo.cl/ |
-| Sin Culpa Market | Tienda de alimentos naturales | 1 | 0 | 0 | 0 | https://www.sinculpamarket.cl/ |
 | CO&keto | Cafetería | 0 | 4 | 0 | 0 | http://www.cokefoods.cl/ |
 | Casa Roque Chocolates | Centro comercial | 0 | 1 | 0 | 0 | https://wwww.casaroque.cl/ |
 | Glutenberg | Pastelería | 0 | 4 | 0 | 0 | https://www.glutenberg.cl/ |
@@ -102,6 +101,7 @@ _Fecha: 2026-11-05 · Fuente: Doc regenerado con normalización P0 + visión_
 
 | name | cat | dishes | review | rejected |
 |---|---|---|---|---|
+| Sin Culpa Market | Tienda de alimentos naturales | 499 | 54 | 6 |
 | Dulces aplv | Pastelería | 222 | 40 | 0 |
 | Alma Chilanga | Restaurante mexicano | 24 | 15 | 9 |
 | Patagonia Schokoland | Heladería | 21 | 21 | 0 |
