@@ -11,7 +11,7 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date
 from urllib.parse import parse_qs, urlparse
 
-from .enrich import _ocr_bytes, detect_dishes
+from .enrich import detect_dishes
 
 API = "https://api.apify.com/v2"
 ACTOR = "unitbytes~google-maps-photos-scraper"
@@ -21,12 +21,14 @@ UA = (
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
 )
 
-PRICE_DOLLAR = re.compile(r"\$\s*([\d]{1,3}(?:[.,\s]\d{3})*(?:[.,]\d{1,2})?)")
+PRICE_DOLLAR = re.compile(r"\$\s*(\d[\d.,]*)")
 PRICE_THOUSANDS = re.compile(r"\b(\d{1,3}(?:[.,]\d{3})+)\b")
 STOPWORDS = {
     "total", "subtotal", "iva", "propina", "delivery", "horario", "dirección",
     "direccion", "teléfono", "telefono", "instagram", "whatsapp", "www", "http",
     "menu", "menú", "carta", "precio", "valor", "promoción", "promocion",
+    "salado", "dulce", "helados", "pasteles", "tortas", "cafeteria",
+    "cafetería", "bebidas", "jugos", "postres",
 }
 
 
@@ -87,16 +89,50 @@ def _normalize(value: str) -> str:
     return re.sub(r"\s+", " ", value).strip().lower()
 
 
-def _download(url: str, timeout: int = 12) -> bytes:
+def _download(url: str, timeout: int = 15) -> bytes:
     try:
         request = urllib.request.Request(url, headers={"User-Agent": UA})
         with urllib.request.urlopen(request, timeout=timeout) as response:
             content_type = (response.headers.get_content_type() or "").lower()
             if not content_type.startswith("image/"):
                 return b""
-            return response.read(8_000_000)
+            return response.read(20_000_000)
     except Exception:
         return b""
+
+
+def _ocr_menu_bytes(raw: bytes) -> str:
+    try:
+        import pytesseract
+        from PIL import Image, ImageOps
+    except Exception:
+        return ""
+    try:
+        image = Image.open(BytesIO(raw)).convert("L")
+    except Exception:
+        return ""
+    if image.width < 1800:
+        ratio = 1800 / max(image.width, 1)
+        image = image.resize(
+            (int(image.width * ratio), int(image.height * ratio)), Image.LANCZOS
+        )
+    elif image.width > 2600:
+        ratio = 2600 / image.width
+        image = image.resize(
+            (int(image.width * ratio), int(image.height * ratio)), Image.LANCZOS
+        )
+    image = ImageOps.autocontrast(image)
+    texts: list[str] = []
+    for psm in (6, 11):
+        try:
+            texts.append(
+                pytesseract.image_to_string(
+                    image, lang="spa+eng", config=f"--psm {psm}"
+                )
+            )
+        except Exception:
+            continue
+    return "\n".join(texts)
 
 
 def _clean_name(value: str) -> str:
@@ -213,7 +249,11 @@ def enrich_menus_photos(
         place = _match_place(item, by_url, by_cid, by_name)
         if place is None:
             continue
-        url = item.get("photoUrl") or item.get("thumbnailUrl") or item.get("photoUrlHighRes")
+        url = (
+            item.get("photoUrlHighRes")
+            or item.get("photoUrl")
+            or item.get("thumbnailUrl")
+        )
         if not url:
             continue
         photos.setdefault(place.ftid, []).append(url)
@@ -239,7 +279,7 @@ def enrich_menus_photos(
                 raw = future.result()
                 if not raw:
                     continue
-                text = _ocr_bytes(raw)
+                text = _ocr_menu_bytes(raw)
                 if not text:
                     continue
                 with_text += 1

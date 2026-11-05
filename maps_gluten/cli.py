@@ -129,7 +129,7 @@ def main(argv: list[str] | None = None) -> int:
     ocr_enabled = args.ocr if args.ocr is not None else _env_bool("MAPS_OCR", False)
     apify_token = os.getenv("APIFY_TOKEN", "").strip()
     apify_enabled = _env_bool("MAPS_APIFY", True) and bool(apify_token)
-    menu_actor = os.getenv("MAPS_MENU_ACTOR", "none").strip().lower()
+    menu_actor = os.getenv("MAPS_MENU_ACTOR", "unitbytes").strip().lower()
     website_dishes = _env_bool("MAPS_WEBSITE_MENU", True)
     apify_language = os.getenv("APIFY_LANGUAGE", "es")
     try:
