@@ -93,32 +93,36 @@ Con `MAPS_OCR=1` (activo en el workflow):
 - En las webs, si la página de menú no tiene texto suficiente, se descargan hasta 3 imágenes candidatas (sin logos ni iconos) y se les aplica OCR.
 - En GitHub Actions se instala `tesseract-ocr` y `tesseract-ocr-spa`. En local: `brew install tesseract tesseract-lang` o el paquete equivalente.
 
-Límites: la calidad depende de la foto; cartas con letra muy pequeña, inclinadas o con fondo complejo pueden fallar. El OCR puede confundir palabras y generar falsos positivos. Las imágenes de la pestaña **Carta** de la app de Google Maps no se pueden aislar desde la web, así que no se intenta OCR sobre ellas.
+Límites: la calidad depende de la foto; cartas con letra muy pequeña, inclinadas, en columnas o con fondo complejo pueden fallar. El OCR en alta resolución sí funciona sobre las fotos etiquetadas como `menu` que devuelve UnitBytes; aun así puede meter fragmentos o perder precios.
 
-### Carta estructurada con Apify (opcional)
+### Carta desde las fotos de Google Maps (UnitBytes + OCR)
 
-> **Estado actual:** el actor gestionado de Nomad se quedó sin crédito de Google AI Studio y devuelve diagnósticos 402. Alcanzamos a recuperar **916 platos de 14 locales** desde sus datasets; están en el Doc. UnitBytes devuelve fotos de menú, pero en la prueba de 2 locales las 14 fotos eran de comida y **0 tenían texto OCR**, así que no reemplaza a Nomad. El menú queda desactivado (`MAPS_MENU_ACTOR=none`) hasta usar Nomad BYO con una Gemini API key propia o hasta que el actor gestionado recupere crédito.
+Estado 2026-11-05: UnitBytes + OCR en alta resolución extrajo **3.121 platos de 54 locales**. Sumados a los **916 platos de 14 locales** recuperados de los datasets de Nomad, el Doc tiene **4.037 platos en 62 locales**. Los otros 38 no tienen fotos de menú y quedan con reseñas/web.
 
-Para recuperar los platos de la pestaña Carta, el workflow puede usar el actor de Apify `nomad-agent/google-maps-menu-scraper-managed`. Toma las fotos de menú del local, las pasa por IA y, si no hay, revisa la web o el PDF. Devuelve un registro por plato con nombre, precio, categoría, descripción, ingredientes, alérgenos estimados, tipo de dieta y nutrición.
+Cómo funciona:
 
-Se activa solo si existe el secreto `APIFY_TOKEN`:
+- El actor `unitbytes/google-maps-photos-scraper` con `category: menu` devuelve las fotos de la pestaña Carta (hasta 8 por local).
+- Se descargan en **alta resolución**, se convierten a gris, se upscalean/downscalean a ~1.800–2.600 px, se les aplica autocontraste y se OCR con Tesseract `spa+eng` y `psm 6/11`.
+- Se parsean platos y precios; el resultado va al Doc como `- **Carta (Google Maps):** ...`, a `metadata.menu` y a `menus.jsonl`.
+- Costo: ~$0.00025 por foto; 263 fotos ≈ **$0.07**, dentro de los $5 gratis de Apify. No usa Gemini ni Outscraper.
+- Caché 30 días (`menu_at`). `MAPS_MENU_ACTOR=unitbytes` y `MAPS_WEBSITE_MENU=0`.
+
+Se activa con el secreto `APIFY_TOKEN`:
 
 1. Crea una cuenta gratis en https://console.apify.com/sign-up (sin tarjeta; incluye **$5 de uso al mes**).
 2. Copia tu API token en *Settings → Integrations*.
 3. En GitHub → *Settings → Secrets and variables → Actions*, crea el secreto `APIFY_TOKEN` con ese valor.
 4. Dispara el workflow. La primera corrida procesa todos los locales; después se refresca cuando `menu_at` tenga más de `MAPS_ENRICH_DAYS` días (30).
 
-Costo: ~$0.0002 por plato en el plan gratis; 100 locales suelen quedar en **$0.10–$0.50**. El workflow limita el gasto con `APIFY_MAX_CHARGE_USD` (2.0 por defecto). Sin token, el paso se omite y todo lo demás sigue igual.
-
 Salidas:
 
 - `- **Carta (Google Maps):** ...` en el `.md` y en el Doc.
 - `metadata.menu` en el JSONL principal.
-- `data/mis_lugares_sin_gluten_menus.jsonl`: una línea por plato con los campos completos.
+- `data/mis_lugares_sin_gluten_menus.jsonl`: una línea por plato (2.704 de 4.037 con precio).
 
-Los ingredientes, alérgenos y nutrición son **estimaciones de IA**, no datos verificados; confírmalos con el local.
+El OCR puede meter fragmentos y los precios pueden faltar; es una mención, no una carta certificada. Verifica alérgenos y precios con el local.
 
-`MAPS_MENU_ACTOR` acepta `none` (por defecto), `nomad` (actor gestionado) o `unitbytes` (fotos de menú + OCR). `MAPS_WEBSITE_MENU=1` mantiene el scan de menús en webs; desactívalo solo si el actor de menú ya cubre esos locales.
+`MAPS_MENU_ACTOR` acepta `unitbytes` (por defecto), `none` (desactivado) o `nomad` (actor gestionado/BYO). La `GEMINI_API_KEY` queda guardada como fallback opcional, pero el pipeline actual no la usa. `MAPS_WEBSITE_MENU=1` mantiene el scan de menús en webs; está en `0` porque UnitBytes ya cubre las fotos de Maps.
 
 ## Local (opcional)
 
