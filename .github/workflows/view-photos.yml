@@ -1,0 +1,84 @@
+name: Ver fotos de un local
+
+on:
+  workflow_dispatch:
+    inputs:
+      place:
+        description: "Texto a buscar en placeName"
+        required: true
+        default: "SERSAYAAN"
+
+jobs:
+  view:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Descargar fotos
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          PLACE: ${{ inputs.place }}
+        run: |
+          python - <<'PY'
+          import json
+          import os
+          import pathlib
+          import urllib.request
+
+          API = "https://api.apify.com/v2"
+          TOKEN = os.environ["APIFY_TOKEN"]
+          QUERY = os.environ["PLACE"].lower()
+          ACTOR = "unitbytes~google-maps-photos-scraper"
+
+          def get(path):
+              sep = "&" if "?" in path else "?"
+              url = f"{API}{path}{sep}token={TOKEN}"
+              with urllib.request.urlopen(url, timeout=120) as response:
+                  return json.load(response)
+
+          runs = get(f"/acts/{ACTOR}/runs?limit=30&desc=1").get("data", {}).get("items", [])
+          urls = []
+          for run in runs:
+              if run.get("status") != "SUCCEEDED":
+                  continue
+              dataset = run.get("defaultDatasetId")
+              if not dataset:
+                  continue
+              try:
+                  items = get(f"/datasets/{dataset}/items?format=json&clean=true&limit=10000")
+              except Exception:
+                  continue
+              if isinstance(items, dict):
+                  items = items.get("items", [])
+              for item in items:
+                  if QUERY not in (item.get("placeName") or "").lower():
+                      continue
+                  url = item.get("photoUrlHighRes") or item.get("photoUrl")
+                  if url and url not in urls:
+                      urls.append(url)
+              if urls:
+                  break
+
+          out = pathlib.Path("photos")
+          out.mkdir(exist_ok=True)
+          print("fotos:", len(urls))
+          for index, url in enumerate(urls, start=1):
+              print(index, url)
+              request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
+              with urllib.request.urlopen(request, timeout=60) as response:
+                  (out / f"{index}.jpg").write_bytes(response.read())
+          PY
+
+      - name: Guardar fotos
+        uses: actions/upload-artifact@v4
+        with:
+          name: fotos-${{ inputs.place }}
+          path: photos/
+          if-no-files-found: error
