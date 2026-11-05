@@ -5,10 +5,10 @@ _Fecha: 2026-11-05 · Fuente: Doc regenerado con normalización P0_
 ## Resumen
 
 - **100 lugares** en la lista.
-- **69 con platos publicables**: 2846 platos.
+- **75 con platos publicables**: 2885 platos.
 - **1 solo con categorías** (sin platos específicos).
-- **30 sin carta ni categorías**: 15 sin web y 15 con web.
-- **14 con carta corta** (1-9 platos).
+- **24 sin carta ni categorías**: 15 sin web y 9 con web.
+- **19 con carta corta** (1-9 platos).
 - **25 con menos del 50% de precios**.
 - **24 con mucho ruido** (revisión + rechazados >= 20).
 - **33 sin web registrada**.
@@ -39,15 +39,9 @@ _Fecha: 2026-11-05 · Fuente: Doc regenerado con normalización P0_
 | name | cat | web_n | rev_n | review | rejected | url |
 |---|---|---|---|---|---|---|
 | Sabores para Alegrar | Pastelería | 11 | 4 | 0 | 0 | http://www.saboresparaalegrar.cl/ |
-| ALLFREE | Tienda de alimentos naturales | 10 | 0 | 0 | 0 | https://www.allfree.cl/ |
 | Massanoglutenfree | Pastelería | 7 | 2 | 0 | 0 | http://www.massanoglutenfree.cl/ |
-| BuganVilla cafe & market | Tienda de delicatessen | 6 | 1 | 0 | 0 | http://www.buganvilla.cl/ |
-| COMERCIAL RAKKO | Tienda de alimentos naturales | 5 | 0 | 0 | 0 | https://www.rakkonatural.cl/ |
 | Libre Punto SpA | Tienda de alimentos naturales | 4 | 0 | 0 | 0 | http://www.librepunto.cl/ |
-| Fain | Tienda de alimentos naturales | 3 | 0 | 0 | 0 | http://www.fain.cl/ |
 | Popolo Pizza sin Gluten | Pizzería a domicilio | 2 | 1 | 0 | 0 | http://www.popolo.cl/ |
-| Productos El Pueblo | Panadería | 2 | 3 | 0 | 0 | https://www.productoselpueblo.cl/ |
-| Pizzeria Latinoamericana | Pizzería a domicilio | 1 | 4 | 0 | 0 | https://www.pizzerialatinoamericana.com/ |
 | Sin Culpa Market | Tienda de alimentos naturales | 1 | 0 | 0 | 0 | https://www.sinculpamarket.cl/ |
 | CO&keto | Cafetería | 0 | 4 | 0 | 0 | http://www.cokefoods.cl/ |
 | Casa Roque Chocolates | Centro comercial | 0 | 1 | 0 | 0 | https://wwww.casaroque.cl/ |
@@ -64,12 +58,17 @@ _Fecha: 2026-11-05 · Fuente: Doc regenerado con normalización P0_
 |---|---|---|---|---|---|
 | BAR EL BAJO | Bar | 1 | 1 | 2 | 2 |
 | Emporio de la Tierra | Tienda de alimentos naturales | 1 | 0 | 0 | 0 |
+| Fain | Tienda de alimentos naturales | 1 | 1 | 0 | 0 |
 | Las Petunias Pastelería sin azúcar y sin gluten | Pastelería | 1 | 0 | 1 | 0 |
 | Violeta Patisserie | Pastelería | 1 | 0 | 4 | 0 |
 | Bonheur Keto Patisserie | Pastelería | 2 | 2 | 2 | 0 |
+| BuganVilla cafe & market | Tienda de delicatessen | 2 | 2 | 0 | 0 |
 | Café Kanela | Cafetería | 2 | 0 | 2 | 0 |
 | Pastelería Kleine Nuss | Pastelería | 2 | 0 | 5 | 1 |
+| COMERCIAL RAKKO | Tienda de alimentos naturales | 3 | 3 | 0 | 0 |
 | Gusto's - Keto, health & gluten free | Restaurante de comida sin gluten | 3 | 0 | 2 | 0 |
+| Pizzeria Latinoamericana | Pizzería a domicilio | 3 | 3 | 0 | 0 |
+| Productos El Pueblo | Panadería | 4 | 4 | 0 | 0 |
 | B Fresh | Cafetería | 5 | 0 | 1 | 1 |
 | Rebelde Pastelería Keto | Pastelería | 5 | 5 | 1 | 0 |
 | Yoko Sea Food | Restaurante peruano | 6 | 6 | 0 | 0 |

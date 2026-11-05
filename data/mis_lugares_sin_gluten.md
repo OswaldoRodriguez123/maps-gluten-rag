@@ -12,6 +12,37 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://www.allfree.cl/
 - **Menciona en su web:** sushi, pasta, pescado, mariscos, galleta, alfajor, chocolate, manjar, dulces, jugo
 - **Fecha de registro:** 2026-07-02
+- **Dietético:** 17 platos sin gluten, 6 veganos, 1 sin lactosa
+
+### Carta
+
+- Galleta HALLOWEEN - 1 Unidad — $1.990 [sin gluten]
+- Arroz Platino para Sushi Sin Gluten — $2.990 [sin gluten]
+- Pasta Penne Sin Gluten Rummo - 400 grs — $4.990 [sin gluten]
+- Pack 24 Dulce Pico Sin Gluten — $3.990 [sin gluten]
+- Alfajor Chocolate Negro Manjar Sin Azùcar — $2.590
+- Gomitas Gusanos Libre de Gluten - 90 grs — $1.590 [sin gluten]
+- Alfajor Mazapan Dulzura Vegetal - 35grs — $1.690
+- Alfajor Marròn Glacè Dulzura Vegetal — $1.690
+- Alfajor Chocolate Negro 85% Cacao Manjar Sin Azúcar — $2.590 [sin azúcar]
+- Papas Fritas Regionales - 80 grs — $1.990 [sin gluten]
+- Gomitas Frutillas Libre de Gluten - 80 grs — $1.590 [sin gluten]
+- Gomitas Gusanos Àcidos Libre de Gluten - 15 grs — $500 [sin gluten]
+- Gomitas Ositos Libre de Gluten - 80 grs — $1.590 [sin gluten]
+- Aceite de Oliva Extra Virgen 2 Litros - Las 200 — $28.990
+- Pan de Molde Sin gluten — $5.990 [sin gluten]
+- Crunchys de Papa PuriSnacks - 140 grs — $2.590 [sin gluten, vegano]
+- Goma Guar Sin Gluten Allfree - 100 grs — $1.990 [sin gluten]
+- Oferta 2x1 Bites Maqui Frambuesa BienGood - 30 grs — $1.490 [sin azúcar, sin gluten, vegano]
+- OFERTA 2x1 Bites Semillas y Frutos Secos BienGood - 30 grs — $1.490 [sin gluten, vegano]
+- Oferta 2x1 Bites Matcha Limón BienGood - 30 grs — $1.490 [sin azúcar, sin gluten, vegano]
+- Oferta 2x1 Bites Cacao BienGood - 30 grs — $1.490 [sin azúcar, sin gluten, vegano]
+- Yumearth Masticables Surtidos — $100 [sin lactosa, vegano]
+- Aceite de Oliva Extra Virgen 5 Litros - Las 200 — $55.000
+- Barra de Cereal y Berries - 20 grs Tribu — $250
+- Aceite de Oliva Extra Virgen Arbequina 500 ml - Las 200 — $9.990
+- Cabritalegre Bombón Nutella — $1.590 [sin azúcar, sin gluten]
+
 
 ## Alma Chilanga
 - **Ubicación:** Av. Las Condes 9111, 7591238 Las Condes, Región Metropolitana
@@ -237,6 +268,12 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** pasta, galleta, alfajor, chocolate, manjar, dulces
 - **Menciona en reseñas:** chocolate
 - **Fecha de registro:** 2025-11-23
+
+### Carta
+
+- Dientes de ajo negro pelados 120g — $7.590
+- Tahini de sésamo 800g — $9.990
+
 
 ## C'est si Bon Costanera
 - **Ubicación:** Av Vitacura, Providencia, Región Metropolitana
@@ -1593,6 +1630,29 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://www.rakkonatural.cl/
 - **Menciona en su web:** pasta, galleta, chocolate, manjar, jugo
 - **Fecha de registro:** 2026-03-11
+- **Dietético:** 3 platos sin gluten
+
+### Qué vende
+
+- Cereales y muesli
+- Pasta y fideos
+- Té
+
+
+### Carta
+
+#### Cereales y muesli
+
+- CORN FLAKES SIN GLUTEN NOGLUT SANTIVERI 250GR — $4.290 [sin gluten]
+
+#### Pasta y fideos
+
+- PASTA LASAGNA SIN GLUTEN BLUEDRAGON 250G — $1.690 [sin gluten]
+
+#### Té
+
+- LANDI TÉ VERDE SIN GLUTEN 20BOLSITAS — $1.100 [sin gluten]
+
 
 ## Crumbless Gluten Free Bakery
 - **Ubicación:** Condell 1145, 7501376 Providencia, Región Metropolitana
@@ -2184,6 +2244,19 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.fain.cl/
 - **Menciona en su web:** pasta, manjar, dulces
 - **Fecha de registro:** 2025-11-14
+- **Dietético:** 1 platos sin gluten
+
+### Qué vende
+
+- Panadería
+
+
+### Carta
+
+#### Panadería
+
+- Pan de Aceituna 600 grs — $8.800 [sin gluten]
+
 
 ## FAMILIA GLUTEN FREE
 - **Ubicación:** Av. Pedro Fontova 6651, local 17, 8320000 Huechuraba, Región Metropolitana
@@ -4057,6 +4130,14 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** pizza
 - **Menciona en reseñas:** pizza, empanada, carne, mechada
 - **Fecha de registro:** 2025-10-02
+- **Dietético:** 3 platos sin gluten, 2 veganos
+
+### Carta
+
+- Toscana — $16.900 [sin gluten]
+- Arma Tu Calzone Sin Gluten — $7.900 [sin gluten, vegano]
+- Huerta Fresca — $15.900 [sin gluten, vegano]
+
 
 ## Poga Heladería
 - **Ubicación:** Alonso de Córdova 2467, B, 7630415 Vitacura, Región Metropolitana
@@ -4153,6 +4234,14 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** pastel, chocolate
 - **Menciona en reseñas:** empanada, sopa, dulces
 - **Fecha de registro:** 2026-10-12
+
+### Carta
+
+- Turbo Benny Vainilla 200grs — $1.650
+- Mini granola quinoa 20grs — $600
+- Mini rice pop chocolate menta — $900
+- Mini rice pop chocolate avellanas — $900
+
 
 ## QUIMEY SUSHI FUSION & GLUTEN FREE
 - **Ubicación:** Guardia Vieja 450, 7510259 Providencia, Región Metropolitana
