@@ -127,9 +127,9 @@ Se activa con el secreto `APIFY_TOKEN`:
 
 Salidas:
 
-- `- **Carta (Google Maps):** ...` en el `.md` y en el Doc.
+- `### Carta` en el `.md` y en el Doc, con `#### Categoría` y un plato por línea (`- Plato — $precio`).
 - `metadata.menu` en el JSONL principal.
-- `data/mis_lugares_sin_gluten_menus.jsonl`: una línea por plato (2.704 de 4.037 con precio).
+- `data/mis_lugares_sin_gluten_menus.jsonl`: una fila por plato, con categoría y precio.
 
 El OCR puede meter fragmentos y los precios pueden faltar; es una mención, no una carta certificada. Verifica alérgenos y precios con el local.
 
@@ -184,6 +184,41 @@ APIFY_TOKEN='...' GEMINI_API_KEY='...' \
 GDOC_ID='1N67XQI2sXARoeZe6wz87JlmH-a5Z83exgBiz9Q_j1H0' \
 GOOGLE_APPLICATION_CREDENTIALS='/ruta/service-account.json' \
 .venv/bin/python scripts/update_menu_place.py --place Yoko --publish
+```
+
+### Carta desde una tienda Fudo (menu.fu.do)
+
+Si Google Maps muestra `menu.fu.do` en la pestaña Carta, guarda la URL en `data/menu_urls.json`:
+
+```json
+{
+  "Café Aquelarre": "https://menu.fu.do/cafeaquelarre"
+}
+```
+
+Y actualiza solo esa carta:
+
+```bash
+gh workflow run update-fudo-one.yml \
+  --repo OswaldoRodriguez123/maps-gluten-rag \
+  -f place='Café Aquelarre'
+```
+
+También acepta `-f menu_url='https://menu.fu.do/...'` si no está en el archivo. El extractor lee el catálogo completo (productos, categorías y precios) aunque la tienda esté cerrada; “cerrado” solo bloquea pedidos.
+
+### Formato del Doc y reconstrucción
+
+El Doc es la fuente para NotebookLM:
+
+- Cada local es un `##`.
+- Si tiene carta: `### Carta`, luego `#### Categoría` y un plato por línea (`- Plato — $precio`).
+- NotebookLM permite 500.000 palabras por fuente y 50 fuentes por cuaderno; el Doc completo usa ~32.000 palabras.
+
+Para reconstruir el Doc desde los JSONL sin volver a listar los 100:
+
+```bash
+gh workflow run rebuild-doc.yml \
+  --repo OswaldoRodriguez123/maps-gluten-rag
 ```
 
 ## Local (opcional)
