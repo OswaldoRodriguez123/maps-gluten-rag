@@ -50,6 +50,8 @@ jobs:
       MAPS_ENRICH_DAYS: "30"
       MAPS_OCR: "1"
       MAPS_APIFY: "1"
+      MAPS_MENU_ACTOR: "unitbytes"
+      MAPS_WEBSITE_MENU: "0"
       APIFY_LANGUAGE: "es"
       APIFY_MAX_PHOTOS: "8"
       APIFY_MAX_CHARGE_USD: "2.0"

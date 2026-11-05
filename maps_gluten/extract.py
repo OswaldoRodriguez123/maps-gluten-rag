@@ -586,6 +586,7 @@ def scrape_list(
     enrich_force: bool = False,
     today: str | None = None,
     enrich_ocr: bool = False,
+    website_dishes: bool = True,
 ) -> tuple[str, str | None, list[Place], bool]:
     captured: dict[str, str] = {}
     with sync_playwright() as p:
@@ -666,6 +667,7 @@ def scrape_list(
                         force=enrich_force,
                         today=datetime.fromisoformat(today).date() if today else None,
                         ocr=enrich_ocr,
+                        website_dishes=website_dishes,
                     )
                 except Exception:
                     pass

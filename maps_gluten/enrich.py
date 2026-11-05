@@ -430,6 +430,7 @@ def enrich_places(
     force: bool = False,
     today: date | None = None,
     ocr: bool = False,
+    website_dishes: bool = True,
 ) -> int:
     cache = cache or {}
     today = today or date.today()
@@ -453,7 +454,7 @@ def enrich_places(
             review_dishes = []
         place.website = website
         place.review_dishes = ", ".join(review_dishes) if review_dishes else None
-        if website:
+        if website and website_dishes:
             with_web.append(place)
 
     results: dict[str, list[str]] = {}

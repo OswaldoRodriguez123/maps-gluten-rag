@@ -129,6 +129,8 @@ def main(argv: list[str] | None = None) -> int:
     ocr_enabled = args.ocr if args.ocr is not None else _env_bool("MAPS_OCR", False)
     apify_token = os.getenv("APIFY_TOKEN", "").strip()
     apify_enabled = _env_bool("MAPS_APIFY", True) and bool(apify_token)
+    menu_actor = os.getenv("MAPS_MENU_ACTOR", "unitbytes").strip().lower()
+    website_dishes = _env_bool("MAPS_WEBSITE_MENU", True)
     apify_language = os.getenv("APIFY_LANGUAGE", "es")
     try:
         apify_photos = int(os.getenv("APIFY_MAX_PHOTOS", "8"))
@@ -167,6 +169,7 @@ def main(argv: list[str] | None = None) -> int:
                 enrich_force=args.refresh_enrichment,
                 today=today,
                 enrich_ocr=ocr_enabled,
+                website_dishes=website_dishes,
             )
         except Exception as error:
             print(f"Error al extraer la lista: {error}", file=sys.stderr)
@@ -190,22 +193,33 @@ def main(argv: list[str] | None = None) -> int:
                         targets.append(place)
                 except ValueError:
                     targets.append(place)
-            if targets:
+            if targets and menu_actor != "none":
                 try:
-                    from . import apify
+                    if menu_actor == "unitbytes":
+                        from . import photos
 
-                    count = apify.enrich_menus(
-                        targets,
-                        apify_token,
-                        language=apify_language,
-                        max_photos=apify_photos,
-                        max_charge_usd=apify_charge,
-                        concurrency=apify_concurrency,
-                        today=today,
-                    )
-                    print(f"Apify: {count} platos en {len(targets)} locales")
+                        count = photos.enrich_menus_photos(
+                            targets,
+                            apify_token,
+                            max_photos=apify_photos,
+                            max_charge_usd=apify_charge,
+                            today=today,
+                        )
+                    else:
+                        from . import apify
+
+                        count = apify.enrich_menus(
+                            targets,
+                            apify_token,
+                            language=apify_language,
+                            max_photos=apify_photos,
+                            max_charge_usd=apify_charge,
+                            concurrency=apify_concurrency,
+                            today=today,
+                        )
+                    print(f"Menú ({menu_actor}): {count} platos en {len(targets)} locales")
                 except Exception as error:
-                    print(f"Apify: {error}", file=sys.stderr)
+                    print(f"Menú ({menu_actor}): {error}", file=sys.stderr)
 
         total, new = store.save(conn, key, title, places, today, replace=complete)
         md_path = out_dir / f"{basename}.md"
