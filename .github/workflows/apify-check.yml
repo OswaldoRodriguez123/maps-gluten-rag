@@ -33,6 +33,13 @@ jobs:
           print("Token válido para:", me.get("username"))
           print("Plan:", plan.get("id"), "| crédito mensual:", plan.get("monthlyUsageCreditsUsd"))
 
+          for path in ("/users/me/usage", "/users/me/limits", "/users/me/billing"):
+              try:
+                  data = get(path)
+                  print(path, "=>", json.dumps(data, ensure_ascii=False)[:1200])
+              except Exception as error:
+                  print(path, "ERR", error)
+
           runs = get("/actor-runs?desc=true&limit=10")["data"]
           items = runs.get("items", [])
           print("Corridas recientes:", len(items))
