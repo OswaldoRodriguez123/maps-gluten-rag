@@ -94,6 +94,9 @@ jobs:
           key: maps-gluten-db-${{ github.run_id }}
           restore-keys: maps-gluten-db-
 
+      - name: Sincronizar SQLite desde JSONL
+        run: python scripts/sync_db_from_jsonl.py --db data/historial_lugares.db
+
       - name: Baseline antes de refrescar
         run: python scripts/update_new_places.py --dump-baseline /tmp/baseline.json
 
