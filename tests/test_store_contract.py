@@ -69,5 +69,33 @@ class StoreContractTest(unittest.TestCase):
         self.assertEqual(row["price_display"], "$10.000")
 
 
+def test_store_persists_website_source():
+    with tempfile.TemporaryDirectory() as tmp:
+        conn = store.connect(Path(tmp) / "t.db")
+        place = Place(
+            ftid="abc",
+            name="X",
+            address=None,
+            category=None,
+            rating=None,
+            reviews=None,
+            note=None,
+            url="https://maps",
+            saved_on="2020-01-01",
+            website="https://ejemplo.cl/",
+            website_source="search",
+        )
+        store.save(conn, "list", "L", [place], "2026-11-06")
+        row = conn.execute(
+            "SELECT website_source FROM places WHERE ftid='abc'"
+        ).fetchone()
+        out = Path(tmp) / "out.jsonl"
+        store.write_jsonl(conn, "list", out)
+        record = json.loads(out.read_text(encoding="utf-8").strip())
+        conn.close()
+    assert row[0] == "search"
+    assert record["metadata"]["website_source"] == "search"
+
+
 if __name__ == "__main__":
     unittest.main()

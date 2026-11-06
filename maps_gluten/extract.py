@@ -202,6 +202,7 @@ class Place:
     lat: float | None = None
     lng: float | None = None
     website: str | None = None
+    website_source: str | None = None
     dishes: str | None = None
     review_dishes: str | None = None
     enriched_at: str | None = None
@@ -587,6 +588,8 @@ def scrape_list(
     today: str | None = None,
     enrich_ocr: bool = False,
     website_dishes: bool = True,
+    search_enabled: bool = True,
+    gemini_api_key: str | None = None,
 ) -> tuple[str, str | None, list[Place], bool]:
     captured: dict[str, str] = {}
     with sync_playwright() as p:
@@ -668,6 +671,8 @@ def scrape_list(
                         today=datetime.fromisoformat(today).date() if today else None,
                         ocr=enrich_ocr,
                         website_dishes=website_dishes,
+                        search_enabled=search_enabled,
+                        gemini_api_key=gemini_api_key,
                     )
                 except Exception:
                     pass

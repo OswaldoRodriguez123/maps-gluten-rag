@@ -264,3 +264,87 @@ def test_search_website_end_to_end_accepts_strong_match(monkeypatch):
     )
     assert (url, score, error) == ("https://bickacafe.cl/", 0.91, None)
     assert calls["n"] == 2
+
+
+# --- 7. Task 2: integración en enrich_places (fallback search) ---
+
+def test_enrich_places_uses_search_fallback(monkeypatch):
+    from maps_gluten import enrich
+    from maps_gluten.extract import Place
+
+    class FakePage:
+        def __init__(self, website=None):
+            self._website = website
+
+        def goto(self, *args, **kwargs):
+            pass
+
+        def wait_for_selector(self, *args, **kwargs):
+            pass
+
+        def wait_for_timeout(self, *args, **kwargs):
+            pass
+
+        def evaluate(self, js):
+            if js == enrich.WEBSITE_JS:
+                return self._website
+            return []
+
+        def inner_text(self, *args, **kwargs):
+            return ""
+
+    monkeypatch.setattr(enrich, "_site_dishes", lambda url, ocr=False: [])
+    monkeypatch.setattr(enrich, "_render_site_products", lambda page, url: [])
+    monkeypatch.setattr("time.sleep", lambda seconds: None)
+
+    # Caso fuerte: search devuelve score 0.9 -> acepta URL + procedencia search.
+    place = Place(
+        ftid="t1",
+        name="Café Ejemplo",
+        address="Av X 123, Vitacura",
+        category=None,
+        rating=None,
+        reviews=None,
+        note=None,
+        url="https://maps.example/1",
+    )
+    monkeypatch.setattr(
+        "maps_gluten.website_search.search_website",
+        lambda name, address, *, api_key, timeout=12: ("https://ejemplo.cl/", 0.9, None),
+    )
+    enrich.enrich_places(
+        FakePage(website=None),
+        [place],
+        cache={},
+        search_enabled=True,
+        gemini_api_key="key",
+        website_dishes=False,
+    )
+    assert place.website == "https://ejemplo.cl/"
+    assert place.website_source == "search"
+
+    # Caso débil: score 0.3 -> no acepta, queda sin website.
+    place2 = Place(
+        ftid="t2",
+        name="Café Ejemplo",
+        address="Av X 123, Vitacura",
+        category=None,
+        rating=None,
+        reviews=None,
+        note=None,
+        url="https://maps.example/2",
+    )
+    monkeypatch.setattr(
+        "maps_gluten.website_search.search_website",
+        lambda name, address, *, api_key, timeout=12: ("https://ejemplo.cl/", 0.3, None),
+    )
+    enrich.enrich_places(
+        FakePage(website=None),
+        [place2],
+        cache={},
+        search_enabled=True,
+        gemini_api_key="key",
+        website_dishes=False,
+    )
+    assert place2.website is None
+    assert place2.website_source is None

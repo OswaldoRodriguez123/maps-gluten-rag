@@ -135,6 +135,8 @@ def main(argv: list[str] | None = None) -> int:
     ocr_enabled = args.ocr if args.ocr is not None else _env_bool("MAPS_OCR", False)
     vision_key = os.getenv("GEMINI_API_KEY", "").strip() or None
     vision_enabled = _env_bool("MAPS_VISION", bool(vision_key)) and bool(vision_key)
+    gemini_api_key = vision_key
+    website_search_enabled = _env_bool("MAPS_WEBSITE_SEARCH", True)
     try:
         vision_places = int(os.getenv("MAPS_VISION_PLACES", "12"))
     except ValueError:
@@ -201,6 +203,8 @@ def main(argv: list[str] | None = None) -> int:
                 today=today,
                 enrich_ocr=ocr_enabled,
                 website_dishes=website_dishes,
+                search_enabled=website_search_enabled,
+                gemini_api_key=gemini_api_key,
             )
         except Exception as error:
             print(f"Error al extraer la lista: {error}", file=sys.stderr)

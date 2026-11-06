@@ -32,6 +32,7 @@ CREATE TABLE IF NOT EXISTS places (
     lat        REAL,
     lng        REAL,
     website    TEXT,
+    website_source TEXT,
     dishes     TEXT,
     review_dishes TEXT,
     enriched_at TEXT,
@@ -59,10 +60,10 @@ CREATE TABLE IF NOT EXISTS list_places (
 UPSERT = """
 INSERT INTO places (
     ftid, name, address, category, rating, reviews, note, url,
-    first_seen, first_observed_at, last_seen, saved_on, lat, lng, website, dishes, review_dishes,
+    first_seen, first_observed_at, last_seen, saved_on, lat, lng, website, website_source, dishes, review_dishes,
     enriched_at, enrich_version, menu_dishes, menu_json, menu_at
 )
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 ON CONFLICT(ftid) DO UPDATE SET
     name    = excluded.name,
     address = COALESCE(NULLIF(excluded.address, ''), places.address),
@@ -77,6 +78,7 @@ ON CONFLICT(ftid) DO UPDATE SET
     lat      = COALESCE(excluded.lat, places.lat),
     lng      = COALESCE(excluded.lng, places.lng),
     website  = COALESCE(NULLIF(excluded.website, ''), places.website),
+    website_source = COALESCE(NULLIF(excluded.website_source, ''), places.website_source),
     dishes   = COALESCE(NULLIF(excluded.dishes, ''), places.dishes),
     review_dishes = COALESCE(NULLIF(excluded.review_dishes, ''), places.review_dishes),
     enriched_at = COALESCE(NULLIF(excluded.enriched_at, ''), places.enriched_at),
@@ -101,6 +103,7 @@ MIGRATIONS = (
     ("menu_at", "TEXT"),
     ("menu_photos_json", "TEXT"),
     ("menu_photos_at", "TEXT"),
+    ("website_source", "TEXT"),
 )
 
 
@@ -186,6 +189,7 @@ def save(
                 place.lat,
                 place.lng,
                 place.website,
+                place.website_source,
                 place.dishes,
                 place.review_dishes,
                 place.enriched_at,
@@ -375,6 +379,7 @@ def write_jsonl(conn: sqlite3.Connection, key: str, path: Path) -> int:
                 "reviews": row["reviews"],
                 "url": row["url"],
                 "website": row["website"],
+                "website_source": row["website_source"],
                 "dishes": row["dishes"],
                 "review_dishes": row["review_dishes"],
                 "menu": menu_compact,
