@@ -1,6 +1,6 @@
 # Base de Datos: Locales Sin Gluten Guardados en Google Maps
 
-_Actualizado: 2026-11-05 · 100 lugares · Fuente: lista de Google Maps_
+_Actualizado: 2026-11-06 · 100 lugares · Fuente: lista de Google Maps_
 
 Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
@@ -4991,13 +4991,148 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** pastel, chocolate
 - **Menciona en reseñas:** empanada, sopa, dulces
 - **Fecha de registro:** 2026-10-12
+- **Dietético:** 1 sin lactosa
+
+### Qué vende
+
+- Abarrotes
+- Insumos
+- Pastelerías
+- Harinas y cereales
+- Esencias y condimentos
+- Panadería
+
 
 ### Carta
+
+#### Abarrotes
 
 - Turbo Benny Vainilla 200grs — $1.650
 - Mini granola quinoa 20grs — $600
 - Mini rice pop chocolate menta — $900
 - Mini rice pop chocolate avellanas — $900
+- Mini rice pop berries — $900
+- Esencia pan de pascua — $6.010
+- Turbo zero manzana — $370
+- Turbo zero frutilla — $370
+- Turbo zero pera al agua — $370
+- Turbo zero durazno — $370
+- Turbo zero berries — $370
+- Turbo plus Mango — $340
+- Turbo plus Frutilla — $340
+- Turbo plus naranja — $340
+- Chocolate ruby con frambuesa — $3.600
+- Chocolate 52% — $3.600
+- Chocolate 72% con naranja — $3.600
+- Cobertura 85% Neucober — $36.900
+- Cobertura Neucober 60% — $30.820
+- Cilindro de manjar — $2.100
+- Pelotitas dulce de leche — $4.100
+- Caluga de leche nuez — $1.310
+- Caluga de leche — $1.230
+- Gelatina Turbo Limón — $550
+- Flan Turbo Vainilla — $530
+- Flan Turbo Frutilla — $530
+- Fussilli Maíz — $2.720
+- Salsa soya pearl river — $2.190
+- Turbo Plus Melon Tuna — $340
+- Turbo Plus Frambuesa — $340
+- Turbo Plus Piña — $340
+- Turbo Plus Durazno — $340
+- Chocolate 85% Cacao Sin Azúcar — $3.600 [sin azúcar]
+- Chocolate 85% Cacao28 — $3.600
+- Chocolate 72% Cacao — $3.600
+- Chocolate 85% Cacao En Linea — $2.730
+- Chocolate Nuss Sin Azúcar En Linea — $2.730 [sin azúcar]
+- Turbo Benny Frutilla 200grs — $1.650
+- Fideos De Arroz — $1.750
+- Turbo Benny Frutilla 200grs Sin Azúcar — $1.860 [sin azúcar]
+
+#### Insumos
+
+- LEVADURA SECA 500 GRS — $2.800
+- Coco rallado 200grs — $2.650
+- Té Ceylán — $2.740
+- Cobertura De Chocolate — $7.690
+- Mostacillas 100 grs (1 paquete) — $1.200
+- Gelatina En Polvo — $2.630
+- Cacao en polvo — $6.270
+
+#### Pastelerías
+
+- Discos De Merengue (2 unidades) — $4.360
+- Pan de Pascua Especial — $11.090
+- Pascualitos — $4.690
+- Pan de pascua 600 grs — $9.850
+- Kuchen — $11.190
+- Galletas de té — $3.530
+- Merenguitos — $2.990
+- Delicias — $3.700
+- Brazo De Reina Tradicional — $10.990
+- Brazo de Reina Especial — $9.740
+- Brownie (1 unidad) — $2.200
+- Tarta De Almendras — $4.970
+- Queque Familiar Con Cobertura De Chocolate — $4.810
+- Queque Familiar — $4.810
+- Quequitos — $2.910
+- Galletas finas — $3.020
+- Galletas de chuño — $2.800
+- Cocadas — $2.950
+- Mini chilenitos — $4.310
+- Chilenitos — $3.750
+- Alfajor sin azúcar y sin lactosa — $4.450 [sin azúcar, sin lactosa]
+- Alfajorcitos — $4.310
+- Alfajores — $3.750
+
+#### Harinas y cereales
+
+- Harina Trigo Sarraceno 500grs — $5.930
+- Premezcla salada 500grs — $2.900
+- Harina de garbanzo — $3.170
+- Premezcla de Pizza — $3.140
+- Premezcla dulce 500grs — $2.900
+- Harina de almendras 500grs — $8.990
+- Harina De Maíz — $3.920
+- Premezcla masa de empanadas — $4.800
+- Premezcla dulce 1kg — $5.650
+- Premezcla salada 1kg — $5.650
+- Goma xanthan — $3.740
+- Goma guar — $1.940
+- Almidón de mandioca — $5.140
+- Maicena — $3.580
+- Chuño — $4.920
+- Harina de arroz — $3.580
+- Mezcla 3 harinas — $5.590
+- Avena 500 grs — $3.480
+
+#### Esencias y condimentos
+
+- Pimienta negra — $2.220
+- Comino Molido — $1.550
+- Coco Rallado 500grs — $5.510
+- Esencia De Vainilla — $3.910
+- Polvo de horneo — $1.240
+- Ajo en polvo — $1.280
+- Ají color — $1.500
+- Orégano — $1.400
+- Canela en polvo — $3.070
+
+#### Panadería
+
+- Pan de hamburguesa — $3.800
+- Sopaipillas — $3.740
+- Pan de queso — $5.990
+- Pre Pizza — $2.800
+- Pan De Anís — $4.690
+- Pan De Hoja — $5.140
+- Dobladitas — $2.060
+- Discos de empanadas — $3.810
+- Pan rallado — $3.080
+- Pan de hot dog — $3.800
+- Molde tradicional — $4.850
+- Hallullas — $3.500
+- Empanadas napolitanas — $5.040
+- Empanadas de queso — $5.040
 
 
 ## QUIMEY SUSHI FUSION & GLUTEN FREE
@@ -6725,10 +6860,77 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** empanada, torta, pastel, galleta, muffin, cheesecake
 - **Menciona en reseñas:** empanada, completo, torta, pastel, galleta, muffin, dulces
 - **Fecha de registro:** 2025-11-23
+- **Dietético:** 36 platos sin gluten, 3 veganos, 19 sin lactosa
+
+### Qué vende
+
+- Emporio
+- Tortas sin gluten Santiago
+- Queques
+- Galletas
+- Pan
+- Cheesecake
+- Queques y Muffin
+
 
 ### Carta
 
-- Gelato
+#### Emporio
+
+- Torta diseño halloween sin gluten 10 a 15 personas — $41.000 [sin gluten]
+- Galleta halloween calabaza sin gluten/sinlacteos — $1.800 [sin gluten]
+- Galleta halloween muercielago sin gluten/sinlacteos — $1.800 [sin gluten]
+- Galleta halloween sombrero bruja sin gluten/sinlacteos — $1.800 [sin gluten]
+- Galleta halloween fantasma sin gluten/sin lacteos — $1.800 [sin gluten]
+- Caja galletas para decorar halloween sin gluten/sin lacteos — $13.500 [sin gluten]
+- Pre-Pizza sin gluten/sinlacteos 22cm — $5.000 [sin gluten]
+- Tostadas sin gluten/sin lácteos 300gr — $8.000 [sin gluten, sin lactosa]
+- Pan rallado sin gluten/sin lácteos 1kg — $25.000 [sin gluten]
+- Mermelada ciruela orgánica sin azúcar/sin gluten 200gr — $5.100 [sin azúcar, sin gluten]
+- Mermelada ciruela orgánica con azúcar/sin gluten 500gr — $7.490 [sin gluten]
+- Ajo confitado — $5.800 [sin gluten]
+- Pan rallado 100gr sin gluten/sin lácteos — $3.000 [sin gluten]
+
+#### Tortas sin gluten Santiago
+
+- Torta hojarasca amor sin gluten 10 a 15 personas — $35.000 [sin gluten, sin lactosa]
+- Torta pavlova sin gluten/sin lactosa 10 a 15 personas — $35.000 [sin gluten, sin lactosa]
+- Torta hojarasca manjar sin gluten 10 a 15 personas — $35.000 [sin gluten, sin lactosa]
+- Torta selva negra sin gluten/sin lactosa 10 a 15 personas — $35.000 [sin gluten, sin lactosa]
+- Torta bitter sin gluten 10 a 15 personas — $35.000 [sin gluten]
+- Torta tres leches sin gluten 10 a 15 personas — $35.000 [sin gluten]
+
+#### Queques
+
+- Empanada queso sin gluten/sin lactosa — $5.000 [sin gluten, sin lactosa]
+- Empanada de pino sin gluten/sin lácteos — $5.000 [sin gluten]
+
+#### Galletas
+
+- Galleta de vainilla sin gluten/sin lácteos 100gr — $2.000 [sin gluten]
+- Crumble cookie coco chocolate sin gluten/sin lactosa — $3.800 [sin gluten, sin lactosa]
+
+#### Pan
+
+- Pack pan brioche sin gluten/sin lácteos 12cm 5 unid — $7.250 [sin gluten, sin lactosa]
+- Pack pan frica sin gluten/sin lácteos 12cm 5 unid — $7.250 [sin gluten, sin lactosa]
+- Pack pan frica sin gluten/sin lácteos 10cm 4 unid — $5.000 [sin gluten, sin lactosa]
+- Pack pan brioche sin gluten/sin lácteos 10cm 4 unid — $5.000 [sin gluten, sin lactosa]
+- Pack pan de molde blanco vegano/sin gluten 3 unidades — $20.400 [sin gluten, sin lactosa, vegano]
+- Pack pan molde chia linaza vegano/sin gluten 3 unidades — $20.400 [sin gluten, sin lactosa, vegano]
+
+#### Cheesecake
+
+- Cheesecake frutos rojos sin gluten/sin azúcar — $29.990 [sin azúcar, sin gluten, sin lactosa]
+
+#### Queques y Muffin
+
+- Muffin chocoplatano vegano/sin gluten — $3.000 [sin gluten, vegano]
+- Queque marmolado sin gluten/sin lácteos 1kg — $10.500 [sin gluten, sin lactosa]
+- Queque de vainilla sin gluten/sin lacteos 1kg — $10.500 [sin gluten, sin lactosa]
+- Muffin frambuesa sin azúcar/sin lactosa/sin gluten — $3.000 [sin azúcar, sin gluten, sin lactosa]
+- Muffin chips sin azúcar/lactosa/sin gluten — $3.000 [sin azúcar, sin gluten, sin lactosa]
+- Muffin arándanos sin azúcar/sin lactosa/sin gluten — $3.000 [sin azúcar, sin gluten, sin lactosa]
 
 
 ## Yoko Sea Food

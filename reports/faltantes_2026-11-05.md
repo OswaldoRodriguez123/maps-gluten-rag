@@ -1,15 +1,15 @@
-# Restaurantes con poca data — después de P0, visión, webs y sin web
+# Restaurantes con poca data — estado final
 
-_Fecha: 2026-11-05 · Fuente: Doc regenerado_
+_Fecha: 2026-11-06 · Fuente: Doc regenerado_
 
 ## Resumen
 
 - **100 lugares** en la lista.
-- **78 con platos publicables**: 3652 platos.
+- **78 con platos publicables**: 3794 platos.
 - **1 solo con categorías**.
 - **21 sin carta ni categorías**: 14 sin web y 7 con web.
-- **15 con carta corta** (1-9 platos).
-- **14 con menos del 50% de precios**.
+- **13 con carta corta** (1-9 platos).
+- **13 con menos del 50% de precios**.
 - **4 con mucho ruido**.
 - **33 sin web registrada**.
 - **4 sin ningún dato**.
@@ -57,13 +57,11 @@ _Fecha: 2026-11-05 · Fuente: Doc regenerado_
 | Emporio de la Tierra | Tienda de alimentos naturales | 1 | 0 | 0 | 0 |
 | Fain | Tienda de alimentos naturales | 1 | 1 | 0 | 0 |
 | Las Petunias Pastelería sin azúcar y sin gluten | Pastelería | 1 | 0 | 1 | 0 |
-| Violeta Patisserie | Pastelería | 1 | 0 | 4 | 0 |
 | Bonheur Pâtisserie | Pastelería | 2 | 2 | 0 | 2 |
 | BuganVilla cafe & market | Tienda de delicatessen | 2 | 2 | 0 | 0 |
 | COMERCIAL RAKKO | Tienda de alimentos naturales | 3 | 3 | 0 | 0 |
 | Gusto's - Keto, health & gluten free | Restaurante de comida sin gluten | 3 | 0 | 2 | 0 |
 | Pizzeria Latinoamericana | Pizzería a domicilio | 3 | 3 | 0 | 0 |
-| Productos El Pueblo | Panadería | 4 | 4 | 0 | 0 |
 | Pastelería Kleine Nuss | Pastelería | 5 | 5 | 0 | 0 |
 | Yoko Sea Food | Restaurante peruano | 6 | 6 | 0 | 0 |
 | Café Kanela | Cafetería | 7 | 7 | 1 | 0 |
@@ -80,7 +78,6 @@ _Fecha: 2026-11-05 · Fuente: Doc regenerado_
 | Gusto's - Keto, health & gluten free | Restaurante de comida sin gluten | 3 | 0 | 2 | 0 |
 | Emporio de la Tierra | Tienda de alimentos naturales | 1 | 0 | 0 | 0 |
 | Las Petunias Pastelería sin azúcar y sin gluten | Pastelería | 1 | 0 | 1 | 0 |
-| Violeta Patisserie | Pastelería | 1 | 0 | 4 | 0 |
 | L'Arrabbiata Foodmarket | Supermercado | 13 | 1 | 3 | 0 |
 | CASACIENCAFE | Snack bar | 50 | 9 | 9 | 1 |
 | Alma Chilanga | Restaurante mexicano | 24 | 5 | 15 | 9 |
