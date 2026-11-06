@@ -332,12 +332,19 @@ def test_enrich_places_uses_search_fallback(monkeypatch):
         note=None,
         url="https://maps.example/1",
     )
+    captured: dict = {}
+
+    def _fake_search(name, address, *, api_key, timeout=12, page=None):
+        captured["page"] = page
+        return ("https://ejemplo.cl/", 0.9, None)
+
     monkeypatch.setattr(
         "maps_gluten.website_search.search_website",
-        lambda name, address, *, api_key, timeout=12: ("https://ejemplo.cl/", 0.9, None),
+        _fake_search,
     )
+    fake_page = FakePage(website=None)
     enrich.enrich_places(
-        FakePage(website=None),
+        fake_page,
         [place],
         cache={},
         search_enabled=True,
@@ -346,6 +353,7 @@ def test_enrich_places_uses_search_fallback(monkeypatch):
     )
     assert place.website == "https://ejemplo.cl/"
     assert place.website_source == "search"
+    assert captured.get("page") is fake_page
 
     # Caso débil: score 0.3 -> no acepta, queda sin website.
     place2 = Place(
@@ -360,7 +368,7 @@ def test_enrich_places_uses_search_fallback(monkeypatch):
     )
     monkeypatch.setattr(
         "maps_gluten.website_search.search_website",
-        lambda name, address, *, api_key, timeout=12: ("https://ejemplo.cl/", 0.3, None),
+        lambda name, address, *, api_key, timeout=12, page=None: ("https://ejemplo.cl/", 0.3, None),
     )
     enrich.enrich_places(
         FakePage(website=None),
