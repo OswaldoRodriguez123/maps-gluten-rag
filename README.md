@@ -168,8 +168,10 @@ Cuando agregues locales a la lista, no hace falta reprocesar los 100. El workflo
 1. guarda un baseline de los locales que ya existían;
 2. refresca la lista sin enriquecer todos;
 3. selecciona solo los nuevos (o los que tengan `first_observed_at` desde la fecha indicada);
-4. prueba adaptadores por plataforma: Fudo, Apparta/Tu Mesa, WooCommerce, Shopify, JSON-LD, web renderizada y fotos;
+4. prueba adaptadores por plataforma: Fudo, Apparta/Tu Mesa, Rappi, WooCommerce, Shopify, JSON-LD, web renderizada y fotos;
 5. normaliza, publica y deja un reporte.
+
+Antes de refrescar la lista, el workflow sincroniza SQLite desde los JSONL del repo. Así un cache viejo de Actions no puede borrar cartas ya publicadas.
 
 ```bash
 gh workflow run update-new.yml \

@@ -20,7 +20,7 @@ El objetivo es que el conocimiento que hoy aplicamos a mano quede en código y q
 - Workflow manual `update-new.yml` con fecha, nombres opcionales y modo dry-run.
 - Script orquestador `scripts/update_new_places.py`.
 - Registro de adaptadores por plataforma con dos operaciones: `detect()` y `extract()`.
-- Adaptadores iniciales: Fudo, Apparta/Tu Mesa, WooCommerce, Shopify, JSON-LD genérico, web renderizada y fotos (OCR/Gemini).
+- Adaptadores iniciales: Fudo, Apparta/Tu Mesa, Rappi, WooCommerce, Shopify, JSON-LD genérico, web renderizada y fotos (OCR/Gemini).
 - Escritura en el contrato de datos existente (`data/mis_lugares_sin_gluten_menus.jsonl`, JSONL principal, SQLite).
 - Reporte `reports/new_places_<fecha>.jsonl` con estado por local.
 - No reprocesar los 100 locales existentes cuando solo se piden los nuevos.
@@ -214,6 +214,13 @@ python scripts/rebuild_markdown.py --publish
 - Cada ítem puede tener `prices_list` con variantes de tamaño o marca. Se genera un ítem por variante: `Nombre - 350 cc`, `Gin - Hendrick's`.
 - Labels (`Sin Gluten`, `Vegano`, etc.) se agregan a la descripción para que el normalizador las detecte.
 
+### Rappi
+
+- Detección: `order_urls` con un link `rappi.cl/restaurantes/...`.
+- Extracción: GET de la página y parseo del JSON-LD `Restaurant` → `hasMenu` → secciones e ítems.
+- Precio desde `offers.price`; categoría desde `MenuSection.name`.
+- Es el mismo mecanismo que se usó a mano para Gusto's.
+
 ### WooCommerce
 
 - Detección: `GET /wp-json/wc/store/products?per_page=1` responde JSON de lista.
@@ -272,7 +279,7 @@ python scripts/rebuild_markdown.py --publish
 
 Fuentes nuevas: `apparta`, `web-jsonld`, `web-render`.
 
-`normalize_menus.py` tratará como fuentes de tienda/carta estructurada a `fudo`, `apparta`, `woocommerce`, `shopify` y `web-jsonld`. `web-render` queda como fuente débil y no recibe la indulgencia de nombres largos.
+`normalize_menus.py` tratará como fuentes de tienda/carta estructurada a `fudo`, `apparta`, `rappi`, `woocommerce`, `shopify` y `web-jsonld`. `web-render` queda como fuente débil y no recibe la indulgencia de nombres largos.
 
 Para que el `source` no se pierda en la siguiente corrida, `store.write_menus_jsonl` incluirá `source`, `status`, `kind`, `dietary_tags` y `price_display` al reconstruir `_menus.jsonl` desde SQLite. `normalize_menus` ya lee `source`; solo hay que conservarlo.
 
