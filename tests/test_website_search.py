@@ -348,3 +348,12 @@ def test_enrich_places_uses_search_fallback(monkeypatch):
     )
     assert place2.website is None
     assert place2.website_source is None
+
+
+# --- 8. Task 4: flag CLI --website-search/--no-website-search ---
+
+def test_cli_parses_no_website_search():
+    from maps_gluten.cli import _build_parser
+
+    args = _build_parser().parse_args(["run", "--no-website-search"])
+    assert args.website_search is False

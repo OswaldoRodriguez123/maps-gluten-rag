@@ -59,6 +59,12 @@ def _build_parser() -> argparse.ArgumentParser:
         help="Días de caché del enriquecido (por defecto MAPS_ENRICH_DAYS o 30).",
     )
     run.add_argument(
+        "--website-search",
+        action=argparse.BooleanOptionalAction,
+        default=None,
+        help="Buscar la web vía DuckDuckGo+Gemini cuando Maps no la trae (por defecto MAPS_WEBSITE_SEARCH o sí).",
+    )
+    run.add_argument(
         "--refresh-enrichment",
         action="store_true",
         help="Ignora la caché y vuelve a enriquecer todos los locales.",
@@ -136,7 +142,11 @@ def main(argv: list[str] | None = None) -> int:
     vision_key = os.getenv("GEMINI_API_KEY", "").strip() or None
     vision_enabled = _env_bool("MAPS_VISION", bool(vision_key)) and bool(vision_key)
     gemini_api_key = vision_key
-    website_search_enabled = _env_bool("MAPS_WEBSITE_SEARCH", True)
+    website_search_enabled = (
+        args.website_search
+        if args.website_search is not None
+        else _env_bool("MAPS_WEBSITE_SEARCH", True)
+    )
     try:
         vision_places = int(os.getenv("MAPS_VISION_PLACES", "12"))
     except ValueError:
