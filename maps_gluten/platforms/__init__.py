@@ -16,6 +16,7 @@ def default_adapters() -> list[Adapter]:
         from .fudo import FudoAdapter
         from .jsonld import JsonLdAdapter
         from .photos import PhotosAdapter
+        from .rappi import RappiAdapter
         from .render import RenderAdapter
         from .shopify import ShopifyAdapter
         from .woocommerce import WooCommerceAdapter
@@ -24,6 +25,7 @@ def default_adapters() -> list[Adapter]:
     return [
         FudoAdapter(),
         AppartaAdapter(),
+        RappiAdapter(),
         WooCommerceAdapter(),
         ShopifyAdapter(),
         JsonLdAdapter(),

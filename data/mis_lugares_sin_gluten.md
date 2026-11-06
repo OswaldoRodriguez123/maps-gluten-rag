@@ -11135,6 +11135,116 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.3 / 5
 - **Enlace:** https://www.google.com/maps?cid=10023942382296147388
 - **Fecha de registro:** 2026-11-06
+- **Dietético:** 1 platos sin gluten
+
+### Qué vende
+
+- Promo Postres 30% OFF
+- Keto/Sin Gluten/Azúcar
+- pancakes
+- Tostadas Y Panadería
+- Huevos Y Brunch
+- Croissants Rellenos
+- Sandwiches Gourmet
+- Pastelería Artesanal
+- Cafetería
+- Cafés Fríos
+- Matcha
+- Jugos
+
+
+### Carta
+
+#### Promo Postres 30% OFF
+
+- Cheesecake de Maracuya — $4.270
+- Torta Amor — $5.530
+- Tres Leches — $4.270
+- Tarta de Chocolate — $4.270
+- Tarta de Prestigio — $5.530
+- Tarta Vasca — $4.270
+- Cheese Cake Keto (Sin Azucar) — $6.020 [sin azúcar]
+- Torta Humeda de Chocolate — $4.270
+- Croissant de Manjar — $4.200
+- Croissant de Chocolate — $4.200
+
+#### Keto/Sin Gluten/Azúcar
+
+- Cheesecake de Keto — $8.600 [sin gluten]
+
+#### pancakes
+
+- Pancakes Clásicos Artesanales — $7.400
+
+#### Tostadas Y Panadería
+
+- Tostada Clásico Palta Y Huevo — $11.900
+- Tostada Palta Huevo Pochado y Holandesa — $14.500
+- Tostada de Palta — $6.600
+- Tostada Palta Y Cabra — $10.600
+- Croissant Jamón Y Queso — $8.500
+- Croissant Genovés — $10.600
+- tostadas francesa — $8.000
+
+#### Huevos Y Brunch
+
+- Huevos Revueltos Clásicos — $5.900
+- Huevos Revueltos Y Tocino — $9.700
+- Huevos Revueltos Y Setas — $8.500
+- Huevos Revueltos con Palta — $8.500
+- Plato Le Grenier — $12.100
+- Huevos Pochados — $10.700
+
+#### Croissants Rellenos
+
+- Croissant Pistacho — $6.000
+- Croissant Manjar — $6.000
+
+#### Sandwiches Gourmet
+
+- Sandwich Serrano Y Pesto — $14.500
+- Sandwich Croissant del Mar — $13.200
+- Ave Y Palta — $10.900
+- Sandwich Caprese del Huerto — $12.000
+- Sandwich Pastrami Y Dijon — $14.500
+
+#### Pastelería Artesanal
+
+- Torta 3 Leches — $6.100
+- Torta Amor — $7.900
+- Tartaleta de Chocolate — $6.100
+- Tarta Vasca — $6.100
+- Tarta de Prestigio — $7.900
+- Cheesecake de Maracuyá — $6.100
+- Torta Húmeda de Chocolate — $6.100
+
+#### Cafetería
+
+- Espresso — $1.900
+- Americano — $3.600
+- Cortado — $3.600
+- Cappuccino — $4.300
+- Latte — $4.600
+
+#### Cafés Fríos
+
+- Late Frío — $4.800
+- Chai Latte Frío — $4.800
+- Mojito Espresso — $4.800
+- Café Helado — $6.100
+- Frappuccino Nutella — $7.900
+
+#### Matcha
+
+- Matcha Latte — $4.400
+- Matcha Frappe — $4.600
+
+#### Jugos
+
+- Jugo de Naranja — $6.600
+- Jugo de Mango — $6.600
+- Jugos de Frutilla — $6.600
+
 
 ## Nogaró
 - **Ubicación:** No disponible

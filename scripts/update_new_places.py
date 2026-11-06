@@ -121,7 +121,12 @@ def apply_extraction(
     if dry_run:
         return {"old": len(backup), "new": len(items), "backup": len(backup)}
     if backup:
-        write_jsonl(backup_path, backup)
+        existing_backup = [
+            row
+            for row in load_jsonl(backup_path)
+            if row.get("place_id") not in ids
+        ]
+        write_jsonl(backup_path, existing_backup + backup)
     for kind, path in files.items():
         rows = [row for row in load_jsonl(path) if not _matches(row, ids)]
         if kind == "menus":
@@ -416,7 +421,13 @@ def main() -> int:
             encoding="utf-8",
         )
     apply_extraction(data_dir, written_targets, all_items, backup_path, dry_run=False)
-    write_jsonl(report_path, report_rows)
+    existing_report = {
+        row.get("ftid"): row for row in load_jsonl(report_path) if row.get("ftid")
+    }
+    for row in report_rows:
+        ftid = row.get("ftid")
+        existing_report[ftid] = {**existing_report.get(ftid, {}), **row}
+    write_jsonl(report_path, list(existing_report.values()))
     print(f"Reporte: {report_path}")
     return 0
 
