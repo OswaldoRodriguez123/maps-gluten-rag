@@ -5,10 +5,10 @@ _Fecha: 2026-11-06 · Fuente: Doc regenerado_
 ## Resumen
 
 - **100 lugares** en la lista.
-- **78 con platos publicables**: 6545 platos.
+- **78 con platos publicables**: 6812 platos.
 - **1 solo con categorías**.
 - **21 sin carta ni categorías**: 14 sin web y 7 con web.
-- **4 con carta corta** (1-9 platos).
+- **3 con carta corta** (1-9 platos).
 - **10 con menos del 50% de precios**.
 - **0 con mucho ruido**.
 - **33 sin web registrada**.
@@ -53,7 +53,6 @@ _Fecha: 2026-11-06 · Fuente: Doc regenerado_
 
 | name | cat | dishes | prices | review | rejected |
 |---|---|---|---|---|---|
-| BAR EL BAJO | Bar | 1 | 1 | 0 | 1 |
 | Emporio de la Tierra | Tienda de alimentos naturales | 1 | 0 | 0 | 0 |
 | Yoko Sea Food | Restaurante peruano | 6 | 6 | 0 | 0 |
 | Café Kanela | Cafetería | 7 | 7 | 1 | 0 |
@@ -75,8 +74,7 @@ _Fecha: 2026-11-06 · Fuente: Doc regenerado_
 
 ## 6. Mucho ruido
 
-| name | cat | dishes | review | rejected |
-|---|---|---|---|---|
+Sin lugares con mucho ruido.
 
 ## 7. Sin ningún dato
 

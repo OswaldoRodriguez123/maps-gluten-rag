@@ -213,17 +213,373 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.barelbajo.cl/
 - **Menciona en reseñas:** ceviche, poke, churro
 - **Fecha de registro:** 2025-10-05
+- **Dietético:** 5 platos sin gluten, 8 veganos, 3 sin lactosa
 
 ### Qué vende
 
-- Box Party
+- Cervezas
+- Jack Daniel's Drinks
+- Cócteles de la casa
+- Red Bull Drinks
+- Cócteles clásicos
+- Spritz
+- Mocktails
+- Destilados y licores
+- Sour
+- Vinos y Espumantes
+- Jarras y Copas
+- Aguas, jugos y bebidas
+- Cafetería
+- Para Comenzar
+- Sánguches
+- Ensaladas
+- Platos de Fondo
+- Pizzas
+- Nikkei
+- Para niños y niñas
+- Postres
+- Promociones
+- Botellas
 
 
 ### Carta
 
-#### Box Party
+#### Cervezas
 
-- Box Party con tu bebida de autor favorita — $11.500
+- Schop Royal Guard - 350 cc — $4.500
+- Schop Royal Guard - 500 cc — $5.500
+- Schop Patagonia Hoppy Lager - 350 cc — $4.500
+- Schop Patagonia Hoppy Lager - 500 cc — $5.800
+- Schop Kunstmann Torobayo - 350 cc — $4.500
+- Schop Kunstmann Torobayo - 500 cc — $5.900
+- Schop Austral Calafate - 350 cc — $4.500
+- Schop Austral Calafate - 500 cc — $5.900
+- Schop Torres del Paine - 350 cc — $4.500
+- Schop Torres del Paine - 500 cc — $5.900
+- Schop Peroni Lager — $5.800
+- Schop Cerros de Chena, Portezuelo Amber Ale — $6.200
+- Extra Sangrita — $1.200
+- Extra Michelado/Chelado — $1.000
+- Austral Patagonia — $4.900
+- Kunstmann Bock — $4.900
+- Royal Guard — $3.800
+- Kunstmann Lager — $4.900
+- Mahou Cinco Estrellas — $4.900
+- Schop Heineken - 350 cc — $4.500
+- Schop Heineken - 500 cc — $5.500
+- Kunstmann Lager Sin Filtrar — $4.900
+- Dolbek Maqui — $6.200
+- Heineken 0.0 (Sin Alcohol) — $3.600
+- Mahou (Sin Gluten) — $6.200 [sin gluten]
+- Estrella de Galicia (Sin Gluten) — $5.200 [sin gluten]
+- Schop Tamango Cortacorriente Hazy IPA
+- Austral Lager — $4.900
+- Austral Calafate — $4.900
+- Austral Torres del Paine — $6.600
+- Heineken — $3.800
+- Dolbek Lager — $6.200
+- Cerveza Momentum Stout LOA — $6.200
+- Cerveza Entrenubes Pale Lager — $6.000
+
+#### Jack Daniel's Drinks
+
+- Tennessee Mule — $8.500
+- Jack On Fire — $6.900
+- Honey Lemonade — $6.900
+- Apple Breeze — $6.900
+
+#### Cócteles de la casa
+
+- Fruto Prohibido — $8.000
+- Frank Sinatra — $8.000
+- Lola-Lola — $8.000
+- Nota de Jazz — $8.000
+- Spiced IPA — $8.000
+- Huesillo Pisco Punch — $8.000
+- Cama de Rosas — $8.000
+- Mora Mora — $8.000
+- Chirimoya Alegre — $8.000
+- Espresso María — $8.000
+
+#### Red Bull Drinks
+
+- Tropical Gin — $9.400
+- Pisco Red Bull — $7.100
+- 2 cortos de pisco + 1 bebida + Red Bull — $12.500
+
+#### Cócteles clásicos
+
+- Mojito — $6.400
+- Tequila Margarita — $6.400
+- Pink Paloma — $7.800
+- Negroni — $6.800
+- Piña Colada — $6.300
+- Bloody Mary — $6.800
+- Moscow Mule — $8.200
+- London Mule — $8.400
+- Daiquiri — $6.800
+- Campari — $6.300
+- Ruso Blanco — $6.300
+- Chilcano — $6.300
+- Kir Royal — $5.000
+- Old Fashioned — $5.900
+- Clavo Oxidado — $6.500
+- Pichuncho — $5.200
+- Caipirinha — $6.000
+- Martini Dry — $7.100
+- Espresso Martini — $7.800
+- Carajillo — $6.500
+- Manhattan — $6.300
+- Tom Collins — $6.200
+- Caipiroska — $6.000
+- Ruso Negro — $6.300
+
+#### Spritz
+
+- Spritz El Bajo — $7.900
+- Aperol Spritz — $6.600
+- Ramazzotti Spritz — $6.600
+- Flor del Sauco Spritz — $6.400
+- Chambord Spritz — $6.900
+- Campari Spritz — $6.600
+- Limoncello Spritz — $7.700
+
+#### Mocktails
+
+- Santa Ana (Sin Alcohol) — $4.300
+- Brotherhood (Sin Alcohol) — $5.400
+- Jamaica Sunset (Sin Alcohol) — $5.800
+- La Michelle (Sin Alcohol) — $3.900
+- Cucurrucucú Paloma (Sin Alcohol) — $5.200
+- Basil Royal (Sin Alcohol) — $4.900
+- La Santa (Sin Alcohol) — $4.500
+- Mojito Sin Alcohol — $5.100
+
+#### Destilados y licores
+
+- Gin - Hendrick's (Flora - Clásico) — $8.900
+- Gin - La República (Andina - Amazónica) — $6.700
+- Gin - Bulldog — $7.800
+- Vodka - Grey Goose — $8.500
+- Vodka - Stolichnaya — $5.800
+- Vodka - Stolichnaya Elit — $9.200
+- Vodka - Sky Sabores (Strawberry - Cherry - Pineapple - Raspberry) — $6.100
+- Tequila (Shot) - Herradura Añejo — $5.700
+- Tequila (Shot) - Herradura Reposado — $6.100
+- Tequila (Shot) - El Jimador Reposado — $4.800
+- Mezcal (Shot) - Se Busca (Mezcal Joven - shot) — $9.500
+- Mezcal (Shot) - Cabaret (Mezcal, Aperol, cítricos y un toque de tónica) — $11.000
+- Ron - Flor de Caña 5 años (Añejo clásico) — $5.500
+- Ron - Flor de Caña 7 años (Gran reserva) — $6.100
+- Ron - Flor de Caña 12 años — $8.100
+- Ron - Flor de Caña 18 años — $11.800
+- Ron - Diplomático Mantuano — $7.700
+- Ron - Diplomático Reserva Exclusiva — $12.300
+- Jager - Jägermeister (Shot) — $4.600
+- Jager - Jägermeister + Bebida — $5.700
+- Jager - Jägermeister Manifest (Shot) — $5.200
+- Pisco - Alto del Carmen 35o — $4.900
+- Pisco - Alto del Carmen 40o (Transparente) — $6.100
+- Pisco - Mistral 35o — $5.000
+- Pisco - El Gobernador 40o — $6.700
+- Pisco - Republicano (Triple destilado) — $5.900
+- Pisco - Republicano (Añejo) — $5.900
+- Fernet - Fernet Branca — $5.700
+- Fernet - Fernet Branca Menta — $5.700
+- Tennessee Whisky - Jack Daniel's Old No7 — $7.400
+- Tennessee Whisky - Jack Daniel's Honey — $7.400
+- Tennessee Whisky - Jack Daniel's Apple — $7.400
+- Tennessee Whisky - Jack Daniel's Fire — $7.400
+- Tennessee Whisky - Jack Daniel's Single Barrel — $10.900
+- Tennessee Whisky - Jack Daniel's Gentleman Jack — $9.300
+- Tennessee Whisky - Jack Daniel's Fire (Shot) — $5.200
+- Single Malt Scotch - Glenfiddich 12 años — $9.800
+- Single Malt Scotch - Glenfiddich 15 años — $24.000
+- Single Malt Scotch - Glenfiddich 18 años — $32.000
+- Scotch Whisky - Grant's Triple Wood — $5.700
+- Scotch Whisky - Grant's 12 años — $5.200
+- Scotch Whisky - Monkey Shoulder — $8.300
+- Irish — $7.100
+- Bourbon — $8.900
+- Vermut - Limache Viejo (Rojo - Blanco - Dry) — $5.100
+- Vermut - De la casa — $5.300
+- Vermut - Cinzano 1757 — $5.800
+- Licores - Frangelico — $5.600
+- Licores - Disaronno — $5.400
+- Licores - Licor 43 — $5.400
+- Licores - Carolans Irish Cream — $5.700
+- Licores - Campari — $5.900
+- Licores - Degollador (Licor de Ají) — $6.400
+
+#### Sour
+
+- Pisco Sour Nacional - Tradicional — $4.500
+- Pisco Sour Nacional - Catedral — $7.300
+- Pisco Sour Peruano - Tradicional — $6.100
+- Pisco Sour Peruano - Catedral — $9.500
+- Whisky sour — $5.900
+- Amaretto Sour — $6.400
+- Chardonnay Sour — $4.700
+- Pisco Sour de huesillo — $4.500
+
+#### Vinos y Espumantes
+
+- Cabernet Sauvignon - Caliterra Reserva (Colchagua) — $14.400
+- Cabernet Sauvignon - Errázuriz Max Reserva — $19.600
+- Carmenère - Caliterra Reserva (Colchagua) — $14.400
+- Carmenère - Errázuriz Max Reserva — $19.600
+- Pinot Noir — $24.700
+- Syrah — $14.400
+- Merlot — $19.600
+- Ensamblajes Tintos — $16.500
+- Chardonnay - Errázuriz Estate Reserva — $12.400
+- Chardonnay - Max Gran Reserva — $19.600
+- Sauvignon Blanc - Errázuriz Estate Reserva — $14.400
+- Sauvignon Blanc - Casa Marín San Antonio — $24.700
+- Espumantes nacionales - Undurraga Extra Brut — $16.000
+- Espumantes nacionales - Undurraga Brut — $11.800
+- Espumantes nacionales - Undurraga Brut Royal — $12.900
+- Espumantes importados - Riccadonna Chardonnay Brut — $22.700
+- Espumantes importados - Riccadonna Moscato Rosé — $22.700
+- Espumantes importados - Riccadonna Prosecco — $19.600
+- Espumantes importados - Cava Anna Codorniu Brut — $27.300
+- Espumantes importados - Cava Anna Codorniu Rosé — $28.800
+- Garnacha-Syrah — $22.990
+- Pinot Blanc — $16.990
+
+#### Jarras y Copas
+
+- Jarra de Sangría — $14.700
+- Copa Sangría — $5.100
+- Jarra de Borgoña — $14.200
+- Copa de Borgoña — $4.900
+- Errázuriz Max Reserva (Copa) — $4.700
+- Errázuriz Estate Reserva (Copa) — $4.100
+- Espumante Riccadonna (Copa) — $5.400
+- Casa Marín Cartagena (Copa) — $6.100
+
+#### Aguas, jugos y bebidas
+
+- Jugo del día — $3.200
+- Bebidas — $2.200
+- Fentimans Premium Mixers - Valencia Orange — $2.900
+- Fentimans Premium Mixers - Rose Lemonade — $2.900
+- Fentimans Premium Mixers - Ginger Beer — $2.900
+- Fentimans Premium Mixers - Premium Indian Tonic Water — $2.900
+- Fentimans Premium Mixers - Naturally Light Tonic Water — $2.900
+- Limonada - Clásica — $3.900
+- Limonada - Menta — $3.900
+- Limonada - Jengibre — $3.900
+- Agua mineral - Con gas — $2.200
+- Agua mineral - Sin gas — $2.200
+- Red Bull - Original — $3.400
+- Red Bull - Yellow — $3.400
+- Red Bull - Sugar Free — $3.400
+- Thomas Henry - Tonic Water — $3.200
+- Thomas Henry - Ginger Beer — $3.200
+- Thomas Henry - Cherry Blosom — $3.200
+- Thomas Henry - Pink Pomelo — $3.200
+- Thomas Henry - Botanical — $3.200
+- Thomas Henry - Dry — $3.200
+- Kombucha - Cedrón — $4.500
+- Kombucha - Jengibre — $4.500
+- Kombucha - Arándanos — $4.500
+
+#### Cafetería
+
+- Espresso, Machiatto y Americano — $2.300
+- Cortado, Capuccino y Latte — $2.400
+- Tetera — $2.300
+
+#### Para Comenzar
+
+- Papas bravas — $8.100 [sin lactosa, vegano]
+- Papas rejilla — $8.400 [sin lactosa, vegano]
+- Papas fritas con chili — $9.500 [vegano]
+- Crudo — $10.900 [sin gluten]
+- Ceviche clásico — $12.600
+- Ceviche bravo — $14.600
+- Pulpo al olivo — $12.600
+- Empanadas de queso — $6.600
+- Empanadas de mechada queso — $7.700
+- Camarones al ajillo — $10.900
+- Croquetas de jamón serrano — $7.900
+- Croquetas de hongos — $8.100
+- Tártaro de betarraga — $7.400 [vegano]
+
+#### Sánguches
+
+- Opción pan sin gluten (extra) — $1.000 [sin gluten]
+- Hamburguesa El Bajo — $11.200
+- Hamburguesa italiana — $10.600
+- Mechada italiana — $10.200
+- Pescado frito — $9.800
+- Hamburguesa La Diana — $11.200
+- Hamburguesa Vegetariana Luco — $8.800 [sin lactosa, vegano]
+- Hamburguesa La Jardín — $9.500 [vegano]
+- Mechada criolla — $9.500
+
+#### Ensaladas
+
+- Jamón serrano y mozarella — $9.600
+- Ensalada del GAM — $8.600
+- César pollo y camarón — $10.200
+
+#### Platos de Fondo
+
+- Plateada — $12.500
+- Filete de la casa — $13.200
+- Ñoquis al pesto — $9.800
+- Fideos Thai — $10.600
+- Salmón grillado — $11.500
+
+#### Pizzas
+
+- Masa Sin Gluten (Extra) — $1.000 [sin gluten]
+- Del bosque — $13.600 [vegano]
+- Vegetariana — $11.500 [vegano]
+- Zócalo — $10.900
+- Del mar — $13.200
+- Palta — $13.000
+- Pepperoni — $10.900
+- Porteña — $13.000
+
+#### Nikkei
+
+- Poke hawaiano — $9.800
+- Poke vegetariano — $9.200
+- Poke Nikkei — $10.300
+- Roll atún nikkei — $8.900
+- Roll salmón spicy — $8.900
+- Roll veggi — $8.200
+- Roll tanaka (Sin arroz) — $9.800
+- Tiradito de salmón — $10.200
+
+#### Para niños y niñas
+
+- Pollo a la plancha — $5.600
+- Hamburguesa — $5.600
+
+#### Postres
+
+- Churros — $5.200
+- Helado artesanal — $4.700
+- Volcán de chocolate — $5.200
+- Flan casero de coco — $5.900
+- Tres leches de mocca — $6.000
+
+#### Promociones
+
+- 2 Schop Hoppy — $11.000
+- 2 Schop Royal + Papas bravas — $18.000
+- Jarra de Sangría + Papas rejilla — $22.000
+- 2 Cócteles de la casa — $15.000
+
+#### Botellas
+
+- Alto del Carmen 750cc — $35.000
+- Fernet Branca 750cc — $45.000
+- Jack Daniel's 750cc — $55.000
 
 
 ## Bar Italia
