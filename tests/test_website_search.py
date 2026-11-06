@@ -45,6 +45,61 @@ class _FakeResponse:
         return False
 
 
+class _FakePage:
+    """Fake página Playwright para fetch_candidates/search_website (DDG HTML)."""
+
+    def __init__(self, entries=None, snippets=None, status=200, goto_exc=None):
+        self._entries = entries or []
+        self._snippets = snippets or []
+        self._status = status
+        self._goto_exc = goto_exc
+        self.goto_url = None
+
+    def goto(self, url, wait_until=None, timeout=None):
+        self.goto_url = url
+        assert "html.duckduckgo.com/html/" in url
+        assert "q=" in url
+        if self._goto_exc is not None:
+            raise self._goto_exc
+        page = self
+
+        class _Resp:
+            status = page._status
+
+        return _Resp()
+
+    def wait_for_selector(self, *args, **kwargs):
+        return None
+
+    def eval_on_selector_all(self, selector, expr):
+        if selector == "a.result__a":
+            return self._entries
+        if selector == "a.result__snippet":
+            return self._snippets
+        return []
+
+    def close(self):
+        pass
+
+
+_DDG_ENTRIES = [
+    {"href": "/l/?uddg=https%3A%2F%2Fbickacafe.cl%2F&rut=aaa", "text": "Bicka Café - Sitio Oficial"},
+    {"href": "/l/?uddg=https%3A%2F%2Fwww.tripadvisor.cl%2FRestaurant_Review-g1.html&rut=bbb", "text": "Bicka Café en Tripadvisor"},
+    {"href": "/l/?uddg=https%3A%2F%2Fwww.instagram.com%2Fbickacafe%2F&rut=ccc", "text": "Bicka Café en Instagram"},
+]
+_DDG_SNIPPETS = [
+    "Café sin gluten en Vitacura, Av. Luis Pasteur 6156.",
+    "Reviews y fotos de Bicka Café.",
+    "Síguenos en Instagram.",
+]
+
+
+def _fake_ddg_page(**kwargs):
+    kwargs.setdefault("entries", _DDG_ENTRIES)
+    kwargs.setdefault("snippets", _DDG_SNIPPETS)
+    return _FakePage(**kwargs)
+
+
 def _llm_response(payload: dict) -> _FakeResponse:
     body = {
         "candidates": [
@@ -80,19 +135,11 @@ def test_build_search_query_without_address():
 
 # --- 2. fetch_candidates ---
 
-def test_fetch_candidates_parses_duckduckgo_html(monkeypatch):
+def test_fetch_candidates_parses_duckduckgo_html():
     from maps_gluten import website_search
 
-    def fake_urlopen(request, timeout=None):
-        # Debe pedir al endpoint HTML de DuckDuckGo con el query.
-        url = request.full_url
-        assert "html.duckduckgo.com/html/" in url
-        assert "q=" in url
-        assert request.get_header("User-agent") is not None
-        return _FakeResponse(DDG_FIXTURE.encode("utf-8"))
-
-    monkeypatch.setattr("urllib.request.urlopen", fake_urlopen)
-    results = website_search.fetch_candidates("x")
+    page = _fake_ddg_page()
+    results = website_search.fetch_candidates("x", page=page)
     assert len(results) == 3
     assert [r["url"] for r in results] == [
         "https://bickacafe.cl/",
@@ -241,32 +288,18 @@ def test_search_website_returns_none_when_no_api_key(monkeypatch):
 
 # --- 6. search_website degradación 403 / 429 ---
 
-def test_search_website_degrades_on_block_and_429(monkeypatch):
+def test_search_website_degrades_on_block_and_429():
     from maps_gluten import website_search
 
-    def blocked(request, timeout=None):
-        raise urllib.error.HTTPError(
-            url=request.full_url, code=403, msg="Forbidden", hdrs=None, fp=None
-        )
+    # DDG responde 403 vía Playwright (status en response) -> blocked.
+    assert website_search.search_website(
+        "Café Bicka", "Vitacura", api_key="key", page=_FakePage(status=403)
+    ) == (None, 0.0, "blocked")
 
-    monkeypatch.setattr("urllib.request.urlopen", blocked)
-    assert website_search.search_website("Café Bicka", "Vitacura", api_key="key") == (
-        None,
-        0.0,
-        "blocked",
-    )
-
-    def quota(request, timeout=None):
-        raise urllib.error.HTTPError(
-            url=request.full_url, code=429, msg="Too Many Requests", hdrs=None, fp=None
-        )
-
-    monkeypatch.setattr("urllib.request.urlopen", quota)
-    assert website_search.search_website("Café Bicka", "Vitacura", api_key="key") == (
-        None,
-        0.0,
-        "quota",
-    )
+    # DDG responde 429 -> quota.
+    assert website_search.search_website(
+        "Café Bicka", "Vitacura", api_key="key", page=_FakePage(status=429)
+    ) == (None, 0.0, "quota")
 
 
 def test_search_website_end_to_end_accepts_strong_match(monkeypatch):
@@ -276,18 +309,17 @@ def test_search_website_end_to_end_accepts_strong_match(monkeypatch):
     calls = {"n": 0}
 
     def fake_urlopen(request, timeout=None):
+        # Solo Gemini usa urllib (DDG va por la página Playwright falsa).
         calls["n"] += 1
-        url = request.full_url
-        if "html.duckduckgo.com" in url:
-            return _FakeResponse(DDG_FIXTURE.encode("utf-8"))
+        assert "generativelanguage.googleapis.com" in request.full_url
         return _llm_response({"url": "https://bickacafe.cl/", "score": 0.91, "reason": "ok"})
 
     monkeypatch.setattr("urllib.request.urlopen", fake_urlopen)
     url, score, error = website_search.search_website(
-        "Café Bicka", "Av. Luis Pasteur 6156, Vitacura", api_key="key"
+        "Café Bicka", "Av. Luis Pasteur 6156, Vitacura", api_key="key", page=_fake_ddg_page()
     )
     assert (url, score, error) == ("https://bickacafe.cl/", 0.91, None)
-    assert calls["n"] == 2
+    assert calls["n"] == 1
 
 
 # --- 7. Task 2: integración en enrich_places (fallback search) ---
