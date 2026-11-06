@@ -320,5 +320,16 @@
     "website": null,
     "menu": null,
     "order": []
+  },
+  "0x9662c51ca8385715:0x5a6a9a345a8cab1a": {
+    "name": "La Comarca Celiaca",
+    "website": null,
+    "menu": null,
+    "order": [
+      {
+        "provider": "Uber Eats",
+        "url": "https://www.ubereats.com/cl/store/la-comarca-celiaca-santiago/DHKhrg-JXhSXnxGMhuMKMw"
+      }
+    ]
   }
 }
