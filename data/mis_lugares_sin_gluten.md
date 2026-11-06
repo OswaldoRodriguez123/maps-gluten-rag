@@ -1,6 +1,6 @@
 # Base de Datos: Locales Sin Gluten Guardados en Google Maps
 
-_Actualizado: 2026-11-06 · 110 lugares · Fuente: lista de Google Maps_
+_Actualizado: 2026-11-06 · 108 lugares · Fuente: lista de Google Maps_
 
 Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
@@ -2963,16 +2963,395 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Cafetería apta para perros
 - **Valoración:** 4.3 / 5
 - **Enlace:** https://www.google.com/maps?cid=14686612730928035070
+- **Web:** https://menu.fu.do/molinocafeteria
 - **Menciona en reseñas:** pollo, sándwich, quesadilla, cheesecake
 - **Fecha de registro:** 2025-10-04
+- **Dietético:** 8 platos sin gluten, 2 veganos
+
+### Carta
+
+- A la Segura!
+- Tostadas Hummus Tomate Cherry
+- Tostada Romesco
+- Tostadas Not Huevo
+- Tostadas Palta - No Huevo
+- Tostadas huevo
+- Tostadas Palta Huevo
+- Ciabatta Caprese
+- Tofu Mayo en pan molde de cúrcuma
+- Le Bestial
+- Ciabatta Italiano
+- Completo Italiano
+- ciabatta luco
+- Chocolate Caliente
+- Berry Latte
+- Syrup
+- Flor de Hibisco ice latte
+- Ice Cinnamon Coffee
+- Caramel Ice
+- Brisa Tonic
+- Jamaica Ice Glitter
+- Purple Chai
+- Ice Matcha Lavanda
+- Espresso
+- Espresso Doble.
+- Americano
+- Americano XL
+- Americano frio
+- Cappuccino
+- Latte molino
+- vaso levar
+- Moccacino
+- cafe higo
+- summer coffee
+- cortado molino
+- Matcha latte Molino
+- delicious summer
+- Te infusión
+- Chai latte
+- Matcha Latte
+- Matcha Latte frío
+- Chai
+- Infusión Tetera
+- Limonada Variedades
+- Jugo de Maracuyà
+- Jugos naturales
+- Smoothie Molino
+- limonada flor de hibisco
+- Cheesecake de oreo sin gluten vegano [sin gluten, vegano]
+- Brownie Gluten Free [sin gluten]
+- tartaleta de frambuesa
+- Kuchen de frutilla
+- Pie
+- Torta variedades
+- selva negra sin gluten [sin gluten]
+- tres leches sin gluten [sin gluten]
+- cheescake sin azúcar , sin gluten [sin azúcar, sin gluten]
+- torta panqueque sin gluten [sin gluten]
+- principe
+- Lunch Molino
+- Promo desayuno
+- Promo Completo Vegan [vegano]
+- Sopaipilla Pasada Sin Gluten [sin gluten]
+- pan sin gluten [sin gluten]
+- promo 1 solo para llevar
+- Ensalada Tofu
+- Ensalada Pollo.
+- Ensalada Keto
+- RedBull
+- Variedad de bebidas
+- agua vital pet
+- Agua Fentimals
+- latte ice molino
+- sana sana - colita de rana
+- cafe helado
+- Salsa Extra
+- Carga Café
+- salchi papas
+- promo 2 solo para llevar
+- Quesadilla Verduras
+- Quesadilla tofu
+- Vaso Chelado
+- Menú Diario
+- 4x4 desayuno
+- pollo
+- ensalada
+- sopa
+- sándwich
+- panqueque
+- tortilla
+- hummus
+- asado
+- churrasco
+- quesadilla
+- completo
+- torta
+- pastel
+- galleta
+- brownie
+- cheesecake
+
 
 ## Cafetería y Pastelería Fabiana
 - **Ubicación:** Abdón Cifuentes 160, 8370051 Santiago, Región Metropolitana
 - **Categoría:** Cafetería
 - **Valoración:** 4.8 / 5
 - **Enlace:** https://www.google.com/maps?cid=15614687588888270437
+- **Web:** https://toteat.shop/r/cl/Pasteleria-Fabiana/21150/checkin/menu
 - **Menciona en reseñas:** pino, torta, pastel
 - **Fecha de registro:** 2026-03-23
+- **Dietético:** 8 platos sin gluten, 8 veganos, 5 sin lactosa
+
+### Qué vende
+
+- Bollería y Chocolates
+- Confitería y frutos secos
+- Flores
+- Niños
+- Cheesecake, tarta y pie
+- Tortas
+- Café
+- Bebidas frías
+- Té
+- Jugos naturales
+- Sandwich
+- Helados
+- Botellas
+- Aguas
+- Vegano y sin lactosa
+- Sin gluten
+- Syrups y leches
+- Tartas y/o tortas enteras
+- Regalo / Packaging
+
+
+### Carta
+
+#### Bollería y Chocolates
+
+- Galletas de té mix (120g) — $3.890
+- Galleton New York  chips de chocolate (150 g) — $3.500
+- Naranjitas bañadas chocolate  S/A(100g) — $4.890 [sin azúcar]
+- Barra de chocolate oscura — $3.700 [sin gluten, sin lactosa, vegano]
+- Cocada — $700
+- Brownie tradicional — $3.490
+- Lemon cake — $3.490
+- Muffins chips de chocolate — $2.590
+- Rollito de canela vegano — $3.790 [vegano]
+- Media luna — $2.390
+- Pan de chocolate — $3.890
+- Alfajor maicena — $1.990
+- Merenguitos — $3.290
+- Brownie, helado y crema — $7.590
+- Macarrons ♥ — $5.590
+- Palmeritas — $3.100
+- Paleta conejto  pascua — $500 [sin lactosa, vegano]
+- Extra tónica — $690
+- Galleton NY red velvet — $3.690
+- Brownie vegano — $5.290 [vegano]
+- Trufas — $1.690
+- Cocada con chocolate — $1.290
+- Barra de chocolate blanca — $3.700
+- Barra chocolate de leche Sin Azúcar — $3.990 [sin azúcar]
+
+#### Confitería y frutos secos
+
+- Guaguitas — $2.190
+
+#### Flores
+
+- Ramo L — $15.000
+- Ramo flores Secas — $13.000
+- Flor unidad — $4.000
+
+#### Niños
+
+- Chocolate caliente (menú niños) — $4.890
+- Leche de frutilla — $4.200
+
+#### Cheesecake, tarta y pie
+
+- Cheesecake de pistacho — $5.390
+- Cheesecake de maracuyá — $5.390
+- Cheesecake de frutos rojos — $5.390
+- Pie de limón — $3.990
+- Pie de frambuesa — $3.990
+
+#### Tortas
+
+- Torta Amor — $4.990
+- Torta Pompadour — $4.990
+- Torta Panqueque naranja — $4.990
+- Torta Panqueque chocolate frambuesa — $4.990
+- Torta Carrot Cake — $5.490
+- Torta Red Velvet — $5.490
+- Torta Cuatro Leches — $4.990
+- Torta Matilda — $5.390
+- Torta Matilda Pistacho — $5.790
+- Torta panqueque pie de limon frambuesa — $4.990
+
+#### Café
+
+- Espresso — $2.800
+- Espresso doble — $3.200
+- Ristretto — $2.500
+- Lungo — $2.600
+- Americano — $2.900
+- Capuccino — $3.500
+- Capuccino doble — $4.200
+- Latte — $3.600
+- Macchiato doble — $3.500
+- Mocaccino — $3.900
+- Mocaccino blanco — $3.900
+- Chocolate caliente — $4.290
+- Latte XL — $4.400
+- Flat white — $3.700
+- Chai latte — $3.800
+- Matcha latte caliente — $3.800
+- Dirty chai — $4.100
+- Cortado — $3.400
+- Café helado — $4.990
+- Vaso/taza leche — $1.990
+- Americano tonic coconut — $4.900
+- Crema chantilly — $900
+- Carga extra café — $700
+- Caramel macchiato — $3.900
+- Extra leche — $890
+- Flat caramel — $4.490
+- Latte Vainilla — $4.290
+- Matcha vainilla latte — $4.990
+- Chai Latte Ginger — $4.400
+- Capuccino caramel — $4.190
+- Chocolate caliente doble — $7.990
+- Café filtrado del día — $2.500
+- Box Coffe Flowers — $11.990
+- Promo café filtrado del día + media luna — $4.590
+- Café en grano origen Brasil 250grs — $13.990
+- Café en grano origen Bolivia 250grs — $13.990
+- Pumpkin spice latte 🎃 — $5.390
+- Café en grano origen Colombia 250grs — $13.990
+
+#### Bebidas frías
+
+- Iced mocaccino — $4.200
+- Iced mocaccino blanco — $4.200
+- Iced Dirty Chai — $4.200
+- Iced Americano — $3.400
+- Iced Latte — $3.800
+- Iced Matcha latte — $4.200
+- Iced Chai latte — $3.900
+- Iced chocolate — $3.900
+- Iced chocolate blanco — $3.900
+- Orange coffee — $4.900
+- Ginger tonic espresso — $4.900
+- Iced matcha frambuesa  vainilla — $4.600
+- Espresso tonic — $4.900
+- Iced americano coconut — $3.990
+- Iced matcha coco — $4.790
+- Iced caramel macchiato — $4.590
+- Iced tea durazno — $3.490
+- Iced tea limon — $3.490
+- Iced tea frambuesa — $3.490
+- Iced Chai Latte Ginger — $4.100
+- Iced tea Durazno sin azúcar — $3.490 [sin azúcar]
+- Cold Brew Core — $3.990
+- Cold Brew Bloom — $3.990
+- Iced café filtrado del día — $3.290
+- Iced Pumpkin spice  🎃 — $5.390
+
+#### Té
+
+- Dammann Té Negro Intenso — $2.990
+- Damman Té Early Grey — $2.990
+- Dammann Infusión Rooibos Vainilla — $3.190
+- Damman Frutos rojos — $2.990
+- Té con leche — $3.490
+- Dammann Té Verde Menta — $2.990
+- Dammann Infusión de Manzanilla — $2.990
+- Dammann Rooibos Citrus — $3.190
+- Té Masala chai — $12.990
+- Té Canela naranja black tea — $12.990
+- Té Malva rosa sweet dreams — $12.990
+
+#### Jugos naturales
+
+- Jugo natural Frutilla — $4.190
+- Jugo natural Frambuesa — $4.190
+- Jugo natural Piña — $4.190
+- Jugo natural Mango — $4.190
+- Jugo natural Vibes tropical — $4.190
+- Jugo natural Berries up — $4.190
+- Jugo de naranja natural — $4.990
+- Jugo natural piña naranja — $4.990
+
+#### Sandwich
+
+- Miga jamón y queso — $4.600
+- Miga ave pimentón — $4.800
+
+#### Helados
+
+- Affogato — $4.990
+- Helado simple vainilla — $3.390
+
+#### Botellas
+
+- Jugo Manzana Rubén Aviles — $2.390
+- Jugo Maqui Rubén Aviles — $2.390
+- Jugo Cranberries Rubén Aviles — $2.390
+
+#### Aguas
+
+- Agua Soda 500 cc — $2.490
+- Agua purificada sin gas 500 cc — $2.490
+- Agua porvenir con gas — $2.300
+
+#### Vegano y sin lactosa
+
+- Kuchen de manzana vegano — $4.290 [sin lactosa, vegano]
+- Alfajor de oreo vegano — $790 [sin lactosa, vegano]
+
+#### Sin gluten
+
+- Chomps de frambuesas (140g) — $4.990 [sin gluten]
+- Tableta chocolate — $3.700 [sin gluten]
+- Galleta chocolate chips sin gluten y sin azúcar KETO — $3.390 [sin azúcar, sin gluten]
+- Galleta almendra/cranberries sin gluten y sin azúcar KETO — $3.390 [sin azúcar, sin gluten]
+- Cheesecake frutos rojos KETO — $5.890 [sin gluten]
+- Apple crumble KETO — $4.890 [sin gluten]
+- Tiramisú KETO — $5.890 [sin gluten]
+
+#### Syrups y leches
+
+- Leche entera — View product
+- Leche sin lactosa — View product [sin lactosa]
+- Leche vegetal soya — $699
+- Leche vegetal avena — $700
+- Leche vegetal almendra — $700
+- Syrup caramelo — $700
+- Syrup avellana — $700
+- Syrup vainilla — $700
+- Syrup tiramisú — $700
+- Syrup amareto — $700
+- Syrup avellana S/A — $800 [sin azúcar]
+- Syrup pumpkin spice — $700
+- Descafeinado — $490
+
+#### Tartas y/o tortas enteras
+
+- Kuchen entero — $25.000
+- Cheesecake completo (pistacho) — $39.000
+- Cheesecake completo (nutella) — $39.000
+- Cheesecake completo (frutos rojos) — $38.000
+- Pie de frambuesa completo — $29.500
+- Velas — $2.890
+- Pie Limón Completo — $29.500
+- Torta completa Carrot cake — $38.500
+- Torta completa Red velvet — $38.500
+- Torta completa Matilda — $38.500
+- Torta completa Panqueque pie de limón frambuesa — $35.000
+- Torta completa Panqueque naranja — $35.000
+- Torta completa Panqueque Naranja chocolate — $35.000
+- Torta completa Pompadour — $35.000
+- Torta completa Matilda Pistacho — $39.500
+- Torta completa Amor — $35.000
+- Torta completa Cuatro leches — $35.000
+- Tarta completa crumble de Frutos rojos Vegano — $32.000 [vegano]
+- Tarta completa de Manzana Vegano — $31.000 [vegano]
+- Cheesecake completo Maracuyá — $38.000
+- Cheesecake Completo Frutos rojos — $38.000
+- Cheesecake Completo Pistacho — $39.000
+- Cheesecake Completo Nutella — $39.000
+- Pastel Completo Tiramisú Keto — $39.000
+- Pastel Completo Carrot cake Keto — $39.000
+- Pastel Completo Chocolate manjar Keto — $39.000
+- Pastel Completo Red velvet Keto — $39.000
+
+#### Regalo / Packaging
+
+- Tarjetas de regalo / cumpleaños — $590
+- Tote Bag — $4.990
+
 
 ## Caffè Pascucci
 - **Ubicación:** Av. Apoquindo 2730, local 101, 7550212 Las Condes, Región Metropolitana
@@ -3964,9 +4343,54 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Centro comercial
 - **Valoración:** 5.0 / 5
 - **Enlace:** https://www.google.com/maps?cid=6688789933015104335
-- **Web:** https://wwww.casaroque.cl/
+- **Web:** https://casaroque.cl/
 - **Menciona en reseñas:** chocolate
 - **Fecha de registro:** 2026-10-28
+- **Dietético:** 9 platos sin gluten
+
+### Qué vende
+
+- Featured items
+- TABLETONES
+- CHOCOLATES
+- Home
+
+
+### Carta
+
+#### Featured items
+
+- Avellanas Crocantes con Chocolate de leche sin Azúcar 150 gr — $14.900 [sin azúcar, sin gluten]
+- Almendra Crocantes con Chocolate de Leche sin Azúcar 150 gr — $13.900 [sin azúcar]
+- Avellanas Crocantes con Chocolate bitter sin Azúcar 150 gr — $14.900 [sin azúcar, sin gluten]
+- Almendras Crocantes con Chocolate Bitter sin Azúcar 150 gr — $13.900 [sin azúcar, sin gluten]
+- Avellanas Crocantes con Chocolate de Leche sin Azúcar 300 gr — $26.500 [sin azúcar, sin gluten]
+- Calugas Casa Roque sin Azúcar (20 u) — $23.490 [sin azúcar]
+- Calugas Casa Roque sin Azúcar (10 u) — $13.990 [sin azúcar]
+- Barritas pistacho leche — $7.990 [sin azúcar, sin gluten]
+- Almendras Crocantes con Chocolate de Leche sin Azúcar 300 gr — $24.900 [sin azúcar]
+- Almendras Crocantes sin Azúcar 150 gr — $11.990 [sin azúcar]
+- Almendras Crocantes con Chocolate Bitter sin Azúcar 500 gr — $36.990 [sin azúcar, sin gluten]
+
+#### TABLETONES
+
+- Almendra Crocantes con Chocolate de Leche sin Azúcar 300 gr — $25.300 [sin azúcar]
+- Almendras Crocantes con Chocolate Bitter sin Azúcar 300 gr — $25.300 [sin azúcar, sin gluten]
+- Avellanas Crocantes con Chocolate bitter sin Azúcar 300 gr — $26.500 [sin azúcar, sin gluten]
+- Almendra Crocantes con Chocolate de Leche sin Azúcar 500 gr — $36.990 [sin azúcar]
+
+#### CHOCOLATES
+
+- Conejo chocolate bitter — $6.990
+- Conejo chocolate de leche — $6.990
+- Golden Dog — $8.990
+- Gallina chocolate bitter sin azúcar — $10.990 [sin azúcar, sin gluten]
+
+#### Home
+
+- Ilustración perro salchicha 21x30 — $24.990
+- Ilustración perro salchicha 21x30 — $27.990
+
 
 ## CASACIENCAFE
 - **Ubicación:** San Ignacio de Loyola 89, 8330197 Santiago, Región Metropolitana
@@ -4211,6 +4635,35 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.cokefoods.cl/
 - **Menciona en reseñas:** hamburguesa, pizza, panqueque, pastel
 - **Fecha de registro:** 2026-02-17
+
+### Qué vende
+
+- Panaderia
+- Pasteleria
+
+
+### Carta
+
+#### Panaderia
+
+- Keto pan molde mixto 650 GR — $8.900
+- Keto pan molde almendra 650 GR — $10.000
+- Keto pan bagel queso 200 gr unidad — $3.800
+
+#### Pasteleria
+
+- Keto donats rellenas unidad — $3.000 [sin azúcar]
+- Trozo brownie almendra — $5.000
+- Trozo brownie mani — $6.000
+- Keto cheesecake cafe avellana — $6.500 [sin azúcar]
+- Trozo brownie cheescake — $6.000
+- Keto queque harina coco 650 GR — $15.000
+- Keto carrot cake 750 GR — $17.000
+- keto cheesecake mango maracuya — $6.800
+- Trozo Kuchen de Caluga — $6.500 [sin azúcar]
+- Trozo Banoffee Lowcarb — $7.200 [sin azúcar]
+- Keto Queque de Chocolate — $17.000 [sin azúcar]
+
 
 ## COMERCIAL RAKKO
 - **Ubicación:** Av. Lo Espejo 01565, local 0233, 9120881 Santiago, 8060004 Lo Espejo, Región Metropolitana
@@ -5295,303 +5748,83 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Papas mechada queso — $7.500
 
 
-## Dulces aplv
-- **Ubicación:** Montenegro 1768, 7790123 Ñuñoa, Región Metropolitana
-- **Categoría:** Pastelería
-- **Valoración:** 4.6 / 5
-- **Enlace:** https://www.google.com/maps?cid=14124022735726777159
-- **Web:** https://dulcesaplv.com/
-- **Menciona en su web:** dulces
-- **Menciona en reseñas:** pastel, dulces
-- **Fecha de registro:** 2026-03-11
-- **Dietético:** 2 veganos, 17 sin lactosa
+## Goody's Gluten Free
+- **Ubicación:** Montenegro 391, 7790745 Ñuñoa, Región Metropolitana
+- **Enlace:** https://www.google.com/maps?cid=4439449572319619773
+- **Web:** https://www.goodys.cl/
+- **Fecha de registro:** 2026-11-06
+- **Dietético:** local 100% sin gluten
 
 ### Qué vende
 
-- Arma tu Box
-- Envio a Regiones
-- Untables
-- Nuevo
+- Especialidades Sin Gluten
+- Prepara tu Pizza individual Sin Gluten
+- Hamburguesas sin gluten
+- Postres Sin Gluten
+- Panaderia Especial Sin Gluten
+- Bebidas
+- Prepara tu pizza mediana sin gluten
 
 
 ### Carta
 
-#### Arma tu Box
+#### Especialidades Sin Gluten
 
-- Cinnamon
+- Sandwich de lomo de cerdo — $4.000
+- Sanchwich mozzarella — $6.600
+- Sandwich de huevo — $6.600
+- Sandwich 3 quesos — $8.000
 
-#### Envio a Regiones
+#### Prepara tu Pizza individual Sin Gluten
 
-- Tu Mezcla Lista Tienda — $9.490
+- Pizza mozzarella sin gluten — $13.500
+- Pizza vegetariana sin gluten — $13.500
+- Pizza queso de cabra sin gluten — $16.200
+- Pizza queso deslactosado sin gluten — $13.500
 
-#### Untables
+#### Hamburguesas sin gluten
 
-- Mantequilla Apta Tienda — $6.490
-- Manjar Apto 210 cc — $6.790
+- Hamburguesa de pollo — $12.500
+- Hamburguesa de vacuno — $12.500
+- Hamburguesa vacuno champiñon — $13.600
+- Hamburguesa doble — $16.300
+- Hamburguesa americana doble — $18.500
+- Hamburguesa al plato de vacuno o pollo — $11.000
+- Hamburguesa americana — $14.000
+- Hamburguesa doble al plato — $14.000
 
-#### Nuevo
+#### Postres Sin Gluten
 
-- Queso Tienda — $4.190
+- Brownie de chocolate gluten free — $3.500
+- Canelitas sin gluten - sin lacteos — $5.000
+- Alfajor cubierto de chocolate — $3.500
+- Galletas de arroz gluten free — $2.500
 
-#### Otros
+#### Panaderia Especial Sin Gluten
 
-- Pan de Completo Dilici — $5.990
-- Masa de Pizza Dilici — $3.990
-- Pan de Molde Dilici — $4.990
-- Bebidas — $1.300
-- Pimentón Dulce Carmencita — $5.990
-- Ramitas de Garbanzos Puri — $990
-- Baguetin Noir Dilici — $4.990
-- Bombas de Maní Sufles de Maíz — $850
-- Puffs Cereal Infantil de Arroz Frutilla Betarraga — $850
-- Agua de Arándano Coco Be Organics — $1.990
-- Oferta — $2.490
-- Baby Mum Mum Mango Kiwi — $3.890
-- Monster Cookie — $2.990
-- Compota Manzana Pera Ama — $1.190
-- Pan Ciabatta de 4 unidades — $2.490
-- Pack De pure de Frutas AMA — $10.990
-- Pan Hallulla Pre-Cocido — $3.590
-- Helados Aplv Frutilla bañado — $3.590 [sin lactosa]
-- Mantequilla Orasi con Soya Vegana — $2.190 [vegano]
-- Pan Baguette s/g Dilici — $5.190
-- Pan mini hallulla s/g Dilici — $5.690
-- Pastel Naranja — $5.590
-- Oferta Pan Dobladitas — $2.500
-- Pie de Maracuya — $4.290
-- Bombom Premium x 6 — $4.990
-- Masa de Empanadas — $5.390
-- Helado Aplv Frutilla — $2.990 [sin lactosa]
-- Helado Aplv Maracuya bañado — $3.590 [sin lactosa]
-- Pan Hamburgueza y Variedades Dilici — $5.190
-- Helados Aplv Maracuya — $2.990 [sin lactosa]
-- Helados Aplv Pie de Limón — $2.990 [sin lactosa]
-- Helados Aplv Frambuesa Bañado — $3.590 [sin lactosa]
-- Helados Aplv Frambuesa — $2.990 [sin lactosa]
-- Helados Aplv Chocolate — $2.990 [sin lactosa]
-- Mayonesa Vegana Ybarra — $5.290 [vegano]
-- Longanizas 250 gr. Artecarnes — $5.490
-- Mote con Huesillos — $5.990
-- Chilenito Merengue individual Patisserie — $1.990
-- Chilenito Manjar individual SG Patisserie — $1.850
-- Empolvado SG Patisserie — $1.850
-- Torta Hojarasca Manjar SG Violeta Patisserie — $5.990
-- Empanadas Pino SG Violeta Patisserie — $5.990
-- Cinnamon Dark
-- Baby Mum Mum Super Tropical — $3.890
-- Baby Mum Mum Frutilla — $3.890
-- Artecarnes — $2.590
-- Rapiditas Clásicas — $1.490
-- Queque xs Marmoleado — $5.190
-- Torta tres no leche — $5.590
-- Bocadito de Canela — $2.490
-- Caluga Aplv — $790 [sin lactosa]
-- Muffins Frambuesa — $2.690
-- Pastel Trufa — $5.590
-- Torta frasco Mateo — $6.390
-- Humus poroto negro cilantro — $5.290
-- Nativa 100 gr. Tika — $2.690
-- Crackers Tomate & Albahaca — $2.590
-- Pan Molde Aplv — $5.890 [sin lactosa]
-- Palitos de Ajo (Buen Panchito) — $7.500
-- Empanada Queso Aceituna — $8.320
-- Don Granola Keto – Premiun — $3.990
-- Don Granola 250 grs — $3.990
-- Don Granola 100 grs — $3.590
-- Don Granola 60 grs — $2.490
-- Juguete Colores — $9.990
-- Baby Visual 3-6 meses — $3.990
-- Baby Visual 1-3 meses — $3.990
-- Buen Panchito — $4.990
-- Empanada Queso Champiñon — $3.490
-- Pie de Limón Individual — $4.290
-- Delicias Damasco — $2.690
-- Brownie individual — $2.190
-- Trozo Torta Hojarasca — $4.990
-- Palmeritas — $3.990
-- Galleta Naranja — $4.590
-- Galleta New York — $3.190
-- Brookies — $1.990
-- Pastel Choco Naranja — $5.590
-- Prestigios — $2.790
-- Bombon Chocolate — $2.090
-- Pastel Choco Frambuesa — $5.590
-- Kuchen Frambuesa — $4.190
-- Pastel Minda — $5.590
-- Alfajor Manjar — $3.190
-- Queso Untable Tomate y Romero Cabrita Alegre — $4.990
-- Pinches Pequeños Vivi — $1.990
-- Tortilla de Trigo Tottus — $2.790
-- Quinoa Pop — $3.490
-- Almidón de Mandioca Ambrosia — $3.690
-- Semillas de Amaranto Ambrosia — $6.990
-- Cranberry Ambrosia — $6.490
-- Avena Instantánea Ambrosia — $4.190
-- Semilla Chia Ambrosia — $5.490
-- Polvos de Hornear Ambrosia — $2.990
-- Manchoc Frambuesa — $3.690
-- Harina de Avena Aplv — $5.990 [sin lactosa]
-- Quokka Foods — $1.590
-- Pimentón en Polvo Ahumado — $4.690
-- Gnocchi de Papa Tostani — $2.990
-- Salsa de Tomates Tostani — $3.290
-- Orasi Barista Avena 500ml — $2.990
-- Oferta Pan sin orilla vollkorn — $1.690
-- Azucar Terra Galicia — $3.590
-- Cabrita Alegre — $1.590
-- Empanada 2x Queso — $5.990
-- Bebida Vegetal Maut — $2.990
-- Tejidos Vivi — $3.990
-- Torta en Frasco Jess — $6.390
-- Manchoc Manjar — $3.690
-- Gansito — $3.690
-- Frasco Bombom Mix — $5.290
-- Pastel Brownie Frambuesa — $2.990
-- Pastel Brownie Manjar — $3.990
-- Guacamole Molitos — $4.590
-- Pan Lumae — $3.290
-- Comino Apto — $2.590
-- Tortilla Tottus — $2.790
-- Maicena 200 grs — $1.490
-- Quebraditas de Quinoa — $4.790
-- Bombones Trufa — $2.090
-- Trozo de queque Limón Arándano Amapola — $2.190
-- Cocadas — $1.990
-- Scones de queso — $2.190
-- Pingüino queque — $3.090
-- Box Bocado — $9.690
-- Galletas Pepitas — $4.390
-- Galletas Choco Kiss — $5.790
-- Galletas kukys — $4.690
-- Barquillos 3 Unidad — $3.290
-- Alfajor Chocolate — $3.190
-- Galletas Biscuit x 24 — $7.990
-- Mulatita — $3.390
-- Carrot Cake — $2.890
-- Galletas Biscuit x 12 — $4.290
-- Pan Hamburguesas — $3.590
-- Alfajor Dúo Chocolate/Frambuesa — $3.190
-- Pan Ciabatta Aplv — $3.590 [sin lactosa]
-- Canasta de Galletas — $8.490
-- Bomfrachoc — $6.490
-- Medialuna — $2.690
-- Calzones Rotos (8 unidad) — $6.990
-- Sopaipillas — $4.990
-- Empanada de Queso (3 unidades) — $8.320
-- Empanadas de Pino Aplv — $4.690 [sin lactosa]
-- Bolsa — $200
-- Ketchup Heinz 620grs — $3.990
-- Miel Mundo Miel — $4.990
-- Pan Dobladita Aplv — $3.590 [sin lactosa]
-- Oferta 29 y 30/10 Pan Precocido Hallulla — $1.990
-- Panko Real Thai 200 grs — $4.490
-- Azucar de Coco — $2.990
-- Coco Rallado 150 grs — $3.150
-- Bocaditos de Canela — $1
-- Mix Galletas Seleccion — $8.490
-- Productos Ambrosia — $3.490
-- Productos Tasty — $5.890
-- Chocolate Chips Chocono — $7.690
-- Panela — $3.490
-- Pan Dulces Aplv [sin lactosa]
-- Nusco — $6.490
-- St Dalfour — $4.990
-- Nucete 220 grs — $2.390
-- Nakd Barra — $1.790
-- Haribo — $1.890
-- Ricola — $1.690
-- Gullon — $1.690
-- Huggies Toalla Húmeda — $1.690
-- Manare — $990
-- Real Thai Papel de Arroz — $3.190
-- Niboo — $3.490
-- Agua Benedictino Con Gas — $1.000
-- Agua Benedictino Sin Gas — $1.000
-- Wild Protein — $1.590
-- Granolin Barra Keto — $1.490
-- Grana — $1.390
-- Sembra Sol — $1.390
-- Huasco — $9.990
-- Fini — $1.290
-- Gomitas Danessa 250 grs — $3.290
-- Granola 30 grs — $1.090
-- Tribu — $390
-- Cosecha Justa — $2.990
-- Don Granola Cereales 30 grs — $1.190
-- Productos Puri — $990
-- Dulce De Membrillo Perello 500 grs — $2.090
-- Atama Fruta Crujiente — $1.790
-- Productos Ama — $1.190
-- Levadura Collico 10 grs — $290
-- Dulce De Membrillo Perello 250 grs — $1.190
-- Super Snack — $990
-- ViviCosi Bebida de Arroz — $2.990
-- Orasi Barista de Almendra — $4.390
-- Productos Be Organics — $1.990
-- Productos Natures Charm — $4.690
-- Tika — $1.090
-- Bolsa Totebag — $6.990
-- Crema Chantilly Dulces Aplv — $6.990 [sin lactosa]
-- Productos Manada — $2.590
-- Bolsa Papel — $200
-- Masa Pre Pizza — $2.990
-- Productos Dos Santos — $6.190
-- Orégano Orgánico 85grs — $5.990
-- Productos Quilvo — $2.990
-- Pan Vollkorn — $3.990
-- Queso Crema — $4.990
-- Papas Flip — $3.290
-- Compota Fruta Watts — $890
-- Pizza — $7.990
-- Bigu Rollos unidad — $990
-- Caja Chocono — $6.590
-- Bigu Caja Rollos de Fruta — $4.490
-- Jugo Bless — $1.490
-- Baby Mum-Mum — $3.890
-- Esencia de Vainilla — $2.500
-- Rollo Pizza — $2.790
-- Barra Chocolate Chocono 80grs — $5.690
-- Cacao 200 grs Tienda — $4.990
-- Bebidas 360CC Tienda — $1.300
-- Cookids Galletas Infantiles Frutilla 30 gr — $950
-- Baby Mum Mum Manzana Calabaza 21 gr — $1.790
-- Baby Mum Mum Rice Puff Snack Manzana Plátano 10 gr — $990
-- Cereal Garbanzo Arándano 60 gr — $2.490
-- Orasi Barista Cappuccino 500 ml — $2.990
-- Barquillos 5 un — $3.690
-- Helados Aplv Chocolate Bañado — $3.590 [sin lactosa]
-- Huesillos deshidratados 250 gr — $3.490
-- Baby Mum Mum Super Bayas 21 gr — $1.790
-- Bocanboca Chips 50 gr — $2.390
-- Bocanboca Chips 120 gr — $3.590
-- Oferta Pan de Completo Lumae congelado — $2.500
-- Galleta New York Chocolate — $3.190
-- Pastel Milhojas Pastelera Chocolate — $5.590
-- canasta sopaipillas x 5 — $4.990
-- Oferta Longanizas y Butifarra de 250 gr — $3.990
-- Jugo Arándanos 300 ml — $4.990
-- Mostaza Maille Dijon 215 gr — $4.990
-- Pan Marraqueta Pre-Cocido 4 Un — $2.590
-- Real Thai 250 ml — $2.390
-- Miel San Lorenzo 1/2 kg — $4.990
-- Orasi Barista Avena 1 LT — $4.390
-- Cocadas s/g — $2.190
-- Alfajor Manjar S/M — $3.290
-- Queque Marmoleado xs — $5.190
-- Torta Jess s/g — $6.390
-- Torta Jess S/M — $6.390
-- Cake Petit Ch/M — $23.990
-- Medialuna S/M — $2.690
-- Manchoc S/m — $3.490
-- Galletas Biscuit de 12 s/m — $4.290
-- New York s/m — $2.990
-- Queque Marmoleado baño chocolate Xs — $5.190
-- Alfajor Frambuesa s/g — $3.190
-- Alfajor Manjar s/g — $3.190
-- Cinnamon s/m — $2.690
-- Rollo de Pizza s/m — $2.790
-- Love Co — $5.290
-- Focaccia XL — $5.990
+- Pan de hamburguesa sin gluten — $6.200
+- Pan de choripan sin gluten — $6.200
+- Masa de pizza mediana sin gluten — $9.000
+
+#### Bebidas
+
+- Fanta 350ml — $2.700
+- Coca-cola 350ml — $2.700
+- Coca-cola zero 350ml — $2.700
+- Limonada de coco — $6.500
+- Agua sin gas — $2.700
+- Agua con gas — $2.700
+- Milk shake de coco — $7.500
+- Limonada con hierbabuena — $6.500
+- Jugo de frutos rojos — $6.500
+- Limonada de frutos rojos — $6.500
+
+#### Prepara tu pizza mediana sin gluten
+
+- Pizza mediana con queso deslactosado — $18.900
+- Pizza mediana vegetariana sin gluten — $16.600
+- Pizza mediana mozzarella sin gluten — $18.900
+- Pizza mediana de queso de cabra — $22.000
 
 
 ## Dulces Rufiko
@@ -5864,126 +6097,33 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** pasta, pollo, carne, sándwich, waffle, panqueque, asado, mechada, pastel, galleta, brownie, chocolate, croissant, crepe, postre, dulces, jugo
 - **Menciona en reseñas:** torta, pastel, galleta, pie, chocolate, jugo
 - **Fecha de registro:** 2025-11-23
-- **Dietético:** 2 veganos
-
-### Qué vende
-
-- Café de Especialidad
-- Bebidas Frías
-- Malteadas
-- Jugos Naturales
-- Sin Café
-- Pastelería
-- Sin Azúcar
-- Waffles
-- Sandwich
-- Desayunos & Brunch
-- Bebidas Envasadas
-
 
 ### Carta
 
-#### Café de Especialidad
-
-- Espresso — $2.000
-- Lungo — $2.000
-- Ristretto — $2.000
-- Americano — $2.100
-- Macchiato — $2.200
-- Latte — $3.400
-- Cappuccino — $3.100
-- Flat White — $3.100
-- Mocaccino — $3.800
-- Dirty Chai Latte — $3.900
-- Coffee Cookie — $4.990
-
-#### Bebidas Frías
-
-- Cold Brew — $3.500
-- Affogato — $3.500
-- Jamaica Ice Tea — $4.200
-- Frappuccino Sabores — $4.400
-- Matcha Mango Ice — $4.200
-- Latte Ice — $3.400
-- Americano Ice — $2.600
-- Matcha Latte — $3.800
-- Espresso Tonic — $3.900
-- Affogato Cookie — $4.990
-
-#### Malteadas
-
-- Malteada Oreo — $4.990
-- Malteada Berries — $4.990
-- Malteada Nutella — $4.990
-- Malteada Choco Cookie — $4.990
-
-#### Jugos Naturales
-
-- Jugo de Piña — $3.500
-- Jugo de Mango — $3.500
-- Jugo de Frambuesa — $3.500
-- Jugo de Frutilla — $3.500
-
-#### Sin Café
-
-- Chocolate Caliente — $3.500
-- Chai Latte — $3.500
-- Tetera — $2.900
-- Chocolate Cookie — $5.990
-
-#### Pastelería
-
-- Canelé — $2.100
-- Tarta de Zanahoria — $2.600
-- Brownie — $2.500
-- Pie — $3.900
-- Cheesecake Berries — $4.200
-- Medialuna — $1.900
-- Medialuna Nutella — $2.500
-- Medialuna Manjar — $2.400
-- Queque de Limón — $2.000
-- Torta Choco/Manjar — $4.200
-- Galletónes — $1.600
-- Muffin vegano — $1.900 [vegano]
-- Brownie vegano — $1.900 [vegano]
-
-#### Sin Azúcar
-
-- Galletón Chips Sin Azúcar — $1.900 [sin azúcar]
-- Alfajor Sin Azúcar — $2.090 [sin azúcar]
-- Queque Marmelada Sin Azúcar — $2.090 [sin azúcar]
-- Queque de Naranja Sin Azúcar — $2.090 [sin azúcar]
-
-#### Waffles
-
-- Waffle Oreo Nutella — $6.490
-- Waffle Brownie Nutella — $6.490
-- Waffle Banana Split — $7.490
-
-#### Sandwich
-
-- Cachito Jamón Queso Gauda — $2.800
-- Cachito Jamón Queso Crema — $2.900
-- Croissant Jamón Queso — $4.200
-- Ciabatta Pesto — $4.800
-- Ciabatta Salame — $4.800
-
-#### Desayunos & Brunch
-
-- Paila de Huevos — $6.200
-- Paila Huevos Bacon — $7.500
-- Benedictinos Palta — $7.500
-- Tentaciones de la Reina — $8.900
-- Huevos Benedictinos — $8.900
-- Tostadas con Palta — $5.900
-- Tostadas Francesas — $7.900
-- Brunch para Compartir — $16.900
-
-#### Bebidas Envasadas
-
-- Coca Cola / Zero — $1.100 [sin azúcar]
-- Agua con o sin gas — $1.200
-- Vitamina Naranja — $2.700
+- Menú
+- Ver Menú
+- Café en nuestra viral taza de galleta
+- Sandwich Pollo Italiano
+- Waffle Oreo Nutella
+- Sandwich Mechada a lo Rustico
+- Croissant Pistacho
+- pasta
+- pollo
+- carne
+- sándwich
+- waffle
+- panqueque
+- asado
+- mechada
+- pastel
+- galleta
+- brownie
+- chocolate
+- croissant
+- crepe
+- postre
+- dulces
+- jugo
 
 
 ## Estró Santiago
@@ -6702,11 +6842,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - QUICHE — $15.900 [sin gluten, sin lactosa]
 
 
-## Glutón
-- **Ubicación:** Elisa Cole 33, 8330106 Santiago, Región Metropolitana
-- **Enlace:** https://www.google.com/maps?cid=16289677726148420106
-- **Fecha de registro:** 2025-10-02
-
 ## Goût Gluten Free
 - **Ubicación:** Alonso de Córdova 4098, 7658234 Vitacura, Región Metropolitana
 - **Categoría:** Cafetería
@@ -6819,8 +6954,113 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Restaurante de sushi
 - **Valoración:** 4.0 / 5
 - **Enlace:** https://www.google.com/maps?cid=9130392885456456126
+- **Web:** https://quierocomer.com/qr/guffsushi?carta=1
 - **Menciona en reseñas:** sushi, pino
 - **Fecha de registro:** 2026-05-04
+
+### Carta
+
+- GUFF 1
+- GUFF 2
+- GUFF 3
+- GUFF 4
+- GUFF 5
+- GUFF 6
+- Guff Piza
+- Sushi Donuts (6 un)
+- Sushi Donuts Tempura
+- Bastones de Pollo
+- Bastones de Camaron
+- Sashimi (6 cortes)
+- Bastoncitos de queso crema
+- Hosomaki Camaron
+- Hosomaki Salmon
+- Hosomaki Pollo
+- MANGO ROLL
+- ACEVICHADO ROLL
+- CEVICHE ROLL
+- TAKO ROLL
+- MAGURO EBI ROLL
+- FUTOMAKI GUFF
+- RED EBI ROLL
+- FUSION GREEN ROLL
+- FURIKAKE ROLL
+- BIG MC GUFF ROLL
+- tropical roll
+- SOPLE CHEESE ROLL
+- ROLL A LA CHILENA
+- CALIFORNIA EBI
+- CALIFORNIA SAKE
+- CALIFORNIA TORI
+- CALIFORNIA KINOKO
+- CALIFORNIA YASHI
+- CALIFORNIA KYUURI
+- EBI CHEESE
+- SAKE CHEESE
+- TORI CHEESE
+- HOT EBI
+- HOT SAKE
+- HOT TORI
+- HOT PEPI
+- HOT CHAMPI
+- HOT PALMI
+- EBI TEMPURA
+- SAKE ROLL
+- TORI ROLL
+- TORI CRISPY
+- EBI CRISPY
+- SAKEBI ROLL
+- SAKEBI ROLL CRISPY
+- Sakebi Sin Arroz
+- Avocado Tori
+- Cheese Sin Arroz
+- Kraken Tempura
+- GOHAN DE POLLO
+- GOHAN DE CAMARON
+- GOHAN DE SALMON
+- MIX DE GOHAN
+- GOHAN DE ATUN
+- GOHAN ATUN Y SALMON
+- GOHAN POLLO SPICY
+- AMERICAN GOHAN
+- GOHAN ACEVICHADO
+- KROSTY DE POLLO
+- KROSTY DE CAMARON
+- KROSTY DE SALMON
+- SAKEBI KROSTY
+- KRAKEN KROSTY
+- SMASH SALMON
+- Smash camarón
+- Burrito Guff Pollo
+- Burrito Guff Camaron
+- Burrito Guff Salmon
+- Burrito Guff Pulpo
+- Burrito Guff Atun
+- Burrito Guff Champi
+- HAND ROLL EBI
+- HAND ROLL SAKE
+- HAND ROLL TORI
+- CEVICHE DE CAMARON
+- CEVICHE DE SALMON
+- CEVICHE DE ATUN
+- CEVICHE GUFF DEL MAR
+- Arroz Chaufa Camaron
+- Arroz Chaufa Champiñon
+- Arroz Chaufa Pollo
+- Men Salteados Pollo
+- Men Salteados Camaron
+- RAMEN PANCETA
+- Pie Limon
+- tortas en vaso
+- Tartaleta del Dia
+- Panqueques Manjar
+- Bebida
+- Jugo natural
+- Agua con o sin gas
+- Capuccino
+- Cafe Americano
+- Chocolate Caliente
+
 
 ## Gusto's - Keto, health & gluten free
 - **Ubicación:** Av. Apoquindo 7110, 7571731 Las Condes, Región Metropolitana
@@ -6911,6 +7151,48 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=16668060962436238684
 - **Menciona en reseñas:** pino, alfajor, helado
 - **Fecha de registro:** 2026-02-12
+- **Dietético:** 2 platos sin gluten, 1 veganos
+
+### Qué vende
+
+- Featured items
+- Menú
+- Bebidas
+- Potes de Helados
+- Paletas
+
+
+### Carta
+
+#### Featured items
+
+- Snickers de (Chocolate con Maní) — $4.780
+- Vainilla Colágeno — $4.780
+- Yogurt Americano con swirl de Berries — $4.780
+- Pie de Limón — $4.780 [sin azúcar]
+- Alfajor — $4.200 [sin azúcar]
+- Cheesecake Frutos Rojos — $4.780
+
+#### Menú
+
+- Snickers — $2.400 [sin azúcar]
+- Barquillo (sin gluten/sin azúcar) — $1.190 [sin azúcar, sin gluten]
+- Barquillo vegano (sin gluten/con panela) — $1.190 [sin gluten, vegano]
+
+#### Bebidas
+
+- Café Colombiano 340gr (Molido) — $12.490
+- Café Colombiano 340gr (Grano) — $13.490
+
+#### Potes de Helados
+
+- Mango de Maracuyá al Agua — $4.780
+- Frutos del Bosque al agua — $4.780
+
+#### Paletas
+
+- Paleta para perros — $2.390
+
 
 ## Jardin de Gente
 - **Ubicación:** Grajales 2160, 8370171 Santiago, Región Metropolitana
@@ -6920,6 +7202,115 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.jardindegente.cl/
 - **Menciona en reseñas:** pastel, dulces, jugo
 - **Fecha de registro:** 2026-03-23
+- **Dietético:** 4 platos sin gluten, 3 veganos
+
+### Qué vende
+
+- Cafetería
+- Otras bebidas
+- Frío
+- Batidos proteicos
+- Mocktails
+- Desayuno
+- Pastelería
+- Almuerzo
+- Ensaladas
+- Sandwich
+
+
+### Carta
+
+#### Cafetería
+
+- ESPRESSO — $2.500
+- AMERICANO — $2.500
+- ESPRESSO DOBLE — $3.000
+- CAPPUCCINO — $3.000
+- LATTE — $3.200
+- FLAT WHITE — $3.500
+- CAPPUCCINO DOBLE — $3.700
+- MOCACCINO — $4.000
+- CHOCOLATE CALIENTE — $4.000
+- TÉ — $2.000
+- TÉ CON LECHE — $2.500
+
+#### Otras bebidas
+
+- VITAMINAS — $4.000
+- LIMONADAS — $3.700
+- JUGOS — $3.500
+- KOMBUCHA — $3.500
+- BEBIDAS — $2.500
+- AGUA MINERAL — $2.000
+- MILKSHAKE — $3.900
+
+#### Frío
+
+- AMERICANO FRÍO — $3.200
+- LATTE FRÍO — $3.400
+- AFFOGATO — $4.000
+- CAFÉ HELADO — $4.500
+
+#### Batidos proteicos
+
+- BATIDO — $5.900
+- ICED COFFEE MOKA PROTEICO — $5.900
+
+#### Mocktails
+
+- CERVEZA 0° — $3.000
+- MICHELADA 0° — $4.000
+- CHARDONNAY SOUR — $4.500
+- NAVEGADO — $4.500
+- BORGOÑA — $4.500
+- ESPRESSO TONIC — $4.000
+- ESPRESSO NARANJA — $4.500
+
+#### Desayuno
+
+- CHARLY — $5.000
+- MEDIALUNA — $2.000
+- MEDIALUNA CON MANJAR — $2.500
+- FABI CANTILO — $7.500
+- PAN DE CHOCOLATE — $2.500
+- SPINETTA — $9.000
+- ROLLO DE CANELA — $2.800
+- KUCHEN — $3.500
+
+#### Pastelería
+
+- TORTA TRILOGÍA DE CHOCOLATE — $4.000 [vegano]
+- BROWNIE — $2.500
+- PIE DE LIMÓN — $3.500 [sin gluten]
+- PASTA FRESCA — $7.900 [sin gluten]
+- TORTA TRES LECHES — $4.000 [sin gluten]
+- TORTA CHOCOLATÍSIMA — $4.500 [sin gluten]
+
+#### Almuerzo
+
+- MENÚ DEL DÍA — $4.900 [vegano]
+- EXTRA ENSALADA — $1.000
+- EXTRA TORTA — $2.000
+
+#### Ensaladas
+
+- PESCADO RABIOSO — $7.900
+- SERU GIRÁN — $7.900
+- CALAMARO — $7.900
+- SODA STEREO — $7.900
+
+#### Sandwich
+
+- MEDIALUNA JAMÓN - QUESO — $3.500
+- PRENSADO JAMÓN - QUESO — $4.500
+- TOSTADAS PALTA Ó HUEVO — $5.000
+- NAPOLITANO — $5.500
+- CAPRESSE — $5.500
+- VEGANO — $6.500 [vegano]
+- SALMÓN AHUMADO — $6.500
+- JAMÓN SERRANO — $6.500
+- MECHADA — $7.000
+
 
 ## Je Suis Raclette | MUT
 - **Ubicación:** Av. Apoquindo 2730, Piso -2, Local s-208-3, 7550179 Las Condes, Región Metropolitana
@@ -7061,6 +7452,49 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=11891469498904869641
 - **Menciona en reseñas:** pizza, sándwich
 - **Fecha de registro:** 2026-03-23
+- **Dietético:** 5 veganos
+
+### Qué vende
+
+- Combos
+- Menú
+- Postres
+- Bebidas
+
+
+### Carta
+
+#### Combos
+
+- Pakora — $6.500
+- Hamburguesa — $6.500
+
+#### Menú
+
+- Chorillana Vegana — $7.500 [vegano]
+- Salchipapa — $7.500 [vegano]
+- Papas Fritas Tamaño Mediano — $5.000
+- Papas Fritas Caja — $9.000
+- Ensalda Surtidas — $4.900
+- Completos — $4.500 [vegano]
+- Pizza Familiar — $12.000
+- Pizza Individual — $4.800
+- Fajitas — $4.800
+- Menu Del Dia — $6.500
+
+#### Postres
+
+- Alfajores Maicena — $3.000
+- Galletón — $2.000
+- Tortas en vaso — $4.200 [vegano]
+- Queques Vegano — $3.000 [vegano]
+
+#### Bebidas
+
+- Sprite Zero Azucar — $1.900 [sin azúcar]
+- Fanta Zero Azucar — $1.900
+- Agua Benedectino 500 ML Sin Gas — $1.500
+
 
 ## L'Arrabbiata Foodmarket
 - **Ubicación:** Manuel Montt 2559, Local 1 y 2, 7770418 Ñuñoa, Región Metropolitana
@@ -7722,7 +8156,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Tienda de alimentos naturales
 - **Valoración:** 5.0 / 5
 - **Enlace:** https://www.google.com/maps?cid=10615428993544095970
-- **Web:** http://www.librepunto.cl/
+- **Web:** https://librepunto.cl
 - **Menciona en su web:** pasta, galleta, chocolate, dulces
 - **Fecha de registro:** 2026-06-19
 
@@ -7813,6 +8247,95 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=3580479391265971856
 - **Menciona en reseñas:** torta, pastel, galleta, dulces
 - **Fecha de registro:** 2026-02-15
+- **Dietético:** 1 sin lactosa
+
+### Qué vende
+
+- Featured items
+- Save on Select Items
+- Cafeteria
+- Bebestibles
+- Panadería
+- Pasteleria
+- Sandwiches
+
+
+### Carta
+
+#### Featured items
+
+- Ciabatta jamón queso — $5.900
+- Cheesecake horneado New York — $6.500
+- Porción torta cuatro leches — $7.400
+- Baguette capresse — $10.500
+- Croissant jamón queso — $5.600
+- galleton coco limon relleno frambuesa sin azucar — $4.600 [sin azúcar]
+- Tostadas avocado — $6.400
+- Banoffee con azúcar — $5.500
+- Pie de limón con azúcar — $5.500
+- Galleta red velvet rellena — $4.100
+- Latte vainilla — $5.400
+- galleton chip chocolate sin azucar — $4.600 [sin azúcar]
+- Milhojas manjar nuez — $7.400
+- Galleta rellena manjar con azúcar — $4.100
+- Carrot cake con azúcar — $7.400
+- SIMPLY WAFFLE — $7.120
+
+#### Save on Select Items
+
+- Latte — $4.160
+
+#### Cafeteria
+
+- Cappuccino — $4.900
+- Mochaccino — $5.100
+- Latte Pumpkin — $5.400
+- Latte avellana — $5.400
+- Latte chocolate — $5.400
+- Flat white — $4.400
+- Latte canela — $5.400
+- Latte jengibre — $5.400
+- Extra leche sin lactosa — $600 [sin lactosa]
+- Hot chocolate — $6.500
+- Hot chocolate canela — $7.000
+- Americano — $3.900
+- Matcha latte — $5.200
+- Chai latte — $5.200
+- Noel christmas tea — $4.000
+- Red fruits tea — $4.000
+- Mint moca latte — $5.400
+- English breakfast tea — $4.000
+- Wonderland chai tea — $4.000
+
+#### Bebestibles
+
+- Coca cola sabor Original — $3.000
+- Coca cola Sin Azucar — $3.000 [sin azúcar]
+- Agua vital sin gas — $3.000
+- Agua vital con gas — $3.000
+- fanta — $3.000
+- sprite — $3.000
+
+#### Panadería
+
+- Barra de pan molde blanco masa madre — $4.900
+- Barra de pan molde integral masa madre — $5.100
+
+#### Pasteleria
+
+- Brownie — $4.300
+- tiramisú sin azucar — $8.400 [sin azúcar]
+- strawberry and chocolate waffles — $8.900
+- Porción torta chocolatosa — $7.400
+
+#### Sandwiches
+
+- mechada croisantt — $8.500
+- completo italiano — $4.500
+- sandwich mechada italiana + papas fritas — $14.900
+- sandwich italiano de la casa + papas fritas — $14.900
+- sandwich luco lighthouse + papas fritas — $14.900
+
 
 ## Lynn Café | Tostaduría y Cafetería de Café de Especialidad en Santiago
 - **Ubicación:** Arturo Prat 233, 8320000 Santiago, Región Metropolitana
@@ -8073,6 +8596,34 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** torta, pastel, galleta, brownie, tarta, postre, dulces
 - **Menciona en reseñas:** pastel, pie
 - **Fecha de registro:** 2025-11-23
+- **Dietético:** 2 platos sin gluten, 1 veganos
+
+### Carta
+
+- POSTRES
+- Postres
+- ¿Listo para disfrutar de nuestras deliciosas Galletas y Brownies?
+- Postres veganos y libres de gluten. [sin gluten, vegano]
+- VER POSTRES
+- Adaptamos nuestros postres: sin gluten, sin alergias y sin intolerancias. [sin gluten]
+- Tortas, Pies y Tartas
+- Tortas de Cumpleaños
+- Dulces y Porciones
+- Galletones
+- VER MÁS
+- Nutrición
+- Salud
+- ¿Buscas algo dulce y delicioso que se ajuste a tu
+- ¡Deleita tus sentidos con nuestra icónica Torta
+- ¿Quieres una torta deliciosa, personalizada y lib
+- torta
+- pastel
+- galleta
+- brownie
+- tarta
+- postre
+- dulces
+
 
 ## Mercadito sano y natural
 - **Ubicación:** Av. Consistorial 5791, local 20, 6420000 Peñalolén, Región Metropolitana
@@ -8217,18 +8768,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Cacao en polvo 100 % cacao marca ambrosia — $8.790 [sin gluten, sin lactosa, vegano]
 - Semilla de Calabaza Ambrosia 400 G — $8.390
 
-
-## Mercado Condell
-- **Ubicación:** Av condell 1368, Av. Italia 1371, 7501042 Santiago, Región Metropolitana
-- **Categoría:** Centro comercial
-- **Valoración:** 4.6 / 5
-- **Enlace:** https://www.google.com/maps?cid=5049780195722764837
-- **Fecha de registro:** 2026-04-21
-
-## Montenegro 391
-- **Ubicación:** Montenegro 391, 7790745 Ñuñoa, Región Metropolitana
-- **Enlace:** https://www.google.com/maps?cid=2591736801254275963
-- **Fecha de registro:** 2026-10-31
 
 ## Mr Foodie
 - **Ubicación:** Antonia López de Bello 743, Loc 266, 8420000 Recoleta, Región Metropolitana
@@ -8851,6 +9390,69 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.3 / 5
 - **Enlace:** https://www.google.com/maps?cid=9420130345546503463
 - **Fecha de registro:** 2026-11-06
+- **Dietético:** 16 platos sin gluten, 6 veganos, 2 sin lactosa
+
+### Qué vende
+
+- Featured items
+- Snacks
+- Torta en Trozos
+- Tortas Enteras
+- Pan Keto
+- Bebidas
+
+
+### Carta
+
+#### Featured items
+
+- Trozo Panqueque Frambuesa — $5.900 [sin gluten]
+- Cupcake de Zanahoria Sin Azúcar — $3.600 [sin azúcar]
+- Tiramisu — $5.800 [sin azúcar, sin gluten]
+- Trozo torta moka — $7.600 [sin azúcar, sin gluten]
+- Trozo panqueque manjar — $7.200 [sin azúcar, sin gluten]
+- Trozo de Tarta de Maracuyá y Crema. — $5.800 [sin gluten]
+- Snicker Vegano — $3.900 [vegano]
+- Choc Choc Manjar — $3.800
+- Rocas de Maní con chocolate — $3.600
+- Trozo de Pie de Limón — $6.200
+- Barra Energética sin Azúcar — $3.800 [sin azúcar, sin lactosa]
+
+#### Snacks
+
+- Cupcake Vegano — $2.900 [vegano]
+- Coco choc — $2.800 [sin azúcar, sin gluten]
+- Vegansito — $5.900 [vegano]
+- Brownie Vegano — $4.500 [sin gluten, vegano]
+- Choc Choc Frambuesa Keto — $3.800 [sin gluten]
+- Galleta Rellena de Manjar — $5.000 [sin gluten]
+- Muffin Vegano — $2.600 [vegano]
+- Chilenitos harina avena sin Azúcar — $5.200 [sin azúcar]
+- Bolones Veganos — $4.500 [sin lactosa, vegano]
+
+#### Torta en Trozos
+
+- Torta Zanahoria con Chocolate Blanco — $7.700
+- Trozo Carrot Cake con Baño chocolate — $3.400 [sin gluten]
+- Trozo de Tarta de Frambuesa y Crema — $5.800
+- Trozo Carrot Cake Sin Baño de chocolate — $3.050 [sin azúcar, sin gluten]
+
+#### Tortas Enteras
+
+- Carrot Cake entero Sin Baño — $15.500 [sin azúcar, sin gluten]
+- Torta panqueque manjar — $56.000 [sin azúcar, sin gluten]
+- Torta panqueque frambuesa — $56.000 [sin azúcar, sin gluten]
+- Torta Selva Negra 8 a 10 personas — $42.250 [sin gluten]
+
+#### Pan Keto
+
+- Pan Keto — $11.000 [sin gluten]
+
+#### Bebidas
+
+- Té Tradicional 350 ml — $1.800
+- Café Nescafé Tradicional 350 ml — $1.900
+
 
 ## Patagonia Schokoland
 - **Ubicación:** Av. Francisco Bilbao 2512, 7550170 Providencia, Región Metropolitana
@@ -9292,6 +9894,22 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Fecha de registro:** 2025-11-23
 - **Dietético:** local 100% sin gluten
 
+### Qué vende
+
+- Featured items
+
+
+### Carta
+
+#### Featured items
+
+- Pepperoni Clasica — $16.850
+- Pecadora — $16.650
+- Salamera — $16.450
+- Pizza Tocino — $15.500
+- Bipolar — $16.950
+
+
 ## Productos El Pueblo
 - **Ubicación:** Portugal 1566, 8360388 Santiago, Región Metropolitana
 - **Categoría:** Panadería
@@ -9708,8 +10326,103 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Pub
 - **Valoración:** 4.1 / 5
 - **Enlace:** https://www.google.com/maps?cid=16821697334277054677
+- **Web:** https://queresto.com/elrefugiopub
 - **Menciona en reseñas:** empanada
 - **Fecha de registro:** 2026-04-07
+
+### Carta
+
+- FALAFEL CASERAS
+- PULPO AL  PIL PIL
+- CHAMPIÑONES AL PIL PIL
+- CAMARONES AL PÍL PIL
+- NAPOLITANA
+- PEPERONI
+- MECHADA
+- PRESUMIDA
+- MUERDE Y CALLA
+- ESTA ME HACE LLORAR
+- MATA DIETA
+- RAPIDA Y FURIOSA
+- URBANA
+- ANTOJO
+- PAN CON PAN Y GANAMOS
+- SIN CULPA
+- EL PLACER
+- CONCENTIDA
+- QUESO
+- EMPANADA CAMARO QUESO
+- CHORRILLANA VEGETARIANA
+- PAPA CHAMPIÑON INDIVIDUAL
+- A LO CUATE  INDIVIDUAL
+- A LO CUATE  4 PERSONAS
+- CHORRILLANA A LO POBRE
+- CHORRILLANA POBRE  POLLO
+- QUESADILLAS DE POLLO
+- QUESADILLA DE CARNE
+- QUESADILLA VEGETARIANA
+- TACO CARNECITA
+- TACO DE POLLITO
+- KOMBUCHA  LA CELESTE
+- KOMBUCHA PNONBUCHA
+- KOMBUCHA KOBUSHOT
+- GINGER DE JEGIBRE CON KEFI
+- APEROL SPRITZ
+- BURBUJAS DE GIN SIN ALCOHOL
+- CAIPIRIÑA
+- CAIPIROSKA
+- DAIQUIRI SABORES
+- GIN TONIC
+- MOJITO CON Y SIN ALCOHOL
+- MOSCO MULE
+- PIÑA COLADA
+- PISCO SOUR CON Y SIN ALCOHOL
+- PISCO SOUR CATEDRAL
+- PISCOLA CON Y  SIN ALCOHOL
+- RAMAZZOTTI SPRITZ  CON Y SIN ALCOHOL
+- TEQUILA MARGARITA CON Y  SIN ALCOHOL
+- TINTO DE VERANO
+- TROPICAL GIN
+- SEXO EN LA PLAYA
+- PALOMA
+- FRESCO Y EXOTICO
+- COCTEL DURAZNO Y ARANDANO
+- CERVEZA MAHOU 5 ESTRELLAS 330CC
+- DAMM FREE 330 CC
+- CRISTAL SUAVE
+- ESTERLLA GALICIA ZERO
+- DAMM DAURA LEGER
+- ROYAL ZERO 330 CC
+- HEINEKEN ZERO
+- ESTELLA GALICIA ZERO
+- CERVEZA CRISTAL SIN ALCOHOL
+- ROYAL GARD 330 CC CON ALCOHOL
+- HEINEKEN CON ALCOHOL
+- CARIBE AMBAR
+- SUSMARINO
+- MONACO
+- JUGO FRUTILLAS
+- JUGO DE MARACUYA
+- JUGO DE MANGO
+- JUGO DE FRAMBUEZA
+- COCA COLA TRADICIONAL
+- COCA COLA SIN AZUCAR [sin azúcar]
+- FANTA
+- SPRITE
+- TONICA
+- pizza
+- tacos
+- empanada
+- pollo
+- carne
+- sándwich
+- tortilla
+- falafel
+- quesadilla
+- mechada
+- chorrillana
+- jugo
+
 
 ## Restaurant La Escalera
 - **Ubicación:** Andrés Bello 826, 1711004 La Serena, Coquimbo
@@ -9866,10 +10579,59 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Pastelería
 - **Valoración:** 4.9 / 5
 - **Enlace:** https://www.google.com/maps?cid=3220934147216855037
-- **Web:** http://www.saboresparaalegrar.cl/
 - **Menciona en su web:** pizza, empanada, pino, torta, galleta, chocolate, merengue, tiramisú, manjar, postre, dulces
 - **Menciona en reseñas:** pizza, empanada, pastel, dulces
 - **Fecha de registro:** 2025-11-14
+- **Dietético:** 9 sin lactosa
+
+### Qué vende
+
+- Pizza
+- Menú
+- Salados
+- Pastelería
+- Dulces
+
+
+### Carta
+
+#### Pizza
+
+- Vegetariana — $9.570 [sin lactosa]
+- Full Pepperoni — $11.200 [sin lactosa]
+- Arma tu Pizza — $7.700
+- Napolitana — $9.570 [sin lactosa]
+- Pepperoni — $10.700 [sin lactosa]
+- Cebolla — $10.700 [sin lactosa]
+- Pesto — $10.700 [sin lactosa]
+- Cuatro Quesos — $10.700 [sin lactosa]
+- Champironi — $11.200 [sin lactosa]
+- Todas las Carnes — $11.200 [sin lactosa]
+
+#### Menú
+
+- Sándwich — $6.800
+- Hamburguesa 3 — $7.800
+- Hamburguesa 4 — $7.800
+
+#### Salados
+
+- Empanada de Pino — $3.500
+- Empanada de Queso — $3.500
+- Lasagna — $6.500
+- Empanada Napolitana — $3.500
+- Pastel de Choclo — $8.000
+
+#### Pastelería
+
+- Trozo Chesecake — $4.500
+- Trozo Kuchen de Nuez — $4.500
+- Trío de Pastelería — $11.500
+
+#### Dulces
+
+- Palmeritas — $2.000
+
 
 ## Sapiens
 - **Ubicación:** Av. Italia 1206, 7501297 Santiago, Providencia, Región Metropolitana
@@ -10135,8 +10897,71 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Pastelería
 - **Valoración:** 4.7 / 5
 - **Enlace:** https://www.google.com/maps?cid=11172356543043553560
+- **Web:** https://www.pedidosya.cl/restaurantes/la-serena/simona-healthy-bakery-d95a308d-1645-42a1-bfb0-9e7cdae77c01-menu
 - **Menciona en reseñas:** torta, pastel, galleta, alfajor, tiramisú, dulces
 - **Fecha de registro:** 2025-11-23
+- **Dietético:** 30 platos sin gluten
+
+### Qué vende
+
+- Trozos
+- Tentaciones
+- Tartas individuales
+- Salados
+- Postres
+- Sandwich sin gluten
+
+
+### Carta
+
+#### Trozos
+
+- Trozo cheesecake frutos rojos — $4.000 [sin azúcar, sin gluten]
+- Trozo hojarasca — $5.000 [sin azúcar, sin gluten]
+- Trozo selva negra — $5.000 [sin azúcar, sin gluten]
+- Trozo tiramisú — $5.000 [sin azúcar, sin gluten]
+- Trozo trilogía — $5.000 [sin azúcar, sin gluten]
+- Trozo tres leches — $5.000 [sin azúcar, sin gluten]
+- Trozo torta BROWNIE — $5.000 [sin azúcar, sin gluten]
+- Trozo torta chocolate manjar — $5.000 [sin azúcar, sin gluten]
+- Trozo carrotcake — $5.000 [sin azúcar, sin gluten]
+- Trozo brownie ganache chocolate — $3.900 [sin azúcar, sin gluten]
+- Trozo brownie manjar — $3.900 [sin azúcar, sin gluten]
+- Trozo cheesecake manjar — $4.000 [sin azúcar, sin gluten]
+
+#### Tentaciones
+
+- Volkis — $2.000 [sin azúcar, sin gluten]
+- Empolvados XL — $2.000 [sin azúcar, sin gluten]
+- Alfajor brownie — $2.000 [sin azúcar, sin gluten]
+- Trufas 5 unidades — $3.900 [sin azúcar, sin gluten]
+- Morochas (10 unidades) — $3.900 [sin azúcar, sin gluten]
+- Muffin chip — $2.900 [sin azúcar, sin gluten]
+- Muffin brownie frambuesa — $2.900 [sin azúcar, sin gluten]
+- Muffin frambuesa — $2.900 [sin azúcar, sin gluten]
+- Muffin carrot — $2.900 [sin azúcar, sin gluten]
+- Prestigio — $2.000 [sin azúcar, sin gluten]
+- Cocadas 6 unidades — $3.900 [sin azúcar, sin gluten]
+
+#### Tartas individuales
+
+- Pie de limón individual — $5.500 [sin azúcar, sin gluten]
+- Banoffee platano individual — $5.500 [sin azúcar, sin gluten]
+
+#### Salados
+
+- Dobladitas pack 3 — $5.900 [sin azúcar, sin gluten]
+- Pan queso mozzarella (pack 10) — $7.500 [sin azúcar, sin gluten]
+
+#### Postres
+
+- Postre choco-manjar individual — $2.900 [sin gluten]
+- Postre frutilla manjar individ — $2.900 [sin azúcar, sin gluten]
+
+#### Sandwich sin gluten
+
+- Serrano keto sin gluten — $7.200 [sin gluten]
+
 
 ## Sin Culpa Market
 - **Ubicación:** Catedral 1676, 8340314 Santiago, Región Metropolitana
@@ -11442,3 +12267,302 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - TORTA 5 LECHES — $4.500
 - MOUSSE FRUTILLA — $4.500
+
+
+## Dulces aplv
+- **Ubicación:** Montenegro 1768, 7790123 Ñuñoa, Región Metropolitana
+- **Categoría:** Pastelería
+- **Valoración:** 4.6 / 5
+- **Enlace:** https://www.google.com/maps?cid=14124022735726777159
+- **Web:** https://dulcesaplv.com/
+- **Menciona en su web:** dulces
+- **Menciona en reseñas:** pastel, dulces
+- **Fecha de registro:** 2026-03-11
+- **Dietético:** 2 veganos, 17 sin lactosa
+
+### Qué vende
+
+- Arma tu Box
+- Envio a Regiones
+- Untables
+- Nuevo
+
+
+### Carta
+
+#### Arma tu Box
+
+- Cinnamon
+
+#### Envio a Regiones
+
+- Tu Mezcla Lista Tienda — $9.490
+
+#### Untables
+
+- Mantequilla Apta Tienda — $6.490
+- Manjar Apto 210 cc — $6.790
+
+#### Nuevo
+
+- Queso Tienda — $4.190
+
+#### Otros
+
+- Pan de Completo Dilici — $5.990
+- Masa de Pizza Dilici — $3.990
+- Pan de Molde Dilici — $4.990
+- Bebidas — $1.300
+- Pimentón Dulce Carmencita — $5.990
+- Ramitas de Garbanzos Puri — $990
+- Baguetin Noir Dilici — $4.990
+- Bombas de Maní Sufles de Maíz — $850
+- Puffs Cereal Infantil de Arroz Frutilla Betarraga — $850
+- Agua de Arándano Coco Be Organics — $1.990
+- Oferta — $2.490
+- Baby Mum Mum Mango Kiwi — $3.890
+- Monster Cookie — $2.990
+- Compota Manzana Pera Ama — $1.190
+- Pan Ciabatta de 4 unidades — $2.490
+- Pack De pure de Frutas AMA — $10.990
+- Pan Hallulla Pre-Cocido — $3.590
+- Helados Aplv Frutilla bañado — $3.590 [sin lactosa]
+- Mantequilla Orasi con Soya Vegana — $2.190 [vegano]
+- Pan Baguette s/g Dilici — $5.190
+- Pan mini hallulla s/g Dilici — $5.690
+- Pastel Naranja — $5.590
+- Oferta Pan Dobladitas — $2.500
+- Pie de Maracuya — $4.290
+- Bombom Premium x 6 — $4.990
+- Masa de Empanadas — $5.390
+- Helado Aplv Frutilla — $2.990 [sin lactosa]
+- Helado Aplv Maracuya bañado — $3.590 [sin lactosa]
+- Pan Hamburgueza y Variedades Dilici — $5.190
+- Helados Aplv Maracuya — $2.990 [sin lactosa]
+- Helados Aplv Pie de Limón — $2.990 [sin lactosa]
+- Helados Aplv Frambuesa Bañado — $3.590 [sin lactosa]
+- Helados Aplv Frambuesa — $2.990 [sin lactosa]
+- Helados Aplv Chocolate — $2.990 [sin lactosa]
+- Mayonesa Vegana Ybarra — $5.290 [vegano]
+- Longanizas 250 gr. Artecarnes — $5.490
+- Mote con Huesillos — $5.990
+- Chilenito Merengue individual Patisserie — $1.990
+- Chilenito Manjar individual SG Patisserie — $1.850
+- Empolvado SG Patisserie — $1.850
+- Torta Hojarasca Manjar SG Violeta Patisserie — $5.990
+- Empanadas Pino SG Violeta Patisserie — $5.990
+- Cinnamon Dark
+- Baby Mum Mum Super Tropical — $3.890
+- Baby Mum Mum Frutilla — $3.890
+- Artecarnes — $2.590
+- Rapiditas Clásicas — $1.490
+- Queque xs Marmoleado — $5.190
+- Torta tres no leche — $5.590
+- Bocadito de Canela — $2.490
+- Caluga Aplv — $790 [sin lactosa]
+- Muffins Frambuesa — $2.690
+- Pastel Trufa — $5.590
+- Torta frasco Mateo — $6.390
+- Humus poroto negro cilantro — $5.290
+- Nativa 100 gr. Tika — $2.690
+- Crackers Tomate & Albahaca — $2.590
+- Pan Molde Aplv — $5.890 [sin lactosa]
+- Palitos de Ajo (Buen Panchito) — $7.500
+- Empanada Queso Aceituna — $8.320
+- Don Granola Keto – Premiun — $3.990
+- Don Granola 250 grs — $3.990
+- Don Granola 100 grs — $3.590
+- Don Granola 60 grs — $2.490
+- Juguete Colores — $9.990
+- Baby Visual 3-6 meses — $3.990
+- Baby Visual 1-3 meses — $3.990
+- Buen Panchito — $4.990
+- Empanada Queso Champiñon — $3.490
+- Pie de Limón Individual — $4.290
+- Delicias Damasco — $2.690
+- Brownie individual — $2.190
+- Trozo Torta Hojarasca — $4.990
+- Palmeritas — $3.990
+- Galleta Naranja — $4.590
+- Galleta New York — $3.190
+- Brookies — $1.990
+- Pastel Choco Naranja — $5.590
+- Prestigios — $2.790
+- Bombon Chocolate — $2.090
+- Pastel Choco Frambuesa — $5.590
+- Kuchen Frambuesa — $4.190
+- Pastel Minda — $5.590
+- Alfajor Manjar — $3.190
+- Queso Untable Tomate y Romero Cabrita Alegre — $4.990
+- Pinches Pequeños Vivi — $1.990
+- Tortilla de Trigo Tottus — $2.790
+- Quinoa Pop — $3.490
+- Almidón de Mandioca Ambrosia — $3.690
+- Semillas de Amaranto Ambrosia — $6.990
+- Cranberry Ambrosia — $6.490
+- Avena Instantánea Ambrosia — $4.190
+- Semilla Chia Ambrosia — $5.490
+- Polvos de Hornear Ambrosia — $2.990
+- Manchoc Frambuesa — $3.690
+- Harina de Avena Aplv — $5.990 [sin lactosa]
+- Quokka Foods — $1.590
+- Pimentón en Polvo Ahumado — $4.690
+- Gnocchi de Papa Tostani — $2.990
+- Salsa de Tomates Tostani — $3.290
+- Orasi Barista Avena 500ml — $2.990
+- Oferta Pan sin orilla vollkorn — $1.690
+- Azucar Terra Galicia — $3.590
+- Cabrita Alegre — $1.590
+- Empanada 2x Queso — $5.990
+- Bebida Vegetal Maut — $2.990
+- Tejidos Vivi — $3.990
+- Torta en Frasco Jess — $6.390
+- Manchoc Manjar — $3.690
+- Gansito — $3.690
+- Frasco Bombom Mix — $5.290
+- Pastel Brownie Frambuesa — $2.990
+- Pastel Brownie Manjar — $3.990
+- Guacamole Molitos — $4.590
+- Pan Lumae — $3.290
+- Comino Apto — $2.590
+- Tortilla Tottus — $2.790
+- Maicena 200 grs — $1.490
+- Quebraditas de Quinoa — $4.790
+- Bombones Trufa — $2.090
+- Trozo de queque Limón Arándano Amapola — $2.190
+- Cocadas — $1.990
+- Scones de queso — $2.190
+- Pingüino queque — $3.090
+- Box Bocado — $9.690
+- Galletas Pepitas — $4.390
+- Galletas Choco Kiss — $5.790
+- Galletas kukys — $4.690
+- Barquillos 3 Unidad — $3.290
+- Alfajor Chocolate — $3.190
+- Galletas Biscuit x 24 — $7.990
+- Mulatita — $3.390
+- Carrot Cake — $2.890
+- Galletas Biscuit x 12 — $4.290
+- Pan Hamburguesas — $3.590
+- Alfajor Dúo Chocolate/Frambuesa — $3.190
+- Pan Ciabatta Aplv — $3.590 [sin lactosa]
+- Canasta de Galletas — $8.490
+- Bomfrachoc — $6.490
+- Medialuna — $2.690
+- Calzones Rotos (8 unidad) — $6.990
+- Sopaipillas — $4.990
+- Empanada de Queso (3 unidades) — $8.320
+- Empanadas de Pino Aplv — $4.690 [sin lactosa]
+- Bolsa — $200
+- Ketchup Heinz 620grs — $3.990
+- Miel Mundo Miel — $4.990
+- Pan Dobladita Aplv — $3.590 [sin lactosa]
+- Oferta 29 y 30/10 Pan Precocido Hallulla — $1.990
+- Panko Real Thai 200 grs — $4.490
+- Azucar de Coco — $2.990
+- Coco Rallado 150 grs — $3.150
+- Bocaditos de Canela — $1
+- Mix Galletas Seleccion — $8.490
+- Productos Ambrosia — $3.490
+- Productos Tasty — $5.890
+- Chocolate Chips Chocono — $7.690
+- Panela — $3.490
+- Pan Dulces Aplv [sin lactosa]
+- Nusco — $6.490
+- St Dalfour — $4.990
+- Nucete 220 grs — $2.390
+- Nakd Barra — $1.790
+- Haribo — $1.890
+- Ricola — $1.690
+- Gullon — $1.690
+- Huggies Toalla Húmeda — $1.690
+- Manare — $990
+- Real Thai Papel de Arroz — $3.190
+- Niboo — $3.490
+- Agua Benedictino Con Gas — $1.000
+- Agua Benedictino Sin Gas — $1.000
+- Wild Protein — $1.590
+- Granolin Barra Keto — $1.490
+- Grana — $1.390
+- Sembra Sol — $1.390
+- Huasco — $9.990
+- Fini — $1.290
+- Gomitas Danessa 250 grs — $3.290
+- Granola 30 grs — $1.090
+- Tribu — $390
+- Cosecha Justa — $2.990
+- Don Granola Cereales 30 grs — $1.190
+- Productos Puri — $990
+- Dulce De Membrillo Perello 500 grs — $2.090
+- Atama Fruta Crujiente — $1.790
+- Productos Ama — $1.190
+- Levadura Collico 10 grs — $290
+- Dulce De Membrillo Perello 250 grs — $1.190
+- Super Snack — $990
+- ViviCosi Bebida de Arroz — $2.990
+- Orasi Barista de Almendra — $4.390
+- Productos Be Organics — $1.990
+- Productos Natures Charm — $4.690
+- Tika — $1.090
+- Bolsa Totebag — $6.990
+- Crema Chantilly Dulces Aplv — $6.990 [sin lactosa]
+- Productos Manada — $2.590
+- Bolsa Papel — $200
+- Masa Pre Pizza — $2.990
+- Productos Dos Santos — $6.190
+- Orégano Orgánico 85grs — $5.990
+- Productos Quilvo — $2.990
+- Pan Vollkorn — $3.990
+- Queso Crema — $4.990
+- Papas Flip — $3.290
+- Compota Fruta Watts — $890
+- Pizza — $7.990
+- Bigu Rollos unidad — $990
+- Caja Chocono — $6.590
+- Bigu Caja Rollos de Fruta — $4.490
+- Jugo Bless — $1.490
+- Baby Mum-Mum — $3.890
+- Esencia de Vainilla — $2.500
+- Rollo Pizza — $2.790
+- Barra Chocolate Chocono 80grs — $5.690
+- Cacao 200 grs Tienda — $4.990
+- Bebidas 360CC Tienda — $1.300
+- Cookids Galletas Infantiles Frutilla 30 gr — $950
+- Baby Mum Mum Manzana Calabaza 21 gr — $1.790
+- Baby Mum Mum Rice Puff Snack Manzana Plátano 10 gr — $990
+- Cereal Garbanzo Arándano 60 gr — $2.490
+- Orasi Barista Cappuccino 500 ml — $2.990
+- Barquillos 5 un — $3.690
+- Helados Aplv Chocolate Bañado — $3.590 [sin lactosa]
+- Huesillos deshidratados 250 gr — $3.490
+- Baby Mum Mum Super Bayas 21 gr — $1.790
+- Bocanboca Chips 50 gr — $2.390
+- Bocanboca Chips 120 gr — $3.590
+- Oferta Pan de Completo Lumae congelado — $2.500
+- Galleta New York Chocolate — $3.190
+- Pastel Milhojas Pastelera Chocolate — $5.590
+- canasta sopaipillas x 5 — $4.990
+- Oferta Longanizas y Butifarra de 250 gr — $3.990
+- Jugo Arándanos 300 ml — $4.990
+- Mostaza Maille Dijon 215 gr — $4.990
+- Pan Marraqueta Pre-Cocido 4 Un — $2.590
+- Real Thai 250 ml — $2.390
+- Miel San Lorenzo 1/2 kg — $4.990
+- Orasi Barista Avena 1 LT — $4.390
+- Cocadas s/g — $2.190
+- Alfajor Manjar S/M — $3.290
+- Queque Marmoleado xs — $5.190
+- Torta Jess s/g — $6.390
+- Torta Jess S/M — $6.390
+- Cake Petit Ch/M — $23.990
+- Medialuna S/M — $2.690
+- Manchoc S/m — $3.490
+- Galletas Biscuit de 12 s/m — $4.290
+- New York s/m — $2.990
+- Queque Marmoleado baño chocolate Xs — $5.190
+- Alfajor Frambuesa s/g — $3.190
+- Alfajor Manjar s/g — $3.190
+- Cinnamon s/m — $2.690
+- Rollo de Pizza s/m — $2.790
+- Love Co — $5.290
+- Focaccia XL — $5.990

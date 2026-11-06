@@ -334,7 +334,7 @@ def main() -> int:
                 ftid = record.get("id")
                 name = metadata.get("name") or ""
                 links = stored_links.get(ftid) or {}
-                if not links.get("menu") and not links.get("website"):
+                if not links.get("menu") and not links.get("website") and not links.get("order"):
                     try:
                         links = discover_links(record, browser)
                     except Exception as error:  # noqa: BLE001

@@ -19,6 +19,7 @@ def default_adapters() -> list[Adapter]:
         from .rappi import RappiAdapter
         from .render import RenderAdapter
         from .shopify import ShopifyAdapter
+        from .ubereats import UberEatsAdapter
         from .woocommerce import WooCommerceAdapter
     except ImportError:
         return []
@@ -30,6 +31,7 @@ def default_adapters() -> list[Adapter]:
         ShopifyAdapter(),
         JsonLdAdapter(),
         RenderAdapter(),
+        UberEatsAdapter(),
         PhotosAdapter(),
     ]
 

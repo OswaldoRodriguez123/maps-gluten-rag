@@ -96,7 +96,7 @@
       },
       {
         "provider": "UberEats",
-        "url": "https://www.ubereats.com/cl/store/pasteleria-saludable-neusa-vina-del-mar/6WsalbCNU_-rNwz75J6Ktw?diningMode=PICKUP&utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=ALcMQYabWVj8ReRiKfPHfi-6JDGWkP0BLGXhNW7GR3pOPDC7UWF0KlXWcriGrSdNSasL2jfTPoZh93uQcVMz3iFM4qeOjK06_Q%3D%3D"
+        "url": "https://www.ubereats.com/cl/store/pasteleria-saludable-neusa-vina-del-mar/6WsalbCNU_-rNwz75J6Ktw?diningMode=PICKUP&utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=ALcMQYZ4haypjLW4FxUtX754KgckPwo1I2hOWlLoHW6ryxw35ZPHIddUt5OhVuyyaqLJbsuqUeRwQ-4B0MF3Ss7JKkVJPZZt0g%3D%3D"
       }
     ],
     "name": "Pastelería Saludable Neusa"
@@ -130,5 +130,195 @@
       }
     ],
     "name": "Sativo Resto-Bar"
+  },
+  "0x9662cfa19b609c81:0x3d9c17dd645eeabd": {
+    "name": "Goody’s Gluten Free",
+    "website": "https://www.goodys.cl/",
+    "menu": null,
+    "order": [
+      {
+        "provider": "Rappi",
+        "url": "https://www.rappi.cl/restaurantes/900092349-health-y-gluten-free"
+      }
+    ]
+  },
+  "0x9662cf809d004e69:0xafe0d4137ed918c4": {
+    "name": "Popolo Pizza sin Gluten",
+    "website": "http://www.popolo.cl/",
+    "menu": null,
+    "order": [
+      {
+        "provider": "UberEats",
+        "url": "https://www.ubereats.com/cl/store/popolo-pizzas-y-masas-sin-gluten/C7OBMbfFRyWVqQoeCDq-2w"
+      }
+    ]
+  },
+  "0x9662c1e74feedd27:0xd4ff2d0e7f4a815b": {
+    "website": "http://www.massanoglutenfree.cl/",
+    "menu": null,
+    "order": [
+      {
+        "provider": "UberEats",
+        "url": "https://www.ubereats.com/cl/store/massanoglutenfree/yBa4gICvVYKwgBK6JgSLdg?diningMode=PICKUP&utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=ALcMQYZmdTTPb_GAwX6d1JN1cGlZUwb-inNmt_t6Qyd1RMGB2qcZ7cbuCFiVhC_Wix6VX_KNH-VcWTSVEtG03IQnMguS7sTORw%3D%3D"
+      }
+    ],
+    "name": "Massanoglutenfree"
+  },
+  "0x9662cfe0b2e62cef:0x5cd35b015e92fb4f": {
+    "name": "Casa Roque Chocolates",
+    "website": "https://casaroque.cl/",
+    "menu": null,
+    "order": [
+      {
+        "provider": "UberEats",
+        "url": "https://www.ubereats.com/cl/store/casa-roque-vitacura/R02YQE28UJ68fwl1Vh4-dQ"
+      }
+    ]
+  },
+  "0x9662c5d260a5bd0d:0x9351946d3a9408e2": {
+    "name": "Libre Punto SpA",
+    "website": "https://librepunto.cl",
+    "menu": "https://librepunto.cl/collections/all",
+    "order": []
+  },
+  "0x9662cfc8f2ac418d:0x2cb30e8aa9c94ffd": {
+    "name": "Sabores para Alegrar",
+    "website": null,
+    "menu": null,
+    "order": [
+      {
+        "provider": "UberEats",
+        "url": "https://www.ubereats.com/cl/store/sabores-para-alegrar/y4h6YR_xUdKspLWneTwshA"
+      }
+    ]
+  },
+  "0x9691ca5a7dc6b369:0xe06cb8b4f654ff59": {
+    "name": "CO&keto",
+    "website": null,
+    "menu": null,
+    "order": [
+      {
+        "provider": "UberEats",
+        "url": "https://www.ubereats.com/cl/store/co%26keto/U6j_fqfaUK-j-V8-tN4L-Q"
+      }
+    ]
+  },
+  "0x9662cf5e671f5843:0x1b39db8ec8f5ec4e": {
+    "website": "http://www.jardindegente.cl/",
+    "menu": null,
+    "order": [],
+    "name": "Jardin de Gente"
+  },
+  "0x9662cf677a1da7ab:0x7eb5abf45562c9be": {
+    "website": "https://quierocomer.com/qr/guffsushi?carta=1",
+    "menu": null,
+    "order": [
+      {
+        "provider": "UberEats",
+        "url": "https://www.ubereats.com/cl/store/guffsushi-santiago/cDfCZGxhTlqWHDcQW9emhQ?diningMode=PICKUP&utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=ALcMQYamqyuO_Zs6QpM7PpOkdFoYUbUW0aqTyVLyR4E6H8YrXXoGvz9zENyeTBZDxLiKnonPGpUbavOOrHVJ92q_96TCg3f5tg%3D%3D"
+      }
+    ],
+    "name": "guffsushi.cl"
+  },
+  "0x9662c5b957d8d761:0xe750d92258914d5c": {
+    "website": null,
+    "menu": null,
+    "order": [
+      {
+        "provider": "UberEats",
+        "url": "https://www.ubereats.com/cl/store/helados-quinto-pino/7ZF66OONVGWcvHfjCWEhBQ?diningMode=PICKUP&utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=ALcMQYbUqfIGytBlWsQXfmcaSrUxikFqKPsa-YcN6Jb83_A1gULCSvLSWr_au8zdpaQLe6UTYWuiZjj0-j_Y2-aJtiM0cLpXaw%3D%3D"
+      }
+    ],
+    "name": "Helados Quinto Pino"
+  },
+  "0x9662cf93a9351c5d:0xe972ac99b0b820d5": {
+    "name": "REFUGIO PUB ÑUÑOA",
+    "website": "https://queresto.com/elrefugiopub",
+    "menu": null,
+    "order": []
+  },
+  "0x9662c53f9c6075f3:0xa506fc816b9dfb09": {
+    "website": null,
+    "menu": null,
+    "order": [
+      {
+        "provider": "UberEats",
+        "url": "https://www.ubereats.com/cl/store/kanu-cocina-santiago/qHNB5ZzGXGW9RzvA0-O_0A?diningMode=PICKUP&utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=ALcMQYZo8lAUj-908fr4vWlYf6Mvc6k1-hbJOukjbFifq0Cu69L0e-Jaof8bbaipeSCKfOgnTd_OiQ891S2xB9uYGxvgYEYIYg%3D%3D"
+      }
+    ],
+    "name": "Kanu Cocina"
+  },
+  "0x9691cb1e9ec1a2bb:0x31b06b094203de90": {
+    "website": null,
+    "menu": null,
+    "order": [
+      {
+        "provider": "UberEats",
+        "url": "https://www.ubereats.com/cl/store/lighthouse-bakery/9Wsnv4i3TdWTuzciWy6qcw?diningMode=PICKUP&utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=ALcMQYZCtMtjP0viw6_4r7RMdp-pDGIChV7O_2onUZauZDClH8GRXlbRVpEeXL82qR4acqXdpXLeevWtyCLZMy_VllZYgR7HzQ%3D%3D"
+      }
+    ],
+    "name": "Lighthouse Bakery"
+  },
+  "0x9691cb003302e2ad:0x9b0c2f150c1f4918": {
+    "name": "Simona Healthy Bakery",
+    "website": "https://www.pedidosya.cl/restaurantes/la-serena/simona-healthy-bakery-d95a308d-1645-42a1-bfb0-9e7cdae77c01-menu",
+    "menu": "https://www.pedidosya.cl/restaurantes/la-serena/simona-healthy-bakery-d95a308d-1645-42a1-bfb0-9e7cdae77c01-menu",
+    "order": [
+      {
+        "provider": "PedidosYa",
+        "url": "https://www.pedidosya.cl/restaurantes/la-serena/simona-healthy-bakery-d95a308d-1645-42a1-bfb0-9e7cdae77c01-menu"
+      }
+    ]
+  },
+  "0x9662cf4bd17d07cf:0xcbd154773cb1f4fe": {
+    "name": "Cafetería Molino",
+    "website": "https://menu.fu.do/molinocafeteria",
+    "menu": null,
+    "order": [
+      {
+        "provider": "Fudo",
+        "url": "https://menu.fu.do/molinocafeteria"
+      }
+    ]
+  },
+  "0x9662c50057c35e39:0xd8b283a1c662d665": {
+    "name": "Cafetería y Pastelería Fabiana",
+    "website": "https://toteat.shop/r/cl/Pasteleria-Fabiana/21150/checkin/menu",
+    "menu": "https://toteat.shop/r/cl/Pasteleria-Fabiana/21150/checkin/menu",
+    "order": [
+      {
+        "provider": "Toteat",
+        "url": "https://toteat.shop/r/cl/Pasteleria-Fabiana/21150/checkin/menu"
+      }
+    ]
+  },
+  "0x9662c9bd1ab6a8cf:0x528d13112acb21d8": {
+    "website": "https://entresaborescafe.cl/",
+    "menu": "https://menu.fu.do/entresaboresvitacura/qr-menu",
+    "order": [
+      {
+        "provider": "PedidosYa",
+        "url": "http://www.pedidosya.cl/food-ordering/www.pedidosya.cl/restaurantes/santiago/entre-sabores-cafe-c0a3fd92-08eb-4831-bee4-5a81ebe17906-menu?adj_t=1r2gqtil_1rp3l16n&adj_campaign=google_reserve_place_order_action_CH-SEO_&adj_fallback=https%3A%2F%2Fwww.pedidosya.cl%3Futm_campaign%3Dgoogle_reserve_place_order_action_CH-SEO_&adj_redirect_macos=https%3A%2F%2Fwww.pedidosya.cl%3Futm_campaign%3Dgoogle_reserve_place_order_action_CH-SEO_"
+      }
+    ],
+    "name": "Entre Sabores Café"
+  },
+  "0x9662c5e45d6385bd:0x4b95a7475f83185e": {
+    "website": null,
+    "menu": null,
+    "order": [],
+    "name": "CASI PERFECTO"
+  },
+  "0x9662c5de6d91af1f:0x7da0dcae236d1d45": {
+    "website": null,
+    "menu": null,
+    "order": [],
+    "name": "Mr Foodie"
+  },
+  "0x9662c5cdbc0bc627:0x581da2612fd5195d": {
+    "name": "VICTORIA KETO",
+    "website": null,
+    "menu": null,
+    "order": []
   }
 }
