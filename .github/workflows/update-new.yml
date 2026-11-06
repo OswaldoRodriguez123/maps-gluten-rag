@@ -1,0 +1,166 @@
+name: Actualizar solo locales nuevos
+
+on:
+  workflow_dispatch:
+    inputs:
+      since:
+        description: "Fecha ISO (ej. 2026-11-05). Vacío = hace 7 días"
+        required: false
+      places:
+        description: "Nombres separados por coma (opcional)"
+        required: false
+      dry_run:
+        description: "Solo probar, sin escribir datos ni publicar"
+        type: boolean
+        default: false
+      photos:
+        description: "Usar fotos de Google Maps como último recurso"
+        type: boolean
+        default: true
+      refresh:
+        description: "Reprocesar aunque ya tenga carta"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-new-places
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      MAPS_LIST_URL: ${{ vars.MAPS_LIST_URL || 'https://maps.app.goo.gl/FWzyQ6w2AYSDTZZYA' }}
+      MAPS_TIMEZONE: America/Santiago
+      MAPS_LOCALE: es-CL
+      MAPS_HEADLESS: "1"
+      MAPS_ENRICH: "0"
+      MAPS_APIFY: "0"
+      MAPS_OCR: "0"
+      MAPS_VISION: "0"
+      MAPS_OUT_DIR: data
+      MAPS_OUT_BASENAME: mis_lugares_sin_gluten
+      GDOC_ID: ${{ vars.GDOC_ID }}
+      GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
+      APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Dependencias
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Versión de Playwright
+        id: playwright
+        run: echo "version=$(python -m playwright --version | awk '{print $2}')" >> "$GITHUB_OUTPUT"
+
+      - name: Cache de Chromium
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/ms-playwright
+          key: playwright-${{ runner.os }}-${{ steps.playwright.outputs.version }}
+          restore-keys: playwright-${{ runner.os }}-
+
+      - name: Dependencias del sistema
+        run: python -m playwright install-deps chromium
+
+      - name: Chromium
+        run: python -m playwright install chromium
+
+      - name: Restaurar histórico
+        uses: actions/cache/restore@v4
+        with:
+          path: data/historial_lugares.db
+          key: maps-gluten-db-${{ github.run_id }}
+          restore-keys: maps-gluten-db-
+
+      - name: Baseline antes de refrescar
+        run: python scripts/update_new_places.py --dump-baseline /tmp/baseline.json
+
+      - name: Refrescar lista sin enriquecer
+        run: python -m maps_gluten run
+
+      - name: Extraer locales nuevos
+        env:
+          SINCE: ${{ inputs.since }}
+          PLACES: ${{ inputs.places }}
+          DRY_RUN: ${{ inputs.dry_run }}
+          PHOTOS: ${{ inputs.photos }}
+          REFRESH: ${{ inputs.refresh }}
+        run: |
+          args=(--baseline /tmp/baseline.json --db data/historial_lugares.db)
+          if [ -n "$SINCE" ]; then args+=(--since "$SINCE"); fi
+          if [ -n "$PLACES" ]; then args+=(--places "$PLACES"); fi
+          if [ "$DRY_RUN" = "true" ]; then args+=(--dry-run); fi
+          if [ "$PHOTOS" != "true" ]; then args+=(--no-photos); fi
+          if [ "$REFRESH" = "true" ]; then args+=(--refresh); fi
+          python scripts/update_new_places.py "${args[@]}"
+
+      - name: Normalizar y aplicar
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          python scripts/normalize_menus.py --places data/mis_lugares_sin_gluten.jsonl --menus data/mis_lugares_sin_gluten_menus.jsonl --out-dir data/normalized
+          python scripts/apply_normalization.py --places data/mis_lugares_sin_gluten.jsonl --normalized-dir data/normalized --out-dir data --db data/historial_lugares.db
+          rm -rf data/normalized
+
+      - name: Cerrar reporte y restaurar cartas vaciadas
+        if: ${{ inputs.dry_run != true }}
+        run: python scripts/update_new_places.py --finalize --db data/historial_lugares.db
+
+      - name: Reconstruir y publicar
+        if: ${{ inputs.dry_run != true }}
+        run: python scripts/rebuild_markdown.py --publish
+
+      - name: Guardar cambios
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ reports/new_places_*.jsonl
+          if git diff --cached --quiet; then
+            echo "Sin cambios"
+          else
+            git commit -m "chore: actualizar locales nuevos $(date -u +%F)"
+            ok=0
+            for i in 1 2 3; do
+              if git pull --rebase --autostash origin main && git push; then
+                ok=1
+                break
+              fi
+              sleep 5
+            done
+            if [ "$ok" != "1" ]; then
+              echo "No se pudo empujar el commit de datos" >&2
+              exit 1
+            fi
+          fi
+
+      - name: Guardar histórico
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: data/historial_lugares.db
+          key: maps-gluten-db-${{ github.run_id }}
+
+      - name: Subir reporte
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: locales-nuevos
+          path: reports/new_places_*.jsonl
+          if-no-files-found: warn
+          retention-days: 30
