@@ -1,0 +1,13 @@
+{
+  "0x9662c51d8de408e7:0xf03471bd196060fe": {
+    "name": "BAR EL BAJO",
+    "website": "http://www.barelbajo.cl/",
+    "menu": "https://menu.tu-mesa.com/bar-el-bajo/7689/menu?idLinktree=2727&locale=es",
+    "order": [
+      {
+        "provider": "Apparta",
+        "url": "https://menu.tu-mesa.com/bar-el-bajo/7689/menu?idLinktree=2727&locale=es"
+      }
+    ]
+  }
+}

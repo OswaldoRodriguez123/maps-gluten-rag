@@ -161,6 +161,41 @@ GDOC_ID='1N67XQI2sXARoeZe6wz87JlmH-a5Z83exgBiz9Q_j1H0' \
 .venv/bin/python scripts/update_place.py --place Crumbless --publish
 ```
 
+### Actualizar solo locales nuevos
+
+Cuando agregues locales a la lista, no hace falta reprocesar los 100. El workflow `update-new.yml`:
+
+1. guarda un baseline de los locales que ya existían;
+2. refresca la lista sin enriquecer todos;
+3. selecciona solo los nuevos (o los que tengan `first_observed_at` desde la fecha indicada);
+4. prueba adaptadores por plataforma: Fudo, Apparta/Tu Mesa, WooCommerce, Shopify, JSON-LD, web renderizada y fotos;
+5. normaliza, publica y deja un reporte.
+
+```bash
+gh workflow run update-new.yml \
+  --repo OswaldoRodriguez123/maps-gluten-rag \
+  -f since=2026-11-05 \
+  -f places='' \
+  -f photos=true
+```
+
+Inputs:
+
+- `since`: fecha ISO. Si se omite, usa hace 7 días.
+- `places`: nombres separados por coma. Si se omite, usa el baseline + fecha.
+- `dry_run`: prueba sin escribir datos ni publicar.
+- `photos`: usar fotos de Google Maps como último recurso.
+- `refresh`: reprocesar locales que ya tienen carta.
+
+El resultado queda en `reports/new_places_<fecha>.jsonl`. Los locales que no se pudieron resolver aparecen como `needs_manual`; esos son los únicos que conviene revisar a mano.
+
+Dry-run local:
+
+```bash
+.venv/bin/python scripts/update_new_places.py \
+  --places 'Bar El Bajo' --refresh --no-photos --dry-run
+```
+
 ### Actualizar la carta de un solo local
 
 Para releer las fotos de menú de un local (sin tocar el resto), usa:
