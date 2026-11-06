@@ -208,10 +208,16 @@ def test_update_new_places_uses_search_when_maps_empty(monkeypatch, tmp_path):
     monkeypatch.setattr(
         unp, "discover_links", lambda record, browser: {"website": None, "menu": None, "order": []}
     )
+    seen = {}
+
+    def fake_search_website(name, address, api_key=None, timeout=12, browser=None):
+        seen["browser"] = browser
+        return ("https://nuevo.cl/", 0.95, None)
+
     monkeypatch.setattr(
         unp,
         "search_website",
-        lambda name, address, api_key=None, timeout=12: ("https://nuevo.cl/", 0.95, None),
+        fake_search_website,
         raising=False,
     )
     fake_item = SimpleNamespace(
@@ -255,6 +261,8 @@ def test_update_new_places_uses_search_when_maps_empty(monkeypatch, tmp_path):
     )
 
     assert unp.main() == 0
+    # El browser de sync_playwright() debe llegar hasta search_website.
+    assert seen["browser"] is fake_browser
     stored_links = json.loads((data_dir / "place_links.json").read_text(encoding="utf-8"))
     assert stored_links["nv1"]["website"] == "https://nuevo.cl/"
     places_after = read_jsonl(data_dir / "mis_lugares_sin_gluten.jsonl")

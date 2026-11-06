@@ -180,6 +180,7 @@ def _apply_search_fallback(
     api_key: str | None,
     enabled: bool,
     search_fn=None,
+    browser=None,
 ) -> str | None:
     if not enabled or not api_key:
         return None
@@ -187,7 +188,7 @@ def _apply_search_fallback(
         return None
     fn = search_fn if search_fn is not None else search_website
     try:
-        url, score, _error = fn(name, address, api_key=api_key)
+        url, score, _error = fn(name, address, api_key=api_key, browser=browser)
     except Exception:  # noqa: BLE001
         return None
     try:
@@ -406,6 +407,7 @@ def main() -> int:
                             links=links,
                             api_key=gemini_api_key,
                             enabled=website_search_enabled,
+                            browser=browser,
                         ) == "search":
                             links["name"] = name
                             places_changed = True
