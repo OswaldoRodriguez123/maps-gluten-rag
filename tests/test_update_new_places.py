@@ -180,5 +180,88 @@ class FinalizeTest(unittest.TestCase):
             self.assertIn("Viejo", menu_json or "")
 
 
+def test_update_new_places_uses_search_when_maps_empty(monkeypatch, tmp_path):
+    import sys
+    from types import SimpleNamespace
+
+    import scripts.update_new_places as unp
+
+    data_dir = tmp_path / "data"
+    report_dir = tmp_path / "reports"
+    data_dir.mkdir(parents=True)
+    rec = {
+        "id": "nv1",
+        "metadata": {
+            "name": "Café Nuevo",
+            "address": "Manuel Montt 123, Providencia",
+            "first_observed_at": "2026-11-06",
+            "menu_count": 0,
+        },
+    }
+    (data_dir / "mis_lugares_sin_gluten.jsonl").write_text(
+        json.dumps(rec, ensure_ascii=False) + "\n", encoding="utf-8"
+    )
+    (data_dir / "place_links.json").write_text("{}\n", encoding="utf-8")
+
+    monkeypatch.setenv("MAPS_WEBSITE_SEARCH", "1")
+    monkeypatch.setenv("GEMINI_API_KEY", "test-key")
+    monkeypatch.setattr(
+        unp, "discover_links", lambda record, browser: {"website": None, "menu": None, "order": []}
+    )
+    monkeypatch.setattr(
+        unp,
+        "search_website",
+        lambda name, address, api_key=None, timeout=12: ("https://nuevo.cl/", 0.95, None),
+        raising=False,
+    )
+    fake_item = SimpleNamespace(
+        name="Pan sin gluten",
+        price="$1",
+        category="Carta",
+        description=None,
+        source="fake",
+        url=None,
+    )
+    monkeypatch.setattr(
+        unp,
+        "extract",
+        lambda ctx: SimpleNamespace(items=[fake_item], source="fake", status="ok", error=None),
+    )
+
+    fake_browser = SimpleNamespace(close=lambda: None)
+    fake_chromium = SimpleNamespace(launch=lambda headless=True: fake_browser)
+    fake_pw = SimpleNamespace(chromium=fake_chromium)
+
+    class _Ctx:
+        def __enter__(self):
+            return fake_pw
+
+        def __exit__(self, *a):
+            return False
+
+    monkeypatch.setattr(unp, "sync_playwright", lambda: _Ctx())
+    monkeypatch.setattr(
+        sys,
+        "argv",
+        [
+            "update_new_places.py",
+            "--places",
+            "Café Nuevo",
+            "--data-dir",
+            str(data_dir),
+            "--report-dir",
+            str(report_dir),
+        ],
+    )
+
+    assert unp.main() == 0
+    stored_links = json.loads((data_dir / "place_links.json").read_text(encoding="utf-8"))
+    assert stored_links["nv1"]["website"] == "https://nuevo.cl/"
+    places_after = read_jsonl(data_dir / "mis_lugares_sin_gluten.jsonl")
+    meta = (places_after[0]["metadata"])
+    assert meta["website"] == "https://nuevo.cl/"
+    assert meta["website_source"] == "search"
+
+
 if __name__ == "__main__":
     unittest.main()

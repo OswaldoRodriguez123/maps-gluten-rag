@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import re
+import time
 import unicodedata
 import urllib.error
 import urllib.request
@@ -705,6 +706,8 @@ def enrich_places(
     today: date | None = None,
     ocr: bool = False,
     website_dishes: bool = True,
+    search_enabled: bool = True,
+    gemini_api_key: str | None = None,
 ) -> int:
     cache = cache or {}
     today = today or date.today()
@@ -717,7 +720,15 @@ def enrich_places(
     if not stale:
         return 0
 
+    search_fn = None
+    if search_enabled and gemini_api_key:
+        # Import dentro de la función para evitar ciclo (website_search es standalone).
+        from .website_search import search_website
+
+        search_fn = search_website
+
     with_web = []
+    searched = False
     for place in stale:
         try:
             page.goto(place.url, wait_until="domcontentloaded", timeout=30_000)
@@ -726,7 +737,30 @@ def enrich_places(
         except Exception:
             website = None
             review_dishes = []
-        place.website = website
+        if website:
+            place.website = website
+            place.website_source = "maps"
+        elif search_fn is not None and search_enabled and gemini_api_key:
+            if searched:
+                time.sleep(0.5)
+            searched = True
+            try:
+                url, score, _error = search_fn(
+                    place.name, place.address, api_key=gemini_api_key
+                )
+            except Exception:
+                url, score = None, 0.0
+            if url and score >= 0.85:
+                website = url
+                place.website = url
+                place.website_source = "search"
+            else:
+                website = None
+                place.website = None
+                place.website_source = None
+        else:
+            place.website = None
+            place.website_source = None
         place.review_dishes = ", ".join(review_dishes) if review_dishes else None
         if website and _is_spa_store(website):
             products = _render_site_products(page, website)

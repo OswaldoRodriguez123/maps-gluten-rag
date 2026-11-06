@@ -2,7 +2,9 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import sys
+import time
 import unicodedata
 from datetime import date, timedelta
 from pathlib import Path
@@ -16,6 +18,7 @@ from playwright.sync_api import sync_playwright  # noqa: E402
 from maps_gluten.platforms import PlaceContext, extract  # noqa: E402
 from maps_gluten.platforms.maps_links import discover_links  # noqa: E402
 from maps_gluten import store  # noqa: E402
+from maps_gluten.website_search import search_website  # noqa: E402
 
 UA = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -159,6 +162,45 @@ def _restore(data_dir: Path, ftid: str, backup_rows: list[dict]) -> int:
                 restored += 1
         write_jsonl(path, rows)
     return restored
+
+
+def _env_bool(name: str, default: bool = True) -> bool:
+    value = os.getenv(name)
+    if value is None:
+        return default
+    return value.strip().lower() in {"1", "true", "yes", "si", "sí", "on"}
+
+
+def _apply_search_fallback(
+    *,
+    name: str,
+    address: str | None,
+    metadata: dict,
+    links: dict,
+    api_key: str | None,
+    enabled: bool,
+    search_fn=None,
+) -> str | None:
+    if not enabled or not api_key:
+        return None
+    if links.get("website") or metadata.get("website"):
+        return None
+    fn = search_fn if search_fn is not None else search_website
+    try:
+        url, score, _error = fn(name, address, api_key=api_key)
+    except Exception:  # noqa: BLE001
+        return None
+    try:
+        score_f = float(score)
+    except (TypeError, ValueError):
+        return None
+    if not url or score_f < 0.85:
+        return None
+    links["website"] = url
+    links["website_source"] = "search"
+    metadata["website"] = url
+    metadata["website_source"] = "search"
+    return "search"
 
 
 def finalize_report(
@@ -325,12 +367,17 @@ def main() -> int:
     report_rows: list[dict] = []
     all_items: list[dict] = []
     written_targets: list[dict] = []
+    website_search_enabled = _env_bool("MAPS_WEBSITE_SEARCH", True)
+    gemini_api_key = os.getenv("GEMINI_API_KEY", "").strip() or None
+    searched = False
+    places_changed = False
 
     with sync_playwright() as playwright:
         browser = playwright.chromium.launch(headless=True)
         try:
             for record in targets:
                 metadata = record.get("metadata") or {}
+                record["metadata"] = metadata
                 ftid = record.get("id")
                 name = metadata.get("name") or ""
                 links = stored_links.get(ftid) or {}
@@ -347,6 +394,23 @@ def main() -> int:
                     links["name"] = name
                     if not args.dry_run:
                         stored_links[ftid] = links
+                if not links.get("website") and not metadata.get("website"):
+                    if website_search_enabled and gemini_api_key:
+                        if searched:
+                            time.sleep(0.5)
+                        searched = True
+                        if _apply_search_fallback(
+                            name=name,
+                            address=metadata.get("address"),
+                            metadata=metadata,
+                            links=links,
+                            api_key=gemini_api_key,
+                            enabled=website_search_enabled,
+                        ) == "search":
+                            links["name"] = name
+                            places_changed = True
+                            if not args.dry_run:
+                                stored_links[ftid] = links
                 menu_url = links.get("menu") or menu_urls.get(name) or menu_urls.get(ftid)
                 website = links.get("website") or metadata.get("website")
                 ctx = PlaceContext(
@@ -420,6 +484,8 @@ def main() -> int:
             json.dumps(stored_links, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
+    if places_changed:
+        write_jsonl(data_dir / f"{BASENAME}.jsonl", records)
     apply_extraction(data_dir, written_targets, all_items, backup_path, dry_run=False)
     existing_report = {
         row.get("ftid"): row for row in load_jsonl(report_path) if row.get("ftid")
