@@ -9,10 +9,11 @@ FIXTURES = Path(__file__).parent / "fixtures"
 
 
 class FakeResponse:
-    def __init__(self, status_code, data=None, text=""):
+    def __init__(self, status_code, data=None, text="", headers=None):
         self.status_code = status_code
         self._data = data if data is not None else {}
         self.text = text
+        self.headers = headers or {}
 
     def json(self):
         return self._data
@@ -22,6 +23,7 @@ class FakeSession:
     def __init__(self):
         self.requests = []
         self.ucp_calls = 0
+        self.last_headers = {}
 
     def get(self, url, **kwargs):
         self.requests.append(("GET", url))
@@ -33,9 +35,9 @@ class FakeSession:
                 {
                     "ucp": {
                         "services": {
-                            "dev.ucp.shopping": [
-                                {"endpoint": "https://shop.myshopify.com/api/ucp/mcp"}
-                            ]
+                            "dev.ucp.shopping": {
+                                "endpoint": "https://shop.myshopify.com/api/ucp/mcp"
+                            }
                         }
                     }
                 },
@@ -46,8 +48,13 @@ class FakeSession:
         self.requests.append(("POST", url))
         body = payload or kwargs.get("json") or {}
         if body.get("method") == "initialize":
-            return FakeResponse(200, {"jsonrpc": "2.0", "id": 1, "result": {}})
+            return FakeResponse(
+                200,
+                {"jsonrpc": "2.0", "id": 1, "result": {}},
+                headers={"Mcp-Session-Id": "s1"},
+            )
         if body.get("method") == "tools/call":
+            self.last_headers = kwargs.get("headers") or {}
             self.ucp_calls += 1
             if self.ucp_calls == 1:
                 data = json.loads((FIXTURES / "shopify_ucp.json").read_text(encoding="utf-8"))
@@ -94,6 +101,7 @@ class ShopifyAdapterTest(unittest.TestCase):
         self.assertEqual(result.items[2].price, "$3.500")
         self.assertEqual(result.items[0].category, "Tortas")
         self.assertEqual(session.ucp_calls, 2)
+        self.assertEqual(session.last_headers.get("Mcp-Session-Id"), "s1")
 
 
 if __name__ == "__main__":

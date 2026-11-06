@@ -15,6 +15,7 @@ from playwright.sync_api import sync_playwright  # noqa: E402
 
 from maps_gluten.platforms import PlaceContext, extract  # noqa: E402
 from maps_gluten.platforms.maps_links import discover_links  # noqa: E402
+from maps_gluten import store  # noqa: E402
 
 UA = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
@@ -73,11 +74,7 @@ def select_targets(
             if not any(term in normalize(name) for term in wanted):
                 continue
         else:
-            first_observed = (
-                metadata.get("first_observed_at")
-                or metadata.get("first_seen")
-                or ""
-            )
+            first_observed = metadata.get("first_observed_at") or ""
             is_new = ftid not in baseline_ids if baseline_ids else False
             is_recent = bool(
                 since_date and first_observed and first_observed >= since
@@ -90,18 +87,13 @@ def select_targets(
     return selected
 
 
-def _target_keys(targets: list[dict]) -> tuple[set[str], set[str]]:
-    ids = {record.get("id") for record in targets if record.get("id")}
-    names = {
-        (record.get("metadata") or {}).get("name")
-        for record in targets
-        if (record.get("metadata") or {}).get("name")
-    }
-    return ids, names
+def _target_ids(targets: list[dict]) -> set[str]:
+    return {record.get("id") for record in targets if record.get("id")}
 
 
-def _matches(row: dict, ids: set[str], names: set[str]) -> bool:
-    return row.get("place_id") in ids or row.get("place") in names
+def _matches(row: dict, ids: set[str]) -> bool:
+    # Solo por ftid: dos locales pueden compartir nombre y no deben pisarse.
+    return row.get("place_id") in ids
 
 
 def _row_files(data_dir: Path) -> dict[str, Path]:
@@ -119,19 +111,19 @@ def apply_extraction(
     backup_path: Path,
     dry_run: bool = False,
 ) -> dict:
-    ids, names = _target_keys(targets)
+    ids = _target_ids(targets)
     files = _row_files(data_dir)
     backup: list[dict] = []
     for kind, path in files.items():
         for row in load_jsonl(path):
-            if _matches(row, ids, names):
+            if _matches(row, ids):
                 backup.append({**row, "file": kind})
     if dry_run:
         return {"old": len(backup), "new": len(items), "backup": len(backup)}
     if backup:
         write_jsonl(backup_path, backup)
     for kind, path in files.items():
-        rows = [row for row in load_jsonl(path) if not _matches(row, ids, names)]
+        rows = [row for row in load_jsonl(path) if not _matches(row, ids)]
         if kind == "menus":
             rows.extend(items)
         write_jsonl(path, rows)
@@ -164,53 +156,88 @@ def _restore(data_dir: Path, ftid: str, backup_rows: list[dict]) -> int:
     return restored
 
 
-def finalize_report(data_dir: Path, report_path: Path, backup_path: Path) -> dict:
+def finalize_report(
+    data_dir: Path,
+    report_path: Path,
+    backup_path: Path,
+    db_path: str | Path | None = None,
+) -> dict:
     places = {record.get("id"): record for record in load_places(data_dir)}
     report = load_jsonl(report_path)
     backup = load_jsonl(backup_path)
     counts = {"ok": 0, "needs_manual": 0, "restored": 0}
     changed_places = False
-    for row in report:
-        ftid = row.get("ftid")
-        metadata = (places.get(ftid) or {}).get("metadata") or {}
-        current = int(metadata.get("menu_count") or 0)
-        old = int(row.get("old_count") or 0)
-        row["publishable_count"] = current
-        if old > 0 and current == 0:
-            restored = _restore(data_dir, ftid, backup)
-            row["restored_count"] = restored
-            counts["restored"] += 1
-            row["status"] = "needs_manual"
-            row["error"] = (row.get("error") or "") + " | carta previa restaurada"
-            restored_rows = [
-                item
-                for item in backup
-                if item.get("place_id") == ftid and item.get("file") == "menus"
-            ]
-            if restored_rows and places.get(ftid):
-                metadata["menu"] = [
-                    {
-                        "name": item.get("name"),
-                        "price": item.get("price_display") or item.get("price"),
-                        "category": item.get("category"),
-                        "tags": item.get("dietary_tags") or [],
-                        "kind": item.get("kind") or "dish",
-                    }
-                    for item in restored_rows
-                    if item.get("name")
+    connection = None
+    if db_path and Path(db_path).exists():
+        connection = store.connect(Path(db_path))
+    try:
+        for row in report:
+            ftid = row.get("ftid")
+            metadata = (places.get(ftid) or {}).get("metadata") or {}
+            current = int(metadata.get("menu_count") or 0)
+            old = int(row.get("old_count") or 0)
+            row["publishable_count"] = current
+            if old > 0 and current == 0:
+                restored = _restore(data_dir, ftid, backup)
+                row["restored_count"] = restored
+                counts["restored"] += 1
+                row["status"] = "needs_manual"
+                row["error"] = (row.get("error") or "") + " | carta previa restaurada"
+                restored_rows = [
+                    item
+                    for item in backup
+                    if item.get("place_id") == ftid and item.get("file") == "menus"
                 ]
-                metadata["menu_count"] = len(metadata["menu"])
-                changed_places = True
-        elif current == 0:
-            row["status"] = "needs_manual"
-        elif row.get("extraction_status") != "ok" or int(row.get("extracted_count") or 0) == 0:
-            row["status"] = "needs_manual"
-        elif old > 0 and current < old * 0.5 and current < 5:
-            row["status"] = "needs_manual"
-            row["error"] = (row.get("error") or "") + " | caída fuerte de ítems"
-        else:
-            row["status"] = "ok"
-        counts[row["status"]] = counts.get(row["status"], 0) + 1
+                if restored_rows and places.get(ftid):
+                    clean_rows = [
+                        {key: value for key, value in item.items() if key != "file"}
+                        for item in restored_rows
+                    ]
+                    metadata["menu"] = [
+                        {
+                            "name": item.get("name"),
+                            "price": item.get("price_display") or item.get("price"),
+                            "category": item.get("category"),
+                            "tags": item.get("dietary_tags") or [],
+                            "kind": item.get("kind") or "dish",
+                        }
+                        for item in clean_rows
+                        if item.get("name")
+                    ]
+                    metadata["menu_count"] = len(metadata["menu"])
+                    changed_places = True
+                    if connection is not None:
+                        summary = "; ".join(
+                            f"{item.get('name')} ({item.get('price_display') or item.get('price')})"
+                            if (item.get("price_display") or item.get("price"))
+                            else str(item.get("name"))
+                            for item in clean_rows
+                            if item.get("name")
+                        )
+                        connection.execute(
+                            "UPDATE places SET menu_json = ?, menu_dishes = ?, menu_at = ? "
+                            "WHERE ftid = ?",
+                            (
+                                json.dumps(clean_rows, ensure_ascii=False),
+                                summary or None,
+                                date.today().isoformat(),
+                                ftid,
+                            ),
+                        )
+                        connection.commit()
+            elif current == 0:
+                row["status"] = "needs_manual"
+            elif row.get("extraction_status") != "ok" or int(row.get("extracted_count") or 0) == 0:
+                row["status"] = "needs_manual"
+            elif old > 0 and current < old * 0.5 and current < 5:
+                row["status"] = "needs_manual"
+                row["error"] = (row.get("error") or "") + " | caída fuerte de ítems"
+            else:
+                row["status"] = "ok"
+            counts[row["status"]] = counts.get(row["status"], 0) + 1
+    finally:
+        if connection is not None:
+            connection.close()
     write_jsonl(report_path, report)
     if changed_places:
         write_jsonl(data_dir / f"{BASENAME}.jsonl", list(places.values()))
@@ -256,7 +283,9 @@ def main() -> int:
         return 0
 
     if args.finalize:
-        counts = finalize_report(data_dir, report_path, backup_path)
+        counts = finalize_report(
+            data_dir, report_path, backup_path, db_path=args.db
+        )
         print(
             f"Finalize: ok={counts.get('ok', 0)} "
             f"needs_manual={counts.get('needs_manual', 0)} "
@@ -332,7 +361,7 @@ def main() -> int:
                 old_rows = [
                     row
                     for row in load_jsonl(data_dir / f"{BASENAME}_menus.jsonl")
-                    if row.get("place_id") == ftid or row.get("place") == name
+                    if row.get("place_id") == ftid
                 ]
                 new_rows = [
                     {

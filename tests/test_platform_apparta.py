@@ -63,5 +63,25 @@ class AppartaAdapterTest(unittest.TestCase):
         self.assertEqual(kwargs["params"]["$client[establishment_branch_id]"], "7689")
 
 
+    def test_extract_accepts_native_lists_from_api(self):
+        data = [
+            {
+                "menu_item_name": "Gin",
+                "menu_item_category_name": "Destilados",
+                "menu_item_description": "",
+                "prices_list": [
+                    {"description": "Hendrick's", "price": 8900},
+                    {"description": "Bulldog", "price": 7800},
+                ],
+                "menu_item_labels": [{"label": "Sin Gluten"}],
+                "price": 0,
+            }
+        ]
+        result = AppartaAdapter().extract(ctx(FakeSession(data)))
+        self.assertEqual(result.status, "ok")
+        self.assertEqual([item.name for item in result.items], ["Gin - Hendrick's", "Gin - Bulldog"])
+        self.assertIn("Sin Gluten", result.items[0].description)
+
+
 if __name__ == "__main__":
     unittest.main()

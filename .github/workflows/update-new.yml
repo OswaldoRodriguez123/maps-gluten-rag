@@ -37,7 +37,7 @@ jobs:
       MAPS_LIST_URL: ${{ vars.MAPS_LIST_URL || 'https://maps.app.goo.gl/FWzyQ6w2AYSDTZZYA' }}
       MAPS_TIMEZONE: America/Santiago
       MAPS_LOCALE: es-CL
-      MAPS_HEADLESS: "1"
+      MAPS_HEADLESS: "0"
       MAPS_ENRICH: "0"
       MAPS_APIFY: "0"
       MAPS_OCR: "0"
@@ -75,6 +75,12 @@ jobs:
           key: playwright-${{ runner.os }}-${{ steps.playwright.outputs.version }}
           restore-keys: playwright-${{ runner.os }}-
 
+      - name: Cache de paquetes del sistema
+        uses: awalsh128/cache-apt-pkgs-action@latest
+        with:
+          packages: xvfb
+          version: 1.0
+
       - name: Dependencias del sistema
         run: python -m playwright install-deps chromium
 
@@ -92,7 +98,7 @@ jobs:
         run: python scripts/update_new_places.py --dump-baseline /tmp/baseline.json
 
       - name: Refrescar lista sin enriquecer
-        run: python -m maps_gluten run
+        run: xvfb-run -a python -m maps_gluten run
 
       - name: Extraer locales nuevos
         env:

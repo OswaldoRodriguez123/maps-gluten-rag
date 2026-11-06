@@ -3,6 +3,8 @@ import tempfile
 import unittest
 from pathlib import Path
 
+from maps_gluten import store
+from maps_gluten.extract import Place
 from scripts.update_new_places import (
     apply_extraction,
     finalize_report,
@@ -84,6 +86,28 @@ class ApplyExtractionTest(unittest.TestCase):
             self.assertEqual([row["name"] for row in rows], ["Nuevo"])
             self.assertTrue(backup.exists())
 
+    def test_same_name_other_place_is_not_deleted(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            data_dir = Path(tmp) / "data"
+            write_jsonl(
+                data_dir / "mis_lugares_sin_gluten_menus.jsonl",
+                [
+                    {"place_id": "a", "place": "Mismo", "name": "A", "price": "$1"},
+                    {"place_id": "b", "place": "Mismo", "name": "B", "price": "$2"},
+                ],
+            )
+            write_jsonl(data_dir / "menus_review.jsonl", [])
+            write_jsonl(data_dir / "menus_rejected.jsonl", [])
+            apply_extraction(
+                data_dir,
+                [record("a", "Mismo", menu_count=1)],
+                [],
+                Path(tmp) / "backup.jsonl",
+                dry_run=False,
+            )
+            rows = read_jsonl(data_dir / "mis_lugares_sin_gluten_menus.jsonl")
+            self.assertEqual([row["place_id"] for row in rows], ["b"])
+
 
 class FinalizeTest(unittest.TestCase):
     def test_restores_backup_when_nothing_is_publishable(self):
@@ -108,6 +132,52 @@ class FinalizeTest(unittest.TestCase):
             final = read_jsonl(report)
             self.assertEqual(restored[0]["name"], "Viejo")
             self.assertEqual(final[0]["status"], "needs_manual")
+
+    def test_restore_is_persisted_in_sqlite(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            data_dir = Path(tmp) / "data"
+            db_path = Path(tmp) / "historial.db"
+            conn = store.connect(db_path)
+            store.save(
+                conn,
+                "list",
+                "L",
+                [
+                    Place(
+                        ftid="a",
+                        name="A",
+                        address=None,
+                        category=None,
+                        rating=None,
+                        reviews=None,
+                        note=None,
+                        url="https://maps",
+                    )
+                ],
+                "2026-11-06",
+            )
+            conn.close()
+            write_jsonl(data_dir / "mis_lugares_sin_gluten.jsonl", [record("a", "A", menu_count=0)])
+            backup = Path(tmp) / "backup.jsonl"
+            write_jsonl(
+                backup,
+                [{"file": "menus", "place_id": "a", "place": "A", "name": "Viejo", "price": "$1"}],
+            )
+            report = Path(tmp) / "report.jsonl"
+            write_jsonl(
+                report,
+                [{"place": "A", "ftid": "a", "old_count": 1, "extracted_count": 1, "status": "ok"}],
+            )
+            write_jsonl(data_dir / "mis_lugares_sin_gluten_menus.jsonl", [])
+            write_jsonl(data_dir / "menus_review.jsonl", [])
+            write_jsonl(data_dir / "menus_rejected.jsonl", [])
+            finalize_report(data_dir, report, backup, db_path=db_path)
+            conn = store.connect(db_path)
+            menu_json = conn.execute(
+                "SELECT menu_json FROM places WHERE ftid='a'"
+            ).fetchone()[0]
+            conn.close()
+            self.assertIn("Viejo", menu_json or "")
 
 
 if __name__ == "__main__":

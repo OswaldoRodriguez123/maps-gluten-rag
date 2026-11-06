@@ -27,32 +27,44 @@ def _clp(value) -> str | None:
     return f"${int(round(number)):,}".replace(",", ".")
 
 
-def _labels(raw) -> list[str]:
+def _as_list(raw):
+    if isinstance(raw, list):
+        return raw
+    if isinstance(raw, dict):
+        return [raw]
     try:
         data = json.loads(raw or "[]")
     except (TypeError, ValueError, json.JSONDecodeError):
         return []
-    if not isinstance(data, list):
-        return []
+    if isinstance(data, list):
+        return data
+    if isinstance(data, dict):
+        return [data]
+    return []
+
+
+def _labels(raw) -> list[str]:
+    data = _as_list(raw)
     return [_clean(item.get("label")) for item in data if isinstance(item, dict) and item.get("label")]
 
 
 def _prices(raw, fallback):
-    try:
-        data = json.loads(raw or "[]")
-    except (TypeError, ValueError, json.JSONDecodeError):
-        data = []
+    data = _as_list(raw)
     result = []
-    if isinstance(data, list):
-        for item in data:
-            if not isinstance(item, dict):
-                continue
-            try:
-                value = float(item.get("price"))
-            except (TypeError, ValueError):
-                continue
-            if value > 0:
-                result.append((_clean(item.get("description")), value))
+    for item in data:
+        if not isinstance(item, dict):
+            continue
+        try:
+            value = float(item.get("price"))
+        except (TypeError, ValueError):
+            continue
+        if value > 0:
+            description = (
+                item.get("description")
+                or item.get("name")
+                or item.get("label")
+            )
+            result.append((_clean(description), value))
     if not result:
         try:
             value = float(fallback or 0)

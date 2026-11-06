@@ -165,9 +165,14 @@ class ShopifyAdapter:
             return []
         profile = profile_response.json()
         services = (profile.get("ucp") or {}).get("services") or {}
+        shopping = services.get("dev.ucp.shopping") or []
+        if isinstance(shopping, dict):
+            shopping = [shopping]
+        if not isinstance(shopping, list):
+            shopping = []
         endpoints = [
             service.get("endpoint")
-            for service in services.get("dev.ucp.shopping") or []
+            for service in shopping
             if isinstance(service, dict) and service.get("endpoint")
         ]
         if not endpoints:
@@ -177,7 +182,7 @@ class ShopifyAdapter:
             "Content-Type": "application/json",
             "Accept": "application/json, text/event-stream",
         }
-        session.post(
+        init_response = session.post(
             endpoint,
             json={
                 "jsonrpc": "2.0",
@@ -192,6 +197,12 @@ class ShopifyAdapter:
             headers=headers,
             timeout=60,
         )
+        init_headers = getattr(init_response, "headers", {}) or {}
+        session_id = init_headers.get("Mcp-Session-Id") or init_headers.get(
+            "mcp-session-id"
+        )
+        if session_id:
+            headers["Mcp-Session-Id"] = session_id
         items: list[MenuItem] = []
         cursor = None
         for page in range(1, 51):
