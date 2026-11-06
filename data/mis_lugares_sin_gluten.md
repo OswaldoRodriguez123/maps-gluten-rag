@@ -6087,6 +6087,276 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** pastel, galleta
 - **Menciona en reseñas:** pastel, postre
 - **Fecha de registro:** 2025-11-05
+- **Dietético:** 2 platos sin gluten, 41 veganos, 1 sin lactosa
+
+### Qué vende
+
+- Featured items
+- Ensaladas, Gohan & Poke
+- Pan panadería
+- Postres Pastelería
+- Tortas, Tartas y Postres Pastelería
+- Pastas
+- Tortillas y Masas
+- Empanadas panadería
+- Platos preparados comidas preparadas
+- Sandwiches y croissants panadería
+- Chocolatería Gourmet sin Azúcar
+- Mantequillas & Mermeladas
+- Snacks Dulces y Salados
+- Caldos y sopas
+- Granolas
+- Granel
+
+
+### Carta
+
+#### Featured items
+
+- Torta Praliné de Avellanas, Keto y Vegana, 1140 g Marca Tremus SKU: 06010429 — $32.990 [keto, vegana, vegano]
+- Pie De Limón Keto, Marca Tremus 01440431 — $24.990 [keto]
+- Empanada de Pino Keto, 4 unidades Tremus 01480652 — $19.990 [keto]
+- Torta Mousse Tricolor, Keto, Sin Azúcar Añadida, 930 g, Tremus SKU: 06010430 — $30.990 [keto, sin azúcar]
+- Queque Keto Vainilla Arándanos 500 grs Marca Tremus 01440347 — $11.990 [keto]
+- Torta Carrot Cake, Keto, Sin Azúcar Añadida, 1025 g, Tremus SKU: 06010425 — $31.990 [keto, sin azúcar]
+- Plateada de Res con Pastelera y Salsa de Tomillo, Gourmet Individual, Marca Tremus CAF0194 — $9.990
+- Cookie Keto Protein Limón y Red Velvet, Marca Tremus 06010374 — $6.990 [keto]
+- Kuchen De Nuez Keto, Marca Tremus 01440432 — $26.990 [keto]
+- Cookie Keto Protein Chips de Chocolate, Marca Tremus 06010380 — $6.990 [keto]
+- Pack 5 Tortilla Sabor Original, Keto, Proteico y Vegano, 250 g — $7.990 [keto, vegana, vegano]
+- Maccarón Keto y Proteico, Marca Tremus 06010378 — $7.990 [keto]
+- Lasaña Boloñesa Keto Individual Marca Tremus CAF0021 — $8.990 [keto, vegano]
+- Curry de Garbanzos, Marca Tremus CAF0434 — $7.990 [vegano]
+- Torta Chocolate Naranja y Praliné de Avellanas, Vegana, 1335 g, Tremus SKU: 06010428 — $32.990 [vegana, vegano]
+
+#### Ensaladas, Gohan & Poke
+
+- Gohan Camarón Palta, Gourmet Individual marca Tremus CAF0256 — $8.990
+- Gohan de Pollo Apanado en Pan Japonés y Palta, Gourmet Individual CAF0330 — $8.990
+- Poke de Camarón Acevichado, Tremus SKU: 06010511 — $9.990
+- Poke de Pollo Agridulce, Tremus SKU: 06010510 — $8.990
+- Poke de Salmón Teriyaki, Tremus SKU: 06010509 — $9.990
+
+#### Pan panadería
+
+- Muffin de Chocolate, Unidad, Marca Tremus CAF0370 — $3.500
+- Muffin estilo Red Velvet, Unidad, Marca Tremus CAF0371 — $3.500
+- Muffin de Arándanos, Unidad, Marca Tremus CAF0368 — $3.500
+- Muffin de Zanahoria, Unidad, Marca Tremus CAF0369 — $3.500
+
+#### Postres Pastelería
+
+- Alfajor con Praliné de Avellanas, sin Azúcar, Keto, Marca Tremus 01330236 — $3.990 [keto, sin azúcar]
+- Alfajor con Manjar Artesanal, sin Azúcar, Keto, Marca Tremus 01330235 — $3.990 [keto, sin azúcar]
+- Adorada Praliné de Avellanas, sin Azúcar, Keto y Vegana Tremus CAF0216 — $5.990 [keto, sin azúcar, vegana, vegano]
+- Trozo Queque Marmoleado Keto, Marca tremus sku: CAF0562 — $4.500 [keto, sin azúcar]
+- Adorado Brownie sin Azúcar. Keto y Vegano. Marca Tremus 01490267 — $5.990 [keto, sin azúcar, vegana, vegano]
+- Adorada Tricolor de Chocolate, sin Azúcar, Keto Tremus CAF0215 — $5.990 [keto, sin azúcar]
+- Postre Dulce Gato. sin Azúcar. Gourmet Individual. Marca Tremus CAF0243 — $5.990 [sin azúcar]
+- Postre Dulce Oso. Sin Azúcar. Gourmet Individual. Marca Tremus CAF0242 — $5.990 [sin azúcar]
+- Galleton Doble Chip de Chocolate, Vegano, Endulzado con Panela, 1 Un, Marca Tremus 01440468 — $2.590 [vegana, vegano]
+- Adorado Tiramisú. sin Azúcar. Keto. Individual. Marca Tremus CAF0277 — $5.990 [keto, sin azúcar]
+- Brownie Vegano, Keto Proteico, Sin Azúcar Añadida, 80 g, Tremus SKU 01440483 — $4.690 [keto, sin azúcar, vegana, vegano]
+- Donas Rellenas Tricolor, Sin azúcar, Keto, Marca Tremus 06010227 — $8.990 [keto, sin azúcar]
+- Suspiro Limeño, Sin azúcar, Marca Tremus 06010211 — $3.990 [sin azúcar]
+- Mousse de Berries, Keto, Sin azúcar, Marca Tremus 06010210 — $4.590 [keto, sin azúcar]
+- Pannacotta de Coco con Salsa Mango-Maracuya, Keto, Sin azúcar, Marca Tremus 06010208 — $3.990 [keto, sin azúcar]
+- Pannacotta de Chirimoya Alegre, sin azúcar, Marca Tremus 06010207 — $3.990 [sin azúcar]
+- Donas Tricolor, Sin azúcar, Keto, Marca Tremus 06010204 — $5.990 [keto, sin azúcar]
+- Adorado abejita, Marca tremus CAF0548 — $5.990
+- Adorado Pistacho Frambuesa, Keto, Marca tremus CAF0545 — $6.990 [keto]
+- Armonía Chocolate Maracuyá Keto, Sin Azúcar, Marca Tremus 06010294 — $5.990 [keto, sin azúcar]
+- Caja 12 Unidades Mini Pie de Limón, Sin azúcar, Keto, Marca Tremus 06010228 — $14.990 [keto, sin azúcar]
+- Caja 12 Unidades Mini Tarta de Nuez, Sin azúcar, Keto, Marca Tremus 06010229 — $14.990 [keto, sin azúcar]
+- Caja 8 Unidades Mini Cheesecake de Maracuya, Sin azúcar, Keto, Marca Tremus 06010231 — $13.990 [keto, sin azúcar]
+- Caja 8 Unidades Mini Cheesecake de Berries, Sin azúcar, Keto, Marca Tremus 06010232 — $13.990 [keto, sin azúcar]
+- Tentación Tres leches, Sin Azúcar, Keto, Marca Tremus 06010366 — $5.990 [keto, sin azúcar]
+- Tentación Red Velvet, Sin Azúcar, Keto, Marca Tremus 06010367 — $5.990 [keto, sin azúcar]
+- Adorado Prestigio, Sin Azúcar, Keto, Marca Tremus 06010368 — $5.990 [keto, sin azúcar]
+- Tentación Chocolate Maní, Sin Azúcar, Marca Tremus 06010369 — $5.990 [sin azúcar]
+- Torta Tres Leches individual Keto sin azúcar Marca Tremus 01440479 — $5.990 [keto, sin azúcar]
+- Torta Red Velvet individual Keto sin azúcar Marca Tremus 01440476 — $5.990 [keto, sin azúcar]
+- Galletón Doble Chip de Chocolate Vegano endulzado con Panela Marca Tremus 1440468 — $2.490 [vegana, vegano]
+- Tentación Choco Guinda, Sin azúcar, Keto, Marca Tremus 06010383 — $5.990 [keto, sin azúcar]
+- Alfajor de Chocolate Blanco y Mantequilla de Maní, Keto, Sin azúcar, Marca Tremus 06010196 — $3.990 [keto, sin azúcar]
+- Alfajor Pistacho, Sin Azucar Añadida, Keto Proteico, 60 g, Tremus SKU 06010415 — $4.490 [keto, sin azúcar]
+- Mini Torta Dubai, Sin Azúcar, Marca Tremus 06010433 — $7.990 [sin azúcar]
+- Adorado Frutilla, Sin Azúcar, Keto, Tremus 06010445 — $5.990 [keto, sin azúcar]
+- Caja 10 Mini Brownies Keto Vegano, Sin Azúcar Añadida, 280 g, Tremus 06010233 — $16.990 [keto, sin azúcar, vegana, vegano]
+- Postre de Merengue, Chocolate Blanco, Limón y Frambuesa — $32.990
+- Postre de Cuatro Leches, Keto, Sin Azúcar Añadida — $32.990 [keto, sin azúcar]
+- Postre de Brownie Manjar, Sin Azúcar Añadida — $32.990 [sin azúcar]
+- Porción Lemon Cake con Amapola Tremus SKU: CAF0634 — $4.200
+
+#### Tortas, Tartas y Postres Pastelería
+
+- Queque Keto Marmoleado Vainilla Chocolate 500 grs Marca Tremus 01440350 — $11.990 [keto]
+- Queque Keto Vainilla Arándanos 500 grs Marca Tremus 01440347 — $11.990 [keto]
+- Cheesecake Estilo Snickers Keto, Sin Azúcar Añadida, 1500 g, Tremus 06010459 — $36.990 [keto, sin azúcar]
+- Queque Nuez Canela sin Azúcar Keto 500 gr Marca Tremus 01440487 — $11.990 [keto, sin azúcar]
+- Cheesecake de limón Sin Azúcar Keto Marca Tremus 01440488 — $34.990 [keto, sin azúcar]
+- Torta Manjar Nuez Vegana Marca Tremus 01440439 — $31.990 [vegana, vegano]
+- Cheesecake de Berries, Sin Azúcar, Keto, Marca Tremus 01440413 — $34.990 [keto, sin azúcar]
+- Torta Selva Negra Vegana Estilo Naked Marca Tremus 01440485 — $26.990 [vegana, vegano]
+- Torta Ópera, sin Azúcar, Keto, Marca Tremus 06010206 — $31.990 [keto, sin azúcar]
+- Pie De Limón Keto, Marca Tremus 01440431 — $24.990 [keto]
+- Torta Mousse Tricolor, Keto, Sin Azúcar Añadida, 930 g, Tremus SKU: 06010430 — $30.990 [keto, sin azúcar]
+- Torta Carrot Cake, Keto, Sin Azúcar Añadida, 1025 g, Tremus SKU: 06010425 — $31.990 [keto, sin azúcar]
+- Torta Tres Leches, Keto, 1200 g, Tremus SKU: 06010424 — $32.990 [keto]
+- Torta Red Velvet, Keto, 1040 g, Tremus SKU: 06010423 — $32.990 [keto]
+- Torta Chocolate Manjar, Keto, Sin Azúcar Añadida, 1100 g, Tremus SKU: 06010422 — $34.990 [keto, sin azúcar]
+- Torta Chocolate Naranja y Praliné de Avellanas, Vegana, 1335 g, Tremus SKU: 06010428 — $32.990 [vegana, vegano]
+- Torta Praliné de Avellanas, Keto y Vegana, 1140 g Marca Tremus SKU: 06010429 — $32.990 [keto, vegana, vegano]
+- Torta Amor, Sin Azúcar, Tremus 06010434 — $30.990 [sin azúcar]
+- Kuchen De Nuez Keto, Marca Tremus 01440432 — $26.990 [keto]
+- Torta Trufa Bitter y Frambuesa, Sin Azúcar Añadida, 1260 g, Tremus SKU: 06010476 — $39.990 [sin azúcar]
+- Torta Chocolate Dubai, Sin Azúcar Añadida, 1080 g, Tremus SKU: 06010444 — $44.990 [sin azúcar]
+- Torta Limón Amapola, Sin Azúcar Añadida, 1520 g, Tremus SKU: 06010455 — $34.990 [sin azúcar]
+- Torta Hojarasca, Lucuma y Manjar, Sin Azúcar Añadida, 1240 gr, Tremus SKU: 06010522 — $24.990 [sin azúcar]
+
+#### Pastas
+
+- Tagliatelle Keto y Proteico, Marca Tremus 06010377 — $7.990 [keto]
+- Masa Lasaña Keto y Proteica, Marca Tremus 06010379 — $7.990 [keto]
+- Maccarón Keto y Proteico, Marca Tremus 06010378 — $7.990 [keto]
+
+#### Tortillas y Masas
+
+- Pack 5 Tortilla Sabor Original, Keto, Proteico y Vegano, 250 g — $7.990 [keto, vegana, vegano]
+- Pack 3 Unidades de Masa de Pizza Keto, Proteica y Vegana, 250 g — $8.490 [keto, vegana, vegano]
+- Pack 2 Unidades Waffle De Vainilla Keto, Proteico y Sina Azúcar Añadida, 280 g 06010479 — $9.990 [keto, sin azúcar]
+- Pack 2 Unidades Waffle Salado de Queso, Keto y Proteico, 260 g, Tremus 06010177 — $7.990 [keto]
+- Pack 8 Panqueques, Keto y Proteico, Sin Azúcar Añadida, 160 g 06010481 — $5.990 [keto, sin azúcar]
+- Pack 2 Unidades Waffle De Cacao Keto, Proteico, Sin Azúcar Añadida, 280 g 06010478 — $9.990 [keto, sin azúcar]
+
+#### Empanadas panadería
+
+- Empanada de Pino Keto, 4 unidades Tremus 01480652 — $19.990 [keto]
+- Empanada de Pino Tradicional, Con Carne de Ternero de Libre Pastoreo, 4 unidades, Tremus 06010162 — $12.990
+- Empanada de Pino Keto, Individual, Marca Tremus CAF0019 — $5.290 [keto]
+- Empanada de Pino Tradicional Individual Marca Tremus CAF0269 — $3.590
+- Empanada de Aji de Gallina 4 unidades (700 g) Tremus 06010497 — $12.990
+- Empanada de Ají de Gallina 1 unidad Tremus CAF0581 — $3.590
+
+#### Platos preparados comidas preparadas
+
+- Lasaña Boloñesa Keto Individual Marca Tremus CAF0021 — $8.990 [keto, vegano]
+- Canelón Carne, con Salsa Benchamel y Pomodoro, Keto Individual CAF0281 — $8.990 [keto]
+- Lasaña Parmigiana de Berenjenas Gourmet Individual Marca Tremus CAF0083 — $8.990 [vegano]
+- Albondigas de Vacuno al Pomodoro con Arroz, 355 gr, Marca Tremus CAF0176 — $7.490
+- Ñoquis de Papas con Salsa Boloñesa, Gourmet Individual, Marca Tremus CAF0187 — $7.990
+- Ñoquis de Papas con Salsa tres Quesos, Marca Tremus CAF0123 — $8.490
+- Lomo al Estilo Peruano con Papas Fritas al Horno y Arroz Graneado. Marca Tremus CAF0186 — $9.990
+- Milanesa de Berenjenas con Gratín de Papa y Verduras Vegetariano Tremus CAF0036 — $7.990 [vegano]
+- Ají de Gallina con Arroz, sin Lácteos, Gourmet Individual Marca Tremus CAF0182 — $7.990 [vegano]
+- Plateada de Res con Pastelera y Salsa de Tomillo, Gourmet Individual, Marca Tremus CAF0194 — $9.990
+- Curry de Garbanzos, Marca Tremus CAF0434 — $7.990 [vegano]
+- Plateada de Vacuno con Puré de Papas Lyonesa, Marca Tremus CAF0426 — $9.990 [vegano]
+- Salmón a las Finas Hierbas y Puré de Coliflor Keto, marca Tremus CAF0487 — $9.990 [keto]
+- Ravioli de Pollo y Salsa de Champiñones, Marca Tremus 06010391 — $8.990
+
+#### Sandwiches y croissants panadería
+
+- Croissant Multisemillas Jamón de Pavo y Queso CAF0158 — $6.990
+- Croissant Jamón Queso Tremus CAF0114 — $6.990
+- Ciabatta Masa Madre Roast Beef y Salsa Tártara, Tremus CAF0001 — $7.990
+- Croissant Multisemilas Queso de Cabra y Tomates Asados, Vegetariano CAF0416 — $7.990
+- Sandwich Mechada Queso CAF0147 — $5.990
+- Baguette Multicereal Pollo Caprese Tremus CAF0125 — $7.990
+- Sandwich Miga Jamón Pierna y Queso, Tremus CAF0104 — $4.990
+- Croissant Relleno tres leches, Marca Tremus 06010406 — $6.290
+- Croissant Dubai, Marca Tremus 06010416 — $7.200
+- Croissant Amor, Tremus 06010443 — $6.200
+- Bagel Salmón Queso Crema y Alcaparra, Tremus SKU: 06010512 — $9.200
+- Bagel Original Pulled Porck, Tremus SKU: 06010507 — $6.990
+- Bagel Multisemilla Capresse, Tremus SKU: 06010513 — $6.190
+
+#### Chocolatería Gourmet sin Azúcar
+
+- Galletas Florentinas Nueces y Chocolate Blanco, Keto, Sin Azúcar Añadida, 180 g 01490245 — $14.990 [keto, sin azúcar]
+- Monedas de Chocolate «Mendiants», Sin Azúcar, Mix Gourmet, 150 g, Tremus 06010482 — $14.990 [sin azúcar]
+- Trufas de Maracuyá y Chocolate Blanco, Pack de 12 Unidades, Sin Azúcar, Keto 06010417 — $12.990 [keto, sin azúcar]
+- Trufas Sabor Naranja Keto, Veganas, Sin Azúcar Añadida, 160 g 01330244 — $12.990 [keto, sin azúcar, vegana, vegano]
+- Trufas Sabor Menta Keto, Veganas, Sin Azúcar Añadida, 160 g 01330240 — $12.990 [keto, sin azúcar, vegana, vegano]
+- Galletas Florentinas Pistacho, Chocolate Bitter, Keto y Vegano, Sin Azúcar Añadida, 180 g 06010437 — $15.990 [keto, sin azúcar, vegana, vegano]
+- Galletas Florentinas Avellan y Chocolate de Leche, Keto, Sin Azúcar Añadida, 180 g 06010440 — $14.990 [keto, sin azúcar]
+- Mix de Trufas, Keto, Sin Azúcar Añadida, 155 g 06010439 — $12.990 [keto, sin azúcar]
+- Trufas Sabor Amaret Keto, Veganas, Sin Azúcar Añadida, 160 g 01330241 — $12.990 [keto, sin azúcar, vegana, vegano]
+- Mix de Galletas Florentinas Keto, Sin Azúcar Añadida, 180 g 06010438 — $14.990 [keto, sin azúcar]
+
+#### Mantequillas & Mermeladas
+
+- Dulce de Leche Sin Lactosa, Keto Sin Azúcar 200 gr Marca Tremus 01440435 — $9.990 [keto, sin azúcar, sin lactosa]
+- Mantequilla de Maní, Sin Azúcar, Keto y Vegana, 170 gr, Marca Tremus 01440495 — $4.990 [keto, sin azúcar, vegana, vegano]
+- Mantequilla Choco- Avellana, Sin Azúcar, Keto y Vegana, 170 gr, Marca Tremus 01440497 — $8.990 [keto, sin azúcar, vegana, vegano]
+- Manjar de Coco Keto y Vegano Sin Azúcar 200 grs Marca Tremus 1440444 — $9.990 [keto, sin azúcar, vegana, vegano]
+- Mantequilla de Almendra Crunchy, Sin Azúcar, Keto y Vegana, 170 gr, Marca Tremus 01440498 — $7.990 [keto, sin azúcar, vegana, vegano]
+- Mermelada de Frambuesa Keto, Sin Azúcar, 200gr, Marca Tremus 01490291 — $7.990 [keto, sin azúcar, vegano]
+- Mermelada de Frutilla Keto Vegana, Sin Azúcar Añadida, 200 g, Tremus 01490293 — $7.990 [keto, sin azúcar, vegana, vegano]
+
+#### Snacks Dulces y Salados
+
+- Crackers Keto Semillas Romero y Orégano, Marca Tremus 06010370 — $6.990 [keto, vegano]
+- Crackers Keto Protein Queso de Cabra y Tomate Deshidratado, Marca Tremus 06010373 — $6.990 [keto]
+- Cookie Keto Protein Limón y Red Velvet, Marca Tremus 06010374 — $6.990 [keto]
+- Cookie Keto Protein Almendra y Vainilla, Marca Tremus 06010375 — $6.990 [keto, sin azúcar]
+- Cookie Keto Protein Chips de Chocolate, Marca Tremus 06010380 — $6.990 [keto]
+- Crackers Keto Protein Queso Mozzarella y Merkén, 100 gr, Marca Tremus 06010372 — $6.990 [keto]
+- Galleton keto proteico Doble chip chocolate 60 gr Tremus SKU 06010490 — $3.990 [keto, sin azúcar]
+- Galleton keto proteico chocolate avellana 60 gr Tremus SKU 06010487 — $3.990 [keto, sin azúcar]
+- Grageas maní Chocolate 65% Cacao, Keto Proteico, 30 g, Tremus SKU 01490342 — $2.490 [keto]
+- Granola Bites Mix Frutos secos, Keto Proteica, 40 g, Tremus SKU 01490341 — $1.690 [keto, sin azúcar]
+- Mini Cookie Almendra y Vainilla, Keto Proteico, 35 g, Tremus SKU 01490339 — $1.990 [keto, sin azúcar, sin gluten]
+- Mini Cookie Chip de chocolate, Keto Proteico, 35 g, Tremus SKU 01490338 — $1.990 [keto, sin azúcar]
+- Cracker Queso Mozarella y Merkén, Keto Proteico, 25 g, Tremus SKU 01490337 — $1.990 [keto, sin gluten]
+- Cracker mix de semillas y sal de mar, Keto, 20 g, Tremus SKU 01490336 — $1.290 [keto, sin azúcar, vegano]
+
+#### Caldos y sopas
+
+- Caldo de Huesos, Pollo, Con Curcuma, 250 cc, Marca Tremus 06010219 — $3.990
+- Caldo de Huesos, Pollo, 1 Litro, Marca Tremus 06010203 — $5.990
+- Crema de Tomate 350 cc Marca Tremus 01490218 — $5.990
+- Crema Artesanal de Verduras Vegana 350 cc Marca Tremus 01490215 — $5.990 [vegana, vegano]
+- Crema de Zapallo Camote, Gourmet, 350 cc, Marca Tremus CAF0039 — $5.990
+- Caldo de Huesos, Vacuno, 1 Litro, Marca Tremus 06010381 — $9.990
+
+#### Granolas
+
+- Granola Avena con cacao sin Azúcar Vegano 250 gr Marca Tremus 01090245 — $7.990 [sin azúcar, vegana, vegano]
+- Granola Avena y Semilla sin Azúcar Vegano 250 gr Marca Tremus 01090244 — $7.990 [sin azúcar, vegana, vegano]
+- Granola Proteica Keto sin Azúcar 250 gr Marca Tremus 01090229 — $9.990 [keto, sin azúcar]
+
+#### Granel
+
+- Almendras Fileteadas, 250 gr, Granel Tremus GRA034 — $6.190
+- Almendras Enteras Naturales, 250 gr, Granel Tremus GRA033 — $4.690
+- Almendras Enteras Tostadas, 250 gr, Granel Tremus GRA032 — $4.390
+- Almidón de Mandioca, 500 gr, Granel Tremus GRA031 — $1.890
+- Arroz Basmati,1000 gr, Granel Tremus GRA020 — $7.390
+- Avena Instantánea, 500 gr, Granel Tremus GRA042 — $1.100
+- Cacao en Polvo, sin Azúcar, 250 gr, Granel Tremus GRA052 — $4.990 [sin azúcar, vegano]
+- Castañas de Cajú, sin Sal, 250 gr, Granel Tremus GRA039 — $6.590
+- Cranberries, sin Azúcar Añadida, 250 gr, Granel Tremus GRA046 — $3.510 [sin azúcar]
+- Fibra de Avena, 500 gr, Granel Tremus GRA067 — $9.290
+- Garbanzos, 1000 gr, Granel Tremus GRA017 — $3.390
+- Harina de Almendras, con Piel, 500 gr, Granel Tremus GRA002 — $6.290
+- Harina de Almendras, sin Piel, 500 gr, Granel Tremus GRA001 — $8.590
+- Harina de Arroz a granel 500 gr Granel Tremus GRA006 — $1.490
+- Harina de Centeno, 500 gr, Granel Tremus GRA059 — $2.020
+- Harina de Coco, 500 gr, Granel Tremus GRA003 — $3.760
+- Harina de Lupino, 1000 Grs, Granel Tremus GRA071 — $2.890 [vegano]
+- Harina Linaza Dorada, 500 gr, Granel Tremus GRA004 — $2.800
+- Lenteja Roja 1000 gr, Granel Tremus GRA019 — $4.790
+- Maní Bañado en Chocolate sin Azúcar 250 gr, Granel Tremus GRA058 — $5.990 [sin azúcar]
+- Panela , 500 gr, Granel Tremus GRA026 — $7.900
+- Poroto de Soya, 1000 gr, Granel Tremus GRA016 — $3.600
+- Poroto Negro, 1000 gr, Granel Tremus GRA015 — $7.120
+- Proteína de Soya Gruesa , 250 gr, Granel Tremus GRA010 — $1.520 [vegano]
+- Quinoa Tricolor, 1000 Grs Granel Tremus GRA072 — $4.990
+- Semilla de Chía, 250 gr, Granel Tremus GRA011 — $2.390
+- Semilla de Maravilla Pelada, 250 gr, Granel Tremus GRA013 — $2.390
+- Semilla de Zapallo, 250 gr, Granel Tremus GRA014 — $3.990
+
 
 ## Vapiano Parque Arauco
 - **Ubicación:** #393, Av. Pdte. Kennedy 5413, Las Condes, Región Metropolitana

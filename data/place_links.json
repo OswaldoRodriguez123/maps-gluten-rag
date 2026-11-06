@@ -331,5 +331,16 @@
         "url": "https://www.ubereats.com/cl/store/la-comarca-celiaca-santiago/DHKhrg-JXhSXnxGMhuMKMw"
       }
     ]
+  },
+  "0x9662cf79624cfa1d:0x55327f56127d47c0": {
+    "name": "Tremus Las Condes Market & Coffee",
+    "website": null,
+    "menu": null,
+    "order": [
+      {
+        "provider": "Uber Eats",
+        "url": "https://www.ubereats.com/cl/store/tremus/FncFsW8RRNiSEZJiK1aYqg"
+      }
+    ]
   }
 }
