@@ -1,7 +1,8 @@
-"""Website search fallback: DuckDuckGo HTML + validación LLM.
+"""Website search fallback: DuckDuckGo HTML (Playwright) + validación LLM.
 
-Módulo standalone, solo stdlib + GEMINI_API_KEY. No acepta ninguna URL
-sin validación LLM con nombre + overlap de dirección y score >= 0.85.
+No acepta ninguna URL sin validación LLM con nombre + overlap de
+dirección y score >= 0.85. DuckDuckGo se navega con Playwright (evita el
+anti-bot/anomaly que bloquea a urllib); Gemini sigue por urllib.
 """
 
 from __future__ import annotations
@@ -84,6 +85,47 @@ def _decode_uddg(href: str | None) -> str:
     return ""
 
 
+# --- helpers Playwright (DuckDuckGo) ---
+
+
+def _launch_temp_browser():
+    """Lanza un browser temporal para modo standalone (tests).
+
+    Returns:
+        tuple(pw, browser, page): `pw` es el objeto Playwright (usar
+        ``pw.stop()`` al terminar), `browser` el Chromium y `page` una
+        página nueva con el UA del proyecto.
+    """
+    from playwright.sync_api import sync_playwright
+
+    pw = sync_playwright().start()
+    browser = pw.chromium.launch(
+        headless=True,
+        args=["--disable-blink-features=AutomationControlled", "--no-first-run"],
+    )
+    page = browser.new_page(user_agent=UA)
+    return pw, browser, page
+
+
+def _close_temp_browser(pw, browser, page) -> None:
+    """Cierra page/browser/pw de _launch_temp_browser (best-effort)."""
+    try:
+        if page is not None:
+            page.close()
+    except Exception:
+        pass
+    try:
+        if browser is not None:
+            browser.close()
+    except Exception:
+        pass
+    try:
+        if pw is not None:
+            pw.stop()
+    except Exception:
+        pass
+
+
 class _DDGParser(HTMLParser):
     def __init__(self) -> None:
         super().__init__()
@@ -154,26 +196,117 @@ class _DDGParser(HTMLParser):
             self._pending_title = ""
 
 
-def fetch_candidates(query: str, *, timeout: int = 12) -> list[dict]:
+def fetch_candidates(query: str, *, timeout: int = 12, page=None) -> list[dict]:
+    """Busca en DuckDuckGo HTML con Playwright y devuelve candidatos.
+
+    Args:
+        query: texto de búsqueda.
+        timeout: segundos para goto/wait (se convierte a ms para Playwright).
+        page: página Playwright opcional. Si se pasa, se usa directamente
+            (sin cerrarla). Si es None, se lanza un browser temporal que
+            se cierra al terminar.
+
+    Returns:
+        Lista de dicts ``{"url", "title", "snippet"}`` (url ya decodificada
+        desde ``uddg``). En cualquier fallo de red/timeout devuelve ``[]``.
+        Lanza ``urllib.error.HTTPError`` (403/429) para que ``search_website``
+        degrade a ``blocked``/``quota``.
+    """
     url = DDG_URL + "?q=" + urllib.parse.quote_plus(query or "")
-    request = urllib.request.Request(url, headers={"User-Agent": UA})
+    timeout_ms = max(int(timeout or 12) * 1000, 1000)
+
+    owns_browser = False
+    pw = browser = temp_page = None
+    effective_page = page
+    if effective_page is None:
+        try:
+            pw, browser, temp_page = _launch_temp_browser()
+            effective_page = temp_page
+            owns_browser = True
+        except Exception:
+            return []
+
     try:
-        with urllib.request.urlopen(request, timeout=timeout) as response:
-            raw = response.read()
-    except urllib.error.HTTPError:
-        raise
-    except Exception:
-        return []
-    try:
-        html_text = raw.decode("utf-8", errors="ignore") if isinstance(raw, bytes) else str(raw or "")
-    except Exception:
-        return []
-    if not html_text:
-        return []
-    parser = _DDGParser()
-    parser.feed(html_text)
-    parser.close()
-    return parser.candidates
+        # Navegar a DDG HTML.
+        try:
+            response = effective_page.goto(
+                url, wait_until="domcontentloaded", timeout=timeout_ms
+            )
+        except urllib.error.HTTPError:
+            raise
+        except Exception as exc:
+            # Playwright a veces mete el estado HTTP en el mensaje.
+            msg = str(exc or "")
+            if " 403" in msg or "Forbidden" in msg:
+                raise urllib.error.HTTPError(url, 403, "Forbidden", None, None) from exc
+            if " 429" in msg or "Too Many Requests" in msg:
+                raise urllib.error.HTTPError(url, 429, "Too Many Requests", None, None) from exc
+            return []
+
+        # Mapear estado HTTP -> HTTPError para degradación 403/429.
+        if response is not None:
+            try:
+                status = response.status
+            except Exception:
+                status = None
+            if status == 403:
+                raise urllib.error.HTTPError(url, 403, "Forbidden", None, None)
+            if status == 429:
+                raise urllib.error.HTTPError(url, 429, "Too Many Requests", None, None)
+
+        # Esperar a que aparezcan resultados.
+        try:
+            effective_page.wait_for_selector("a.result__a", timeout=timeout_ms)
+        except Exception:
+            return []
+
+        # Extraer del DOM renderizado (selectores del brief).
+        try:
+            entries = effective_page.eval_on_selector_all(
+                "a.result__a",
+                "els => els.map(e => ({href: e.getAttribute('href') || '', text: (e.innerText || e.textContent || '').trim()}))",
+            )
+        except Exception:
+            return []
+        if not entries:
+            return []
+
+        try:
+            snippets = effective_page.eval_on_selector_all(
+                "a.result__snippet",
+                "els => els.map(e => (e.innerText || e.textContent || '').trim())",
+            )
+        except Exception:
+            snippets = []
+        if not isinstance(snippets, (list, tuple)):
+            snippets = []
+
+        results: list[dict] = []
+        for idx, entry in enumerate(entries):
+            if isinstance(entry, dict):
+                href = entry.get("href") or ""
+                title = (entry.get("text") or "").strip()
+            else:
+                # Fallback por orden título/snippet si el mock devuelve strings.
+                href = ""
+                title = str(entry or "").strip()
+            decoded = _decode_uddg(href)
+            if not decoded or not title:
+                continue
+            snippet = ""
+            if idx < len(snippets):
+                raw = snippets[idx]
+                snippet = (
+                    (raw or "").strip()
+                    if isinstance(raw, str)
+                    else str(raw or "").strip()
+                )
+                snippet = " ".join(snippet.split())
+            results.append({"url": decoded, "title": title, "snippet": snippet})
+        return results
+    finally:
+        if owns_browser:
+            _close_temp_browser(pw, browser, temp_page)
 
 
 def filter_candidates(candidates: list[dict]) -> list[dict]:
@@ -289,40 +422,102 @@ def llm_validate(
 
 
 def search_website(
-    name: str, address: str | None, *, api_key: str | None, timeout: int = 12
+    name: str,
+    address: str | None,
+    *,
+    api_key: str | None,
+    timeout: int = 12,
+    page=None,
+    browser=None,
 ) -> tuple[str | None, float, str | None]:
+    """Busca el sitio oficial de un lugar en DuckDuckGo y lo valida con LLM.
+
+    Args:
+        name: nombre del lugar.
+        address: dirección (o None).
+        api_key: GEMINI_API_KEY. Sin ella devuelve ``(None, 0.0, None)`` sin red.
+        timeout: segundos para la búsqueda DDG.
+        page: página Playwright opcional (se usa directamente, no se cierra).
+        browser: browser Playwright opcional. Se crea una página temporal
+            con él y se cierra al final (el browser no se cierra).
+            Si no se pasa ni ``page`` ni ``browser``, se lanza un browser
+            temporal standalone (ver ``_launch_temp_browser``) y se cierra
+            todo al final.
+    """
     if not api_key:
         return (None, 0.0, None)
     query = build_search_query(name, address)
+
+    effective_page = page
+    temp_page = None
+    owns_page = False
+    pw = None
+    temp_browser = None
+
     try:
-        candidates = fetch_candidates(query, timeout=timeout)
-    except urllib.error.HTTPError as exc:
-        code = _http_code(exc)
-        if code == 403:
-            return (None, 0.0, "blocked")
-        if code == 429:
-            return (None, 0.0, "quota")
-        return (None, 0.0, None)
-    except Exception:
-        return (None, 0.0, None)
-    filtered = filter_candidates(candidates)
-    if not filtered:
-        return (None, 0.0, None)
-    try:
-        url, score = llm_validate(name, address, filtered, api_key)
-    except urllib.error.HTTPError as exc:
-        code = _http_code(exc)
-        if code == 403:
-            return (None, 0.0, "blocked")
-        if code == 429:
-            return (None, 0.0, "quota")
-        return (None, 0.0, None)
-    except Exception:
-        return (None, 0.0, None)
-    try:
-        score_f = float(score)
-    except (TypeError, ValueError):
-        score_f = 0.0
-    if not url or score_f < ACCEPT_THRESHOLD:
-        return (None, score_f, None)
-    return (url, score_f, None)
+        if effective_page is None:
+            if browser is not None:
+                try:
+                    temp_page = browser.new_page(user_agent=UA)
+                except Exception:
+                    return (None, 0.0, None)
+                effective_page = temp_page
+                owns_page = True
+            else:
+                try:
+                    pw, temp_browser, temp_page = _launch_temp_browser()
+                except Exception:
+                    return (None, 0.0, None)
+                effective_page = temp_page
+                owns_page = True
+
+        try:
+            candidates = fetch_candidates(query, timeout=timeout, page=effective_page)
+        except urllib.error.HTTPError as exc:
+            code = _http_code(exc)
+            if code == 403:
+                return (None, 0.0, "blocked")
+            if code == 429:
+                return (None, 0.0, "quota")
+            return (None, 0.0, None)
+        except Exception:
+            return (None, 0.0, None)
+        filtered = filter_candidates(candidates)
+        if not filtered:
+            return (None, 0.0, None)
+        try:
+            url, score = llm_validate(name, address, filtered, api_key)
+        except urllib.error.HTTPError as exc:
+            code = _http_code(exc)
+            if code == 403:
+                return (None, 0.0, "blocked")
+            if code == 429:
+                return (None, 0.0, "quota")
+            return (None, 0.0, None)
+        except Exception:
+            return (None, 0.0, None)
+        try:
+            score_f = float(score)
+        except (TypeError, ValueError):
+            score_f = 0.0
+        if not url or score_f < ACCEPT_THRESHOLD:
+            return (None, score_f, None)
+        return (url, score_f, None)
+    finally:
+        # No cerrar la page del llamante; solo las temporales.
+        if owns_page and temp_page is not None:
+            try:
+                temp_page.close()
+            except Exception:
+                pass
+        if pw is not None or temp_browser is not None:
+            try:
+                if temp_browser is not None:
+                    temp_browser.close()
+            except Exception:
+                pass
+            try:
+                if pw is not None:
+                    pw.stop()
+            except Exception:
+                pass
