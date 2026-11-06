@@ -5,11 +5,11 @@ _Fecha: 2026-11-06 · Fuente: Doc regenerado_
 ## Resumen
 
 - **100 lugares** en la lista.
-- **78 con platos publicables**: 4769 platos.
+- **78 con platos publicables**: 4847 platos.
 - **1 solo con categorías**.
 - **21 sin carta ni categorías**: 14 sin web y 7 con web.
-- **11 con carta corta** (1-9 platos).
-- **12 con menos del 50% de precios**.
+- **9 con carta corta** (1-9 platos).
+- **10 con menos del 50% de precios**.
 - **0 con mucho ruido**.
 - **33 sin web registrada**.
 - **4 sin ningún dato**.
@@ -56,11 +56,9 @@ _Fecha: 2026-11-06 · Fuente: Doc regenerado_
 | BAR EL BAJO | Bar | 1 | 1 | 0 | 1 |
 | Emporio de la Tierra | Tienda de alimentos naturales | 1 | 0 | 0 | 0 |
 | Fain | Tienda de alimentos naturales | 1 | 1 | 0 | 0 |
-| Las Petunias Pastelería sin azúcar y sin gluten | Pastelería | 1 | 0 | 1 | 0 |
 | Bonheur Pâtisserie | Pastelería | 2 | 2 | 0 | 2 |
 | BuganVilla cafe & market | Tienda de delicatessen | 2 | 2 | 0 | 0 |
 | COMERCIAL RAKKO | Tienda de alimentos naturales | 3 | 3 | 0 | 0 |
-| Gusto's - Keto, health & gluten free | Restaurante de comida sin gluten | 3 | 0 | 2 | 0 |
 | Pizzeria Latinoamericana | Pizzería a domicilio | 3 | 3 | 0 | 0 |
 | Yoko Sea Food | Restaurante peruano | 6 | 6 | 0 | 0 |
 | Café Kanela | Cafetería | 7 | 7 | 1 | 0 |
@@ -73,9 +71,7 @@ _Fecha: 2026-11-06 · Fuente: Doc regenerado_
 | Cetortillas - Low Carb Factory | Tortillería | 20 | 0 | 7 | 7 |
 | Sapiens | Restaurante vegano | 18 | 0 | 7 | 0 |
 | Alma Chilanga | Restaurante mexicano | 13 | 0 | 0 | 0 |
-| Gusto's - Keto, health & gluten free | Restaurante de comida sin gluten | 3 | 0 | 2 | 0 |
 | Emporio de la Tierra | Tienda de alimentos naturales | 1 | 0 | 0 | 0 |
-| Las Petunias Pastelería sin azúcar y sin gluten | Pastelería | 1 | 0 | 1 | 0 |
 | L'Arrabbiata Foodmarket | Supermercado | 13 | 1 | 3 | 0 |
 | CASACIENCAFE | Snack bar | 53 | 9 | 6 | 1 |
 | Pizza Bistrot | Restaurante | 24 | 8 | 2 | 2 |

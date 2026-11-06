@@ -4017,11 +4017,76 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Fecha de registro:** 2025-11-05
 - **Dietético:** local 100% sin gluten
 
+### Qué vende
+
+- Especialidades Sin Gluten
+- Prepara tu Pizza individual Sin Gluten
+- Hamburguesas sin gluten
+- Postres Sin Gluten
+- Panaderia Especial Sin Gluten
+- Bebidas
+- Prepara tu pizza mediana sin gluten
+
+
 ### Carta
 
-- PIZZAS INDIVIDUALES KETO
-- MIXTO VACUNO Y POLLO 360GR)
-- GR O MIXTO VACUNO Y POLLO 360GR)
+#### Especialidades Sin Gluten
+
+- Sandwich de lomo de cerdo — $4.000
+- Sanchwich mozzarella — $6.600
+- Sandwich de huevo — $6.600
+- Sandwich 3 quesos — $8.000
+
+#### Prepara tu Pizza individual Sin Gluten
+
+- Pizza mozzarella sin gluten — $13.500
+- Pizza vegetariana sin gluten — $13.500
+- Pizza queso de cabra sin gluten — $16.200
+- Pizza queso deslactosado sin gluten — $13.500
+
+#### Hamburguesas sin gluten
+
+- Hamburguesa de pollo — $12.500
+- Hamburguesa de vacuno — $12.500
+- Hamburguesa vacuno champiñon — $13.600
+- Hamburguesa doble — $16.300
+- Hamburguesa americana doble — $18.500
+- Hamburguesa al plato de vacuno o pollo — $11.000
+- Hamburguesa americana — $14.000
+- Hamburguesa doble al plato — $14.000
+
+#### Postres Sin Gluten
+
+- Brownie de chocolate gluten free — $3.500
+- Canelitas sin gluten - sin lacteos — $5.000
+- Alfajor cubierto de chocolate — $3.500
+- Galletas de arroz gluten free — $2.500
+
+#### Panaderia Especial Sin Gluten
+
+- Pan de hamburguesa sin gluten — $6.200
+- Pan de choripan sin gluten — $6.200
+- Masa de pizza mediana sin gluten — $9.000
+
+#### Bebidas
+
+- Fanta 350ml — $2.700
+- Coca-cola 350ml — $2.700
+- Coca-cola zero 350ml — $2.700
+- Limonada de coco — $6.500
+- Agua sin gas — $2.700
+- Agua con gas — $2.700
+- Milk shake de coco — $7.500
+- Limonada con hierbabuena — $6.500
+- Jugo de frutos rojos — $6.500
+- Limonada de frutos rojos — $6.500
+
+#### Prepara tu pizza mediana sin gluten
+
+- Pizza mediana con queso deslactosado — $18.900
+- Pizza mediana vegetariana sin gluten — $16.600
+- Pizza mediana mozzarella sin gluten — $18.900
+- Pizza mediana de queso de cabra — $22.000
 
 
 ## Helados Quinto Pino
@@ -4509,11 +4574,114 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.laspetunias.cl/
 - **Menciona en reseñas:** torta, pastel, alfajor, pie, dulces
 - **Fecha de registro:** 2026-05-14
-- **Dietético:** local 100% sin gluten
+- **Dietético:** local 100% sin gluten, 1 veganos
+
+### Qué vende
+
+- Alfajores
+- Insumos
+- Blondies
+- Chocolates
+- Brownies
+- Cheesecakes
+- Postres
+- Panadería
+- Galletas
+- Granola
+- Helados
+- Muffins
+- Tortas
+- Barras
+
 
 ### Carta
 
-- PASTELERÍA SIN AZUCAR [sin azúcar]
+#### Alfajores
+
+- Alfajor Bitter — $4.350
+- Alfajor Blanco — $4.350
+- Alfajor Clásico — $4.350
+- Alfajor Clásico Frambuesa — $4.350
+- Alfajor Coco — $3.890
+- Alfajor Nutella — $4.990
+
+#### Insumos
+
+- Alulosa 100% pura 500grs — $7.990
+
+#### Blondies
+
+- Blondie Almond Cake — $3.450
+- Blondie Arándanos — $3.450
+- Blondie Canela Almendra — $3.450
+- Blondie Frambuesa — $3.450
+- Blondie Naranja — $3.450
+- Blondie Nuez Canela — $3.450
+- Blondie Vainilla Amapola — $3.450
+- Nuez Canela Blondie — $3.650
+
+#### Chocolates
+
+- Bombas de Chocolate unidades — $3.200
+
+#### Brownies
+
+- Brownie Clásico — $3.450
+- Brownie Clásico sin lácteos — $3.800
+- Brownie Frambuesa — $3.850
+
+#### Cheesecakes
+
+- Cheesecake Chocolate Brownie — $13.490
+- Cheesecake Frambuesa — $5.990
+- Cheesecake Maracuyá — $5.990
+
+#### Postres
+
+- Choco Cake — $4.590
+- Coco Cake — $3.650
+- Lemon Frosting Coco — $4.590
+- Mini Pie de Limón Individual — $5.290
+- Tiramisú — $4.590
+
+#### Panadería
+
+- Cracker Salada 150 grs — $5.990
+- Discos de albaca 150grs — $5.990
+- Pan de Pascua — $6.500
+
+#### Galletas
+
+- Galletas Delicias — $7.590
+
+#### Granola
+
+- Granola de Avellanas 250 grs — $7.990
+
+#### Helados
+
+- Helado Vegano diferentes sabores — $4.900 [vegano]
+
+#### Muffins
+
+- Muffins — $3.800
+- Muffins de Zanahoria sin Lácteos — $3.900
+
+#### Tortas
+
+- Torta Carrot cake — $8.790
+- Torta Dalia — $8.790
+- Torta Flor de Loto — $8.790
+- Torta Jazmin — $8.790
+- Torta Las Petunias — $8.790
+- Torta Magnolia sin lácteos — $8.790
+- Torta Margarita Chocolate — $8.790
+- Torta Tulipán Limón Arándanos — $8.790
+- Torta Tulipán de Brownie — $57.990
+
+#### Barras
+
+- Barra Nuez Manjar — $4.890
 
 
 ## Lemongrass
