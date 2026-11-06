@@ -93,7 +93,7 @@ Si la ficha de Maps no trae web (`_extract_website` / `discover_links` vacíos),
 - Gemini (`GEMINI_API_KEY`, el mismo secret de visión; sin clave no se acepta nada) valida nombre + overlap de dirección. Solo acepta match fuerte: `score >= 0.85` y URL que esté entre los candidatos (una URL inventada por el LLM o un homónimo se rechaza siempre).
 - Si acepta, la web se trata igual que la de Maps (`_site_dishes`, adaptadores Fudo/Shopify/etc., fotos como respaldo) y queda constancia de origen: `website_source='search'` en SQLite y en `metadata.website_source` del JSONL (`'maps'` cuando viene de Maps).
 - Aplica al enriquecido de `run` y al fallback de `update_new_places` tras `discover_links`. Si el buscador bloquea (403) o hay cuota (429), o no hay match fuerte, degrada en silencio y el local sigue como hoy (`needs_manual`): una web equivocada es peor que ninguna, nunca se inventa la URL.
-- Control: `MAPS_WEBSITE_SEARCH=1` por defecto; `MAPS_WEBSITE_SEARCH=0` o `python -m maps_gluten run --no-website-search` lo apaga; `--website-search` lo fuerza aunque el env esté en 0 (el flag gana, si no se usa el env). Rate limit suave (0.5 s entre búsquedas).
+- Control: `MAPS_WEBSITE_SEARCH=1` por defecto; `MAPS_WEBSITE_SEARCH=0` o `python -m maps_gluten run --no-website-search` lo apaga; `--website-search` lo fuerza aunque el env esté en 0 (el flag gana, si no se usa el env). Rate limit suave (0.5 s entre búsquedas). El modelo de validación se puede cambiar con `GEMINI_SEARCH_MODEL` (por defecto `gemini-flash-lite-latest`).
 
 ### OCR de cartas escaneadas
 
