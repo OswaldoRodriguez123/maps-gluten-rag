@@ -1,0 +1,18 @@
+[
+  {
+    "menu_item_name": "Schop Royal Guard",
+    "menu_item_category_name": "Cervezas",
+    "menu_item_description": "(Santiago)",
+    "prices_list": "[{\"description\":\"Schop 350 cc\",\"price\":4500},{\"description\":\"Schop 500 cc\",\"price\":5500}]",
+    "menu_item_labels": "[]",
+    "price": 0
+  },
+  {
+    "menu_item_name": "Mahou (Sin Gluten)",
+    "menu_item_category_name": "Cervezas",
+    "menu_item_description": "Botella 330 cc.",
+    "prices_list": "[]",
+    "menu_item_labels": "[{\"label\":\"Sin Gluten\"}]",
+    "price": 6200
+  }
+]
