@@ -88,10 +88,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - Pollo
 - PLATOS DE CAMARÓN
-- TÉ CALIENTE
-- CAFÉS
-- BEBIDAS
-- JUGOS
 - BEBIDAS CON LACTEOS
 
 
@@ -113,60 +109,9 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Prawns shahi korma — $13.900
 - Prawns curry — $13.900
 
-#### TÉ CALIENTE
-
-- Masala Chai (Indú) — $4.500
-- Tea Verde — $4.200
-- English Breakfast Tea — $4.200
-- Tea de Menta — $4.200
-- Tea de Manzanilla — $4.200
-- Tea Chai Indú — $4.200
-- Tea Jasmine — $4.200
-- Tea Hibiscus — $4.200
-
-#### CAFÉS
-
-- Expresso — $2.500
-- Cortado — $2.800
-- Americano — $2.800
-- Doble Expresso — $4.200
-- Capuchino — $3.800
-- Café Latte — $3.900
-- Café Indú (con leche) — $3.900
-- Mocaccino — $4.100
-- Hot Chocolate — $4.200
-- Ice Chocolate — $4.500
-- Ice Coffee — $4.500
-- Nutella Hot Chocolate — $4.900
-
-#### BEBIDAS
-
-- Coca Cola — $2.500
-- Coca Cola sin azúcar — $2.500 [sin azúcar]
-- Sprite — $2.500
-- Sprite sin azúcar — $2.500 [sin azúcar]
-- Agua sin gas — $2.500
-- Agua con gas — $2.500
-- Kombucha — $4.000
-
-#### JUGOS
-
-- Limonada — $3.900
-- Limonada con menta y jengibre — $4.200
-- Piña — $4.200
-- Maracuyá — $4.200
-- Chirimoya — $4.200
-- Frambuesa — $4.200
-- Frutilla — $4.200
-- Mango con azafrán — $4.500
-- Naranja fresco natural — $4.500
-
 #### BEBIDAS CON LACTEOS
 
 - Dulce Lassi — $4.500
-- Mango Lassi — $4.500
-- Raspbarry Lassi — $4.500
-- Salty Lassi — $4.500
 
 
 ## Açaí Experience
@@ -186,7 +131,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Oita Nano) GRATIS MANTEQUILLA DE MANÍ — $550
 - MANÍ GRATIS ALMENDRAS LAMINADAS — $690
 - AVENA GRATIS NUECES — $690
-- LECHE CONDENSADA GRATIS ARANDANOS — $950
 - CHIPS DECHOCOLATE GRATIS 3 aes — $590
 - GRANOLA GRATIS AMBUESA — $890
 - MANJAR GRATIS MEM — $950
@@ -224,8 +168,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Cremas Calientes
 - Sándwich y Tostadas
 - Dulcería
-- Cafetería
-- Bebidas frías
 
 
 ### Carta
@@ -271,31 +213,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Tiramisú — $5.990
 - Torta de zanahoria — $5.990 [vegano]
 
-#### Cafetería
-
-- Americano — $3.240
-- Cappuccino — $4.050
-- Chocolate caliente — $5.250
-- Espresso — $2.990
-- Flat white — $3.490
-- Ice coffee — $4.590
-- Latte — $4.630
-- Latte sabor caramelo — $5.530
-- Latte sabor vainilla — $5.530
-- Mocaccino — $5.440
-- Te chai latte — $5.250
-
-#### Bebidas frías
-
-- Agua saborizada — $4.940
-- Bebidas — $1.990
-- Frutos Rojos
-- Jugos — $4.590
-- Mango
-- Piña
-- Smoothies en agua — $4.940
-- Te frio — $4.940
-
 
 ## BAR EL BAJO
 - **Ubicación:** Av. Alameda Libertador Bernardo O'Higgins 227, 8320161 Santiago, Región Metropolitana
@@ -305,23 +222,13 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.barelbajo.cl/
 - **Menciona en reseñas:** ceviche, poke, churro
 - **Fecha de registro:** 2025-10-05
-- **Dietético:** 5 platos sin gluten, 8 veganos, 3 sin lactosa
+- **Dietético:** 3 platos sin gluten, 8 veganos, 3 sin lactosa
 
 ### Qué vende
 
 - Cervezas
 - Jack Daniel's Drinks
-- Cócteles de la casa
 - Red Bull Drinks
-- Cócteles clásicos
-- Spritz
-- Mocktails
-- Destilados y licores
-- Sour
-- Vinos y Espumantes
-- Jarras y Copas
-- Aguas, jugos y bebidas
-- Cafetería
 - Para Comenzar
 - Sánguches
 - Ensaladas
@@ -331,47 +238,13 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Para niños y niñas
 - Postres
 - Promociones
-- Botellas
 
 
 ### Carta
 
 #### Cervezas
 
-- Schop Royal Guard - 350 cc — $4.500
-- Schop Royal Guard - 500 cc — $5.500
-- Schop Patagonia Hoppy Lager - 350 cc — $4.500
-- Schop Patagonia Hoppy Lager - 500 cc — $5.800
-- Schop Kunstmann Torobayo - 350 cc — $4.500
-- Schop Kunstmann Torobayo - 500 cc — $5.900
-- Schop Austral Calafate - 350 cc — $4.500
-- Schop Austral Calafate - 500 cc — $5.900
-- Schop Torres del Paine - 350 cc — $4.500
-- Schop Torres del Paine - 500 cc — $5.900
-- Schop Peroni Lager — $5.800
-- Schop Cerros de Chena, Portezuelo Amber Ale — $6.200
-- Extra Sangrita — $1.200
 - Extra Michelado/Chelado — $1.000
-- Austral Patagonia — $4.900
-- Kunstmann Bock — $4.900
-- Royal Guard — $3.800
-- Kunstmann Lager — $4.900
-- Mahou Cinco Estrellas — $4.900
-- Schop Heineken - 350 cc — $4.500
-- Schop Heineken - 500 cc — $5.500
-- Kunstmann Lager Sin Filtrar — $4.900
-- Dolbek Maqui — $6.200
-- Heineken 0.0 (Sin Alcohol) — $3.600
-- Mahou (Sin Gluten) — $6.200 [sin gluten]
-- Estrella de Galicia (Sin Gluten) — $5.200 [sin gluten]
-- Schop Tamango Cortacorriente Hazy IPA
-- Austral Lager — $4.900
-- Austral Calafate — $4.900
-- Austral Torres del Paine — $6.600
-- Heineken — $3.800
-- Dolbek Lager — $6.200
-- Cerveza Momentum Stout LOA — $6.200
-- Cerveza Entrenubes Pale Lager — $6.000
 
 #### Jack Daniel's Drinks
 
@@ -380,208 +253,9 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Honey Lemonade — $6.900
 - Apple Breeze — $6.900
 
-#### Cócteles de la casa
-
-- Fruto Prohibido — $8.000
-- Frank Sinatra — $8.000
-- Lola-Lola — $8.000
-- Nota de Jazz — $8.000
-- Spiced IPA — $8.000
-- Huesillo Pisco Punch — $8.000
-- Cama de Rosas — $8.000
-- Mora Mora — $8.000
-- Chirimoya Alegre — $8.000
-- Espresso María — $8.000
-
 #### Red Bull Drinks
 
 - Tropical Gin — $9.400
-- Pisco Red Bull — $7.100
-- 2 cortos de pisco + 1 bebida + Red Bull — $12.500
-
-#### Cócteles clásicos
-
-- Mojito — $6.400
-- Tequila Margarita — $6.400
-- Pink Paloma — $7.800
-- Negroni — $6.800
-- Piña Colada — $6.300
-- Bloody Mary — $6.800
-- Moscow Mule — $8.200
-- London Mule — $8.400
-- Daiquiri — $6.800
-- Campari — $6.300
-- Ruso Blanco — $6.300
-- Chilcano — $6.300
-- Kir Royal — $5.000
-- Old Fashioned — $5.900
-- Clavo Oxidado — $6.500
-- Pichuncho — $5.200
-- Caipirinha — $6.000
-- Martini Dry — $7.100
-- Espresso Martini — $7.800
-- Carajillo — $6.500
-- Manhattan — $6.300
-- Tom Collins — $6.200
-- Caipiroska — $6.000
-- Ruso Negro — $6.300
-
-#### Spritz
-
-- Spritz El Bajo — $7.900
-- Aperol Spritz — $6.600
-- Ramazzotti Spritz — $6.600
-- Flor del Sauco Spritz — $6.400
-- Chambord Spritz — $6.900
-- Campari Spritz — $6.600
-- Limoncello Spritz — $7.700
-
-#### Mocktails
-
-- Santa Ana (Sin Alcohol) — $4.300
-- Brotherhood (Sin Alcohol) — $5.400
-- Jamaica Sunset (Sin Alcohol) — $5.800
-- La Michelle (Sin Alcohol) — $3.900
-- Cucurrucucú Paloma (Sin Alcohol) — $5.200
-- Basil Royal (Sin Alcohol) — $4.900
-- La Santa (Sin Alcohol) — $4.500
-- Mojito Sin Alcohol — $5.100
-
-#### Destilados y licores
-
-- Gin - Hendrick's (Flora - Clásico) — $8.900
-- Gin - La República (Andina - Amazónica) — $6.700
-- Gin - Bulldog — $7.800
-- Vodka - Grey Goose — $8.500
-- Vodka - Stolichnaya — $5.800
-- Vodka - Stolichnaya Elit — $9.200
-- Vodka - Sky Sabores (Strawberry - Cherry - Pineapple - Raspberry) — $6.100
-- Tequila (Shot) - Herradura Añejo — $5.700
-- Tequila (Shot) - Herradura Reposado — $6.100
-- Tequila (Shot) - El Jimador Reposado — $4.800
-- Mezcal (Shot) - Se Busca (Mezcal Joven - shot) — $9.500
-- Mezcal (Shot) - Cabaret (Mezcal, Aperol, cítricos y un toque de tónica) — $11.000
-- Ron - Flor de Caña 5 años (Añejo clásico) — $5.500
-- Ron - Flor de Caña 7 años (Gran reserva) — $6.100
-- Ron - Flor de Caña 12 años — $8.100
-- Ron - Flor de Caña 18 años — $11.800
-- Ron - Diplomático Mantuano — $7.700
-- Ron - Diplomático Reserva Exclusiva — $12.300
-- Jager - Jägermeister (Shot) — $4.600
-- Jager - Jägermeister + Bebida — $5.700
-- Jager - Jägermeister Manifest (Shot) — $5.200
-- Pisco - Alto del Carmen 35o — $4.900
-- Pisco - Alto del Carmen 40o (Transparente) — $6.100
-- Pisco - Mistral 35o — $5.000
-- Pisco - El Gobernador 40o — $6.700
-- Pisco - Republicano (Triple destilado) — $5.900
-- Pisco - Republicano (Añejo) — $5.900
-- Fernet - Fernet Branca — $5.700
-- Fernet - Fernet Branca Menta — $5.700
-- Tennessee Whisky - Jack Daniel's Old No7 — $7.400
-- Tennessee Whisky - Jack Daniel's Honey — $7.400
-- Tennessee Whisky - Jack Daniel's Apple — $7.400
-- Tennessee Whisky - Jack Daniel's Fire — $7.400
-- Tennessee Whisky - Jack Daniel's Single Barrel — $10.900
-- Tennessee Whisky - Jack Daniel's Gentleman Jack — $9.300
-- Tennessee Whisky - Jack Daniel's Fire (Shot) — $5.200
-- Single Malt Scotch - Glenfiddich 12 años — $9.800
-- Single Malt Scotch - Glenfiddich 15 años — $24.000
-- Single Malt Scotch - Glenfiddich 18 años — $32.000
-- Scotch Whisky - Grant's Triple Wood — $5.700
-- Scotch Whisky - Grant's 12 años — $5.200
-- Scotch Whisky - Monkey Shoulder — $8.300
-- Irish — $7.100
-- Bourbon — $8.900
-- Vermut - Limache Viejo (Rojo - Blanco - Dry) — $5.100
-- Vermut - De la casa — $5.300
-- Vermut - Cinzano 1757 — $5.800
-- Licores - Frangelico — $5.600
-- Licores - Disaronno — $5.400
-- Licores - Licor 43 — $5.400
-- Licores - Carolans Irish Cream — $5.700
-- Licores - Campari — $5.900
-- Licores - Degollador (Licor de Ají) — $6.400
-
-#### Sour
-
-- Pisco Sour Nacional - Tradicional — $4.500
-- Pisco Sour Nacional - Catedral — $7.300
-- Pisco Sour Peruano - Tradicional — $6.100
-- Pisco Sour Peruano - Catedral — $9.500
-- Whisky sour — $5.900
-- Amaretto Sour — $6.400
-- Chardonnay Sour — $4.700
-- Pisco Sour de huesillo — $4.500
-
-#### Vinos y Espumantes
-
-- Cabernet Sauvignon - Caliterra Reserva (Colchagua) — $14.400
-- Cabernet Sauvignon - Errázuriz Max Reserva — $19.600
-- Carmenère - Caliterra Reserva (Colchagua) — $14.400
-- Carmenère - Errázuriz Max Reserva — $19.600
-- Pinot Noir — $24.700
-- Syrah — $14.400
-- Merlot — $19.600
-- Ensamblajes Tintos — $16.500
-- Chardonnay - Errázuriz Estate Reserva — $12.400
-- Chardonnay - Max Gran Reserva — $19.600
-- Sauvignon Blanc - Errázuriz Estate Reserva — $14.400
-- Sauvignon Blanc - Casa Marín San Antonio — $24.700
-- Espumantes nacionales - Undurraga Extra Brut — $16.000
-- Espumantes nacionales - Undurraga Brut — $11.800
-- Espumantes nacionales - Undurraga Brut Royal — $12.900
-- Espumantes importados - Riccadonna Chardonnay Brut — $22.700
-- Espumantes importados - Riccadonna Moscato Rosé — $22.700
-- Espumantes importados - Riccadonna Prosecco — $19.600
-- Espumantes importados - Cava Anna Codorniu Brut — $27.300
-- Espumantes importados - Cava Anna Codorniu Rosé — $28.800
-- Garnacha-Syrah — $22.990
-- Pinot Blanc — $16.990
-
-#### Jarras y Copas
-
-- Jarra de Sangría — $14.700
-- Copa Sangría — $5.100
-- Jarra de Borgoña — $14.200
-- Copa de Borgoña — $4.900
-- Errázuriz Max Reserva (Copa) — $4.700
-- Errázuriz Estate Reserva (Copa) — $4.100
-- Espumante Riccadonna (Copa) — $5.400
-- Casa Marín Cartagena (Copa) — $6.100
-
-#### Aguas, jugos y bebidas
-
-- Jugo del día — $3.200
-- Bebidas — $2.200
-- Fentimans Premium Mixers - Valencia Orange — $2.900
-- Fentimans Premium Mixers - Rose Lemonade — $2.900
-- Fentimans Premium Mixers - Ginger Beer — $2.900
-- Fentimans Premium Mixers - Premium Indian Tonic Water — $2.900
-- Fentimans Premium Mixers - Naturally Light Tonic Water — $2.900
-- Limonada - Clásica — $3.900
-- Limonada - Menta — $3.900
-- Limonada - Jengibre — $3.900
-- Agua mineral - Con gas — $2.200
-- Agua mineral - Sin gas — $2.200
-- Red Bull - Original — $3.400
-- Red Bull - Yellow — $3.400
-- Red Bull - Sugar Free — $3.400
-- Thomas Henry - Tonic Water — $3.200
-- Thomas Henry - Ginger Beer — $3.200
-- Thomas Henry - Cherry Blosom — $3.200
-- Thomas Henry - Pink Pomelo — $3.200
-- Thomas Henry - Botanical — $3.200
-- Thomas Henry - Dry — $3.200
-- Kombucha - Cedrón — $4.500
-- Kombucha - Jengibre — $4.500
-- Kombucha - Arándanos — $4.500
-
-#### Cafetería
-
-- Espresso, Machiatto y Americano — $2.300
-- Cortado, Capuccino y Latte — $2.400
-- Tetera — $2.300
 
 #### Para Comenzar
 
@@ -665,13 +339,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - 2 Schop Hoppy — $11.000
 - 2 Schop Royal + Papas bravas — $18.000
 - Jarra de Sangría + Papas rejilla — $22.000
-- 2 Cócteles de la casa — $15.000
-
-#### Botellas
-
-- Alto del Carmen 750cc — $35.000
-- Fernet Branca 750cc — $45.000
-- Jack Daniel's 750cc — $55.000
 
 
 ## Bar Italia
@@ -697,15 +364,9 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Chocolate cake
 - @ Quinoa Salad — $9.900
 - @® Cajun Tuna — $13.900
-- Espresso / Americano — $2.900
-- Double espresso — $3.000
 - Simple cut — $3.500
 - Double cut — $4.300
-- Latte — $2.800
-- Cappuccino — $4.000
 - Moccasin — $4.500
-- Dilmah Tea — $2.800
-- Infusion — $2.500
 
 
 ## Biomercado Sin Gluten
@@ -716,7 +377,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://www.biomercado.cl/
 - **Menciona en su web:** galleta, chocolate, postre, dulces
 - **Fecha de registro:** 2026-03-23
-- **Dietético:** local 100% sin gluten, 5 veganos, 2 sin lactosa
+- **Dietético:** local 100% sin gluten, 4 veganos, 1 sin lactosa
 
 ### Qué vende
 
@@ -724,13 +385,11 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Sin gluten
 - Fideos
 - Golosinas
-- Novedades
-- Higiene bucal
 - Frutos secos
 - Abarrotes
-- Café
 - Comidas preparadas
 - Picoteo
+- Novedades
 - Keto
 - Repostería
 - Condimentos
@@ -750,7 +409,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Aceite de Coco Sin Olor Sin Sabor 200 ml – Manare — $4.990 [sin azúcar]
 - Albóndigas de Pavo – Sabores de la Pao — $6.800 [sin azúcar]
 - Arroz 1 Kilo Don Giuseppe — $1.300 [sin azúcar]
-- Bebida de Coco lata 400 ml – Manare — $3.490 [sin azúcar]
 - Brownie chocolate El Pueblo 65 gr (8×8 cm aprox) — $2.300 [sin azúcar]
 - Cereal individual Frutilla – Mizos — $700 [sin azúcar]
 - Cereal Manare Individual Cacao — $890 [sin azúcar]
@@ -777,10 +435,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Aceite Natura 500ml — $1.990 [sin azúcar]
 - Barquillos Boa Vida (Producto Frágil) — $3.500 [sin azúcar]
 - Cachantun 600 ml — $700 [sin azúcar]
-- Pocket Caramelo de Café Sin Azúcar — $1.000 [sin azúcar]
 - Cereal Mizos Sabor Frutilla 280 grs — $5.100 [sin azúcar]
 - Chocolate 50% Cacao con Stevia 75 gr Trapa — $2.990 [sin azúcar]
-- Chocolate de Leche y Almendras con Stevia 75 gr Trapa — $2.990 [sin azúcar]
 - Chocolate 62% Orgánico 100 gr Sin Azúcar – Manare — $6.390 [sin azúcar]
 - Chocolate 80% Cacao con Stevia 75 gr – Trapa — $2.990 [sin azúcar]
 - Chocolate Blanco con Stevia 75 gr – Trapa — $2.990 [sin azúcar]
@@ -795,7 +451,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Chocolate Negro Sin Azúcar con Naranja 75 gr – Torras — $3.350 [sin azúcar]
 - Chocolate Negro y Menta Sin Azúcar 75 gr – Torras — $3.450 [sin azúcar]
 - Chocolate Torras Zero Azúcar Negro Nibs de Cacao y Arándanos – 125 gr — $5.490 [sin azúcar]
-- Chocolate Vegano con Leche de Avena – Torras — $5.950 [sin azúcar, vegano]
 - Ciabatta Dilici — $5.990 [sin azúcar]
 - Galleta de Té Sin Azúcar El Pueblo — $3.750 [sin azúcar]
 - Mani Tostado 400 gramos, Ambrosia — $3.400 [sin azúcar]
@@ -862,8 +517,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Masticables Lheritier, Bolsa 450 gr — $3.990
 - Mini Paletas – Pico Dulce 225 g — $2.690
 - Mini Paletas – Play Pop 225 gr – Lheritier — $2.490
-- Mocktail French 75 Sin Alcohol – Club Reale — $3.490
-- Mocktail Tom Collins Sin alcohol – Club Reale — $3.490
 - Paleta Flopito Twist Surtido 400 gr – Florestal — $3.990
 - Paleta Halloween Chupetin Pinta Lengua 400 gr – Florestal — $3.990
 - Paleta Halloween Pop Tatoo Pánico 400 gr – Florestal — $3.990
@@ -883,17 +536,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Almidón de Mandioca 1 Kilo – Extrumol — $4.100
 - Brisket Rub Seasoning 170 gr – Badia — $9.200
 - Cabellos de Ángel (fideos para sopa) – Schar — $4.390
-- Café Beanies Amaretto Almond — $6.990
-- Café Beanies Cherry Chocolate — $6.990
-- Café Beanies Chocolate Orange — $6.990
-- Café Beanies Irish Cream — $6.990
-- Café Beanies Menta Chocolate — $6.990
-- Café Beanies Very Vainilla — $6.990
-- Café de Grano Tostado y Molido Café de Altura Gourmet 250 gr – Cruzeiro — $7.990
-- Café de Grano tostado y Molido Dark Roast Gourmet 250 gr – Cruzeiro — $7.990
-- Café de Grano Tostado y Molido Pleno 250 gr – Cruzeiro — $6.390
-- Café Instantáneo Clásico 500 gr – Cruzeiro — $15.990
-- Café Instantáneo Liofilizado 90 gr – Cruzeiro — $5.390
 - Calcio 500 mg – Dulzura Natural — $3.690
 - Black Truffle 255.1 gr – Sal Marina y Trufas Negras – Badia — $17.990
 - Canela en Rama 226,8 – Badia — $18.500
@@ -957,7 +599,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Chipotle Ranch Seasoning 141,7 gr – Badia — $8.990
 - Sazón Completa 155,9 gr – Badia — $7.200
 - Pan Blanco Schar — $4.100
-- Bebida Proteica Vainilla 600 gramos P&M Foods — $14.990
 - Bombones Bel (caja con 12 unidades) — $1.500
 - Bombones Bel (caja contiene 20 unidades) — $1.990
 - Bombones Bel Sabor Frutilla (caja con 36 unidades) — $4.500
@@ -975,17 +616,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Harina de Garbanzos 1 Kilo – Extrumol — $3.990
 - Harina de Maiz 1 Kilo – Extrumol — $3.100
 - Harina de Trigo Sarraceno 500 gr. Ambrosía — $6.800
-- Infusión Anís Hinojo Comino- Salus — $8.990
-- Infusión de Manzanilla – Salus — $3.950
-- Infusión de Melisa – Salus — $3.390
-- Infusión de Rooibos- Salus — $7.600
 - Jengibre en polvo 42.5 gr – Badia — $5.990
-- Kombucha Kamai Arándanos — $2.990
-- Kombucha Kamai Frutilla – Frambuesa — $2.990
-- Kombucha Kamai Maracuyá — $2.990
-- Kombucha Kamai Menta – Spirulina — $2.990
-- Kombucha Kamai Piña – Jengibre – Cúrcuma — $2.990
-- Kombucha Kamai Té Negro – Lemongrass — $2.990
 - Lentejas Baby 500 gr Ambrosía — $3.790
 - Corazones de Alcachofa Don Giuseppe 400 grs — $2.600
 - Esparragos Verdes Don Giuseppe 425 gramos — $2.900
@@ -1018,24 +649,10 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - SaluFem Bienestar y Equilibrio Femenino – Salus — $15.990
 - Salvia Molida 35.4 gramos – Badia — $5.990
 - Sazonador Ajo Negro en polvo 170 gr – Badia — $9.200
-- Shot de Kombucha Kamai Cúrcuma 60 cc — $2.990
-- Shot de Kombucha Kamai Jengibre 60 cc — $2.990
 - Ají Chile & Lima 184,3 g – Badia — $9.200
-- Ajo Negro Picado en Agua 226, 7 gr – Badia — $9.200
 - Pimienta Mango 184,3 gramos – Badia — $8.200
 - Sazón con Azafrán 198,4 gr – Badia — $7.990
 - Sazón Tropical con Cilantro y Achiote 191,4 g – Badia — $8.990
-- Café Cruzeiro Liofilizado Frasco 50 gramos — $3.490
-- Café Cruzeiro Cappuccino – Caramelo Salado (8 Sachet) — $3.490
-- Café Cruzeiro Cappuccino – Chocolate (8 Sachet) — $3.490
-- Café Cruzeiro Cappuccino – Clásico (8 Sachet) — $3.490
-- Café Cruzeiro Cappuccino – Vainilla (8 Sachet) — $3.490
-- Café Cruzeiro Instantáneo Clásico 170 gramos — $6.990
-- Café Cruzeiro Descafeinado 170 gramos — $8.990
-- Café Cruzeiro Liofilizado 100% Arábica 170 gramos — $10.990
-- Café Cruzeiro Liofilizado 170 gramos — $8.690
-- Café Cruzeiro Liofilizado Premium Equilibrado 170 gramos — $11.490
-- Café Cruzeiro Sabor Suave 170 gramos — $4.990
 - Bombas (Sufles) de Mani – Kuna — $850
 - Bombas (Sufles) de Mani Tamaño Familiar 100 g – Kuna — $2.990
 - Bombas (Sufles) de Queso Crema y Ciboulette – Kuna — $850
@@ -1092,28 +709,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Pastel Durazno El Pueblo — $3.200
 - Pastel Maracuya El Pueblo — $3.200
 - Pastel Piña El Pueblo — $3.200
-- Dilmah – Finest Ceylon Teas – Té Cajas de Regalo — $9.990
-- Dilmah – Gift of Tea – Té Cajas de Regalo — $14.900
-- Dilmah – Gift of Tea – Té Cajas de Regalo — $9.990
-- Dilmah – Loving Tea – Té Cajas de Regalo — $16.500
-- Dilmah – Té Ceylon – 100 Bolsitas — $7.490
 - Dilmah – English Breakfast 50 Bolsitas — $7.490
-- Dilmah – Té Negro Ceylon Supreme – 10 bolsitas — $2.890
-- Dilmah – Té Negro Earl Grey – 10 bolsitas — $2.890
-- Dilmah – Té Negro English Breakfast – 10 bolsitas — $2.890
-- Dilmah – Té Verde con Jengibre – 10 Bolsitas — $2.890
-- Dilmah – Té Verde Puro – 10 Bolsitas — $2.890
-- Infusión Herbal Flor de Jamaica 20 Bolsitas – Landi — $3.790
-- Té Negro Ceylán Canela 20 Bolsitas – Landi — $1.990
-- Té Negro Ceylán Frutos Rojos 20 Bolsitas – Landi — $1.990
-- Té Negro Ceylan Grosella Negra 20 Bolsitas – Landi — $1.990
-- Té Negro Ceylán Manzana-Canela 20 Bolsitas – Landi — $1.990
-- Té Negro Ceylan Menta 20 Bolsitas – Landi — $1.990
-- Té Negro Ceylán Naranja-Mandarina 20 Bolsitas – Landi — $1.990
-- Té Negro Ceylan Sabor Jengibre 20 Bolsitas – Landi — $1.990
-- Té Negro Ceylán Vainilla 20 Bolsitas – Landi — $1.990
-- Té Verde 20 Bolsitas – Landi — $1.990
-- Té Verde 20 Menta-Lemongrass 25 Bolsitas – Landi — $2.990
 - Gelatina Jalea Turbo Zero Azúcar Varios Sabores (10 Porciones)
 - Aceite de Coco Orgánico Manare 200ml — $5.490
 - Aceto Balsámico Koe 500 ml — $5.590
@@ -1130,9 +726,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Bizcochito (tipo chocman) El Pueblo — $1.600
 - Caldo Casero de Carne Gallina Blanca 1 Litro — $3.490
 - Caldo Casero de Pollo Gallina Blanca 1 Lt — $3.490
-- Caluga de Leche 250 gr -De mi Campo — $3.700
-- Caluga Leche Nuez 250 gr -De mi Campo — $3.800
-- Chocolate de Leche Sin Lactosa – Ritter Sport — $5.590 [sin lactosa]
 - Dulce de membrillo bolsa 1 kilo Eckart — $3.300
 - Dulce de membrillo bolsa 250 gr Eckart — $1.100
 - Dulce de membrillo bolsa 500 gr Eckart — $1.890
@@ -1142,11 +735,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Granola Mizos Almendras – Coco — $4.490
 - Granola Mizos Mix Semillas — $4.490
 - Harina de trigo sarraceno El Pueblo 500 gr — $6.700
-- Jugo Turbo Variedad de sabores 10 Sobres — $2.800
-- Jugo Turbo Zero Sabor Frutilla 10 Sobres — $2.800
-- Jugo Turbo Zero Variedad de Sabores 10 Sobres — $2.800
 - Manjar Dulce de Leche Sin Lactosa Sin Azúcar 380 gr – En Linea — $3.590 [sin azúcar, sin lactosa]
-- Mantecol Sabor Café 111 gramos — $1.690
 - Mantecol Sabor Caramelo 111 gramos — $1.690
 - Mantecol 253 gramos — $2.790
 - Mantecol 41 gramos — $790
@@ -1171,10 +760,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Salsa De Soya Orgánica Manare 250ml — $5.490
 - Salsa De Soya Sakura Reducida En Sodio 500ml — $4.990
 - Tagatosa Líquida 360 ml -Tagaswet Biofoods — $5.890
-- Turbo Tea (Ice Tea) Sabor Durazno 1 Sobre — $500
-- Turbo Tea (Ice Tea) Sabor Limón 1 Sobre — $500
-- Turbo Tea (Ice Tea) Sabor Durazno Display 12 Sobres — $5.100
-- Turbo Tea (Ice Tea) Sabor Limón Display 12 Sobres — $5.100
 - Turrón de Chocolate Negro Crujiente – TRAPA — $4.590
 - Pan de Completo (4 Unidades) NoGlut Nutrisa No+Gluten — $5.600
 - Mizos Galletita Arroz Chocolate Avellana 25 gr — $600
@@ -1184,10 +769,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Ramitas de garbanzo 50 gramos Wania — $1.100
 - Chocolate AntiuXixona Negro 72% Cacao con Naranja — $3.990
 - Chocolate 0% Azúcar Blanco – TRAPA — $4.100
-- Chocolate 0% Azúcares Añadidos Con Leche – TRAPA — $4.100
 - Chocolate Collection 74% Cacao – TRAPA — $4.100
 - Chocolate Collection 74% Cacao Frambuesa – TRAPA — $4.100
-- Chocolate Collection Leche – TRAPA — $2.790
 - Chocolate Collection 85% Cacao – TRAPA — $4.100
 - Chocolate Collection 95% Cacao – TRAPA — $4.590
 - Corn Flakes Cereal Noglut Santiveri — $5.600
@@ -1205,9 +788,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Alfajor Sin Azúcar El Pueblo — $4.550 [sin azúcar]
 - Azúcar Rubia Orgánica Manare 1 kilo — $3.790
 - cacao en polvo manare 500 gr — $17.990
-- Café Beanies Sachet (Unidad) — $450
-- Caluga de Leche 90 gr – de mi campo — $1.300
-- Caluga Leche Nuez 90 gr – de mi campo — $1.400
 - Canela en polvo El Pueblo — $3.200
 - Chia 175 gramos, Mi Tierra, Nutrisa — $3.950
 - Chicles Croc 10 Unidades Variedad de Sabores — $1.000
@@ -1255,8 +835,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Harina de avena MI TIERRA Nutrisa 400 gr — $3.990
 - Harina de Coco Ambrosia 500 gramos — $5.690
 - Harina de Quinoa Mi Tierra Nutrisa 400 gr — $3.590
-- Leche Condensada de Coco 200 gr Nature’s Charm Sin Gluten — $1.500
-- Leche de coco Lady Coconut litro — $7.990
 - Levadura Nutricional Manare copos 100 gr — $8.990
 - Levadura Saf Instant 125 gramos — $2.990
 - Linaza Mi Tierra Nutrisa 200 gr — $1.700
@@ -1296,30 +874,10 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Sesamo ajonjoli Mi tierra Nutrisa 100 gr — $1.700
 - Spaghetti NOGLUT 250 gramos — $2.990
 - Galleta Sandwich Chocolate Gullón (Tipo Frac) — $4.100
-- Dilmah – Green Tea With Jasmine, Té Verde — $2.890
-- Dilmah – Infusión Natural Rooibos – 10 bolsitas — $2.890
-- Dilmah – Infusión Rooibos con Frambuesa y Coco – 10 bolsitas — $2.890
-- Dilmah – Infusión Rooibos Verde — $2.890
-- Dilmah – Pure Chamomile Flowers, Infusión Flor Pura de Manzanilla- 10 bolsitas — $2.890
-- Dilmah – Té Ceylon – 20 bolsitas — $2.590
-- Dilmah – Té Ceylon Premium 80 Bolsitas Sustentable — $5.490
-- Dilmah – Té Negro Masala Chai – 10 bolsitas — $2.890
-- Té Ceylan en hojas El Pueblo — $2.850
-- Té Orgánico Energizante Elegant English Breakfast Pukka — $6.900
-- Té Orgánico Energizante Earl Grey Pukka — $6.900
-- Té Orgánico Energizante Original Chai Pukka — $6.900
-- Té Orgánico para Mujer Womankind Pukka — $6.900
-- Té Orgánico Relajante Chamomile Vanilla & Manuka Honey Pukka — $6.900
-- Té Orgánico Relajante Love Pukka — $6.900
-- Té Orgánico Supreme Matcha Green Pukka — $6.900
 - Tortillas de maiz Azul – Guanajuato — $2.790
 - Tortillas de maiz blanco Guanajuato — $2.790
 - Tortillas NoGlut Nutrisa No+Gluten 8 Un. 260 gr — $3.350
 - Trufas Clásicas al Cacao – AntiuXixona — $2.790
-- Turbo Benny Saborizante de Leche Chocolate 200 gramos — $1.490
-- Turbo Benny Saborizante de Leche Chocolate 500 gramos — $3.400
-- Turbo Benny Saborizante de Leche Vainilla 200 gramos — $1.490
-- Turbo Benny Saborizante de Leche Zero Azúcar Frutilla 200 gramos — $1.990
 - Turbo Gelatina en Polvo Sin Sabor — $1.200
 - Vainilla Extracto Puro 59 ml – Manare — $11.990
 - Vainilla Extracto Puro Alcohol Free 59 ml – Manare — $11.990
@@ -1327,7 +885,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Vinagre de Manzana Koe 1 litro — $8.390
 - Vinagre de Manzana Koe 500 ml — $5.490
 - Vinagre de Manzana Manare 1 litro — $8.990
-- Vinagre de Vino Tinto Orgánico 500 ml Koe — $4.190
 - Alfajor bañado en chocolate (2 unidades) El Pueblo — $3.750
 - Almidón de Mandioca El Pueblo Sin Gluten — $5.150
 - Arroz Blanco Cosecha Justa — $3.450
@@ -1344,7 +901,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Chuño El Pueblo 1 kilo — $5.150
 - Chocolate Neucober monedas cod 404 envase purpura — $8.990
 - Chocolate Neucober blanco monedas cod 410 empaque rojo — $8.990
-- Chocolate Neucober Leche cod 420 empaque celeste — $8.990
 - Cocadas El Pueblo — $3.300
 - Peptidos de Colageno 250 gr Manare — $19.990
 - Delicias El Pueblo (6 unidades) — $3.990
@@ -1365,7 +921,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Jarabe de Maple Manare — $9.490
 - Kuchen El Pueblo, PRODUCTO REFRIGERADO NO DISPONIBLE PARA DESPACHO, Retiro en tienda — $12.990
 - Lasaña Blue Dragón Sin Gluten — $3.400
-- Leche Condensada de Coco Nature’s Charm Sin Gluten — $4.590
 - Lentejas Cosecha Justa 600 gramos — $5.100
 - Levadura Saf Instant Sin Gluten medio kilo — $4.200
 - Maicena El Pueblo 1 kilo — $3.700
@@ -1417,30 +972,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Galletas de arroz sabor Super Tropical Orgánico – Baby Mum Mum — $3.300
 - Queque Individual Carrot Cake – Dilici — $2.100
 
-#### Novedades
-
-- Mocktail Mojito Sin alcohol – Club Reale — $3.490
-- Mocktail Paloma Sin alcohol – Club Reale — $3.490
-- Mocktail Piña Colada Sin alcohol – Club Reale — $3.490
-- Mocktail Sangría Sin alcohol – Club Reale — $3.490
-- Mocktail Spritz Sin alcohol – Club Reale — $3.490
-- Chocolate con Leche 100 gr Sabú — $2.500
-
-#### Higiene bucal
-
-- Pasta Dental Vitis Antimanchas — $7.990
-- Enjuague Bucal Xeros Dentaid — $9.990
-- Pasta Dental Vitis Aloe Vera — $4.990
-- Pasta Dental Vitis Anticaries — $6.990
-- Pasta Dental Vitis Blanqueadora — $6.990
-- Pasta Dental Vitis CPC Protect — $4.990
-- Pasta Dental Vitis Junior — $4.300
-- Pasta Dental PHB White 75 ml — $4.990
-- Pasta Dental Vitis Kids — $4.100
-- Pasta Dental Vitis Orthodontic — $5.990
-- Pasta Dental Vitis Sensible — $6.990
-- Pasta Dental Xeros Dentaid — $6.990
-
 #### Frutos secos
 
 - Semillas de Linaza 400 gramos, Ambrosia — $5.490
@@ -1451,13 +982,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Aceite de Chía y Oliva 250 ml – La Custodia — $5.990
 - Aceite de Oliva 250 ml – La Custodia — $5.500
 - Aceite de Oliva 500 ml – La Custodia — $8.500
-
-#### Café
-
-- Café Cruzeiro Liofilizado Premium Intenso 170 gr — $11.490
-- Café de Grano Tostado y Molido Intenso 250 gr – Cruzeiro — $6.590
-- Café de Grano Tostado y Molido Maxima Intensidad 250 gr – Cruzeiro — $5.690
-- Té Digestivo Three Mint – Pukka — $6.900
 
 #### Comidas preparadas
 
@@ -1484,6 +1008,10 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 #### Picoteo
 
 - Chips centrifugados Papas Nativas 50 gr – Wania — $1.100
+
+#### Novedades
+
+- Chocolate con Leche 100 gr Sabú — $2.500
 
 #### Keto
 
@@ -1604,8 +1132,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 ### Qué vende
 
 - DESPACHOS
-- Café
-- Bebidas frías
 
 
 ### Carta
@@ -1614,31 +1140,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - Santiago Centro — $4.500
 - Colina y CHICUREO — $6.000
-
-#### Café
-
-- Espresso — $2.200
-- Espresso doble — $3.000
-- Americano — $2.200
-- Cortado — $3.500
-- Latte — $4.000
-- Té variedades (en bolsita) — $2.500
-- Té chai — $3.000
-- Té pink detox — $3.000
-- Chai Latte — $4.600
-- Matcha Latte — $4.600
-- Leche vegetal extra — $1.000
-
-#### Bebidas frías
-
-- Cold brew — $3.900
-- Latte frío — $4.200
-- Iced Matcha latte — $4.900
-- Iced Matcha berries — $4.900
-- Chai latte frío — $5.300
-- Iced protein strawberries — $5.300
-- Jugo de Berries — $5.300
-- Jugo de Frutilla — $5.300
 
 
 ## Bonheur Pâtisserie
@@ -1650,7 +1151,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** torta, pastel, alfajor, brownie, cheesecake, pie, chocolate, tiramisú, manjar, factura, postre, dulces
 - **Menciona en reseñas:** torta, pastel, alfajor, muffin, postre, dulces
 - **Fecha de registro:** 2025-11-23
-- **Dietético:** 73 platos sin gluten, 3 veganos, 41 sin lactosa
+- **Dietético:** 72 platos sin gluten, 3 veganos, 41 sin lactosa
 
 ### Qué vende
 
@@ -1825,7 +1326,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 #### Surtidos de pasteles
 
 - Pack Bonheur — $15.000 [sin gluten]
-- Caja de Postres de Cocktail Surtidos — $80.000 [sin gluten]
 
 
 ## BuganVilla cafe & market
@@ -1837,7 +1337,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** pasta, galleta, alfajor, chocolate, manjar, dulces
 - **Menciona en reseñas:** chocolate
 - **Fecha de registro:** 2025-11-23
-- **Dietético:** 106 platos sin gluten, 158 veganos, 18 sin lactosa
+- **Dietético:** 85 platos sin gluten, 127 veganos, 13 sin lactosa
 
 ### Qué vende
 
@@ -1846,7 +1346,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Superalimentos
 - Keto y sin azúcar
 - Despensa
-- Café e infusiones
 - Snack y galletas
 - Varios
 - Aceites y trufas
@@ -1855,20 +1354,18 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Vitaminas y minerales
 - Lácteos
 - Endulzantes y azúcar
+- Café e infusiones
 - Especias y salsas
 - Chocolates y golosinas
 - Vegano y vegetariano
-- Bebidas vegetales
-- Orgánico
 - Snacks
-- Hogar
 - Pastas y masas
-- Bebidas
-- Cuidado personal
+- Orgánico
 - Panadería
 - Suplementos
 - Frescos
 - Barras y proteínas
+- Cuidado personal
 
 
 ### Carta
@@ -1882,7 +1379,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Alani Nu Energetica - 355 ml — $2.990
 - Caffeina 200 mg 60 Capsulas - Nutrex — $12.990
 - Ghost Proteina Vegan — $41.990 [vegano]
-- Bebida energetica Ryse Fuel - 473ml — $2.990
 - 100% Whey Protein Premium Line 2lbs - Foodtech — $29.990
 - Proteina Whey 2lb - Ghost — $41.990
 - MRE Protein Shake 500ml - Redcon1 — $3.490
@@ -2003,97 +1499,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Miel de Montaña 1kg MonteCarmelo — $19.990
 - Miel Cruda 100% pura de Ulmo 500g — $8.690
 
-#### Café e infusiones
-
-- Yerba Mate Mapuche Orgánica 400g — $5.990
-- Yerba Mate Curitibana Orgánica 400g — $5.990
-- Cafe árabe/Turco con cardamomo 200g — $7.990
-- Café molido 500g — $15.290
-- Café Belen de Umbría 10 Caps. compatible para Nespresso — $4.490
-- Café La Chacra D' Dago 10 Caps. compatible para Nespresso — $4.990
-- Endulzante D' Stevia — $3.390
-- Barra de Chocolate 100% Cacao Org. 100g — $7.200 [sin gluten]
-- Barra de Chocolate 70% Cacao Org. 100g — $3.990 [sin gluten]
-- Barra de Chocolate 85% Cacao Org. 100g — $4.390 [sin gluten]
-- Chocolate con almendras 70% cacao 100g — $4.490 [sin gluten]
-- Barra Chocolate con menta 70% cacao 100g — $3.990 [sin gluten]
-- Chips de chocolate 52% Cacao Org. 400g — $15.990 [sin gluten]
-- Té negro chai indio 20 bolsas — $6.190 [sin gluten, vegano]
-- Té de Menta 25 bolsas — $6.190
-- Té Camomile Orgánoco 20 bolsas — $6.190
-- Té camomila, limón y lavanda 20 bolsitas — $6.190
-- Té Frio Passionate Raspberry — $2.390
-- Té Frio Pomelo punch — $2.390
-- Té Frio Sweet Lemon 475ml — $2.390
-- Té Helado Chai 475cc — $2.390
-- Te Helado Jamaica 475cc — $2.390
-- Té Frio Strawberry Lemon 475ml — $2.390
-- Té Jamaica 20 bolsitas — $3.990
-- Café Intenso 10 Caps.- Compatible con Nespresso — $5.590
-- Café 100% Arábica 10Caps. - Compatible con Nespresso — $5.590
-- Filtro de café N°4 — $3.890
-- Café molido edición aniversario 250g — $10.490
-- Café en grano Espresso 250g — $13.390
-- Café molido descafeinado 250g — $13.390
-- Café molido Liberty 500g — $13.390
-- Balls chocolate belga (sin azúcar) 70g — $3.290 [sin azúcar]
-- Balls chocolate blanco (Sin azúcar) 70g — $3.290 [sin azúcar]
-- Tés Colección de de la tarde — $17.990
-- Tés Colección atemporal — $17.990
-- Café en grano Gourmet Columbus 250g — $11.990
-- Café en grano Oro Casa 500g — $13.290
-- Mate de madera enchapado en aluminio — $6.990
-- Bombilla para mate de acero inoxidable — $6.990
-- Te guaraní plan 30 días — $5.990
-- Té blanco con frambuesa Org. 20 bolsas — $6.190
-- Gran Chocolate con avellanas Italiano 250g — $9.990
-- Granos de Café cubiertos de Chocolate 220g — $4.990
-- Té Chai matcha en polvo 398g — $9.890
-- Té Chai Tortoise Green 398g — $9.890
-- Té Elephant Vainilla chai 398g — $9.890
-- Té Flamingo Vainilla chai (Sin Azúcar) 337g — $9.890 [sin azúcar]
-- Té Chai Orca spice en polvo (sin azúcar) 337g — $9.890 [sin azúcar]
-- Té Chai en polvo 398g — $9.890
-- Turmeric Latte (cúrcuma) 80g — $11.590
-- Café Miscela decisa 10 Caps. - compatible con Nespresso — $6.990
-- Ketchup picante 350g — $3.690 [sin gluten]
-- Té Clean Matcha Green Org. 20 Bolsitas — $7.490
-- Té Chai Flamingo Vanilla descafeinado (sin azúcar) sachet 1 unidad — $1.590 [sin azúcar]
-- Té Orca spice chai (sin azúcar) sachet 1 unidad — $1.590 [sin azúcar]
-- Té Black rhino cocoa chai 398g — $9.890
-- Jugo de Tomate 1L — $7.790
-- Pepinos Dulces Corte Americano 430g — $5.590
-- Café Instantáneo 100% arábica (25 sobres) — $9.490
-- Chocolate Blanco con Té Matcha 0% Azúcar 75g — $3.790 [sin azúcar]
-- Té verde con fresa 20 bolsas — $6.190
-- Café 100% Italiano Intenso en grano 1Kg — $22.990
-- Té Negro Tiger Spice Chai Sachet 28g — $1.790
-- Café italiano Intenso 100% en grano 250g — $6.590
-- Té Prana Chai Original Blend 100g — $8.990
-- Té Limón y Jengibre Org. 20 bolsitas — $6.190
-- Salame Napoli piccante 125g — $5.990
-- Café árabe/turco Plain arabica sin Cardamomo 200g — $7.990
-- Café Cialde Blu Pack 50 Unids. 360g — $25.990
-- Cafe Molido 100% Italiano Intenso 1kg — $22.990
-- Té Detox Day sin stevia 20 bolsas — $4.390
-- Té Chai Toucan Mango 398g — $9.890
-- Té verde Puro 10 Bolsitas — $2.690
-- Pepinos Dulces Corte Americano 990g — $9.990
-- Capsulas de café Crema Superiore 30 unid. Borbone — $21.990
-- Triple Concentrato de Tomate 200g — $4.490
-- Chocolate Dubai Artesanal 85g — $5.990
-- Chocolate De Dubai 95g — $5.000
-- Pelati Tomates Pelados Enteros 400g — $2.790
-- HellFire Doomed 12/10 Maldito Picante 147ml — $33.490
-- Reaper Racha 6/10 Maldito Picante 148ml — $23.990
-- Té Matcha En Sachet Manare - Sabor Matcha 20u — $8.990
-- Café Cialde Borbone Miscela oro 50 unids — $24.000
-- Capsulas Respresso Red Blend Borbone 50unids — $28.990
-- Té Cúrcuma, jengibre y Naranja Pukka 20bags — $7.490
-- Creatina Monohydrate 100% Pura, En Polvo, Sin Sabor 1kg — $47.990
-- Prosciutto Crudo Mattonella Corte Buona 500g — $19.990
-- Café De Especialidad Sensacao En Grano 1k — $27.990
-
 #### Snack y galletas
 
 - Jamón Serrano 100g — $5.590
@@ -2124,26 +1529,13 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Quinoa blanca lavada 1kg — $6.290
 - Fibra Inulina prebiótica (V) 600g — $9.590
 - Arroz Bomba 1Kg — $14.900
-- Limonada Thai 475cc — $2.290
 - Trufa negra Entera 50g — $59.990
 - Tartufata di Bosco (con porcini) 90g — $22.390
-- Perfume Black XS EDT 100ml hombre — $79.990
-- CK One Shock for her EDT 100ml mujer — $37.990
-- CK One Shock for him EDT 100ml — $37.990
-- Perfume Big Pony 1 Blue Men EDT 100ml — $38.790
-- Perfume Big Pony 2 EDT 100ml mujer — $53.990
-- Perfume Voyage EDT 100ml hombre — $25.990
-- Be delicious DKNY EDP 100ml — $69.990
 - Berenjenas asadas 650g — $3.990
-- Kombucha Jengibre 0 calorías 355ml — $2.390
-- Kombucha Cedrón 0 calorías 355ml — $2.390
-- Kombucha Arándano 0 calorías 355ml — $2.390
 - Delicias Turcas sabor Granada 400g — $11.190 [sin gluten, vegano]
 - Pesto Verde 180g — $7.290
 - Jamon serrano de 12 meses interfoliado 85g — $5.590
 - Jamón de cebo 100g — $16.790
-- Suero Biotix Limón 500ml — $2.590 [sin azúcar]
-- Suero Biotix Arándano 500ml — $2.590 [sin azúcar]
 - Rillettes de Pato 180g — $10.990
 - Mostaza Dijon Frasco Orsio 310g — $15.990
 - Foie Gras de Pato (50% bloc de foie gras) 1Kg — $65.990
@@ -2251,21 +1643,13 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Women Multivitamins 90caps - Foodtech — $21.490
 - Mascarpone Long Shelf Life 500ml — $11.990
 - Hierba Matico 25g — $1.690
-- Batido SuperGreens Original Cascara Foods 180g — $10.590 [sin azúcar]
 - Ghee ManteGhee 210g — $7.990
 - Ghee ManteGhee 1Kg — $31.190
-- Perfume QAED AL FURSAN EDP 90 ML- LATTAFA — $23.990
-- Perfume Hayaati Lattafa EDP 100ML — $28.790
-- Perfume Bad Homme Maison Alhambra EDP 100ML — $27.490
-- Perfume Ramz Silver Lattafa EDP 100M — $23.990
-- Perfume Your Touch For Women Maison Alhambra 100ML — $22.490
-- Perfume Rave Now Women EDP 100ml — $31.490
 - Salame Italiano Milano 100g Gourmitalia — $5.390
 - Pinoli Italiani 50g — $13.790
 - Aceto Balsamico De Modena Feder 2L — $14.290
 - Quinoa Tricolor 400g Manare Orgánica — $7.290
 - Dulces árabes Cocktail 10 unid — $6.790 [vegano]
-- Perfume Yeah! Man Alhambra 100ML — $23.990
 
 #### Aceites y trufas
 
@@ -2321,14 +1705,11 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - Tortillas de Maíz azul 10unid — $3.290 [sin gluten, vegano]
 - Tortillas de Maíz blanco 10unid — $3.290 [sin gluten, vegano]
-- Jugo naranja/manzana/zanahoria Org. 1L — $5.190 [sin gluten]
-- Bebida fermentada de jengibre con kefir (sin gluten) 330ml — $2.990 [sin gluten]
 - Ghee mantequilla clarificada 450g — $14.490 [sin gluten]
 - Barra de Chocolate 62% cacao Org. 100g — $4.390 [sin gluten]
 - Chocolate zero blanco & fresas (S.Azúcar/GF) 100g — $4.590 [sin azúcar, sin gluten, vegano]
 - Melena de león gomitas 60 Unids — $18.990 [sin gluten]
 - Cobertura de chocolate 70% cacao Org. 400g — $15.990 [sin gluten]
-- Bebida Energética Mango 250ml — $1.490 [sin gluten]
 - Salame ahumado 100g — $3.890 [sin gluten]
 - Longanizas de campo 500g — $5.990 [sin gluten]
 - Queso Parmesano Jo Charcuterie 150g — $5.690 [sin gluten]
@@ -2391,11 +1772,21 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Alulosa (endulzante) 400g — $11.190 [sin gluten]
 - Azúcar de coco orgánica 300g — $3.790
 
+#### Café e infusiones
+
+- Barra de Chocolate 100% Cacao Org. 100g — $7.200 [sin gluten]
+- Barra de Chocolate 70% Cacao Org. 100g — $3.990 [sin gluten]
+- Barra de Chocolate 85% Cacao Org. 100g — $4.390 [sin gluten]
+- Barra Chocolate con menta 70% cacao 100g — $3.990 [sin gluten]
+- Balls chocolate blanco (Sin azúcar) 70g — $3.290 [sin azúcar]
+- Pepinos Dulces Corte Americano 430g — $5.590
+- Chocolate Blanco con Té Matcha 0% Azúcar 75g — $3.790 [sin azúcar]
+- Pepinos Dulces Corte Americano 990g — $9.990
+
 #### Especias y salsas
 
 - Tahini Orgánico 330g — $9.990
 - Tahini de sésamo 3kg — $29.990
-- Agua de Rosas 250ml — $4.790
 - Zaatar Libanés 250g — $7.490
 - Jarabe de granada 410ml — $6.390
 - Passata di Pomodoro 690g — $3.990
@@ -2425,21 +1816,11 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Tortillas Cioccolata 20cm 6Unids — $9.290 [vegano]
 - Tortillas Keto flower 8 Unids — $7.990 [vegano]
 - Flor de banana en salmuera 260g — $2.590 [vegano]
-- Agua de coco 520 ml — $1.990 [sin azúcar, vegano]
-- Leche Condensada de coco 200g — $1.990 [sin gluten, sin lactosa, vegano]
 - Jaca en salmuera 300g — $2.490 [vegano]
-- Jaca entera en agua 300g — $2.490 [vegano]
-- Jaca en agua 300g — $2.490 [vegano]
 - Dulce de Coco Keto Vegano 220g — $11.590 [sin azúcar, sin lactosa, vegano]
-- Bebida vegetal de Coco (S.AZUCAR/V/GF) 1L — $2.690 [sin azúcar, sin gluten, vegano]
 - Alimento líquido de Almendras (S.Azúcar) 1L — $2.590 [vegano]
-- Leche de coco (S.Azúcar/V) 1L — $2.590 [sin azúcar, vegano]
-- Bebida de Almendras (GF/V) 1L — $3.290 [sin lactosa, vegano]
 - Beboda de Avena (S.Azúcar/V) 1L — $3.290 [sin azúcar, sin lactosa, vegano]
-- Té frio Mango Africano 475cc — $2.290 [sin gluten, vegano]
-- Té frio Original 475cc — $2.290 [sin gluten, vegano]
 - Turmeric Green coffee Plan de 14 días - Ayurvedic — $16.190 [vegano]
-- Golden Milk - Leche dorada 200g — $25.690 [vegano]
 - Arrollados primavera con tofu (vegano) 240g — $3.390 [vegano]
 - Mazapán Keto 9 Unids — $6.590 [sin gluten, vegano]
 - Crema de Cacao proteica (vegana) 425g — $7.990 [vegano]
@@ -2456,9 +1837,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Cabritas sabor queso (GF) 40g — $1.390 [vegano]
 - Granola Proteica 320g — $5.290 [vegano]
 - Mix Keto Snack 25g — $1.290 [sin gluten, sin lactosa, vegano]
-- Proteína en polvo Warrior Mocha 375g (Keto/V) — $33.990 [vegano]
 - Ginger beer 200ml — $2.490 [vegano]
-- Bebida Original de almendras (V) 1L — $2.690 [sin lactosa, vegano]
 - Delicias Turcas Avellanas sin azúcar 250g — $6.290 [sin azúcar, vegano]
 - Falafel 200g — $3.490 [sin gluten, vegano]
 - Lentejas rojas 500g — $3.290 [vegano]
@@ -2467,11 +1846,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Dulces árabes Cocktail Zero (sin azúcar, vegano) 6 unid — $6.790 [sin azúcar, vegano]
 - Barra Manjar Coco Keto 60g (V) — $5.290 [sin azúcar, sin gluten, sin lactosa, vegano]
 - Florentina Keto (V) 70g — $6.490 [sin gluten, sin lactosa, vegano]
-- Kombucha Lima Frambuesa Jengibre 475ml — $2.990 [sin gluten, vegano]
-- Kombucha Original 475ml — $2.990 [sin gluten, vegano]
-- Kombucha Mix berries 475ml — $2.990 [sin gluten, vegano]
-- Kombucha Manzana Jengibre 475ml — $2.990 [sin gluten, vegano]
-- Bebida de coco orgánica 400 ml — $2.990 [vegano]
 - Crema de coco orgánica 400 ml — $4.390 [vegano]
 - Chocolate niknuts 40g — $1.190 [sin azúcar, sin lactosa, vegano]
 - Mazapán chocolate Keto 42g — $2.590 [sin azúcar, sin gluten, vegano]
@@ -2492,16 +1866,12 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Proteina vegetal de soya fina texturizada 500g Positiv — $2.790 [vegano]
 - Carne de soya Gruesa 500g — $2.690 [vegano]
 - Chucrut crudo fermentado Verdes Vivos 400g — $5.490 [vegano]
-- Té White Shark Chai Tarro 398gr — $9.890 [vegano]
 - Pipoca De Quinoa con stevia 120g — $2.590 [vegano]
 - Gomitas de Fruta Berries 64g — $4.290 [sin azúcar, vegano]
 - Extracto de Vainilla Sin Alcohol 59ml — $10.790 [sin azúcar, vegano]
-- Infusion flor de jamaica 50g — $4.390 [vegano]
-- Té Chai Power Espresso 398g — $9.890 [sin lactosa, vegano]
 - Dátiles 250g — $2.490 [vegano]
 - Galletas Keto Moroketo 48g — $4.790 [sin lactosa, vegano]
 - Mazapan keto vegan (4 unidades) — $3.590 [sin azúcar, sin gluten, vegano]
-- Moringa & Green tea 28 bags — $8.190 [vegano]
 - Gel de Aloe Vera 1 litro — $14.590 [vegano]
 - Bombas Mediterraneas 20g — $790 [sin gluten, vegano]
 - Jengibre Limón + Manzana 80ml — $4.590 [vegano]
@@ -2512,14 +1882,11 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Cacao Nibs 250g — $14.990 [vegano]
 - Barra de Proteina Wow Peanut Chocolate 40 Gr — $1.490 [sin azúcar, sin gluten, vegano]
 - Vinagre de Granada 500 ml — $4.990 [vegano]
-- Jackfruit orgánico en jugo de piña 350 gr — $5.990 [sin azúcar, vegano]
 - Citrato de Magnesio en polvo orgánico 350gr — $20.490 [vegano]
 - Spirulina en polvo orgánica 250g — $10.990 [vegano]
 - Gluten 500g — $4.490 [vegano]
 - Protein Balls Almendra Crunch 60g — $2.290 [sin azúcar, vegano]
 - Fibra de Manzana 225g — $9.290 [vegano]
-- Batido Supergreens Piña 360g — $18.590 [sin azúcar, vegano]
-- Batido SuperGreens 360g — $18.590 [sin azúcar, vegano]
 - Pomodori Secchi Marinati 290g — $6.790 [vegano]
 - Funghi Porcini Secchi 20g — $4.690 [vegano]
 - Energy Ball Veganas + Proteínas 140g — $6.590 [vegano]
@@ -2531,70 +1898,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Cabellos de Ángel de Palmito Palmini 338g — $3.790 [sin gluten, vegano]
 - Puré De Palmitos Palmini 338g — $3.790 [vegano]
 - Lasagna De Palmitos Palmini 338g — $3.790 [vegano]
-- Té Orca Spice in Azúcar Caja Sachets * 12Unds — $17.890 [sin azúcar, vegano]
 - Melena De León + Ashwagandha 500mg 60 Caps. vegetales Ri&co — $19.990 [vegano]
-
-#### Bebidas vegetales
-
-- Leche de coco light Org. 400ml — $2.990
-- Leche evaporada de coco 360ml — $2.990 [vegano]
-- Leche de almendras s/azúcar, s/gluten, Org, 1L — $3.990 [sin azúcar]
-- Leche de Arroz con calcio (s/azúcar, s/gluten, Org) 1L — $3.490 [sin azúcar, sin gluten, vegano]
-- Leche de Coco y Arroz (s/azúcar, s/gluten, Org) 1L — $3.190 [sin gluten, vegano]
-- Leche de Avena (sin azúcar) 1L — $3.490 [sin azúcar, vegano]
-- Leche de coco Orgánica (V) 400ml — $2.590
-- Leche entera de Vacas libres pastoreo 1L — $2.990 [sin gluten]
-- Leche entera de Cabras libres 1L — $4.490 [sin gluten]
-- Bolitas de Quinoa con chocolate de leche (GF) 40g — $2.390 [sin gluten]
-- Leche Wilk Sin Azúcar/ Sin Lactosa 1L — $3.590 [sin azúcar, sin lactosa]
-
-#### Orgánico
-
-- Té verde chai orgánico 20 bolsitas — $6.190
-- Té Detox Orgánico 20 bolsitas — $6.190
-- Kombucha Té verde limón 0 calorías 355ml — $2.390
-- Kombucha Original 0 calorías 355ml — $2.390
-- Café molido Perú Amazona 250g — $9.890
-- Puré de Manzana/Arándano Org. 90g — $990
-- Puré Manzana/Plátano/Zanahoria Org. 90g — $990 [sin azúcar, sin gluten]
-- Jugo de manzana/durazno Org. 200cc — $990 [sin azúcar]
-- Aminos de coco orgánico 375 ml — $6.790
-- Jarabe de Maple orgánico 250 ml — $10.490
-- Chucrut Orgánico 360g — $5.690
-- Chucrut orgánico 907g — $9.990
-- Caldo de hueso de Vacuno 500ml — $9.990 [sin gluten]
-- Caldo de huesos de Pollo 500ml — $9.990 [sin gluten]
-- Té English Breakfast Org. 20 bolsitas — $6.190
-- Té Blanco Orgánico 20 bolsitas — $6.190
-- Té Earl grey tea - 20 bolsitas — $6.190
-- Té Infusión Frutos del Bosque 20 Bolsitas — $6.190
-- Té Calmer Chameleon Organic 20 bolsitas — $6.190
-- Té hoja de frambuesa Org. 20 bolsitas — $6.190
-- Té Rooibos Orgánico 20 bolsitas — $6.190
-- Té Rooibos, Naranja, Melissa Org. 20 Bolsitas — $7.490
-- Té Infusión de paz con Ashwagandha Org. 20 Bolsitas — $7.490
-- Té Colección Verde orgánico 20 Bolsitas — $7.490
-- Té Infusión revitalizar Org. 20 Bolsitas — $7.490
-- Té Infusión Amor orgánico 20 Bolsitas — $7.490
-- Té dorado de cúrcuma Org. 20 Bolsitas — $7.490
-- Té colección de hierbas orgánico 20 Bolsitas — $7.490
-- Té Colección del día a la noche Org. 20 Bolsitas — $7.490
-- Té Infusión Radiancia Org. 20 Bolsitas — $7.490
-- Té Matcha 50g — $6.590
-- Harina de Almendras con Piel 400g — $9.890
-- Té Chai Original Org. 20 bolsitas — $7.490
-- Vinagre de manzana con la "madre" (orgánico) 1 Lt — $8.790
-- Barra de chocolate Org. 90% 100g — $4.490
-- Té Verde Limón 20 bolsas — $6.190
-- Té Matcha orgánico Gift Box — $28.290
-- Vinagre Matcha Y Limón Orgánico 500ml — $7.790
-- Cacao en Polvo Orgánico 200g — $6.490
-- Mango en trozos orgánico 350g — $5.990 [sin azúcar]
-- Vinagre de Manzana Canela Cúrcuma 500ml — $7.990
-- Vinagre de Manzana Jengibre Cúrcuma Ají 500ml — $7.990
-- Salsa de soya tamari Yaemon japonesa orgánica 150ml — $6.990
-- Salsa de Soja Shoyu Japonesa Orgánica 150ml — $5.990
-- Té orgánico Night Time Berry Sweet Dreams 20bags — $7.490
 
 #### Snacks
 
@@ -2607,12 +1911,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Semillas de Cardamomo 25g — $3.790
 - Semillas de Linaza 500g — $2.390
 
-#### Hogar
-
-- Mortero De Piedra Negro 1,5kg — $8.990
-- Plancha de sal rosada con soporte metálico 20x20x3.9 cm — $24.990
-- Mortero de piedra blanca 1,5kg — $8.990
-
 #### Pastas y masas
 
 - Pasta Farfalle (Orgánicos) 500g — $2.790
@@ -2623,26 +1921,25 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Pasta de Lentejas rojas 250g — $4.690
 - Linguini de Palmito Palmini 338g — $3.790
 
-#### Bebidas
+#### Orgánico
 
-- Bebida energética natural Maracuyá Limón 250ml — $2.190 [sin azúcar, sin gluten, vegano]
-- Agua de coco natural 520 ml — $2.470 [sin azúcar]
-- Agua mineral con gas 250ml — $1.890
-- Jugo de manzana/arándano Org. 200cc — $990 [sin azúcar]
-- Agua de rosas 500ml — $4.990
-- Bebida de Avena Barista 1L — $4.290
-- Bebida Piña, Manzana y Espinaca 400ml — $3.190
-- Bebida Uva, Arándano, Maíz morado 400ml — $3.190
-- Bebida Uva, Frutilla y Betarraga 400ml Borganics — $3.190
-- Bebida de Naranja, Frutilla y Zanahoria 400ml — $3.190
-- Bebida de Chia y Maracuyá 400ml — $3.190
-- Bebida Camu Camy, Mango y Maracuya 400ml — $3.190
-- Bebida Concentrada Jengibre 100% Natural 480ml — $12.990
-
-#### Cuidado personal
-
-- Suero Biotix Frambuesa 500ml — $2.590 [sin azúcar]
-- Salsa de tomates con Albahaca 370g — $5.490
+- Puré de Manzana/Arándano Org. 90g — $990
+- Puré Manzana/Plátano/Zanahoria Org. 90g — $990 [sin azúcar, sin gluten]
+- Aminos de coco orgánico 375 ml — $6.790
+- Jarabe de Maple orgánico 250 ml — $10.490
+- Chucrut Orgánico 360g — $5.690
+- Chucrut orgánico 907g — $9.990
+- Caldo de hueso de Vacuno 500ml — $9.990 [sin gluten]
+- Caldo de huesos de Pollo 500ml — $9.990 [sin gluten]
+- Harina de Almendras con Piel 400g — $9.890
+- Vinagre de manzana con la "madre" (orgánico) 1 Lt — $8.790
+- Barra de chocolate Org. 90% 100g — $4.490
+- Cacao en Polvo Orgánico 200g — $6.490
+- Mango en trozos orgánico 350g — $5.990 [sin azúcar]
+- Vinagre de Manzana Canela Cúrcuma 500ml — $7.990
+- Vinagre de Manzana Jengibre Cúrcuma Ají 500ml — $7.990
+- Salsa de soya tamari Yaemon japonesa orgánica 150ml — $6.990
+- Salsa de Soja Shoyu Japonesa Orgánica 150ml — $5.990
 
 #### Panadería
 
@@ -2659,7 +1956,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - Colágeno Antiox 300g — $20.490
 - Péptidos de Colágeno 250g — $20.990
-- Bebida Saludable Limón/frambuesa + Probiótico 350cc — $2.190 [sin azúcar]
 - Péptidos De Colágeno Hidrolizado 600g Manare — $34.990
 
 #### Frescos
@@ -2673,6 +1969,10 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Brownie de proteina Cookie Dough 65g — $2.990
 - Brownie de proteina Peanut Butter 65g — $2.990
 - Maxi Nutrition Protein Waffle Bar - Caramel Spread — $2.990 [sin azúcar]
+
+#### Cuidado personal
+
+- Salsa de tomates con Albahaca 370g — $5.490
 
 
 ## C'est si Bon Costanera
@@ -2696,13 +1996,9 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Hamburguesas
 - Desayunos & Brunch
 - Almuerzos
-- Café
-- Café Helado
 - Bollería
 - Postre
-- Modificador de bebida
 - Dulces Especialidades
-- Chocolate Caliente
 
 
 ### Carta
@@ -2801,30 +2097,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - Atún Poêlé — $12.990
 
-#### Café
-
-- Espresso Cosi il Bon — $2.790
-- Ristretto Italiano 15ml — $2.590
-- Ristretto Italiano 30ml — $2.590
-- Lungo — $2.890
-- Doppio — $2.890
-- Café Americano — $2.990
-- Macchiato — $2.990
-- Cappuccino — $3.290
-- Cappuccino Clásico — $3.290
-- Cappuccino Saborizado — $4.190
-- Moka Latte — $4.190
-- Café Au Lait — $4.290
-- Latte Macchiato — $4.290
-- Gran Chai Latte — $4.590
-- Latte Tiramisú — $4.590
-- Latte Pumpkin Spice — $4.590
-- Opción descafeinado — $4.590
-
-#### Café Helado
-
-- Café Helado — $4.690
-
 #### Bollería
 
 - Croissant — $2.290
@@ -2838,26 +2110,15 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - Churros — $3.990
 - Churros con Manjar — $4.990
-- Churros con Chocolate Caliente — $4.990
 - Trío de Macarrones — $5.990
 - Macarones franceses — $1.690
 - Macarones franceses — $3.490
 - Postre artesanal — $2.990
 - Postre de chocolate — $2.190
 
-#### Modificador de bebida
-
-- Opción de leche vegetal — $4.500
-- Leche de soya o almendra — $4.990
-
 #### Dulces Especialidades
 
 - Trío de Macarrones y café americano — $5.990
-
-#### Chocolate Caliente
-
-- Chocolate Belga 180 ml — $3.590
-- Chocolate Belga 400 ml — $4.690
 
 
 ## Cafe Zoliakie Gluten Free
@@ -2890,7 +2151,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Copa Helado — $3.800
 - Copa Niños Ñ — $2.400
 - Hamburguesa Italiana o Americana
-- Café Helado
 - } Selva Negra — $3.200
 - Ml Fusión (3 leches/Brownie) — $3.200
 - Leches (3 leches/Manjar) — $3.200
@@ -2921,37 +2181,11 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - PIZZA DOLCE ARRIBIATA
 - PIZZA BIANCA DI YUBA
-- CAFÉ ESPRESSO/AMERICANO/ CAPUCCINO/FLAT WHITE/LATTE
 - DULCE BANANA BREAD CON SALSA DE CARAMELO Y CAFÉ SALADO
-- JUGO NARANJA
-- ESPRESSO — $2.500
 - AMERICANO — $2.500
-- RISTRETTO — $2.500
-- LUNGO — $2.500
 - FILTRADO V60 — $3.400
-- CHOCOLATE CALIENTE — $4.500
-- MATCHA LATTE — $4.500
-- CHAI LATTE — $4.500
-- GOLDEN MILK — $4.500
-- TÉ/INFUSIONES — $2.500
-- AGUA CON/SIN GAS — $1.800
-- MACCHIATO — $2.700
-- CAPUCCINO — $3.600
-- LATTE — $3.900
-- FLAT WHITE — $3.600
-- MOCACCINO — $4.500
-- DIRTY CHAI — $5.000
-- MATCHA ICHIGO MATCHA/PURÉ DE FRUTILLA/LECHE — $5.000
-- GATA MULE TÉ VERDE/SYRUP LEMONGRASS/ LIMÓN Y GINGERBEER — $5.000
 - COLDBREW — $3.800
-- ESPRESSO TÓNICA — $4.000
 - COLDBREW GINGER — $4.500
-- ESPRESSO NARANJA — $4.000
-- LATTE FRÍO — $4.000
-- MATCHA LATTE FRÍO — $4.500
-- JUGO NATURAL — $3.000
-- KOMBUCHA CASA SATURNO — $3.300
-- LECHE NUDE 1LT — $4.200
 - BAGUETTE — $1.200
 - MARRAQUETA DOBLE — $2.000
 - FOCACCIA — $1.500
@@ -2983,41 +2217,17 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Ciabatta Italiano
 - Completo Italiano
 - ciabatta luco
-- Chocolate Caliente
-- Berry Latte
 - Syrup
-- Flor de Hibisco ice latte
 - Ice Cinnamon Coffee
 - Caramel Ice
-- Brisa Tonic
 - Jamaica Ice Glitter
-- Purple Chai
-- Ice Matcha Lavanda
-- Espresso
-- Espresso Doble.
 - Americano
 - Americano XL
 - Americano frio
-- Cappuccino
-- Latte molino
 - vaso levar
 - Moccacino
-- cafe higo
 - summer coffee
-- cortado molino
-- Matcha latte Molino
 - delicious summer
-- Te infusión
-- Chai latte
-- Matcha Latte
-- Matcha Latte frío
-- Chai
-- Infusión Tetera
-- Limonada Variedades
-- Jugo de Maracuyà
-- Jugos naturales
-- Smoothie Molino
-- limonada flor de hibisco
 - Cheesecake de oreo sin gluten vegano [sin gluten, vegano]
 - Brownie Gluten Free [sin gluten]
 - tartaleta de frambuesa
@@ -3039,14 +2249,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Ensalada Pollo.
 - Ensalada Keto
 - RedBull
-- Variedad de bebidas
-- agua vital pet
-- Agua Fentimals
-- latte ice molino
 - sana sana - colita de rana
-- cafe helado
 - Salsa Extra
-- Carga Café
 - salchi papas
 - promo 2 solo para llevar
 - Quesadilla Verduras
@@ -3080,29 +2284,22 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://toteat.shop/r/cl/Pasteleria-Fabiana/21150/checkin/menu
 - **Menciona en reseñas:** pino, torta, pastel
 - **Fecha de registro:** 2026-03-23
-- **Dietético:** 8 platos sin gluten, 8 veganos, 5 sin lactosa
+- **Dietético:** 8 platos sin gluten, 8 veganos, 4 sin lactosa
 
 ### Qué vende
 
 - Bollería y Chocolates
 - Confitería y frutos secos
 - Flores
-- Niños
 - Cheesecake, tarta y pie
 - Tortas
 - Café
 - Bebidas frías
-- Té
-- Jugos naturales
 - Sandwich
 - Helados
-- Botellas
-- Aguas
 - Vegano y sin lactosa
 - Sin gluten
-- Syrups y leches
 - Tartas y/o tortas enteras
-- Regalo / Packaging
 
 
 ### Carta
@@ -3126,7 +2323,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Macarrons ♥ — $5.590
 - Palmeritas — $3.100
 - Paleta conejto  pascua — $500 [sin lactosa, vegano]
-- Extra tónica — $690
 - Galleton NY red velvet — $3.690
 - Brownie vegano — $5.290 [vegano]
 - Trufas — $1.690
@@ -3143,11 +2339,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Ramo L — $15.000
 - Ramo flores Secas — $13.000
 - Flor unidad — $4.000
-
-#### Niños
-
-- Chocolate caliente (menú niños) — $4.890
-- Leche de frutilla — $4.200
 
 #### Cheesecake, tarta y pie
 
@@ -3172,97 +2363,11 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 #### Café
 
-- Espresso — $2.800
-- Espresso doble — $3.200
-- Ristretto — $2.500
-- Lungo — $2.600
-- Americano — $2.900
-- Capuccino — $3.500
-- Capuccino doble — $4.200
-- Latte — $3.600
-- Macchiato doble — $3.500
-- Mocaccino — $3.900
-- Mocaccino blanco — $3.900
-- Chocolate caliente — $4.290
-- Latte XL — $4.400
-- Flat white — $3.700
-- Chai latte — $3.800
-- Matcha latte caliente — $3.800
-- Dirty chai — $4.100
-- Cortado — $3.400
-- Café helado — $4.990
-- Vaso/taza leche — $1.990
-- Americano tonic coconut — $4.900
 - Crema chantilly — $900
-- Carga extra café — $700
-- Caramel macchiato — $3.900
-- Extra leche — $890
-- Flat caramel — $4.490
-- Latte Vainilla — $4.290
-- Matcha vainilla latte — $4.990
-- Chai Latte Ginger — $4.400
-- Capuccino caramel — $4.190
-- Chocolate caliente doble — $7.990
-- Café filtrado del día — $2.500
-- Box Coffe Flowers — $11.990
-- Promo café filtrado del día + media luna — $4.590
-- Café en grano origen Brasil 250grs — $13.990
-- Café en grano origen Bolivia 250grs — $13.990
-- Pumpkin spice latte 🎃 — $5.390
-- Café en grano origen Colombia 250grs — $13.990
 
 #### Bebidas frías
 
-- Iced mocaccino — $4.200
-- Iced mocaccino blanco — $4.200
-- Iced Dirty Chai — $4.200
-- Iced Americano — $3.400
-- Iced Latte — $3.800
-- Iced Matcha latte — $4.200
-- Iced Chai latte — $3.900
-- Iced chocolate — $3.900
 - Iced chocolate blanco — $3.900
-- Orange coffee — $4.900
-- Ginger tonic espresso — $4.900
-- Iced matcha frambuesa  vainilla — $4.600
-- Espresso tonic — $4.900
-- Iced americano coconut — $3.990
-- Iced matcha coco — $4.790
-- Iced caramel macchiato — $4.590
-- Iced tea durazno — $3.490
-- Iced tea limon — $3.490
-- Iced tea frambuesa — $3.490
-- Iced Chai Latte Ginger — $4.100
-- Iced tea Durazno sin azúcar — $3.490 [sin azúcar]
-- Cold Brew Core — $3.990
-- Cold Brew Bloom — $3.990
-- Iced café filtrado del día — $3.290
-- Iced Pumpkin spice  🎃 — $5.390
-
-#### Té
-
-- Dammann Té Negro Intenso — $2.990
-- Damman Té Early Grey — $2.990
-- Dammann Infusión Rooibos Vainilla — $3.190
-- Damman Frutos rojos — $2.990
-- Té con leche — $3.490
-- Dammann Té Verde Menta — $2.990
-- Dammann Infusión de Manzanilla — $2.990
-- Dammann Rooibos Citrus — $3.190
-- Té Masala chai — $12.990
-- Té Canela naranja black tea — $12.990
-- Té Malva rosa sweet dreams — $12.990
-
-#### Jugos naturales
-
-- Jugo natural Frutilla — $4.190
-- Jugo natural Frambuesa — $4.190
-- Jugo natural Piña — $4.190
-- Jugo natural Mango — $4.190
-- Jugo natural Vibes tropical — $4.190
-- Jugo natural Berries up — $4.190
-- Jugo de naranja natural — $4.990
-- Jugo natural piña naranja — $4.990
 
 #### Sandwich
 
@@ -3271,20 +2376,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 #### Helados
 
-- Affogato — $4.990
 - Helado simple vainilla — $3.390
-
-#### Botellas
-
-- Jugo Manzana Rubén Aviles — $2.390
-- Jugo Maqui Rubén Aviles — $2.390
-- Jugo Cranberries Rubén Aviles — $2.390
-
-#### Aguas
-
-- Agua Soda 500 cc — $2.490
-- Agua purificada sin gas 500 cc — $2.490
-- Agua porvenir con gas — $2.300
 
 #### Vegano y sin lactosa
 
@@ -3300,22 +2392,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Cheesecake frutos rojos KETO — $5.890 [sin gluten]
 - Apple crumble KETO — $4.890 [sin gluten]
 - Tiramisú KETO — $5.890 [sin gluten]
-
-#### Syrups y leches
-
-- Leche entera — View product
-- Leche sin lactosa — View product [sin lactosa]
-- Leche vegetal soya — $699
-- Leche vegetal avena — $700
-- Leche vegetal almendra — $700
-- Syrup caramelo — $700
-- Syrup avellana — $700
-- Syrup vainilla — $700
-- Syrup tiramisú — $700
-- Syrup amareto — $700
-- Syrup avellana S/A — $800 [sin azúcar]
-- Syrup pumpkin spice — $700
-- Descafeinado — $490
 
 #### Tartas y/o tortas enteras
 
@@ -3347,11 +2423,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Pastel Completo Chocolate manjar Keto — $39.000
 - Pastel Completo Red velvet Keto — $39.000
 
-#### Regalo / Packaging
-
-- Tarjetas de regalo / cumpleaños — $590
-- Tote Bag — $4.990
-
 
 ## Caffè Pascucci
 - **Ubicación:** Av. Apoquindo 2730, local 101, 7550212 Las Condes, Región Metropolitana
@@ -3365,14 +2436,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 ### Qué vende
 
-- Cafetería
-- Café Helado
-- Espressini
 - Clásicos Pascucci
-- Latte Caliente
-- Frappé
-- Frappé Shake
-- Té Helado
 - Chocolate
 - Postre Helado
 - Coppe
@@ -3381,51 +2445,16 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Croissant
 - Baguettes
 - Quiche
-- Cafetería Italiana
 - Filter Coffee
-- Té e Infusiones
-- Chai Latte
 - Pascucci Baby
 - Pas-Ciok
 - Hot
 - Pop News
-- Bebidas de café especiales
-- Frappés
 - Chocolates
 - Postres de helado
 
 
 ### Carta
-
-#### Cafetería
-
-- Espresso — $2.700
-- Espresso Orgánico — $3.000
-- Cappuccino — $3.700
-- Café de Filtro — $4.400
-- Americano — $3.200
-- Latte — $3.900
-- Té e Infusiones — $3.400
-- Espresso Doble — $3.000
-- Espresso Macchiato — $3.000
-- Infusión — $3.100
-- Té Chai Latte — $3.900
-- Té Frío — $3.900
-
-#### Café Helado
-
-- Matcha Helado — $5.200
-- Mocha Helado — $4.900
-- Mocha Canela Helado — $5.900
-
-#### Espressini
-
-- Espressini Pistacho — $3.800
-- Espressini Bianco — $3.400
-- Espressini Ruby — $3.100
-- Espressini Padovano — $3.400
-- Espressini Caramelo — $3.200
-- Espressini Clásico — $2.800
 
 #### Clásicos Pascucci
 
@@ -3433,36 +2462,12 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Mokaccino — $4.300
 - Gianduidio — $4.600
 - Bon Bon — $4.200
-- Café Confuso — $2.800
 - Montebianco — $2.900
 - Pascuccino — $2.690
 - Gianduia — $3.500
-- Affogato — $2.690
 - Mentino — $2.800
 - Mokacappuccino — $4.300
 - Guanqidio — $4.600
-
-#### Latte Caliente
-
-- Latte Caliente — $3.990
-- Matcha Caliente — $4.200
-- Mocha Caliente — $4.690
-- Latte de Avellana Caliente — $5.200
-
-#### Frappé
-
-- Frappé Mocha Chip — $5.200
-- Frappé Confuso — $4.690
-
-#### Frappé Shake
-
-- Frappé Shake de Mango — $5.400
-- Frappé Shake de Arándanos — $5.400
-- Frappé Shake de Fresa — $5.200
-
-#### Té Helado
-
-- Té Helado de Yuzu — $3.900
 
 #### Chocolate
 
@@ -3477,10 +2482,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 #### Coppe
 
-- Café Helado — $5.490
 - Coppa del Padrino — $6.490
 - Coppa Crema Confuso — $6.490
-- Jamaica Iced Coffee — $6.490
 - Coppa Greca — $6.490
 
 #### Gelatti
@@ -3517,26 +2520,9 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Quiche Camarón
 - Quiche Mechada
 
-#### Cafetería Italiana
-
-- Espresso Doble — $2.300
-- Descafeinado — $1.800
-- Iced Americano — $2.700
-- Latte Macchiato — $2.800
-- Bebida de Soya / Almendra — $400
-
 #### Filter Coffee
 
 - Chemex 3 Tazas — $3.300
-
-#### Té e Infusiones
-
-- Té en Hojas — $2.290
-- Infusiones en Hojas — $2.290
-
-#### Chai Latte
-
-- Chai Latte — $2.890
 
 #### Pascucci Baby
 
@@ -3547,13 +2533,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Clásica — $2.600
 - Iced — $3.990
 - Sabores — $3.990
-- Mocha Chip Frappé — $3.990
-- Frappé Shake — $3.990
 - Frutilla — $4.400
 - Plátano — $4.400
-- Iced Mocha — $3.500
-- Iced Latte — $2.800
-- Café Pompato — $2.400
 
 #### Hot
 
@@ -3561,18 +2542,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 #### Pop News
 
-- Café del Día — $2.100
 - Pas-Ciok Panna — $3.000
-- Mocha 3 Tazas — $3.000
 - Mokambú — $4.200
-
-#### Bebidas de café especiales
-
-- Espressino Baci — $4.800
-
-#### Frappés
-
-- Frappé Modiccia — $3.300
 
 #### Chocolates
 
@@ -3581,7 +2552,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 #### Postres de helado
 
-- Café Helado Jamaica
 - Haití
 
 
@@ -3592,21 +2562,15 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=12393475553772179856
 - **Menciona en reseñas:** pizza, mechada, torta, chocolate, jugo
 - **Fecha de registro:** 2025-11-23
-- **Dietético:** 29 platos sin gluten, 3 veganos
+- **Dietético:** 28 platos sin gluten, 3 veganos
 
 ### Qué vende
 
-- BEBIDAS Y JUGOS FRÍOS
-- CAFETERÍA
-- CHOCOLATE CALIENTE
 - HELADOS
-- ICED COFFEE
 - MASAS DULCES
 - PAILAS DE HUEVO
 - PROMOCIONES
 - SANDWICHES Y PIZZAS
-- SMOOTHIES Y MILKSHAKES
-- TÉ / INFUSIONES
 - TORTAS
 - TOSTADAS
 - TOSTADAS FRANCESAS
@@ -3616,85 +2580,12 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 ### Carta
 
-#### BEBIDAS Y JUGOS FRÍOS
-
-- AGUA MINERAL CON GAS — $1.700
-- AGUA MINERAL SIN GAS — $1.700
-- COCA COLA ORIGINAL — $1.990
-- COCA COLA ZERO — $1.990
-- FANTA ORIGINAL — $1.990
-- JUGO CHIRIMOYA — $3.900
-- JUGO FRAMBUESA — $3.900
-- JUGO FRUTILLA — $3.900
-- JUGO MANGO — $3.900
-- JUGO MANGO MARACUYA — $4.300
-- JUGO MARACUYÁ — $3.900
-- JUGO NATURAL CHIRIMOYA ALEGRE — $4.300
-- JUGO NATURAL DE NARANJA — $3.900
-- JUGO NATURAL NARANJA PLATANO — $4.300
-- JUGO PIÑA — $3.900
-- LIMONADA FRAMBUESA — $3.500
-- LIMONADA MARACUYA — $3.500
-- LIMONADA MENTA — $3.300
-- LIMONADA MENTA JENGIBRE — $3.400
-- SPRITE NORMAL — $1.990
-- SPRITE ZERO — $1.990
-
-#### CAFETERÍA
-
-- AFFOGATO — $4.300
-- AMERICANO DOBLE — $3.700
-- AMERICANO DOBLE SABORES — $4.100
-- AMERICANO SIMPLE — $3.000
-- CAFÉ AQUELARRE — $4.800
-- CAPPUCCINO DOBLE — $4.100
-- CAPPUCCINO DOBLE SABORES — $4.500
-- CAPPUCCINO SIMPLE — $3.600
-- CAPPUCCINO SIMPLE SABORES — $4.200
-- CARAMEL MACCHIATO — $4.600
-- CORTADO DOBLE — $4.100
-- CORTADO SIMPLE — $3.700
-- ESPRESSO DOBLE — $2.700
-- ESPRESSO DOBLE SABORES — $3.200
-- ESPRESSO SIMPLE — $2.300
-- FLAT WHITE (doble carga) — $4.100
-- LATTE — $3.700
-- LATTE BOMBÓN — $4.500
-- LATTE NUTELLA CROCANTE — $4.800
-- LATTE SABORES — $4.200
-- MACCHIATO DOBLE — $3.700
-- MACCHIATO SIMPLE — $3.000
-- MOCACCINO — $4.100
-- TAZON DE LECHE VEGETAL — $2.800
-
-#### CHOCOLATE CALIENTE
-
-- CHOCOLATE CALIENTE — $4.100
-
 #### HELADOS
 
 - CONO TRIPLE — $4.600
 - COPA EMBRUJO NARANJA — $6.500
 - COPA HECHIZO DEL BOSQUE — $6.500
 - COPA PÓCIMA DE LOS BAJITOS — $6.500
-
-#### ICED COFFEE
-
-- CAFÉ HELADO — $5.500
-- FRAPUCCINO SABORES — $5.200
-- FRAPUCCINO TRADICIONAL — $4.800
-- ICED AMERICANO DOBLE — $3.800
-- ICED AMERICANO SIMPLE — $3.500
-- ICED AMERICANO SIMPLE CON ESCENCIA — $3.800
-- ICED CAPUCCINO — $4.400
-- ICED CAPUCCINO SABORES — $4.700
-- ICED CARAMEL MACCIATO — $4.800
-- ICED CHAILATTE — $4.200
-- ICED LATTE — $4.400
-- ICED LATTE BOMBÓN — $4.500
-- ICED LATTE SABORES — $4.700
-- ICED TEA — $3.500
-- ICED TEA SABORES — $3.900
 
 #### MASAS DULCES
 
@@ -3724,11 +2615,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - DESAYUNO AQUELARRE — $8.500
 - MENÚ JUNAEB BÁSICO — $2.350
 - MENÚ JUNAEB PREMIUM — $4.700
-- PROMO AVE ACEITUNA CON TÉ O AMERICANO — $8.200
-- PROMO MEDIA LUNA CON TE O AMERICANO — $4.400
 - PROMO PIE DE LIMÓN CON TÉ O AMERICANO — $6.100
-- PROMO VEGETARIANO MÁS TÉ O AMERICANO — $8.200
-- PROMOCIÓN SOPAIPILLAS PASADAS MÁS TÉ O CAFÉ — $6.800
 - PROMO MUFFIN CON TÉ O AMERICANO — $5.100
 
 #### SANDWICHES Y PIZZAS
@@ -3759,39 +2646,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - PIZZA INDIVIDUAL VEGETARIANA — $6.500
 - PIZZA MECHADA CAMPESTRE — $6.990
 
-#### SMOOTHIES Y MILKSHAKES
-
-- LECHE CON PLÁTANO — $4.200
-- MILKSHAKE CHOCOLATE — $5.500
-- MILKSHAKE MANJAR — $5.500
-- MILKSHAKE OREO — $5.500
-- MILKSHAKE PIE DE LIMON — $5.500
-- MILKSHAKE SABORES PARA LLEVAR — $5.800
-- MILKSHAKE VAINILLA — $5.500
-- SMOOTHIE DE BERRIES — $5.500
-- SMOOTHIE DE CHIRIMOYA — $5.500
-- SMOOTHIE DE FRAMBUESA — $5.500
-- SMOOTHIE DE FRUTILLA — $5.500
-- SMOOTHIE DE MANGO — $5.500
-- SMOOTHIE DE PIÑA — $5.500
-- SMOOTHIE DE SABORES PARA LLEVAR — $5.800
-
-#### TÉ / INFUSIONES
-
-- CHAI LATTE DE LA CASA — $3.900
-- DIRTY CHAI LTTE — $4.800
-- MANZANILLA — $2.900
-- MENTA — $2.900
-- TÉ CHAI DE LA CASA — $3.500
-- TÉ CON LECHE — $3.500
-- TÉ DE CACAO — $3.500
-- TÉ NEGRO CANELA — $3.500
-- TÉ NEGRO DE HOJAS — $2.900
-- TÉ SABORES — $3.500
-- TÉ VAINILLA NARANJA — $3.500
-- TÉ VERDE MENTA — $3.500
-- TÉ VERDE TRADICIONAL — $3.500
-
 #### TORTAS
 
 - CARROT CAKE SIN AZUCAR — $5.500 [sin azúcar]
@@ -3821,7 +2675,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 #### VEGANOS Y LIBRES DE GLUTEN
 
 - BIZCOCHITO SIN GLUTEN BAÑADO EN CHOCOLATE — $2.490 [sin gluten]
-- CHOCOLATE CALIENTE SIN GLUTEN — $4.100 [sin gluten]
 - DESAYUNO AQUELARRE CELIACO — $9.000 [sin gluten]
 - PAILA DE HUEVOS SIN GLUTEN — $4.500 [sin gluten]
 - PAILA DE HUEVOS SIN GLUTEN CON JAMON Y QUESO — $5.300 [sin gluten]
@@ -3879,26 +2732,12 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 ### Qué vende
 
-- Mocktails
-- Métodos de Filtrado
 - Bollería
 - PASTELERÍA
 - DULCE TENTACIÓN
 
 
 ### Carta
-
-#### Mocktails
-
-- Cerveza Sin Alcohol — $3.300
-- Cerveza Sin Alcohol Michelada — $3.700
-- Espresso Naranja — $4.900
-- Espresso Tonic/Pink — $4.900
-
-#### Métodos de Filtrado
-
-- Filtrado Grano de la Semana — $5.200
-- Filtrado Grano a Elección — $6.000
 
 #### Bollería
 
@@ -3960,15 +2799,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 ### Qué vende
 
-- CERVEZAS
-- PISCO SOUR
-- VODKA
-- MARGARITA
-- MOJITO
-- PISCO + bebida
-- WHISKY
-- REFRESCOS Y JUGOS NATURALES
-- TÉ, INFUSIONES Y CAFÉ
 - IRRESISTIBLES
 - TACOS
 - PAPAS RÚSTICAS
@@ -3984,74 +2814,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 
 ### Carta
-
-#### CERVEZAS
-
-- SCHOP 500 CC BARÓN — $3.700
-- SCHOP 500 CC ALTAMIRA — $3.700
-- CORONA INDIVIDUAL — $2.500
-- KUNSTMANN 500 CC — $3.700
-- SHOT PARA TU SCHOP — $1.000
-
-#### PISCO SOUR
-
-- Pisco Sour normal — $3.000
-- Pisco Sour menta/jengibre — $4.500
-- Pisco Sour variedades — $4.500
-
-#### VODKA
-
-- STOLYCHNAYA — $3.500
-- ABSOLUT ORIGINAL — $4.500
-- ABSOLUT SABORES — $5.000
-
-#### MARGARITA
-
-- Margarita NORMAL — $4.000
-- Margarita SABORES — $5.000
-
-#### MOJITO
-
-- Mojito normal — $4.500
-- Mojito sabores — $5.500
-- Mojito sin alcohol SABORES — $3.800
-
-#### PISCO + bebida
-
-- Mistral / Alto del Carmen — $3.500
-- Malpaso — $4.500
-- Horcón Quemado — $5.500
-- Bou Barroeta — $6.500
-
-#### WHISKY
-
-- Johnnie Walker Red Label — $4.500
-- Johnnie Walker Black Label — $6.500
-
-#### REFRESCOS Y JUGOS NATURALES
-
-- Agua de Jamaica — $2.100
-- Té Frío con Limón — $2.100
-- Limonada Menta Jengibre — $2.200
-- Té Frío Limón Variedades — $2.400
-- Agua de Horchata — $2.100
-- Vitamina Naranja — $3.300
-- Jugo Una Fruta — $2.200
-- Bebida Individual — $1.000
-- Bebida Coca Y Sprite 350cc — $1.500
-- Botella De Agua — $1.500
-
-#### TÉ, INFUSIONES Y CAFÉ
-
-- Tetera té de hoja — $1.500
-- Té naranja canela — $1.900
-- Té limón jengibre — $1.900
-- Agua de hierbas — $1.500
-- Café americano — $1.500
-- Capuccino — $1.700
-- Café cortado — $1.500
-- Café expreso — $1.400
-- Expreso doble — $2.200
 
 #### IRRESISTIBLES
 
@@ -4129,17 +2891,9 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Pasta
 - Ensaladas
 - Menú Niños
-- Mocktails sin alcohol
-- Bebidas Calientes
 - Desayunos y Hora del Té
-- Cafetería de especialidad
-- Té
-- Bebestibles
 - Entradas, platitos y para compartir
 - Platos de Estación
-- Té de Origen
-- Infusiones
-- Mocktails
 - Postres
 - Tortas de la Casa
 - Pastelería Artesanal
@@ -4186,19 +2940,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Fetuccini Boloñesa — $6.900
 - Carne con Papas Fritas — $7.900
 - Pollo Apanado con Arroz — $6.900
-- Jugo para Niños — $2.800
-
-#### Mocktails sin alcohol
-
-- Sirena — $7.500
-- Fresh Tonic — $7.500
-- Mojito Jengibre — $7.500
-- Tropical — $7.500
-- Espresso Tonic — $7.500
-
-#### Bebidas Calientes
-
-- Chocolate Caliente — $3.500
 
 #### Desayunos y Hora del Té
 
@@ -4226,37 +2967,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Panqueques con manjar y crema — $10.990
 - Panqueques con frutos rojos y crema — $10.990
 
-#### Cafetería de especialidad
-
-- Espresso — $2.800
-- Americano — $2.800
-- Macchiato — $2.900
-- Affogato — $3.700
-- Cappuccino — $3.900
-- Latte — $3.900
-- Mocha — $4.200
-- Filtrado — $5.600
-
-#### Té
-
-- Chai Latte — $3.800
-- Matcha Latte — $3.800
-- Tetera individual — $2.900
-- Tetera para compartir — $5.900
-- Té Negro con Canela
-- Té Verde
-- Infusión Azul / Morada / Fucsia
-
-#### Bebestibles
-
-- Gaseosas — $2.000
-- Jugos Naturales — $4.000
-- Agua con Gas / Sin Gas — $2.300
-- Limonadas — $3.500
-- Cerveza sin Alcohol — $3.200
-- Kombuchas — $3.200
-- Ginger Beer — $3.800
-
 #### Entradas, platitos y para compartir
 
 - Tabla de quesos y charcutería — $24.990
@@ -4275,38 +2985,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Salmón a la plancha con puré de coliflor — $19.990
 - Curry de garbanzos y espinacas — $15.990 [vegano]
 - Tortilla española — $12.990
-
-#### Cafetería de Especialidad
-
-- Latte Vainilla — $4.990
-- Latte Caramelo — $4.990
-- Latte Chocolate — $4.990
-- Mocaccino — $4.990
-- Cortado — $3.890
-- Flat White — $4.290
-
-#### Té de Origen
-
-- Té Negro — $4.290
-- Té Blanco — $4.290
-- Oolong — $4.290
-- Pu-erh — $4.290
-
-#### Infusiones
-
-- Manzanilla — $3.890
-- Menta — $3.890
-- Jengibre y limón — $3.890
-- Frutos rojos — $3.890
-
-#### Mocktails
-
-- Pink Sunset — $6.990
-- Berry Bliss — $6.990
-- Tropical Breeze — $6.990
-- Mojito sin alcohol — $6.990
-- Apple Spice — $6.990
-- Ginger Fizz — $6.990
 
 #### Postres
 
@@ -4346,7 +3024,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://casaroque.cl/
 - **Menciona en reseñas:** chocolate
 - **Fecha de registro:** 2026-10-28
-- **Dietético:** 9 platos sin gluten
+- **Dietético:** 6 platos sin gluten
 
 ### Qué vende
 
@@ -4360,29 +3038,21 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 #### Featured items
 
-- Avellanas Crocantes con Chocolate de leche sin Azúcar 150 gr — $14.900 [sin azúcar, sin gluten]
-- Almendra Crocantes con Chocolate de Leche sin Azúcar 150 gr — $13.900 [sin azúcar]
 - Avellanas Crocantes con Chocolate bitter sin Azúcar 150 gr — $14.900 [sin azúcar, sin gluten]
 - Almendras Crocantes con Chocolate Bitter sin Azúcar 150 gr — $13.900 [sin azúcar, sin gluten]
-- Avellanas Crocantes con Chocolate de Leche sin Azúcar 300 gr — $26.500 [sin azúcar, sin gluten]
 - Calugas Casa Roque sin Azúcar (20 u) — $23.490 [sin azúcar]
 - Calugas Casa Roque sin Azúcar (10 u) — $13.990 [sin azúcar]
-- Barritas pistacho leche — $7.990 [sin azúcar, sin gluten]
-- Almendras Crocantes con Chocolate de Leche sin Azúcar 300 gr — $24.900 [sin azúcar]
 - Almendras Crocantes sin Azúcar 150 gr — $11.990 [sin azúcar]
 - Almendras Crocantes con Chocolate Bitter sin Azúcar 500 gr — $36.990 [sin azúcar, sin gluten]
 
 #### TABLETONES
 
-- Almendra Crocantes con Chocolate de Leche sin Azúcar 300 gr — $25.300 [sin azúcar]
 - Almendras Crocantes con Chocolate Bitter sin Azúcar 300 gr — $25.300 [sin azúcar, sin gluten]
 - Avellanas Crocantes con Chocolate bitter sin Azúcar 300 gr — $26.500 [sin azúcar, sin gluten]
-- Almendra Crocantes con Chocolate de Leche sin Azúcar 500 gr — $36.990 [sin azúcar]
 
 #### CHOCOLATES
 
 - Conejo chocolate bitter — $6.990
-- Conejo chocolate de leche — $6.990
 - Golden Dog — $8.990
 - Gallina chocolate bitter sin azúcar — $10.990 [sin azúcar, sin gluten]
 
@@ -4406,7 +3076,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 ### Qué vende
 
 - PASTELERIA
-- CHOCOLATE CALIENTE
 - GALLETON SIN GLUTEN
 - SANDWICHES
 - ENSALADAS
@@ -4415,12 +3084,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 ### Carta
 
 - AT TORTADELACASA
-- CHOCOLATE CALIENTE BOLLERIA E IMPULSOS
 - ALFAJOR MAICENA cscennonensnennnn
 - ALFAJOR SWEET VARIEDADES
-- TE GALLETON inn
-- JUGO NARANJA 120 CC cc FRUTOS SECOS
-- LECHE CON PLATANO SANDWICHES
 - ENSALADAS CIABATTA QUESO TOMATE PESTO
 - CIABATTA MECHADA QUESO
 - PIE DE LIMON INDIVIDUAL
@@ -4432,7 +3097,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - ALFAJOR MAICENA
 - GALLETON
 - GALLETON VEGANO [vegano]
-- GINGER ESPRESSO y jugo naranja
 - MUFFIN
 - ENSALADAS VARIEDADES
 - Lasaña boloñesa
@@ -4464,9 +3128,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Pollo a la mostaza
 - Lasaña
 - Pie de limón
-- LECHE VEGETAL .—s— ALFAJOR CHOCOLATE cc
-- JUGO NARANJA 330 CC
-- JUGO NARANJA 120 CC
 
 
 ## CASI PERFECTO
@@ -4502,11 +3163,9 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Empanada Vegetariana
 - Empanada Camarón Queso
 - G KETO NACHOS vos
-- + Hot Chocolate
 - BROWNIES
 - © Nachos Coliflor
 - + Nachos Tradicionales
-- + Hot Chocolate Instantáneo en Polvo 180
 - + Nachos Parmesanos
 - CHOCOLATE KETO
 
@@ -4520,30 +3179,13 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** pizza, pasta, empanada, ceviche, carne, pescado, ensalada, sopa, milanesa, falafel, asado, pastel de choclo, pastel, postre
 - **Menciona en reseñas:** pizza, ceviche, carne
 - **Fecha de registro:** 2026-08-02
-- **Dietético:** 1 platos sin gluten
 
 ### Qué vende
 
-- Jarra de Cóctel
 - Pizza
-- Cerveza Nacional
-- Cerveza Internacional
-- Cerveza de Especialidad
-- Cerveza Artesanal
-- Cerveza de Barril
-- Bebida
 
 
 ### Carta
-
-#### Jarra de Cóctel
-
-- Aperol — $14.500
-- Sangría — $12.500
-- Tiki OAC — $14.500
-- St-Germain — $16.500
-- Clericó — $10.000
-- Borgoña — $10.000
 
 #### Pizza
 
@@ -4570,61 +3212,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Imola — $5.900
 - Toscana — $5.900
 - Boloñesa — $6.100
-
-#### Cerveza Nacional
-
-- Royal Guard Golden Ale — $2.600
-- Royal Guard Smooth Lager — $2.600
-- Cristal — $2.400
-- Escudo — $2.400
-
-#### Cerveza Internacional
-
-- Heineken 0.0 — $2.600
-- Heineken (México) — $2.600
-- Kross 5 (Bélgica) — $2.700
-- Kross Lager (Bélgica) — $2.700
-- Erdinger Rubia 500 cc. (Alemania) — $3.900
-- Erdinger Sin Alcohol (Alemania) — $3.900
-- Stella Artois 650 cc. (Bélgica) — $3.800
-- Corona 355 cc. (México) — $3.700
-- Mahou Maestra 7.2 (España) — $2.800
-- Moritz Rubia (Barcelona) — $2.700
-- Moritz Sin Gluten (España) — $2.800 [sin gluten]
-- Moritz Red IPA (Barcelona) — $2.700
-- Agua de Moritz 0.0 (Barcelona) — $2.400
-
-#### Cerveza de Especialidad
-
-- Austral Calafate — $3.900
-- Austral Patagona Pale Ale — $3.900
-- Kunstmann Lager sin Filtrar — $3.700
-- Kunstmann Bock — $3.700
-- Kunstmann Torobayo — $3.700
-- Imperial Lager sin Filtrar — $3.800
-- Imperial Dunkel — $3.800
-
-#### Cerveza Artesanal
-
-- Guayacán Pale Ale — $2.500
-- Guayacán Stout — $2.500
-- D'Olbek Ale — $2.400
-- D'Olbek Pale Ale — $2.400
-- Del Puerto Rubia Roja — $2.400
-- Del Puerto Atlantica Pale Ale — $2.400
-
-#### Cerveza de Barril
-
-- Heineken Fusions Ginger Beer — $3.000
-- Schop Cerveza Artesanal Tarumahara 500 cc — $3.500
-- Schop Cerveza Artesanal Tarumahara 250 cc — $1.900
-- Schop Heineken 500 cc — $3.000
-- Schop Heineken 250 cc — $1.700
-
-#### Bebida
-
-- Lechita de Tigre — $800
-- Michelada Clásica — $500
 
 
 ## CO&keto
@@ -4655,7 +3242,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Keto donats rellenas unidad — $3.000 [sin azúcar]
 - Trozo brownie almendra — $5.000
 - Trozo brownie mani — $6.000
-- Keto cheesecake cafe avellana — $6.500 [sin azúcar]
 - Trozo brownie cheescake — $6.000
 - Keto queque harina coco 650 GR — $15.000
 - Keto carrot cake 750 GR — $17.000
@@ -4673,7 +3259,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://www.rakkonatural.cl/
 - **Menciona en su web:** pasta, galleta, chocolate, manjar, jugo
 - **Fecha de registro:** 2026-03-11
-- **Dietético:** 542 platos sin gluten, 216 veganos, 69 sin lactosa
+- **Dietético:** 411 platos sin gluten, 194 veganos, 54 sin lactosa
 
 ### Qué vende
 
@@ -4681,7 +3267,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Snacks y colaciones
 - Integral
 - Despensa
-- Vegano
 - Gourmet
 - Granos y pastas
 - Cereales y frutos secos
@@ -4692,26 +3277,22 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Manjar, miel y mermeladas
 - Chocolates y golosinas
 - Libre de soya
+- Vegano
 - Varios
 - Dulces
 - Panaderia y reposteria
 - Orgánico
-- Cafe, te y hierbas
 - Azucar y endulzantes
-- Café e infusiones
 - Barras y proteínas
-- Lácteos
-- Sin gluten
-- Aseo y limpieza
 - Suplementos deportivos
 - Galletas
 - Liquidación 🔥
 - Packs
 - Snacks
-- Bebidas
+- Café e infusiones
 - Panadería
 - Repostería
-- Aseo y cuidado
+- Lácteos
 - Frescos
 
 
@@ -4721,22 +3302,12 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - TOSTADAS LIGERAS SIN GLUTEN 100G — $2.890 [sin gluten]
 - MIZOS GALLETA DE ARROZ SABOR YOGHURT Y LIMON 25G — $500 [sin gluten]
-- TURBO ZERO JUGO SABOR PIÑA DISPLAY 10UN — $2.790
 - YERBA MATE ROSAMONTE DESPALADA SIN GLUTEN 500G — $2.990 [sin gluten]
-- TURBO ZERO JUGO SABOR MANZANA DISPLAY 10UN — $2.790
 - YERBA MATE ROSAMONTE SUAVE SELECCIÓN ESPECIAL 500G — $3.290 [sin gluten]
-- TURBO ZERO JUGO SABOR MANDARINA DISPLAY 10UN — $2.790
 - YERBA MATE ROSAMONTE TERERÉ SIN GLUTEN 500G — $3.290 [sin gluten]
-- TURBO ZERO JUGO SABOR NARANJA DISPLAY 10UN — $3.100
 - YERBA MATE ROSAMONTE SUAVE PLUS SIN GLUTEN 500G — $3.290 [sin gluten]
-- TURBO ZERO JUGO SABOR PERA DE AGUA DISPLAY 10UN — $2.790
-- TURBO ZERO JUGO SABOR LIMONADA DISPLAY 10UN — $2.790
 - YERBA MATE ROSAMONTE SUAVE SIN GLUTEN 500G — $2.990 [sin gluten]
-- TURBO ZERO JUGO SABOR DURAZNO DISPLAY 10UN — $2.790
-- TURBO ZERO JUGO SABOR BERRIES DISPLAY 10UN — $2.790
-- TURBO ICE TEA SABOR DURAZNO DISPLAY 12UN — $4.990 [sin lactosa, vegano]
 - YERBA MATE CACHAMATE HIERBAS SERRANAS 1KL — $4.790 [sin gluten]
-- TURBO ICE TEA SABOR MARACUYA DISPLAY 12UN — $4.990 [sin lactosa, vegano]
 - TURBO FLAN SABOR MANJAR SIN GLUTEN 50G — $590 [sin gluten]
 - TURBO ZERO GELATINA SABOR PIÑA 22G — $690 [sin azúcar, sin lactosa]
 - TURBO GELATINA SABOR LIMON SIN GLUTEN 80G — $790 [sin gluten, sin lactosa]
@@ -4746,12 +3317,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - MIZOS GALLETA DE ARROZ SABOR YOGHURT Y LIMON 150G — $2.290 [sin gluten]
 - MIZOS GALLETAS DE ARROZ SABOR CHOCOLATE 120G — $2.290 [sin gluten, vegano]
 - ACEITE DE COCO VIRGEN VEGANO SIN GLUTEN MI TIERRA NUTRISA 350G — $7.990 [sin gluten, vegano]
-- LANDI TÉ NEGRO CEYLAN SIN GLUTEN 100BOLSITAS 180G — $4.250 [sin gluten]
-- LANDI TÉ NEGRO FRUTOS ROJOS SIN GLUTEN 20BOLSITAS — $1.390 [sin gluten]
-- LANDI TÉ NEGRO NARANJA MANDARINA SIN GLUTEN 20BOLSITAS — $1.390 [sin gluten]
-- LANDI TÉ NEGRO CANELA SIN GLUTEN 20BOLSITAS — $1.390 [sin gluten]
-- LANDI TÉ NEGRO JAZMIN SIN GLUTEN 20BOLSITAS — $1.390 [sin gluten]
-- LANDI TÉ NEGRO MANZANA CANELA SIN GLUTEN 20BOLSITAS — $1.390 [sin gluten]
 - ROSAMONTE YERBA MATE PLUS SIN GLUTEN 500G — $3.290 [sin gluten]
 - SÉSAMO SUK 250G LIQUIDACION 30.11.2026 — $2.890
 - MASA DE PREPIZZA SIN GLUTEN NUTRISA 275G — $2.690 [sin gluten, sin lactosa]
@@ -4760,45 +3325,17 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - PAN DE COMPLETO SIN GLUTEN NUTRISA 400G — $4.290 [sin gluten, sin lactosa]
 - TORTILLAS 8UN SIN GLUTEN NUTRISA 260G — $2.490 [sin gluten, sin lactosa]
 - PAN MARRAQUETA SIN GLUTEN NUTRISA 480G — $4.290 [sin gluten, sin lactosa]
-- CAFE GRANO MOLIDO EXTRA FUERTE SIN GLUTEN PILAO 250G — $6.990 [sin gluten]
-- CAFE GRANO MOLIDO TRADICIONAL SIN GLUTEN PILAO 250G — $6.990 [sin gluten]
-- CAFE GRANO MOLIDO TRADICIONAL SIN GLUTEN PILAO 500G — $14.990 [sin gluten]
 - NOT MILK LOW FAT SIN GLUTEN Y VEGANA 1LT — $2.240 [sin gluten, vegano]
-- MOVENPICK DER HIMMLISCHE LUNGO CAPSULA COMPATIBLE — $4.990
-- MOVENPICK RISTRETTO CAPSULA COMPATIBLE CON NESPRESSO 10CAPS — $4.990
-- MOVENPICK DESCAFEINATO ESPRESSO CAPSULA COMPATIBLE — $4.990
 - MOVENPICK CREMA LUNGO CAPSULA COMPATIBLE — $4.990
-- MOVENPICK INTENSO ESPRESSO CAPSULA COMPATIBLE — $4.990
-- MOVENPICK CAFE EN GRANO GUSTO ITALIANO 1KL — $29.990
-- KIMBO ESPRESSO BARISTA DECAF CAPSULA COMPATIBLE — $5.890
-- KIMBO ESPRESSO BARISTA 100% ARABICA CAPSULA COMPATIBLE — $4.990
-- KIMBO CAFE MOLIDO AROMA GOLD 100% ARABICA 250G — $9.990
 - YERBA MATE ROSAMONTE TRADICIONAL SIN GLUTEN 250G — $1.490 [sin gluten]
 - GALLETAS DE ARROZ CUBIERTAS EN YOGHURT FRUTILLA SIN GLUTEN 115G — $1.890 [sin gluten]
-- KIMBO CAFE CIALDE CAPRI 50 PODS CAFETERA (ESE) — $27.990
 - WANIA PAPAS CENTRIFUGADAS SIN GLUTEN VEGANO 50G — $890 [sin gluten, vegano]
 - WILD PROTEIN CHOCOLATE COCO VEGANA 45G — $1.250 [sin azúcar, vegano]
 - YERBA MATE TRADICIONAL SIN GLUTEN ROSAMONTE 1KL — $5.590 [sin gluten]
-- CAFE GRANO ENTERO DER HIMMLISCHE 100% ARABICA MOVENPICK 500G — $15.990
-- CAFE GRANO ARABICA-ROBUSTA MOVENPICK 500G — $14.990
-- LANDI TÉ NEGRO BLACK CURRANT SIN GLUTEN 20BOLSITAS — $1.390 [sin gluten]
 - MANTEQUILLA DE MANÍ CREMOSA SIN GLUTEN NUTRISA 400 GR — $3.200 [sin gluten]
-- LANDI TÉ NEGRO VAINILLA SIN GLUTEN 20 BOLSITAS — $1.390 [sin gluten]
-- LANDI TÉ NEGRO JENGIBRE SIN GLUTEN 20BOLSITAS — $1.390 [sin gluten]
 - SUK CONSERVES CHTAURA MIEL DE GRANADA 250ML — $4.390
-- LANDI TÉ NEGRO CEYLÁN MENTA SIN GLUTEN 20BOLSITAS — $1.390 [sin gluten]
-- COLUN LECHE EN POLVO DESCREMADA 0% GRASA 800G SIN GLUTEN — $7.190 [sin gluten]
-- COLUN LECHE VAINILLA BOMBILLIN PACK 6UN SIN GLUTEN — $2.990 [sin gluten]
 - COLUN NECTAR DE NARANJA BOMBILLIN PACK 6UN SIN GLUTEN — $1.700 [sin gluten]
-- COLUN LECHE BOMBILLIN CHOCOLATE PACK 6UN SIN GLUTEN — $2.990 [sin gluten]
-- COLUN LECHE BOMBILLIN PLATANO PACK 6UN SIN GLUTEN — $2.990 [sin gluten]
-- COLUN LECHE FRUTILLA BOMBILLIN PACK 6UN SIN GLUTEN — $2.990 [sin gluten]
-- COLUN LECHE CHOCOLATE ORIGINAL BOMBILLIN PACK 6UN SIN GLUTEN — $2.990 [sin gluten]
-- DILMAH TE NEGRO CEYLAN 10UN — $990
-- KIMBO CAFE MOLIDO ESPRESSO NAPOLI 250GRS — $8.590
-- KIMBO CAFE GRANO MOLIDO CLASSICO 250GR — $6.990
 - ALUSWEET ALULOSA RECARGA TABLETAS 750UN — $4.290
-- COLUN LECHE MANJAR BOMBILLIN PACK 6UN SIN GLUTEN — $2.990 [sin gluten]
 - TIKA MINI RICE POP LIMON FRUTILLA SIN GLUTEN 15GR LIQUIDACIÓN 05.12.2026 — $350 [sin gluten]
 - NUTRISA MINI QUEQUE VAINILLA 250GR SIN GLUTEN — $2.990 [sin gluten]
 - NUTRISA MINI QUEQUE LIMON 250GR SIN GLUTEN — $2.990 [sin gluten]
@@ -4807,29 +3344,18 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - COLUN NECTAR DE PIÑA BOMBILLIN PACK 6UN SIN GLUTEN — $1.700 [sin gluten]
 - MIZOS GALLETAS DE ARROZ SABOR CHOCOLATE AVELLANA 150G — $2.250 [sin gluten]
 - MIZOS GALLETAS DE ARROZ SABOR FRUTILLA MURTA 25G — $450
-- LANDI INFUSION FLOR DE JAMAICA SIN GLUTEN 20BOLSITAS — $2.790 [sin gluten]
-- NOT MILK BEBIDA VEGETAL CHOCOLATE KIDS 200ML — $790
 - PROMOCION BARRA DE PROTEÍNA NOTSQUARE CHOCO COCO 5UN 30G — $2.990 [sin azúcar]
 - NOT SHAKE PROTEIN CARAMELO SIN GLUTEN 250ML — $990 [sin azúcar, sin gluten, sin lactosa]
 - NOT SHAKE PROTEIN CHOCOLATE SIN GLUTEN 250ML — $990 [sin azúcar, sin gluten, sin lactosa]
 - TURBO BENNY SABOR CHOCOLATE SIN GLUTEN 200G — $1.090 [sin gluten]
-- CAFÉ CAMEL INSTANTANEO CLASICO 100G — $3.490
 - BARRA DE PROTEINA NUTREND SABOR FRUTILLA SIN GLUTEN 55GR — $1.690 [sin gluten]
 - BARRA DE PROTEINA NUTREND SABOR MANGO SIN GLUTEN 55GR — $1.690 [sin gluten]
 - BARRA DE PROTEINA NUTREND SABOR COCO SIN GLUTEN 55GR — $1.690 [sin gluten]
 - BARRA DE PROTEINA NUTREND SABOR CHOCOLATE SIN GLUTEN 55GR — $1.690 [sin gluten]
-- CAFE MOLIDO PREMIUM J.J.DARBOVEN KRÄNZCHEN KAFFEE 500G — $12.490
-- CAFÉ MOLIDO DESCAFEINADO IDEE KAFFEE ELEGANT 500 G — $15.990
 - OLD EL PASO TORTILLAS PARA TACOS SIN GLUTEN 130G LIQUIDACIÓN 10.12.2026 — $1.990 [sin gluten]
-- CAFE GRANO CREMA MOVENPICK 500GR — $15.990
-- CAMEL CAFÉ CAPUCCINO CANELA 5UN 125GR — $1.590
 - KIMBO INTENSO CAPSULA COMPATIBLE CON NESPRESSO 10CAPS — $4.990
 - TURBO FLAN SABOR FRUTILLA SIN GLUTEN |50G — $590 [sin gluten]
-- ¡PROMOCION! CAFÉ INSTANTANEO LIOFILIZADO GOLD ORIGINAL 100G — $5.990
-- ¡PROMOCION! CAFÉ INSTANTANEO LIOFILIZADO GOLD ORIGINAL 200G — $11.000
 - ¡PROMOCION! NOT PROTEIN BAR LEMON CAKE 45G PACK 5UN — $3.490
-- CAMEL MATCHA LATTE 100G 5BOLSITAS 20G C/U — $1.690
-- ¡PROMOCION! CAFÉ INSTANTANEO LIOFILIZADO GOLD INTENSO 200G — $11.000
 
 #### Snacks y colaciones
 
@@ -4862,7 +3388,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - BUKA RAMITAS DE GARBANZOS SIN GLUTEN 35G — $450 [sin gluten]
 - WILD PROTEIN CHOCOLATE NARANJA VEGANA 45G — $1.250 [sin azúcar, vegano]
 - WILD PROTEIN CHOCOLATE BITTER VEGANA 45G — $1.250 [sin azúcar, vegano]
-- WILD PROTEIN CAFE MOKKA VEGANA 45G — $1.250 [sin azúcar, vegano]
 - WILD PROTEIN CARAMELO 45G — $1.250 [sin azúcar]
 - WILD PROTEIN CHOCOLATE MANI 45G — $1.250 [sin azúcar]
 - PAPAS FRITAS TIKA NATIVAS 150G CREMA Y CIBOULETTE — $2.250
@@ -4939,8 +3464,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - PASTA MOSTACHOLI SIN GLUTEN NO + GLUTEN 250G — $1.790 [sin gluten, sin lactosa]
 - NOT MILK ORIGINAL SIN GLUTEN Y VEGANA 1LT — $2.240 [sin gluten, vegano]
 - NOT MILK CHOCOLATE SIN GLUTEN Y VEGANA 1LT — $2.240 [sin gluten, vegano]
-- CAFE ORGANICO LIOFILIZADO SIN GLUTEN 100G — $11.990 [sin azúcar, sin gluten, vegano]
-- CAFE ORGANICO LIOFILIZADO DESCAFEINADO SIN GLUTEN 100G — $11.990 [sin azúcar, sin gluten, vegano]
 - ARROZ BASMATI 1KL — $6.590
 - BUKA PAPAS NATIVAS 100% ARTESANALES CEBOLLA CARAMELIZADA SIN GLUTEN VEGANO 150G — $1.700 [sin gluten, vegano]
 - BUKA MIX VEGETALES MOSTAZA Y MIEL SIN GLUTEN VEGANO 150G — $2.390 [sin gluten, vegano]
@@ -4955,7 +3478,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - MAYO ARVEJAS VEGETAL SIN GLUTEN EGGLESS 352g — $1.990 [sin azúcar, sin gluten, sin lactosa]
 - SALSA DE OSTRAS SIN GLUTEN 560CC — $3.650 [sin gluten]
 - GOMA XANTHAN SIN GLUTEN VEGANA MOR 100GR — $1.950 [sin gluten, vegano]
-- GROW JUGO DE MANZANA SIN GLUTEN 100% NATURAL 1LT liquidacion 08/12/2026 — $1.490 [sin azúcar, sin gluten]
 - TIKA GRANOLA CRUNCHY CACAO 200GR SIN GLUTEN — $2.990 [sin azúcar, sin gluten]
 - PROTEIN BAR CHOCOLATE BROWNIE SIN GLUTEN 60G 4UN — $8.990 [sin gluten]
 - POLVO DE HORNEAR SIN GLUTEN VEGANO MOR 100G — $1.490 [sin gluten, vegano]
@@ -4970,12 +3492,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - NOT MAYO DORITOS 350GR — $2.390
 - AMA PURÉ PROTEINA VEGETAL + FIBRA ORGANICO 90G — $890
 - TORRAS CHOCOLATE DARK & MENTA 0% AZUCAR, SIN GLUTEN 75G — $3.290 [sin gluten]
-- COLUN LECHE CON CAFÉ CAPPUCCINO 330ML SIN GLUTEN — $990 [sin gluten, sin lactosa]
-- COLUN LECHE CON CAFÉ CARAMELO 330ML SIN GLUTEN — $990 [sin gluten, sin lactosa]
-- ORASI LECHE VEGETAL ARROZ 1LT SIN GLUTEN — $3.190 [sin gluten]
-- ORASI LECHE VEGETAL BARISTA ALMENDRA 1LT SIN GLUTEN — $3.190 [sin gluten, sin lactosa]
-- ORASI LECHE VEGETAL ALMENDRA 1LT SIN GLUTEN — $2.690 [sin gluten]
-- ORASI LECHE VEGETAL AVENA 1LT SIN GLUTEN — $2.690 [sin gluten]
 - WILD PROTEIN CHOCOLATE 45G VEGANA — $1.250 [vegano]
 - NUTRISA VINAGRE DE MANZANA 500CC — $1.790
 - JAPON A TU MESA SALSA ACEVICHADA VEGANA 320g SIN GLUTEN — $2.190 [sin gluten, vegano]
@@ -4990,35 +3506,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - NOT MAYO ESPECIAL SAUCE 315GR — $1.690
 - COLUN MANJAR TRADICIONAL DOYPACK 400G SIN GLUTEN — $1.790 [sin gluten]
 - ALUSWEET STEVIA ALULOSA GOTAS 180ML — $4.490
-- COLUN LECHE DESAYU NOW! 330ML SIN GLUTEN SABOR CHOCOLATE — $990 [sin gluten, sin lactosa]
-- COLUN LECHE DESAYU NOW! 330ML SIN GLUTEN SABOR MANZANA — $990 [sin gluten, sin lactosa]
-
-#### Vegano
-
-- BEBIDA VEGETAL ALMENDROLA SIN AZUCAR SIN GLUTEN 1LT — $3.290 [sin azúcar, sin gluten, vegano]
-- LECHE DE COCO SIN GLUTEN TETRA PACK 500 ML Liquidacion 11.12.2026 — $2.990 [sin gluten, sin lactosa, vegano]
-- LECHE DE COCO SIN GLUTEN TETRA PACK 1LT LIQUIDACION 30.11.2026 — $2.990 [sin gluten, sin lactosa, vegano]
-- PREPARACION EVAPORADA DE COCO SIN GLUTEN NATURES CHARM 360ML — $2.490 [sin gluten, vegano]
-- CREMA DE COCO PARA BATIR SIN GLUTEN NATURES CHARM 400ML — $3.390 [sin gluten, vegano]
-- ALULOSA ALUSWEET SIN GLUTEN EN POLVO 500G — $5.990 [sin gluten, vegano]
-- ALULOSA ALUSWEET SIN GLUTEN EN POLVO 250G — $3.690 [sin gluten, vegano]
-- ALULOSA ALUSWEET SIN GLUTEN GOTAS 270ML — $3.690 [sin gluten, vegano]
-- ALULOSA ALUSWEET SIN GLUTEN GOTAS 180ML — $2.990 [sin gluten, vegano]
-- TAGATOSA ALUSWEET SIN GLUTEN EN POLVO 500G — $6.990 [sin gluten, vegano]
-- TAGATOSA ALUSWEET SIN GLUTEN GOTAS 270ML — $4.290 [sin gluten, vegano]
-- TAGATOSA ALUSWEET SIN GLUTEN GOTAS 180ML — $2.990 [sin gluten, vegano]
-- SYRUP ALUSWEET SIN GLUTEN 320G — $5.590 [sin gluten, vegano]
-- SYRUP SABOR MAPLE ALUSWEET SIN GLUTEN 320G — $5.590 [sin gluten, vegano]
-- CEREAL DE MAIZ SABOR FRUTILLA SIN GLUTEN VEGANO 280 G — $3.990 [sin azúcar, sin gluten, vegano]
-- VIVICOSI COCCO SIN AZUCAR VEGANA SIN GLUTEN 1LT — $2.390 [sin azúcar, sin gluten, sin lactosa, vegano]
-- BEBIDA DE COCO 100% NATURAL 520ML — $1.590 [sin azúcar, vegano]
-- CONDENSADA DE COCO VEGAN SIN GLUTEN NATURES CHARM 320G — $2.990 [sin gluten, sin lactosa, vegano]
-- NUTRISA PROTEINA DE SOYA VEGETAL MI TIERRA PREMIUM 300GR — $2.390 [vegano]
-- AMA PURÉ FIBRA PREBIOTICA ORGANICO 90G — $890 [vegano]
-- NURA MANTEQUILLA DE MANI CON STEVIA SIN GLUTEN 485G — $3.990 [sin gluten, vegano]
-- NURA MANTEQUILLA DE MANI CON SAL DE MAR SIN GLUTEN 485G — $3.990 [sin gluten, vegano]
-- NURA MANTEQUILLA DE MANI CON COCO SIN GLUTEN 485G — $3.990 [sin gluten, vegano]
-- UNDERFIVE COOKIES NAVIDAD *EDICION ESPECIAL* 150G — $1.190 [vegano]
 
 #### Gourmet
 
@@ -5067,14 +3554,9 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - NOT MILK FRENCH VAINILLA SIN GLUTEN Y VEGANA 1LT — $2.240 [sin gluten, vegano]
 - TORRAS CHOCOLATE BLANCO CON FRESAS 0% AZUCAR, SIN GLUTEN 75G — $3.290 [sin azúcar, sin gluten]
 - TORRAS CHOCOLATE DARK 72%CACAO , 0% AZUCAR, SIN GLUTEN 75G — $3.290 [sin azúcar, sin gluten]
-- ORASI LECHE VEGETAL BARISTA SOYA 500ML SIN GLUTEN Liquidacion 06.11.2026 — $1.790 [sin gluten]
-- ORASI LECHE VEGETAL BARISTA AVENA 500ML SIN GLUTEN — $2.190 [sin gluten]
 - ACEITE DE OLIVA OLIVAZ 500ML SIN GLUTEN 0.3% ACIDEZ — $4.490 [sin gluten]
 - ECOVIDA GALLETA DIGESTIVE BAÑO CHOCOLATE 180G — $2.590
 - ECOVIDA GALLETA DIGESTIVE 180G SIN AZUCAR — $2.290 [sin azúcar]
-- AL WADI AGUA FLOR DE NARANJO 300ML — $3.390
-- CONSERVES CHTAURA AGUA DE ROSAS 250ml — $3.490
-- CONSERVES CHTAURA AGUA FLOR DE NARANJO 250ml — $3.490
 - JAPON A TU MESA SALSA AJÍ SIRASHA 320g SIN GLUTEN — $2.190 [sin gluten]
 - MEZCLA LISTA PARA PIZZA SIN GLUTEN 1 KL — $5.990 [sin gluten, sin lactosa, vegano]
 
@@ -5105,14 +3587,12 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - KOE VINAGRE DE MANZANA ORGANICO SIN GLUTEN 1LT — $7.490 [sin gluten, vegano]
 - KOE VINAGRE DE MANZANA CON MIEL ORGANICO SIN GLUTEN 500ML — $4.490 [sin gluten]
 - KOE VINAGRE DE MANZANA ORGANICO LIMON JENGIBRE SIN GLUTEN 500ML — $4.490 [sin gluten, vegano]
-- AMA JUGO MANZANA & PERA ORGANICO 200ML — $690
 - AZUCAR RUBIA INTEGRAL 100% NATURAL VEGANA 500g — $1.390 [vegano]
 - ACEITE DE LINO ORGANICO SIN GLUTEN NATUR GREEN 250ML — $7.650 [sin gluten, vegano]
 - ACEITE DE CHIA VEGANO SIN GLUTEN LA CUSTODIA 250ML — $5.990 [sin gluten, vegano]
 - ACEITE DE OLIVA 100% EXTRA VIRGEN 0.2 %ACIDEZ VEGANO SIN GLUTEN LA CUSTODIA 500ML — $7.890 [sin gluten, vegano]
 - ACEITE DE CHIA Y OLIVA VEGANO SIN GLUTEN LA CUSTODIA 500ML — $9.790 [sin gluten, vegano]
 - ACEITE DE OLIVA EXTRA VIRGEN VEGANO SIN GLUTEN 5LT — $47.990 [sin gluten, vegano]
-- ORASI LECHE VEGETAL ALMENDRA 1LT SIN GLUTEN CERO AZÚCAR — $2.690 [sin azúcar, sin gluten, vegano]
 - ORASI CREMA VEGETAL SIN GLUTEN 200ML — $1.450 [sin gluten]
 - TORTITA DE ARROZ INTEGRAL SANTIVERI BIO 100GR — $2.590
 
@@ -5122,16 +3602,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - PACK KOE 3X ACEITE DE COCO ORGANICO EXTRAVIRGEN 200ML — $9.990 [sin gluten, vegano]
 - CEREAL DE MAIZ SABOR CHOCOLATE SIN GLUTEN VEGANO 280G OFERTA DEL MES — $3.390 [sin azúcar, sin gluten, vegano]
 - AMA PURÉ VITAMINA A+C ORGANICO 90G — $890
-- TURBO PLUS JUGO SABOR NARANJA DISPLAY 10UN SIN GLUTEN — $1.890 [sin gluten]
-- TURBO PLUS JUGO SABOR FRESA-NARANJA DISPLAY 10UN SIN GLUTEN — $1.890 [sin gluten]
-- TURBO PLUS JUGO SABOR PIÑA-JENGIBRE DISPLAY 10UN SIN GLUTEN — $1.890 [sin gluten]
-- TURBO PLUS JUGO SABOR UVA DISPLAY 10UN SIN GLUTEN — $1.890 [sin gluten]
-- TURBO PLUS JUGO SABOR CEREZA-PIÑA DISPLAY 10UN SIN GLUTEN — $1.890 [sin gluten]
-- TURBO PLUS JUGO SABOR MARACUYA DISPLAY 10UN SIN GLUTEN — $1.890 [sin gluten]
-- TURBO PLUS JUGO SABOR PONCHE DE FRUTAS DISPLAY 10UN SIN GLUTEN — $1.890 [sin gluten]
-- TURBO PLUS JUGO SABOR FRESA DISPLAY 10UN SIN GLUTEN — $1.890 [sin gluten]
-- TURBO PLUS JUGO SABOR NARANJA-PIÑA DISPLAY 10UN SIN GLUTEN — $1.890 [sin gluten]
-- TURBO PLUS JUGO SABOR MANZANA-CEREZA DISPLAY 10UN SIN GLUTEN — $1.890 [sin gluten]
 - TIKA GRANOLA PROTEIN MANJAR DE CAMPO 250GR SIN GLUTEN — $3.790 [sin gluten, vegano]
 
 #### Reposteria
@@ -5195,7 +3665,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - DISPLAY 12X FULLMINT MENTA GEORGALOS SIN GLUTEN 28GR — $3.190 [sin gluten]
 - PALITOS DE LA SELVA 660GR BOLSA SIN GLUTEN — $4.750 [sin gluten]
 - GEORGALOS PACK 10X CHOCOLATE CON LECHE SIN TACC 70GR — $19.990 [sin azúcar]
-- NEUCOBER COBERTURA CHOCOLATE LECHE HUEVOS Y FIGURAS SIN GLUTEN 1KG (COD 420) — $6.990 [sin gluten]
 - NEUCOBER COBERTURA CHOCOLATE BAÑO PARA ALFAJOR SIN AZ 1KL (COD 407 S/A) — $9.990
 - NEUCOBER COBERTURA CHOCOLATE AMARGO SUAVE SIN GLUTE 1KL (COD 404) — $6.990
 - NEUCOBER COBERTURA CHOCOLATE PARA ALFAJOR SEMIBITTER SIN GLUTEN 1K (COD 407) — $6.990 [sin gluten]
@@ -5239,13 +3708,35 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - MEZCLA LISTA PARA REPOSTERIA SIN GLUTEN 1KL — $5.990 [sin gluten, sin lactosa, vegano]
 
+#### Vegano
+
+- PREPARACION EVAPORADA DE COCO SIN GLUTEN NATURES CHARM 360ML — $2.490 [sin gluten, vegano]
+- CREMA DE COCO PARA BATIR SIN GLUTEN NATURES CHARM 400ML — $3.390 [sin gluten, vegano]
+- ALULOSA ALUSWEET SIN GLUTEN EN POLVO 500G — $5.990 [sin gluten, vegano]
+- ALULOSA ALUSWEET SIN GLUTEN EN POLVO 250G — $3.690 [sin gluten, vegano]
+- ALULOSA ALUSWEET SIN GLUTEN GOTAS 270ML — $3.690 [sin gluten, vegano]
+- ALULOSA ALUSWEET SIN GLUTEN GOTAS 180ML — $2.990 [sin gluten, vegano]
+- TAGATOSA ALUSWEET SIN GLUTEN EN POLVO 500G — $6.990 [sin gluten, vegano]
+- TAGATOSA ALUSWEET SIN GLUTEN GOTAS 270ML — $4.290 [sin gluten, vegano]
+- TAGATOSA ALUSWEET SIN GLUTEN GOTAS 180ML — $2.990 [sin gluten, vegano]
+- SYRUP ALUSWEET SIN GLUTEN 320G — $5.590 [sin gluten, vegano]
+- SYRUP SABOR MAPLE ALUSWEET SIN GLUTEN 320G — $5.590 [sin gluten, vegano]
+- CEREAL DE MAIZ SABOR FRUTILLA SIN GLUTEN VEGANO 280 G — $3.990 [sin azúcar, sin gluten, vegano]
+- VIVICOSI COCCO SIN AZUCAR VEGANA SIN GLUTEN 1LT — $2.390 [sin azúcar, sin gluten, sin lactosa, vegano]
+- CONDENSADA DE COCO VEGAN SIN GLUTEN NATURES CHARM 320G — $2.990 [sin gluten, sin lactosa, vegano]
+- NUTRISA PROTEINA DE SOYA VEGETAL MI TIERRA PREMIUM 300GR — $2.390 [vegano]
+- AMA PURÉ FIBRA PREBIOTICA ORGANICO 90G — $890 [vegano]
+- NURA MANTEQUILLA DE MANI CON STEVIA SIN GLUTEN 485G — $3.990 [sin gluten, vegano]
+- NURA MANTEQUILLA DE MANI CON SAL DE MAR SIN GLUTEN 485G — $3.990 [sin gluten, vegano]
+- NURA MANTEQUILLA DE MANI CON COCO SIN GLUTEN 485G — $3.990 [sin gluten, vegano]
+- UNDERFIVE COOKIES NAVIDAD *EDICION ESPECIAL* 150G — $1.190 [vegano]
+
 #### Varios
 
 - BABA GANOUSH SUK VEGANO 175G Liquidación 06.11.2026 — $1.790 [vegano]
 - GUNYS RULETA PACK 10X DULCES ACIDOS 45GR — $8.900
 - JAPON A TU MESA AJI CHILENO 320g SIN GLUTEN — $2.190 [sin gluten, vegano]
 - JAPON A TU MESA AJI COREANO KIMCHI 320g SIN GLUTEN — $3.390 [sin gluten, vegano]
-- TURBO ICE TEA SABOR LIMON DISPLAY 12UN — $4.990 [sin lactosa, vegano]
 - TURBO ZERO GELATINA SABOR FRAMBUESA 22G — $690 [sin azúcar, sin lactosa]
 - TURBO GELATINA SABOR FRUTILLA 80G — $790 [sin lactosa]
 - TURBO GELATINA SABOR CEREZA SIN GLUTEN 80G — $790 [sin gluten, sin lactosa]
@@ -5260,10 +3751,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - CASABITO NATURAL SIN GLUTEN 75G — $1.990 [sin gluten, vegano]
 - CASABE REBOZADOR MOLIDO SIN GLUTEN 250G — $2.290 [sin gluten, vegano]
 - CASABITO CON SAL MARINA Y PIMIENTA SIN GLUTEN 75G — $1.990 [sin gluten, vegano]
-- KIMBO GRANO ESPRESSO CREMA INTENSA 1KL — $27.990
 - CHIPS DE PLATANITOS SALADOS SIN GLUTEN 34G — $690 [sin gluten, vegano]
-- KIMBO ESPRESSO INTENSO COMPATIBLE CON DOLCE GUSTO 16CAPS — $7.590
-- KIMBO ESPRESSO NAPOLES COMPATIBLE CON DOLCE GUSTO 16CAPS — $8.390
 - AMA PURE DE MANZANA ORGANICO 90G — $790
 - SEMBRASOL MANI SALADO SIN GLUTEN 80G — $890 [sin gluten, vegano]
 - SEMBRASOL MANI CONFITADO SIN GLUTEN 100G — $990 [sin gluten, vegano]
@@ -5297,7 +3785,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - ESPIRALES SIN GLUTEN SCHAR 250G — $2.990 [sin gluten]
 - GNOCCHI SIN GLUTEN SCHAR 300G — $5.490 [sin gluten]
 - NOT MILK SIMPLE AVENA 1LT — $1.990 [sin gluten, sin lactosa]
-- NOT MILK BARISTA 1LT — $1.800 [sin gluten, sin lactosa]
 - NOTMAYO VERSION 2.0 AJO (GARLIC) 315GR — $1.690
 - NOT MAYO CLASICA 200G Liquidación 02.11.2026 — $1.990
 - NOT SQUARE CHOCO COCO 30GR — $1.200
@@ -5310,9 +3797,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - AILEDA PACK 3X TRAPERO HUMEDO MULTIUSO LAVANDA — $5.990
 - AILEDA PERLAS DE PERMUFE AROMATICAS PARA ROPA 280GR — $3.990
 - AILEDA PACK 3X ESPONJA PARA COCINA DOBLE CARA — $990
-- AILEDA BOLSA DE BASURA EXTRA GRANDE 90X130CM — $1.790
-- AILEDA BOLSA DE BASURA GRANDE 80X120CM — $1.390
-- AILEDA BOLSA DE BASURA 45X50CM CON CORDON — $590
 - DISPLAY 18X OBLEA MANTECOL 27GR — $7.650
 - FLYNN PAFF SURTIDOS 504GR BOLSA SIN GLUTEN — $3.590 [sin gluten]
 - GAONA GALLETITAS PEPAS CON DULCE DE MEMBRILLO 300GR — $1.700
@@ -5328,18 +3812,14 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - AMA PURE DE MANZANA PERA ORGANICO 90G — $790 [sin gluten, vegano]
 - AMA PURE DE MANZANA DURAZNO ORGANICO 90G — $790 [sin azúcar, sin gluten, vegano]
 - AMA PURE DE MANZANA FRAMBUESA ORGANICO 90G — $790
-- AILEDA COTONITOS DE ALGODÓN CON VARILLA DE MADERA – 100 UN — $390
-- AILEDA COTONITOS DE ALGODÓN CON VARILLA DE MADERA – 200 UN — $790
 - TIKA NATIVA SAL DE MAR SIN GLUTEN 100G LIQUIDACION 08/12/2026 — $1.290 [sin gluten]
 - NATURE ́S GARDEN YOGGIES - PREBIOTIC FRUTILLA SIN GLUTEN 57G — $1.990 [sin gluten]
 - TURBO BENNY SABOR VAINILLA 200GR SIN GLUTEN — $990 [sin gluten]
 - TURBO BENNY SABOR FRUTILLA SIN GLUTEN 200G — $990 [sin gluten]
-- MR HYDE NIGHTMARE PRE ENTRENO 464G SABOR ARANDANO LIMONADA — $27.490 [sin gluten]
 - MR HYDE NIGHTMARE PRE ENTRENO 461G SABOR FRUTOS ROJOS — $27.490 [sin gluten]
 - MASH AVENA INTEGRAL SIN GLUTEN 800GR — $3.890 [sin gluten]
 - NATURE VALLEY FRUIT & NUT 6UN 210G Liquidación 11.10.2026 — $1.990
 - PURI CEREAL ESTRELLITAS PREBIOTICOS 400GR SIN GLUTEN Liquidacion 05.11.2026 — $3.490 [sin gluten]
-- KIMBO GRANO ESPRESSO CLASSICO 1 KL — $26.990
 - KIMBO GRANO INTENSO 1 KL — $26.990
 
 #### Dulces
@@ -5364,120 +3844,9 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - CALDO DE VERDURAS ECOLOGICO SIN GLUTEN NATUR GREEN 84G Liquidación 16.11.2026 — $1.990 [sin gluten]
 
-#### Cafe, te y hierbas
-
-- YERBA MATE CON ANIS KURUPI 500G — $3.990 [sin gluten]
-- YERBA MATE CEDRON MENTA KURUPI 500G — $3.990 [sin gluten]
-- YERBA MATE MENTA Y BOLDO KURUPI 500G — $3.990 [sin gluten]
-- YERBA MATE CLASICA KURUPI 500G — $3.490 [sin gluten]
-- YERBA MATE TERERE KURUPI 500G — $3.990 [sin gluten]
-- YERBA MATE MENTA Y LIMON KURUPI 500G — $3.990 [sin gluten]
-- YERBA MATE ROSAMONTE PREMIUM SIN GLUTEN 500G — $3.990 [sin gluten]
-- ARROYO VERDE YERBA MATE BURRITO 500G — $1.990
-- LANDI TÉ VERDE SIN GLUTEN 20BOLSITAS — $1.100 [sin gluten]
-- PILAO CAFE INSTANTANEO TRADICIONAL SIN GLUTEN 100G — $7.090 [sin gluten]
-- KIMBO CAFE EXPRESSO BARISTA NAPOLI 250GR SELECCION PREMIUM — $8.490
-- YERBA MATE ARROYO VERDE SUAVE 500G POLEO — $1.990 [sin gluten]
-- LANDI TÉ NEGRO CEYLÁN SIN GLUTEN 20BOLSITAS — $1.390 [sin gluten]
-- LANDI TÉ VERDE MENTA LEMONGRASS SIN GLUTEN 25BOLSITAS — $2.790 [sin gluten]
-- CAMEL CAFÉ CAPUCCINO ORIGINAL 5UN 125GR — $1.590
-- CAMEL CAFÉ CAPUCCINO VAINILLA 5UN 125GR — $1.590
-- CAMEL CAFÉ CAPUCCINO MOKA 5UN 125GR — $1.590
-- MOVENPICK CAFE GRANO DER HIMMLISCHE 1KG — $29.990
-- PIPORÉ YERBAMATE SUBLIME SIN GLUTEN 500GRS — $2.990 [sin gluten]
-- PIPORÉ YERBAMATE TERERÉ LIMON/MENTA SIN GLUTEN 500GRS — $2.990 [sin gluten]
-- PIPORÉ YERBAMATE NARANJA SIN GLUTEN 500GRS — $2.990 [sin gluten]
-- PIPORÉ YERBAMATE TRADICIONAL SIN GLUTEN 500GRS — $2.990 [sin gluten]
-- CBSE YERBAMATE ENDULIFE SIN GLUTEN 500GRS — $2.990 [sin gluten]
-- CBSE YERBAMATE LIMÓN SIN GLUTEN 500GRS — $2.990 [sin gluten]
-- CBSE YERBAMATE NARANJA SIN GLUTEN 500GRS — $2.990 [sin gluten]
-- CBSE YERBAMATE SILUETA NARANJA SIN GLUTEN 500GRS — $2.990 [sin gluten]
-- CBSE YERBAMATE POMELO SIN GLUTEN 500GRS — $2.990 [sin gluten]
-- CBSE YERBAMATE SILUETA SIN GLUTEN 500GRS — $2.990 [sin gluten]
-- CBSE YERBAMATE MANGO PICANTE SIN GLUTEN 250GRS — $1.990 [sin gluten]
-- CBSE YERBAMATE HIERBAS SERRANAS SIN GLUTEN 500GRS — $2.990 [sin gluten]
-- CBSE YERBAMATE MIEL SIN GLUTEN 500GRS — $2.990 [sin gluten]
-- YERBA MATE JENGIBRE, MENTA Y TÉ VERDE KURUPI 500G — $3.990
-- YERBA MATE ANÍS Y MANZANILLA KURUPI 500G — $3.990
-- LANDI TÉ NEGRO ENGLISH BREAKFAST SIN GLUTEN 100BOLSITAS 200G — $4.250 [sin gluten]
-- LANDI TÉ NEGRO MANZANA SIN GLUTEN 20BOLSITAS — $1.390 [sin gluten]
-- TE PU-ERH BUTTERFLY BRAND 25BOLSITAS — $1.490
-
 #### Azucar y endulzantes
 
 - ALUSWEET STEVIA ALULOSA GOTAS 180 ML SIN GLUTEN — $4.850 [sin gluten]
-
-#### Café e infusiones
-
-- YERBA CON MANZANILLA SIN TACC CRUZ DE MALTA X 500G — $3.790
-- KIMBO CAFE GRANO MOLIDO DESCAFEINADO 250GR — $9.790
-- MIZOS GALLETAS DE ARROZ SABOR CHOCOLATE NARANJA 25G — $500 [sin gluten, vegano]
-- YERBA MATE ROSAMONTE TRADICIONAL SIN GLUTEN 500G — $2.990 [sin gluten]
-- MATE COCIDO ROSAMONTE 25 BOLSITAS SIN GLUTEN 75G — $990 [sin gluten]
-- YERBA MATE CACHAMATE CON CASCARITAS DE NARANJA 500G — $2.590 [sin gluten]
-- OFERTA SEPTIEMBRE FULL MANI CHOCOLATE SIN GLUTEN 100G venc 31/10/2026 — $790 [sin gluten]
-- PURE DE TOMATES DE LA HUERTA SIN GLUTEN 530G — $990 [sin gluten]
-- PURÉ DE TOMATES DE LA HUERTA SIN GLUTEN 1030G — $1.890 [sin gluten]
-- MIZOS POPPED CHIPS SABOR TOMATE,ALBAHACA Y ACEITE DE OLIVA 20G — $550 [sin gluten, vegano]
-- ECOVIDA GALLETAS CHOCOLATE CHIPS SIN GLUTEN 150G Liquidación 18.11.2026 — $1.990 [sin gluten]
-- ECOVIDA BISCUIT CHIPS DE CHOCOLATE 100G — $1.170
-- KOE ACEITE DE COCO EXTRA VIRGEN SIN GLUTEN 1LT — $14.990 [sin gluten, vegano]
-- ALFAJOR RELLENO CREMA LIMON CON CHOCOLATE SIN GLUTEN 28G — $590 [sin gluten]
-- EMCO BARRAS DE GRANOLA CHOCOLATE DARK SIN GLUTEN 5X25G — $2.890 [sin gluten]
-- PULPA DE TOMATE SIN GLUTEN PONTEVEDRA 510G — $990 [sin gluten]
-- OBLEA DE CHOCOLATE RELLENA — $3.890 [sin gluten]
-- NOT MILK CHOCOLATE PROTEIN 250ML — $890
-- NOT PROTEIN BAR CHOCOLATE FUDGE BROWNIE 45G PACK 5UN — $4.390
-- CASABE PAN CRUJIENTE DE YUCA SIN GLUTEN 240G — $2.990 [sin gluten, vegano]
-- MOVENPICK GUSTO ITALIANO LUNGO CAPSULA COMPATIBLE — $4.990
-- MOVENPICK CAFE GRANO BARISTA ESPRESSO 1KL — $29.990
-- KIMBO LUNGO INTENSO CAPSULA COMPATIBLE CON NESPRESSO 10CAPS — $4.990
-- KIMBO ESPRESSO INTENSO CAPSULA COMPATIBLE — $4.990
-- KIMBO ESPRESSO NAPOLI CAPSULA COMPATIBLE — $4.990
-- PROTEIN SNACK BERRIES & WHITE GLAZE SIN GLUTEN 5UN — $6.490 [sin gluten]
-- PROTEIN SNACK CHOCOLATE & CRIPIS SIN GLUTEN 5UN — $6.490 [sin gluten]
-- GALLETA GULLON COOKIES DE CACAO — $3.290 [sin gluten]
-- GALLETA CHIP CHOCOLATE SIN GLUTEN 125G — $2.690 [sin azúcar, sin gluten]
-- GALLETA GULLON SANDWICH CHOCOLATE SIN GLUTEN 225G — $3.490 [sin gluten, vegano]
-- TASTY LECHE VEGETAL COCO CHOCOLATE 1LT SIN GLUTEN — $1.590 [sin gluten]
-- ECOVIDA ZERO CHOCOLATE FRUTILLA SIN AZUCAR 225G — $1.990 [sin azúcar]
-- TASTY LECHE VEGETAL ALMENDRA CHOCOLATE 1LT SIN GLUTEN — $1.590 [sin gluten]
-- MANTECOL CAFE SIN GLUTEN 111G LIQUIDACIÓN 30.08.2026 — $1.100 [sin gluten]
-- PLATANITOS LIMON PICANTE VEGANO SIN GLUTEN 65G — $990 [sin gluten, vegano]
-- ACEITE DE SESAMO ORGANICO SIN GLUTEN NATUR GREEN 250ML — $5.990 [sin gluten]
-- CAFE ESPRESSO GRANO ARABICA-ROBUSTA MOVENPICK 1KL — $29.990
-- PULPA DE TOMATE SIN GLUTEN BAGGIO 205GR — $590 [sin gluten]
-- ARROYO VERDE YERBA MATE HIERBAS SERRANAS 500G — $1.990
-- CAFE DO PONTO TRADICIONAL MOLIDO ARABICA 500G — $9.990
-- CHICLE TRIDENT® SABOR YERBABUENA SIN AZÚCAR PACK 18X — $4.500 [sin azúcar]
-- NOT MILK COMPLETE PROTEIN 750ML Liquidación 29.11.2026 — $1.890 [sin azúcar, sin gluten, sin lactosa]
-- TIKA MINI RICE POP CHOCOLATE BERRIES SIN GLUTEN 22GR — $550 [sin gluten]
-- TIKA MINI RICE POP CHOCOLATE MENTA SIN GLUTEN 22G LIQUIDACIÓN 29.11.2026 — $350 [sin gluten]
-- BEBIDA HIDRATANTE SUERO 8 IONES — $1.590 [sin azúcar]
-- BEBIDA HIDRATANTE SUERO ARÁNDANO POMELO 8 IONES + 8G COLÁGENO 630ML — $1.590
-- BEBIDA HIDRATANTE SUERO NARANJA MANDARINA 8 IONES + 8G COLÁGENO 630ML — $1.590
-- COLUN POTE MANJAR TRADICIONAL DE 400G SIN GLUTEN — $1.700 [sin gluten]
-- COLUN LECHE CHOCOLATE ORIGEN BOMBILLIN PACK 6UN SIN GLUTEN — $3.250 [sin gluten]
-- PROTEIN BAR CHOCOLATE FUDGE SIN GLUTEN 60G 4UN Liquidación 26.12.26 — $7.000 [sin gluten]
-- KIMBO CAFE GRANO MOLIDO INTENSO 250GRS — $6.990
-- AILEDA DETERGENTE CAPSULAS ANTIBACTERIAL FRESIAS Y LIRIOS 36UN — $6.200
-- AILEDA DETERGENTE CAPSULAS AROMATICO ANTIBACTERIAL 36UN — $6.200
-- AILEDA DETERGENTE LIQUIDO CON SUAVIZANTE 2LT — $3.990
-- AILEDA DETERGENTE EN CAPSULAS ANTIBACTERIANO 52UN — $5.990
-- FITSPO BARRA DE PROTEINA FRUTILLA Y CHOCOLATE 55G SIN GLUTEN — $2.490 [sin azúcar, sin gluten]
-- MIZOS GALLETAS DE ARROZ SABOR CHOCOLATE AVELLANA 25G — $360 [sin gluten]
-- CAFE GRANO MOLIDO DER HIMMLISCHE 100% ARABICA MOVENPICK 500G — $15.990
-- CBSE YERBAMATE FRUTOS DEL BOSQUE SIN GLUTEN 500GRS — $2.990 [sin gluten]
-- CBSE YERBAMATE FRUTOS TROPICALES SIN GLUTEN 500GRS — $2.990 [sin gluten]
-- CBSE YERBAMATE GUARANÁ SIN GLUTEN 500GRS — $2.990 [sin gluten]
-- CBSE YERBAMATE CHOCOLATE DUBAI SIN GLUTEN 250GRS — $1.990 [sin gluten]
-- WANIA ARVEJAS CRUJIENTES — $1.990 [sin gluten, vegano]
-- DULCES DE CAFÉ NEGRO KOPIKO 600GR - 75 BOLSITAS 8GR SIN GLUTEN — $14.990 [sin gluten]
-- DULCES DE CAFÉ CAPPUCCINO KOPIKO 600GR - 75 BOLSITAS 8GR SIN GLUTEN — $14.990 [sin gluten]
-- TIKA MINI RICE POP CHOCOLATE AVELLANA SIN GLUTEN 22G LIQUIDACIÓN 10.12.2026 — $350 [sin gluten]
-- CAFE EN GRANO ESPRESSO ALBERTO 1KG ORIGEN ALEMAN — $24.990
-- TIKA MINI RICE POP CREAM CIBOULETTE SIN GLUTEN 15GR LIQUIDACIÓN 05.12.2026 — $350 [sin gluten]
-- PULPA DE TOMATE TAMIZADA PONTEVEDRA SIN GLUTEN 1.020 KL — $1.500 [sin gluten]
 
 #### Barras y proteínas
 
@@ -5493,61 +3862,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - FITSPO BARRA DE PROTEINA COOKIES AND CREAM 60G — $2.490
 - NATURE VALLEY PROTEIN SALTED CARALEML SIN GLUTEN 5UN 200G Liquidación 09.10.2026 — $2.290 [sin gluten]
 - UNDERFIVE PROTEIN BAR COCO Liquidación 21.11.2026 — $670
-
-#### Lácteos
-
-- COLUN LECHE EN POLVO ENTERA INSTANTÁNEA - 900 GRAMOS SIN GLUTEN — $7.490 [sin gluten]
-- COLUN LECHE EN POLVO SEMIDESCREMADA 900 GR SIN GLUTEN — $7.800 [sin gluten]
-- TASTY LECHE VEGETAL ALMENDRA VAINILLA 1LT SIN GLUTEN — $1.590 [sin gluten, vegano]
-- NURA MANTEQUILLA DE MANI ORIGINAL SIN GLUTEN 485G — $3.290 [sin gluten]
-- RICE CRISPS SIN GLUTEN SABOR QUESO 100G liquidacion 28/12/2026 — $1.690 [sin gluten]
-- PURI MANTEQUILLA DE MANI 450GR SIN GLUTEN VEGANO — $4.690 [sin azúcar, sin gluten, vegano]
-- NOT SQUARE MANTEQUILLA DE MANI 30GR — $1.200
-- COLUN LECHE ENTERA SIN LACTOSA 1LT SIN GLUTEN — $1.490 [sin gluten, sin lactosa]
-- COLUN LECHE SEMIDESCREMADA SIN LACTOSA 1LT SIN GLUTEN — $1.590 [sin gluten, sin lactosa]
-- COLUN LECHE DESCREMADA SIN LACTOSA 1LT SIN GLUTEN — $1.590 [sin gluten, sin lactosa]
-- ORASI LECHE VEGETAL BARISTA SOYA 1LT SIN GLUTEN — $3.190 [sin gluten]
-- ORASI LECHE VEGETAL BARISTA AVENA 1LT SIN GLUTEN — $3.190 [sin gluten]
-- ORASI LECHE VEGETAL SOYA 1LT SIN GLUTEN — $2.690 [sin gluten, vegano]
-- COLUN LECHE ENTERA BOMBILLIN PACK 6UN SIN GLUTEN — $2.990 [sin gluten]
-
-#### Sin gluten
-
-- BEBIDA ISOTONICA SEAWATER MANZANA 21 IONES SIN GLUTEN 475ML — $1.290 [sin azúcar, sin gluten]
-- BEBIDA ISOTONICA SEAWATER NARANJA FRUTILLA 21 IONES SIN GLUTEN 475ML — $1.290 [sin azúcar, sin gluten]
-- BEBIDA ISOTONICA SEAWATER NARANJA 21 IONES SIN GLUTEN 475ML — $1.290 [sin azúcar, sin gluten]
-
-#### Aseo y limpieza
-
-- NANOLIFE DETERGENTE PARA ROPA LIQUIDO CAPSULAS 3 EN 1 — $8.590
-- NANOLIFE LAVALOZAS ULTRA CONCENTRADO 750ML — $2.200
-- AILEDA PERLAS AROMATICAS PARA ROPA 280GR — $3.990
-- NANOLIFE RECARGA LIMPIADOR ANTIGRASA 600ML — $1.490
-- NANOLIFE RECARGA LIMPIAVIDRIOS MULTIUSOS 600ML — $1.490
-- NANOLIFE RECARGA MULTIUSOS LIMPIADOR DESINFECTANTE 750ML — $1.490
-- NANOLIFE LIMPIAPISOS DESINFECTANTE 1LT — $2.990
-- NANOLIFE LAVALOZAS ULTRACONCENTRADO 500ML — $2.200
-- AILEDA PACK 6X ESPONJA PARA COCINA MULTICOLOR — $1.890
-- AILEDA PACK 5X ESPONJAS MULTIUSOS DOBLE CARA — $1.790
-- AILEDA PACK 5X DETERGENTE EN CAPSULAS PREMIUM — $6.250
-- AILEDA RACK ORGANIZADOR ESCOBA — $1.490
-- AILEDA ESPONJA ABRASIVA PARA LIMPIEZA PROFUNDA — $1.990
-- AILEDA ELIMINADOR DE OLORES ESFERA AZUL — $990
-- AILEDA DISCO ACTIVO INODORO AROMA LAVANDA 38G — $1.200
-- AILEDA AROMATIZANTE PARA ESTANQUE DE BAÑO 50GR — $890
-- AILEDA RECARGA PARA JABON DE MANOS 250ML CITRICO — $1.200
-- AILEDA RECARGA PARA JABON DE MANOS 250ML MANZANA — $1.200
-- AILEDA DISCO ACTIVO INODORO AROMA OCEANO 38G — $1.200
-- AILEDA TOALLITAS HUMEDAS ANTIGRASA PARA COCINA 50UN — $2.290
-- AILEDA LAVALOZAS LIQUIDO 750ML AROMA CITRICO — $1.290
-- AILEDA LAVALOZAS LIQUIDO 750ML AROMA LIMON — $1.290
-- AILEDA LAVALOZAS LIQUIDO 750ML AROMA LIMON JENGIBRE — $1.290
-- NANOLIFE BABY DETERGENTE CAPSULA HIPOALERGENICO 20UN — $8.390
-- NANOLIFE DETERGENTE EN CAPSULAS 10UN — $3.990
-- AILEDA LUSTRA MUEBLES AROMA TRADICIONAL 250ML — $1.290
-- AILEDA ABRILLANTADOR PISO FLOTANTE AROMA LAVANDA 900ML — $2.490
-- AILEDA CUBOS AROMATIZANTES PARA ESTANQUE DE INODORO 2UN — $890
-- AILEDA DISCO ACTIVO INODORO AROMA LIMON 38G — $1.200
 
 #### Suplementos deportivos
 
@@ -5565,11 +3879,9 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - 4 ACTIVE BEAST PRE WORKOUT ORANGE 320g — $18.590
 - 4 ACTIVE BEAST PRE WORKOUT FRUIT PUNCH 320g — $18.590
 - 4 ACTIVE WOMEN PROTEIN + BEAUTY PROTELLA 870g — $25.590
-- 4 ACTIVE CREATINE + ELECTROLYTES ICE TEA FRESH 300g — $12.890
 - SWANSON TRIPLE MAGNESIUM COMPLEX 30un — $11.590
 - 4 ACTIVE BETA ALANINE 100% 300g — $14.290
 - 4 ACTIVE GLUTAMINE 100% 300g — $12.890 [sin lactosa, vegano]
-- 4 ACTIVE WOMEN CREATINE + BEAUTY PEACH ICE TEA VIBES 286g — $13.990
 
 #### Galletas
 
@@ -5601,7 +3913,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - PACK LA CUSTODIA ACEITE DE OLIVA + CHIA + OLIVA/CHIA 250ML — $14.990
 - PACK LA CUSTODIA ACEITE DE OLIVA + CHIA/OLIVA 500ML — $15.490
-- PACK PILAO 5UN CAFE MOLIDO TRADICIONAL 250GR — $29.990
 - DREAMSEC PROTECTOR DE CAMA DESECHABLE 10UN — $2.490
 
 #### Snacks
@@ -5612,19 +3923,20 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - SNACK PREMIUM PARA GATO ADULTO SABOR SALMON 65GR — $890
 - WANIA PAPAS HILO CENTRIFUGADAS SIN GLUTEN VEGANO 200G — $1.890 [sin gluten, vegano]
 
-#### Bebidas
+#### Café e infusiones
 
-- TURBO ZERO JUGO SABOR POMELO DISPLAY 10UN — $3.100
-- AMA JUGO MANZANA DURAZNO ORGANICO 200ML — $690
-- AMA JUGO MANZANA ORGANICO 200ML — $690 [sin gluten]
-- BERIEF BEBIDA VEGETAL DE SOJA ORGANICA SIN AZUCAR VEGANA SIN GLUTEN 1LT — $2.490 [sin azúcar, sin gluten, vegano]
-- AMA JUGO MANZANA MANGO ORGANICO 200ML — $690
-- AMA JUGO MANZANA ARANDANO ORGANICO 200ML — $690 [sin gluten, vegano]
-- GROW JUGO DE NARANJA Y ZANAHORIA SIN GLUTEN 1LT 100% NATURAL — $2.890 [sin gluten]
-- GROW JUGO DE NARANJA SIN GLUTEN 1LT 100% NATURAL — $2.890 [sin gluten]
-- AMA JUGO MANZANA FRAMBUESA ORGANICO 200ML — $690 [sin azúcar, sin gluten, vegano]
-- AMA JUGO MANZANA PIÑA ORGANICO 200ML — $690 [sin azúcar, sin gluten, vegano]
-- POROTOS NEGROS ACONCAGUA 420G — $890
+- MIZOS GALLETAS DE ARROZ SABOR CHOCOLATE NARANJA 25G — $500 [sin gluten, vegano]
+- ECOVIDA GALLETAS CHOCOLATE CHIPS SIN GLUTEN 150G Liquidación 18.11.2026 — $1.990 [sin gluten]
+- ALFAJOR RELLENO CREMA LIMON CON CHOCOLATE SIN GLUTEN 28G — $590 [sin gluten]
+- EMCO BARRAS DE GRANOLA CHOCOLATE DARK SIN GLUTEN 5X25G — $2.890 [sin gluten]
+- NOT PROTEIN BAR CHOCOLATE FUDGE BROWNIE 45G PACK 5UN — $4.390
+- GALLETA GULLON COOKIES DE CACAO — $3.290 [sin gluten]
+- GALLETA CHIP CHOCOLATE SIN GLUTEN 125G — $2.690 [sin azúcar, sin gluten]
+- GALLETA GULLON SANDWICH CHOCOLATE SIN GLUTEN 225G — $3.490 [sin gluten, vegano]
+- FITSPO BARRA DE PROTEINA FRUTILLA Y CHOCOLATE 55G SIN GLUTEN — $2.490 [sin azúcar, sin gluten]
+- MIZOS GALLETAS DE ARROZ SABOR CHOCOLATE AVELLANA 25G — $360 [sin gluten]
+- DULCES DE CAFÉ NEGRO KOPIKO 600GR - 75 BOLSITAS 8GR SIN GLUTEN — $14.990 [sin gluten]
+- DULCES DE CAFÉ CAPPUCCINO KOPIKO 600GR - 75 BOLSITAS 8GR SIN GLUTEN — $14.990 [sin gluten]
 
 #### Panadería
 
@@ -5643,9 +3955,12 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - MEZCLA LISTA PARA BROWNIE PREMIUM SIN GLUTEN 500G — $4.490 [sin gluten, sin lactosa, vegano]
 - NUTRISA QUEQUE FAMILIAR SABOR VAINILLA 200G SIN GLUTEN — $2.990 [sin gluten]
 
-#### Aseo y cuidado
+#### Lácteos
 
-- AILEDA RECARGA PARA JABON DE MANOS 250ML FRUTILLA — $1.200
+- NURA MANTEQUILLA DE MANI ORIGINAL SIN GLUTEN 485G — $3.290 [sin gluten]
+- RICE CRISPS SIN GLUTEN SABOR QUESO 100G liquidacion 28/12/2026 — $1.690 [sin gluten]
+- PURI MANTEQUILLA DE MANI 450GR SIN GLUTEN VEGANO — $4.690 [sin azúcar, sin gluten, vegano]
+- NOT SQUARE MANTEQUILLA DE MANI 30GR — $1.200
 
 #### Frescos
 
@@ -5666,13 +3981,11 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 ### Qué vende
 
 - Pizzas
-- Sin Azúcar
 - Sándwiches
 - Porciones
 - Extras
 - Galletas
 - Panaderia
-- Bebidas frías
 - Papas
 
 
@@ -5684,11 +3997,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Pizza promo 2x1 — $14.990
 - Pizza queso — $9.500
 - Pizza pepperoni — $11.500
-
-#### Sin Azúcar
-
-- Agua sin gas benedictino — $1.500 [sin azúcar]
-- Agua con gas benedictino — $1.500 [sin azúcar]
 
 #### Sándwiches
 
@@ -5735,12 +4043,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Pan rustico (Congelado) — $5.490
 - Empanada napolitana — $5.000
 
-#### Bebidas frías
-
-- Jugo de frutilla — $4.500
-- Jugo de mango — $4.500
-- Jugo de piña — $4.500
-
 #### Papas
 
 - Papas grandes — $4.500
@@ -5762,7 +4064,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Hamburguesas sin gluten
 - Postres Sin Gluten
 - Panaderia Especial Sin Gluten
-- Bebidas
 - Prepara tu pizza mediana sin gluten
 
 
@@ -5806,19 +4107,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Pan de choripan sin gluten — $6.200
 - Masa de pizza mediana sin gluten — $9.000
 
-#### Bebidas
-
-- Fanta 350ml — $2.700
-- Coca-cola 350ml — $2.700
-- Coca-cola zero 350ml — $2.700
-- Limonada de coco — $6.500
-- Agua sin gas — $2.700
-- Agua con gas — $2.700
-- Milk shake de coco — $7.500
-- Limonada con hierbabuena — $6.500
-- Jugo de frutos rojos — $6.500
-- Limonada de frutos rojos — $6.500
-
 #### Prepara tu pizza mediana sin gluten
 
 - Pizza mediana con queso deslactosado — $18.900
@@ -5858,8 +4146,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 ### Qué vende
 
 - ENSALADAS
-- BEBIDAS
-- CERVEZAS.
 - SOPAS
 - TRADICIONALES
 - SUGERENCIAS DEL CHEF
@@ -5874,30 +4160,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - ENSALADA CHILENA — $4.600
 - ENSALADA SURTIDA — $5.600
 - PAPAS MAYO — $4.800
-
-#### BEBIDAS
-
-- BEBIDAS GASEOSA — $2.400
-- JUGO DE FRUTAS NATURAL 100% — $4.500
-- LIMONADA MENTA JENGIBRE — $4.200
-- NECTAR DE PAPAYA — $3.200
-- CAFE EXPRESSO — $2.800
-- CAFE EXPRESSO DOBLE — $3.200
-- INFUSION — $2.300
-- CAFE AMERICANO — $3.000
-
-#### CERVEZAS.
-
-- AUSTRAL LAGER — $4.000
-- CORONA — $4.000
-- CRISTAL — $2.600
-- HEINEKEN — $4.000
-- HEINEKEN SIN ALCOHOL — $4.000
-- KUNSTMANN TOROBAYO — $4.000
-- KUNSTMANN BOCK — $4.000
-- STELLA ARTOIS — $4.000
-- ROYAL GUARD — $4.000
-- SHOP ARTESANAL 500ML — $5.200
 
 #### SOPAS
 
@@ -5919,7 +4181,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - TALLARINES CON PLATEADA — $9.100
 - CHORRILLANA X2 — $17.000
 - ARROLLADO HUASO — $10.600
-- PLATEADA AL JUGO — $13.800
 - CORDERO AL HORNO — $17.800
 - LENGUA CON SALSA NOGADA — $12.200
 - POLLO SERENENCE — $12.800
@@ -5945,36 +4206,13 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 ### Qué vende
 
-- CAFE
 - TOSTADAS
 - BOWLS Y MAS
-- LATTES Y TÉ
 - SANDWICHES
 - PASTELERIA
-- BEBESTIBLES
-- CALIENTE
-- FRÍO
-- JUGOS
-- POSTRES
 
 
 ### Carta
-
-#### CAFE
-
-- ESPRESSO — $2.500
-- MACCHIATO — $3.300
-- FILTRADO — $4.000
-- LATTE — $4.000
-- LATTE VAINILLA — $4.500
-- EL SUCIO — $4.500
-- LATTE FRIO — $4.500
-- AMERICANO — $2.700
-- FLAT WHITE — $3.500
-- CAPPUCCINO — $3.500
-- MOCACCINO — $4.500
-- AFFOGATO — $5.900
-- ESPRESSO TONIC — $5.900
 
 #### TOSTADAS
 
@@ -5989,15 +4227,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - KEFIR BOWL — $7.900
 - PORRIDGE DE AVENA — $7.900
 - LAS FRANCHUTE — $7.500
-
-#### LATTES Y TÉ
-
-- CHOCOLATE CALIENTE — $4.000
-- TURMERIC LATTE — $4.000
-- CHAI LATTE — $4.000
-- MATCHA LATTE — $4.000
-- CHAI LATTE FRIO — $4.500
-- MATCHA LATTE FRIO — $4.500
 
 #### SANDWICHES
 
@@ -6019,60 +4248,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - SNICKER — $3.000
 - VONOVON — $2.500
 - QUEQUE — $3.500
-
-#### BEBESTIBLES
-
-- KOMBUCHA KOMBUCHU — $3.500
-- JUGO DEL DIA — $3.500
-- AGUA MINERAL — $2.500
-
-#### CALIENTE
-
-- ESPRESSO — $3.000
-- AMERICANO — $3.000
-- MACCHIATO — $3.500
-- FILTRADO — $5.000
-- LATTE — $4.500
-- LATTE VAINILLA — $5.000
-- FLAT WHITE — $3.900
-- EL SUCIO — $5.000
-- CAPPUCCINO — $3.900
-- MOCACCINO — $5.000
-- CHAI LATTE — $4
-- CHOCOLATE — $4
-- TURMERIC LATTE — $4
-- MATCHA LATTE — $5
-- TÉ e INFUSIONES — $3
-
-#### FRÍO
-
-- COLD BREW — $5.000
-- AFFOGATO — $6.000
-- HIBISCUS — $6.000
-- BERRY LUNAR — $6.000
-- ESPRESSO TONIC — $6.000
-- ESPRESSO NARANJA — $4.500
-- LATTE VAINILLA FRIO — $5.000
-- MOCCA FRIO — $5.000
-- CHAI LATTE FRIO
-- MATCHA FRAMBUESA
-- MATCHA LATTE FRIO
-- MATCHA NARANJA
-- JUGO NATURAL
-- AGUA MINERAL
-
-#### JUGOS
-
-- MATANZAS NARANJA MANZANA BETARRAGA MENTA — $350
-- EL PATIO NARANJA ZANAHORIA JENGIBRE — $350
-- RINCONADA MANZANA KIWI KALE — $350
-- PULLAY MANZANA PIÑA KALE — $350
-- REÑACA MANZANA BETARRAGA PIÑA — $350
-- CACHOS NARANJA ZANAHORIA PLATANO MENTA JENGIBRE — $350
-
-#### POSTRES
-
-- PERAS AL VINO PERAS COCIDAS AL VINO TINTO CON CREMA MONTADA — $4.900
 
 
 ## Emporio de la Tierra
@@ -6102,7 +4277,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - Menú
 - Ver Menú
-- Café en nuestra viral taza de galleta
 - Sandwich Pollo Italiano
 - Waffle Oreo Nutella
 - Sandwich Mechada a lo Rustico
@@ -6123,7 +4297,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - crepe
 - postre
 - dulces
-- jugo
 
 
 ## Estró Santiago
@@ -6145,7 +4318,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - POSTRE A ELECCIÓN
 - LAMENTO DEL COBRE ECOS DEL FIN DEL MUNDO — $9.900
 - DORADO AUSTRAL EL ULTIMO CANTO DEL LITORAL — $9.900
-- FUEGO DEL PEHUEN PISCO SOUR — $9.500
 - Spumante Limari Gemma Brut CHARDONNAY/PINOT NOIR LIMARI — $9.900
 - Spumante Limari Gemma Rosé CHARDONNAY/PINOT NOIR LIMARI — $9.900
 - Ventisquero Dos Almas CHARDONNAY/MOSCATEL CASABLANCA — $8.900
@@ -6280,7 +4452,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 #### Salsas y cremas para untar
 
-- Paté al Ron — $6.900
 - Paté con Merkén — $6.900
 - Paté al Oporto — $6.900
 - Paté Trufado — $7.490
@@ -6311,15 +4482,11 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** hamburguesa, empanada, carne, sopa, churrasco, barros luco, pastel, pie, merengue
 - **Menciona en reseñas:** hamburguesa, empanada, torta
 - **Fecha de registro:** 2026-05-14
-- **Dietético:** local 100% sin gluten, 19 sin lactosa
+- **Dietético:** local 100% sin gluten, 11 sin lactosa
 
 ### Qué vende
 
-- Tetería
-- Jugos Naturales
 - Menú para niños
-- Café sin lactosa
-- Bebidas
 - Desayunos
 - Empanadas sin lactosa
 - Hamburguesas sin lactosa
@@ -6329,44 +4496,13 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Sandwich
 - Chorrillanas
 - Acompañamientos
-- Café
 
 
 ### Carta
 
-#### Tetería
-
-- Taza de té — $3.000
-- Tetera de té en hoja — $5.400
-
-#### Jugos Naturales
-
-- Jugo de frutilla — $3.500
-- Jugo de frambuesas — $3.500
-- Jugo de frutos del bosque — $3.500
-- Jugo de mango — $3.500
-
 #### Menú para niños
 
 - Mini hamburguesa y papas fritas — $8.500
-
-#### Café sin lactosa
-
-- Espresso — $2.400 [sin lactosa]
-- Espresso doble — $2.790 [sin lactosa]
-- Café latte — $3.500 [sin lactosa]
-- Capuchino — $3.700 [sin lactosa]
-- Capuchino canela — $3.200 [sin lactosa]
-- Americano — $2.500 [sin lactosa]
-- Café Frío — $3.200 [sin lactosa]
-- Café Frío con crema — $3.500 [sin lactosa]
-
-#### Bebidas
-
-- Coca Cola — $2.000
-- Sprite — $2.000
-- Fanta — $2.000
-- Kombucha — $2.950
 
 #### Desayunos
 
@@ -6414,10 +4550,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 #### Acompañamientos
 
 - Papa natural — $4.300
-
-#### Café
-
-- Capuchino con crema — $3.700
 
 
 ## Fortunata
@@ -6794,7 +4926,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://www.glutenberg.cl/
 - **Menciona en reseñas:** pizza, torta, pastel, galleta
 - **Fecha de registro:** 2025-11-05
-- **Dietético:** 11 platos sin gluten, 2 veganos, 9 sin lactosa
+- **Dietético:** 10 platos sin gluten, 2 veganos, 8 sin lactosa
 
 ### Qué vende
 
@@ -6817,7 +4949,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 #### AATienda
 
 - Caja surtida individual — $1.480
-- COCTEL DULCE 50 — $35.900 [sin gluten, sin lactosa]
 
 #### Coctel
 
@@ -6859,7 +4990,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Ensaladas
 - Sandwiches y Hamburguesas
 - Para Acompañar
-- Bebidas
 - Desayuno
 - Para Desayunar
 - Pastelería
@@ -6872,8 +5002,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Empanadas de Carne
 - Empanadas de Jamón y Queso
 - Pizzetas de Muzzarella
-- Pizzetas Margarita con Muzzarella y Cebolla Caramelizada
-- Pizzetas Margarita
 - Quiche de Jamón y Queso
 - Quiche de Calabaza
 - Quiche de Cebolla
@@ -6922,11 +5050,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Tostado de Queso y Tomate
 - Tostado de Queso y Palta
 - Tostado de Queso y Huevo
-
-#### Bebidas
-
-- Cortado o Té con 2 acompañamientos
-- Cortado
 
 #### Desayuno
 
@@ -7054,12 +5177,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - tortas en vaso
 - Tartaleta del Dia
 - Panqueques Manjar
-- Bebida
-- Jugo natural
-- Agua con o sin gas
-- Capuccino
-- Cafe Americano
-- Chocolate Caliente
 
 
 ## Gusto's - Keto, health & gluten free
@@ -7079,7 +5196,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Hamburguesas sin gluten
 - Postres Sin Gluten
 - Panaderia Especial Sin Gluten
-- Bebidas
 - Prepara tu pizza mediana sin gluten
 
 
@@ -7123,19 +5239,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Pan de choripan sin gluten — $6.200
 - Masa de pizza mediana sin gluten — $9.000
 
-#### Bebidas
-
-- Fanta 350ml — $2.700
-- Coca-cola 350ml — $2.700
-- Coca-cola zero 350ml — $2.700
-- Limonada de coco — $6.500
-- Agua sin gas — $2.700
-- Agua con gas — $2.700
-- Milk shake de coco — $7.500
-- Limonada con hierbabuena — $6.500
-- Jugo de frutos rojos — $6.500
-- Limonada de frutos rojos — $6.500
-
 #### Prepara tu pizza mediana sin gluten
 
 - Pizza mediana con queso deslactosado — $18.900
@@ -7157,8 +5260,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - Featured items
 - Menú
-- Bebidas
-- Potes de Helados
 - Paletas
 
 
@@ -7179,16 +5280,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Barquillo (sin gluten/sin azúcar) — $1.190 [sin azúcar, sin gluten]
 - Barquillo vegano (sin gluten/con panela) — $1.190 [sin gluten, vegano]
 
-#### Bebidas
-
-- Café Colombiano 340gr (Molido) — $12.490
-- Café Colombiano 340gr (Grano) — $13.490
-
-#### Potes de Helados
-
-- Mango de Maracuyá al Agua — $4.780
-- Frutos del Bosque al agua — $4.780
-
 #### Paletas
 
 - Paleta para perros — $2.390
@@ -7206,11 +5297,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 ### Qué vende
 
-- Cafetería
-- Otras bebidas
-- Frío
-- Batidos proteicos
-- Mocktails
 - Desayuno
 - Pastelería
 - Almuerzo
@@ -7219,52 +5305,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 
 ### Carta
-
-#### Cafetería
-
-- ESPRESSO — $2.500
-- AMERICANO — $2.500
-- ESPRESSO DOBLE — $3.000
-- CAPPUCCINO — $3.000
-- LATTE — $3.200
-- FLAT WHITE — $3.500
-- CAPPUCCINO DOBLE — $3.700
-- MOCACCINO — $4.000
-- CHOCOLATE CALIENTE — $4.000
-- TÉ — $2.000
-- TÉ CON LECHE — $2.500
-
-#### Otras bebidas
-
-- VITAMINAS — $4.000
-- LIMONADAS — $3.700
-- JUGOS — $3.500
-- KOMBUCHA — $3.500
-- BEBIDAS — $2.500
-- AGUA MINERAL — $2.000
-- MILKSHAKE — $3.900
-
-#### Frío
-
-- AMERICANO FRÍO — $3.200
-- LATTE FRÍO — $3.400
-- AFFOGATO — $4.000
-- CAFÉ HELADO — $4.500
-
-#### Batidos proteicos
-
-- BATIDO — $5.900
-- ICED COFFEE MOKA PROTEICO — $5.900
-
-#### Mocktails
-
-- CERVEZA 0° — $3.000
-- MICHELADA 0° — $4.000
-- CHARDONNAY SOUR — $4.500
-- NAVEGADO — $4.500
-- BORGOÑA — $4.500
-- ESPRESSO TONIC — $4.000
-- ESPRESSO NARANJA — $4.500
 
 #### Desayuno
 
@@ -7327,7 +5367,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - TO SHARE
 - PAPAS RACLETTE
 - RÖSTIS
-- TO DRINK
 - EXTRAS
 
 
@@ -7373,12 +5412,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - Montañés — $10.000
 
-#### TO DRINK
-
-- Drinks — $2.300
-- Drink of the day — $2.100
-- Sparkling/still water — $1.800
-
 #### EXTRAS
 
 - Extra Raclette (50g) — $2.000
@@ -7403,8 +5436,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - EXTRAS
 - PANCITOS
 - GUSTITOS DE FIN DE SEMANA
-- CAFÉ
-- VARIEDAD DE BEBIDAS
 
 
 ### Carta
@@ -7414,7 +5445,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Vegetal — $800
 - Syrup — $500
 - Frío — $300
-- Shot leche — $900
 - Hummus — $900
 - Jamón — $900
 - Palta — $900
@@ -7431,19 +5461,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - Ciabattas — $6.900
 
-#### CAFÉ
-
-- Americano L — $3.000
-- Café con Milk L — $3.400
-- Filtrados L — $3.900
-
-#### VARIEDAD DE BEBIDAS
-
-- Noir o Ivory Moca L — $4.500
-- Noir o Ivory Choc L — $4.300
-- Matcha Latte L — $4.500
-- Variedad de Jugos Naturales L — $3.300
-
 
 ## Kanu Cocina
 - **Ubicación:** José Miguel Carrera 314, 8370138 Santiago, Región Metropolitana
@@ -7459,7 +5476,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Combos
 - Menú
 - Postres
-- Bebidas
 
 
 ### Carta
@@ -7489,12 +5505,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Tortas en vaso — $4.200 [vegano]
 - Queques Vegano — $3.000 [vegano]
 
-#### Bebidas
-
-- Sprite Zero Azucar — $1.900 [sin azúcar]
-- Fanta Zero Azucar — $1.900
-- Agua Benedectino 500 ML Sin Gas — $1.500
-
 
 ## L'Arrabbiata Foodmarket
 - **Ubicación:** Manuel Montt 2559, Local 1 y 2, 7770418 Ñuñoa, Región Metropolitana
@@ -7511,11 +5521,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Plato Principal
 - Ensalada
 - Postre
-- Bebida
 - Bollería
 - Desayuno
-- Chocolate Caliente
-- Bebidas
 - Postres
 - Desayunos
 - Panadería
@@ -7535,12 +5542,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - Helado Danky Vulcano — $1.000
 
-#### Bebida
-
-- Coca-Cola Sin Azúcar [sin azúcar]
-- Café con Leche
-- Zumo de Naranja
-
 #### Bollería
 
 - Croissant
@@ -7549,10 +5550,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - Tostada con Jamón y Queso
 - Huevo Cocido
-
-#### Bebidas
-
-- Café Negro
 
 #### Postres
 
@@ -7666,7 +5663,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Sopaipillas
 - Pizzas
 - Pasteleria
-- Jugos Naturales
 
 
 ## La Friet Amsterdam
@@ -7678,7 +5674,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 ### Carta
 
-- Con agua o bebida — $1.000
 - Carne Braseada
 - Mostaza en Gran — $911.990
 - Trufa Negra 8 — $9.990
@@ -7687,7 +5682,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - DE LA CASA (c/u) — $590
 - SALSAS PREMIUM (c/u) — $990
 - BBQ Ahumada Salsa Tártara
-- Bebida ....occoooccnoncninncnionncinnnncnnnacinnacinnananos — $91.990
 - La Friet(Original) — $5.490
 - DE LA CASA (c/u) — $500
 - Salsa Tártara
@@ -7697,7 +5691,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Tocino Crujiente — $91.190
 - Cheddar Rallado — $51.490
 - Parmesano Rallado — $51.490
-- Agua - Bebida — $1.490
 - Premium — $2.990
 - Barbecue Salsa Tártara Mayo Trufada /
 - O nendado — $8.990
@@ -7717,19 +5710,14 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 ### Qué vende
 
 - Waffle
-- Smoothies
 - Waffles Salados
 - Salsas y Quesos
 - Adicionales
-- Bebidas
-- Líquido para Smoothie
 - Endulzante
-- Bebida en Lata
 - Salsas
 - Postres
 - Vegan Brownie
 - Papas
-- Smoothie
 - Adicional
 
 
@@ -7744,16 +5732,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Waffle Vegano con Helado — $6.500 [vegano]
 - Waffle Vegano de Frutas — $5.500 [vegano]
 - Waffle de Cheesecake y Berries — $4.900
-
-#### Smoothies
-
-- Smoothie Detox — $4.000
-- Smoothie de Mango — $4.000
-- Smoothie de Frambuesa — $4.000
-- Smoothie de Arándanos — $4.000
-- Smoothie de Frutilla y Plátano — $4.000
-- Smoothie Tropical — $4.000
-- Smoothie de Piña y Coco — $4.000
 
 #### Waffles Salados
 
@@ -7795,23 +5773,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Mantecoso
 - Shoestring
 
-#### Bebidas
-
-- Refrescos — $1.500
-- Agua Vital — $1.500
-- Néctar Andina — $1.200
-
-#### Líquido para Smoothie
-
-- Agua Purificada
-- Leche Entera
-- Leche Descremada
-- Leche de Almendras
-- Leche Deslactosada
-- Leche de Coco
-- Leche de Arroz
-- Leche de Avena
-
 #### Endulzante
 
 - Miel
@@ -7819,19 +5780,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Azúcar Blanca
 - Dátil
 - Azúcar Rubia
-
-#### Bebida en Lata
-
-- Coca-Cola Original
-- Coca-Cola Zero [sin azúcar]
-- Sprite Zero [sin azúcar]
-- Fanta
-- Royal
-- Nordic Mist
-- Schweppes
-- Coca-Cola Light — $1.200 [sin azúcar]
-- Tónica — $1.200
-- Ginger Ale — $1.200
 
 #### Salsas
 
@@ -7851,10 +5799,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - Fritas Tradicionales
 - Camote Betarraga Horneadas
-
-#### Smoothie
-
-- Smoothie The Real — $4.000
 
 #### Adicional
 
@@ -7997,10 +5941,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Croissants Rellenos
 - Sandwiches Gourmet
 - Pastelería Artesanal
-- Cafetería
-- Cafés Fríos
-- Matcha
-- Jugos
 
 
 ### Carta
@@ -8068,33 +6008,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Cheesecake de Maracuyá — $6.100
 - Torta Húmeda de Chocolate — $6.100
 
-#### Cafetería
-
-- Espresso — $1.900
-- Americano — $3.600
-- Cortado — $3.600
-- Cappuccino — $4.300
-- Latte — $4.600
-
-#### Cafés Fríos
-
-- Late Frío — $4.800
-- Chai Latte Frío — $4.800
-- Mojito Espresso — $4.800
-- Café Helado — $6.100
-- Frappuccino Nutella — $7.900
-
-#### Matcha
-
-- Matcha Latte — $4.400
-- Matcha Frappe — $4.600
-
-#### Jugos
-
-- Jugo de Naranja — $6.600
-- Jugo de Mango — $6.600
-- Jugos de Frutilla — $6.600
-
 
 ## Lemongrass
 - **Ubicación:** Las Rojas Pte. 261, 1710293 La Serena, Coquimbo
@@ -8108,7 +6021,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 ### Qué vende
 
 - POSTRES / DESSERTS
-- BEBESTIBLES / DRINKS
 - ENTRADAS / ENTRÉE
 - ARROZ FRITO / FRIED RICE
 
@@ -8121,16 +6033,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - PANQUEQUE NUTELLA / NUTELLA PANCAKE — $4.500
 - PANQUEQUE THAI / THAI PANCAKE Relleno — $4.500
 - TEMPURA DE PLÁTANO / BANANA TEMPURA — $4.000
-- LECHE DE COCO ENDULZADA — $4.000
-
-#### BEBESTIBLES / DRINKS
-
-- JUGO NATURAL / NATURAL JUICE — $2.500
-- JUGO DE ALOE / ALOE JUICE — $1.600
-- BEBIDA (LATA) / CAN — $1.300
-- NECTAR / BOTTLED JUICE — $1.500
-- AGUA MINERAL / MINERAL WATER — $1.100
-- TÉ VERDE / GREEN TEA — $1.000
 
 #### ENTRADAS / ENTRÉE
 
@@ -8140,7 +6042,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - LAAP POLLO O CERDO — $7.500
 - LAAP VACUNO — $8.000
 - ENSALADA DEL DÍA / SALAD OF THE DAY — $5.500
-- SOPA DE LECHE DE COCO — $6.000
 
 #### ARROZ FRITO / FRIED RICE
 
@@ -8169,12 +6070,11 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** pasta, curry, pollo, torta, galleta, alfajor, brownie, pie, chocolate, manjar
 - **Menciona en reseñas:** pasta, ensalada, pastel, brownie, chocolate, dulces
 - **Fecha de registro:** 2026-03-01
-- **Dietético:** local 100% sin gluten, 11 veganos, 15 sin lactosa
+- **Dietético:** local 100% sin gluten, 11 veganos, 14 sin lactosa
 
 ### Qué vende
 
 - Desayunos
-- Almuerzos
 - Keto
 - Keto-APLV-Vegano-Sin Lácteos
 - Cajas (2 DIAS DE ANTICIPACIÓN)
@@ -8188,14 +6088,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Huevo revuelto — $5.500
 - Mini baguette jamón palta — $5.500
 - Planchadito jamón queso — $5.500 [sin lactosa]
-
-#### Almuerzos
-
-- Palta Reina + Bebida — $15.990
-- Spaghetti de edamame al pesto + Bebida — $15.990
-- Salmón con agregado + Bebida — $17.990 [sin lactosa]
-- Atún grillado con sésamo con acompañamiento + Bebida — $17.990
-- Pollo curry + Bebida — $15.990
 
 #### Keto
 
@@ -8247,14 +6139,10 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=3580479391265971856
 - **Menciona en reseñas:** torta, pastel, galleta, dulces
 - **Fecha de registro:** 2026-02-15
-- **Dietético:** 1 sin lactosa
 
 ### Qué vende
 
 - Featured items
-- Save on Select Items
-- Cafeteria
-- Bebestibles
 - Panadería
 - Pasteleria
 - Sandwiches
@@ -8274,47 +6162,11 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Banoffee con azúcar — $5.500
 - Pie de limón con azúcar — $5.500
 - Galleta red velvet rellena — $4.100
-- Latte vainilla — $5.400
 - galleton chip chocolate sin azucar — $4.600 [sin azúcar]
 - Milhojas manjar nuez — $7.400
 - Galleta rellena manjar con azúcar — $4.100
 - Carrot cake con azúcar — $7.400
 - SIMPLY WAFFLE — $7.120
-
-#### Save on Select Items
-
-- Latte — $4.160
-
-#### Cafeteria
-
-- Cappuccino — $4.900
-- Mochaccino — $5.100
-- Latte Pumpkin — $5.400
-- Latte avellana — $5.400
-- Latte chocolate — $5.400
-- Flat white — $4.400
-- Latte canela — $5.400
-- Latte jengibre — $5.400
-- Extra leche sin lactosa — $600 [sin lactosa]
-- Hot chocolate — $6.500
-- Hot chocolate canela — $7.000
-- Americano — $3.900
-- Matcha latte — $5.200
-- Chai latte — $5.200
-- Noel christmas tea — $4.000
-- Red fruits tea — $4.000
-- Mint moca latte — $5.400
-- English breakfast tea — $4.000
-- Wonderland chai tea — $4.000
-
-#### Bebestibles
-
-- Coca cola sabor Original — $3.000
-- Coca cola Sin Azucar — $3.000 [sin azúcar]
-- Agua vital sin gas — $3.000
-- Agua vital con gas — $3.000
-- fanta — $3.000
-- sprite — $3.000
 
 #### Panadería
 
@@ -8350,82 +6202,30 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 ### Qué vende
 
 - RECOMENDADOS
-- CAFÉ FILTRADO
 - LO CLÁSICO
 - HAZ TU BEBIDA ÚNICA
-- RECOMENDADOS FRÍOS
-- FRAPPÉ
 - CON PROTEÍNA
-- MATCHA & JUGOS
-- HAZLO A TU GUSTO
 
 
 ### Carta
 
 #### RECOMENDADOS
 
-- Cappuccino Creme Brulee 200ml — $4.500
-- Latte Nutella & Pistacho 300ml — $4.950
 - Chocomani 300ml — $4.700
-- Golden Milk 300ml / 500ml — $3.750
-- Matcha Latte 300ml / 500ml — $3.750
-- Chai Latte 300ml / 500ml — $3.750
-
-#### CAFÉ FILTRADO
-
-- Método — $4.500
 
 #### LO CLÁSICO
 
-- Espresso doble — $2.400
 - Americano — $2.900
-- Flatwhite / Cortado — $3.150
-- Cappuccino — $3.400
-- Latte — $3.700
 - Mocca — $4.500
-- Chocolate Caliente — $3.750
 
 #### HAZ TU BEBIDA ÚNICA
 
-- Quiero mi café descafeinado — $600
 - Agrega Crema — $700
-
-#### RECOMENDADOS FRÍOS
-
-- Iced Latte — $4.250
-- Summer Espresso Maracuyá — $4.700
-- Icecream Espresso — $5.900
-- Cold Brew — $3.950
-- Espresso Lichi — $4.500
-- Orange Americano — $4.250
-- Espresso Tonic — $4.500
-- Iced Americano — $3.500
-
-#### FRAPPÉ
-
-- Frappé Clásico — $5.500
-- Frappé de Chocolate — $5.500
-- Pink Love — $5.750
 
 #### CON PROTEÍNA
 
 - Protein Fit — $5.750
 - Proffee — $6.250
-- Agua — $1.500
-- Coca-Cola — $1.800
-
-#### MATCHA & JUGOS
-
-- Iced Matcha Latte — $4.250
-- Iced Matcha & Mango ó Frutilla — $4.500
-- Icecream Matcha — $5.950
-- Iced Matcha Lichi — $4.250
-- Jugos Frutilla / Mango — $3.900
-- Jugo Tropical Mix — $4.200
-
-#### HAZLO A TU GUSTO
-
-- Leche vegetal — $700
 
 
 ## Magnolia
@@ -8440,8 +6240,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - Menú de Niños
 - Postres
-- Bebidas
-- Cervezas
 - Especialidades
 - Sugerencias del Chef
 
@@ -8461,20 +6259,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - La Gula de Magnolia — $4.300
 - Panqueques Celestino — $3.600
 - Postre sin azúcar y bajas calorías — $3.600 [sin azúcar]
-
-#### Bebidas
-
-- Agua Mineral — $1.500
-- Jugos Naturales — $1.800
-
-#### Cervezas
-
-- Voll - Damn — $3.000
-- Estrella — $3.000
-- Atrapaniebla — $3.000
-- Cactus — $3.000
-- Miller — $3.000
-- Kross — $3.000
 
 #### Especialidades
 
@@ -8633,7 +6417,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.mercaditosyn.cl/
 - **Menciona en su web:** chocolate, jugo
 - **Fecha de registro:** 2026-04-23
-- **Dietético:** 110 platos sin gluten, 14 veganos, 8 sin lactosa
+- **Dietético:** 87 platos sin gluten, 13 veganos, 7 sin lactosa
 
 ### Qué vende
 
@@ -8645,7 +6429,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 #### Sin gluten
 
-- Cafe Beanies Peanut Buter 50 gramos — $7.490 [sin gluten]
 - Mantequilla de almendras Smutter — $7.980 [sin gluten]
 - Wania Papas Nativas — $3.290 [sin gluten, vegano]
 - Papas hilo Wania — $6.490 [sin gluten]
@@ -8669,10 +6452,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Polvo de hornear MOR — $2.590 [sin gluten, vegano]
 - Pipoka Natural de Amaranto — $4.490 [sin gluten]
 - Pipoca Miel de Amaranto — $5.980 [sin gluten]
-- Té negro Ceylán Manzana Canela — $2.390 [sin gluten]
-- Té Negro Ceylán Canela — $2.390 [sin gluten]
-- Té Negro Ceylán Frutos Rojos — $2.390 [sin gluten]
-- Te Ceylán Negro — $2.390 [sin gluten]
 - Premezcla empanadas My Foods — $6.890 [sin gluten, vegano]
 - Premezcla Brownie — $5.390 [sin gluten, vegano]
 - Semillas de Linaza — $3.190 [sin gluten]
@@ -8688,9 +6467,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Mani salado My gluten Free 250 gramos — $2.590 [sin gluten]
 - Mani salado My gluten Free 90 gramos — $1.590 [sin gluten]
 - Keto Choc Ambrosia — $7.290 [sin gluten]
-- Jugo en polvo sabor Naranja Turbo plus — $3.790 [sin gluten]
-- Jugo en polvo sabor frutilla Turbo plus — $3.790 [sin gluten]
-- Jugo en polvo sabor berries Turbo — $3.890 [sin azúcar, sin gluten]
 - Gelatina en polvo sin sabor Turbo — $1.390 [sin gluten]
 - Gelatina de Piña sin azúcar Turbo — $1.190 [sin azúcar, sin gluten]
 - Gelatina sabor Naranja sin azúcar Turbo — $1.190 [sin azúcar, sin gluten]
@@ -8699,10 +6475,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Fusilli (Espirales) schard 250 gramos — $2.980 [sin gluten]
 - Flan de frutilla sin azúcar Turbo — $1.190 [sin azúcar, sin gluten]
 - Flan de vainilla sin azúcar Turbo — $1.190 [sin azúcar, sin gluten]
-- Chocolate de Leche sin azúcar añadida Georgalos — $2.390 [sin azúcar, sin gluten]
 - Chocolate Dubai Beanies — $7.490 [sin gluten]
 - Cabello de Angel Schard 250 gramos — $5.690 [sin gluten]
-- Café Orgánico Naturgreen Liofilizado 100 gramos — $8.980 [sin gluten]
 - Avena Integral May Gluten Free — $4.900 [sin gluten]
 - Almidón de Maíz My gluten free — $2.390 [sin gluten]
 - Aceite de Oliva VDR 1 litro — $10.790 [sin gluten]
@@ -8711,7 +6485,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Harina de Avena Nutrisa 400 grms — $3.290 [sin gluten]
 - Premezcla pan Casero My Foods — $9.980 [sin gluten]
 - Mezcla lista Repostería 1 kilo — $6.390 [sin gluten]
-- Jugo Turbo Zero Berries — $3.690 [sin gluten]
 - Premezcla Pan Integral Ambrosia — $5.890 [sin gluten]
 - Polvo de hornear Ambrosia — $2.890 [sin gluten]
 - Caja Beanies con 40 sachets — $17.890 [sin gluten]
@@ -8719,12 +6492,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Salsa de Soya Premium Japón — $3.890 [sin gluten]
 - Salsa Teriyaki Japón — $4.690 [sin gluten]
 - Pipoca Cereal de Quinoa natural Ambrosia — $3.490 [sin gluten]
-- Te Earl Grey Taylors — $6.890 [sin gluten]
-- Te Limon Naranja Taylors — $6.890 [sin gluten]
 - Avena Integral Mi Tierra — $2.890 [sin gluten]
 - Vinagre de Manzana orgánico Koe — $6.390 [sin gluten]
-- Jugo en Polvo sabor Naranja Turbo — $3.890 [sin gluten]
-- Cafe Variety Pack Beanies — $5.390 [sin gluten]
 - Harina de Avena Integral Ambrosia — $6.290 [sin gluten]
 - Lentejas Baby Ambrosia — $3.990 [sin gluten]
 - Garbanzo Partido Ambrosia — $3.890 [sin gluten]
@@ -8738,18 +6507,10 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Aji de color El Pueblo — $1.890 [sin gluten]
 - Pimienta negra molida El Pueblo — $2.490 [sin gluten]
 - Oregano seco el Pueblo — $2.190 [sin gluten]
-- Cafe saborizado Creamy Caramel — $7.490 [sin gluten]
-- Cafe saborizado Cookies & Cream — $7.490 [sin gluten]
-- Cafe Beanies Saborizado Iris cream — $7.490 [sin gluten]
 - Premezcla para brawnie vegano marca ambrosia — $5.980 [sin gluten, sin lactosa, vegano]
 - Cefe Beanies saborizado Vainilla — $7.490 [sin gluten, sin lactosa, vegano]
-- Café Beanies saborizado sabor Amaretto — $7.490 [sin gluten, sin lactosa, vegano]
 - Müsli Multi Semillas 400 g — $6.390 [sin gluten]
 - Bolitas de Quinua, Maíz y Chocolate — $2.890 [sin gluten]
-- Taylors, Green Tea Strawberry & Vanilla 20 Bolsitas — $6.980 [sin gluten]
-- Chocolate de leche con almendras, sin azúcar añadida — $2.390 [sin azúcar, sin gluten]
-- Cafe saborizado Chocolate Brownie — $7.490 [sin gluten]
-- Cafe saborizado Menta chocolate — $7.490 [sin gluten]
 - Aceite de Oliva VDR, 500 c.c — $7.980 [sin gluten]
 
 #### Keto
@@ -8960,8 +6721,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Vegetariano
 - Menú Niños
 - Postres
-- Bebidas
-- Cervezas
 - Chang's for me Bowls
 - Promo Sushi
 - Family Meals
@@ -9054,21 +6813,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Banana Spring Rolls — $7.500
 - Great Wall of Chocolate – Individual — $7.900
 
-#### Bebidas
-
-- Agua mineral sin gas — $2.800
-- Pepsi Lata — $2.800
-- Pepsi Zero Lata — $2.800
-- Crush Lata — $2.800
-- Ginger Ale Lata — $2.800
-- Ginger Ale Zero Lata — $2.800
-
-#### Cervezas
-
-- Cerveza Corona — $3.200
-- Cerveza Heineken — $3.200
-- Cerveza Stella — $3.200
-
 #### Chang's for me Bowls
 
 - Beef & Broccoli Bowl — $18.200
@@ -9105,7 +6849,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - Pizzas SIN GLUTEN
 - Pan masa madre
-- Bebidas
 
 
 ### Carta
@@ -9125,11 +6868,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Pan de Masa Madre Blanco 1kg — $9.000 [sin gluten]
 - Pan de Masa Madre Sarraceno Amarant 1kg — $9.000
 - Pan de Masa Madre Multigrano 1kg — $9.000 [sin gluten]
-
-#### Bebidas
-
-- Kombucha — $3.300
-- Shot de Kombucha — $2.500
 
 
 ## Panart®
@@ -9191,7 +6929,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** panqueque, torta, pastel, galleta, brownie, chocolate, postre
 - **Menciona en reseñas:** pastel, brownie
 - **Fecha de registro:** 2025-11-05
-- **Dietético:** 3 platos sin gluten
+- **Dietético:** 2 platos sin gluten
 
 ### Qué vende
 
@@ -9213,7 +6951,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Kuchen de Ciruelas — $3.300
 - Streusel de Arándanos — $3.300
 - Sin gluten Sin azúcar — $3.800 [sin azúcar, sin gluten]
-- Sin Leche Sin Azúcar y Sin Gluten — $3.800 [sin azúcar, sin gluten]
 - Sin gluten Sin azúcar sin lácteos — $3.800 [sin azúcar, sin gluten]
 
 #### Tortas alemanas
@@ -9226,7 +6963,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 #### Tortas de panqueques
 
-- Chocolate Manjar Café — $39.500
 - Naranja Mazapán — $39.500
 - Naranja Manjar — $39.500
 - Manjar Nuez — $39.500
@@ -9399,7 +7135,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Torta en Trozos
 - Tortas Enteras
 - Pan Keto
-- Bebidas
 
 
 ### Carta
@@ -9448,11 +7183,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - Pan Keto — $11.000 [sin gluten]
 
-#### Bebidas
-
-- Té Tradicional 350 ml — $1.800
-- Café Nescafé Tradicional 350 ml — $1.900
-
 
 ## Patagonia Schokoland
 - **Ubicación:** Av. Francisco Bilbao 2512, 7550170 Providencia, Región Metropolitana
@@ -9486,7 +7216,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Pistacho chocolate blanco 473 ml — $9.000
 - Cuchufli bitter 473 ml — $8.500
 - Torta berries 473 ml — $8.500
-- Trufa whisky 473 ml — $8.500
 - Alfajor frambuesa 473 ml — $8.500
 - Limón Rica Rica 473 ml — $8.000
 
@@ -9498,7 +7227,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 #### Helados Clásicos
 
 - Chirimoya Alegre — $8.000
-- Chocolate leche 32% cacao — $8.500
 - Chocolate bitter 60% cacao 473 ml — $8.500
 - Dulce de leche 473 ml — $8.500
 - Berries patagonia 473 ml — $8.000
@@ -9521,19 +7249,15 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Cuchuflí bitter x 3 — $2.500
 - Cuchufli blanco x 3 — $2.500
 - Cuchuflí bitter sin azúcar x 3 — $2.500 [sin azúcar]
-- Submarino Tradicional Leche — $3.000
 - Caja Pajarito Fiu Sin Azúcar — $10.500 [sin azúcar]
-- Submarino Sin Azúcar Leche — $3.000 [sin azúcar]
 - Submarino Tradicional Blanco — $3.000
 - 382 - Rollo de mazapán 90 gr (vegano sin lactosa) Entrelagos — $4.000 [sin lactosa, vegano]
 - Alfajor Manjar Sin Azucar — $2.500 [sin azúcar]
-- Café Kawas molido 250g — $12.000
 - Caja 9 bombones 92 g — $7.000
 - Rollo mazapán con chocolate 105 g — $4.000
 
 #### Sin Azúcar
 
-- Chocolate leche 473 ml — $9.000 [sin azúcar]
 - Frambuesa Sin Azúcar 473 ml — $9.000 [sin azúcar]
 - Yogurt arándanos Sin Azúcar 473 ml — $9.000 [sin azúcar]
 
@@ -9548,12 +7272,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 ### Qué vende
 
-- Café
 - Café con Leche
-- Té
-- Chocolate Caliente
-- Bebidas y Jugos
-- Café, Té y Chocolate
 - Bollería
 - Pastelería
 - Salados
@@ -9561,86 +7280,9 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 ### Carta
 
-#### Café
-
-- Espresso / Ristretto / Lungo — $2.500
-- Espresso Doble — $3.000
-- Americano — $2.900
-- Americano Doble — $3.400
-- Shot de espresso adicional — $900
-
 #### Café con Leche
 
-- Machiatto — $2.900
-- Capuccino (Frío o Caliente) — $3.500
-- Capuccino Doble — $4.000
-- Latte (Frío o caliente) — $4.000
-- Latte Doble (Frío o caliente) — $4.500
-- Mockaccino (Frío o caliente) — $4.500
-- Mocka Blanco (Frío o caliente) — $4.800
-- Mocka Menta (Frío o caliente) — $4.800
-- Banana Cream (Frío o caliente) — $4.700
-- Café Helado — $6.500
-- Dirty Chai — $4.500
-- Tazón de Leche — $3.000
-- Syrup Adicional — $700
-- Leche Vegetal Adicional — $700
 - Porción de Crema Adicional — $700
-
-#### Té
-
-- Tazón de Té — $3.000
-- Té con Leche — $3.500
-- Chai Latte / Golden Milk — $4.900
-- Matcha Latte — $4.900
-- Iced Tea — $4.900
-
-#### Chocolate Caliente
-
-- Chocolate Caliente — $4.900
-- Chocolate Caliente Marsmallows — $5.300
-- Chocolate Caliente Menta — $5.500
-- Chocolate Caliente de Antaño — $5.500
-
-#### Bebidas y Jugos
-
-- Gaseosa — $2.500
-- Agua Tónica / Ginger Beer — $3.500
-- Agua Mineral — $2.000
-- Jugo Natural — $4.900
-- Limonada Sola — $4.500
-- Limonada con Sabor — $5.200
-- Limonada Menta Jengibre — $5.200
-- Vitamina Naranja — $5.600
-- Smoothie — $5.500
-
-#### Café, Té y Chocolate
-
-- Espresso Caliente — $2.490
-- Americano (240 cc) Caliente — $2.990
-- Americano (240 cc) Frío — $2.990
-- Capuccino (360 cc) Caliente — $3.890
-- Capuccino (360 cc) Frío — $3.890
-- Capuccino con sabor Caliente — $4.490
-- Capuccino con sabor Frío — $4.490
-- Latte (480 cc) Caliente — $4.490
-- Latte (480 cc) Frío — $4.490
-- Latte con Sabor Caliente — $4.890
-- Latte con Sabor Frío — $4.890
-- Mockaccino (360 cc) Caliente — $4.490
-- Mockaccino (360 cc) Frío — $4.490
-- Mocka Blanco Caliente — $4.490
-- Mocka Blanco Frío — $4.490
-- Affogato Caliente — $4.990
-- Café Helado Frío — $5.490
-- Tazón de Té Caliente — $2.990
-- Chai Latte Caliente — $4.290
-- Chai Latte Frío — $4.290
-- Ice Tea Frío — $4.490
-- Chocolate Caliente — $4.490
-- Chocolate Frío — $4.490
-- Signature del mes Caliente — $4.990
-- Signature del mes Frío — $4.990
 
 #### Bollería
 
@@ -9766,7 +7408,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** pizza
 - **Menciona en reseñas:** pizza, empanada, carne, mechada
 - **Fecha de registro:** 2025-10-02
-- **Dietético:** 29 platos sin gluten, 19 veganos
+- **Dietético:** 28 platos sin gluten, 18 veganos
 
 ### Qué vende
 
@@ -9777,7 +7419,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 #### Pizzas
 
-- Margarita — $15.900 [sin gluten, vegano]
 - Arma tu Pizza — $18.900 [sin gluten, vegano]
 - Pepperoni — $12.900 [sin gluten]
 - Brooklyn — $15.900 [sin gluten, vegano]
@@ -9822,8 +7463,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - Helados
 - Postres Helados
-- Café Especialidad
-- Bebidas
 - Repostería
 
 
@@ -9844,25 +7483,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - Brownie con Helado — $5.500
 - Galletón con Helado — $4.700
-
-#### Café Especialidad
-
-- Americano — $2.100
-- Capuccino — $2.500
-- Latte — $3.200
-- Cortado — $2.300
-- Espresso — $1.900
-- Espresso Doble — $2.700
-- Affogato — $3.900
-- Café con Helado Premium
-- Café con Helado
-
-#### Bebidas
-
-- Kombucha 350cc — $2.700
-- Agua con Gas — $2.500
-- Agua sin Gas — $2.500
-- Agua de Coco — $3.000
 
 #### Repostería
 
@@ -9943,7 +7563,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Esencia pan de pascua — $6.010
 - Turbo zero manzana — $370
 - Turbo zero frutilla — $370
-- Turbo zero pera al agua — $370
 - Turbo zero durazno — $370
 - Turbo zero berries — $370
 - Turbo plus Mango — $340
@@ -9956,8 +7575,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Cobertura Neucober 60% — $30.820
 - Cilindro de manjar — $2.100
 - Pelotitas dulce de leche — $4.100
-- Caluga de leche nuez — $1.310
-- Caluga de leche — $1.230
 - Gelatina Turbo Limón — $550
 - Flan Turbo Vainilla — $530
 - Flan Turbo Frutilla — $530
@@ -9982,7 +7599,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - LEVADURA SECA 500 GRS — $2.800
 - Coco rallado 200grs — $2.650
-- Té Ceylán — $2.740
 - Cobertura De Chocolate — $7.690
 - Mostacillas 100 grs (1 paquete) — $1.200
 - Gelatina En Polvo — $2.630
@@ -10171,8 +7787,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - ENSALADAS
 - ENTRADAS
 - DE FONDO
-- PARA TOMAR
-- CAFETERÍA
 - POSTRES
 
 
@@ -10220,27 +7834,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - GNOCCHI DE ZAPALLO — $12.990
 - BURRITOS — $11.590
 - LASAÑA DE BERENJENAS (Keto) — $11.590
-
-#### PARA TOMAR
-
-- JUGOS NATURALES — $3.690
-- LIMONADA CON MENTA — $3.690
-- JUGO DE POMELO — $3.990
-- AGUA PRISMA — $2.690
-- CERVEZA SIN ALCOHOL — $3.590
-- BOATVIAN GINGER BEER — $3.590
-- KOMBUCHA — $4.190
-- JUGO DETOX (prensado en frío) — $4.590
-- LASSI DE MANGO — $4.590
-
-#### CAFETERÍA
-
-- ESPRESSO — $2.590
-- CAPUCCINO — $3.390
-- LATTE — $3.690
-- AFFOGATO — $4.790
-- INFUSIONES / TÉ ORGÁNICO — $2.990
-- LECHE DE ALMENDRAS / AVENA — $750
 
 #### POSTRES
 
@@ -10290,7 +7883,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 #### Cheesecakes
 
 - Cheescake Chocolate
-- Cheesecake Capuccino
 - Cheesecake Frutos del bosque
 - Cheesecake Manjar y frambuesas
 - Cheesecake Nutella
@@ -10363,31 +7955,19 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - QUESADILLA VEGETARIANA
 - TACO CARNECITA
 - TACO DE POLLITO
-- KOMBUCHA  LA CELESTE
-- KOMBUCHA PNONBUCHA
-- KOMBUCHA KOBUSHOT
 - GINGER DE JEGIBRE CON KEFI
-- APEROL SPRITZ
 - BURBUJAS DE GIN SIN ALCOHOL
 - CAIPIRIÑA
 - CAIPIROSKA
 - DAIQUIRI SABORES
-- GIN TONIC
-- MOJITO CON Y SIN ALCOHOL
 - MOSCO MULE
 - PIÑA COLADA
-- PISCO SOUR CON Y SIN ALCOHOL
-- PISCO SOUR CATEDRAL
 - PISCOLA CON Y  SIN ALCOHOL
-- RAMAZZOTTI SPRITZ  CON Y SIN ALCOHOL
-- TEQUILA MARGARITA CON Y  SIN ALCOHOL
 - TINTO DE VERANO
 - TROPICAL GIN
 - SEXO EN LA PLAYA
 - PALOMA
 - FRESCO Y EXOTICO
-- COCTEL DURAZNO Y ARANDANO
-- CERVEZA MAHOU 5 ESTRELLAS 330CC
 - DAMM FREE 330 CC
 - CRISTAL SUAVE
 - ESTERLLA GALICIA ZERO
@@ -10395,21 +7975,11 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - ROYAL ZERO 330 CC
 - HEINEKEN ZERO
 - ESTELLA GALICIA ZERO
-- CERVEZA CRISTAL SIN ALCOHOL
 - ROYAL GARD 330 CC CON ALCOHOL
 - HEINEKEN CON ALCOHOL
 - CARIBE AMBAR
 - SUSMARINO
 - MONACO
-- JUGO FRUTILLAS
-- JUGO DE MARACUYA
-- JUGO DE MANGO
-- JUGO DE FRAMBUEZA
-- COCA COLA TRADICIONAL
-- COCA COLA SIN AZUCAR [sin azúcar]
-- FANTA
-- SPRITE
-- TONICA
 - pizza
 - tacos
 - empanada
@@ -10421,7 +7991,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - quesadilla
 - mechada
 - chorrillana
-- jugo
 
 
 ## Restaurant La Escalera
@@ -10433,17 +8002,15 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** pasta, lasaña, curry, pollo, carne, ensalada, panqueque, paella, mechada, torta, helado, chocolate, tiramisú, manjar, postre, dulces, jugo
 - **Menciona en reseñas:** pasta, lasaña, paella
 - **Fecha de registro:** 2026-02-15
-- **Dietético:** 5 platos sin gluten, 1 sin lactosa
+- **Dietético:** 4 platos sin gluten
 
 ### Qué vende
 
 - PLATOS
 - Cumplimos 15 años con ustedes !!
 - ANTIPASTO
-- JUGOS NATURALES
 - Postres Tradicionales
 - Postres Sin Azúcar, Sin Gluten y Keto
-- BEBIDAS Y AGUAS
 
 
 ### Carta
@@ -10479,14 +8046,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - POLPETTE POMODORO — $23.990
 - POLPETTE D'ANGELO — $23.990
 
-#### JUGOS NATURALES
-
-- PIÑA /FRUTILLA — $4.990
-- LIMONADA/JENGIBRE — $4.990
-- LIMONADA/FRUTILLA — $4.990
-- PIÑA O FRUTILLA — $4.990
-- PIÑA / COCO — $4.990
-
 #### Postres Tradicionales
 
 - COPA DE HELADO LA ESCALERA — $6.990
@@ -10498,14 +8057,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - TIRAMISÚ — $7.990 [sin azúcar, sin gluten]
 - TORTA DEL DÍA — $7.990 [sin azúcar, sin gluten]
 - PANQUEQUE RELLENO — $7.990 [sin azúcar, sin gluten]
-
-#### BEBIDAS Y AGUAS
-
-- BEBIDAS Y AGUAS — $2.990
-- CAFÉ EXPESO — $3.500
-- TÉ O INFUSIÓN — $2.990
-- EXTRA QUESO — $1.500
-- EXTRA — $2.500 [sin gluten, sin lactosa]
 
 
 ## Restaurante Roof Burger
@@ -10876,7 +8427,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - CARCIOFONA — $13.990
 - PARMIGIANA — $13.990
 - AFFUMICATA — $14.990
-- FAKE CAPPUCCINO — $14.990
 - PECORINA — $13.990
 
 #### DOLCI
@@ -10988,9 +8538,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - ACEITE DE COCO ORGÁNICO 200 ML - CATEDRAL — $5.490
 - ACEITE DE OLIVA DE ROSSETTI 500 ML - CATEDRAL — $6.990
 - AGAR - AGAR 25GR POSITIV - CATEDRAL — $3.390
-- AGUA CON GAS BENEDICTINO 500ML - CATEDRAL — $950
-- AGUA DE COCO 100% NATURAL NATURES CHARM 520ML - CATEDRAL — $2.300
-- AGUA SIN GAS BENEDICTINO 500ML - CATEDRAL — $950
 - AJO PURO - CATEDRAL — $2.490
 - ALBAHACA - CATEDRAL — $2.190
 - ALFAJOR CHOCOLATE FRAMBUESA NUTRISA BOLSA X 5 UN - CATEDRAL — $4.390
@@ -11006,8 +8553,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - ALMIDÓN DE MAÍZ 1KG - CATEDRAL — $3.490
 - ALMIDÓN DE MAÍZ 500GRS - CATEDRAL — $2.290
 - ALUSWEET ALULOSA GOTAS 270 ML - CATEDRAL — $4.690
-- AMA JUGO MANZANA ARANDANO ORGÁNICO 200 ML - CATEDRAL — $990
-- AMA JUGO MANZANA DURAZNO ORGÁNICO 200 ML - CATEDRAL — $990
 - ARANDANO FRUTOS DEL MAIPO 400 GR - CATEDRAL — $4.190
 - ARROZ BASMATI LA PORUÑA 1KILO - CATEDRAL — $3.990
 - ARVEJA EN GRANO 550 G - CATEDRAL — $1.990
@@ -11037,12 +8582,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - BARRITA ENERGÉTICA XL CLÁSICA - CATEDRAL — $2.290
 - BARRITA MANI TIKKIFOODS — $1.400
 - BASMATI PANSARI 1 KG - CATEDRAL — $2.990
-- BEBIDA ISOTÓNICA ISOPRO BLUE 500 ML - CATEDRAL — $2.690
-- BEBIDA ISOTÓNICA ISOPRO PINK 500 ML - CATEDRAL — $2.690
-- BEBIDA ISOTÓNICA ISOPRO RED 500 ML - CATEDRAL — $2.690
-- BEBIDA VEGETAL TASTY ALMENDRA COCO ORIGINAL 1L - CATEDRAL — $1.990
-- BEBIDA VEGETAL TASTY ALMENDRA ORIGINAL 1L - CATEDRAL — $1.990
-- BEBIDA VEGETAL TASTY COCO ORIGINAL 1L - CATEDRAL — $1.990
 - BINATUR CHIA FRUTILLA 290 ML - CATEDRAL — $1.500
 - BINATUR CHIA KIWI 290 ML - CATEDRAL — $1.500
 - BINATUR CHIA MANGO 290 ML - CATEDRAL — $1.500
@@ -11063,15 +8602,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - BUKA MERMELADA PIMENTON 160GR- CATEDRAL — $2.890
 - BUKA PESTO ROSSO 130 GRS - CATEDRAL — $2.100
 - CACAO AMARGO 250GR POSITIV — $4.390
-- CAFÉ EN LINEA CAPUCCINO 104G - CATEDRAL — $3.150
-- CAFÉ EN LINEA MOKKA 104G - CATEDRAL — $3.150
-- CAFÉ EN LINEA VAINILLA 104G - CATEDRAL — $3.150
-- CAFÉ MOLIDO AMERICANO CREMA 250GR - CATEDRAL — $7.890
-- CAFÉ MOLIDO ESPRESSO DI MILANO 250GR - CATEDRAL — $7.890
-- CAFE NATURAL SABOR ARANDANO 100GR - CATEDRAL — $6.990
-- CAFE NATURAL SABOR AVELLANA CHILENA 100G ARTESANAL- CATEDRAL — $6.990
-- CAFE NATURAL SABOR HIGO 100G ARTESANAL - CATEDRAL — $6.990
-- CAFE NATURAL SABOR MAQUI 100G ARTESANAL- CATEDRAL — $6.990
 - CALLAMPAS 50GRS POSITIV - CATEDRAL — $2.900
 - CANELA ENTERA EN RAMA 50G POSITIV — $2.990
 - CANELA MOLIDA - CATEDRAL — $2.490
@@ -11223,40 +8753,24 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - HUMMUS & OLIVA RED SPOON 100 G - CATEDRAL — $1.000
 - HUMMUS & TAHINI RED SPOON 100 G - CATEDRAL — $1.000
 - IKKA ARROZ BASMATI 1KG - CATEDRAL — $3.490
-- INFUSIÓN FRUTAL RIPE RASPBERRY GREENFIELD - CATEDRAL — $3.490
-- INFUSIÓN HERBAL WILDBERRY ROOIBOS GREENFIELD - CATEDRAL — $3.490
 - JAMON AHUMADO VEGUSTA - CATEDRAL — $3.200
 - JENGIBRE - CATEDRAL — $2.490
 - JENGIBRE DESHIDRATADO EN LONJAS 50GRS — $2.590
 - JENGIBRE MOLIDO 50GR POSITIV - CATEDRAL — $2.400
-- JUGO AFE DURAZNO 300 CC - CATEDRAL — $1.890
-- JUGO AFE KIWI MANZANA 1000 CC - CATEDRAL — $4.590
-- JUGO AFE MANZANA CEREZA 300 CC - CATEDRAL — $2.190
-- JUGO AFE UVA 300 CC - CATEDRAL — $2.090
-- JUGO PRENSADO BLESS 09 LIMON MANZANA JENGIBRE 300ML-CATEDRAL — $2.300
-- JUGO PRENSADO BLESS 14 NARANJA 300ML - CATEDRAL — $2.300
 - KIWI EN LONJA 100GR - CATEDRAL — $1.200
 - KNAX PEPINILLO HENGSTENBERG SIN GLUTEN 370 ML - CATEDRAL — $3.200 [sin gluten]
 - KOE CREMA DE COCO 400ML - CATEDRAL — $4.200
 - KOE PASTA DE MANÍ NATURAL 100% 500 G - CATEDRAL — $4.290
 - KOE VINAGRE DE MANZANA CON MIEL ORGÁNICO 500 ML - CATEDRAL — $6.490
 - KOE VINAGRE DE MANZANA ORGÁNICO 1 LT - CATEDRAL — $8.390
-- KOMBUCHA MANZANA JENGIBRE 330CC DR KOMBU - CATEDRAL — $2.490
 - KOMBUCHAS
 - LAUREL 10GRS POSITIV - CATEDRAL — $1.990
-- LECHE COLUN CHOCOLATE ORIGINAL 200 ML x 6 — $3.550
 - LENTEJAS 6MM 100 GR - CATEDRAL — $280
 - LENTEJAS 6MM 100gr -CATEDRAL — $280
 - LENTEJAS AL CURRY - CATEDRAL — $3.500
 - LINAZA ENTERA 250GR POSITIV - CATEDRAL — $1.590
 - LINAZA ENTERA 500GR POSITIV - CATEDRAL — $2.690
 - LINAZA MOLIDA 500GR POSITIV - CATEDRAL — $2.750
-- LOVE LEMON LIMONADA BLUE 385 CC - CATEDRAL — $1.600
-- LOVE LEMON LIMONADA LIGHT 385 CC - CATEDRAL — $1.600
-- LOVE LEMON LIMONADA MENTA JENGIBRE 385 CC - CATEDRAL — $1.600
-- LOVE LEMON LIMONADA NARANJA ORIGINAL 385CC - CATEDRAL — $1.600
-- LOVE LEMON LIMONADA ORIGINAL 385 CC - CATEDRAL — $1.600
-- LOVE LEMON LIMONADA PINK 385 CC - CATEDRAL — $1.600
 - LOVE LEMON ORIGINAL BOMBILLÍN 200 ML - CATEDRAL — $850
 - LOVE LEMON PINK BOMBILLÍN 200 ML - CATEDRAL — $850
 - LOVE WATER COCO Y PIÑA 550 ML - CATEDRAL — $1.600
@@ -11292,8 +8806,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - MIX PIMENTONES 150 G - CATEDRAL — $1.250
 - MIX REPOSTERO 3 HARINAS DILICI 700 GR - CATEDRAL — $5.650
 - MIZOS CEREAL FRUTILLA 280 G - CATEDRAL — $3.990
-- NATUR GREEN CAFÉ DESCAFEINADO ORGÁNICO 100 G - CATEDRAL — $9.990
-- NATUR GREEN CAFÉ INSTANTANEO LIOFILIZADO 100 G - CATEDRAL — $9.990
 - NUEZ MARIPOSA 100 GR - CATEDRAL — $1.600
 - NUTRISA HALLULLA 320 G - CATEDRAL — $4.350
 - NUTRISA MOLDE INTEGRAL 480 G - CATEDRAL — $5.890
@@ -11336,7 +8848,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - PREPARADO PANIFICABLE NO+GLUTEN 700 g - CATEDRAL — $6.890
 - Prepizza No+Gluten 275 g - CATEDRAL — $2.990
 - PROTEIN BALLS ALMENDRA - CATEDRAL — $2.050
-- PROTEIN BALLS CAFÉ - CATEDRAL — $2.050
 - PROTEÍNA VEGETAL DE SOYA FINA (NO TRANSGÉNICA) 500GR POSITIV — $2.990
 - PUFFS KUNA FOODS FRUTILLA BETARRAGA 10 G - CATEDRAL — $990
 - PUFFS KUNA FOODS FRUTILLA BETARRAGA 50 G - CATEDRAL — $3.590
@@ -11372,7 +8883,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - ROSAMONTE YERBA MATE ESPECIAL 500G - CATEDRAL — $3.990
 - SAL DE MAR 1KG POSITIV - CATEDRAL — $1.990
 - SAL DE MAR 500G POSITIV - CATEDRAL — $1.200
-- SAL DE MAR AL VINO TINTO - CATEDRAL — $3.990
 - SAL DE MAR CON FINAS HIERBAS - CATEDRAL — $3.990
 - SAL DE MAR GRANULADA - CATEDRAL — $2.500
 - SAL DEL HIMALAYA - CATEDRAL — $3.990
@@ -11417,12 +8927,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - TASTY ALIMENTO LIQ.DE ALMENDRA SIN AZUCAR- SIN GLUTEN — $1.990 [sin azúcar, sin gluten]
 - TASTY COCO CHOCOLATE 1 LT - CATEDRAL — $1.990
 - TASTY SNAX CAMOTE MORADO 100GR — $3.550
-- TÉ CHAI 80G POSITIV - CATEDRAL — $4.490
-- TÉ MATCHA 100GR POSITIV - CATEDRAL — $8.990
-- Té Negro Greenfield Lemon Spark - CATEDRAL — $3.490
-- TE VERDE 100 GR - CATEDRAL — $1.100
-- TÉ VERDE JUICY MANGO GREENFIELD - CATEDRAL — $3.490
-- TÉ VERDE RICH LEMON GREENFIELD - CATEDRAL — $3.490
 - Términos y Condiciones
 - THAI WOK 500 G - CATEDRAL — $3.190
 - THE PILZEN IPA GHALI 490CC - CATEDRAL — $3.300
@@ -11472,25 +8976,19 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - WILD PROTEIN BAR PROTEINA CHOCOLATE NARANJA 45g 5U — $5.490
 - WILD PROTEIN BAR PROTEINA MOKKA 45g 5U DISPLAY - CATEDRAL — $5.490
 - WILD PROTEIN GRANOLA PROTEINA CRUNCHY 300G 1U - CATEDRAL — $5.590
-- WILD PROTEIN LECHE SHAKE & GO CAFE 310ML - CATEDRAL — $2.100
-- WILD PROTEIN LECHE SHAKE & GO VAINILLA 310ML - CATEDRAL — $2.100
 - WILD SOUL BAR REGULAR MANI 35g - CATEDRAL — $790
 - WILD SOUL BAR REGULAR MANZANA CANELA 35G - CATEDRAL — $790
 - WILD SOUL BAR REGULAR MAQUI CHIA 35G - CATEDRAL — $790
 - WILD SOUL BAR REGULAR SEMILLAS ANCESTRALES 35G - CATEDRAL — $790
 - YARI ENERGY DRINK STEVIA 250CC - CATEDRAL — $1.850
-- YARI YERBA MATE POWER TEA FRUTILLA LIMON 475 ML - CATEDRAL — $2.200
-- YARI YERBA MATE POWER TEA LIMON JENGIBRE 475 ML - CATEDRAL — $2.200
 - YOGHURT GRIEGO OIKOS NATURAL ENDULZADO 110GR — $600
 - YOGURT DE PAJARITO GHALI SABOR NATURAL 400 G - CATEDRAL — $4.400
-- AMA JUGO MANZANA MANGO ORGÁNICO 200 ML — $990
 - BARRA DE PROTEINA KETO PROTEIN CHOCOLATE & BERRIES 40G - CATEDRAL — $1.500
 - BARRA PROTEINA UNDERFIVE SABOR ALMENDRA DISPLAY 5 UNID 225 GRS - CATEDRAL — $6.690
 - BARRA PROTEINA UNDERFIVE SABOR CACAO DISPLAY 5 UNID 225 GRS - CATEDRAL — $6.690
 - BARRA PROTEINA UNDERFIVE SABOR CHOCO MANI DISPLAY 5 UNID 225 GRS - CATEDRAL — $6.690
 - BARRA PROTEINA UNDERFIVE SABOR COCO DISPLAY 5 UNID 225 GRS - CATEDRAL — $6.690
 - BARRA PROTEINA UNDERFIVE SABOR MANÍ/MIEL DISPLAY 5 UNID 225 GRS - CATEDRAL — $6.690
-- BEBIDA VEGETAL TASTY ALMENDRA VAINILLA ORIGINAL 1L - CATEDRAL — $1.990
 - ECOMIL CREMA DE ALMENDRA ORGÁNICA SIN AZÚCAR 200 ML - CATEDRAL — $2.390 [sin azúcar]
 - FRAMBUESA FRUTOS DEL MAIPO 250 GR — $4.190
 - GALLETA CHOCOLATE FRUTILLA 225 GRS - CATEDRAL — $2.350
@@ -11509,11 +9007,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - HELADO SAN FRANCISCO 0% AZÚCAR FRUTOS DEL BOSQUE 1 L — $6.990
 - HELADO YORK SIN GLUTEN AGUA SABORES - CATEDRAL — $500 [sin gluten]
 - JARABE DE DÁTILES AL BARAKAN DATES SIN GLUTEN 400 G - CATEDRAL — $2.990 [sin gluten]
-- JUGO PRENSADO BLESS 07 MARACUYÁ NARANJA PIÑA MANZANA 300ML - CATEDRAL — $2.300
-- JUGO PRENSADO BLESS 10 FRAMBUESA BETARRAGA ZANAHORIA MANZANA 300ML — $2.300
-- JUGO PRENSADO BLESS 45 PEPINO ESPIRULINA MANZANA PIÑA JENGIBRE LIMÓN 300ML- CATEDRAL — $2.300
-- LECHE COLUN CHOCOLATE ORIGINAL 200 ML — $700
-- LECHE SEMIDESC INST. 900 GR — $9.290
 - MANGO FRUTOS DEL MAIPO 400 GR — $4.190
 - MAYONESA VEGANA VEGUSTA 350 G — $3.190 [vegano]
 - MERMELADA DE HIGO SIN AZUCAR AÑADIDA- CORMILLOT DULCOR - 390GRS - CATEDRAL — $4.790 [sin azúcar]
@@ -11530,19 +9023,14 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - SMILEY KIDS COLADO ORGANICO ESENCIAL MANZANA ARANDANO GLUTEN FREE 90GR - CATEDRAL — $990 [sin gluten]
 - SMILEY KIDS COLADO ORGANICO ESENCIAL PERA PLATANO GLUTEN FREE 90GR - CATEDRAL — $990 [sin gluten]
 - SMILEY KIDS COLADO ORGANICO PERA PLATANO MANGO GLUTEN FREE 90GR - CATEDRAL — $990 [sin gluten]
-- TÉ NEGRO CARAMELO 20 BOLSAS TESS - CATEDRAL — $3.190
-- TÉ VERDE PIÑA COLADA 20 BOLSAS TESS - CATEDRAL — $3.190
 - TORTA EN VASO MANJAR CHOCOLATE KETO - CATEDRAL — $5.900
 - TORTITAS DE ARROZ INTEGRAL 100G SANTIVERI - CATEDRAL — $3.100
 - WANIA NATIVAS CHIPS CENTRIFUGADOS SIN GLUTEN 140 GRS - CATEDRAL — $3.200 [sin gluten]
-- YARI YERBA MATE POWER TEA FRAMBUESA MARACUYÁ 475 ML - CATEDRAL — $2.200
-- YARI YERBA MATE POWER TEA LIMONADA MATCHA 475 ML - CATEDRAL — $2.200
 - GALLETAS DE ARROZ INTEGRAL RICECRISPS SÉSAMO 100 G — $3.650
 - GALLETAS DE ARROZ MILK CHOCOLATE SIN GLUTEN KUPIEC 60G - CATEDRAL — $1.500 [sin gluten]
 - GALLETAS TIKA MINI RICEPOP CHOCOLATE AVELLANAS 22 G — $860
 - HELADO SAN FRANCISCO 0% AZÚCAR CAFÉ LATTE 1 L — $6.990
 - HELADO SAN FRANCISCO 0% AZÚCAR CHOCOLATE NUSS 1 L — $6.990
-- SET TÉ VERDE, NEGRO INFUSIONES TESS 60 BOLSAS- CATEDRAL — $12.990
 
 
 ## Sushi y Pasteleria Dos Polos
@@ -11557,7 +9045,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 ### Qué vende
 
 - Postres y dulces
-- Bebestibles
 - Promociones
 - Rolls de la casa
 - Rolls clásicos
@@ -11582,15 +9069,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - ECLAIR — $2.890
 - MINI HOJARASCA — $2.890
 - PROFITEROL RELLENO — $1.990
-
-#### Bebestibles
-
-- CAFÉ — $2.500
-- CAPUCCINO — $2.900
-- CAPUCCINO SABOR — $2.900
-- CHOCOLATE CALIENTE — $2.900
-- BEBIDAS — $2.300
-- JUGOS — $2.300
 
 #### Promociones
 
@@ -11695,9 +9173,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Croissant Jamón Queso Cachito Venezolano — $3.990
 - Sándwich de Ave Saludable — $4.490
 - > Americano — $2.790
-- ORIGEN ALTURA PROCESO NOTAS Latte — $3.990
-- Iced Latte — $4.290
-- Saborizado vainilla o caramelo + - Leche vegetal + — $700
 - Croissant All the Way
 - Croissant Caprese
 - Croissant Jamón Queso
@@ -11705,22 +9180,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Saborizado vainilla o caramelo + — $700
 - Desayuno Americano Espresso — $10.900
 - Paila de Huevos Americano — $9.900
-- Promo Day Flat White — $7.000
-- Promo Lunch Capuccino — $6.500
-- Promo Sweet Latte — $6.000
 - Combo Capricho MED) Moccacino — $5.500
-- Promo Chilensis Affogato — $5.000
-- Iced Coffee Latte — $4.290
-- Saborizados vainilla o caramelo + - leche vegetal — $700
-- Tiramisú Latte MED) Matcha Tropical MED) — $4.790
-- Choco-Banana MED) Matcha Strawberry — $4.790
-- Choco-Marshmallow Limonada Salvaje — $4.790
-- Matcha Latte Milkshake — $3.990
-- Chai Latte Cocada — $4.490
-- Dirty Chai Latte Granizado — $4.690
-- Té Jugo Natural — $2.490
-- Tiramisú Latte MED)
-- Jugo Natural
 - PASTEL PORCIÓN
 - PASTEL ENTERO
 - Sándwich Saludable
@@ -11835,7 +9295,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Caja Tentaciones sin Gluten sin Lactosa — $21.000 [sin lactosa]
 - Caja de Profiteroles sin Gluten sin Lactosa sin Azúcar — $12.000 [sin azúcar, sin lactosa]
 - Carrot Cake sin Gluten sin Lactosa — $23.500 [sin lactosa]
-- Pavlova Frambuesas sin Gluten sin Leche — $3.500
 - Kuchen Frutos del Bosque – sin Gluten sin Azúcar Añadida — $21.500 [sin azúcar, sin lactosa]
 - Postre Brownie Manjar Crema sin Gluten sin Lactosa — $3.900 [sin lactosa]
 - Caja 10 Maicenas sin Gluten sin Lactosa — $17.500 [sin lactosa]
@@ -11844,7 +9303,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Torta 4 Leches sin Gluten – 7 trozos — $24.500
 - Caja 10 Alfajores Hojarasca — $17.500 [sin lactosa]
 - Bolsa con 10 Brownies sin Gluten sin Leche — $19.000 [sin lactosa]
-- Bolsa Merengues sin Gluten sin Leche — $2.500
 - Torta Hojarasca Manjar – 8 trozos sin Gluten sin Lactosa sin Azúcar — $30.500 [sin azúcar, sin lactosa]
 - Caja Alfajor Vegano Chocolate y Naranja – 6 unids. sin Gluten — $16.500 [vegano]
 - Torta Helada Merengue Manjar Lúcuma sin Gluten sin Lactosa — $31.500 [sin lactosa, vegano]
@@ -11873,28 +9331,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en reseñas:** pastel, postre
 - **Fecha de registro:** 2025-11-05
 
-### Qué vende
-
-- Cafetería Tradicional
-
-
-### Carta
-
-#### Cafetería Tradicional
-
-- Espresso — $2.790
-- Espresso Especialidad — $2.990
-- Espresso Doble — $3.290
-- Espresso Descafeinado — $2.990
-- Espresso Machiatto — $3.190
-- Americano — $2.890
-- Cappuccino — $3.990
-- Latte — $4.390
-- Mocaccino — $4.590
-- Chocolate Caliente — $4.790
-- Afogatto — $4.490
-
-
 ## Vapiano Parque Arauco
 - **Ubicación:** #393, Av. Pdte. Kennedy 5413, Las Condes, Región Metropolitana
 - **Categoría:** Restaurante italiano
@@ -11912,9 +9348,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Zuppe
 - Postre
 - Ensalada
-- Schop
-- Aperitivos
-- Cocktails
 - Pizza con Carne
 - Extras
 - Del Mar
@@ -11943,7 +9376,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Carpaccio de Filete de Res — $14.900
 - Bruschetta Tradicional — $4.900
 - Bruschetta Di Parma — $6.200
-- Bruschetta Fior Di Latte — $6.200
 - Bruschetta Gamberetti — $6.200
 - Plato de Antipasti para Compartir — $15.900
 - Bruschetta Variedades — $6.200
@@ -11982,36 +9414,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Ensalada Beef N Beef — $8.500
 - Ensalada Niçoise — $5.500
 - Ensalada Mixta Pequeña — $3.600
-
-#### Schop
-
-- Hoegaarden — $3.000
-- Stella Artois — $3.500
-
-#### Aperitivos
-
-- Aperol Spritz — $3.700
-- Campari Spritz — $3.700
-- Margarita — $3.700
-- Mojito Clásico — $3.700
-- Pisco Sour — $3.700
-- Pisco Sour Catedral — $4.500
-- Pisco Sour Peruano — $4.500
-- Pisco Sour Peruano Catedral — $5.500
-
-#### Cocktails
-
-- Tropical Gin — $3.700
-- Berry Gin — $3.700
-- Frutos del Trópico — $3.700
-- Mojito Vapiano — $3.700
-- Mai Tai — $5.500
-- Disaronno Sour — $4.500
-- Aperol Sour — $4.500
-- Mojito Redonna — $4.500
-- Mojito Maracuyá — $4.500
-- Caipiroska — $4.500
-- Elderflower Martini — $4.500
 
 #### Pizza con Carne
 
@@ -12123,7 +9525,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Mozzarella Di Bufala Italiana — €4.000,00
 - Filete de res — €3.950,00
 - Atún — €1.500,00
-- Mozzarella fior di latte — €1.500,00
 
 #### Extra para risotto
 
@@ -12312,13 +9713,11 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Pan de Completo Dilici — $5.990
 - Masa de Pizza Dilici — $3.990
 - Pan de Molde Dilici — $4.990
-- Bebidas — $1.300
 - Pimentón Dulce Carmencita — $5.990
 - Ramitas de Garbanzos Puri — $990
 - Baguetin Noir Dilici — $4.990
 - Bombas de Maní Sufles de Maíz — $850
 - Puffs Cereal Infantil de Arroz Frutilla Betarraga — $850
-- Agua de Arándano Coco Be Organics — $1.990
 - Oferta — $2.490
 - Baby Mum Mum Mango Kiwi — $3.890
 - Monster Cookie — $2.990
@@ -12409,12 +9808,10 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Pimentón en Polvo Ahumado — $4.690
 - Gnocchi de Papa Tostani — $2.990
 - Salsa de Tomates Tostani — $3.290
-- Orasi Barista Avena 500ml — $2.990
 - Oferta Pan sin orilla vollkorn — $1.690
 - Azucar Terra Galicia — $3.590
 - Cabrita Alegre — $1.590
 - Empanada 2x Queso — $5.990
-- Bebida Vegetal Maut — $2.990
 - Tejidos Vivi — $3.990
 - Torta en Frasco Jess — $6.390
 - Manchoc Manjar — $3.690
@@ -12479,8 +9876,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Manare — $990
 - Real Thai Papel de Arroz — $3.190
 - Niboo — $3.490
-- Agua Benedictino Con Gas — $1.000
-- Agua Benedictino Sin Gas — $1.000
 - Wild Protein — $1.590
 - Granolin Barra Keto — $1.490
 - Grana — $1.390
@@ -12499,8 +9894,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Levadura Collico 10 grs — $290
 - Dulce De Membrillo Perello 250 grs — $1.190
 - Super Snack — $990
-- ViviCosi Bebida de Arroz — $2.990
-- Orasi Barista de Almendra — $4.390
 - Productos Be Organics — $1.990
 - Productos Natures Charm — $4.690
 - Tika — $1.090
@@ -12520,18 +9913,15 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Bigu Rollos unidad — $990
 - Caja Chocono — $6.590
 - Bigu Caja Rollos de Fruta — $4.490
-- Jugo Bless — $1.490
 - Baby Mum-Mum — $3.890
 - Esencia de Vainilla — $2.500
 - Rollo Pizza — $2.790
 - Barra Chocolate Chocono 80grs — $5.690
 - Cacao 200 grs Tienda — $4.990
-- Bebidas 360CC Tienda — $1.300
 - Cookids Galletas Infantiles Frutilla 30 gr — $950
 - Baby Mum Mum Manzana Calabaza 21 gr — $1.790
 - Baby Mum Mum Rice Puff Snack Manzana Plátano 10 gr — $990
 - Cereal Garbanzo Arándano 60 gr — $2.490
-- Orasi Barista Cappuccino 500 ml — $2.990
 - Barquillos 5 un — $3.690
 - Helados Aplv Chocolate Bañado — $3.590 [sin lactosa]
 - Huesillos deshidratados 250 gr — $3.490
@@ -12543,12 +9933,10 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Pastel Milhojas Pastelera Chocolate — $5.590
 - canasta sopaipillas x 5 — $4.990
 - Oferta Longanizas y Butifarra de 250 gr — $3.990
-- Jugo Arándanos 300 ml — $4.990
 - Mostaza Maille Dijon 215 gr — $4.990
 - Pan Marraqueta Pre-Cocido 4 Un — $2.590
 - Real Thai 250 ml — $2.390
 - Miel San Lorenzo 1/2 kg — $4.990
-- Orasi Barista Avena 1 LT — $4.390
 - Cocadas s/g — $2.190
 - Alfajor Manjar S/M — $3.290
 - Queque Marmoleado xs — $5.190
