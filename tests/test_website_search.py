@@ -128,6 +128,20 @@ def test_filter_candidates_drops_social_and_keeps_official():
         assert not any(bad in u for u in urls)
 
 
+def test_filter_candidates_drops_directories_and_delivery():
+    from maps_gluten.website_search import filter_candidates
+
+    candidates = [
+        {"url": "https://cafe-aquelarre.cl/", "title": "Oficial", "snippet": "web"},
+        {"url": "https://www.findmeglutenfree.com/biz/cafe-aquelarre/5290473287188480", "title": "FMGF", "snippet": "x"},
+        {"url": "https://emprendo.sanmiguel.cl/project/cafe_aquelarre/", "title": "Emprendo", "snippet": "x"},
+        {"url": "https://wanderboat.ai/restaurants/chile/san-miguel/cafe-aquelarre/mthR2RpHTrqvBFRAAb0Mlg", "title": "WB", "snippet": "x"},
+        {"url": "https://www.google.com/maps/search/cafe-aquelarre", "title": "Maps", "snippet": "x"},
+    ]
+    filtered = filter_candidates(candidates)
+    assert [c["url"] for c in filtered] == ["https://cafe-aquelarre.cl/"]
+
+
 def test_filter_candidates_limits_to_five_and_bad_host_re():
     from maps_gluten.website_search import BAD_HOST_RE, filter_candidates
 
@@ -144,6 +158,16 @@ def test_filter_candidates_limits_to_five_and_bad_host_re():
         "https://www.tiktok.com/a",
         "https://www.tripadvisor.cl/a",
         "https://WWW.UBEREATS.COM/a",
+        "https://www.findmeglutenfree.com/biz/cafe-aquelarre/",
+        "https://wanderboat.ai/restaurants/chile/san-miguel/cafe-aquelarre/",
+        "https://emprendo.sanmiguel.cl/project/cafe_aquelarre/",
+        "https://www.yelp.com/biz/cafe",
+        "https://www.zomato.com/santiago/cafe",
+        "https://www.doordash.com/store/cafe",
+        "https://www.grubhub.com/restaurant/cafe",
+        "https://deliveroo.cl/restaurants/santiago/cafe",
+        "https://glovoapp.com/cl/cafe",
+        "https://www.google.com/maps/search/cafe",
     ]:
         assert BAD_HOST_RE.search(host), host
 

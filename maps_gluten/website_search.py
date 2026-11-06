@@ -27,7 +27,9 @@ UA = (
 )
 
 BAD_HOST_RE = re.compile(
-    r"instagram\.com|facebook\.com|tiktok\.com|tripadvisor|uber-?eats|rappi|pedidosya",
+    r"instagram\.com|facebook\.com|tiktok\.com|tripadvisor|uber-?eats|rappi|pedidosya"
+    r"|findmeglutenfree|wanderboat|yelp|zomato|doordash|grubhub|deliveroo|glovo"
+    r"|google\.|gstatic|emprendo\.|todosnegocios|cybo\.|gfmapper|atly\.|justeat",
     re.IGNORECASE,
 )
 
