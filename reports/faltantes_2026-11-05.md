@@ -5,11 +5,11 @@ _Fecha: 2026-11-06 · Fuente: Doc regenerado_
 ## Resumen
 
 - **100 lugares** en la lista.
-- **78 con platos publicables**: 3967 platos.
+- **78 con platos publicables**: 4769 platos.
 - **1 solo con categorías**.
 - **21 sin carta ni categorías**: 14 sin web y 7 con web.
-- **13 con carta corta** (1-9 platos).
-- **13 con menos del 50% de precios**.
+- **11 con carta corta** (1-9 platos).
+- **12 con menos del 50% de precios**.
 - **0 con mucho ruido**.
 - **33 sin web registrada**.
 - **4 sin ningún dato**.
@@ -62,10 +62,8 @@ _Fecha: 2026-11-06 · Fuente: Doc regenerado_
 | COMERCIAL RAKKO | Tienda de alimentos naturales | 3 | 3 | 0 | 0 |
 | Gusto's - Keto, health & gluten free | Restaurante de comida sin gluten | 3 | 0 | 2 | 0 |
 | Pizzeria Latinoamericana | Pizzería a domicilio | 3 | 3 | 0 | 0 |
-| Pastelería Kleine Nuss | Pastelería | 5 | 5 | 0 | 0 |
 | Yoko Sea Food | Restaurante peruano | 6 | 6 | 0 | 0 |
 | Café Kanela | Cafetería | 7 | 7 | 1 | 0 |
-| Biomercado Sin Gluten | Tienda de alimentación | 8 | 0 | 0 | 0 |
 
 ## 5. Precios incompletos (<50%)
 
@@ -75,7 +73,6 @@ _Fecha: 2026-11-06 · Fuente: Doc regenerado_
 | Cetortillas - Low Carb Factory | Tortillería | 20 | 0 | 7 | 7 |
 | Sapiens | Restaurante vegano | 18 | 0 | 7 | 0 |
 | Alma Chilanga | Restaurante mexicano | 13 | 0 | 0 | 0 |
-| Biomercado Sin Gluten | Tienda de alimentación | 8 | 0 | 0 | 0 |
 | Gusto's - Keto, health & gluten free | Restaurante de comida sin gluten | 3 | 0 | 2 | 0 |
 | Emporio de la Tierra | Tienda de alimentos naturales | 1 | 0 | 0 | 0 |
 | Las Petunias Pastelería sin azúcar y sin gluten | Pastelería | 1 | 0 | 1 | 0 |

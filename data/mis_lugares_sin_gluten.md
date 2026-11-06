@@ -268,23 +268,877 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://www.biomercado.cl/
 - **Menciona en su web:** galleta, chocolate, postre, dulces
 - **Fecha de registro:** 2026-03-23
-- **Dietético:** local 100% sin gluten, 1 veganos
+- **Dietético:** local 100% sin gluten, 5 veganos, 2 sin lactosa
 
 ### Qué vende
 
-- EMPANADAS DE PINO SIN GLUTEN
+- Sin azúcar
+- Sin gluten
+- Fideos
+- Golosinas
+- Novedades
+- Higiene bucal
+- Frutos secos
+- Abarrotes
+- Café
+- Comidas preparadas
+- Picoteo
+- Keto
+- Repostería
+- Condimentos
+- Harinas
+- Congelados
+- Chocolate
+- Pan
+- Dieciocho
+- Otros
+- Quesos y lácteos
 
 
 ### Carta
 
-- PAN
-- PASTELES
-- AVENA
-- FIDEOS
-- QUESO VEGANO [vegano]
-- HARINAS
-- GOMA XANTHAN
-- CHOCOLATES
+#### Sin azúcar
+
+- Aceite de Coco Sin Olor Sin Sabor 200 ml – Manare — $4.990 [sin azúcar]
+- Albóndigas de Pavo – Sabores de la Pao — $6.800 [sin azúcar]
+- Arroz 1 Kilo Don Giuseppe — $1.300 [sin azúcar]
+- Bebida de Coco lata 400 ml – Manare — $3.490 [sin azúcar]
+- Brownie chocolate El Pueblo 65 gr (8×8 cm aprox) — $2.300 [sin azúcar]
+- Cereal individual Frutilla – Mizos — $700 [sin azúcar]
+- Cereal Manare Individual Cacao — $890 [sin azúcar]
+- Cereal Manare Individual Dulce — $890 [sin azúcar]
+- Choco Bom – Gullón — $2.890 [sin azúcar]
+- Chocolate 70% Cacao Sin Azúcar – Valor — $4.790 [sin azúcar]
+- Chocolate 85% Cacao Sin Azúcar – Antiuxixona — $4.200 [sin azúcar]
+- Chocolate con Leche 30% Cacao Sin Azúcar – Antiuxixona — $4.200 [sin azúcar]
+- Colorante Purple – Chefmaster — $3.990 [sin azúcar]
+- Coyac Pelotitas Unidad — $100 [sin azúcar]
+- Crema Chantilly spray – Hoplá — $3.690 [sin azúcar]
+- Flyn Paff Surtidos 504 gr – 63 Unid — $4.990 [sin azúcar]
+- Galletas de arroz bañadas sabor chocolate negro – Deluxe — $2.990 [sin azúcar]
+- Granola bars Dark Chocolate -Emco — $5.490 [sin azúcar]
+- Mermelada Durazno En Linea Sin Azúcar 200g — $1.200 [sin azúcar]
+- Mermelada Frambuesa En Linea Sin Azúcar 200g — $1.200 [sin azúcar]
+- Mermelada Frutilla En Linea Sin Azúcar 200g — $1.200 [sin azúcar]
+- Mermelada Mora En Linea Sin Azúcar 200g — $1.200 [sin azúcar]
+- Miel pura de abejas 650 gr – MeliMel — $4.990 [sin azúcar]
+- Mini alfajor El Pueblo (2 unidades) — $1.300 [sin azúcar]
+- Pack coyac surtidos 10 unidades – Pop Boom — $2.000 [sin azúcar]
+- Ratatouille – Sabores de la Pao — $4.200 [sin azúcar]
+- Semillas de Chía 400 gramos, Ambrosia — $5.490 [sin azúcar]
+- Aceite Natura 500ml — $1.990 [sin azúcar]
+- Barquillos Boa Vida (Producto Frágil) — $3.500 [sin azúcar]
+- Cachantun 600 ml — $700 [sin azúcar]
+- Pocket Caramelo de Café Sin Azúcar — $1.000 [sin azúcar]
+- Cereal Mizos Sabor Frutilla 280 grs — $5.100 [sin azúcar]
+- Chocolate 50% Cacao con Stevia 75 gr Trapa — $2.990 [sin azúcar]
+- Chocolate de Leche y Almendras con Stevia 75 gr Trapa — $2.990 [sin azúcar]
+- Chocolate 62% Orgánico 100 gr Sin Azúcar – Manare — $6.390 [sin azúcar]
+- Chocolate 80% Cacao con Stevia 75 gr – Trapa — $2.990 [sin azúcar]
+- Chocolate Blanco con Stevia 75 gr – Trapa — $2.990 [sin azúcar]
+- Chocolate Blanco Sin Azúcar 75 gr – Torras — $3.350 [sin azúcar]
+- Chocolate Blanco Sin Azúcar Con Frutillas 75 gr – Torras — $3.350 [sin azúcar]
+- Chocolate con Leche Sin Azúcar 75 gr – Torras — $3.350 [sin azúcar]
+- Chocolate Negro Sin Azúcar 72% Cacao 75 gr – Torras — $3.350 [sin azúcar]
+- Chocolate Negro Sin Azúcar con Banana 75 gr – Torras — $3.350 [sin azúcar]
+- Chocolate Negro Sin Azúcar con Café 75 gr – Torras — $3.350 [sin azúcar]
+- Chocolate Negro Sin Azúcar con Frutilla 75 gr – Torras — $3.350 [sin azúcar]
+- Chocolate Negro Sin Azúcar con Mango 75 gr – Torras — $3.350 [sin azúcar]
+- Chocolate Negro Sin Azúcar con Naranja 75 gr – Torras — $3.350 [sin azúcar]
+- Chocolate Negro y Menta Sin Azúcar 75 gr – Torras — $3.450 [sin azúcar]
+- Chocolate Torras Zero Azúcar Negro Nibs de Cacao y Arándanos – 125 gr — $5.490 [sin azúcar]
+- Chocolate Vegano con Leche de Avena – Torras — $5.950 [sin azúcar, vegano]
+- Ciabatta Dilici — $5.990 [sin azúcar]
+- Galleta de Té Sin Azúcar El Pueblo — $3.750 [sin azúcar]
+- Mani Tostado 400 gramos, Ambrosia — $3.400 [sin azúcar]
+- Avellana Tostada 300 gramos, Ambrosia — $10.390 [sin azúcar]
+- Castañas de Cajú 300 gramos, Ambrosia — $9.690 [sin azúcar]
+- Mix Premium 100 gramos, Ambrosia — $3.400 [sin azúcar]
+- Tres Harinas 500 gramos, Ambrosia — $4.100 [sin azúcar]
+- Moranguete Unidad — $200 [sin azúcar]
+- Mostacholi No+Gluten — $2.990 [sin azúcar]
+- Pan de Aceituna – Tasty free — $5.790 [sin azúcar]
+- Pan de Cebolla – Tasty Free — $5.790 [sin azúcar]
+- Pan de Hamburguesa – Tasty Free — $5.790 [sin azúcar]
+- Pan de Hot Dog (completo) – Tasty free — $5.790 [sin azúcar]
+- Pastel de Chocolate – El Pueblo — $3.600 [sin azúcar]
+- Spaghetti No+Gluten — $2.990 [sin azúcar]
+- Stevia Líquida 125 ml Manare — $4.990 [sin azúcar]
+- Chocolate 72% cacao con limón sin azúcar 100 gr – Clavileño — $4.890 [sin azúcar]
+- Bombones Chocolatissimo 0 % Azúcares Añadidos 200 gramos – Valor — $13.590 [sin azúcar]
+- Bombones Chocolatissimo 70 % Cacao – 250 gramos – Valor — $13.590 [sin azúcar]
+- Pipoca – Quinoa Pop 70 gr Ambrosía — $3.290 [sin azúcar]
+- Espesante Thickener Plus 300 gramos Vivalite — $11.990 [sin azúcar]
+- Suplemento Alimentario Sabor Chirimoya Alegre Vivalite 900 gramos — $23.990 [sin azúcar]
+- Suplemento Alimentario Sabor Chocolate Vivalite 900 gramos — $23.990 [sin azúcar]
+- Suplemento Alimentario Sabor Fresa – Banana Vivalite 900 gramos — $23.990 [sin azúcar]
+- Suplemento Alimentario Sabor Lucuma Vivalite 900 gramos — $23.990 [sin azúcar]
+- Suplemento Alimentario Sabor Vainilla Vivalite 900 gramos — $23.990 [sin azúcar]
+- Cereal Cacao 280 gramos Ecovida — $4.590 [sin azúcar]
+- Galletas Mini Chocolate Chips 30 gramos Ecovida — $600 [sin azúcar]
+- Pack 5 Mini Cereal Cacao Ecovida — $2.390 [sin azúcar]
+- Pack 5 Mini Galletas Ecovida — $2.600 [sin azúcar]
+- Galletas Mini Coco 30 gramos Ecovida — $600 [sin azúcar]
+- Mini Cereal Cacao 18 gramos Ecovida — $550 [sin azúcar]
+- Dulce de membrillo SIN AZUCAR pote 330 gr – Eckart — $2.900 [sin azúcar]
+- AluSweet Sabor Maple Syrup 320 grs — $6.200 [sin azúcar]
+- Chocolate 85% Cacao Sin Azúcar En Linea — $2.990 [sin azúcar]
+- Galletas Chips 150 gr Ecovida — $2.700 [sin azúcar]
+- Galletas Chocolate Chips 150 gr Ecovida — $2.700 [sin azúcar]
+- Galletón – Amapola & Limón Sin Azúcar Dilici — $2.100 [sin azúcar]
+- Galletón – Chocolate & Chips Sin Azúcar Dilici — $2.100 [sin azúcar]
+- Galletón – Manzana & Canela Sin Azúcar Dilici — $2.100 [sin azúcar]
+- Galletón – Vainilla & Chips Sin Azúcar Dilici — $2.100 [sin azúcar]
+- Bombones Cortados Stevia Sin Azúcares Añadidos – TRAPA — $7.290 [sin azúcar]
+- Bombones Sin Azúcares Añadidos (Caja Azul) – TRAPA — $8.490 [sin azúcar]
+- Chocolate 0% Azúcares Añadidos 80% Negro – TRAPA — $4.100 [sin azúcar]
+- Chocolate Almendras Enteras 80% Cacao 0% Azúcares Añadidos 175 Gramos – TRAPA — $6.790 [sin azúcar]
+- Cremonella Crema de Cacao y Avellanas Sin Azúcar – 650 gramos – Neucober — $8.590 [sin azúcar]
+- Chicle Freegells Cereza Unidad — $500 [sin azúcar]
+- Chicle Freegells Menta Unidad — $500 [sin azúcar]
+- Turrón Imperial Con Almendras Sin Azúcar – La Fama — $5.100 [sin azúcar]
+
+#### Sin gluten
+
+- Charqui 20 gr – Sembrasol — $3.100
+- Energy Mix 150 gr – Sembrasol — $3.390
+- Fusilli – Espirales – Rummo 400 gr — $4.790
+- Magdalena Vainilla – ZeroGlut 140g — $3.990
+- Magdalena Vainilla Chocochip – ZeroGlut 140g — $3.990
+- Mani Confitado 100 gr – Sembrasol — $1.890
+- Mani Tostado Salado 130 gr – Sembrasol — $1.290
+- Mani Tostado Salado 80 gr – Sembrasol — $990
+- Mani Tostado Sin Sal 130 gr – Sembrasol — $1.290
+- Mani Tostado Sin Sal 90 gr – Sembrasol — $990
+- Masticables Lheritier, Bolsa 450 gr — $3.990
+- Mini Paletas – Pico Dulce 225 g — $2.690
+- Mini Paletas – Play Pop 225 gr – Lheritier — $2.490
+- Mocktail French 75 Sin Alcohol – Club Reale — $3.490
+- Mocktail Tom Collins Sin alcohol – Club Reale — $3.490
+- Paleta Flopito Twist Surtido 400 gr – Florestal — $3.990
+- Paleta Halloween Chupetin Pinta Lengua 400 gr – Florestal — $3.990
+- Paleta Halloween Pop Tatoo Pánico 400 gr – Florestal — $3.990
+- Pan de Molde Banco 450 gr – Zeroglut — $5.890
+- Pan de Molde Multisemillas 450 gr – Zeroglut — $6.290
+- Papas Fritas Kapy Corte Liso 150 gr – Sembrasol — $2.290
+- Papas Fritas Kapy Corte Liso 30 gr – Sembrasol — $750
+- Papas Fritas Kapy Rusti-k Con Merken 140 gr – Sembrasol — $2.490
+- Papas Fritas Kapy Rusti-k Con Sal de Mar 140 gr – Sembrasol — $2.490
+- Penne Rigate Rummo 400 gr — $4.790
+- Salinis Schar — $2.690
+- Spaghetti Rummo 400 gr — $4.790
+- Super Mix 150 gr – Sembrasol — $3.390
+- Super Mix 80 gr – Sembrasol — $1.890
+- Aceite Natura 100% Maravilla 1 Litro — $3.690
+- Allspice / Pimienta de Jamaica 56.7 gr – Badia — $6.990
+- Almidón de Mandioca 1 Kilo – Extrumol — $4.100
+- Brisket Rub Seasoning 170 gr – Badia — $9.200
+- Cabellos de Ángel (fideos para sopa) – Schar — $4.390
+- Café Beanies Amaretto Almond — $6.990
+- Café Beanies Cherry Chocolate — $6.990
+- Café Beanies Chocolate Orange — $6.990
+- Café Beanies Irish Cream — $6.990
+- Café Beanies Menta Chocolate — $6.990
+- Café Beanies Very Vainilla — $6.990
+- Café de Grano Tostado y Molido Café de Altura Gourmet 250 gr – Cruzeiro — $7.990
+- Café de Grano tostado y Molido Dark Roast Gourmet 250 gr – Cruzeiro — $7.990
+- Café de Grano Tostado y Molido Pleno 250 gr – Cruzeiro — $6.390
+- Café Instantáneo Clásico 500 gr – Cruzeiro — $15.990
+- Café Instantáneo Liofilizado 90 gr – Cruzeiro — $5.390
+- Calcio 500 mg – Dulzura Natural — $3.690
+- Black Truffle 255.1 gr – Sal Marina y Trufas Negras – Badia — $17.990
+- Canela en Rama 226,8 – Badia — $18.500
+- Chía Orgánica 200 gramos Manare — $4.990
+- Chips Neucober 500 gramos — $5.990
+- Chuño – Almidón de Papa 1 Kilo – Extrumol — $4.200
+- Espiral Chía – El Dorado — $3.990
+- Fideos Penne Arveja 227 gr – Cosecha Justa — $3.200
+- Fideos Penne Garbanzo 227 gr – Cosecha Justa — $3.200
+- Fideos Penne Lenteja 227 gr – Cosecha Justa — $3.200
+- Fusilli – Espirales 250gr – Schar — $3.390
+- Gnocchi – Noquis – 250gr – Schar — $6.890
+- Hallullitas Dilici — $6.100
+- Harina Arroz 1 Kilo – Extrumol — $2.900
+- Harina Arroz Integral 1 Kilo – Extrumol — $3.290
+- Holy Smoke Rub 155gr – Badia — $8.990
+- Lime Pepper/Pimienta Lima 184,3 g , Badia — $7.990
+- Macarrones Tricolor – El Dorado — $5.600
+- Maicena 1 Kilo – Extrumol — $2.900
+- Mezcla – Base Lista Para Sopaipilla 1 Kilo – Extrumol — $5.490
+- Mezcla 3 Harinas 1 Kilo – Extrumol — $4.500
+- Miel de Palma 240 gr Stevia Cocalán — $5.590
+- Miel de Palma 330 gramos Cocalán — $6.990
+- Miel de Palma con Coquitos 250 gramos Cocalán — $5.190
+- Miel de Palma con Stevia Doypack 90 gramos Cocalán — $2.390
+- Miel de Palma Sabor Almendras 330 gramos Cocalán — $6.290
+- Mini Cake Chocolate Chips – Dilici — $2.100
+- Keto Crunch 100 gr – Ambrosia — $4.250
+- Pistachos Tostados 300 gramos, Ambrosia — $11.900
+- Pan Manzana Canela Schar — $3.990
+- Pan Pita Boa Vida — $2.990
+- Paprika / Pimentón 453 gr – Badia — $15.990
+- Pop Boom, Lollipop — $3.990
+- Pop Boom, Lollipop con Chicle Sabor Mango Bolsa 24 Unid — $3.990
+- Pan Rústico Schar — $4.100
+- Fitspo Barra de proteina – Your Goal — $2.590
+- Pumpkin Pie Spice 56,7 gr – Badia — $7.990
+- Rib Rub Seasoning 155,9 gr – Badia — $9.990
+- Rice Crisps Multigrano 100 gr — $2.990
+- Rice Crisps Sabor Queso 100 gr — $2.990
+- Rice Crisps Sal de Mar 100 gr — $2.990
+- Rice Crisps Sesamo Negro 100 gr — $2.990
+- Sazonador Cajún 78 gr – Badia — $6.290
+- Snack Salado Cebolla Caramelizada 100 gramos Ecovida — $2.390
+- Snack Salado Tomate Albahaca 100 gramos Ecovida — $2.390
+- Soya Pearl River Bridge 150 ml — $2.490
+- Spaghetti 250gr – Schar — $3.390
+- Tasty Snax – Snack Sabor Camote Morado100 gr — $2.990
+- Tasty Snax – Snack Sabor Zapallo 100 gr — $2.990
+- Vitamina C – Dulzura Natural — $4.490
+- Vitamina E 405 UI – Dulzura Natural — $5.500
+- Casabe Molido 250 gr – Casabe Gourmet — $2.590
+- Casabito con Ajo 75 gr – Casabe Gourmet — $2.190
+- Casabito con Cebolla 75 gr – Casabe Gourmet — $2.190
+- Casabito Natural 75 gr – Casabe Gourmet — $2.190
+- Casabito Sal Marina y Pimienta 75 gr – Casabe Gourmet — $2.190
+- Chili Powder 255.1g – Ají En Polvo – Badia — $11.390
+- Ají Rojo en Hojuelas 340.2 gr – Badia — $14.990
+- Ajo en Polvo Badia 453,6 gr – Badia — $14.990
+- Cebolla en Polvo 510,2 gr – Badia — $13.900
+- Chipotle Ranch Seasoning 141,7 gr – Badia — $8.990
+- Sazón Completa 155,9 gr – Badia — $7.200
+- Pan Blanco Schar — $4.100
+- Bebida Proteica Vainilla 600 gramos P&M Foods — $14.990
+- Bombones Bel (caja con 12 unidades) — $1.500
+- Bombones Bel (caja contiene 20 unidades) — $1.990
+- Bombones Bel Sabor Frutilla (caja con 36 unidades) — $4.500
+- Cinco Especias 113 gr – Badia — $7.990
+- Condimento Barbecue (Tradicional Blend) 99.2 gramos – Badia — $7.990
+- Condimento Italiano (Mezcla Mediterránea) 35.4 gramos – Badia — $7.290
+- Dátiles Sin Carozo 300 gr Ambrosía — $4.290
+- Eneldo 198.4 gr – Badia — $10.290
+- Floradix Floravital Hierro + Vitaminas – Salus — $19.990
+- Floradix Saludynam- Salus — $22.900
+- Floradix Kindervital Calcio + Vitaminas – Salus — $19.990
+- Floradix Magnesio – Salus — $18.990
+- Garbanzo Partido Sin Piel 500 gr. Ambrosía — $3.100
+- Harina de Algarroba 400 gr. Ambrosía — $5.790
+- Harina de Garbanzos 1 Kilo – Extrumol — $3.990
+- Harina de Maiz 1 Kilo – Extrumol — $3.100
+- Harina de Trigo Sarraceno 500 gr. Ambrosía — $6.800
+- Infusión Anís Hinojo Comino- Salus — $8.990
+- Infusión de Manzanilla – Salus — $3.950
+- Infusión de Melisa – Salus — $3.390
+- Infusión de Rooibos- Salus — $7.600
+- Jengibre en polvo 42.5 gr – Badia — $5.990
+- Kombucha Kamai Arándanos — $2.990
+- Kombucha Kamai Frutilla – Frambuesa — $2.990
+- Kombucha Kamai Maracuyá — $2.990
+- Kombucha Kamai Menta – Spirulina — $2.990
+- Kombucha Kamai Piña – Jengibre – Cúrcuma — $2.990
+- Kombucha Kamai Té Negro – Lemongrass — $2.990
+- Lentejas Baby 500 gr Ambrosía — $3.790
+- Corazones de Alcachofa Don Giuseppe 400 grs — $2.600
+- Esparragos Verdes Don Giuseppe 425 gramos — $2.900
+- Garbanzos Don Giuseppe 340 grs — $990
+- Lentejas Don Giuseppe 340 gramos — $990
+- Palmitos En Rodajas Don Giuseppe 400 gramos — $1.990
+- Palmitos Enteros Don Giuseppe 400 gramos — $2.600
+- Masa Pizza 500 gramos P&M Foods — $3.990
+- Mezcla Brownie 280 gramos P&M Foods — $3.990
+- Harina de Avena Integral 500 gr – Ambrosía — $5.790
+- Harina de Garbanzos 500 gr – Ambrosía — $3.390
+- Harina de Lentejas 500 gr – Ambrosía — $3.900
+- Müsli Berry Love 400 gr – Ambrosía — $5.790
+- Müsli Multi-Semillas 400 gr – Ambrosía — $5.790
+- Coco Laminado 150 gr. Ambrosía — $4.300
+- Cranberry 350 gr. Ambrosía — $6.590
+- Harina de Almendras Con Piel 500 gr. Ambrosía — $11.490
+- Harina de Almendras Sin Piel 500 gr. Ambrosia — $13.900
+- Manzana Deshidratada 170 gr. Ambrosía — $4.250
+- Müsli Berry Love 907 gr. Ambrosía — $11.390
+- Almendra Enteras 300 gr Ambrosia — $9.990
+- Almendra Laminada 300 gr Ambrosia — $9.350
+- Pocket Mix 150 gr. Ambrosía — $2.900
+- Nuez Moscada Molida 56 gr – Badia — $8.490
+- Polvo de Hornear 150 gr Ambrosía — $2.390
+- Harina de Linaza 500 gr Ambrosía — $3.400
+- Quinoa Blanca 500 gr Ambrosía — $5.490
+- Quinoa Mix -Dúo 500 gr Ambrosía — $5.490
+- Romero 226 gr – Badia — $9.990
+- SaluFem Bienestar y Equilibrio Femenino – Salus — $15.990
+- Salvia Molida 35.4 gramos – Badia — $5.990
+- Sazonador Ajo Negro en polvo 170 gr – Badia — $9.200
+- Shot de Kombucha Kamai Cúrcuma 60 cc — $2.990
+- Shot de Kombucha Kamai Jengibre 60 cc — $2.990
+- Ají Chile & Lima 184,3 g – Badia — $9.200
+- Ajo Negro Picado en Agua 226, 7 gr – Badia — $9.200
+- Pimienta Mango 184,3 gramos – Badia — $8.200
+- Sazón con Azafrán 198,4 gr – Badia — $7.990
+- Sazón Tropical con Cilantro y Achiote 191,4 g – Badia — $8.990
+- Café Cruzeiro Liofilizado Frasco 50 gramos — $3.490
+- Café Cruzeiro Cappuccino – Caramelo Salado (8 Sachet) — $3.490
+- Café Cruzeiro Cappuccino – Chocolate (8 Sachet) — $3.490
+- Café Cruzeiro Cappuccino – Clásico (8 Sachet) — $3.490
+- Café Cruzeiro Cappuccino – Vainilla (8 Sachet) — $3.490
+- Café Cruzeiro Instantáneo Clásico 170 gramos — $6.990
+- Café Cruzeiro Descafeinado 170 gramos — $8.990
+- Café Cruzeiro Liofilizado 100% Arábica 170 gramos — $10.990
+- Café Cruzeiro Liofilizado 170 gramos — $8.690
+- Café Cruzeiro Liofilizado Premium Equilibrado 170 gramos — $11.490
+- Café Cruzeiro Sabor Suave 170 gramos — $4.990
+- Bombas (Sufles) de Mani – Kuna — $850
+- Bombas (Sufles) de Mani Tamaño Familiar 100 g – Kuna — $2.990
+- Bombas (Sufles) de Queso Crema y Ciboulette – Kuna — $850
+- Bombas (Sufles) Mediterraneas – Kuna — $850
+- Bombas (Sufles) Mediterraneas Familiar 100 g – Kuna — $2.990
+- Mizos Galletita Arroz Manzana – 100 gr — $2.790
+- Mizos Galletita Arroz Yogurt Limón – 150 gr — $3.490
+- Mizos Galletita Arroz Yogurt Limón – 25 gramos — $600
+- Mizos Galletita Maíz Chocolate – 120 gr — $2.990
+- Mizos Galletita Maíz Chocolate – 20 gramos — $550
+- Mizos Popped Chips de Papa con Sal 105 gramos — $2.890
+- Mizos Popped Chips de Papas 20 gramos — $690
+- Mizos Popped Chips Lentejas 20 gramos — $750
+- Puffs Cereal de Arroz , Pera – Espinaca – Kuna — $3.390
+- Puffs Cereal de Arroz , Platano – Zapallo – Kuna — $3.390
+- Puffs Cereal de Arroz, Frutilla – Betarraga – Kuna — $3.390
+- Cereal Cacao 280 gr – Kuna — $4.990
+- Cereal Manzana & Canela 280 gr – Kuna — $4.990
+- Cereal Sabor Vainilla 280 gr – Kuna — $4.990
+- Puffs Cereal de Arroz, Cacao – Kuna — $3.390
+- Puffs Cereal de Arroz, Manzana – Arándano – Kuna — $3.390
+- 14 Especias 120.5 g – Badia — $7.690
+- Canela en polvo 113.4 gramos – Badia — $7.290
+- Clavo de olor Entero 35.4 gramos – Badia — $7.490
+- Clavo de Olor Molido 49,6 gr – Badia — $7.490
+- Everything Bagel 156 gr – Badia — $8.990
+- Jerk Seasoning 141,7 gr – Badia — $7.990
+- Met Tenderizer – Ablandador de Carnes 127,6 gr – Badia — $6.490
+- Nuez Moscada Entera 56,7 gr – Badia — $8.490
+- Vainilla Extracto Puro 59 ml – Badia — $11.990
+- Za’atar 113,4 gr – Badia — $8.690
+- Curry 198.5 gramos – Badia — $7.990
+- Garam Masala 120.5 gramos – Badia — $9.990
+- Hierbas Provenzales 42.5 gramos – Badia — $7.290
+- Mostacilla Florcitas Para Decorar 100 gr -El Pueblo — $1.500
+- Mostacilla Pelotitas Para Decorar 100 gr -El Pueblo — $1.500
+- Black Pepper 453.6 g – Pimienta Negra Gruesa – Badia — $23.900
+- Galletas O ́s Schar tipo tritón oreo — $5.890
+- Avena Instantánea Sin Gluten 800 gr – Manare — $5.790
+- Barrita Cereal Super Alimento – Mi Otra Pasión — $1.650
+- Gomitas Clásicas 100 gr – Mi Otra Pasión — $2.250
+- Mantecol Lingote 500 gr — $7.490
+- Marshmallow 90 gr- Mi Otra Pasión — $2.200
+- Mermelada Cuatro Frutas 284 gr – St Dalfour — $4.690
+- Mermelada Durazno 284 gr – St Dalfour — $4.690
+- Mermelada Cereza Negra 284 gr – St Dalfour — $4.690
+- Mermelada Frambuesa y Granada 284 gr – St Dalfour — $4.690
+- Mermelada Damasco 284 gr – St Dalfour — $4.690
+- Mermelada Manzana y Canela 284 gr – St Dalfour — $4.690
+- Mermelada Naranja 284 gr – St Dalfour — $4.690
+- Mermelada Frambuesa 284 gr – St Dalfour — $4.690
+- Mermelada Frutilla 284 gr – St Dalfour — $4.690
+- Mermelada Mora 284 gr – St Dalfour — $4.690
+- Pastel Durazno El Pueblo — $3.200
+- Pastel Maracuya El Pueblo — $3.200
+- Pastel Piña El Pueblo — $3.200
+- Dilmah – Finest Ceylon Teas – Té Cajas de Regalo — $9.990
+- Dilmah – Gift of Tea – Té Cajas de Regalo — $14.900
+- Dilmah – Gift of Tea – Té Cajas de Regalo — $9.990
+- Dilmah – Loving Tea – Té Cajas de Regalo — $16.500
+- Dilmah – Té Ceylon – 100 Bolsitas — $7.490
+- Dilmah – English Breakfast 50 Bolsitas — $7.490
+- Dilmah – Té Negro Ceylon Supreme – 10 bolsitas — $2.890
+- Dilmah – Té Negro Earl Grey – 10 bolsitas — $2.890
+- Dilmah – Té Negro English Breakfast – 10 bolsitas — $2.890
+- Dilmah – Té Verde con Jengibre – 10 Bolsitas — $2.890
+- Dilmah – Té Verde Puro – 10 Bolsitas — $2.890
+- Infusión Herbal Flor de Jamaica 20 Bolsitas – Landi — $3.790
+- Té Negro Ceylán Canela 20 Bolsitas – Landi — $1.990
+- Té Negro Ceylán Frutos Rojos 20 Bolsitas – Landi — $1.990
+- Té Negro Ceylan Grosella Negra 20 Bolsitas – Landi — $1.990
+- Té Negro Ceylán Manzana-Canela 20 Bolsitas – Landi — $1.990
+- Té Negro Ceylan Menta 20 Bolsitas – Landi — $1.990
+- Té Negro Ceylán Naranja-Mandarina 20 Bolsitas – Landi — $1.990
+- Té Negro Ceylan Sabor Jengibre 20 Bolsitas – Landi — $1.990
+- Té Negro Ceylán Vainilla 20 Bolsitas – Landi — $1.990
+- Té Verde 20 Bolsitas – Landi — $1.990
+- Té Verde 20 Menta-Lemongrass 25 Bolsitas – Landi — $2.990
+- Gelatina Jalea Turbo Zero Azúcar Varios Sabores (10 Porciones)
+- Aceite de Coco Orgánico Manare 200ml — $5.490
+- Aceto Balsámico Koe 500 ml — $5.590
+- Aceto Vinagre Balsámico Manare 500 ml — $5.990
+- Tabletas Alulosa 250 Unid. – Aluswet Biofoods — $3.790
+- Alulosa Manare 400 gr — $10.790
+- Galletas de Arroz Sabor Original Orgánico – Baby Mum Mum — $3.300
+- Galletas de Arroz Sabor Manzana y Calabaza – Baby Mum Mum — $3.300
+- Junior Mum-Mum Arandano – Galletas de Arroz — $3.300
+- Junior Mum-Mum Platano – Galletas de Arroz — $3.300
+- Toddler Mum-Mum Frutilla – Galletas de Arroz — $3.300
+- Toddler Mum-Mum Mango y Kiwi – Galletas de Arroz — $3.300
+- Bisnaguinha (Pancito con un toque dulce) 150 gr – Schar — $4.790
+- Bizcochito (tipo chocman) El Pueblo — $1.600
+- Caldo Casero de Carne Gallina Blanca 1 Litro — $3.490
+- Caldo Casero de Pollo Gallina Blanca 1 Lt — $3.490
+- Caluga de Leche 250 gr -De mi Campo — $3.700
+- Caluga Leche Nuez 250 gr -De mi Campo — $3.800
+- Chocolate de Leche Sin Lactosa – Ritter Sport — $5.590 [sin lactosa]
+- Dulce de membrillo bolsa 1 kilo Eckart — $3.300
+- Dulce de membrillo bolsa 250 gr Eckart — $1.100
+- Dulce de membrillo bolsa 500 gr Eckart — $1.890
+- Galleta Avena Naranja 180 gramos – Gullón — $2.990
+- Galleta Chocolate Chips – Gullón — $3.300
+- Galletas Berries 150 gr Ecovida — $2.700
+- Granola Mizos Almendras – Coco — $4.490
+- Granola Mizos Mix Semillas — $4.490
+- Harina de trigo sarraceno El Pueblo 500 gr — $6.700
+- Jugo Turbo Variedad de sabores 10 Sobres — $2.800
+- Jugo Turbo Zero Sabor Frutilla 10 Sobres — $2.800
+- Jugo Turbo Zero Variedad de Sabores 10 Sobres — $2.800
+- Manjar Dulce de Leche Sin Lactosa Sin Azúcar 380 gr – En Linea — $3.590 [sin azúcar, sin lactosa]
+- Mantecol Sabor Café 111 gramos — $1.690
+- Mantecol Sabor Caramelo 111 gramos — $1.690
+- Mantecol 253 gramos — $2.790
+- Mantecol 41 gramos — $790
+- Mantecol Marmolado 111 gramos — $1.590
+- Mantequilla de Maní Cremosa Manare 250 gramos — $3.490
+- Mantequilla de Maní Cremosa Manare 1 kilo — $10.490
+- Mantequilla de Maní Cremosa Manare 500 gramos — $5.990
+- Mantequilla de Maní 500 gramos Koe — $4.900
+- Mantequilla de Maní Crocante Manare 500 gramos — $5.990
+- Mantequilla de Maní en Polvo 300g Manare — $9.990
+- Mermelada individual (Elija Sabor) – St. Dalfour — $990
+- Papas Hilo 200 gramos, Wania — $2.200
+- Molde Para Huevitos (1 Molde) — $1.000
+- Papel Metálico Para Huevitos (1 Pliego) — $1.000
+- Queque Le Berries Dilici 300 gr VEGANO — $5.490 [vegano]
+- Arvejas Crujientes Con Sal del Himalaya 120g – Wania — $2.400
+- Garbanzos Crujientes Con Sal del Himalaya 120g – Wania — $2.400
+- Garbanzos Crujientes Sabor Curry Masala 120g – Wania — $2.700
+- Ramitas de Garbanzo 180 gramos, Wania — $2.700
+- Reeses Nutrageous Barrita (Con mantequilla de Mani) 47 g — $1.690
+- Salsa De Soya Orgánica Manare 150ml — $3.990
+- Salsa De Soya Orgánica Manare 250ml — $5.490
+- Salsa De Soya Sakura Reducida En Sodio 500ml — $4.990
+- Tagatosa Líquida 360 ml -Tagaswet Biofoods — $5.890
+- Turbo Tea (Ice Tea) Sabor Durazno 1 Sobre — $500
+- Turbo Tea (Ice Tea) Sabor Limón 1 Sobre — $500
+- Turbo Tea (Ice Tea) Sabor Durazno Display 12 Sobres — $5.100
+- Turbo Tea (Ice Tea) Sabor Limón Display 12 Sobres — $5.100
+- Turrón de Chocolate Negro Crujiente – TRAPA — $4.590
+- Pan de Completo (4 Unidades) NoGlut Nutrisa No+Gluten — $5.600
+- Mizos Galletita Arroz Chocolate Avellana 25 gr — $600
+- Mizos Galletita Arroz Chocolate Naranja – 150 gr — $3.490
+- Mizos Galletita Arroz con Rayitas de Chocolate 120 gr — $2.790
+- Papas fritas Wania individual 50 gramos — $990
+- Ramitas de garbanzo 50 gramos Wania — $1.100
+- Chocolate AntiuXixona Negro 72% Cacao con Naranja — $3.990
+- Chocolate 0% Azúcar Blanco – TRAPA — $4.100
+- Chocolate 0% Azúcares Añadidos Con Leche – TRAPA — $4.100
+- Chocolate Collection 74% Cacao – TRAPA — $4.100
+- Chocolate Collection 74% Cacao Frambuesa – TRAPA — $4.100
+- Chocolate Collection Leche – TRAPA — $2.790
+- Chocolate Collection 85% Cacao – TRAPA — $4.100
+- Chocolate Collection 95% Cacao – TRAPA — $4.590
+- Corn Flakes Cereal Noglut Santiveri — $5.600
+- Palitos de Mandioca Jumbo 130 gr Sabor Albahaca — $4.990
+- Palitos de Mandioca Jumbo 130 gr Sabor Romero — $4.990
+- Papas Fritas Nativas Centrifugadas 140 gramos Wania — $2.600
+- Proteína de Soya Alun 1 Kilo — $6.850
+- Stevia Alusweet Líquida 270 ml Biofoods — $3.990
+- Yerba Mate Cachamate-Clásica — $3.990
+- 3 Harinas Dilici (Panqueques, repostería) — $5.690
+- Aceite de Coco Orgánico Manare 500ml — $10.490
+- Aceite de Coco Manare Litro – Sin Olor – Sin Sabor — $16.990
+- Aceite de Coco Orgánico Manare Litro — $17.990
+- Aceite de Coco Orgánico Sin Olor Sin Sabor Manare 500ml — $9.490
+- Alfajor Sin Azúcar El Pueblo — $4.550 [sin azúcar]
+- Azúcar Rubia Orgánica Manare 1 kilo — $3.790
+- cacao en polvo manare 500 gr — $17.990
+- Café Beanies Sachet (Unidad) — $450
+- Caluga de Leche 90 gr – de mi campo — $1.300
+- Caluga Leche Nuez 90 gr – de mi campo — $1.400
+- Canela en polvo El Pueblo — $3.200
+- Chia 175 gramos, Mi Tierra, Nutrisa — $3.950
+- Chicles Croc 10 Unidades Variedad de Sabores — $1.000
+- Chocolate Neucober 60% Cacao – Sin Azúcar — $27.900 [sin azúcar]
+- Chupetoncito Display Lheritier — $4.800
+- Pelotitas Dulce de Leche – Lheritier — $3.990
+- Chupones de manjar 5 unidades – de mi campo — $1.690
+- Cilindros de Manjar – de mi campo — $2.300
+- Cobertura Neucober 85% Sin Azúcar — $32.990 [sin azúcar]
+- Cocadas 38 gr. – De mi campo — $790
+- Cocadas 95 gr. (10 bolitas) – de mi campo — $1.500
+- Coco Rallado El Pueblo 200 gramos — $2.700
+- Coco Rallado El Pueblo 500 gramos — $5.650
+- Crema con Avellanas y Cacao , Nusco, Sin Gluten, Vegano — $5.900 [vegano]
+- Creminos noir 70 % cacao (chocolatitos 5 unidades por 1000) – TRAPA — $1.000
+- Discos de merengue (bandeja — $7.400
+- Display Chicle Relleno Croc Sabor Menta — $2.990
+- Chicle Freegells Menta Fresca Unidad — $500
+- Chicle Freegells Menta Fuerte Unidad — $500
+- Display Chicle Freegells Cereza 15 Unid — $6.700
+- Display Chicle Freegells Menta Fresca 15 Unid — $6.700
+- Display Chicle Freegells Menta Fuerte 15 Unid — $6.700
+- Eritritol Manare 400 gr — $9.990
+- Esencia de pan de pascua — $5.990
+- Esencia de Vainilla “El Pueblo” — $4.190
+- Espirales Pasta de Garbanzos Organicas Manare — $5.490
+- Espirales Pasta de Lentejas Rojas Organicas Manare — $5.490
+- Fideos de Arroz Bifum (Tipo Fideos Chinos) — $2.200
+- Gomitas Gummy Bears Sin Azúcar – Damel — $1.990 [sin azúcar]
+- Gomitas Sour Mix Sin Azúcar – Damel — $1.990 [sin azúcar]
+- Gomitas Sweet Mix Sin Azúcar – Damel — $1.990 [sin azúcar]
+- Gomitas Trolli Ositos 80 gr — $1.200
+- Galletas María 185 gr. Noglut – Santiveri — $4.300
+- Galletas Obleas Wafer Vainilla Schar — $4.190
+- Gelatina sin sabor en polvo El Pueblo — $2.700
+- Gelatina Turbo Sabor Cereza (10 Porciones) — $850
+- Gelatina Turbo Sabor Frambuesa (10 Porciones) — $850
+- Gelatina Turbo Sabor Frutilla (10 Porciones) — $850
+- Gelatina Turbo Sabor Limón (10 Porciones) — $850
+- Gelatina Turbo Sabor Naranja (10 Porciones) — $850
+- Gelatina Turbo Sabor Piña (10 Porciones) — $850
+- Ghee Mante ghee 210 gr — $7.800
+- Grissini Palitos Schar — $6.890
+- harina de algarroba dilici — $6.390
+- Harina de avena MI TIERRA Nutrisa 400 gr — $3.990
+- Harina de Coco Ambrosia 500 gramos — $5.690
+- Harina de Quinoa Mi Tierra Nutrisa 400 gr — $3.590
+- Leche Condensada de Coco 200 gr Nature’s Charm Sin Gluten — $1.500
+- Leche de coco Lady Coconut litro — $7.990
+- Levadura Nutricional Manare copos 100 gr — $8.990
+- Levadura Saf Instant 125 gramos — $2.990
+- Linaza Mi Tierra Nutrisa 200 gr — $1.700
+- Manjar en Barra – de mi campo — $800
+- Maravilla Pelada 150 gr. Mi Tierra Nutrisa — $2.790
+- Mezcla 3 harinas 700 gr. NoGlut Nutrisa — $4.350
+- Mezcla 3 harinas El Pueblo 1 kilo — $6.600
+- Pan Mini Baguette Noglut Nutrisa No+Gluten — $5.100
+- Mini Toblerone Unidad — $350
+- Mix Pan Pizza Dilici — $6.990
+- Mizos barrita cacao — $1.100
+- Mizos barrita maní — $1.100
+- Molde Blanco NoGlut Nutrisa No+Gluten — $5.990
+- Molde Integral NoGlut Nutrisa No+Gluten — $5.990
+- Moneda de manjar – de mi campo (4 unidades) — $1.200
+- Mostacholi NOGLUT Nutrisa 250 gramos — $2.990
+- Mostaza Con Miel American Classic 340g — $3.490
+- Palitos de Mandioca Jumbo 130 gr Sabor Tomate Orégano — $4.990
+- Pascualitos 2 Unidades (Pan Pascua Individual) — $4.900
+- Pan Pita Noglut Nutrisa No+Gluten — $4.100
+- Pepinillos Pecera 1700 ml Hengstenberg — $9.390
+- Pico Dulce Display (24 unidades) — $3.990
+- Pico Dulce Display (5 unidades) — $1.200
+- Pico Dulce Pote (53 unidades) — $5.990
+- Pico dulce unidad — $200
+- Pito pito bolsa 24 unidades — $3.990
+- Pito pito unidad — $200
+- Polvo de hornear El Pueblo 100 gramos — $1.400
+- Preparado panificable Noglut Nutrisa — $7.500
+- Prepizza NoGlut Nutrisa No+Gluten 2 unidades/275 gr — $3.200
+- Mix Galletitas Nutrisa Bolsa 6 Unidades — $3.390
+- Queque Le Chocolat Dilici 300 gr VEGANO — $5.490 [vegano]
+- Quinoa Mi Tierra Nutrisa 600 gr — $5.990
+- Pulpa de Tomates 205 gr Pontevedra — $690
+- Passata Salsa de Tomates Cirio Botella 700 gramos — $3.390
+- Semilla de Zapallo Mi Tierra Nutrisa 110 gr — $2.790
+- Sesamo ajonjoli Mi tierra Nutrisa 100 gr — $1.700
+- Spaghetti NOGLUT 250 gramos — $2.990
+- Galleta Sandwich Chocolate Gullón (Tipo Frac) — $4.100
+- Dilmah – Green Tea With Jasmine, Té Verde — $2.890
+- Dilmah – Infusión Natural Rooibos – 10 bolsitas — $2.890
+- Dilmah – Infusión Rooibos con Frambuesa y Coco – 10 bolsitas — $2.890
+- Dilmah – Infusión Rooibos Verde — $2.890
+- Dilmah – Pure Chamomile Flowers, Infusión Flor Pura de Manzanilla- 10 bolsitas — $2.890
+- Dilmah – Té Ceylon – 20 bolsitas — $2.590
+- Dilmah – Té Ceylon Premium 80 Bolsitas Sustentable — $5.490
+- Dilmah – Té Negro Masala Chai – 10 bolsitas — $2.890
+- Té Ceylan en hojas El Pueblo — $2.850
+- Té Orgánico Energizante Elegant English Breakfast Pukka — $6.900
+- Té Orgánico Energizante Earl Grey Pukka — $6.900
+- Té Orgánico Energizante Original Chai Pukka — $6.900
+- Té Orgánico para Mujer Womankind Pukka — $6.900
+- Té Orgánico Relajante Chamomile Vanilla & Manuka Honey Pukka — $6.900
+- Té Orgánico Relajante Love Pukka — $6.900
+- Té Orgánico Supreme Matcha Green Pukka — $6.900
+- Tortillas de maiz Azul – Guanajuato — $2.790
+- Tortillas de maiz blanco Guanajuato — $2.790
+- Tortillas NoGlut Nutrisa No+Gluten 8 Un. 260 gr — $3.350
+- Trufas Clásicas al Cacao – AntiuXixona — $2.790
+- Turbo Benny Saborizante de Leche Chocolate 200 gramos — $1.490
+- Turbo Benny Saborizante de Leche Chocolate 500 gramos — $3.400
+- Turbo Benny Saborizante de Leche Vainilla 200 gramos — $1.490
+- Turbo Benny Saborizante de Leche Zero Azúcar Frutilla 200 gramos — $1.990
+- Turbo Gelatina en Polvo Sin Sabor — $1.200
+- Vainilla Extracto Puro 59 ml – Manare — $11.990
+- Vainilla Extracto Puro Alcohol Free 59 ml – Manare — $11.990
+- Vinagre de Manzana con Miel 500 gr Koe — $4.990
+- Vinagre de Manzana Koe 1 litro — $8.390
+- Vinagre de Manzana Koe 500 ml — $5.490
+- Vinagre de Manzana Manare 1 litro — $8.990
+- Vinagre de Vino Tinto Orgánico 500 ml Koe — $4.190
+- Alfajor bañado en chocolate (2 unidades) El Pueblo — $3.750
+- Almidón de Mandioca El Pueblo Sin Gluten — $5.150
+- Arroz Blanco Cosecha Justa — $3.450
+- Arroz Integral 500 gr – Ambrosia — $3.290
+- Arroz Integral Cosecha Justa — $3.450
+- Avena Power of Food 1 kilo — $6.900
+- Avena Power of Food 900 gramos Instantánea — $6.900
+- Avena SIN GLUTEN Mi Tierra Nutrisa 400 gr — $2.990
+- Azúcar de coco Manare 300 gramos — $4.490
+- Azúcar de coco Mi Tierra Nutrisa 250 gr. Doypack — $3.950
+- Brazo de reina El Pueblo, PRODUCTO REFRIGERADO NO DISPONIBLE PARA DESPACHO, Retiro en Tienda — $12.990
+- Brazo de Reina Especial – El Pueblo — $10.990
+- Chilenitos El Pueblo (2 unidades) — $3.750
+- Chuño El Pueblo 1 kilo — $5.150
+- Chocolate Neucober monedas cod 404 envase purpura — $8.990
+- Chocolate Neucober blanco monedas cod 410 empaque rojo — $8.990
+- Chocolate Neucober Leche cod 420 empaque celeste — $8.990
+- Cocadas El Pueblo — $3.300
+- Peptidos de Colageno 250 gr Manare — $19.990
+- Delicias El Pueblo (6 unidades) — $3.990
+- Galletas de chuño El Pueblo — $3.200
+- Galletas finas El Pueblo — $3.290
+- Galletas finas Mini El Pueblo — $1.500
+- Garbanzos con piel Cosecha Justa — $3.690
+- Goma Guar El Pueblo 50 gramos — $1.950
+- Goma Xanthan El pueblo 50 gramos — $3.790
+- Hallullas El Pueblo — $3.690
+- Harina de arroz El Pueblo 1 kilo — $3.700
+- Harina de Arroz Tucapel — $1.990
+- Harina de maíz El Pueblo 1 kilo — $3.950
+- Jarabe de Ágave 660 gramos Manare — $9.490
+- Jarabe de ágave 330 gramos Koe — $4.800
+- Jarabe de ágave 330 gramos Manare — $4.990
+- Jarabe de ágave raw 330 gramos Manare — $5.490
+- Jarabe de Maple Manare — $9.490
+- Kuchen El Pueblo, PRODUCTO REFRIGERADO NO DISPONIBLE PARA DESPACHO, Retiro en tienda — $12.990
+- Lasaña Blue Dragón Sin Gluten — $3.400
+- Leche Condensada de Coco Nature’s Charm Sin Gluten — $4.590
+- Lentejas Cosecha Justa 600 gramos — $5.100
+- Levadura Saf Instant Sin Gluten medio kilo — $4.200
+- Maicena El Pueblo 1 kilo — $3.700
+- Merenguitos El Pueblo — $3.150
+- Mini Alfajores bañados en chocolate (8 unidades) El Pueblo — $4.350
+- Mini chilenitos El Pueblo (8 unidades) — $4.350
+- Pan Baguel Linaza Dilici, Producto Congelado NO DISPONIBLE PARA DESPACHO, Solo Retiro en Tienda — $5.990
+- Pan Dilici Hamburguesa, Producto Congelado NO DISPONIBLE PARA DESPACHO, Solo Retiro en Tienda — $5.990
+- Pan Dilici Le Baguetin Linaza — $5.790
+- Pan Dilici Le Baguetin Noir — $5.790
+- Pan Dilici Le Baguetin, Producto Congelado NO DISPONIBLE PARA DESPACHO, Solo Retiro en Tienda — $5.790
+- Pan Dilici Mini Le Baguetin, Producto Congelado NO DISPONIBLE PARA DESPACHO, Solo Retiro en Tienda — $11.900
+- Hallulla Noglut Nutrisa No+Gluten (4 un) — $4.590
+- Marraqueta Dilici — $5.990
+- Molde Linaza Dilici — $5.990
+- Molde Noir Dilici — $5.990
+- Pan Hot Dog Dilici, Producto Congelado NO DISPONIBLE PARA DESPACHO, Solo Retiro en Tienda — $6.100
+- Pizza Dilici — $5.990
+- Pan Molde Dilici, Producto Congelado NO DISPONIBLE PARA DESPACHO, Solo Retiro en Tienda — $5.990
+- Pan rallado El Pueblo 200 gr — $3.490
+- Pie de limón el pueblo Producto Refrigerado NO DISPONIBLE PARA DESPACHO, Retiro en Tienda — $11.200
+- Pie de Limon individual El pueblo Producto Refrigerado NO DISPONIBLE PARA DESPACHO, Retiro en Tienda — $3.990
+- Pie de Maracuyá individual El pueblo Producto Refrigerado NO DISPONIBLE PARA DESPACHO, Retiro en Tienda — $3.990
+- Premezcla dulce El Pueblo 1 kilo — $6.200
+- Prepizza (2 unidades) El Pueblo — $2.990
+- Prestigio Vegano — $900 [vegano]
+- Queque familiar vainilla El Pueblo 230 gramos — $5.150
+- Quínoa Cosecha Justa — $5.950
+- Quínoa Orgánica 400 gramos Manare — $5.990
+- Sopaipillas para freír El Pueblo 6 un Producto congelado NO DISPONIBLE PARA DESPACHO, Solo Retiro en tienda — $3.950
+- Tagatosa tagasweet líquida 180 ml Biofoods — $3.790
+- Tagatosa Tagasweet granulada 500 gramos Biofoods — $8.200
+- Tarta de almendras El Pueblo — $5.350
+- Vinagre de Manzana — $7.490
+- Vinagre de Manzana Manare 500 ml Sin Gluten — $5.990
+
+#### Fideos
+
+- Fideos Espirales – Vivo — $3.990
+- Fideos Spaghetti 400 gr – Vivo — $3.990
+
+#### Golosinas
+
+- Flyn Paff (bolsa masticables surtidos) 128 gr — $1.590
+- Galletas de arroz bañadas dulce de leche – Deluxe — $2.990
+- Queque familiar — $3.490 [sin azúcar]
+- Queque familiar sabor vainilla (sin azúcar añadida) 200 g – Nutrisa — $3.490 [sin azúcar]
+- Galletas de arroz sabor Super Tropical Orgánico – Baby Mum Mum — $3.300
+- Queque Individual Carrot Cake – Dilici — $2.100
+
+#### Novedades
+
+- Mocktail Mojito Sin alcohol – Club Reale — $3.490
+- Mocktail Paloma Sin alcohol – Club Reale — $3.490
+- Mocktail Piña Colada Sin alcohol – Club Reale — $3.490
+- Mocktail Sangría Sin alcohol – Club Reale — $3.490
+- Mocktail Spritz Sin alcohol – Club Reale — $3.490
+- Chocolate con Leche 100 gr Sabú — $2.500
+
+#### Higiene bucal
+
+- Pasta Dental Vitis Antimanchas — $7.990
+- Enjuague Bucal Xeros Dentaid — $9.990
+- Pasta Dental Vitis Aloe Vera — $4.990
+- Pasta Dental Vitis Anticaries — $6.990
+- Pasta Dental Vitis Blanqueadora — $6.990
+- Pasta Dental Vitis CPC Protect — $4.990
+- Pasta Dental Vitis Junior — $4.300
+- Pasta Dental PHB White 75 ml — $4.990
+- Pasta Dental Vitis Kids — $4.100
+- Pasta Dental Vitis Orthodontic — $5.990
+- Pasta Dental Vitis Sensible — $6.990
+- Pasta Dental Xeros Dentaid — $6.990
+
+#### Frutos secos
+
+- Semillas de Linaza 400 gramos, Ambrosia — $5.490
+
+#### Abarrotes
+
+- Aceite de Chía 250 ml – La Custodia — $6.390
+- Aceite de Chía y Oliva 250 ml – La Custodia — $5.990
+- Aceite de Oliva 250 ml – La Custodia — $5.500
+- Aceite de Oliva 500 ml – La Custodia — $8.500
+
+#### Café
+
+- Café Cruzeiro Liofilizado Premium Intenso 170 gr — $11.490
+- Café de Grano Tostado y Molido Intenso 250 gr – Cruzeiro — $6.590
+- Café de Grano Tostado y Molido Maxima Intensidad 250 gr – Cruzeiro — $5.690
+- Té Digestivo Three Mint – Pukka — $6.900
+
+#### Comidas preparadas
+
+- Carbonada Sabores de la Pao — $4.800
+- Carne Mechada Sabores de la Pao — $8.300
+- Charquicán de Champiñones Sabores de la Pao — $4.400
+- Charquicán Sabores de la Pao — $4.500
+- Crema de Champiñones Sabores de la Pao — $4.000
+- Crema de Porotos Sabores de la Pao — $3.900
+- Crema de Zapallo y Zanahorias Sabores de la Pao — $4.100
+- Garbanzos Sabores de la Pao — $3.800
+- Lentejas al Curry Sabores de la Pao — $3.700
+- Pollo al Cognac Sabores de la Pao — $5.300
+- Pollo Arvejado Sabores de la Pao — $4.500
+- Porotos con Tocino Sabores de la Pao — $4.200
+- Porotos Granados Sabores de la Pao — $3.900
+- Quiche de Alcachofa – Sabores de la Pao — $6.400
+- Quiche de Camaron – Sabores de la Pao — $6.400
+- Quiche de Cebolla – Sabores de la Pao — $5.800
+- Quiche de Champiñon – Sabores de la Pao — $5.800
+- Quiche de Pollo y Cebolla Sabores de la Pao — $5.800
+- Tomaticán Sabores de la Pao — $5.400
+
+#### Picoteo
+
+- Chips centrifugados Papas Nativas 50 gr – Wania — $1.100
+
+#### Keto
+
+- Chocolate Negro 60% Cacao Sin Azúcar – Keto Friendly – 100 gr – Torras — $5.490 [sin azúcar]
+- Chocolate Negro con Menta Sin Azúcar 35 gr – Torras — $2.200 [sin azúcar]
+- Chocolate Negro con Naranja Sin Azúcar 35 gr – Torras — $2.200 [sin azúcar]
+- Chocolate Torras Zero 72% Cacao – Keto Friendly – 100 gr — $5.490
+- Chocolate Torras Zero 85% Cacao – Keto Friendly – 100 gr — $5.490
+- Eritritol Pocket 150 gr Ambrosía — $2.890
+- Goma Xanthan 150 gr Ambrosía — $4.790
+- Keto Choc 420 gr. (Mantequilla de Maní con Cacao) Ambrosía — $6.800
+- Mantequilla de Almendras 420 gr. Ambrosía — $12.900
+- Muffin Keto Vainilla P&M Foods — $3.190
+- Sal Rosada del Himalaya Fina 500 gr Ambrosía — $2.790
+- Sal Rosada del Himalaya Pocket Fina 250 gr Ambrosía — $1.590
+
+#### Repostería
+
+- Colorante Gel Black Diamond Chefmaster 20 gr — $3.990
+- Colorante Gel Buckeye Brown Chefmaster 20 gr — $3.990
+- Colorante Gel Avocado Chefmaster 20 gr — $3.990
+- Colorante Gel Christmas Red Chefmaster 20 gr — $3.990
+- Colorante Gel Fuchsia Chefmaster 20 gr — $3.990
+- Colorante Gel Neon Brite Orange Chefmaster 20 gr — $3.990
+- Colorante Gel Neon Brite Purple Chefmaster 20 gr — $3.990
+- Colorante Gel Royal Blue Chefmaster 20 gr — $3.990
+- Colorante Gel Super Red Chefmaster 20 gr — $3.990
+- Colorante Gel Turquoise Chefmaster 20 gr — $3.990
+- Colorante Gel Violet Chefmaster 20 gr — $3.990
+- Colorante Gel Georgia Peach Chefmaster 20 gr — $3.990
+- Colorante Gel Gold Chefmaster 20 grs — $3.990
+- Colorante Gel Golden Yellow Chefmaster 20 gr — $3.990
+- Colorante Gel Mint Green Chefmaster 20 gr — $3.990
+- Colorante Gel Navy Blue Chefmaster 20 gr — $3.990
+- Colorante Gel Neon Brite Blue Chefmaster 20 gr — $3.990
+- Colorante Gel Neon Brite Green Chefmaster 20 gr — $3.990
+- Colorante Gel Neon Brite Pink Chefmaster 20 gr — $3.990
+- Colorante Gel Neon Brite Yellow Chefmaster 20 gr — $3.990
+- Colorante Gel Sky Blue Chefmaster 20 gr — $3.990
+
+#### Condimentos
+
+- Hierbas Provenzales 226 gr – Badia — $10.990
+- Albahaca 113,4 gramos – Badia — $7.200
+- Canela en Polvo 453,6 gramos – Badia — $15.990
+- Condimento para fajitas 269,3 gramos – Badia — $10.890
+- Mojo Rub 141,7 gramos – Badia — $8.490
+- Sazon Tropical 191,4 gramos – Badia — $7.990
+- Sazonador Para Aves 155,9 gramos – Badia — $7.990
+- Seafood Seasoning/Sazón Productos del Mar 127,6 gramos – Badia — $7.890
+- Ajo y Perejil en Polvo 141,7 gramos – Badia — $7.900
+- Harlem Ajo con Pimienta 170,1 gramos – Badia — $8.990
+- Pimienta Limón 184,3 gramos – Badia — $7.990
+- Pimienta Limón 680,4 gramos – Badia — $15.690
+- Pimienta Naranja 737 gramos – Badia — $18.600
+- Sumac 134,6 gramos – Badia — $9.890
+
+#### Harinas
+
+- Mezcla – Base Lista Para Bizcocho 1 Kilo – Extrumol — $4.490
+
+#### Congelados
+
+- Pastel de 3 leches – El Pueblo — $3.600
+- Pastel de Frutos Rojos – El Pueblo — $3.200
+
+#### Chocolate
+
+- Chocolate 72% cacao sin azúcar 100 gr – Clavileño — $4.890 [sin azúcar]
+- Chocolate 85% cacao sin azúcar 100 gr – Clavileño — $4.990 [sin azúcar]
+
+#### Pan
+
+- Dobladita (4 unidades) – Tasty Free — $5.790
+- Pan Amasado (4 unidades) – Tasty Free — $5.790
+
+#### Dieciocho
+
+- Ají Triturado (Red Pepper) 127.6 gramos – Badia — $7.690
+- Ajo Asado En Polvo 170.1 gramos – Badia — $8.200
+- Masa empanadas (6 unidades) El Pueblo, Producto congelado NO DISPONIBLE PARA DESPACHO, Solo Retiro en Tienda — $3.800
+- Ajo en polvo 155 gr – Badia — $6.990
+- Cebolla En Polvo 141.7 gramos – Badia — $6.990
+- Cebolla Picada 155,9 gramos – Badia — $8.290
+- Cilantro 99,2 gramos – Badia — $9.350
+- Comino molido 113 gr – Badia — $6.690
+- Condimento Para Carnes (Steak Seasoning) 184.3 gramos – Badia — $7.990
+- Oregano 155 gr – Badia — $9.690
+- Perejil 56,7 gramos – Badia — $9.350
+- Sazón Completa 340.2 gramos – Badia — $9.890
+- Pimienta Negra Gruesa 99.2 gramos – Badia — $8.990
+- Ají de Color – El Pueblo — $1.700
+- Ajo en polvo El Pueblo — $1.500
+- Comino molido El Pueblo 50 gramos — $1.600
+- Oregano El Pueblo — $1.600
+- Pimienta molida El Pueblo — $2.300
+- Empanadas Napolitanas El Pueblo — $5.700
+
+#### Otros
+
+- Puffs Mini Cereal Manzana Arándano – Kuna — $750
+
+#### Quesos y lácteos
+
+- Queso Matthei Mantecoso Laminado 250 Gramos Producto Refrigerado NO DISPONIBLE PARA DESPACHO SOLO RETIRO EN TIENDA — $4.290
 
 
 ## Bonheur Keto Patisserie
@@ -4541,21 +5395,68 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** panqueque, torta, pastel, galleta, brownie, chocolate, postre
 - **Menciona en reseñas:** pastel, brownie
 - **Fecha de registro:** 2025-11-05
+- **Dietético:** 3 platos sin gluten
 
 ### Qué vende
 
-- Torta Kleine Nuss
+- Pasteles
+- Tortas alemanas
+- Tortas de panqueques
+- Tortas de chocolate
+- Tortas de vainilla
 
 
 ### Carta
 
-#### Torta Kleine Nuss
+#### Pasteles
 
-- Torta Kleine Nuss 10 pers — $28.800
-- Torta Kleine Nuss 15 pers — $37.500
-- Torta Kleine Nuss 20 pers — $46.500
-- Torta Kleine Nuss 30 pers — $61.300
-- Torta Kleine Nuss 40 pers — $74.000
+- Pie de Limón — $3.300
+- Kuchen de frambuesa — $3.300
+- Kuchen de Nuez — $3.300
+- Kuchen de Manzanas — $3.300
+- Kuchen de Ciruelas — $3.300
+- Streusel de Arándanos — $3.300
+- Sin gluten Sin azúcar — $3.800 [sin azúcar, sin gluten]
+- Sin Leche Sin Azúcar y Sin Gluten — $3.800 [sin azúcar, sin gluten]
+- Sin gluten Sin azúcar sin lácteos — $3.800 [sin azúcar, sin gluten]
+
+#### Tortas alemanas
+
+- Cobertura — $37.500
+- Ciruelas — $37.500
+- Morocha — $37.500
+- Nuss — $37.500
+- Merengue — $37.500
+
+#### Tortas de panqueques
+
+- Chocolate Manjar Café — $39.500
+- Naranja Mazapán — $39.500
+- Naranja Manjar — $39.500
+- Manjar Nuez — $39.500
+- Manjar Frambuesa — $39.500
+- Lúcuma Manjar — $39.500
+- Almendra — $39.500
+
+#### Tortas de chocolate
+
+- Sueca — $34.000
+- Estocolmo — $34.000
+- Holandesa — $34.000
+- Belga — $34.000
+- Selva Negra — $34.000
+- Alemana — $34.000
+- Romántica — $34.000
+
+#### Tortas de vainilla
+
+- Deliciosa — $34.500
+- Piña Nevada — $34.500
+- Berlín — $34.500
+- Hamburgo — $34.500
+- Otoño — $34.500
+- Amor — $34.500
+- Sabor Niño — $34.500
 
 
 ## Pastelería La Celeste
