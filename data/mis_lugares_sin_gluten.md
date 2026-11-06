@@ -77,6 +77,98 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Asado
 
 
+## Ambika Indian Restaurant
+- **Ubicación:** No disponible
+- **Categoría:** Restaurante indio
+- **Valoración:** 4.7 / 5
+- **Enlace:** https://www.google.com/maps?cid=10910428577145163712
+- **Fecha de registro:** 2026-11-06
+
+### Qué vende
+
+- Pollo
+- PLATOS DE CAMARÓN
+- TÉ CALIENTE
+- CAFÉS
+- BEBIDAS
+- JUGOS
+- BEBIDAS CON LACTEOS
+
+
+### Carta
+
+#### Pollo
+
+- Chicken curry — $12.900
+- Murg shahi korma — $12.900
+- Chicken kadai — $12.900
+- Butter chicken — $12.900
+- Chicken tikka masala — $12.900
+- Chicken angara — $12.900
+- Palak chicken — $12.900
+- Chicken Kofta con glúten — $12.990
+
+#### PLATOS DE CAMARÓN
+
+- Prawns shahi korma — $13.900
+- Prawns curry — $13.900
+
+#### TÉ CALIENTE
+
+- Masala Chai (Indú) — $4.500
+- Tea Verde — $4.200
+- English Breakfast Tea — $4.200
+- Tea de Menta — $4.200
+- Tea de Manzanilla — $4.200
+- Tea Chai Indú — $4.200
+- Tea Jasmine — $4.200
+- Tea Hibiscus — $4.200
+
+#### CAFÉS
+
+- Expresso — $2.500
+- Cortado — $2.800
+- Americano — $2.800
+- Doble Expresso — $4.200
+- Capuchino — $3.800
+- Café Latte — $3.900
+- Café Indú (con leche) — $3.900
+- Mocaccino — $4.100
+- Hot Chocolate — $4.200
+- Ice Chocolate — $4.500
+- Ice Coffee — $4.500
+- Nutella Hot Chocolate — $4.900
+
+#### BEBIDAS
+
+- Coca Cola — $2.500
+- Coca Cola sin azúcar — $2.500 [sin azúcar]
+- Sprite — $2.500
+- Sprite sin azúcar — $2.500 [sin azúcar]
+- Agua sin gas — $2.500
+- Agua con gas — $2.500
+- Kombucha — $4.000
+
+#### JUGOS
+
+- Limonada — $3.900
+- Limonada con menta y jengibre — $4.200
+- Piña — $4.200
+- Maracuyá — $4.200
+- Chirimoya — $4.200
+- Frambuesa — $4.200
+- Frutilla — $4.200
+- Mango con azafrán — $4.500
+- Naranja fresco natural — $4.500
+
+#### BEBIDAS CON LACTEOS
+
+- Dulce Lassi — $4.500
+- Mango Lassi — $4.500
+- Raspbarry Lassi — $4.500
+- Salty Lassi — $4.500
+
+
 ## Açaí Experience
 - **Ubicación:** Av. Los Leones 2605, Local 103, 7511172 Providencia, Región Metropolitana
 - **Categoría:** Heladería
@@ -3480,6 +3572,169 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Carne Mechada Queso — $15
 
 
+## CARNALES
+- **Ubicación:** 5 Nte. 364, 2520190 Viña del Mar, Valparaíso
+- **Categoría:** Restaurante mexicano
+- **Valoración:** 4.4 / 5
+- **Enlace:** https://www.google.com/maps?cid=15719213249658519912
+- **Fecha de registro:** 2026-11-06
+
+### Qué vende
+
+- CERVEZAS
+- PISCO SOUR
+- VODKA
+- MARGARITA
+- MOJITO
+- PISCO + bebida
+- WHISKY
+- REFRESCOS Y JUGOS NATURALES
+- TÉ, INFUSIONES Y CAFÉ
+- IRRESISTIBLES
+- TACOS
+- PAPAS RÚSTICAS
+- Veganas
+- NACHOS
+- BURRITOS
+- BURRITOS DE LA CASA
+- QUESADILLAS
+- TACOS X 2 CASEROS Y SIN GLUTEN
+- HUEVOS ESTRELLADOS
+- ENSALADAS
+- APPETIZER
+
+
+### Carta
+
+#### CERVEZAS
+
+- SCHOP 500 CC BARÓN — $3.700
+- SCHOP 500 CC ALTAMIRA — $3.700
+- CORONA INDIVIDUAL — $2.500
+- KUNSTMANN 500 CC — $3.700
+- SHOT PARA TU SCHOP — $1.000
+
+#### PISCO SOUR
+
+- Pisco Sour normal — $3.000
+- Pisco Sour menta/jengibre — $4.500
+- Pisco Sour variedades — $4.500
+
+#### VODKA
+
+- STOLYCHNAYA — $3.500
+- ABSOLUT ORIGINAL — $4.500
+- ABSOLUT SABORES — $5.000
+
+#### MARGARITA
+
+- Margarita NORMAL — $4.000
+- Margarita SABORES — $5.000
+
+#### MOJITO
+
+- Mojito normal — $4.500
+- Mojito sabores — $5.500
+- Mojito sin alcohol SABORES — $3.800
+
+#### PISCO + bebida
+
+- Mistral / Alto del Carmen — $3.500
+- Malpaso — $4.500
+- Horcón Quemado — $5.500
+- Bou Barroeta — $6.500
+
+#### WHISKY
+
+- Johnnie Walker Red Label — $4.500
+- Johnnie Walker Black Label — $6.500
+
+#### REFRESCOS Y JUGOS NATURALES
+
+- Agua de Jamaica — $2.100
+- Té Frío con Limón — $2.100
+- Limonada Menta Jengibre — $2.200
+- Té Frío Limón Variedades — $2.400
+- Agua de Horchata — $2.100
+- Vitamina Naranja — $3.300
+- Jugo Una Fruta — $2.200
+- Bebida Individual — $1.000
+- Bebida Coca Y Sprite 350cc — $1.500
+- Botella De Agua — $1.500
+
+#### TÉ, INFUSIONES Y CAFÉ
+
+- Tetera té de hoja — $1.500
+- Té naranja canela — $1.900
+- Té limón jengibre — $1.900
+- Agua de hierbas — $1.500
+- Café americano — $1.500
+- Capuccino — $1.700
+- Café cortado — $1.500
+- Café expreso — $1.400
+- Expreso doble — $2.200
+
+#### IRRESISTIBLES
+
+- Burritos Irresistibles
+- Quesadillas Irresistibles
+
+#### TACOS
+
+- Al pastor
+- De queso
+- Clásicas y enchiladas
+
+#### PAPAS RÚSTICAS
+
+- Estrellados
+- Cheddar jalapeño
+- De la casa
+- Carne
+- Bravas
+
+#### NACHOS
+
+- Chilaquiles
+- Con chile
+- Con queso y guacamole
+- NACHOS CON CHILE PICANTE
+
+#### BURRITOS
+
+- BURRITOS
+
+#### BURRITOS DE LA CASA
+
+- MOCTEZUMA
+- PANCHO VILLA
+- FRIDA KAHLO
+- ELIGE TÚ POLLO
+- ELIGE TÚ CARNE
+- ELIGE TÚ VERDURAS SALTEADAS
+- ELIGE TÚ BERENJENAS
+- ELIGE TÚ CHAMPIÑONES
+- ELIGE TÚ CAMARONES (+) — $1.000
+- ELIGE TÚ PAPAS RÚSTICAS
+- ELIGE TÚ ENSALADA
+
+#### QUESADILLAS
+
+- QUESADILLAS
+
+#### HUEVOS ESTRELLADOS
+
+- HUEVOS ESTRELLADOS
+
+#### ENSALADAS
+
+- CESAR Ensalada de lechugas
+
+#### APPETIZER
+
+- NACHOS
+
+
 ## Casa Juliet
 - **Ubicación:** Av. Pocuro 3015, 7510712 Providencia, Región Metropolitana
 - **Enlace:** https://www.google.com/maps?cid=10416907072710934038
@@ -5339,6 +5594,25 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Focaccia XL — $5.990
 
 
+## Dulces Rufiko
+- **Ubicación:** 7 Nte. 469, 2520000 Viña del Mar, Valparaíso
+- **Categoría:** Pastelería
+- **Valoración:** 4.8 / 5
+- **Enlace:** https://www.google.com/maps?cid=8863494916280658664
+- **Fecha de registro:** 2026-11-06
+
+### Qué vende
+
+- PROMO JUNAEB
+
+
+### Carta
+
+#### PROMO JUNAEB
+
+- MOCHIS a elección — $4.000
+
+
 ## Dónde El Guatón
 - **Ubicación:** Brasil 750, 1700000 La Serena, Coquimbo
 - **Categoría:** Restaurante chileno
@@ -5427,6 +5701,145 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - SUPREMA DE AVE A LAS BRASAS — $9.250
 - TRUTRO 1/4 A LAS BRASAS — $7.800
+
+
+## El Patio Cafe
+- **Ubicación:** No disponible
+- **Categoría:** Cafetería
+- **Valoración:** 4.5 / 5
+- **Enlace:** https://www.google.com/maps?cid=9080931698970268126
+- **Fecha de registro:** 2026-11-06
+
+### Qué vende
+
+- CAFE
+- TOSTADAS
+- BOWLS Y MAS
+- LATTES Y TÉ
+- SANDWICHES
+- PASTELERIA
+- BEBESTIBLES
+- CALIENTE
+- FRÍO
+- JUGOS
+- POSTRES
+
+
+### Carta
+
+#### CAFE
+
+- ESPRESSO — $2.500
+- MACCHIATO — $3.300
+- FILTRADO — $4.000
+- LATTE — $4.000
+- LATTE VAINILLA — $4.500
+- EL SUCIO — $4.500
+- LATTE FRIO — $4.500
+- AMERICANO — $2.700
+- FLAT WHITE — $3.500
+- CAPPUCCINO — $3.500
+- MOCACCINO — $4.500
+- AFFOGATO — $5.900
+- ESPRESSO TONIC — $5.900
+
+#### TOSTADAS
+
+- PALTA — $6.900
+- JAMON PALTA — $7.500
+- HUMMUS PALTA — $7.200
+- PALTA HUEVO — $7.500
+
+#### BOWLS Y MAS
+
+- ACAI BOWL — $8.500
+- KEFIR BOWL — $7.900
+- PORRIDGE DE AVENA — $7.900
+- LAS FRANCHUTE — $7.500
+
+#### LATTES Y TÉ
+
+- CHOCOLATE CALIENTE — $4.000
+- TURMERIC LATTE — $4.000
+- CHAI LATTE — $4.000
+- MATCHA LATTE — $4.000
+- CHAI LATTE FRIO — $4.500
+- MATCHA LATTE FRIO — $4.500
+
+#### SANDWICHES
+
+- REÑACON — $8.500
+- BLACK BEACH — $8.900
+- LITTLE ITALY — $8.900
+- JAMON QUESO — $7.900
+- EL OMELETTE — $9.500
+
+#### PASTELERIA
+
+- GALLETON — $3.000
+- BANANA BREAD — $3.000
+- CRUFFIN — $4.000
+- ROLLITO DE CANELA — $3.500
+- SHORTBREAD TOFFEE — $4.500
+- GALLETON CHIPS — $3.500
+- PAN DE CHOCOLATE — $3.500
+- SNICKER — $3.000
+- VONOVON — $2.500
+- QUEQUE — $3.500
+
+#### BEBESTIBLES
+
+- KOMBUCHA KOMBUCHU — $3.500
+- JUGO DEL DIA — $3.500
+- AGUA MINERAL — $2.500
+
+#### CALIENTE
+
+- ESPRESSO — $3.000
+- AMERICANO — $3.000
+- MACCHIATO — $3.500
+- FILTRADO — $5.000
+- LATTE — $4.500
+- LATTE VAINILLA — $5.000
+- FLAT WHITE — $3.900
+- EL SUCIO — $5.000
+- CAPPUCCINO — $3.900
+- MOCACCINO — $5.000
+- CHAI LATTE — $4
+- CHOCOLATE — $4
+- TURMERIC LATTE — $4
+- MATCHA LATTE — $5
+- TÉ e INFUSIONES — $3
+
+#### FRÍO
+
+- COLD BREW — $5.000
+- AFFOGATO — $6.000
+- HIBISCUS — $6.000
+- BERRY LUNAR — $6.000
+- ESPRESSO TONIC — $6.000
+- ESPRESSO NARANJA — $4.500
+- LATTE VAINILLA FRIO — $5.000
+- MOCCA FRIO — $5.000
+- CHAI LATTE FRIO
+- MATCHA FRAMBUESA
+- MATCHA LATTE FRIO
+- MATCHA NARANJA
+- JUGO NATURAL
+- AGUA MINERAL
+
+#### JUGOS
+
+- MATANZAS NARANJA MANZANA BETARRAGA MENTA — $350
+- EL PATIO NARANJA ZANAHORIA JENGIBRE — $350
+- RINCONADA MANZANA KIWI KALE — $350
+- PULLAY MANZANA PIÑA KALE — $350
+- REÑACA MANZANA BETARRAGA PIÑA — $350
+- CACHOS NARANJA ZANAHORIA PLATANO MENTA JENGIBRE — $350
+
+#### POSTRES
+
+- PERAS AL VINO PERAS COCIDAS AL VINO TINTO CON CREMA MONTADA — $4.900
 
 
 ## Emporio de la Tierra
@@ -6720,6 +7133,52 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Panecillos Tostados
 
 
+## La Brioche Bakery & Café
+- **Ubicación:** 13 Nte. 716, 2530947 Viña del Mar, Valparaíso
+- **Categoría:** Panadería
+- **Valoración:** 4.7 / 5
+- **Enlace:** https://www.google.com/maps?cid=14339222801021062144
+- **Fecha de registro:** 2026-11-06
+
+### Qué vende
+
+- COMPLETOS
+- CHAMPIPLETOS
+- PIZZAS
+- SÁNDWICHERÍA PERUANA
+
+
+### Carta
+
+#### COMPLETOS
+
+- COMPLETO ITALIANO — $4.900
+- COMPLETO CON TODO — $5.900
+- AS CHURRASCO — $6.900
+
+#### CHAMPIPLETOS
+
+- CHAMPIPLETO CLÁSICO — $5.900
+- CHAMPIPLETO CON TODO — $6.900
+
+#### PIZZAS
+
+- PIZZA DE LA CASA — $12.900
+- PIZZA VEGETARIANA — $9.990
+- PIZZA PORTEÑA — $12.900
+- PIZZA DEL MAR — $14.990
+- PIZZA HAWAIANA — $9.900
+- PIZZA PEPPERONI — $9.900
+
+#### SÁNDWICHERÍA PERUANA
+
+- CHICHARRÓN DE CERDO — $8.900
+- POLLO SALTADO — $8.900
+- BUTIFARRA PERUANA — $8.900
+- LOMO A LO POBRE — $9.900
+- LOMO SALTADO — $9.900
+
+
 ## La casita Myfoods - gluten free
 - **Ubicación:** Los Maitenes 2380, 7510487 Providencia, Región Metropolitana
 - **Categoría:** Cafetería
@@ -7084,6 +7543,123 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 #### Barras
 
 - Barra Nuez Manjar — $4.890
+
+
+## Le Grenier Cafetería
+- **Ubicación:** Av. Borgoño 15460, 2520000 Viña del Mar, Valparaíso
+- **Categoría:** Cafetería
+- **Valoración:** 4.3 / 5
+- **Enlace:** https://www.google.com/maps?cid=10023942382296147388
+- **Fecha de registro:** 2026-11-06
+- **Dietético:** 1 platos sin gluten
+
+### Qué vende
+
+- Promo Postres 30% OFF
+- Keto/Sin Gluten/Azúcar
+- pancakes
+- Tostadas Y Panadería
+- Huevos Y Brunch
+- Croissants Rellenos
+- Sandwiches Gourmet
+- Pastelería Artesanal
+- Cafetería
+- Cafés Fríos
+- Matcha
+- Jugos
+
+
+### Carta
+
+#### Promo Postres 30% OFF
+
+- Cheesecake de Maracuya — $4.270
+- Torta Amor — $5.530
+- Tres Leches — $4.270
+- Tarta de Chocolate — $4.270
+- Tarta de Prestigio — $5.530
+- Tarta Vasca — $4.270
+- Cheese Cake Keto (Sin Azucar) — $6.020 [sin azúcar]
+- Torta Humeda de Chocolate — $4.270
+- Croissant de Manjar — $4.200
+- Croissant de Chocolate — $4.200
+
+#### Keto/Sin Gluten/Azúcar
+
+- Cheesecake de Keto — $8.600 [sin gluten]
+
+#### pancakes
+
+- Pancakes Clásicos Artesanales — $7.400
+
+#### Tostadas Y Panadería
+
+- Tostada Clásico Palta Y Huevo — $11.900
+- Tostada Palta Huevo Pochado y Holandesa — $14.500
+- Tostada de Palta — $6.600
+- Tostada Palta Y Cabra — $10.600
+- Croissant Jamón Y Queso — $8.500
+- Croissant Genovés — $10.600
+- tostadas francesa — $8.000
+
+#### Huevos Y Brunch
+
+- Huevos Revueltos Clásicos — $5.900
+- Huevos Revueltos Y Tocino — $9.700
+- Huevos Revueltos Y Setas — $8.500
+- Huevos Revueltos con Palta — $8.500
+- Plato Le Grenier — $12.100
+- Huevos Pochados — $10.700
+
+#### Croissants Rellenos
+
+- Croissant Pistacho — $6.000
+- Croissant Manjar — $6.000
+
+#### Sandwiches Gourmet
+
+- Sandwich Serrano Y Pesto — $14.500
+- Sandwich Croissant del Mar — $13.200
+- Ave Y Palta — $10.900
+- Sandwich Caprese del Huerto — $12.000
+- Sandwich Pastrami Y Dijon — $14.500
+
+#### Pastelería Artesanal
+
+- Torta 3 Leches — $6.100
+- Torta Amor — $7.900
+- Tartaleta de Chocolate — $6.100
+- Tarta Vasca — $6.100
+- Tarta de Prestigio — $7.900
+- Cheesecake de Maracuyá — $6.100
+- Torta Húmeda de Chocolate — $6.100
+
+#### Cafetería
+
+- Espresso — $1.900
+- Americano — $3.600
+- Cortado — $3.600
+- Cappuccino — $4.300
+- Latte — $4.600
+
+#### Cafés Fríos
+
+- Late Frío — $4.800
+- Chai Latte Frío — $4.800
+- Mojito Espresso — $4.800
+- Café Helado — $6.100
+- Frappuccino Nutella — $7.900
+
+#### Matcha
+
+- Matcha Latte — $4.400
+- Matcha Frappe — $4.600
+
+#### Jugos
+
+- Jugo de Naranja — $6.600
+- Jugo de Mango — $6.600
+- Jugos de Frutilla — $6.600
 
 
 ## Lemongrass
@@ -7714,6 +8290,116 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Uni Ikura Gunkan — $7.000
 
 
+## Nogaró
+- **Ubicación:** No disponible
+- **Categoría:** Marisquería
+- **Valoración:** 4.2 / 5
+- **Enlace:** https://www.google.com/maps?cid=2062776231944323794
+- **Fecha de registro:** 2026-11-06
+
+### Qué vende
+
+- SUGERENCIAS TIERRA
+- SUGERENCIAS MAR
+- PESCADOS
+- NUESTRA PARRILLA
+- SALSAS
+- GUARNICIONES
+- ENSALADAS
+- MENÚ NIÑOS
+- ENSALADAS ESPECIALES
+
+
+### Carta
+
+#### SUGERENCIAS TIERRA
+
+- Risotto Vegetariano a la Crema — $17.500
+- Filete Saltado — $18.500
+- Beef Bourguignon (Receta Francesa) — $18.500
+- Filete Nogaró — $22.500
+- Filete Alioli con Ñoqui Artesanal — $23.500
+- Garrón de Cordero — $27.500
+
+#### SUGERENCIAS MAR
+
+- Papillot de Merluza Austral — $19.500
+- Congrio Frito con papas fritas — $18.000
+- Merluza a la Huancaina — $19.500
+- Salmón en Costra de Miel y Jengibre — $19.500
+- Salmón Chilote — $19.500
+- Albacora con Salsa de Camarones — $19.500
+- Curry Rojo de Camarón — $19.500
+- Chupe de Loco Gratinado — $19.500
+- Chupe de Jaiba Gratinado — $19.500
+- Caldillo de Congrio Nerudiano — $19.500
+- Atún Sellado con Semillas Silvestres — $21.500
+- Fetuccini de Espinacas con Salmón — $21.500
+- Paila Marina Nogaró — $21.500
+- Risotto Frutti Di Mare — $21.500
+- Tricornio de Chupe de Vegetales — $23.500
+
+#### PESCADOS
+
+- Albacora (Grille) — $13.000
+- Merluza (Grille o Frita) — $13.000
+- Salmón (Grille) — $13.000
+- Congrio (Frito) — $14.000
+- Atún (Grille Inglesa) — $14.000
+
+#### NUESTRA PARRILLA
+
+- Pollo Deshuesado — $14.000
+- Filete de Res (250 gr) — $17.000
+- Bife Chorizo (500 gr) — $24.000
+- Pulpo a la Parrilla — $24.000
+- Entrecot — $42.000
+
+#### SALSAS
+
+- Salsa Champiñones a la crema — $6.000
+- Salsa de Curry Rojo — $6.000
+- Salsa Maître d'Hôtel a la oliva/crema — $6.000
+- Salsa Camarones a la oliva/crema — $7.000
+- Salsa 3 Mariscos a la oliva/crema — $8.000
+
+#### GUARNICIONES
+
+- Arroz — $4.500
+- Puré — $4.500
+- Papas Fritas — $5.000
+- Papas Rústicas — $5.000
+- Puré Rústico — $5.000
+- Chifonada de Vegetales — $5.500
+- Papas Mayo — $5.500
+- Pastelera de Choclo — $5.500
+- Brócoli a la Crema y Parmesano — $6.500
+- Risotto de Champiñones — $7.500
+- Champiñones Salteados — $7.500
+
+#### ENSALADAS
+
+- Ensalada Chilena — $7.500
+- Ensalada Verde — $7.500
+- Ensalada Mixta — $8.000
+- Ensalada Palta Palmito — $9.000
+- Ensalada Apio Palta — $9.000
+- Extras Fríos Tomate cherry o palta o palmito — $5.500
+
+#### MENÚ NIÑOS
+
+- Strips de Pollo — $10.500
+- Salmón Grille — $11.500
+
+#### ENSALADAS ESPECIALES
+
+- Ensalada César Pollo — $16.500
+- Ensalada de Quinoa — $17.500
+- Ensalada César Camarón — $17.500
+- Ensalada de Atún Aleta Amarilla — $17.500
+- Ensalada de Nuestro Mar — $22.000
+
+
 ## P.F. Chang's
 - **Ubicación:** Av. Pdte. Kennedy 5413, Local 362, Piso 1, 7560994 Las Condes, Región Metropolitana
 - **Categoría:** Restaurante asiático
@@ -8158,6 +8844,13 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Flora — $22.000 [sin gluten]
 - Torta vegana de chocolate y frambuesa con azúcar — $22.000 [sin gluten, vegano]
 
+
+## Pastelería Saludable Neusa
+- **Ubicación:** 6 Nte. 829, 2520729 Viña del Mar, Valparaíso
+- **Categoría:** Pastelería
+- **Valoración:** 4.3 / 5
+- **Enlace:** https://www.google.com/maps?cid=9420130345546503463
+- **Fecha de registro:** 2026-11-06
 
 ## Patagonia Schokoland
 - **Ubicación:** Av. Francisco Bilbao 2512, 7550170 Providencia, Región Metropolitana
@@ -9102,6 +9795,36 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - EXTRA — $2.500 [sin gluten, sin lactosa]
 
 
+## Restaurante Roof Burger
+- **Ubicación:** 6 Norte 309 esquina 4 poniente, Viña del Mar, Valparaíso
+- **Categoría:** Restaurante
+- **Valoración:** 4.4 / 5
+- **Enlace:** https://www.google.com/maps?cid=6524403543540202213
+- **Fecha de registro:** 2026-11-06
+
+### Qué vende
+
+- ROOF BURGER
+- Promociones
+
+
+### Carta
+
+#### ROOF BURGER
+
+- BBQ BURGER + PAPAS — $6.995
+- CLASSIC BURGER + PAPAS — $7.693
+- ONION BURGER + PAPAS — $7.413
+
+#### Promociones
+
+- BBQ (Incluye Papas y alioli) — $14.990
+- ROOF + Papas + Bebida — $10.990
+- Classic + Papas + Bebida — $9.990
+- Cheddar + Papas + Bebida — $9.990
+- Tasty + Papas + Bebida — $9.990
+
+
 ## Restoran Pinpilinpausha
 - **Ubicación:** Isidora Goyenechea 2900, 7550033 Las Condes, Región Metropolitana
 - **Categoría:** Restaurante de cocina española
@@ -9183,6 +9906,57 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Burrito Keto (GF)
 - Burrito Cariota
 - Burrito Chick
+
+
+## Sativo Resto-Bar
+- **Ubicación:** No disponible
+- **Categoría:** Restaurante especializado en fusión asiática
+- **Valoración:** 4.5 / 5
+- **Enlace:** https://www.google.com/maps?cid=4970966052134619664
+- **Fecha de registro:** 2026-11-06
+
+### Qué vende
+
+- Tablas y Brusquetas
+- Happy Hour
+- PRODUCTO
+
+
+### Carta
+
+#### Tablas y Brusquetas
+
+- Tabla Sativo — $24.900
+- Tartar de Res — $12.900
+- Tartar de Atún — $12.900
+- Montadito de Longa — $9.900
+- Montadito de jamón — $9.900
+- Tartar de Salmón — $12.900
+- Vegetales Al curry — $7.900
+
+#### Happy Hour
+
+- Alto 35° Mistral 35° — $2.500
+- Ruta de la Tapa B. Poniente. Ultimo jueves de Cada Mes — $5.000
+
+#### PRODUCTO
+
+- Me acordé del Verano — $4.500
+- +Fuerte - Seco — $2.000
+- Menú Semanal — $12.900
+- +Ensalada Mediterránea
+- +Schop Pequeño
+- Pan
+- Que elegancia la de francia — $5.940
+- Sangría Sativo — $3.600
+- +Fuerte o Seco — $1.000
+- +2 x Fuerte o Seco — $2.000
+- Mechada Sativa — $9.900
+- +Ciabatta
+- +Tostado al Horno
+- +Sal normal
+- Falafel — $8.900
+- +Gnocchis con salsa de cham
 
 
 ## SERSAYAAN ALIMENTOS SIN GLUTEN
@@ -10668,777 +11442,3 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - TORTA 5 LECHES — $4.500
 - MOUSSE FRUTILLA — $4.500
-
-
-## Ambika Indian Restaurant
-- **Ubicación:** No disponible
-- **Categoría:** Restaurante indio
-- **Valoración:** 4.7 / 5
-- **Enlace:** https://www.google.com/maps?cid=10910428577145163712
-- **Fecha de registro:** 2026-11-06
-
-### Qué vende
-
-- Pollo
-- PLATOS DE CAMARÓN
-- TÉ CALIENTE
-- CAFÉS
-- BEBIDAS
-- JUGOS
-- BEBIDAS CON LACTEOS
-
-
-### Carta
-
-#### Pollo
-
-- Chicken curry — $12.900
-- Murg shahi korma — $12.900
-- Chicken kadai — $12.900
-- Butter chicken — $12.900
-- Chicken tikka masala — $12.900
-- Chicken angara — $12.900
-- Palak chicken — $12.900
-- Chicken Kofta con glúten — $12.990
-
-#### PLATOS DE CAMARÓN
-
-- Prawns shahi korma — $13.900
-- Prawns curry — $13.900
-
-#### TÉ CALIENTE
-
-- Masala Chai (Indú) — $4.500
-- Tea Verde — $4.200
-- English Breakfast Tea — $4.200
-- Tea de Menta — $4.200
-- Tea de Manzanilla — $4.200
-- Tea Chai Indú — $4.200
-- Tea Jasmine — $4.200
-- Tea Hibiscus — $4.200
-
-#### CAFÉS
-
-- Expresso — $2.500
-- Cortado — $2.800
-- Americano — $2.800
-- Doble Expresso — $4.200
-- Capuchino — $3.800
-- Café Latte — $3.900
-- Café Indú (con leche) — $3.900
-- Mocaccino — $4.100
-- Hot Chocolate — $4.200
-- Ice Chocolate — $4.500
-- Ice Coffee — $4.500
-- Nutella Hot Chocolate — $4.900
-
-#### BEBIDAS
-
-- Coca Cola — $2.500
-- Coca Cola sin azúcar — $2.500 [sin azúcar]
-- Sprite — $2.500
-- Sprite sin azúcar — $2.500 [sin azúcar]
-- Agua sin gas — $2.500
-- Agua con gas — $2.500
-- Kombucha — $4.000
-
-#### JUGOS
-
-- Limonada — $3.900
-- Limonada con menta y jengibre — $4.200
-- Piña — $4.200
-- Maracuyá — $4.200
-- Chirimoya — $4.200
-- Frambuesa — $4.200
-- Frutilla — $4.200
-- Mango con azafrán — $4.500
-- Naranja fresco natural — $4.500
-
-#### BEBIDAS CON LACTEOS
-
-- Dulce Lassi — $4.500
-- Mango Lassi — $4.500
-- Raspbarry Lassi — $4.500
-- Salty Lassi — $4.500
-
-
-## CARNALES
-- **Ubicación:** 5 Nte. 364, 2520190 Viña del Mar, Valparaíso
-- **Categoría:** Restaurante mexicano
-- **Valoración:** 4.4 / 5
-- **Enlace:** https://www.google.com/maps?cid=15719213249658519912
-- **Fecha de registro:** 2026-11-06
-
-### Qué vende
-
-- CERVEZAS
-- PISCO SOUR
-- VODKA
-- MARGARITA
-- MOJITO
-- PISCO + bebida
-- WHISKY
-- REFRESCOS Y JUGOS NATURALES
-- TÉ, INFUSIONES Y CAFÉ
-- IRRESISTIBLES
-- TACOS
-- PAPAS RÚSTICAS
-- Veganas
-- NACHOS
-- BURRITOS
-- BURRITOS DE LA CASA
-- QUESADILLAS
-- TACOS X 2 CASEROS Y SIN GLUTEN
-- HUEVOS ESTRELLADOS
-- ENSALADAS
-- APPETIZER
-
-
-### Carta
-
-#### CERVEZAS
-
-- SCHOP 500 CC BARÓN — $3.700
-- SCHOP 500 CC ALTAMIRA — $3.700
-- CORONA INDIVIDUAL — $2.500
-- KUNSTMANN 500 CC — $3.700
-- SHOT PARA TU SCHOP — $1.000
-
-#### PISCO SOUR
-
-- Pisco Sour normal — $3.000
-- Pisco Sour menta/jengibre — $4.500
-- Pisco Sour variedades — $4.500
-
-#### VODKA
-
-- STOLYCHNAYA — $3.500
-- ABSOLUT ORIGINAL — $4.500
-- ABSOLUT SABORES — $5.000
-
-#### MARGARITA
-
-- Margarita NORMAL — $4.000
-- Margarita SABORES — $5.000
-
-#### MOJITO
-
-- Mojito normal — $4.500
-- Mojito sabores — $5.500
-- Mojito sin alcohol SABORES — $3.800
-
-#### PISCO + bebida
-
-- Mistral / Alto del Carmen — $3.500
-- Malpaso — $4.500
-- Horcón Quemado — $5.500
-- Bou Barroeta — $6.500
-
-#### WHISKY
-
-- Johnnie Walker Red Label — $4.500
-- Johnnie Walker Black Label — $6.500
-
-#### REFRESCOS Y JUGOS NATURALES
-
-- Agua de Jamaica — $2.100
-- Té Frío con Limón — $2.100
-- Limonada Menta Jengibre — $2.200
-- Té Frío Limón Variedades — $2.400
-- Agua de Horchata — $2.100
-- Vitamina Naranja — $3.300
-- Jugo Una Fruta — $2.200
-- Bebida Individual — $1.000
-- Bebida Coca Y Sprite 350cc — $1.500
-- Botella De Agua — $1.500
-
-#### TÉ, INFUSIONES Y CAFÉ
-
-- Tetera té de hoja — $1.500
-- Té naranja canela — $1.900
-- Té limón jengibre — $1.900
-- Agua de hierbas — $1.500
-- Café americano — $1.500
-- Capuccino — $1.700
-- Café cortado — $1.500
-- Café expreso — $1.400
-- Expreso doble — $2.200
-
-#### IRRESISTIBLES
-
-- Burritos Irresistibles
-- Quesadillas Irresistibles
-
-#### TACOS
-
-- Al pastor
-- De queso
-- Clásicas y enchiladas
-
-#### PAPAS RÚSTICAS
-
-- Estrellados
-- Cheddar jalapeño
-- De la casa
-- Carne
-- Bravas
-
-#### NACHOS
-
-- Chilaquiles
-- Con chile
-- Con queso y guacamole
-- NACHOS CON CHILE PICANTE
-
-#### BURRITOS
-
-- BURRITOS
-
-#### BURRITOS DE LA CASA
-
-- MOCTEZUMA
-- PANCHO VILLA
-- FRIDA KAHLO
-- ELIGE TÚ POLLO
-- ELIGE TÚ CARNE
-- ELIGE TÚ VERDURAS SALTEADAS
-- ELIGE TÚ BERENJENAS
-- ELIGE TÚ CHAMPIÑONES
-- ELIGE TÚ CAMARONES (+) — $1.000
-- ELIGE TÚ PAPAS RÚSTICAS
-- ELIGE TÚ ENSALADA
-
-#### QUESADILLAS
-
-- QUESADILLAS
-
-#### HUEVOS ESTRELLADOS
-
-- HUEVOS ESTRELLADOS
-
-#### ENSALADAS
-
-- CESAR Ensalada de lechugas
-
-#### APPETIZER
-
-- NACHOS
-
-
-## Dulces Rufiko
-- **Ubicación:** 7 Nte. 469, 2520000 Viña del Mar, Valparaíso
-- **Categoría:** Pastelería
-- **Valoración:** 4.8 / 5
-- **Enlace:** https://www.google.com/maps?cid=8863494916280658664
-- **Fecha de registro:** 2026-11-06
-
-### Qué vende
-
-- PROMO JUNAEB
-
-
-### Carta
-
-#### PROMO JUNAEB
-
-- MOCHIS a elección — $4.000
-
-
-## El Patio Cafe
-- **Ubicación:** No disponible
-- **Categoría:** Cafetería
-- **Valoración:** 4.5 / 5
-- **Enlace:** https://www.google.com/maps?cid=9080931698970268126
-- **Fecha de registro:** 2026-11-06
-
-### Qué vende
-
-- CAFE
-- TOSTADAS
-- BOWLS Y MAS
-- LATTES Y TÉ
-- SANDWICHES
-- PASTELERIA
-- BEBESTIBLES
-- CALIENTE
-- FRÍO
-- JUGOS
-- POSTRES
-
-
-### Carta
-
-#### CAFE
-
-- ESPRESSO — $2.500
-- MACCHIATO — $3.300
-- FILTRADO — $4.000
-- LATTE — $4.000
-- LATTE VAINILLA — $4.500
-- EL SUCIO — $4.500
-- LATTE FRIO — $4.500
-- AMERICANO — $2.700
-- FLAT WHITE — $3.500
-- CAPPUCCINO — $3.500
-- MOCACCINO — $4.500
-- AFFOGATO — $5.900
-- ESPRESSO TONIC — $5.900
-
-#### TOSTADAS
-
-- PALTA — $6.900
-- JAMON PALTA — $7.500
-- HUMMUS PALTA — $7.200
-- PALTA HUEVO — $7.500
-
-#### BOWLS Y MAS
-
-- ACAI BOWL — $8.500
-- KEFIR BOWL — $7.900
-- PORRIDGE DE AVENA — $7.900
-- LAS FRANCHUTE — $7.500
-
-#### LATTES Y TÉ
-
-- CHOCOLATE CALIENTE — $4.000
-- TURMERIC LATTE — $4.000
-- CHAI LATTE — $4.000
-- MATCHA LATTE — $4.000
-- CHAI LATTE FRIO — $4.500
-- MATCHA LATTE FRIO — $4.500
-
-#### SANDWICHES
-
-- REÑACON — $8.500
-- BLACK BEACH — $8.900
-- LITTLE ITALY — $8.900
-- JAMON QUESO — $7.900
-- EL OMELETTE — $9.500
-
-#### PASTELERIA
-
-- GALLETON — $3.000
-- BANANA BREAD — $3.000
-- CRUFFIN — $4.000
-- ROLLITO DE CANELA — $3.500
-- SHORTBREAD TOFFEE — $4.500
-- GALLETON CHIPS — $3.500
-- PAN DE CHOCOLATE — $3.500
-- SNICKER — $3.000
-- VONOVON — $2.500
-- QUEQUE — $3.500
-
-#### BEBESTIBLES
-
-- KOMBUCHA KOMBUCHU — $3.500
-- JUGO DEL DIA — $3.500
-- AGUA MINERAL — $2.500
-
-#### CALIENTE
-
-- ESPRESSO — $3.000
-- AMERICANO — $3.000
-- MACCHIATO — $3.500
-- FILTRADO — $5.000
-- LATTE — $4.500
-- LATTE VAINILLA — $5.000
-- FLAT WHITE — $3.900
-- EL SUCIO — $5.000
-- CAPPUCCINO — $3.900
-- MOCACCINO — $5.000
-- CHAI LATTE — $4
-- CHOCOLATE — $4
-- TURMERIC LATTE — $4
-- MATCHA LATTE — $5
-- TÉ e INFUSIONES — $3
-
-#### FRÍO
-
-- COLD BREW — $5.000
-- AFFOGATO — $6.000
-- HIBISCUS — $6.000
-- BERRY LUNAR — $6.000
-- ESPRESSO TONIC — $6.000
-- ESPRESSO NARANJA — $4.500
-- LATTE VAINILLA FRIO — $5.000
-- MOCCA FRIO — $5.000
-- CHAI LATTE FRIO
-- MATCHA FRAMBUESA
-- MATCHA LATTE FRIO
-- MATCHA NARANJA
-- JUGO NATURAL
-- AGUA MINERAL
-
-#### JUGOS
-
-- MATANZAS NARANJA MANZANA BETARRAGA MENTA — $350
-- EL PATIO NARANJA ZANAHORIA JENGIBRE — $350
-- RINCONADA MANZANA KIWI KALE — $350
-- PULLAY MANZANA PIÑA KALE — $350
-- REÑACA MANZANA BETARRAGA PIÑA — $350
-- CACHOS NARANJA ZANAHORIA PLATANO MENTA JENGIBRE — $350
-
-#### POSTRES
-
-- PERAS AL VINO PERAS COCIDAS AL VINO TINTO CON CREMA MONTADA — $4.900
-
-
-## La Brioche Bakery & Café
-- **Ubicación:** 13 Nte. 716, 2530947 Viña del Mar, Valparaíso
-- **Categoría:** Panadería
-- **Valoración:** 4.7 / 5
-- **Enlace:** https://www.google.com/maps?cid=14339222801021062144
-- **Fecha de registro:** 2026-11-06
-
-### Qué vende
-
-- COMPLETOS
-- CHAMPIPLETOS
-- PIZZAS
-- SÁNDWICHERÍA PERUANA
-
-
-### Carta
-
-#### COMPLETOS
-
-- COMPLETO ITALIANO — $4.900
-- COMPLETO CON TODO — $5.900
-- AS CHURRASCO — $6.900
-
-#### CHAMPIPLETOS
-
-- CHAMPIPLETO CLÁSICO — $5.900
-- CHAMPIPLETO CON TODO — $6.900
-
-#### PIZZAS
-
-- PIZZA DE LA CASA — $12.900
-- PIZZA VEGETARIANA — $9.990
-- PIZZA PORTEÑA — $12.900
-- PIZZA DEL MAR — $14.990
-- PIZZA HAWAIANA — $9.900
-- PIZZA PEPPERONI — $9.900
-
-#### SÁNDWICHERÍA PERUANA
-
-- CHICHARRÓN DE CERDO — $8.900
-- POLLO SALTADO — $8.900
-- BUTIFARRA PERUANA — $8.900
-- LOMO A LO POBRE — $9.900
-- LOMO SALTADO — $9.900
-
-
-## Le Grenier Cafetería
-- **Ubicación:** Av. Borgoño 15460, 2520000 Viña del Mar, Valparaíso
-- **Categoría:** Cafetería
-- **Valoración:** 4.3 / 5
-- **Enlace:** https://www.google.com/maps?cid=10023942382296147388
-- **Fecha de registro:** 2026-11-06
-- **Dietético:** 1 platos sin gluten
-
-### Qué vende
-
-- Promo Postres 30% OFF
-- Keto/Sin Gluten/Azúcar
-- pancakes
-- Tostadas Y Panadería
-- Huevos Y Brunch
-- Croissants Rellenos
-- Sandwiches Gourmet
-- Pastelería Artesanal
-- Cafetería
-- Cafés Fríos
-- Matcha
-- Jugos
-
-
-### Carta
-
-#### Promo Postres 30% OFF
-
-- Cheesecake de Maracuya — $4.270
-- Torta Amor — $5.530
-- Tres Leches — $4.270
-- Tarta de Chocolate — $4.270
-- Tarta de Prestigio — $5.530
-- Tarta Vasca — $4.270
-- Cheese Cake Keto (Sin Azucar) — $6.020 [sin azúcar]
-- Torta Humeda de Chocolate — $4.270
-- Croissant de Manjar — $4.200
-- Croissant de Chocolate — $4.200
-
-#### Keto/Sin Gluten/Azúcar
-
-- Cheesecake de Keto — $8.600 [sin gluten]
-
-#### pancakes
-
-- Pancakes Clásicos Artesanales — $7.400
-
-#### Tostadas Y Panadería
-
-- Tostada Clásico Palta Y Huevo — $11.900
-- Tostada Palta Huevo Pochado y Holandesa — $14.500
-- Tostada de Palta — $6.600
-- Tostada Palta Y Cabra — $10.600
-- Croissant Jamón Y Queso — $8.500
-- Croissant Genovés — $10.600
-- tostadas francesa — $8.000
-
-#### Huevos Y Brunch
-
-- Huevos Revueltos Clásicos — $5.900
-- Huevos Revueltos Y Tocino — $9.700
-- Huevos Revueltos Y Setas — $8.500
-- Huevos Revueltos con Palta — $8.500
-- Plato Le Grenier — $12.100
-- Huevos Pochados — $10.700
-
-#### Croissants Rellenos
-
-- Croissant Pistacho — $6.000
-- Croissant Manjar — $6.000
-
-#### Sandwiches Gourmet
-
-- Sandwich Serrano Y Pesto — $14.500
-- Sandwich Croissant del Mar — $13.200
-- Ave Y Palta — $10.900
-- Sandwich Caprese del Huerto — $12.000
-- Sandwich Pastrami Y Dijon — $14.500
-
-#### Pastelería Artesanal
-
-- Torta 3 Leches — $6.100
-- Torta Amor — $7.900
-- Tartaleta de Chocolate — $6.100
-- Tarta Vasca — $6.100
-- Tarta de Prestigio — $7.900
-- Cheesecake de Maracuyá — $6.100
-- Torta Húmeda de Chocolate — $6.100
-
-#### Cafetería
-
-- Espresso — $1.900
-- Americano — $3.600
-- Cortado — $3.600
-- Cappuccino — $4.300
-- Latte — $4.600
-
-#### Cafés Fríos
-
-- Late Frío — $4.800
-- Chai Latte Frío — $4.800
-- Mojito Espresso — $4.800
-- Café Helado — $6.100
-- Frappuccino Nutella — $7.900
-
-#### Matcha
-
-- Matcha Latte — $4.400
-- Matcha Frappe — $4.600
-
-#### Jugos
-
-- Jugo de Naranja — $6.600
-- Jugo de Mango — $6.600
-- Jugos de Frutilla — $6.600
-
-
-## Nogaró
-- **Ubicación:** No disponible
-- **Categoría:** Marisquería
-- **Valoración:** 4.2 / 5
-- **Enlace:** https://www.google.com/maps?cid=2062776231944323794
-- **Fecha de registro:** 2026-11-06
-
-### Qué vende
-
-- SUGERENCIAS TIERRA
-- SUGERENCIAS MAR
-- PESCADOS
-- NUESTRA PARRILLA
-- SALSAS
-- GUARNICIONES
-- ENSALADAS
-- MENÚ NIÑOS
-- ENSALADAS ESPECIALES
-
-
-### Carta
-
-#### SUGERENCIAS TIERRA
-
-- Risotto Vegetariano a la Crema — $17.500
-- Filete Saltado — $18.500
-- Beef Bourguignon (Receta Francesa) — $18.500
-- Filete Nogaró — $22.500
-- Filete Alioli con Ñoqui Artesanal — $23.500
-- Garrón de Cordero — $27.500
-
-#### SUGERENCIAS MAR
-
-- Papillot de Merluza Austral — $19.500
-- Congrio Frito con papas fritas — $18.000
-- Merluza a la Huancaina — $19.500
-- Salmón en Costra de Miel y Jengibre — $19.500
-- Salmón Chilote — $19.500
-- Albacora con Salsa de Camarones — $19.500
-- Curry Rojo de Camarón — $19.500
-- Chupe de Loco Gratinado — $19.500
-- Chupe de Jaiba Gratinado — $19.500
-- Caldillo de Congrio Nerudiano — $19.500
-- Atún Sellado con Semillas Silvestres — $21.500
-- Fetuccini de Espinacas con Salmón — $21.500
-- Paila Marina Nogaró — $21.500
-- Risotto Frutti Di Mare — $21.500
-- Tricornio de Chupe de Vegetales — $23.500
-
-#### PESCADOS
-
-- Albacora (Grille) — $13.000
-- Merluza (Grille o Frita) — $13.000
-- Salmón (Grille) — $13.000
-- Congrio (Frito) — $14.000
-- Atún (Grille Inglesa) — $14.000
-
-#### NUESTRA PARRILLA
-
-- Pollo Deshuesado — $14.000
-- Filete de Res (250 gr) — $17.000
-- Bife Chorizo (500 gr) — $24.000
-- Pulpo a la Parrilla — $24.000
-- Entrecot — $42.000
-
-#### SALSAS
-
-- Salsa Champiñones a la crema — $6.000
-- Salsa de Curry Rojo — $6.000
-- Salsa Maître d'Hôtel a la oliva/crema — $6.000
-- Salsa Camarones a la oliva/crema — $7.000
-- Salsa 3 Mariscos a la oliva/crema — $8.000
-
-#### GUARNICIONES
-
-- Arroz — $4.500
-- Puré — $4.500
-- Papas Fritas — $5.000
-- Papas Rústicas — $5.000
-- Puré Rústico — $5.000
-- Chifonada de Vegetales — $5.500
-- Papas Mayo — $5.500
-- Pastelera de Choclo — $5.500
-- Brócoli a la Crema y Parmesano — $6.500
-- Risotto de Champiñones — $7.500
-- Champiñones Salteados — $7.500
-
-#### ENSALADAS
-
-- Ensalada Chilena — $7.500
-- Ensalada Verde — $7.500
-- Ensalada Mixta — $8.000
-- Ensalada Palta Palmito — $9.000
-- Ensalada Apio Palta — $9.000
-- Extras Fríos Tomate cherry o palta o palmito — $5.500
-
-#### MENÚ NIÑOS
-
-- Strips de Pollo — $10.500
-- Salmón Grille — $11.500
-
-#### ENSALADAS ESPECIALES
-
-- Ensalada César Pollo — $16.500
-- Ensalada de Quinoa — $17.500
-- Ensalada César Camarón — $17.500
-- Ensalada de Atún Aleta Amarilla — $17.500
-- Ensalada de Nuestro Mar — $22.000
-
-
-## Pastelería Saludable Neusa
-- **Ubicación:** 6 Nte. 829, 2520729 Viña del Mar, Valparaíso
-- **Categoría:** Pastelería
-- **Valoración:** 4.3 / 5
-- **Enlace:** https://www.google.com/maps?cid=9420130345546503463
-- **Fecha de registro:** 2026-11-06
-
-## Restaurante Roof Burger
-- **Ubicación:** 6 Norte 309 esquina 4 poniente, Viña del Mar, Valparaíso
-- **Categoría:** Restaurante
-- **Valoración:** 4.4 / 5
-- **Enlace:** https://www.google.com/maps?cid=6524403543540202213
-- **Fecha de registro:** 2026-11-06
-
-### Qué vende
-
-- ROOF BURGER
-- Promociones
-
-
-### Carta
-
-#### ROOF BURGER
-
-- BBQ BURGER + PAPAS — $6.995
-- CLASSIC BURGER + PAPAS — $7.693
-- ONION BURGER + PAPAS — $7.413
-
-#### Promociones
-
-- BBQ (Incluye Papas y alioli) — $14.990
-- ROOF + Papas + Bebida — $10.990
-- Classic + Papas + Bebida — $9.990
-- Cheddar + Papas + Bebida — $9.990
-- Tasty + Papas + Bebida — $9.990
-
-
-## Sativo Resto-Bar
-- **Ubicación:** No disponible
-- **Categoría:** Restaurante especializado en fusión asiática
-- **Valoración:** 4.5 / 5
-- **Enlace:** https://www.google.com/maps?cid=4970966052134619664
-- **Fecha de registro:** 2026-11-06
-
-### Qué vende
-
-- Tablas y Brusquetas
-- Happy Hour
-- PRODUCTO
-
-
-### Carta
-
-#### Tablas y Brusquetas
-
-- Tabla Sativo — $24.900
-- Tartar de Res — $12.900
-- Tartar de Atún — $12.900
-- Montadito de Longa — $9.900
-- Montadito de jamón — $9.900
-- Tartar de Salmón — $12.900
-- Vegetales Al curry — $7.900
-
-#### Happy Hour
-
-- Alto 35° Mistral 35° — $2.500
-- Ruta de la Tapa B. Poniente. Ultimo jueves de Cada Mes — $5.000
-
-#### PRODUCTO
-
-- Me acordé del Verano — $4.500
-- +Fuerte - Seco — $2.000
-- Menú Semanal — $12.900
-- +Ensalada Mediterránea
-- +Schop Pequeño
-- Pan
-- Que elegancia la de francia — $5.940
-- Sangría Sativo — $3.600
-- +Fuerte o Seco — $1.000
-- +2 x Fuerte o Seco — $2.000
-- Mechada Sativa — $9.900
-- +Ciabatta
-- +Tostado al Horno
-- +Sal normal
-- Falafel — $8.900
-- +Gnocchis con salsa de cham
