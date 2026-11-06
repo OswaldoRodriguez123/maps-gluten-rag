@@ -5,10 +5,10 @@ _Fecha: 2026-11-06 · Fuente: Doc regenerado_
 ## Resumen
 
 - **100 lugares** en la lista.
-- **78 con platos publicables**: 4847 platos.
+- **78 con platos publicables**: 6545 platos.
 - **1 solo con categorías**.
 - **21 sin carta ni categorías**: 14 sin web y 7 con web.
-- **9 con carta corta** (1-9 platos).
+- **4 con carta corta** (1-9 platos).
 - **10 con menos del 50% de precios**.
 - **0 con mucho ruido**.
 - **33 sin web registrada**.
@@ -55,11 +55,6 @@ _Fecha: 2026-11-06 · Fuente: Doc regenerado_
 |---|---|---|---|---|---|
 | BAR EL BAJO | Bar | 1 | 1 | 0 | 1 |
 | Emporio de la Tierra | Tienda de alimentos naturales | 1 | 0 | 0 | 0 |
-| Fain | Tienda de alimentos naturales | 1 | 1 | 0 | 0 |
-| Bonheur Pâtisserie | Pastelería | 2 | 2 | 0 | 2 |
-| BuganVilla cafe & market | Tienda de delicatessen | 2 | 2 | 0 | 0 |
-| COMERCIAL RAKKO | Tienda de alimentos naturales | 3 | 3 | 0 | 0 |
-| Pizzeria Latinoamericana | Pizzería a domicilio | 3 | 3 | 0 | 0 |
 | Yoko Sea Food | Restaurante peruano | 6 | 6 | 0 | 0 |
 | Café Kanela | Cafetería | 7 | 7 | 1 | 0 |
 

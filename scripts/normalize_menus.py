@@ -205,7 +205,7 @@ def classify(
     if "," in name and not store:
         score -= 45 if name.count(",") >= 2 else 30
         reasons.append("coma de descripción")
-    if SUSPICIOUS.search(name):
+    if SUSPICIOUS.search(name) and not store:
         score -= 40
         reasons.append("caracteres de OCR")
     max_length = 120 if store else 60
@@ -218,7 +218,8 @@ def classify(
         reasons.append("muchas palabras")
     tail = name.rsplit(" ", 1)[-1].lower()
     if (
-        re.search(r"\b[a-zA-Z]{1,2}$", name)
+        not store
+        and re.search(r"\b[a-zA-Z]{1,2}$", name)
         and not re.search(r"\d\s*$", name)
         and tail not in UNIT_TAILS
     ):

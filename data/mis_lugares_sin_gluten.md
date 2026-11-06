@@ -397,6 +397,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Chicle Freegells Cereza Unidad — $500 [sin azúcar]
 - Chicle Freegells Menta Unidad — $500 [sin azúcar]
 - Turrón Imperial Con Almendras Sin Azúcar – La Fama — $5.100 [sin azúcar]
+- NutriActive Senior 300 gramos – P&M — $8.990 [sin azúcar]
 
 #### Sin gluten
 
@@ -952,6 +953,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Tarta de almendras El Pueblo — $5.350
 - Vinagre de Manzana — $7.490
 - Vinagre de Manzana Manare 500 ml Sin Gluten — $5.990
+- Crunchy! Protein Mix Sabor Tomate Albahaca 120g – Wania — $2.700
 
 #### Fideos
 
@@ -1200,18 +1202,182 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** torta, pastel, alfajor, brownie, cheesecake, pie, chocolate, tiramisú, manjar, factura, postre, dulces
 - **Menciona en reseñas:** torta, pastel, alfajor, muffin, postre, dulces
 - **Fecha de registro:** 2025-11-23
+- **Dietético:** 73 platos sin gluten, 3 veganos, 41 sin lactosa
 
 ### Qué vende
 
-- DESPACHOS
+- Panadería
+- Masas
+- Galletas
+- Postres
+- Untables
+- Queques
+- Tortas
+- Pasteles
+- Muffins
+- Keto
+- Granola
+- Barras
+- Tazas de café y té
+- Pastelitos
+- Entremeses y aperitivos
+- Barras de cereales
+- Barras de postres
+- pastelitos para el café
+- Yogurt helado
+- Pastelitos empaquetados
+- Panes y bollería
+- Cucuruchos
+- Frutos secos combinados
+- Surtidos de pasteles
 
 
 ### Carta
 
-#### DESPACHOS
+#### Panadería
 
-- Santiago Centro — $4.500
-- Colina y CHICUREO — $6.000
+- Hogaza — $12.250 [sin gluten, sin lactosa]
+- Pan pita — $12.250 [sin gluten, sin lactosa]
+- Pan de pascua — $14.990 [sin gluten]
+
+#### Masas
+
+- Masa para pizza pack de 2 — $14.700 [sin gluten, sin lactosa]
+
+#### Galletas
+
+- Galletas de limón — $14.060 [sin gluten, sin lactosa]
+- Galletas rellenas de manjar — $9.050 [sin gluten, sin lactosa]
+- Crackers — $7.020 [sin gluten, sin lactosa, vegano]
+- Florentinas — $15.980 [sin gluten]
+- Galletas chips de chocolate — $14.060 [sin gluten, sin lactosa]
+
+#### Postres
+
+- Reese’s (Bon o Bon/almendras/manjar) — $15.980 [sin gluten]
+- Cheesecake — $29.810 [sin gluten]
+- Cinnamon roll — $3.670 [sin gluten]
+- Postres tamaño familiar (varios sabores) — $29.820 [sin gluten]
+- Tiramisú individual — $6.790 [sin gluten]
+- Pie de limón — $7.440 [sin gluten]
+- Brownie cheesecake — $26.610 [sin gluten]
+- Brownie individual sin lácteos — $4.100 [sin gluten, sin lactosa]
+- Croissant dulces — $4.690 [sin gluten]
+- Gansito — $5.270 [sin gluten]
+- Tarta frambuesa chocolate — $7.440 [sin gluten, sin lactosa]
+- Tarta de crema pastelera y frutos rojos — $7.440 [sin gluten, sin lactosa]
+- Alfajor mazapán huevo mol — $4.460 [sin gluten]
+- Barra snicker — $4.680 [sin gluten, sin lactosa]
+- Brownie Salted caramel — $4.680 [sin gluten, sin lactosa]
+- Pain au chocolat — $4.690 [sin gluten]
+- Cruffin — $4.690 [sin gluten]
+- Barra bon o bon (cobertura blanca o bitter) — $4.680 [sin gluten]
+- Alfajor Bon o Bon — $5.270 [sin gluten]
+- Tarta de Suspiro Limeño — $7.440 [sin gluten, sin lactosa]
+- Alfajor pie de limón — $5.270 [sin gluten, sin lactosa]
+
+#### Untables
+
+- Manjar — $7.460 [sin gluten, sin lactosa]
+- Mermelada de frambuesa — $5.320 [sin gluten, sin lactosa, vegano]
+
+#### Queques
+
+- Queque de limón — $17.560 [sin gluten, sin lactosa]
+- Kuchen nuez — $7.440 [sin gluten, sin lactosa]
+- Kuchen de manzana — $7.440 [sin gluten, sin lactosa]
+- Queque chips de chocolate — $17.560 [sin gluten, sin lactosa]
+
+#### Tortas
+
+- Torta Lúcuma manjar — $50.590 [sin gluten]
+- Torta Red velvet — $50.590 [sin gluten]
+- Torta Chocolate Cake — $50.590 [sin gluten]
+- Torta individual manjar — $8.200 [sin gluten]
+- Torta Tiramisú — $50.590 [sin gluten]
+- Torta 3 leches — $50.590 [sin gluten, sin lactosa]
+- Torta crocante caluga nuez — $56.230 [sin gluten, sin lactosa]
+- Torta crocante caluga nuez individual — $8.200 [sin gluten, sin lactosa]
+- Torta amor — $9.570 [sin gluten]
+- Torta Sin lácteos — $50.000 [sin gluten, sin lactosa]
+
+#### Pasteles
+
+- Alfajor — $5.270 [sin gluten, sin lactosa]
+- Barra pistacho Rocher — $5.850 [sin gluten]
+- Alfajor mazapán frambuesa bitter sin lácteos — $4.460 [sin gluten, sin lactosa]
+- Queque de zanahoria — $16.490 [sin gluten, sin lactosa]
+- Vaso de galleta con chocolate y pistacho — $7.460 [sin gluten, sin lactosa]
+- Torta 3 leches sin lácteos — $55.000 [sin gluten, sin lactosa]
+- Encarga tu Torta — $50.590 [sin gluten]
+
+#### Muffins
+
+- Muffins — $3.730 [sin gluten, sin lactosa]
+
+#### Keto
+
+- Carrot cake — $50.590 [sin gluten]
+- Barra caluga nuez — $5.270 [sin gluten, sin lactosa]
+
+#### Granola
+
+- Granola — $9.570 [sin gluten, sin lactosa, vegano]
+
+#### Barras
+
+- Barra nuez manjar — $4.680 [sin gluten, sin lactosa]
+
+#### Tazas de café y té
+
+- Vaso de galleta con chocolate — $6.380 [sin gluten, sin lactosa]
+
+#### Pastelitos
+
+- Alfajor brownie manjar — $6.340 [sin gluten, sin lactosa]
+
+#### Entremeses y aperitivos
+
+- Prestigio — $4.680 [sin gluten]
+
+#### Barras de cereales
+
+- Barra triple chocolate — $5.270 [sin gluten, sin lactosa]
+
+#### Barras de postres
+
+- Alfajor Brownie Caluga Frambuesa — $6.340 [sin gluten, sin lactosa]
+
+#### pastelitos para el café
+
+- Queque de arándanos — $17.560 [sin gluten, sin lactosa]
+
+#### Yogurt helado
+
+- Suspiro limeño — $6.790 [sin gluten, sin lactosa]
+
+#### Pastelitos empaquetados
+
+- Tarta de Pistacho — $11.700 [sin gluten, sin lactosa]
+- Box degustación — $12.780 [sin gluten]
+
+#### Panes y bollería
+
+- Masa danesa de crema pastelera y pistacho — $5.270 [sin gluten]
+- Berlin — $5.530 [sin gluten]
+
+#### Cucuruchos
+
+- Barra mango maracuyá — $5.270 [sin gluten, sin lactosa]
+
+#### Frutos secos combinados
+
+- Barra Dubai (bitter y blanco) — $6.910 [sin gluten]
+
+#### Surtidos de pasteles
+
+- Pack Bonheur — $15.000 [sin gluten]
+- Caja de Postres de Cocktail Surtidos — $80.000 [sin gluten]
 
 
 ## BuganVilla cafe & market
@@ -1223,11 +1389,842 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** pasta, galleta, alfajor, chocolate, manjar, dulces
 - **Menciona en reseñas:** chocolate
 - **Fecha de registro:** 2025-11-23
+- **Dietético:** 106 platos sin gluten, 158 veganos, 18 sin lactosa
+
+### Qué vende
+
+- Suplementos deportivos
+- Barras y granolas
+- Superalimentos
+- Keto y sin azúcar
+- Despensa
+- Café e infusiones
+- Snack y galletas
+- Varios
+- Aceites y trufas
+- Probioticos y old vitamins
+- Sin gluten
+- Vitaminas y minerales
+- Lácteos
+- Endulzantes y azúcar
+- Especias y salsas
+- Chocolates y golosinas
+- Vegano y vegetariano
+- Bebidas vegetales
+- Orgánico
+- Snacks
+- Hogar
+- Pastas y masas
+- Bebidas
+- Cuidado personal
+- Panadería
+- Suplementos
+- Frescos
+- Barras y proteínas
+
 
 ### Carta
 
-- Dientes de ajo negro pelados 120g — $7.590
-- Tahini de sésamo 800g — $9.990
+#### Suplementos deportivos
+
+- Caja Chewy Protein Bar 42 unidades -Kirkland — $30.990
+- Creatina Monohidratada 300g — $31.990
+- Protein Pro Collagen 450g — $22.990
+- Proteina Vegano 2lb Foodtech - Vainilla Ice Cream — $24.990 [vegano]
+- Alani Nu Energetica - 355 ml — $2.990
+- Caffeina 200 mg 60 Capsulas - Nutrex — $12.990
+- Ghost Proteina Vegan — $41.990 [vegano]
+- Bebida energetica Ryse Fuel - 473ml — $2.990
+- 100% Whey Protein Premium Line 2lbs - Foodtech — $29.990
+- Proteina Whey 2lb - Ghost — $41.990
+- MRE Protein Shake 500ml - Redcon1 — $3.490
+- Animal Clear Whey Isolate 500 gr - Watermelon Limeade — $43.990 [sin azúcar]
+- MRE MEAL REPLACEMENT 3.25KG - REDCON1 — $53.990
+- MRE Barra Proteina 67g - Redcon1 — $2.790
+- Total War Pre-Workout 600gr - Redcon1 — $29.990
+- Iso 100 5lbs - Dymatize Nutrition — $104.990
+- Powergel - Powerbar — $2.490
+- Iso 100 1.4 lb - Dymatize Nutrition — $43.990
+- Animal Pak Powder - Animal Orange 228g — $38.990
+
+#### Barras y granolas
+
+- Barras de proteína chocolate Caja 05 unids — $4.990
+- Barras de proteína chocolate coco (V) Caja 05 unid — $4.990 [sin azúcar, vegano]
+- Barras de cereal Soul bar semillas ancestrales 05 unid — $2.990 [sin azúcar, sin lactosa]
+- Granola Antiox Maqui 475g — $7.790
+- Granola Detox Piña (sin gluten) 475g — $7.990 [sin gluten]
+- Granola Berries (Sin Gluten) 475g — $8.390 [sin gluten]
+- Granola healthy nutella 475g — $7.290
+
+#### Superalimentos
+
+- Wheatgrass en polvo 150g — $8.290
+- Gel Aloe Vera 500ml — $9.290 [sin gluten]
+
+#### Keto y sin azúcar
+
+- Queso crocante mantecoso 20g — $1.290 [sin azúcar]
+- Queso crocante orégano 20g — $1.290 [sin azúcar]
+- Charqui de Vacuno madurado Ajo jengibre 25g — $3.290 [sin azúcar]
+- Charqui de Wagyú Original 40g — $7.990 [sin azúcar]
+- Charqui de vacuno madurado Aceto Balsámico 25g — $3.290 [sin azúcar]
+- Charqui de Vacuno madurado Limón de Pica 25g — $3.290 [sin azúcar]
+- Charqui Vacuno madurado Merken 25g — $3.290 [sin azúcar]
+- Charqui de Vacuno madurado Canela Cúrcuma 25g — $3.290 [sin azúcar]
+- Queso crocante Merken 20g — $1.290 [sin azúcar, sin gluten]
+- Barra de Chocolate Keto 79% cacao 100g — $4.490 [sin azúcar, sin gluten]
+- Barra de Chocolate Keto 62% cacao 100g — $4.390 [sin azúcar, sin gluten]
+- Barritas Keto 5 Unids — $8.490 [sin azúcar, vegano]
+- Corazón Keto relleno Manjar/Nuez 3Unids — $6.990 [sin azúcar, sin gluten]
+- Corazon Keto Relleno Mant. maní y Frambuesa 3 Unids — $7.690 [sin azúcar, vegano]
+- Energy Ball Keto Mantequilla de maní 5 Unids — $6.990 [sin azúcar, sin gluten, vegano]
+- Manjar Keto 220g — $10.990 [sin azúcar]
+- Lasaña de palmito Keto 400g — $3.490 [sin azúcar]
+- Lasaña de palmito Keto 800g — $5.990 [sin azúcar]
+- Arroz de palmito Keto 255g — $3.990 [sin azúcar]
+- Tallarin de palmito con salsa napolitana 340g — $3.290 [sin azúcar]
+- Tallarines de palmito Keto 400g — $3.690 [sin azúcar, sin gluten]
+- Tallarines de palmito Keto 800g — $5.990 [sin azúcar, sin gluten]
+- Tallarin delgado de palmitos 400g — $3.690 [sin azúcar]
+- Lobito charqui 30g — $5.990 [sin azúcar]
+- Granola KETO (sin gluten) 250g — $7.790 [sin azúcar, sin gluten, vegano]
+- Galleton KETO de Almendras (sin gluten) 120g — $7.270 [sin azúcar, sin gluten]
+- Mini galletas Limonketo 50g — $3.690 [sin azúcar, sin gluten]
+- Mini galletas Ketoreo 50g — $3.690 [sin azúcar, sin gluten]
+- Brownie Keto XL 120g — $5.290 [sin azúcar, sin gluten]
+- Alfajor Nuez Salted Caramel Keto 65g — $5.290 [sin azúcar, sin gluten]
+- Alfajor Manjar Keto 65g — $5.290 [sin azúcar, sin gluten, sin lactosa]
+- Barra Salted Caramel Keto 60g — $4.290 [sin azúcar, sin gluten]
+- Barra Caramelo Keto 60g — $4.990 [sin azúcar, sin gluten]
+- Barra Manjar Keto 60g — $4.490 [sin azúcar, sin gluten, sin lactosa]
+- Cracker de Tomate keto 120g — $5.190 [sin azúcar]
+- Chocolates Volkis XL Keto 5 Unids — $8.990 [sin azúcar]
+- Granola Keto Pecana Crunch 250g — $10.290 [sin azúcar]
+- Brownie manjar Keto 115g — $7.290 [sin azúcar, sin gluten]
+- Charqui de vacuno madurado Limón de pica 75g — $10.290 [sin azúcar]
+- Granola protein keto berries 30g — $1.490 [sin azúcar]
+- Corazón keto manjar (1 Unidad) 45g — $2.590 [sin azúcar, sin gluten]
+- Galleton Keto Proteico Keto Free 55g — $2.990 [sin azúcar, sin gluten]
+
+#### Despensa
+
+- Ajo deshidratado 55g — $2.590
+- Ghee 260ml — $9.190
+- Ghee 145ml — $6.290
+- Ghee 460ml — $14.990
+- Quinoa orgánica 400g — $5.390
+- Extracto de Vainilla Natural (GF) 59ml — $12.390 [sin azúcar, sin gluten, vegano]
+- Extracto de Vainilla Sin alcohol (GF) 59ml — $12.390 [sin azúcar, sin gluten]
+- Pasta de limón 130g — $3.490
+- Cebolla deshidratada 30g — $2.590
+- Cebolla crocante 36g — $2.290
+- Ajo crocante 55g — $4.390
+- Sal Rosada del Himalaya - Fina 500g — $2.990
+- Vinagre de Manzana Orgánico 500ml — $6.090 [sin gluten]
+- Salsa de soya orgánica 150ml — $4.390 [sin gluten, vegano]
+- Aminos de coco, cebolla y ajo Org. 250ml — $5.490
+- Miso orgánico instantáneo 4 Sobres — $6.990
+- Teriyaki Sauce Organic 150ml — $8.290
+- Calamar de champiñón 130g — $4.590 [vegano]
+- Crema para batir de coco 400ml — $3.590 [vegano]
+- Miel cruda Multifloral Orgánica 500g — $10.590
+- Aceitunas Rellenas De Pimientos 580g — $11.390
+- Alcaparras Españolas 100g — $3.990
+- Crema de coco Orgánica (V) 400ml — $2.990
+- Arvejas extra finas 230g — $2.490
+- Arroz Rojo Integral 500g — $8.990
+- Arroz Negro integral 500g — $8.990
+- Risotto al Champiñón 175g — $3.590
+- Risotto a la parmesana 175gr — $3.590
+- Bloque de foie gras de Pato 130g — $23.990
+- Miel premium batida en frío Triaca/Tineo blend 555g — $8.690
+- Miel de Montaña 550g (Premium Sin filtrar) — $9.990
+- Pepinillos enteros en vinagre 650g — $3.990
+- Miel de Ulmo 500g — $6.490
+- Miel en Panal 400g — $14.890
+- Miel en Panal 600g — $20.990
+- Cacahuetes miel - maní con miel y sal 250g — $4.690
+- Miel de Ulmo Org. 500g — $8.790
+- Mermelada de Mora 550g — $3.990
+- Manjar Langer 1kg — $3.690
+- Stevia Verde 30g - Hoja Molida — $4.490
+- Miel de Quillay 1kg — $13.990
+- Salsa Dulce de Ají (Sweet Chili) 500ml — $7.890
+- Mermelada de Higo 380g — $3.990
+- Miel de Montaña 1kg MonteCarmelo — $19.990
+- Miel Cruda 100% pura de Ulmo 500g — $8.690
+
+#### Café e infusiones
+
+- Yerba Mate Mapuche Orgánica 400g — $5.990
+- Yerba Mate Curitibana Orgánica 400g — $5.990
+- Cafe árabe/Turco con cardamomo 200g — $7.990
+- Café molido 500g — $15.290
+- Café Belen de Umbría 10 Caps. compatible para Nespresso — $4.490
+- Café La Chacra D' Dago 10 Caps. compatible para Nespresso — $4.990
+- Endulzante D' Stevia — $3.390
+- Barra de Chocolate 100% Cacao Org. 100g — $7.200 [sin gluten]
+- Barra de Chocolate 70% Cacao Org. 100g — $3.990 [sin gluten]
+- Barra de Chocolate 85% Cacao Org. 100g — $4.390 [sin gluten]
+- Chocolate con almendras 70% cacao 100g — $4.490 [sin gluten]
+- Barra Chocolate con menta 70% cacao 100g — $3.990 [sin gluten]
+- Chips de chocolate 52% Cacao Org. 400g — $15.990 [sin gluten]
+- Té negro chai indio 20 bolsas — $6.190 [sin gluten, vegano]
+- Té de Menta 25 bolsas — $6.190
+- Té Camomile Orgánoco 20 bolsas — $6.190
+- Té camomila, limón y lavanda 20 bolsitas — $6.190
+- Té Frio Passionate Raspberry — $2.390
+- Té Frio Pomelo punch — $2.390
+- Té Frio Sweet Lemon 475ml — $2.390
+- Té Helado Chai 475cc — $2.390
+- Te Helado Jamaica 475cc — $2.390
+- Té Frio Strawberry Lemon 475ml — $2.390
+- Té Jamaica 20 bolsitas — $3.990
+- Café Intenso 10 Caps.- Compatible con Nespresso — $5.590
+- Café 100% Arábica 10Caps. - Compatible con Nespresso — $5.590
+- Filtro de café N°4 — $3.890
+- Café molido edición aniversario 250g — $10.490
+- Café en grano Espresso 250g — $13.390
+- Café molido descafeinado 250g — $13.390
+- Café molido Liberty 500g — $13.390
+- Balls chocolate belga (sin azúcar) 70g — $3.290 [sin azúcar]
+- Balls chocolate blanco (Sin azúcar) 70g — $3.290 [sin azúcar]
+- Tés Colección de de la tarde — $17.990
+- Tés Colección atemporal — $17.990
+- Café en grano Gourmet Columbus 250g — $11.990
+- Café en grano Oro Casa 500g — $13.290
+- Mate de madera enchapado en aluminio — $6.990
+- Bombilla para mate de acero inoxidable — $6.990
+- Te guaraní plan 30 días — $5.990
+- Té blanco con frambuesa Org. 20 bolsas — $6.190
+- Gran Chocolate con avellanas Italiano 250g — $9.990
+- Granos de Café cubiertos de Chocolate 220g — $4.990
+- Té Chai matcha en polvo 398g — $9.890
+- Té Chai Tortoise Green 398g — $9.890
+- Té Elephant Vainilla chai 398g — $9.890
+- Té Flamingo Vainilla chai (Sin Azúcar) 337g — $9.890 [sin azúcar]
+- Té Chai Orca spice en polvo (sin azúcar) 337g — $9.890 [sin azúcar]
+- Té Chai en polvo 398g — $9.890
+- Turmeric Latte (cúrcuma) 80g — $11.590
+- Café Miscela decisa 10 Caps. - compatible con Nespresso — $6.990
+- Ketchup picante 350g — $3.690 [sin gluten]
+- Té Clean Matcha Green Org. 20 Bolsitas — $7.490
+- Té Chai Flamingo Vanilla descafeinado (sin azúcar) sachet 1 unidad — $1.590 [sin azúcar]
+- Té Orca spice chai (sin azúcar) sachet 1 unidad — $1.590 [sin azúcar]
+- Té Black rhino cocoa chai 398g — $9.890
+- Jugo de Tomate 1L — $7.790
+- Pepinos Dulces Corte Americano 430g — $5.590
+- Café Instantáneo 100% arábica (25 sobres) — $9.490
+- Chocolate Blanco con Té Matcha 0% Azúcar 75g — $3.790 [sin azúcar]
+- Té verde con fresa 20 bolsas — $6.190
+- Café 100% Italiano Intenso en grano 1Kg — $22.990
+- Té Negro Tiger Spice Chai Sachet 28g — $1.790
+- Café italiano Intenso 100% en grano 250g — $6.590
+- Té Prana Chai Original Blend 100g — $8.990
+- Té Limón y Jengibre Org. 20 bolsitas — $6.190
+- Salame Napoli piccante 125g — $5.990
+- Café árabe/turco Plain arabica sin Cardamomo 200g — $7.990
+- Café Cialde Blu Pack 50 Unids. 360g — $25.990
+- Cafe Molido 100% Italiano Intenso 1kg — $22.990
+- Té Detox Day sin stevia 20 bolsas — $4.390
+- Té Chai Toucan Mango 398g — $9.890
+- Té verde Puro 10 Bolsitas — $2.690
+- Pepinos Dulces Corte Americano 990g — $9.990
+- Capsulas de café Crema Superiore 30 unid. Borbone — $21.990
+- Triple Concentrato de Tomate 200g — $4.490
+- Chocolate Dubai Artesanal 85g — $5.990
+- Chocolate De Dubai 95g — $5.000
+- Pelati Tomates Pelados Enteros 400g — $2.790
+- HellFire Doomed 12/10 Maldito Picante 147ml — $33.490
+- Reaper Racha 6/10 Maldito Picante 148ml — $23.990
+- Té Matcha En Sachet Manare - Sabor Matcha 20u — $8.990
+- Café Cialde Borbone Miscela oro 50 unids — $24.000
+- Capsulas Respresso Red Blend Borbone 50unids — $28.990
+- Té Cúrcuma, jengibre y Naranja Pukka 20bags — $7.490
+- Creatina Monohydrate 100% Pura, En Polvo, Sin Sabor 1kg — $47.990
+- Prosciutto Crudo Mattonella Corte Buona 500g — $19.990
+- Café De Especialidad Sensacao En Grano 1k — $27.990
+
+#### Snack y galletas
+
+- Jamón Serrano 100g — $5.590
+- Chorizo Chileno 100g — $4.990
+- Barra de frutos secos — $890 [sin gluten]
+- Souffle de colifor 99g — $3.490 [sin gluten, vegano]
+- Souffle Queso Cheddar (V) 99g — $3.490 [vegano]
+- Pita Chips Cúrcuma Sésamo 200g — $3.990
+- Pita Chips Integral 200g — $3.990
+- Pita Chips Romero 200g — $3.990
+- Pita Chips Sal de Mar 200g — $3.990
+- Papas fritas artesanales Sal de Cahuil 35g — $990 [sin gluten, sin lactosa, vegano]
+- Cabritas endulzadas (GF) 25g — $990
+- Maamoul-Mamul de Datiles 1 unidad — $790
+- Galletas De Mantequilla 114gr — $2.490
+- Snack Protein Puffs Cheddar 40g — $1.590 [vegano]
+- Bite size wafers - Obleas tamaño bocado con Avellana 400 gr — $4.990
+- Bite size wafers - Obleas tamaño bocado con Vainilla 400 gr — $4.990
+- Bite size wafers - Obleas tamaño bocado con frutilla 400 gr — $4.990
+- Bite size wafers - Obleas tamaño bocado con limón 400 gr — $4.990
+
+#### Varios
+
+- Bombillas de acero inoxidable Plata 4unid — $4.690
+- Arroz basmati 1kg — $4.590
+- Carne de soya 550g — $2.990
+- Lentejas rojas 1kg — $6.390
+- Quinoa blanca lavada 1kg — $6.290
+- Fibra Inulina prebiótica (V) 600g — $9.590
+- Arroz Bomba 1Kg — $14.900
+- Limonada Thai 475cc — $2.290
+- Trufa negra Entera 50g — $59.990
+- Tartufata di Bosco (con porcini) 90g — $22.390
+- Perfume Black XS EDT 100ml hombre — $79.990
+- CK One Shock for her EDT 100ml mujer — $37.990
+- CK One Shock for him EDT 100ml — $37.990
+- Perfume Big Pony 1 Blue Men EDT 100ml — $38.790
+- Perfume Big Pony 2 EDT 100ml mujer — $53.990
+- Perfume Voyage EDT 100ml hombre — $25.990
+- Be delicious DKNY EDP 100ml — $69.990
+- Berenjenas asadas 650g — $3.990
+- Kombucha Jengibre 0 calorías 355ml — $2.390
+- Kombucha Cedrón 0 calorías 355ml — $2.390
+- Kombucha Arándano 0 calorías 355ml — $2.390
+- Delicias Turcas sabor Granada 400g — $11.190 [sin gluten, vegano]
+- Pesto Verde 180g — $7.290
+- Jamon serrano de 12 meses interfoliado 85g — $5.590
+- Jamón de cebo 100g — $16.790
+- Suero Biotix Limón 500ml — $2.590 [sin azúcar]
+- Suero Biotix Arándano 500ml — $2.590 [sin azúcar]
+- Rillettes de Pato 180g — $10.990
+- Mostaza Dijon Frasco Orsio 310g — $15.990
+- Foie Gras de Pato (50% bloc de foie gras) 1Kg — $65.990
+- Avena Machacada 1kg — $2.990
+- Mani sin sal 250g — $1.790
+- Turrón con nueces 200g 4x50g — $3.490
+- Huevos color Gallinas libres 10 unid — $4.990
+- Delicias Turcas sabor Pistacho 350g — $7.190
+- Ciruelas enteras sin carozo 500g — $5.290
+- Avellana Europea 250g — $6.290
+- Delicias Turcas sabor a Granada 125g — $2.590
+- Delicia Turca Frutilla Sin azúcar 200g — $5.990 [sin azúcar]
+- Caja de Halva / Halawe natural 36x20g — $9.990
+- Berenjenas asadas 1.3 kg — $5.190
+- Hojas de Malva 200g — $5.790
+- Aceitunas rellenas de pimentón 650g — $4.690
+- Tahine 225g — $4.990
+- Hierba Flor de Jamaica 25g — $2.390
+- Gel Aloe-Maqui 1L — $16.490
+- Agar agar 50g — $6.290
+- Polen granulado 130g — $6.990
+- Chucrut crudo fermentado Raíces Nobles 400g — $5.490
+- Chucrut crudo fermentado Clásico Púrpura 400g — $5.490
+- Chucrut de betarraga cruda fermentada 750g — $9.990
+- Alcaparras italianas 190 ml — $5.190
+- Aceitunas verdes sin cuesco 314g — $5.790
+- Aceitunas verdes rellenas con pimentón 280g — $6.790
+- Aceitunas negras 280g — $5.490
+- Alcaparras italianas 106ml — $4.990
+- Piña con cebolla 400g — $6.190
+- Ají con piña 400g — $8.590
+- Mix de ajíes 400g — $8.990
+- Sriracha clásica 330g — $5.390 [vegano]
+- Cebolla Morada 400g — $5.590
+- Ketchup clásico 350g — $3.690
+- Ghee con ajo natural 210ml — $7.990
+- Creatina Monohidratada pura 300g — $28.490
+- Shiitake Mushroom 60 gummies — $17.990
+- Melena de León 30ml — $13.990
+- Reishi 30 ml — $13.990 [sin gluten, vegano]
+- Shiitake 30ml — $13.990 [sin gluten, vegano]
+- Hierba pata de vaca 25g — $1.690
+- Arroz Basmati 500g — $4.490
+- Shiitake sabor mango 60 unids — $18.990
+- Sofrito Listo 200g — $3.490
+- Sal Rosada De Himalaya Parrillera 350g — $3.290
+- Sal Rosada Fina Del Himalaya 300g — $3.890
+- Sal Rosada Del Himalaya Molinillo 110g — $4.390
+- Avena Integral Instantánea Orgánica 750g — $7.290
+- Avena Integral Orgánica 750g — $7.290
+- Clavo de Olor entero 50g — $2.790
+- Damasco Turco 100g — $2.590
+- Hierba Boldo 25g — $1.690
+- Sal Negra De Pakistan Molinillo 100g — $3.990
+- Aceitunas rellenas con Limón 600g — $4.790
+- Camu Camu 100g — $4.990
+- Porotos rojos 1Kg — $3.490
+- Salvado de trigo 250g — $1.290
+- Mani con Sal 250g — $1.790
+- Pepinos Picantes 430g — $5.590
+- Mix de Pickles 430g — $6.190
+- Mostaza Dulce 420g — $6.190
+- Lentejas Caviar negras 500g — $2.190
+- Quinoa Blanca 500g — $4.190
+- Sal Negra 200g — $4.990 [vegano]
+- Hierba Flores Pectorales 25g — $1.690
+- Pimienta Negra Entera 50g — $1.890
+- Pepas de Maravilla peladas 250g — $1.890
+- Pasta de ajo negro 220g — $11.290
+- Arroz integral 1kg — $2.590
+- Salvia seca 500g — $2.490
+- Mix de Pickles 950g — $10.990
+- Arroz Negro 800g — $4.790
+- Delicias Turcas con Granada y Pistacho 350g — $8.790
+- Delicias Turcas Sabor a Rosas 250g — $3.190
+- Tahin Halva Sin Azúcar 300g — $5.590 [sin azúcar]
+- Anis Estrella 50g — $2.390
+- Arroz blanco 500g — $1.290
+- Flor de Jamaica (Hibiscus) 100g — $4.690
+- Salame al Tartufo 125gr — $6.490
+- Avena Instantánea 1kg — $2.290
+- Mix Sour Maqui 25g — $3.790 [sin azúcar]
+- Avena Laminada 500g — $1.390
+- Goji Berries 100g — $2.890
+- Madurador de carnes (3 mallas) — $13.590
+- Lentejas Rojas 500gr — $2.490
+- Quinoa Blanca Organica 400gr — $4.490
+- Goma Xantana 100g — $2.890
+- Sal Molinillo Carmenere 65g — $4.290
+- Hierba Alejandria 25g — $1.690
+- Prebióticos 30 Sachets — $15.990
+- Adobador Chimichurri 330g — $3.590
+- Garra de acero — $6.990
+- Almibar 475cc — $3.590
+- Canela entera 50g — $2.990
+- Canela Molida 50g — $1.690
+- Ketchup Curry 450g — $6.190
+- Pepinos Dulces 990g — $10.990
+- Pepinos Picantes 990g — $9.990
+- Aji verde 990g — $13.990
+- Passata Al Basilico 690g — $3.790
+- Hazelnut Wafer Rolls - Barquillo con avellana 400 gr — $6.990
+- Vanilla Wafer Rolls - Barquillo con Vainilla 400 gr — $6.990
+- Fish OIL 1000mg 400 Tabs - Kirkland — $33.990
+- Women Multivitamins 90caps - Foodtech — $21.490
+- Mascarpone Long Shelf Life 500ml — $11.990
+- Hierba Matico 25g — $1.690
+- Batido SuperGreens Original Cascara Foods 180g — $10.590 [sin azúcar]
+- Ghee ManteGhee 210g — $7.990
+- Ghee ManteGhee 1Kg — $31.190
+- Perfume QAED AL FURSAN EDP 90 ML- LATTAFA — $23.990
+- Perfume Hayaati Lattafa EDP 100ML — $28.790
+- Perfume Bad Homme Maison Alhambra EDP 100ML — $27.490
+- Perfume Ramz Silver Lattafa EDP 100M — $23.990
+- Perfume Your Touch For Women Maison Alhambra 100ML — $22.490
+- Perfume Rave Now Women EDP 100ml — $31.490
+- Salame Italiano Milano 100g Gourmitalia — $5.390
+- Pinoli Italiani 50g — $13.790
+- Aceto Balsamico De Modena Feder 2L — $14.290
+- Quinoa Tricolor 400g Manare Orgánica — $7.290
+- Dulces árabes Cocktail 10 unid — $6.790 [vegano]
+- Perfume Yeah! Man Alhambra 100ML — $23.990
+
+#### Aceites y trufas
+
+- Aceite de coco MCT OIL 250g — $13.590
+- Aceite de coco Prensado en frio Org. 500ml — $10.990
+- Aceite de coco (sin olor/sin sabor) 500ml — $9.990
+- Aceite de Oliva Premium Blend 5L — $34.990
+- Aceite de Oliva Premium Blend 1L — $11.690
+- Aceite de oliva extra virgen 500ml — $5.690
+- Aceite de coco orgánico 200ml — $5.590
+- Aceite de oliva extra virgen premium 5L — $31.990
+- Aceite de Sésamo 100% 250ml — $10.990
+- Aceite de Nuez 100% 250ml — $7.990
+- Aceite de Linaza 100% 250ml — $8.290
+- Aceite de Cáñamo 100% 250ml — $11.790
+- Aceite De Oliva Classic 1L — $18.990
+- Aceite De Oliva Classic 500ml — $11.990
+- Aceite De Oliva Extra Virgen Premium 1L — $21.990
+- Aceite De Oliva Extra-Virgen Premium 500ml — $12.490
+- Aceite De Oliva Extra-Virgen Premium 250ml — $6.990
+- Aceite De Oliva Fine Selection Blend 1L — $22.990
+- Aceite De Oliva Fine Selection Blend 500ml — $12.990
+- Aceite De Coco Orgánico 1L — $17.990
+- Aceite de oliva Albahaca Premium 250ml — $7.990
+- Aceite de Oliva Limón Premium 250ml — $7.990
+- Aceite de oliva Ajo Premium 250ml — $7.990
+- Aceite de Oliva Premium Extra-Virgen 5L — $71.990
+- Aceite de Oliva Premium Bag In Box 3L — $49.990
+- Aceite de Oliva Premium Especiado Naranja 250ml — $7.990
+- Aceite de Oliva Premium Especiado Orégano 250ml — $7.990
+- Aceite de Coco 420ml — $8.990
+- Aceite De Oliva Gold 500ml — $23.990
+- Aceite de coco extra virgen orgánico 1 Lt — $16.590
+- Aceite de Orégano orgánico 30ml — $11.990
+- Aceite de Coco orgánico 1000ml — $18.390
+- Aceite de Palta natural 500 ml — $12.390
+- Aceite De Oliva Extra Virgen 1000ml — $17.990
+- Aceite De Oregano 60 Cáps Soft Gel 90-95% De Carvacrol Ri&co — $16.490
+
+#### Probioticos y old vitamins
+
+- Psyllium Husk orgánico 200g — $10.490 [sin gluten]
+- Levadura Nutricional 100g — $9.490 [vegano]
+- Chlorella orgánica 180 tabletas — $12.490
+- Spirulina orgánica 180 tabletas — $8.990
+- Probióticos 60 Billones + Complejo B - 30Caps — $29.990 [sin gluten, vegano]
+- Beauty Probióticos con Vitaminas y Minerales - 30 caps — $22.990 [sin gluten, vegano]
+- Defensas probiotico + vitaminas y minerales 60 Caps — $24.990 [sin azúcar, sin gluten, sin lactosa, vegano]
+- Fibra de manzana (100% natural) 450g — $17.790
+- Aloe Vera Gel 473ml Manare — $8.990 [sin azúcar]
+
+#### Sin gluten
+
+- Tortillas de Maíz azul 10unid — $3.290 [sin gluten, vegano]
+- Tortillas de Maíz blanco 10unid — $3.290 [sin gluten, vegano]
+- Jugo naranja/manzana/zanahoria Org. 1L — $5.190 [sin gluten]
+- Bebida fermentada de jengibre con kefir (sin gluten) 330ml — $2.990 [sin gluten]
+- Ghee mantequilla clarificada 450g — $14.490 [sin gluten]
+- Barra de Chocolate 62% cacao Org. 100g — $4.390 [sin gluten]
+- Chocolate zero blanco & fresas (S.Azúcar/GF) 100g — $4.590 [sin azúcar, sin gluten, vegano]
+- Melena de león gomitas 60 Unids — $18.990 [sin gluten]
+- Cobertura de chocolate 70% cacao Org. 400g — $15.990 [sin gluten]
+- Bebida Energética Mango 250ml — $1.490 [sin gluten]
+- Salame ahumado 100g — $3.890 [sin gluten]
+- Longanizas de campo 500g — $5.990 [sin gluten]
+- Queso Parmesano Jo Charcuterie 150g — $5.690 [sin gluten]
+- Lomo Coppa Italiano 50g — $4.490 [sin gluten]
+- Melena de León 500mg 60 Cápsulas Ri&Co — $15.900 [sin gluten]
+
+#### Vitaminas y minerales
+
+- Cardiosmile 30 sachets — $18.900
+- Turmeric Detox Plan de 14 días - Ayurvedic — $16.190
+- Ashwagandha Polvo de raíz Org. - Ayurvedic 200g — $25.990
+- Psyllium Husk Powder 200g — $11.790
+- Spirulina orgánica 500mg (100 Tabletas) — $11.890
+- Chlorella orgánica 500mg (100 Tabletas) — $10.590
+- Citrato de potasio 800mg (90 cápsulas) — $9.890
+- Cloruro de Magnesio 500mg (90 cápsulas) — $7.990
+- Calcio + Zinc + Magnesio 500mg (90 cápsulas) — $13.790
+- Creatina Monohydrate 60 servings Redcon1 — $20.990
+- Creatina en Gomitas 150 Gummies - Foodtech — $24.990
+- Sleep Gummies 120 uni.- Foodtech — $21.990 [sin azúcar]
+- Probiotico 25 billion 50 caps - Now Foods — $19.990
+- Collagen Peptides 227g - Now Foods — $17.990
+- Inulin Powder 227g - Now Foods — $13.990
+- Kelp Natural Lodine 200 tablets - Now Foods — $10.990
+- Taurine 500 mg 100 caps - Now Foods — $9.990
+- Iron 18 mg 120 caps - Now Foods — $10.990
+- Magnesium 180 caps - Now Foods — $21.990
+- Magnesium Citrate 227g - Now Foods — $16.490
+- Branched-Chain Amino 120 caps - Now Foods — $19.490
+- Selenium 100mcg 100 Tabs - Now Foods — $8.990
+- ZMA 800 mg 90 caps - Now Foods — $24.490 [vegano]
+- L-Tyrosine 500 mg 120 Caps - Now Foods — $12.490
+- L-Lysine 1000mg 100 Tabs - Now Foods — $12.490
+- L-Proline 500 mg 120 caps - Now Foods — $12.990
+- E-400 Mixed 100 Caps - Now Foods — $18.990
+- DHA 500 mg 90 Caps- Now Foods — $21.990
+- Super Omega Fish Oil 90 caps - Now Foods — $26.990
+- C-1000 Zinc Immune 90 caps - Now Foods — $19.990
+- Chlorella en Polvo Orgánica 250g — $15.490 [sin gluten, vegano]
+- Creatine drive 1kg - Nutrex — $39.990
+
+#### Lácteos
+
+- Mantequilla de maní cremosa 500g — $5.990
+- Mantequilla de maní cremosa 1Kg — $10.990
+- Mantequilla de Maní 250g — $3.390
+- Pimientos picantes rellenos con queso crema 280g — $8.390
+- Ghee Mantequilla Clarificada 450ml — $13.990 [sin gluten]
+- Ghee Mantequilla Clarificada 210ml — $7.990
+- Mantequilla de Cajú 200g — $9.990
+
+#### Endulzantes y azúcar
+
+- Eritritol orgánico 400g — $10.990 [sin gluten, vegano]
+- Jarabe de agave raw 330ml — $5.490
+- Azúcar de Coco Org. 250g — $4.690 [sin gluten]
+- Jarabe de Maple Orgánico 250g — $9.990
+- Jarabe de Agave Orgánico 660ml — $5.190
+- Stevia líquida 50ml — $5.990 [sin gluten, vegano]
+- Alulosa (endulzante) 400g — $11.190 [sin gluten]
+- Azúcar de coco orgánica 300g — $3.790
+
+#### Especias y salsas
+
+- Tahini Orgánico 330g — $9.990
+- Tahini de sésamo 3kg — $29.990
+- Agua de Rosas 250ml — $4.790
+- Zaatar Libanés 250g — $7.490
+- Jarabe de granada 410ml — $6.390
+- Passata di Pomodoro 690g — $3.990
+- Tinta de Calamar 90g — $8.990
+
+#### Chocolates y golosinas
+
+- Cacao en Polvo 500g — $12.990 [sin gluten]
+- Halawa (extra pistachos) 1kg — $29.990
+- Halawa con Pistachos Sin azúcar 300g — $6.990 [sin azúcar]
+- Halva / Halawa (sin azúcar) 20g — $390 [sin azúcar]
+- Caja de Halva / Halawa (sin azúcar) 36x20g — $11.990 [sin azúcar]
+- Halva / Halawa natural 20gr — $390
+- Cacao en Polvo 250g — $6.990
+
+#### Vegano y vegetariano
+
+- Tofu orgánico 349g — $4.490 [sin gluten, vegano]
+- Tofu Soft tetrapack 349g — $4.490 [vegano]
+- Tofu Extra Firme 349g — $4.490 [vegano]
+- Premezcla galletas Keto 290g — $8.790 [sin azúcar, vegano]
+- Pre mezcla panqueque keto 290g — $8.790 [vegano]
+- Caldo de Vegetable 6 cubitos — $3.290 [sin gluten, sin lactosa, vegano]
+- Chips de Yuca con sal del himalaya 60g — $1.390 [vegano]
+- Queso vegano Feta en bloque 200g — $3.990 [vegano]
+- Tortillas Keto Gold 8 unid — $7.990 [sin gluten, vegano]
+- Tortillas Cioccolata 20cm 6Unids — $9.290 [vegano]
+- Tortillas Keto flower 8 Unids — $7.990 [vegano]
+- Flor de banana en salmuera 260g — $2.590 [vegano]
+- Agua de coco 520 ml — $1.990 [sin azúcar, vegano]
+- Leche Condensada de coco 200g — $1.990 [sin gluten, sin lactosa, vegano]
+- Jaca en salmuera 300g — $2.490 [vegano]
+- Jaca entera en agua 300g — $2.490 [vegano]
+- Jaca en agua 300g — $2.490 [vegano]
+- Dulce de Coco Keto Vegano 220g — $11.590 [sin azúcar, sin lactosa, vegano]
+- Bebida vegetal de Coco (S.AZUCAR/V/GF) 1L — $2.690 [sin azúcar, sin gluten, vegano]
+- Alimento líquido de Almendras (S.Azúcar) 1L — $2.590 [vegano]
+- Leche de coco (S.Azúcar/V) 1L — $2.590 [sin azúcar, vegano]
+- Bebida de Almendras (GF/V) 1L — $3.290 [sin lactosa, vegano]
+- Beboda de Avena (S.Azúcar/V) 1L — $3.290 [sin azúcar, sin lactosa, vegano]
+- Té frio Mango Africano 475cc — $2.290 [sin gluten, vegano]
+- Té frio Original 475cc — $2.290 [sin gluten, vegano]
+- Turmeric Green coffee Plan de 14 días - Ayurvedic — $16.190 [vegano]
+- Golden Milk - Leche dorada 200g — $25.690 [vegano]
+- Arrollados primavera con tofu (vegano) 240g — $3.390 [vegano]
+- Mazapán Keto 9 Unids — $6.590 [sin gluten, vegano]
+- Crema de Cacao proteica (vegana) 425g — $7.990 [vegano]
+- Mantequilla de Almendra proteica (vegana) 425g — $9.790 [vegano]
+- Mantequilla de Maní proteica (vegana) 425g — $6.590 [vegano]
+- Hummus proteico (vegano) 425g — $6.990 [vegano]
+- Sopa de Cebolla proteica (vegana) 240g — $3.490 [vegano]
+- Sopa de Zapallo proteica (vegana) 240g — $3.490 [vegano]
+- Sopa de Tomate proteica (vegana) 240g — $3.490 [vegano]
+- Proteína de maní en polvo (V/GF) 680g — $19.990 [sin azúcar, sin gluten, vegano]
+- Galletas de arroz chocolate (sin gluten) 120g — $590 [sin gluten, vegano]
+- Cabritas endulzadas (GF) 210g — $2.990 [sin gluten, vegano]
+- Barra proteína Wow Peanut 200g — $6.290 [vegano]
+- Cabritas sabor queso (GF) 40g — $1.390 [vegano]
+- Granola Proteica 320g — $5.290 [vegano]
+- Mix Keto Snack 25g — $1.290 [sin gluten, sin lactosa, vegano]
+- Proteína en polvo Warrior Mocha 375g (Keto/V) — $33.990 [vegano]
+- Ginger beer 200ml — $2.490 [vegano]
+- Bebida Original de almendras (V) 1L — $2.690 [sin lactosa, vegano]
+- Delicias Turcas Avellanas sin azúcar 250g — $6.290 [sin azúcar, vegano]
+- Falafel 200g — $3.490 [sin gluten, vegano]
+- Lentejas rojas 500g — $3.290 [vegano]
+- Discos de Albahaca Keto 150g — $7.290 [sin azúcar, sin gluten, vegano]
+- Proteína Lean Active Berries Choco (V) 300g — $10.290 [vegano]
+- Dulces árabes Cocktail Zero (sin azúcar, vegano) 6 unid — $6.790 [sin azúcar, vegano]
+- Barra Manjar Coco Keto 60g (V) — $5.290 [sin azúcar, sin gluten, sin lactosa, vegano]
+- Florentina Keto (V) 70g — $6.490 [sin gluten, sin lactosa, vegano]
+- Kombucha Lima Frambuesa Jengibre 475ml — $2.990 [sin gluten, vegano]
+- Kombucha Original 475ml — $2.990 [sin gluten, vegano]
+- Kombucha Mix berries 475ml — $2.990 [sin gluten, vegano]
+- Kombucha Manzana Jengibre 475ml — $2.990 [sin gluten, vegano]
+- Bebida de coco orgánica 400 ml — $2.990 [vegano]
+- Crema de coco orgánica 400 ml — $4.390 [vegano]
+- Chocolate niknuts 40g — $1.190 [sin azúcar, sin lactosa, vegano]
+- Mazapán chocolate Keto 42g — $2.590 [sin azúcar, sin gluten, vegano]
+- Trufas Keto 100g — $7.190 [sin azúcar, sin gluten, vegano]
+- Chocolate ZERO negro 95% cacao (V/GF/S.Azúcar) 100g — $4.590 [sin azúcar, sin gluten, vegano]
+- Proteina de soja con vegetales 150g — $1.290 [vegano]
+- Proteina lean active vainilla y manzana 300g — $10.290 [vegano]
+- Barra Keto Protein Caramelo 40g — $1.290 [vegano]
+- Reishi gomitas 60Unids — $17.490 [sin gluten, vegano]
+- Cordyceps sublingual 3000mg [vegano]
+- Melena de león sublingual 30ml — $15.990 [vegano]
+- Bolitas de Quinua maíz y chocolate (GF) 40g — $2.390 [sin gluten, vegano]
+- Mantequilla de maní Org. 360g — $5.990 [vegano]
+- Super Bizcocho (V/GF) 55g — $1.890 [vegano]
+- Tahini Pasta De Sésamo 800g — $9.590 [vegano]
+- Arrollados Queso Gauda (Veganos) 200g — $4.790 [vegano]
+- Cobertura de chocolate 79% cacao Org. 400g (Sin azúcar) — $17.990 [sin azúcar, vegano]
+- Proteina vegetal de soya fina texturizada 500g Positiv — $2.790 [vegano]
+- Carne de soya Gruesa 500g — $2.690 [vegano]
+- Chucrut crudo fermentado Verdes Vivos 400g — $5.490 [vegano]
+- Té White Shark Chai Tarro 398gr — $9.890 [vegano]
+- Pipoca De Quinoa con stevia 120g — $2.590 [vegano]
+- Gomitas de Fruta Berries 64g — $4.290 [sin azúcar, vegano]
+- Extracto de Vainilla Sin Alcohol 59ml — $10.790 [sin azúcar, vegano]
+- Infusion flor de jamaica 50g — $4.390 [vegano]
+- Té Chai Power Espresso 398g — $9.890 [sin lactosa, vegano]
+- Dátiles 250g — $2.490 [vegano]
+- Galletas Keto Moroketo 48g — $4.790 [sin lactosa, vegano]
+- Mazapan keto vegan (4 unidades) — $3.590 [sin azúcar, sin gluten, vegano]
+- Moringa & Green tea 28 bags — $8.190 [vegano]
+- Gel de Aloe Vera 1 litro — $14.590 [vegano]
+- Bombas Mediterraneas 20g — $790 [sin gluten, vegano]
+- Jengibre Limón + Manzana 80ml — $4.590 [vegano]
+- Cúrcuma Limón/Manzana Jengibre 80ml — $4.590 [vegano]
+- Cúrcuma Jengibre Limón + manzana 80ml — $4.590 [vegano]
+- Aceite de coco extra virgen orgánico 500 ml — $9.990 [vegano]
+- Aceite refinado de coco orgánico 500 ml — $8.490 [vegano]
+- Cacao Nibs 250g — $14.990 [vegano]
+- Barra de Proteina Wow Peanut Chocolate 40 Gr — $1.490 [sin azúcar, sin gluten, vegano]
+- Vinagre de Granada 500 ml — $4.990 [vegano]
+- Jackfruit orgánico en jugo de piña 350 gr — $5.990 [sin azúcar, vegano]
+- Citrato de Magnesio en polvo orgánico 350gr — $20.490 [vegano]
+- Spirulina en polvo orgánica 250g — $10.990 [vegano]
+- Gluten 500g — $4.490 [vegano]
+- Protein Balls Almendra Crunch 60g — $2.290 [sin azúcar, vegano]
+- Fibra de Manzana 225g — $9.290 [vegano]
+- Batido Supergreens Piña 360g — $18.590 [sin azúcar, vegano]
+- Batido SuperGreens 360g — $18.590 [sin azúcar, vegano]
+- Pomodori Secchi Marinati 290g — $6.790 [vegano]
+- Funghi Porcini Secchi 20g — $4.690 [vegano]
+- Energy Ball Veganas + Proteínas 140g — $6.590 [vegano]
+- Tostadas De Pistacho Keto 140g — $7.890 [vegano]
+- Tostadas Aceituna Cebolla Keto 140g — $4.890 [sin gluten, vegano]
+- Maqui Premium En Polvo 100g — $5.390 [sin azúcar, vegano]
+- Hierba Bailahuen 25g — $1.690 [vegano]
+- Palmito Forma Arroz Palmini 338g — $3.790 [vegano]
+- Cabellos de Ángel de Palmito Palmini 338g — $3.790 [sin gluten, vegano]
+- Puré De Palmitos Palmini 338g — $3.790 [vegano]
+- Lasagna De Palmitos Palmini 338g — $3.790 [vegano]
+- Té Orca Spice in Azúcar Caja Sachets * 12Unds — $17.890 [sin azúcar, vegano]
+- Melena De León + Ashwagandha 500mg 60 Caps. vegetales Ri&co — $19.990 [vegano]
+
+#### Bebidas vegetales
+
+- Leche de coco light Org. 400ml — $2.990
+- Leche evaporada de coco 360ml — $2.990 [vegano]
+- Leche de almendras s/azúcar, s/gluten, Org, 1L — $3.990 [sin azúcar]
+- Leche de Arroz con calcio (s/azúcar, s/gluten, Org) 1L — $3.490 [sin azúcar, sin gluten, vegano]
+- Leche de Coco y Arroz (s/azúcar, s/gluten, Org) 1L — $3.190 [sin gluten, vegano]
+- Leche de Avena (sin azúcar) 1L — $3.490 [sin azúcar, vegano]
+- Leche de coco Orgánica (V) 400ml — $2.590
+- Leche entera de Vacas libres pastoreo 1L — $2.990 [sin gluten]
+- Leche entera de Cabras libres 1L — $4.490 [sin gluten]
+- Bolitas de Quinoa con chocolate de leche (GF) 40g — $2.390 [sin gluten]
+- Leche Wilk Sin Azúcar/ Sin Lactosa 1L — $3.590 [sin azúcar, sin lactosa]
+
+#### Orgánico
+
+- Té verde chai orgánico 20 bolsitas — $6.190
+- Té Detox Orgánico 20 bolsitas — $6.190
+- Kombucha Té verde limón 0 calorías 355ml — $2.390
+- Kombucha Original 0 calorías 355ml — $2.390
+- Café molido Perú Amazona 250g — $9.890
+- Puré de Manzana/Arándano Org. 90g — $990
+- Puré Manzana/Plátano/Zanahoria Org. 90g — $990 [sin azúcar, sin gluten]
+- Jugo de manzana/durazno Org. 200cc — $990 [sin azúcar]
+- Aminos de coco orgánico 375 ml — $6.790
+- Jarabe de Maple orgánico 250 ml — $10.490
+- Chucrut Orgánico 360g — $5.690
+- Chucrut orgánico 907g — $9.990
+- Caldo de hueso de Vacuno 500ml — $9.990 [sin gluten]
+- Caldo de huesos de Pollo 500ml — $9.990 [sin gluten]
+- Té English Breakfast Org. 20 bolsitas — $6.190
+- Té Blanco Orgánico 20 bolsitas — $6.190
+- Té Earl grey tea - 20 bolsitas — $6.190
+- Té Infusión Frutos del Bosque 20 Bolsitas — $6.190
+- Té Calmer Chameleon Organic 20 bolsitas — $6.190
+- Té hoja de frambuesa Org. 20 bolsitas — $6.190
+- Té Rooibos Orgánico 20 bolsitas — $6.190
+- Té Rooibos, Naranja, Melissa Org. 20 Bolsitas — $7.490
+- Té Infusión de paz con Ashwagandha Org. 20 Bolsitas — $7.490
+- Té Colección Verde orgánico 20 Bolsitas — $7.490
+- Té Infusión revitalizar Org. 20 Bolsitas — $7.490
+- Té Infusión Amor orgánico 20 Bolsitas — $7.490
+- Té dorado de cúrcuma Org. 20 Bolsitas — $7.490
+- Té colección de hierbas orgánico 20 Bolsitas — $7.490
+- Té Colección del día a la noche Org. 20 Bolsitas — $7.490
+- Té Infusión Radiancia Org. 20 Bolsitas — $7.490
+- Té Matcha 50g — $6.590
+- Harina de Almendras con Piel 400g — $9.890
+- Té Chai Original Org. 20 bolsitas — $7.490
+- Vinagre de manzana con la "madre" (orgánico) 1 Lt — $8.790
+- Barra de chocolate Org. 90% 100g — $4.490
+- Té Verde Limón 20 bolsas — $6.190
+- Té Matcha orgánico Gift Box — $28.290
+- Vinagre Matcha Y Limón Orgánico 500ml — $7.790
+- Cacao en Polvo Orgánico 200g — $6.490
+- Mango en trozos orgánico 350g — $5.990 [sin azúcar]
+- Vinagre de Manzana Canela Cúrcuma 500ml — $7.990
+- Vinagre de Manzana Jengibre Cúrcuma Ají 500ml — $7.990
+- Salsa de soya tamari Yaemon japonesa orgánica 150ml — $6.990
+- Salsa de Soja Shoyu Japonesa Orgánica 150ml — $5.990
+- Té orgánico Night Time Berry Sweet Dreams 20bags — $7.490
+
+#### Snacks
+
+- Semillas de Chía seleccionadas 1kg — $9.290
+- Pasas rubias 250g — $3.490
+- Positiv · Nuez pecana 200g — $6.290
+- Almendras laminadas sin piel 100g — $2.590
+- Almendras enteras 250g — $5.690
+- Nuez Mariposa 250g — $4.790
+- Semillas de Cardamomo 25g — $3.790
+- Semillas de Linaza 500g — $2.390
+
+#### Hogar
+
+- Mortero De Piedra Negro 1,5kg — $8.990
+- Plancha de sal rosada con soporte metálico 20x20x3.9 cm — $24.990
+- Mortero de piedra blanca 1,5kg — $8.990
+
+#### Pastas y masas
+
+- Pasta Farfalle (Orgánicos) 500g — $2.790
+- Pasta Farfalloni no 79 500g — $3.290
+- Lasaña italiana de semola 500g — $3.990
+- Pasta Mezze Penne Rigate Integral (Orgánicos) — $2.790
+- Pasta Spaguetti (Orgánicos) — $2.790
+- Pasta de Lentejas rojas 250g — $4.690
+- Linguini de Palmito Palmini 338g — $3.790
+
+#### Bebidas
+
+- Bebida energética natural Maracuyá Limón 250ml — $2.190 [sin azúcar, sin gluten, vegano]
+- Agua de coco natural 520 ml — $2.470 [sin azúcar]
+- Agua mineral con gas 250ml — $1.890
+- Jugo de manzana/arándano Org. 200cc — $990 [sin azúcar]
+- Agua de rosas 500ml — $4.990
+- Bebida de Avena Barista 1L — $4.290
+- Bebida Piña, Manzana y Espinaca 400ml — $3.190
+- Bebida Uva, Arándano, Maíz morado 400ml — $3.190
+- Bebida Uva, Frutilla y Betarraga 400ml Borganics — $3.190
+- Bebida de Naranja, Frutilla y Zanahoria 400ml — $3.190
+- Bebida de Chia y Maracuyá 400ml — $3.190
+- Bebida Camu Camy, Mango y Maracuya 400ml — $3.190
+- Bebida Concentrada Jengibre 100% Natural 480ml — $12.990
+
+#### Cuidado personal
+
+- Suero Biotix Frambuesa 500ml — $2.590 [sin azúcar]
+- Salsa de tomates con Albahaca 370g — $5.490
+
+#### Panadería
+
+- Premezcla Tres Harinas 500g — $3.990
+- Harina de avena 500g — $1.990
+- Harina de coco 500g — $3.590
+- Harina de arroz 500g — $1.790
+- Harina de Almendras Sin Piel 500g — $8.990
+- Harina de linaza 250g — $1.590
+- Harina Tipo "00" Para Pizza Napoletana 10kg — $31.790
+- Harina 00 Pasta Fresca 10kg — $33.000
+
+#### Suplementos
+
+- Colágeno Antiox 300g — $20.490
+- Péptidos de Colágeno 250g — $20.990
+- Bebida Saludable Limón/frambuesa + Probiótico 350cc — $2.190 [sin azúcar]
+- Péptidos De Colágeno Hidrolizado 600g Manare — $34.990
+
+#### Frescos
+
+- Delicias Turcas Mix de Frutas 250g — $5.990
+- Delicias Turcas Mix de Frutas 125g — $2.490
+- Delicias Turcas Mix de frutas (Sin Azúcar) 250g — $4.790 [sin azúcar]
+
+#### Barras y proteínas
+
+- Brownie de proteina Cookie Dough 65g — $2.990
+- Brownie de proteina Peanut Butter 65g — $2.990
+- Maxi Nutrition Protein Waffle Bar - Caramel Spread — $2.990 [sin azúcar]
 
 
 ## C'est si Bon Costanera
@@ -2612,28 +3609,983 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://www.rakkonatural.cl/
 - **Menciona en su web:** pasta, galleta, chocolate, manjar, jugo
 - **Fecha de registro:** 2026-03-11
-- **Dietético:** 3 platos sin gluten
+- **Dietético:** 542 platos sin gluten, 216 veganos, 69 sin lactosa
 
 ### Qué vende
 
-- Cereales y muesli
-- Pasta y fideos
-- Té
+- Desayunos
+- Snacks y colaciones
+- Integral
+- Despensa
+- Vegano
+- Gourmet
+- Granos y pastas
+- Cereales y frutos secos
+- 100% natural
+- Ofertas 💸
+- Reposteria
+- Salsas y aderezos
+- Manjar, miel y mermeladas
+- Chocolates y golosinas
+- Libre de soya
+- Varios
+- Dulces
+- Panaderia y reposteria
+- Orgánico
+- Cafe, te y hierbas
+- Azucar y endulzantes
+- Café e infusiones
+- Barras y proteínas
+- Lácteos
+- Sin gluten
+- Aseo y limpieza
+- Suplementos deportivos
+- Galletas
+- Liquidación 🔥
+- Packs
+- Snacks
+- Bebidas
+- Panadería
+- Repostería
+- Aseo y cuidado
+- Frescos
 
 
 ### Carta
 
-#### Cereales y muesli
+#### Desayunos
 
-- CORN FLAKES SIN GLUTEN NOGLUT SANTIVERI 250GR — $4.290 [sin gluten]
+- TOSTADAS LIGERAS SIN GLUTEN 100G — $2.890 [sin gluten]
+- MIZOS GALLETA DE ARROZ SABOR YOGHURT Y LIMON 25G — $500 [sin gluten]
+- TURBO ZERO JUGO SABOR PIÑA DISPLAY 10UN — $2.790
+- YERBA MATE ROSAMONTE DESPALADA SIN GLUTEN 500G — $2.990 [sin gluten]
+- TURBO ZERO JUGO SABOR MANZANA DISPLAY 10UN — $2.790
+- YERBA MATE ROSAMONTE SUAVE SELECCIÓN ESPECIAL 500G — $3.290 [sin gluten]
+- TURBO ZERO JUGO SABOR MANDARINA DISPLAY 10UN — $2.790
+- YERBA MATE ROSAMONTE TERERÉ SIN GLUTEN 500G — $3.290 [sin gluten]
+- TURBO ZERO JUGO SABOR NARANJA DISPLAY 10UN — $3.100
+- YERBA MATE ROSAMONTE SUAVE PLUS SIN GLUTEN 500G — $3.290 [sin gluten]
+- TURBO ZERO JUGO SABOR PERA DE AGUA DISPLAY 10UN — $2.790
+- TURBO ZERO JUGO SABOR LIMONADA DISPLAY 10UN — $2.790
+- YERBA MATE ROSAMONTE SUAVE SIN GLUTEN 500G — $2.990 [sin gluten]
+- TURBO ZERO JUGO SABOR DURAZNO DISPLAY 10UN — $2.790
+- TURBO ZERO JUGO SABOR BERRIES DISPLAY 10UN — $2.790
+- TURBO ICE TEA SABOR DURAZNO DISPLAY 12UN — $4.990 [sin lactosa, vegano]
+- YERBA MATE CACHAMATE HIERBAS SERRANAS 1KL — $4.790 [sin gluten]
+- TURBO ICE TEA SABOR MARACUYA DISPLAY 12UN — $4.990 [sin lactosa, vegano]
+- TURBO FLAN SABOR MANJAR SIN GLUTEN 50G — $590 [sin gluten]
+- TURBO ZERO GELATINA SABOR PIÑA 22G — $690 [sin azúcar, sin lactosa]
+- TURBO GELATINA SABOR LIMON SIN GLUTEN 80G — $790 [sin gluten, sin lactosa]
+- MIZOS GALLETA DE ARROZ SABOR YOGHURT Y FRUTILLA 25G — $500 [sin gluten]
+- MIZOS GALLETA DE ARROZ SABOR YOGHURT Y FRUTILLA 150G — $2.590 [sin gluten]
+- MIZOS GALLETAS DE ARROZ SABOR CHOCOLATE NARANJA 150G — $2.590 [sin gluten, vegano]
+- MIZOS GALLETA DE ARROZ SABOR YOGHURT Y LIMON 150G — $2.290 [sin gluten]
+- MIZOS GALLETAS DE ARROZ SABOR CHOCOLATE 120G — $2.290 [sin gluten, vegano]
+- ACEITE DE COCO VIRGEN VEGANO SIN GLUTEN MI TIERRA NUTRISA 350G — $7.990 [sin gluten, vegano]
+- LANDI TÉ NEGRO CEYLAN SIN GLUTEN 100BOLSITAS 180G — $4.250 [sin gluten]
+- LANDI TÉ NEGRO FRUTOS ROJOS SIN GLUTEN 20BOLSITAS — $1.390 [sin gluten]
+- LANDI TÉ NEGRO NARANJA MANDARINA SIN GLUTEN 20BOLSITAS — $1.390 [sin gluten]
+- LANDI TÉ NEGRO CANELA SIN GLUTEN 20BOLSITAS — $1.390 [sin gluten]
+- LANDI TÉ NEGRO JAZMIN SIN GLUTEN 20BOLSITAS — $1.390 [sin gluten]
+- LANDI TÉ NEGRO MANZANA CANELA SIN GLUTEN 20BOLSITAS — $1.390 [sin gluten]
+- ROSAMONTE YERBA MATE PLUS SIN GLUTEN 500G — $3.290 [sin gluten]
+- SÉSAMO SUK 250G LIQUIDACION 30.11.2026 — $2.890
+- MASA DE PREPIZZA SIN GLUTEN NUTRISA 275G — $2.690 [sin gluten, sin lactosa]
+- PAN MINI BAGUETTE SIN GLUTEN NUTRISA 400G — $4.290 [sin gluten, sin lactosa]
+- PAN PITA SIN GLUTEN NUTRISA 260G — $3.390 [sin gluten, sin lactosa]
+- PAN DE COMPLETO SIN GLUTEN NUTRISA 400G — $4.290 [sin gluten, sin lactosa]
+- TORTILLAS 8UN SIN GLUTEN NUTRISA 260G — $2.490 [sin gluten, sin lactosa]
+- PAN MARRAQUETA SIN GLUTEN NUTRISA 480G — $4.290 [sin gluten, sin lactosa]
+- CAFE GRANO MOLIDO EXTRA FUERTE SIN GLUTEN PILAO 250G — $6.990 [sin gluten]
+- CAFE GRANO MOLIDO TRADICIONAL SIN GLUTEN PILAO 250G — $6.990 [sin gluten]
+- CAFE GRANO MOLIDO TRADICIONAL SIN GLUTEN PILAO 500G — $14.990 [sin gluten]
+- NOT MILK LOW FAT SIN GLUTEN Y VEGANA 1LT — $2.240 [sin gluten, vegano]
+- MOVENPICK DER HIMMLISCHE LUNGO CAPSULA COMPATIBLE — $4.990
+- MOVENPICK RISTRETTO CAPSULA COMPATIBLE CON NESPRESSO 10CAPS — $4.990
+- MOVENPICK DESCAFEINATO ESPRESSO CAPSULA COMPATIBLE — $4.990
+- MOVENPICK CREMA LUNGO CAPSULA COMPATIBLE — $4.990
+- MOVENPICK INTENSO ESPRESSO CAPSULA COMPATIBLE — $4.990
+- MOVENPICK CAFE EN GRANO GUSTO ITALIANO 1KL — $29.990
+- KIMBO ESPRESSO BARISTA DECAF CAPSULA COMPATIBLE — $5.890
+- KIMBO ESPRESSO BARISTA 100% ARABICA CAPSULA COMPATIBLE — $4.990
+- KIMBO CAFE MOLIDO AROMA GOLD 100% ARABICA 250G — $9.990
+- YERBA MATE ROSAMONTE TRADICIONAL SIN GLUTEN 250G — $1.490 [sin gluten]
+- GALLETAS DE ARROZ CUBIERTAS EN YOGHURT FRUTILLA SIN GLUTEN 115G — $1.890 [sin gluten]
+- KIMBO CAFE CIALDE CAPRI 50 PODS CAFETERA (ESE) — $27.990
+- WANIA PAPAS CENTRIFUGADAS SIN GLUTEN VEGANO 50G — $890 [sin gluten, vegano]
+- WILD PROTEIN CHOCOLATE COCO VEGANA 45G — $1.250 [sin azúcar, vegano]
+- YERBA MATE TRADICIONAL SIN GLUTEN ROSAMONTE 1KL — $5.590 [sin gluten]
+- CAFE GRANO ENTERO DER HIMMLISCHE 100% ARABICA MOVENPICK 500G — $15.990
+- CAFE GRANO ARABICA-ROBUSTA MOVENPICK 500G — $14.990
+- LANDI TÉ NEGRO BLACK CURRANT SIN GLUTEN 20BOLSITAS — $1.390 [sin gluten]
+- MANTEQUILLA DE MANÍ CREMOSA SIN GLUTEN NUTRISA 400 GR — $3.200 [sin gluten]
+- LANDI TÉ NEGRO VAINILLA SIN GLUTEN 20 BOLSITAS — $1.390 [sin gluten]
+- LANDI TÉ NEGRO JENGIBRE SIN GLUTEN 20BOLSITAS — $1.390 [sin gluten]
+- SUK CONSERVES CHTAURA MIEL DE GRANADA 250ML — $4.390
+- LANDI TÉ NEGRO CEYLÁN MENTA SIN GLUTEN 20BOLSITAS — $1.390 [sin gluten]
+- COLUN LECHE EN POLVO DESCREMADA 0% GRASA 800G SIN GLUTEN — $7.190 [sin gluten]
+- COLUN LECHE VAINILLA BOMBILLIN PACK 6UN SIN GLUTEN — $2.990 [sin gluten]
+- COLUN NECTAR DE NARANJA BOMBILLIN PACK 6UN SIN GLUTEN — $1.700 [sin gluten]
+- COLUN LECHE BOMBILLIN CHOCOLATE PACK 6UN SIN GLUTEN — $2.990 [sin gluten]
+- COLUN LECHE BOMBILLIN PLATANO PACK 6UN SIN GLUTEN — $2.990 [sin gluten]
+- COLUN LECHE FRUTILLA BOMBILLIN PACK 6UN SIN GLUTEN — $2.990 [sin gluten]
+- COLUN LECHE CHOCOLATE ORIGINAL BOMBILLIN PACK 6UN SIN GLUTEN — $2.990 [sin gluten]
+- DILMAH TE NEGRO CEYLAN 10UN — $990
+- KIMBO CAFE MOLIDO ESPRESSO NAPOLI 250GRS — $8.590
+- KIMBO CAFE GRANO MOLIDO CLASSICO 250GR — $6.990
+- ALUSWEET ALULOSA RECARGA TABLETAS 750UN — $4.290
+- COLUN LECHE MANJAR BOMBILLIN PACK 6UN SIN GLUTEN — $2.990 [sin gluten]
+- TIKA MINI RICE POP LIMON FRUTILLA SIN GLUTEN 15GR LIQUIDACIÓN 05.12.2026 — $350 [sin gluten]
+- NUTRISA MINI QUEQUE VAINILLA 250GR SIN GLUTEN — $2.990 [sin gluten]
+- NUTRISA MINI QUEQUE LIMON 250GR SIN GLUTEN — $2.990 [sin gluten]
+- COLUN NECTAR DE DURAZNO BOMBILLIN PACK 6UN SIN GLUTEN — $1.700 [sin gluten]
+- COLUN NECTAR DE MANZANA BOMBILLIN PACK 6UN SIN GLUTEN — $1.700 [sin gluten]
+- COLUN NECTAR DE PIÑA BOMBILLIN PACK 6UN SIN GLUTEN — $1.700 [sin gluten]
+- MIZOS GALLETAS DE ARROZ SABOR CHOCOLATE AVELLANA 150G — $2.250 [sin gluten]
+- MIZOS GALLETAS DE ARROZ SABOR FRUTILLA MURTA 25G — $450
+- LANDI INFUSION FLOR DE JAMAICA SIN GLUTEN 20BOLSITAS — $2.790 [sin gluten]
+- NOT MILK BEBIDA VEGETAL CHOCOLATE KIDS 200ML — $790
+- PROMOCION BARRA DE PROTEÍNA NOTSQUARE CHOCO COCO 5UN 30G — $2.990 [sin azúcar]
+- NOT SHAKE PROTEIN CARAMELO SIN GLUTEN 250ML — $990 [sin azúcar, sin gluten, sin lactosa]
+- NOT SHAKE PROTEIN CHOCOLATE SIN GLUTEN 250ML — $990 [sin azúcar, sin gluten, sin lactosa]
+- TURBO BENNY SABOR CHOCOLATE SIN GLUTEN 200G — $1.090 [sin gluten]
+- CAFÉ CAMEL INSTANTANEO CLASICO 100G — $3.490
+- BARRA DE PROTEINA NUTREND SABOR FRUTILLA SIN GLUTEN 55GR — $1.690 [sin gluten]
+- BARRA DE PROTEINA NUTREND SABOR MANGO SIN GLUTEN 55GR — $1.690 [sin gluten]
+- BARRA DE PROTEINA NUTREND SABOR COCO SIN GLUTEN 55GR — $1.690 [sin gluten]
+- BARRA DE PROTEINA NUTREND SABOR CHOCOLATE SIN GLUTEN 55GR — $1.690 [sin gluten]
+- CAFE MOLIDO PREMIUM J.J.DARBOVEN KRÄNZCHEN KAFFEE 500G — $12.490
+- CAFÉ MOLIDO DESCAFEINADO IDEE KAFFEE ELEGANT 500 G — $15.990
+- OLD EL PASO TORTILLAS PARA TACOS SIN GLUTEN 130G LIQUIDACIÓN 10.12.2026 — $1.990 [sin gluten]
+- CAFE GRANO CREMA MOVENPICK 500GR — $15.990
+- CAMEL CAFÉ CAPUCCINO CANELA 5UN 125GR — $1.590
+- KIMBO INTENSO CAPSULA COMPATIBLE CON NESPRESSO 10CAPS — $4.990
+- TURBO FLAN SABOR FRUTILLA SIN GLUTEN |50G — $590 [sin gluten]
+- ¡PROMOCION! CAFÉ INSTANTANEO LIOFILIZADO GOLD ORIGINAL 100G — $5.990
+- ¡PROMOCION! CAFÉ INSTANTANEO LIOFILIZADO GOLD ORIGINAL 200G — $11.000
+- ¡PROMOCION! NOT PROTEIN BAR LEMON CAKE 45G PACK 5UN — $3.490
+- CAMEL MATCHA LATTE 100G 5BOLSITAS 20G C/U — $1.690
+- ¡PROMOCION! CAFÉ INSTANTANEO LIOFILIZADO GOLD INTENSO 200G — $11.000
 
-#### Pasta y fideos
+#### Snacks y colaciones
 
+- GALLETA MARIA SANTIVERI SIN GLUTEN 180G — $3.490 [sin gluten, sin lactosa]
+- MIZOS GALLETA DE MAIZ CON CHOCOLATE VEGAN 20G — $500 [sin gluten, vegano]
+- MIZOS POPPED CHIPS PAPA SAL DE MAR 20G — $550 [sin gluten]
+- MIZOS GALLETAS DE ARROZ SABOR MANZANA 100G — $2.290 [sin gluten, vegano]
+- MIZOS POPPED CHIPS PAPA SAL DE MAR 105G — $2.290 [sin gluten]
+- MIZOS POPPED CHIPS DE PAPA CON ROMERO 105G — $2.390 [sin gluten, vegano]
+- MIZOS BARRITA NATURAL SABOR MANTEQUILLA DE MANI 35G — $790 [sin gluten, vegano]
+- MARSHMALLOW TRENZA DE COLORES RELLENA FRUTILLA SIN GLUTEN 80G — $990 [sin gluten]
+- MARSHMALLOW TRENZA AZUL Y BLANCA SABOR GROSELLA SIN GLUTEN 80G — $990 [sin gluten]
+- MARSHMALLOW MINI TUBOS SABOR VAINILLA SIN GLUTEN 80G — $990 [sin gluten]
+- FINI GOMITAS GUSANOS ÁCIDOS SIN GLUTEN 80G — $990 [sin gluten]
+- FINI GOMITAS OSITOS SABORES SURTIDOS SIN GLUTEN 80G — $990 [sin gluten]
+- FINI GOMITAS PLÁTANOS SIN GLUTEN 80G — $990 [sin gluten]
+- FINI GOMITAS FINIBURGUERS SABORES SURTIDOS SIN GLUTEN 80G — $990 [sin gluten]
+- GOMITAS HUEVOS FRITOS SABOR TUTTI - FRUTTI SIN GLUTEN 90G — $990 [sin gluten]
+- FINI GOMITAS DENTADURAS FRUTILLA Y FRAMBUESA SIN GLUTEN 80G — $990 [sin gluten]
+- MIX GALLETITAS 6UN SIN GLUTEN 180G — $2.490 [sin azúcar, sin gluten]
+- PROTEIN BAR HAZELNUT PRALINE SIN GLUTEN 60G 4UN — $8.990 [sin azúcar, sin gluten]
+- PROTEIN BITE WHITE & BLACK 55G X 4UN — $7.990 [sin azúcar]
+- PROTEIN BITE CARAMEL PEANUTS 55G X 4UN — $8.990 [sin azúcar]
+- BUKA PAPAS FRITAS CON SAL DE MAR SIN GLUTEN 130G — $990 [sin gluten, vegano]
+- BUKA CAMOTE FRITO CON SAL DE MAR SIN GLUTEN VEGANO 200G — $1.590 [sin gluten, vegano]
+- BUKA PAPAS FRITAS CON SAL DE MAR SIN GLUTEN VEGANO 200G — $1.590 [sin gluten, vegano]
+- BUKA PAPAS FRITAS NATIVAS — $1.700 [sin gluten, vegano]
+- BUKA MIX VEGETALES SIN GLUTEN VEGANO 150G — $2.390 [sin gluten, vegano]
+- BUKA MIX VEGETALES SIN GLUTEN VEGANO 90G — $1.290 [sin gluten, vegano]
+- BUKA RAMITAS DE GARBANZOS SIN GLUTEN 35G — $450 [sin gluten]
+- WILD PROTEIN CHOCOLATE NARANJA VEGANA 45G — $1.250 [sin azúcar, vegano]
+- WILD PROTEIN CHOCOLATE BITTER VEGANA 45G — $1.250 [sin azúcar, vegano]
+- WILD PROTEIN CAFE MOKKA VEGANA 45G — $1.250 [sin azúcar, vegano]
+- WILD PROTEIN CARAMELO 45G — $1.250 [sin azúcar]
+- WILD PROTEIN CHOCOLATE MANI 45G — $1.250 [sin azúcar]
+- PAPAS FRITAS TIKA NATIVAS 150G CREMA Y CIBOULETTE — $2.250
+- PAPAS FRITAS TIKA NATIVAS 150G MERKÉN AHUMADO — $2.250 [sin gluten, vegano]
+- PAPAS FRITAS TIKA NATIVAS 150G CEBOLLITA DULCE — $2.250 [sin gluten, vegano]
+- PAPAS FRITAS TIKA NATIVAS 150G SAL DE MAR — $2.250 [sin gluten, vegano]
+- RICE CRISPS SIN GLUTEN TOMATE ALBAHACA 100G liquidacion 28/12/2026 — $1.290 [sin gluten]
+- TIKA ROOTS CREMA Y CEBOLLA-PEREJIL 135GR — $2.690 [sin gluten, vegano]
+- TIKA ROOTS SAL DE MAR 135GR — $2.690 [sin gluten, vegano]
+- TIKA ROYAL CHIPS PARMESANO 150GR — $2.850 [sin gluten, vegano]
+- TIKA ROYAL CHIPS SETAS MOZZARELLA 150GR — $2.850 [sin gluten, vegano]
+- TIKA ROYAL CHIPS TRUFA NEGRA 150GR — $2.850 [sin gluten, vegano]
+- TIKA VEGGIE CHIPS PATAGONIA 150GR — $2.990
+- TIKAQUITOS QUESO 150GR — $1.990 [sin gluten, vegano]
+- TIKAQUITOS FUEGO LOCO 150GR — $1.990 [sin gluten, vegano]
+- TIKA VEGGIE CHIPS CHILOE 150GR — $2.990
+- TIKA VEGGIE CHIPS FURIOSAS 150GR — $3.190
+- MIZOS PACK 5X MIX VARIEDAD COLACION SALUDABLE SIN GLUTEN — $2.990 [sin gluten]
+- NUTRISA SEMILLA DE QUINOA MI TIERRA 600G — $4.490 [sin gluten]
+- MIZOS PACK 18X BARRA PROTEINA FRAMBUESA MAQUI 35GR — $14.290
+- WANIA CHIPS CENTRIFUGADAS PAPAS NATIVAS 140G SIN GLUTEN VEGANO — $2.490 [sin gluten, vegano]
+- WANIA PAPAS HILO CENTRIFUGADAS SIN GLUTEN VEGANO 500G — $4.490 [sin gluten, vegano]
+- WANIA RAMITAS SABOR QUESO CHEDDAR VEGANO SIN GLUTEN 160GR Liquidacion 30.11.2026 — $1.990 [sin gluten, vegano]
+- WANIA RAMITAS DE GARBANZO ORIGINAL SIN GLUTEN VEGANO 50GR — $990 [sin gluten, vegano]
+- WANIA RAMITAS DE GARBANZO ORIGINAL SIN GLUTEN VEGANO 180GR — $2.490 [sin gluten, vegano]
+- WANIA ARVEJAS CRUJIENTES LIMON Y CILANTRO 120G SIN GLUTEN VEGANO — $1.990 [sin gluten, vegano]
+- WANIA MIX LEGUMBRES — $1.990 [sin gluten, vegano]
+- WANIA MIX LEGUMBRES TOMATE Y ALBAHACA SIN GLUTEN VEGANO 120G — $1.990 [sin gluten, vegano]
+- WANIA GARBANZOS CRUJIENTES — $1.990 [sin gluten, vegano]
+- NUTRISA QUEQUE FAMILIAR CHIPS DE CHOLATE 200G SIN GLUTEN — $2.990 [sin gluten]
+- UNDERFIVE BALLS CACAO CRUNCH 60GR VEGANO Liquidacion 11/11/2026 — $790 [vegano]
+- UNDERFIVE COOKIES MANZANA PACK 5UN 150GR — $3.490 [sin azúcar]
+- UNDERFIVE COOKIES CACAO PACK 5UN 150GR — $3.490 [sin azúcar, vegano]
+- BUKA MIX VEGETALES TOCINO MIEL SIN GLUTEN VEGANO 150G — $2.390 [sin gluten, vegano]
+- KAPY PAPAS FRITAS RUSTIK MERKEN 30G SIN GLUTEN VEGANO — $500 [sin gluten, vegano]
+- KAPY PAPAS FRITAS CORTE LISO 30G SIN GLUTEN VEGANO — $500 [sin gluten, vegano]
+- KAPY PAPAS FRITAS RUSTIK SAL DE MAR 30G SIN GLUTEN VEGANO — $500 [sin gluten, vegano]
+- KAPY PAPAS FRITAS CORTE AMERICANO 30G SIN GLUTEN VEGANO — $500 [sin gluten, vegano]
+- KAPY PAPAS FRITAS RUSTIK SAL DE MAR 140G SIN GLUTEN VEGANO — $1.500 [sin gluten, vegano]
+- KAPY PAPAS FRITAS RUSTIK MERKEN 140G SIN GLUTEN VEGANO — $1.500 [sin gluten, vegano]
+- KAPY PAPAS FRITAS CORTE LISO 150G SIN GLUTEN VEGANO — $1.500 [sin gluten, vegano]
+- KAPY PAPAS FRITAS CORTE AMERICANO 150G SIN GLUTEN VEGANO — $1.500 [sin gluten, vegano]
+- MIZOS GALLETON DE ARROZ CHOCONUT 115GR SIN GLUTEN — $3.490 [sin gluten]
+- MIZOS GALLETON DE ARROZ FRAMBERRY 115GR SIN GLUTEN — $3.490 [sin gluten]
+- ¡PROMOCION! NOT PROTEIN BAR COOKIES AND DREAMS 45G PACK 5UN — $3.490
+- ¡PROMOCIÓN! NOT PROTEIN BAR MANTEQUILLA DE MANI 45G PACK 5UN — $3.490
+
+#### Integral
+
+- MIZOS GALLETAS DE ARROZ SABOR ARANDANO Y GRANADA 16G — $450 [sin gluten, vegano]
+- MIZOS GALLETAS DE ARROZ SABOR MANZANA 16G — $450 [sin gluten]
+- MIZOS GALLETAS DE ARROZ SABOR CHOCOLATE 20G — $500 [sin gluten, vegano]
+- MIZOS BARRITA NATURAL SABOR ARANDANOS 35G — $790 [sin gluten, vegano]
+- SESAMO TOSTADO SIN GLUTEN MI TIERRA 100G — $1.790 [sin gluten]
+- SEMILLA DE CHIA SIN GLUTEN MI TIERRA 175G — $2.650 [sin gluten]
+
+#### Despensa
+
+- TURBO FLAN SABOR VAINILLA SIN GLUTEN 50G — $590 [sin gluten]
+- TURBO ZERO GELATINA SABOR NARANJA 22G — $690 [sin azúcar, sin lactosa]
+- TURBO ZERO GELATINA SABOR BERRIES 22G — $690 [sin azúcar, sin lactosa]
+- TURBO ZERO GELATINA SABOR LIMON 22G — $690 [sin azúcar, sin lactosa]
+- TURBO ZERO GELATINA SABOR FRUTILLA 22G — $690 [sin azúcar, sin lactosa]
+- TURBO ZERO AZUCAR GELATINA SIN SABOR SIN GLUTEN 30G — $990 [sin azúcar, sin gluten, sin lactosa]
+- SEMILLA DE MARAVILLA PELADA SIN GLUTEN MI TIERRA 150G — $1.450 [sin gluten]
+- SEMILLA DE SESAMO NATURAL NUTRISA MI TIERRA 100G — $1.790 [sin gluten]
+- SALSA TERIYAKI SIN GLUTEN 500ML — $2.490 [sin gluten]
+- MEZCLA LISTA PARA EMPANADA SIN GLUTEN 1KL — $5.990 [sin gluten, sin lactosa, vegano]
+- MEZCLAS LISTA PARA SOPAIPILLA SIN GLUTEN 1KL — $5.990 [sin gluten, sin lactosa, vegano]
+- CURCUMA SUK 70G — $1.890
+- GARAM MASALA SUK 70G — $2.890
+- CURRY SUK 70G — $1.890
+- 7 ESPECIAS SUK 70G — $2.890
+- PASTA MOSTACHOLI SIN GLUTEN NO + GLUTEN 250G — $1.790 [sin gluten, sin lactosa]
+- NOT MILK ORIGINAL SIN GLUTEN Y VEGANA 1LT — $2.240 [sin gluten, vegano]
+- NOT MILK CHOCOLATE SIN GLUTEN Y VEGANA 1LT — $2.240 [sin gluten, vegano]
+- CAFE ORGANICO LIOFILIZADO SIN GLUTEN 100G — $11.990 [sin azúcar, sin gluten, vegano]
+- CAFE ORGANICO LIOFILIZADO DESCAFEINADO SIN GLUTEN 100G — $11.990 [sin azúcar, sin gluten, vegano]
+- ARROZ BASMATI 1KL — $6.590
+- BUKA PAPAS NATIVAS 100% ARTESANALES CEBOLLA CARAMELIZADA SIN GLUTEN VEGANO 150G — $1.700 [sin gluten, vegano]
+- BUKA MIX VEGETALES MOSTAZA Y MIEL SIN GLUTEN VEGANO 150G — $2.390 [sin gluten, vegano]
+- BUKA PLATANITOS SUN GLUTEN VEGANO 100G — $1.590 [sin gluten, vegano]
+- BUKA PAPAS FLOW SAL DE MAR SIN GLUTEN VEGANO 35G — $450 [sin gluten, vegano]
+- CHOCOLATE CON LECHE SIN AZUCAR SIN GLUTEN 70G — $1.990 [sin azúcar, sin gluten]
+- CHOCOLATE BLANCO SIN AZUCAR SIN GLUTEN 70G — $1.990 [sin azúcar, sin gluten]
+- VINAGRE DE SIDRA DE MANZANA ORGANICO SIN GLUTEN NATUR GREEN 500ML — $4.490 [sin gluten]
+- MIZOS GALLETAS DE MAIZ SABOR CARAMELO 20G — $500 [sin gluten]
+- MAYO ORIGINAL VEGETAL SIN GLUTEN EGGLESS 352g — $1.990 [sin azúcar, sin gluten, sin lactosa]
+- MAYO AJO SUAVE VEGETAL SIN GLUTEN EGGLESS 352g — $1.990 [sin azúcar, sin gluten, sin lactosa]
+- MAYO ARVEJAS VEGETAL SIN GLUTEN EGGLESS 352g — $1.990 [sin azúcar, sin gluten, sin lactosa]
+- SALSA DE OSTRAS SIN GLUTEN 560CC — $3.650 [sin gluten]
+- GOMA XANTHAN SIN GLUTEN VEGANA MOR 100GR — $1.950 [sin gluten, vegano]
+- GROW JUGO DE MANZANA SIN GLUTEN 100% NATURAL 1LT liquidacion 08/12/2026 — $1.490 [sin azúcar, sin gluten]
+- TIKA GRANOLA CRUNCHY CACAO 200GR SIN GLUTEN — $2.990 [sin azúcar, sin gluten]
+- PROTEIN BAR CHOCOLATE BROWNIE SIN GLUTEN 60G 4UN — $8.990 [sin gluten]
+- POLVO DE HORNEAR SIN GLUTEN VEGANO MOR 100G — $1.490 [sin gluten, vegano]
+- TIKA MINI RICE LIMON FRUTILLA VEGANO SIN GLUTEN 110GR — $890 [sin gluten, vegano]
+- TIKA MINI RICE CREAM CIBOULETTE VEGANO SIN GLUTEN 110GR — $890 [sin gluten, vegano]
+- TAHINI PREMIUM PRINCE BALDE 3KL — $24.990 [sin gluten, vegano]
+- MAICENA SIN GLUTEN MOR 100G — $990 [sin gluten]
+- WANIA CHIPS CENTRIFUGADAS PAPAS NATIVAS 50G SIN GLUTEN VEGANO — $990 [sin gluten, vegano]
+- ALULOSA ALUSWEET SIN GLUTEN GOTAS 360ML — $4.290 [sin gluten]
+- TAGATOSA ALUSWEET SIN GLUTEN GOTAS 360ML — $4.990 [sin gluten]
+- NOT MAYO SPECIAL SAUCE 350GR — $2.390
+- NOT MAYO DORITOS 350GR — $2.390
+- AMA PURÉ PROTEINA VEGETAL + FIBRA ORGANICO 90G — $890
+- TORRAS CHOCOLATE DARK & MENTA 0% AZUCAR, SIN GLUTEN 75G — $3.290 [sin gluten]
+- COLUN LECHE CON CAFÉ CAPPUCCINO 330ML SIN GLUTEN — $990 [sin gluten, sin lactosa]
+- COLUN LECHE CON CAFÉ CARAMELO 330ML SIN GLUTEN — $990 [sin gluten, sin lactosa]
+- ORASI LECHE VEGETAL ARROZ 1LT SIN GLUTEN — $3.190 [sin gluten]
+- ORASI LECHE VEGETAL BARISTA ALMENDRA 1LT SIN GLUTEN — $3.190 [sin gluten, sin lactosa]
+- ORASI LECHE VEGETAL ALMENDRA 1LT SIN GLUTEN — $2.690 [sin gluten]
+- ORASI LECHE VEGETAL AVENA 1LT SIN GLUTEN — $2.690 [sin gluten]
+- WILD PROTEIN CHOCOLATE 45G VEGANA — $1.250 [vegano]
+- NUTRISA VINAGRE DE MANZANA 500CC — $1.790
+- JAPON A TU MESA SALSA ACEVICHADA VEGANA 320g SIN GLUTEN — $2.190 [sin gluten, vegano]
+- JAPON A TU MESA SALSA BBQ FULL SPICY 320g SIN GLUTEN — $2.990 [sin gluten, vegano]
+- JAPON A TU MESA SALSA BBQ ORIGINAL 320g SIN GLUTEN — $2.990 [sin gluten, vegano]
+- TIKA CRACKERS QUINOA Y OLIVA 140G SIN GLUTEN — $1.490 [sin gluten]
+- TIKA GRANOLA CRUNCHY QUINOA 200G SIN GLUTEN — $2.990 [sin gluten]
+- SALSA AGRIDULCE VEGANA SIN GLUTEN 500ML LIQUIDACION 01/09/2026 — $1.290 [sin gluten, vegano]
+- PAPAS FRITAS SABOR SALSA BARBACOA SIN GLUTEN SCHAR 170G — $4.890 [sin gluten]
+- BUKA MERMELADA CEBOLLA SIN GLUTEN VEGANA 160G — $1.990 [sin gluten, vegano]
+- VINAGRE BALSAMICO ORGANICO SIN GLUTEN NATUR GREEN 250ML — $3.350 [sin gluten]
+- NOT MAYO ESPECIAL SAUCE 315GR — $1.690
+- COLUN MANJAR TRADICIONAL DOYPACK 400G SIN GLUTEN — $1.790 [sin gluten]
+- ALUSWEET STEVIA ALULOSA GOTAS 180ML — $4.490
+- COLUN LECHE DESAYU NOW! 330ML SIN GLUTEN SABOR CHOCOLATE — $990 [sin gluten, sin lactosa]
+- COLUN LECHE DESAYU NOW! 330ML SIN GLUTEN SABOR MANZANA — $990 [sin gluten, sin lactosa]
+
+#### Vegano
+
+- BEBIDA VEGETAL ALMENDROLA SIN AZUCAR SIN GLUTEN 1LT — $3.290 [sin azúcar, sin gluten, vegano]
+- LECHE DE COCO SIN GLUTEN TETRA PACK 500 ML Liquidacion 11.12.2026 — $2.990 [sin gluten, sin lactosa, vegano]
+- LECHE DE COCO SIN GLUTEN TETRA PACK 1LT LIQUIDACION 30.11.2026 — $2.990 [sin gluten, sin lactosa, vegano]
+- PREPARACION EVAPORADA DE COCO SIN GLUTEN NATURES CHARM 360ML — $2.490 [sin gluten, vegano]
+- CREMA DE COCO PARA BATIR SIN GLUTEN NATURES CHARM 400ML — $3.390 [sin gluten, vegano]
+- ALULOSA ALUSWEET SIN GLUTEN EN POLVO 500G — $5.990 [sin gluten, vegano]
+- ALULOSA ALUSWEET SIN GLUTEN EN POLVO 250G — $3.690 [sin gluten, vegano]
+- ALULOSA ALUSWEET SIN GLUTEN GOTAS 270ML — $3.690 [sin gluten, vegano]
+- ALULOSA ALUSWEET SIN GLUTEN GOTAS 180ML — $2.990 [sin gluten, vegano]
+- TAGATOSA ALUSWEET SIN GLUTEN EN POLVO 500G — $6.990 [sin gluten, vegano]
+- TAGATOSA ALUSWEET SIN GLUTEN GOTAS 270ML — $4.290 [sin gluten, vegano]
+- TAGATOSA ALUSWEET SIN GLUTEN GOTAS 180ML — $2.990 [sin gluten, vegano]
+- SYRUP ALUSWEET SIN GLUTEN 320G — $5.590 [sin gluten, vegano]
+- SYRUP SABOR MAPLE ALUSWEET SIN GLUTEN 320G — $5.590 [sin gluten, vegano]
+- CEREAL DE MAIZ SABOR FRUTILLA SIN GLUTEN VEGANO 280 G — $3.990 [sin azúcar, sin gluten, vegano]
+- VIVICOSI COCCO SIN AZUCAR VEGANA SIN GLUTEN 1LT — $2.390 [sin azúcar, sin gluten, sin lactosa, vegano]
+- BEBIDA DE COCO 100% NATURAL 520ML — $1.590 [sin azúcar, vegano]
+- CONDENSADA DE COCO VEGAN SIN GLUTEN NATURES CHARM 320G — $2.990 [sin gluten, sin lactosa, vegano]
+- NUTRISA PROTEINA DE SOYA VEGETAL MI TIERRA PREMIUM 300GR — $2.390 [vegano]
+- AMA PURÉ FIBRA PREBIOTICA ORGANICO 90G — $890 [vegano]
+- NURA MANTEQUILLA DE MANI CON STEVIA SIN GLUTEN 485G — $3.990 [sin gluten, vegano]
+- NURA MANTEQUILLA DE MANI CON SAL DE MAR SIN GLUTEN 485G — $3.990 [sin gluten, vegano]
+- NURA MANTEQUILLA DE MANI CON COCO SIN GLUTEN 485G — $3.990 [sin gluten, vegano]
+- UNDERFIVE COOKIES NAVIDAD *EDICION ESPECIAL* 150G — $1.190 [vegano]
+
+#### Gourmet
+
+- TAHINA 100% SESAMO AL WADY 454G — $7.790
+- FALAFEL RECETA LIBANESA AL WADI 200G — $2.790
 - PASTA LASAGNA SIN GLUTEN BLUEDRAGON 250G — $1.690 [sin gluten]
+- SEMILLA DE ZAPALLO SIN GLUTEN MI TIERRA 110G — $1.990 [sin gluten]
+- SEMILLAS DE LINAZA SIN GLUTEN MI TIERRA 200G — $1.690 [sin gluten]
+- LINAZA MOLIDA MI TIERRA 400G — $1.990
+- HARINA DE QUINOA SIN GLUTEN MI TIERRA 400G — $2.790 [sin gluten]
+- CALAMAR VEGANO 425G — $1.990 [vegano]
+- HUMMUS SUK VEGANO 380G — $3.490 [vegano]
+- LENTEJA NEGRAS SUK VEGANO 400G — $2.490 [vegano]
+- BURGOL SUK 500G — $2.490
+- ZAATAR MIX SUK 70G — $2.890
+- SUMAC SUK 70G — $2.890
+- TAHINE SUK 225G — $3.990
+- PREMEZCLA PREPARADO PANIFICABLE SIN GLUTEN 700G — $5.990 [sin gluten]
+- PREMEZCLA 3 HARINAS SIN GLUTEN 700G — $3.490 [sin gluten, sin lactosa]
+- PASTA SPAGHETTI SIN GLUTEN NO + GLUTEN 250G — $1.790 [sin gluten, sin lactosa]
+- NOT MAYO ORIGINAL 350G — $2.390
+- NOT MAYO AJO 350G — $2.390
+- SEMBRASOL MANI TOSTADO SIN SAL SIN GLUTEN 90G — $890 [sin gluten, vegano]
+- SEMBRASOL SUPER MIX FRUTOS SECOS SIN GLUTEN 80G — $1.490 [sin gluten, vegano]
+- SEMBRASOL NUT MIX FRUTOS SECOS SIN GLUTEN 80G — $1.490 [sin gluten, vegano]
+- SEMBRASOL ALMENDRAS TOSTADAS Y SALADAS SIN GLUTEN 60G — $1.590 [sin gluten, vegano]
+- ACEITE DE OLIVA SIN GLUTEN OLI EXTRA VIRGEN 250CC — $2.790 [sin gluten]
+- ACEITE DE OLIVA SIN GLUTEN OLI EXTRA VIRGEN 500CC — $3.410 [sin gluten]
+- ACEITE DE OLIVA 0.2% ACIDEZ SELECCION ESPECIAL SIN GLUTEN MARCA VDR 500CC — $3.410 [sin gluten]
+- ACEITE DE OLIVA 0.2% ACIDEZ SIN GLUTEN MARCA VDR VIDRIO 1LT — $7.490 [sin gluten]
+- BUKA MAYONESA ACEITUNA MORADA SIN GLUTEN 330GRS — $2.790 [sin gluten]
+- LIREKE CONCENTRADO MIEL DE GRANADA 250ML — $4.990
+- SUK PACK 6X ESPECIAS MIX VARIEDADES — $9.990
+- SALSA DE TOMATE ITALIANA SIN GLUTEN PONTEVEDRA 520GR — $990 [sin gluten]
+- WANIA PAPAS CENTRIFUGADAS SAL DEL HIMALAYA SIN GLUTEN VEGANO 200GR — $2.290 [sin gluten, vegano]
+- ACEITE DE OLIVA 0.2% ACIDEZ SIN GLUTEN EXTRA VIRGEN MARCA VDR BIDON 5LTS — $29.990 [sin gluten]
+- PURO OLIVA ACEITE DE OLIVA EXTRA VIRGEN BIDON 5LTS — $26.990
+- SEMBRASOL MARAVILLA TOSTADA CON TOQUE LIMON SIN GLUTEN 110G — $1.390 [sin gluten, vegano]
+- SEMBRASOL MARAVILLA TOSTADA TOQUE SANDIA SIN GLUTEN 110G — $1.390 [sin gluten, vegano]
+- SEMBRASOL MARAVILLA TOSTADA — $1.390 [sin gluten, vegano]
+- NOT CREAM SIN GLUTEN SIN LACTOSA 200ML — $1.290 [sin gluten, sin lactosa, vegano]
+- ACEITE DE OLIVA EXTRA VIRGEN 0.3% ACIDEZ MAX, MARCA OLIVAZ 500ML — $3.290
+- TOMATE TRITURADO SIN GLUTEN SIN TACC 950G ORIGEN ARGENTINO — $1.890 [sin gluten]
+- TOMATE TRITURADO SIN GLUTEN SIN TACC TUXEDO 500G ORIGEN ARGENTINO — $1.390 [sin gluten]
+- NATURE ́S GARDEN YOGGIES - PREBIOTIC FRUTOS DEL BOSQUE SIN GLUTEN 57G — $1.990 [sin gluten]
+- NOT MILK FRENCH VAINILLA SIN GLUTEN Y VEGANA 1LT — $2.240 [sin gluten, vegano]
+- TORRAS CHOCOLATE BLANCO CON FRESAS 0% AZUCAR, SIN GLUTEN 75G — $3.290 [sin azúcar, sin gluten]
+- TORRAS CHOCOLATE DARK 72%CACAO , 0% AZUCAR, SIN GLUTEN 75G — $3.290 [sin azúcar, sin gluten]
+- ORASI LECHE VEGETAL BARISTA SOYA 500ML SIN GLUTEN Liquidacion 06.11.2026 — $1.790 [sin gluten]
+- ORASI LECHE VEGETAL BARISTA AVENA 500ML SIN GLUTEN — $2.190 [sin gluten]
+- ACEITE DE OLIVA OLIVAZ 500ML SIN GLUTEN 0.3% ACIDEZ — $4.490 [sin gluten]
+- ECOVIDA GALLETA DIGESTIVE BAÑO CHOCOLATE 180G — $2.590
+- ECOVIDA GALLETA DIGESTIVE 180G SIN AZUCAR — $2.290 [sin azúcar]
+- AL WADI AGUA FLOR DE NARANJO 300ML — $3.390
+- CONSERVES CHTAURA AGUA DE ROSAS 250ml — $3.490
+- CONSERVES CHTAURA AGUA FLOR DE NARANJO 250ml — $3.490
+- JAPON A TU MESA SALSA AJÍ SIRASHA 320g SIN GLUTEN — $2.190 [sin gluten]
+- MEZCLA LISTA PARA PIZZA SIN GLUTEN 1 KL — $5.990 [sin gluten, sin lactosa, vegano]
 
-#### Té
+#### Granos y pastas
 
+- PASTA ESPIRAL SIN GLUTEN BLUEDRAGON 250G — $2.790 [sin gluten]
+- LENTEJAS ROJAS SUK VEGANO 500G — $2.490 [vegano]
+- ARROZ SIN GLUTEN GRADO 2 GRANO FINO Y LARGO 1KL — $1.250 [sin gluten]
+- DIVELLA SPAGHETTI RISTORANTE 1KG — $2.690
+
+#### Cereales y frutos secos
+
+- AVENA INTEGRAL SIN GLUTEN MI TIERRA 400G — $2.490 [sin gluten]
+- CORN FLAKES SIN GLUTEN NOGLUT SANTIVERI 250GR — $4.290 [sin gluten]
+- MIZOS PACK 18X BARRITA PROTEINA ARANDANO 35GR — $14.290
+- MIZOS PACK 18X BARRA PROTEINA NARANJA CACAO 35GR — $14.290
+- MIZOS CEREAL INDIVIDUAL SABOR CHOCOLATE 20GR — $400 [sin azúcar, sin gluten, vegano]
+- MIZOS CEREAL INDIVIDUAL SABOR FRUTILLA 20GR — $400 [sin azúcar, sin gluten, vegano]
+- NOT PROTEIN BAR CRUNCHY CHOCOLATE INTENSO 120G — $3.790
+- UNDERFIVE BARRA DE PROTEINA SALTED PEANUT 5UN VEGANO — $5.990 [vegano]
+- UNDERFIVE BARRA DE PROTEINA COCO 5UN VEGANO — $5.990 [vegano]
+- UNDERFIVE BARRA DE PROTEINA CACAO MANI 5UN VEGANO — $5.990 [sin azúcar, vegano]
+
+#### 100% natural
+
+- KOE ACEITE DE COCO EXTRA VIRGEN SIN GLUTEN 500ML — $8.290 [sin gluten, vegano]
+- KOE VINAGRE DE MANZANA ORGANICO SIN GLUTEN 500ML — $4.490 [sin gluten, vegano]
+- KOE VINAGRE DE MANZANA ORGANICO SIN GLUTEN 1LT — $7.490 [sin gluten, vegano]
+- KOE VINAGRE DE MANZANA CON MIEL ORGANICO SIN GLUTEN 500ML — $4.490 [sin gluten]
+- KOE VINAGRE DE MANZANA ORGANICO LIMON JENGIBRE SIN GLUTEN 500ML — $4.490 [sin gluten, vegano]
+- AMA JUGO MANZANA & PERA ORGANICO 200ML — $690
+- AZUCAR RUBIA INTEGRAL 100% NATURAL VEGANA 500g — $1.390 [vegano]
+- ACEITE DE LINO ORGANICO SIN GLUTEN NATUR GREEN 250ML — $7.650 [sin gluten, vegano]
+- ACEITE DE CHIA VEGANO SIN GLUTEN LA CUSTODIA 250ML — $5.990 [sin gluten, vegano]
+- ACEITE DE OLIVA 100% EXTRA VIRGEN 0.2 %ACIDEZ VEGANO SIN GLUTEN LA CUSTODIA 500ML — $7.890 [sin gluten, vegano]
+- ACEITE DE CHIA Y OLIVA VEGANO SIN GLUTEN LA CUSTODIA 500ML — $9.790 [sin gluten, vegano]
+- ACEITE DE OLIVA EXTRA VIRGEN VEGANO SIN GLUTEN 5LT — $47.990 [sin gluten, vegano]
+- ORASI LECHE VEGETAL ALMENDRA 1LT SIN GLUTEN CERO AZÚCAR — $2.690 [sin azúcar, sin gluten, vegano]
+- ORASI CREMA VEGETAL SIN GLUTEN 200ML — $1.450 [sin gluten]
+- TORTITA DE ARROZ INTEGRAL SANTIVERI BIO 100GR — $2.590
+
+#### Ofertas 💸
+
+- KOE CREMA DE COCO ORGANICO SIN GLUTEN 400ML OFERTA DEL MES — $2.290 [sin gluten, vegano]
+- PACK KOE 3X ACEITE DE COCO ORGANICO EXTRAVIRGEN 200ML — $9.990 [sin gluten, vegano]
+- CEREAL DE MAIZ SABOR CHOCOLATE SIN GLUTEN VEGANO 280G OFERTA DEL MES — $3.390 [sin azúcar, sin gluten, vegano]
+- AMA PURÉ VITAMINA A+C ORGANICO 90G — $890
+- TURBO PLUS JUGO SABOR NARANJA DISPLAY 10UN SIN GLUTEN — $1.890 [sin gluten]
+- TURBO PLUS JUGO SABOR FRESA-NARANJA DISPLAY 10UN SIN GLUTEN — $1.890 [sin gluten]
+- TURBO PLUS JUGO SABOR PIÑA-JENGIBRE DISPLAY 10UN SIN GLUTEN — $1.890 [sin gluten]
+- TURBO PLUS JUGO SABOR UVA DISPLAY 10UN SIN GLUTEN — $1.890 [sin gluten]
+- TURBO PLUS JUGO SABOR CEREZA-PIÑA DISPLAY 10UN SIN GLUTEN — $1.890 [sin gluten]
+- TURBO PLUS JUGO SABOR MARACUYA DISPLAY 10UN SIN GLUTEN — $1.890 [sin gluten]
+- TURBO PLUS JUGO SABOR PONCHE DE FRUTAS DISPLAY 10UN SIN GLUTEN — $1.890 [sin gluten]
+- TURBO PLUS JUGO SABOR FRESA DISPLAY 10UN SIN GLUTEN — $1.890 [sin gluten]
+- TURBO PLUS JUGO SABOR NARANJA-PIÑA DISPLAY 10UN SIN GLUTEN — $1.890 [sin gluten]
+- TURBO PLUS JUGO SABOR MANZANA-CEREZA DISPLAY 10UN SIN GLUTEN — $1.890 [sin gluten]
+- TIKA GRANOLA PROTEIN MANJAR DE CAMPO 250GR SIN GLUTEN — $3.790 [sin gluten, vegano]
+
+#### Reposteria
+
+- KOE JARABE DE AGAVE ORGANICO SIN GLUTEN 330ML — $3.990 [sin gluten, vegano]
+- PREPARACION CONDENSADA DE COCO S/AZUCAR SIN GLUTEN NATURES CHARM 320ML — $3.690 [sin azúcar, sin gluten, sin lactosa, vegano]
+- ALUSWEET STEVIA SIN GLUTEN 270ML — $3.290 [sin gluten]
+- ALUSWEET CONDENSADA SIN GLUTEN 390G — $5.190 [sin azúcar, sin gluten]
+
+#### Salsas y aderezos
+
+- SALSA SOYA KIU SIN GLUTEN 500ML — $1.690 [sin gluten]
+- SALSA AGRIDULCE SIN GLUTEN 500ML — $2.290 [sin gluten]
+- HUMMUS SUK VEGANO 180G — $1.990 [vegano]
+- BABA GANOUSH SUK VEGANO 380G — $3.490 [vegano]
+- PASTA DE PIMIENTOS Y TOMATES ASADOS SUK VEGANO 200G — $2.890 [vegano]
+- PASTA DE BERENJENAS Y TOMATES ASADOS SUK VEGANO 200G — $2.890 [vegano]
+- BUKA DIPS CHEDDAR SIN GLUTEN 220GRS — $1.990 [sin gluten]
+- BUKA DIPS AJO SUAVE TOSTADO SIN GLUTEN 220GRS — $1.990 [sin gluten]
+- BUKA DIP TARTARA DE PEPINILLO SIN GLUTEN 220GRS — $1.990 [sin gluten]
+- BUKA DIPS YOGURT CIBOULETTE SIN GLUTEN 220GRS — $1.990 [sin gluten]
+- BUKA DIPS HUMMUS SIN GLUTEN VEGANO 220GRS — $1.990 [sin gluten, vegano]
+- BUKA PASTA BRUSCHETTA ALCACHOFA SIN GLUTEN VEGANO 295G — $2.590 [sin gluten, vegano]
+- BUKA MERMELADA PIMENTON ROJO SIN GLUTEN VEGANA 160G — $2.290 [sin gluten, vegano]
+- BUKA MERMELADA AJI ROJO SIN GLUTEN VEGANO 160G — $2.290 [sin gluten, vegano]
+- BUKA PASTA DE TOMATE ALBAHACA SIN GLUTEN VEGANO 515G — $1.790 [sin gluten, vegano]
+- BUKA PASSATA CLASICA SIN GLUTEN VEGANO 515G — $1.790 [sin gluten, vegano]
+- BUKA DIP GUACAMOLE SIN GLUTEN 180G — $1.990 [sin gluten]
+- MOSTAZA AMARILLA SIN GLUTEN HARMLESS 390g — $2.790 [sin gluten]
+- KETCHUP SIN AZUCAR SIN GLUTEN HARMLESS 390g — $2.790 [sin azúcar, sin gluten]
+- SALSA BBQ SIN AZUCAR SIN GLUTEN HARMLESS 390g — $2.790 [sin azúcar, sin gluten]
+- SALSA LOMO SALTADO SIN GLUTEN 560G — $2.990 [sin gluten]
+- SALSA TAMARINDO GOURMET SIN GLUTEN 500CC — $2.360 [sin gluten]
+- SALSA UNAGI GOUERMET SIN GLUTEN 600G — $2.360 [sin gluten]
+- ALUSWEET KETCHUP SIN AZUCAR 370GR — $3.990 [sin azúcar]
+- BUKA PASTA DE TOMATE OLIVA SIN GLUTEN VEGANO 515G — $1.790 [sin gluten, vegano]
+- BUKA PASTA DE TOMATE SETAS SIN GLUTEN VEGANO 515G — $1.790 [sin gluten, vegano]
+- BUKA SALSA SRIRACHA SIN GLUTEN 330GRS — $2.790 [sin gluten]
+- BUKA SALSA ALIOLI SIN GLUTEN 330GRS — $2.790 [sin gluten]
+- DE ROSSETTI ACEITE DE OLIVA EXTRA-VIRGEN 500ML 0.3%ACIDEZ — $2.990
+
+#### Manjar, miel y mermeladas
+
+- DULCE DE LECHE MANFREY CLASICO SIN GLUETEN 1KG — $3.790 [sin gluten]
+- DULCE DE LECHE MANFREY CLASICO SIN GLUTEN 400G — $1.990 [sin gluten]
+- DULCE DE LECHE MANFREY REPOSTERO SIN GLUTEN 400G — $1.990 [sin gluten]
+
+#### Chocolates y golosinas
+
+- GALLETAS DE ARROZ CUBIERTAS EN CHOCOLATE NEGRO SIN GLUTEN 115G — $1.890 [sin gluten]
+- GALLETAS DE ARROZ CUBIERTAS EN DULCE DE LECHE SIN GLUTEN 115G — $1.890 [sin gluten]
+- CHOCOLATE CON ALMENDRAS SIN AZUCAR SIN GLUTEN 70G — $1.990 [sin azúcar, sin gluten]
+- MANTECOL ORIGINAL SIN GLUTEN 111G — $1.490 [sin gluten]
+- PUSH POP CARAMELOS SIN GLUTEN SABORES SURTIDOS DISPLAY 20UN — $11.500 [sin gluten]
+- FINI GOMITAS RANAS SABORES SURTIDOS SIN GLUTEN 80G — $990 [sin gluten]
+- FINI GOMITAS MORAS SIN GLUTEN 80G — $990 [sin gluten]
+- GEORGALOS PACK 10X CHOCOLATE BLANCO SIN TACC 70GR — $19.990
+- GEORGALOS PACK 10X CHOCOLATE CON ALMENDRA SIN TACC 70GR — $19.990 [sin azúcar]
+- DISPLAY 12X FULLMINT MENTA MIEL GEORGALOS SIN GLUTEN 28GR — $3.190 [sin gluten]
+- DISPLAY 12X FULLMINT MENTA CEREZA GEORGALOS SIN GLUTEN 28GR — $3.190 [sin gluten]
+- DISPLAY 12X FULLMINT MENTA GEORGALOS SIN GLUTEN 28GR — $3.190 [sin gluten]
+- PALITOS DE LA SELVA 660GR BOLSA SIN GLUTEN — $4.750 [sin gluten]
+- GEORGALOS PACK 10X CHOCOLATE CON LECHE SIN TACC 70GR — $19.990 [sin azúcar]
+- NEUCOBER COBERTURA CHOCOLATE LECHE HUEVOS Y FIGURAS SIN GLUTEN 1KG (COD 420) — $6.990 [sin gluten]
+- NEUCOBER COBERTURA CHOCOLATE BAÑO PARA ALFAJOR SIN AZ 1KL (COD 407 S/A) — $9.990
+- NEUCOBER COBERTURA CHOCOLATE AMARGO SUAVE SIN GLUTE 1KL (COD 404) — $6.990
+- NEUCOBER COBERTURA CHOCOLATE PARA ALFAJOR SEMIBITTER SIN GLUTEN 1K (COD 407) — $6.990 [sin gluten]
+- NEUCOBER COBERTURA CHIPS CHOCOLATE FINO SIN GLUTEN 500GR (COD 5045) — $4.490 [sin gluten]
+- NEUCOBER CREMONELLA SIN AZÚCAR AÑADIDA SIN GLUTEN 650GR — $7.490 [sin azúcar, sin gluten, vegano]
+- NUTRISA BROWNIE SIN GLUTEN Y SIN AZUCAR AÑADIDA 5UN 200G — $3.250 [sin azúcar, sin gluten]
+- NEUCOBER COBERTURA PARA ALFAJOR CHOCOLATE BLANCO 1KG (COD 410) — $6.990
+- TORRAS CHOCOLATE DARK & ORANGE 0% AZUCAR, SIN GLUTEN 75G — $3.290 [sin azúcar, sin gluten]
+- GOMITAS FINI FIESTA MIX 10 BOLSITAS SIN GLUTEN 150G — $1.290 [sin gluten]
+- TUBOS FINI FIESTA MIX 10 BOLSITAS 150G — $1.290 [sin gluten]
+- NOT PROTEIN BAR CRUNCHY MANTEQUILLA DE MANI 120G — $3.790
+- UNDERFIVE BARRA DE PROTEINA MANI MIEL 5UN VEGANO — $5.990 [vegano]
+- UNDERFIVE BARRA DE PROTEINA ALMENDRA 5UN VEGANO — $5.990 [vegano]
+- UNDERFIVE GRANOLA PROTEICA CACAO CRUNCH 300GR VEGANO — $4.990 [vegano]
+- UNDERFIVE GRANOLA PROTEICA ALMENDRA CRUNCH 300GR VEGANO — $4.990 [vegano]
+- UNDERFIVE PROTEIN BALLS ALMENDRA CRUNCH 60GR VEGANO — $1.990 [vegano]
+- UNDERFIVE PROTEIN BALLS COFFEE CRUNCH 60GR VEGANO — $1.990 [vegano]
+- UNDERFIVE PROTEIN BALLS COCO CRUNCH 60GR VEGANO — $1.990 [sin azúcar, vegano]
+- UNDERFIVE BARRA DE CEREAL CACAO 5UN 60GR — $3.290 [sin azúcar]
+- UNDERFIVE BARRA DE CEREAL MANZANA 5UN 60GR — $3.290 [sin azúcar]
+- LHERITIER BOLITAS DULCE DE LECHE SIN GLUTEN 50un — $2.790 [sin gluten]
+- LHERITIER BOLA LOCA PICANTE SIN GLUTEN 24un — $2.990 [sin gluten]
+- LHERITIER MASTICABLES SUTRIDOS 147un 450g SIN GLUTEN — $3.200 [sin gluten]
+- LHERITIER PICO DULCE MINI PALETAS 50un 225g SIN GLUTEN — $1.890 [sin gluten]
+- LHERITIER MINI PALETAS PLAY POP FRUTAL 50un 225g SIN GLUTEN — $1.690 [sin gluten]
+- LHERITIER CHUPETONCITO 35g SIN GLUTEN — $490 [sin gluten]
+- LHERITIER PICO DULCE 48un SIN GLUTEN — $5.200 [sin gluten]
+- PACK 16X NUCREAM TURRON DE MANI SIN GLUTEN 43G — $5.990 [sin gluten]
+- MIZOS BARRITA NATURAL SABOR CACAO - COCO 35G — $500 [sin gluten, vegano]
+- MARSHMALLOW CORAZON SABOR FRUTILLA SIN GLUTEN 80G — $990 [sin gluten]
+- GALLETAS DE CACAO RELLENAS CON CREMA SIN GLUTEN SCHAR 165G — $4.890 [sin gluten]
+- NOT MILK CARAMELO SIN GLUTEN Y VEGANA 1LT — $1.200 [sin gluten, vegano]
+- VIVICOSI AVELLANA CACAO VEGANA SIN GLUTEN 1LT — $2.390 [sin gluten, vegano]
+- VIVICOSI SOIA CACAO VEGANA SIN GLUTEN 1LT — $2.390 [sin gluten, sin lactosa, vegano]
+- MIZOS PACK 18X BARRA PROTEINA CACAO COCO 35GR — $14.290
+- MIZOS BITES DE AVENA CACAO COCO 40GR Liquidación 20.10.2026 — $1.200 [sin azúcar]
+- NURA MANTEQUILLA DE MANI CON CACAO SIN GLUTEN 485G — $3.990 [sin gluten]
+- UNDERFIVE PROTEIN BAR CACAO/MANI Liquidacion 04.11.2026 — $670
+
+#### Libre de soya
+
+- MEZCLA LISTA PARA REPOSTERIA SIN GLUTEN 1KL — $5.990 [sin gluten, sin lactosa, vegano]
+
+#### Varios
+
+- BABA GANOUSH SUK VEGANO 175G Liquidación 06.11.2026 — $1.790 [vegano]
+- GUNYS RULETA PACK 10X DULCES ACIDOS 45GR — $8.900
+- JAPON A TU MESA AJI CHILENO 320g SIN GLUTEN — $2.190 [sin gluten, vegano]
+- JAPON A TU MESA AJI COREANO KIMCHI 320g SIN GLUTEN — $3.390 [sin gluten, vegano]
+- TURBO ICE TEA SABOR LIMON DISPLAY 12UN — $4.990 [sin lactosa, vegano]
+- TURBO ZERO GELATINA SABOR FRAMBUESA 22G — $690 [sin azúcar, sin lactosa]
+- TURBO GELATINA SABOR FRUTILLA 80G — $790 [sin lactosa]
+- TURBO GELATINA SABOR CEREZA SIN GLUTEN 80G — $790 [sin gluten, sin lactosa]
+- TURBO GELATINA SABOR FRAMBUESA SIN GLUTEN 80G — $790 [sin gluten, sin lactosa]
+- TURBO GELATINA SABOR NARANJA SIN GLUTEN 80G — $790 [sin gluten, sin lactosa]
+- PEPINILLOS KNAX HENGSTENBERG CRUJIENTES Y ALIÑADOS SIN GLUTEN 370G — $2.290 [sin gluten]
+- ECOVIDA BISCUIT QUINOA 100G — $1.170
+- ECOVIDA ZERO SIN ZUCAR - SIN LACTOSA 120G — $1.150 [sin lactosa]
+- BISNAGUINHA SIN GLUTEN SCHAR 150G — $3.990 [sin gluten, sin lactosa]
+- CASABITO CON CEBOLLA SIN GLUTEN 75G Liquidación 10.10.2026 — $1.490 [sin gluten, vegano]
+- CASABITO CON AJO SIN GLUTEN 75G Liquidación 10.10.2026 — $1.490 [sin gluten, vegano]
+- CASABITO NATURAL SIN GLUTEN 75G — $1.990 [sin gluten, vegano]
+- CASABE REBOZADOR MOLIDO SIN GLUTEN 250G — $2.290 [sin gluten, vegano]
+- CASABITO CON SAL MARINA Y PIMIENTA SIN GLUTEN 75G — $1.990 [sin gluten, vegano]
+- KIMBO GRANO ESPRESSO CREMA INTENSA 1KL — $27.990
+- CHIPS DE PLATANITOS SALADOS SIN GLUTEN 34G — $690 [sin gluten, vegano]
+- KIMBO ESPRESSO INTENSO COMPATIBLE CON DOLCE GUSTO 16CAPS — $7.590
+- KIMBO ESPRESSO NAPOLES COMPATIBLE CON DOLCE GUSTO 16CAPS — $8.390
+- AMA PURE DE MANZANA ORGANICO 90G — $790
+- SEMBRASOL MANI SALADO SIN GLUTEN 80G — $890 [sin gluten, vegano]
+- SEMBRASOL MANI CONFITADO SIN GLUTEN 100G — $990 [sin gluten, vegano]
+- ECOVIDA BISCUIT ZANAHORIA 100G — $1.170
+- ECOVIDA FROOTA FRUTILLA SIN AZUCAR 150G — $1.790 [sin azúcar]
+- NOT MILK ZERO SIN GLUTEN VEGANA 1LT — $1.490 [sin gluten, vegano]
+- CORN CAKES YOGHURT FRESA KUPIEC 62G — $1.490 [sin azúcar, sin gluten]
+- VIVICOSI MANDORLA SIN GLUTEN 1LT — $2.390 [sin gluten, sin lactosa]
+- VIVICOSI ARROZ VEGANA SIN GLUTEN 1LT — $2.390 [sin gluten, sin lactosa, vegano]
+- VIVICOSI AVENA VEGANA SIN GLUTEN 1LT — $2.390 [sin gluten, sin lactosa, vegano]
+- VIVICOSI SOIA SIN AZUCAR VEGANA SIN GLUTEN 1LT — $2.390 [sin azúcar, sin gluten, sin lactosa, vegano]
+- VIVICOSI SOIA VANIGLIA VEGANA SIN GLUTEN 1LT — $2.390 [sin gluten, sin lactosa, vegano]
+- KIMBO GRANO GOLD AROMA 100% ARABICA 1KL — $33.990
+- KIMBO GRANO CREMA INTENSA 1KL — $27.990
+- AZUCAR DE CAÑA 100%NATURAL 1KL — $1.990
+- ALUSWEET MONKFRUIT SIN GLUTEN 180ML — $4.290 [sin gluten]
+- BUKA MAYONESA CASERA SIN GLUTEN DOYPACK 500G — $2.290 [sin gluten]
+- BUKA ARITOS DE CEBOLLA BBQ SIN GLUTEN VEGANO 200G — $1.590 [sin gluten, vegano]
+- BUKA RAMITAS DE GARNANZOS SIN GLUTEN 150G — $1.590 [sin gluten]
+- BUKA PESTO ROSSO SIN GLUTEN 130G — $1.590 [sin gluten]
+- BUKA PUFF QUINOA SIN GLUTEN 25G — $450 [sin gluten, vegano]
+- BUKA ARITOS DE CEBOLLA BBQ SIN GLUTEN VEGANO 25G — $450 [sin gluten, vegano]
+- BUKA MIX VEGETALES SIN GLUTEN VEGANO 35G — $450 [sin gluten, vegano]
+- MANTECOL MARMOLADO SIN GLUTEN 111G Liquidación 17.10.2026 — $990 [sin gluten]
+- MANTECOL ORIGINAL SIN GLUTEN 253G — $1.990 [sin gluten]
+- PLATANITOS CON SAL DE MAR VEGANO SIN GLUTEN 65G — $990 [sin gluten, vegano]
+- MANTECOL COCO SIN GLUTEN 111G — $1.490 [sin gluten]
+- MINI PRETZELS SIN GLUTEN SCHAR 60G — $2.390 [sin gluten, sin lactosa, vegano]
+- CABELLITOS DE ANGEL SIN GLUTEN SCHAR 250G — $3.790 [sin gluten]
+- SPAGUETTI SIN GLUTEN SCHAR 250G — $2.990 [sin gluten]
+- ESPIRALES SIN GLUTEN SCHAR 250G — $2.990 [sin gluten]
+- GNOCCHI SIN GLUTEN SCHAR 300G — $5.490 [sin gluten]
+- NOT MILK SIMPLE AVENA 1LT — $1.990 [sin gluten, sin lactosa]
+- NOT MILK BARISTA 1LT — $1.800 [sin gluten, sin lactosa]
+- NOTMAYO VERSION 2.0 AJO (GARLIC) 315GR — $1.690
+- NOT MAYO CLASICA 200G Liquidación 02.11.2026 — $1.990
+- NOT SQUARE CHOCO COCO 30GR — $1.200
+- NOT MAYO DORITOS 315GR — $1.790
+- BUKA MAYONESA CRAZY CHICKEN SIN GLUTEN 330GR — $2.890 [sin gluten]
+- 3 ARROYOS ENLATADO CONSERVA PAPA EN CUBOS 350GR — $790
+- 3 ARROYOS ENLATADO CONSERVA ZANAHORIA EN CUBOS 350GR — $790
+- SUK PACK HUMMUS & BABA GANOUSH MEDITERRANEO 180GR — $4.990
+- NANOLIFE PACK 2X LIMPIADOR MULTIUSOS LAVANDA DESINFECTANTE — $4.990
+- AILEDA PACK 3X TRAPERO HUMEDO MULTIUSO LAVANDA — $5.990
+- AILEDA PERLAS DE PERMUFE AROMATICAS PARA ROPA 280GR — $3.990
+- AILEDA PACK 3X ESPONJA PARA COCINA DOBLE CARA — $990
+- AILEDA BOLSA DE BASURA EXTRA GRANDE 90X130CM — $1.790
+- AILEDA BOLSA DE BASURA GRANDE 80X120CM — $1.390
+- AILEDA BOLSA DE BASURA 45X50CM CON CORDON — $590
+- DISPLAY 18X OBLEA MANTECOL 27GR — $7.650
+- FLYNN PAFF SURTIDOS 504GR BOLSA SIN GLUTEN — $3.590 [sin gluten]
+- GAONA GALLETITAS PEPAS CON DULCE DE MEMBRILLO 300GR — $1.700
+- TIKA ROYAL PARMESANO VEGANO SIN GLUTEN 35GR LIQUIDACION 09/08/2026 — $300 [sin gluten, vegano]
+- MIZOS BITES DE AVENA MANZANA CANELA 40GR Liquidación 20.10.2026 — $1.200 [sin azúcar]
+- SEMBRASOL MANI MERKEN SIN GLUTEN 90G — $990 [sin gluten, vegano]
+- SEMBRASOL NUECES SIN GLUTEN 60G — $1.390 [sin gluten]
+- SEMBRASOL PISTACHOS TOSTADOS SIN GLUTEN 40G — $1.490 [sin gluten, vegano]
+- PROMOCION NOTSQUARE STRANGER THINGS DARK CARAMEL CRUNCH 5UN 30G — $2.990 [sin azúcar]
+- AMA PURE DE MANZANA PLATANO MANGO ORGANICO 90G — $790 [sin gluten, vegano]
+- AMA PURE DE MANZANA MANGO ORGANICO 90G — $790 [sin gluten, vegano]
+- AMA PURE DE MANZANA ARANDANO ORGANICO 90G — $790 [sin gluten, vegano]
+- AMA PURE DE MANZANA PERA ORGANICO 90G — $790 [sin gluten, vegano]
+- AMA PURE DE MANZANA DURAZNO ORGANICO 90G — $790 [sin azúcar, sin gluten, vegano]
+- AMA PURE DE MANZANA FRAMBUESA ORGANICO 90G — $790
+- AILEDA COTONITOS DE ALGODÓN CON VARILLA DE MADERA – 100 UN — $390
+- AILEDA COTONITOS DE ALGODÓN CON VARILLA DE MADERA – 200 UN — $790
+- TIKA NATIVA SAL DE MAR SIN GLUTEN 100G LIQUIDACION 08/12/2026 — $1.290 [sin gluten]
+- NATURE ́S GARDEN YOGGIES - PREBIOTIC FRUTILLA SIN GLUTEN 57G — $1.990 [sin gluten]
+- TURBO BENNY SABOR VAINILLA 200GR SIN GLUTEN — $990 [sin gluten]
+- TURBO BENNY SABOR FRUTILLA SIN GLUTEN 200G — $990 [sin gluten]
+- MR HYDE NIGHTMARE PRE ENTRENO 464G SABOR ARANDANO LIMONADA — $27.490 [sin gluten]
+- MR HYDE NIGHTMARE PRE ENTRENO 461G SABOR FRUTOS ROJOS — $27.490 [sin gluten]
+- MASH AVENA INTEGRAL SIN GLUTEN 800GR — $3.890 [sin gluten]
+- NATURE VALLEY FRUIT & NUT 6UN 210G Liquidación 11.10.2026 — $1.990
+- PURI CEREAL ESTRELLITAS PREBIOTICOS 400GR SIN GLUTEN Liquidacion 05.11.2026 — $3.490 [sin gluten]
+- KIMBO GRANO ESPRESSO CLASSICO 1 KL — $26.990
+- KIMBO GRANO INTENSO 1 KL — $26.990
+
+#### Dulces
+
+- MARSHMALLOW TRENZA DE COLORES SIN GLUTEN 80G — $990 [sin gluten]
+- FINI GOMITAS AROS DE FRUTILLA ÁCIDA SIN GLUTEN 80G — $990 [sin gluten]
+- FINI GOMITAS GUSANOS DULCES SABORES SURTIDOS SIN GLUTEN 80G — $990 [sin gluten]
+- PASTA DE MANI SIN GLUTEN VEGANA KOE 500G — $3.140 [sin azúcar, sin gluten, vegano]
+- DISPLAY 12X FULLMINT MENTA STRONG GEORGALOS SIN GLUTEN 28GR — $3.190 [sin gluten]
+- FINI CHICLES SABORES SURTIDOS SIN GLUTEN 80G — $990 [sin gluten]
+
+#### Panaderia y reposteria
+
+- PAN HALLULLA PRECOCIDA SIN GLUTEN NUTRISA 320G — $3.990 [sin gluten, sin lactosa]
+- NEUCOBER CREMONELLA ORIGINAL SIN GLUTEN 650GR — $6.690 [sin azúcar, sin gluten]
+- MAICENA SIN GLUTEN MOR 400GR — $3.290 [sin gluten]
+- HARINA DE ARROZ SIN GLUTEN MOR 400GR — $1.690 [sin gluten]
+- HARINA DE AVENA SIN GLUTEN MOR 400GR — $2.890 [sin gluten]
+- CUISINE CREMA DE ALMENDRAS SIN GLUTEN ECOMIL 200ML Liquidación 12.12.2026 — $1.750 [sin gluten]
+
+#### Orgánico
+
+- CALDO DE VERDURAS ECOLOGICO SIN GLUTEN NATUR GREEN 84G Liquidación 16.11.2026 — $1.990 [sin gluten]
+
+#### Cafe, te y hierbas
+
+- YERBA MATE CON ANIS KURUPI 500G — $3.990 [sin gluten]
+- YERBA MATE CEDRON MENTA KURUPI 500G — $3.990 [sin gluten]
+- YERBA MATE MENTA Y BOLDO KURUPI 500G — $3.990 [sin gluten]
+- YERBA MATE CLASICA KURUPI 500G — $3.490 [sin gluten]
+- YERBA MATE TERERE KURUPI 500G — $3.990 [sin gluten]
+- YERBA MATE MENTA Y LIMON KURUPI 500G — $3.990 [sin gluten]
+- YERBA MATE ROSAMONTE PREMIUM SIN GLUTEN 500G — $3.990 [sin gluten]
+- ARROYO VERDE YERBA MATE BURRITO 500G — $1.990
 - LANDI TÉ VERDE SIN GLUTEN 20BOLSITAS — $1.100 [sin gluten]
+- PILAO CAFE INSTANTANEO TRADICIONAL SIN GLUTEN 100G — $7.090 [sin gluten]
+- KIMBO CAFE EXPRESSO BARISTA NAPOLI 250GR SELECCION PREMIUM — $8.490
+- YERBA MATE ARROYO VERDE SUAVE 500G POLEO — $1.990 [sin gluten]
+- LANDI TÉ NEGRO CEYLÁN SIN GLUTEN 20BOLSITAS — $1.390 [sin gluten]
+- LANDI TÉ VERDE MENTA LEMONGRASS SIN GLUTEN 25BOLSITAS — $2.790 [sin gluten]
+- CAMEL CAFÉ CAPUCCINO ORIGINAL 5UN 125GR — $1.590
+- CAMEL CAFÉ CAPUCCINO VAINILLA 5UN 125GR — $1.590
+- CAMEL CAFÉ CAPUCCINO MOKA 5UN 125GR — $1.590
+- MOVENPICK CAFE GRANO DER HIMMLISCHE 1KG — $29.990
+- PIPORÉ YERBAMATE SUBLIME SIN GLUTEN 500GRS — $2.990 [sin gluten]
+- PIPORÉ YERBAMATE TERERÉ LIMON/MENTA SIN GLUTEN 500GRS — $2.990 [sin gluten]
+- PIPORÉ YERBAMATE NARANJA SIN GLUTEN 500GRS — $2.990 [sin gluten]
+- PIPORÉ YERBAMATE TRADICIONAL SIN GLUTEN 500GRS — $2.990 [sin gluten]
+- CBSE YERBAMATE ENDULIFE SIN GLUTEN 500GRS — $2.990 [sin gluten]
+- CBSE YERBAMATE LIMÓN SIN GLUTEN 500GRS — $2.990 [sin gluten]
+- CBSE YERBAMATE NARANJA SIN GLUTEN 500GRS — $2.990 [sin gluten]
+- CBSE YERBAMATE SILUETA NARANJA SIN GLUTEN 500GRS — $2.990 [sin gluten]
+- CBSE YERBAMATE POMELO SIN GLUTEN 500GRS — $2.990 [sin gluten]
+- CBSE YERBAMATE SILUETA SIN GLUTEN 500GRS — $2.990 [sin gluten]
+- CBSE YERBAMATE MANGO PICANTE SIN GLUTEN 250GRS — $1.990 [sin gluten]
+- CBSE YERBAMATE HIERBAS SERRANAS SIN GLUTEN 500GRS — $2.990 [sin gluten]
+- CBSE YERBAMATE MIEL SIN GLUTEN 500GRS — $2.990 [sin gluten]
+- YERBA MATE JENGIBRE, MENTA Y TÉ VERDE KURUPI 500G — $3.990
+- YERBA MATE ANÍS Y MANZANILLA KURUPI 500G — $3.990
+- LANDI TÉ NEGRO ENGLISH BREAKFAST SIN GLUTEN 100BOLSITAS 200G — $4.250 [sin gluten]
+- LANDI TÉ NEGRO MANZANA SIN GLUTEN 20BOLSITAS — $1.390 [sin gluten]
+- TE PU-ERH BUTTERFLY BRAND 25BOLSITAS — $1.490
+
+#### Azucar y endulzantes
+
+- ALUSWEET STEVIA ALULOSA GOTAS 180 ML SIN GLUTEN — $4.850 [sin gluten]
+
+#### Café e infusiones
+
+- YERBA CON MANZANILLA SIN TACC CRUZ DE MALTA X 500G — $3.790
+- KIMBO CAFE GRANO MOLIDO DESCAFEINADO 250GR — $9.790
+- MIZOS GALLETAS DE ARROZ SABOR CHOCOLATE NARANJA 25G — $500 [sin gluten, vegano]
+- YERBA MATE ROSAMONTE TRADICIONAL SIN GLUTEN 500G — $2.990 [sin gluten]
+- MATE COCIDO ROSAMONTE 25 BOLSITAS SIN GLUTEN 75G — $990 [sin gluten]
+- YERBA MATE CACHAMATE CON CASCARITAS DE NARANJA 500G — $2.590 [sin gluten]
+- OFERTA SEPTIEMBRE FULL MANI CHOCOLATE SIN GLUTEN 100G venc 31/10/2026 — $790 [sin gluten]
+- PURE DE TOMATES DE LA HUERTA SIN GLUTEN 530G — $990 [sin gluten]
+- PURÉ DE TOMATES DE LA HUERTA SIN GLUTEN 1030G — $1.890 [sin gluten]
+- MIZOS POPPED CHIPS SABOR TOMATE,ALBAHACA Y ACEITE DE OLIVA 20G — $550 [sin gluten, vegano]
+- ECOVIDA GALLETAS CHOCOLATE CHIPS SIN GLUTEN 150G Liquidación 18.11.2026 — $1.990 [sin gluten]
+- ECOVIDA BISCUIT CHIPS DE CHOCOLATE 100G — $1.170
+- KOE ACEITE DE COCO EXTRA VIRGEN SIN GLUTEN 1LT — $14.990 [sin gluten, vegano]
+- ALFAJOR RELLENO CREMA LIMON CON CHOCOLATE SIN GLUTEN 28G — $590 [sin gluten]
+- EMCO BARRAS DE GRANOLA CHOCOLATE DARK SIN GLUTEN 5X25G — $2.890 [sin gluten]
+- PULPA DE TOMATE SIN GLUTEN PONTEVEDRA 510G — $990 [sin gluten]
+- OBLEA DE CHOCOLATE RELLENA — $3.890 [sin gluten]
+- NOT MILK CHOCOLATE PROTEIN 250ML — $890
+- NOT PROTEIN BAR CHOCOLATE FUDGE BROWNIE 45G PACK 5UN — $4.390
+- CASABE PAN CRUJIENTE DE YUCA SIN GLUTEN 240G — $2.990 [sin gluten, vegano]
+- MOVENPICK GUSTO ITALIANO LUNGO CAPSULA COMPATIBLE — $4.990
+- MOVENPICK CAFE GRANO BARISTA ESPRESSO 1KL — $29.990
+- KIMBO LUNGO INTENSO CAPSULA COMPATIBLE CON NESPRESSO 10CAPS — $4.990
+- KIMBO ESPRESSO INTENSO CAPSULA COMPATIBLE — $4.990
+- KIMBO ESPRESSO NAPOLI CAPSULA COMPATIBLE — $4.990
+- PROTEIN SNACK BERRIES & WHITE GLAZE SIN GLUTEN 5UN — $6.490 [sin gluten]
+- PROTEIN SNACK CHOCOLATE & CRIPIS SIN GLUTEN 5UN — $6.490 [sin gluten]
+- GALLETA GULLON COOKIES DE CACAO — $3.290 [sin gluten]
+- GALLETA CHIP CHOCOLATE SIN GLUTEN 125G — $2.690 [sin azúcar, sin gluten]
+- GALLETA GULLON SANDWICH CHOCOLATE SIN GLUTEN 225G — $3.490 [sin gluten, vegano]
+- TASTY LECHE VEGETAL COCO CHOCOLATE 1LT SIN GLUTEN — $1.590 [sin gluten]
+- ECOVIDA ZERO CHOCOLATE FRUTILLA SIN AZUCAR 225G — $1.990 [sin azúcar]
+- TASTY LECHE VEGETAL ALMENDRA CHOCOLATE 1LT SIN GLUTEN — $1.590 [sin gluten]
+- MANTECOL CAFE SIN GLUTEN 111G LIQUIDACIÓN 30.08.2026 — $1.100 [sin gluten]
+- PLATANITOS LIMON PICANTE VEGANO SIN GLUTEN 65G — $990 [sin gluten, vegano]
+- ACEITE DE SESAMO ORGANICO SIN GLUTEN NATUR GREEN 250ML — $5.990 [sin gluten]
+- CAFE ESPRESSO GRANO ARABICA-ROBUSTA MOVENPICK 1KL — $29.990
+- PULPA DE TOMATE SIN GLUTEN BAGGIO 205GR — $590 [sin gluten]
+- ARROYO VERDE YERBA MATE HIERBAS SERRANAS 500G — $1.990
+- CAFE DO PONTO TRADICIONAL MOLIDO ARABICA 500G — $9.990
+- CHICLE TRIDENT® SABOR YERBABUENA SIN AZÚCAR PACK 18X — $4.500 [sin azúcar]
+- NOT MILK COMPLETE PROTEIN 750ML Liquidación 29.11.2026 — $1.890 [sin azúcar, sin gluten, sin lactosa]
+- TIKA MINI RICE POP CHOCOLATE BERRIES SIN GLUTEN 22GR — $550 [sin gluten]
+- TIKA MINI RICE POP CHOCOLATE MENTA SIN GLUTEN 22G LIQUIDACIÓN 29.11.2026 — $350 [sin gluten]
+- BEBIDA HIDRATANTE SUERO 8 IONES — $1.590 [sin azúcar]
+- BEBIDA HIDRATANTE SUERO ARÁNDANO POMELO 8 IONES + 8G COLÁGENO 630ML — $1.590
+- BEBIDA HIDRATANTE SUERO NARANJA MANDARINA 8 IONES + 8G COLÁGENO 630ML — $1.590
+- COLUN POTE MANJAR TRADICIONAL DE 400G SIN GLUTEN — $1.700 [sin gluten]
+- COLUN LECHE CHOCOLATE ORIGEN BOMBILLIN PACK 6UN SIN GLUTEN — $3.250 [sin gluten]
+- PROTEIN BAR CHOCOLATE FUDGE SIN GLUTEN 60G 4UN Liquidación 26.12.26 — $7.000 [sin gluten]
+- KIMBO CAFE GRANO MOLIDO INTENSO 250GRS — $6.990
+- AILEDA DETERGENTE CAPSULAS ANTIBACTERIAL FRESIAS Y LIRIOS 36UN — $6.200
+- AILEDA DETERGENTE CAPSULAS AROMATICO ANTIBACTERIAL 36UN — $6.200
+- AILEDA DETERGENTE LIQUIDO CON SUAVIZANTE 2LT — $3.990
+- AILEDA DETERGENTE EN CAPSULAS ANTIBACTERIANO 52UN — $5.990
+- FITSPO BARRA DE PROTEINA FRUTILLA Y CHOCOLATE 55G SIN GLUTEN — $2.490 [sin azúcar, sin gluten]
+- MIZOS GALLETAS DE ARROZ SABOR CHOCOLATE AVELLANA 25G — $360 [sin gluten]
+- CAFE GRANO MOLIDO DER HIMMLISCHE 100% ARABICA MOVENPICK 500G — $15.990
+- CBSE YERBAMATE FRUTOS DEL BOSQUE SIN GLUTEN 500GRS — $2.990 [sin gluten]
+- CBSE YERBAMATE FRUTOS TROPICALES SIN GLUTEN 500GRS — $2.990 [sin gluten]
+- CBSE YERBAMATE GUARANÁ SIN GLUTEN 500GRS — $2.990 [sin gluten]
+- CBSE YERBAMATE CHOCOLATE DUBAI SIN GLUTEN 250GRS — $1.990 [sin gluten]
+- WANIA ARVEJAS CRUJIENTES — $1.990 [sin gluten, vegano]
+- DULCES DE CAFÉ NEGRO KOPIKO 600GR - 75 BOLSITAS 8GR SIN GLUTEN — $14.990 [sin gluten]
+- DULCES DE CAFÉ CAPPUCCINO KOPIKO 600GR - 75 BOLSITAS 8GR SIN GLUTEN — $14.990 [sin gluten]
+- TIKA MINI RICE POP CHOCOLATE AVELLANA SIN GLUTEN 22G LIQUIDACIÓN 10.12.2026 — $350 [sin gluten]
+- CAFE EN GRANO ESPRESSO ALBERTO 1KG ORIGEN ALEMAN — $24.990
+- TIKA MINI RICE POP CREAM CIBOULETTE SIN GLUTEN 15GR LIQUIDACIÓN 05.12.2026 — $350 [sin gluten]
+- PULPA DE TOMATE TAMIZADA PONTEVEDRA SIN GLUTEN 1.020 KL — $1.500 [sin gluten]
+
+#### Barras y proteínas
+
+- NOT SNACK BAR PROTEIN LEMON CAKE 30GR — $750
+- NOT PROTEIN BAR MANGO MARACUYA 45G PACK 5UN — $4.390
+- PROTEIN BAR LEMON CHEESCAKE SIN GLUTEN 60G 4UN — $8.990 [sin gluten]
+- MIZOS PACK 18X BARRA PROTEINA DATILES Y MANI 35GR — $14.290
+- BARRA DE PROTEÍNA NOTSQUARE PEANUT BUTTER 5UN 30GR — $5.490
+- EMCO BARRAS DE GRANOLA Y ARANDANOS SIN GLUTEN 5UN 28G Liquidación 25.11.2026 — $2.290 [sin gluten]
+- NOT MILK PEANUT BUTTER PROTEIN 250ML — $990
+- NOT SNACK BAR PROTEIN COOKIES AND DREAMS 30GR — $750
+- FITSPO BARRA DE PROTEINA CHOCO BANANA 60G SIN AZUCAR AÑADIDA — $2.490 [sin azúcar]
+- FITSPO BARRA DE PROTEINA COOKIES AND CREAM 60G — $2.490
+- NATURE VALLEY PROTEIN SALTED CARALEML SIN GLUTEN 5UN 200G Liquidación 09.10.2026 — $2.290 [sin gluten]
+- UNDERFIVE PROTEIN BAR COCO Liquidación 21.11.2026 — $670
+
+#### Lácteos
+
+- COLUN LECHE EN POLVO ENTERA INSTANTÁNEA - 900 GRAMOS SIN GLUTEN — $7.490 [sin gluten]
+- COLUN LECHE EN POLVO SEMIDESCREMADA 900 GR SIN GLUTEN — $7.800 [sin gluten]
+- TASTY LECHE VEGETAL ALMENDRA VAINILLA 1LT SIN GLUTEN — $1.590 [sin gluten, vegano]
+- NURA MANTEQUILLA DE MANI ORIGINAL SIN GLUTEN 485G — $3.290 [sin gluten]
+- RICE CRISPS SIN GLUTEN SABOR QUESO 100G liquidacion 28/12/2026 — $1.690 [sin gluten]
+- PURI MANTEQUILLA DE MANI 450GR SIN GLUTEN VEGANO — $4.690 [sin azúcar, sin gluten, vegano]
+- NOT SQUARE MANTEQUILLA DE MANI 30GR — $1.200
+- COLUN LECHE ENTERA SIN LACTOSA 1LT SIN GLUTEN — $1.490 [sin gluten, sin lactosa]
+- COLUN LECHE SEMIDESCREMADA SIN LACTOSA 1LT SIN GLUTEN — $1.590 [sin gluten, sin lactosa]
+- COLUN LECHE DESCREMADA SIN LACTOSA 1LT SIN GLUTEN — $1.590 [sin gluten, sin lactosa]
+- ORASI LECHE VEGETAL BARISTA SOYA 1LT SIN GLUTEN — $3.190 [sin gluten]
+- ORASI LECHE VEGETAL BARISTA AVENA 1LT SIN GLUTEN — $3.190 [sin gluten]
+- ORASI LECHE VEGETAL SOYA 1LT SIN GLUTEN — $2.690 [sin gluten, vegano]
+- COLUN LECHE ENTERA BOMBILLIN PACK 6UN SIN GLUTEN — $2.990 [sin gluten]
+
+#### Sin gluten
+
+- BEBIDA ISOTONICA SEAWATER MANZANA 21 IONES SIN GLUTEN 475ML — $1.290 [sin azúcar, sin gluten]
+- BEBIDA ISOTONICA SEAWATER NARANJA FRUTILLA 21 IONES SIN GLUTEN 475ML — $1.290 [sin azúcar, sin gluten]
+- BEBIDA ISOTONICA SEAWATER NARANJA 21 IONES SIN GLUTEN 475ML — $1.290 [sin azúcar, sin gluten]
+
+#### Aseo y limpieza
+
+- NANOLIFE DETERGENTE PARA ROPA LIQUIDO CAPSULAS 3 EN 1 — $8.590
+- NANOLIFE LAVALOZAS ULTRA CONCENTRADO 750ML — $2.200
+- AILEDA PERLAS AROMATICAS PARA ROPA 280GR — $3.990
+- NANOLIFE RECARGA LIMPIADOR ANTIGRASA 600ML — $1.490
+- NANOLIFE RECARGA LIMPIAVIDRIOS MULTIUSOS 600ML — $1.490
+- NANOLIFE RECARGA MULTIUSOS LIMPIADOR DESINFECTANTE 750ML — $1.490
+- NANOLIFE LIMPIAPISOS DESINFECTANTE 1LT — $2.990
+- NANOLIFE LAVALOZAS ULTRACONCENTRADO 500ML — $2.200
+- AILEDA PACK 6X ESPONJA PARA COCINA MULTICOLOR — $1.890
+- AILEDA PACK 5X ESPONJAS MULTIUSOS DOBLE CARA — $1.790
+- AILEDA PACK 5X DETERGENTE EN CAPSULAS PREMIUM — $6.250
+- AILEDA RACK ORGANIZADOR ESCOBA — $1.490
+- AILEDA ESPONJA ABRASIVA PARA LIMPIEZA PROFUNDA — $1.990
+- AILEDA ELIMINADOR DE OLORES ESFERA AZUL — $990
+- AILEDA DISCO ACTIVO INODORO AROMA LAVANDA 38G — $1.200
+- AILEDA AROMATIZANTE PARA ESTANQUE DE BAÑO 50GR — $890
+- AILEDA RECARGA PARA JABON DE MANOS 250ML CITRICO — $1.200
+- AILEDA RECARGA PARA JABON DE MANOS 250ML MANZANA — $1.200
+- AILEDA DISCO ACTIVO INODORO AROMA OCEANO 38G — $1.200
+- AILEDA TOALLITAS HUMEDAS ANTIGRASA PARA COCINA 50UN — $2.290
+- AILEDA LAVALOZAS LIQUIDO 750ML AROMA CITRICO — $1.290
+- AILEDA LAVALOZAS LIQUIDO 750ML AROMA LIMON — $1.290
+- AILEDA LAVALOZAS LIQUIDO 750ML AROMA LIMON JENGIBRE — $1.290
+- NANOLIFE BABY DETERGENTE CAPSULA HIPOALERGENICO 20UN — $8.390
+- NANOLIFE DETERGENTE EN CAPSULAS 10UN — $3.990
+- AILEDA LUSTRA MUEBLES AROMA TRADICIONAL 250ML — $1.290
+- AILEDA ABRILLANTADOR PISO FLOTANTE AROMA LAVANDA 900ML — $2.490
+- AILEDA CUBOS AROMATIZANTES PARA ESTANQUE DE INODORO 2UN — $890
+- AILEDA DISCO ACTIVO INODORO AROMA LIMON 38G — $1.200
+
+#### Suplementos deportivos
+
+- FITSPO BARRA DE PROTEINA BANANA PIE 60G — $2.490
+- FITSPO BARRA DE PROTEINA COCONUT 60G SIN AZUCAR AÑADIDA — $2.490 [sin azúcar]
+- 4ACTIVE CREATINA GOMITAS 360G 90UN SIN GLUTEN SABOR ARANDANO — $17.990 [sin gluten]
+- 4ACTIVE CREATINA GOMITAS 360G 90UN SIN GLUTEN SABOR PIÑA — $17.990 [sin gluten]
+- 4ACTIVE CREATINA GOMITAS 360G 90UN SIN GLUTEN SABOR FRUTILLA — $17.990 [sin gluten]
+- 4ACTIVE CREATINA BEAUTY BLUE BERRY VIBES 282G COLÁGENO BIOTINA — $17.990 [sin gluten]
+- WHEY PROTEIN PURE 2W 900GR SIN GLUTEN SABOR COOKIES AND CREAM — $32.990 [sin gluten]
+- 4ACTIVE BEAUTY COLAGENO 360GR SIN GLUTEN — $19.490 [sin gluten]
+- 4ACTIVE CREATINA MONOHIDRATADA 300G 100%PURE — $17.990 [sin gluten]
+- WHEY PROTEIN PURE 2W 900GR SIN GLUTEN SABOR CHOCOLATE — $32.990 [sin gluten]
+- MR HYDE SIGNATURE CREAINA SABOR FRUIT PUNCH — $23.690 [sin gluten]
+- 4 ACTIVE BEAST PRE WORKOUT ORANGE 320g — $18.590
+- 4 ACTIVE BEAST PRE WORKOUT FRUIT PUNCH 320g — $18.590
+- 4 ACTIVE WOMEN PROTEIN + BEAUTY PROTELLA 870g — $25.590
+- 4 ACTIVE CREATINE + ELECTROLYTES ICE TEA FRESH 300g — $12.890
+- SWANSON TRIPLE MAGNESIUM COMPLEX 30un — $11.590
+- 4 ACTIVE BETA ALANINE 100% 300g — $14.290
+- 4 ACTIVE GLUTAMINE 100% 300g — $12.890 [sin lactosa, vegano]
+- 4 ACTIVE WOMEN CREATINE + BEAUTY PEACH ICE TEA VIBES 286g — $13.990
+
+#### Galletas
+
+- MIZOS GALLETAS DE ARROZ SABOR NARANJA PLATANO 16G — $450
+- ECOVIDA GALLETAS DE COCO SIN GLUTEN 150G — $2.290 [sin gluten]
+- ECOVIDA GALLETAS BERRIES SIN GLUTEN 150G — $2.290 [sin gluten]
+- ECOVIDA GALLETAS CHIPS SIN GLUTEN 150G — $2.290 [sin gluten]
+- ECOVIDA GALLETA FROOTA MANI SIN AZUCAR 150G — $1.790 [sin azúcar]
+- ECOVIDA GALLETA FROOTA CIRUELA SIN AZUCAR 150G — $1.790 [sin azúcar]
+- ECOVIDA GALLETA FROOTA HIGO SIN AZUCAR 150G — $1.790 [sin azúcar]
+- GALLETAS DE ARROZ CUBIERTAS EN CREMA DE LIMON SIN GLUTEN 115G — $1.890 [sin gluten]
+- GALLETAS WAFERS VAINILLA NOGLUT SIN GLUTEN 150G — $3.990 [sin gluten]
+- GALLETA GULLON AVENA NARANJA SIN GLUTEN 180G — $2.690 [sin gluten, sin lactosa, vegano]
+- GALLETA AVENA SHOCK SIN AZUCAR 140G — $1.890 [sin azúcar]
+- GALLETAS SALADAS CON SAL DE MAR SIN GLUTEN SCHAR 175G — $4.990 [sin gluten]
+- TIKA CRACKERS CURCUMA Y SESAMO 140GR — $1.690
+- TIKA CRACKERS CHIA Y ROMERO 140GR — $1.690
+- GULLON GALLETA BIZCOCHO CHAMPAGNE 100GR — $990
+- GALLETAS OREO SIN GLUTEN SIN TACC 95GR — $2.790 [sin gluten]
+
+#### Liquidación 🔥
+
+- ALUSWEET BBQ SIN AZUCAR 370GR Liquidación 04.11.2026 — $3.200 [sin azúcar]
+- GALLETA DE VAINILLA L ́AMORE 150GR LIQUIDACIÓN 23.12.2026 — $690
+- GALLETA DE FRUTILLA L ́AMORE 150GR LIQUIDACIÓN 23.12.2026 — $690
+- PROTEIN BAR COOKIES AND CREAM SIN GLUTEN 60G 4UN — $8.990 [sin gluten]
+
+#### Packs
+
+- PACK LA CUSTODIA ACEITE DE OLIVA + CHIA + OLIVA/CHIA 250ML — $14.990
+- PACK LA CUSTODIA ACEITE DE OLIVA + CHIA/OLIVA 500ML — $15.490
+- PACK PILAO 5UN CAFE MOLIDO TRADICIONAL 250GR — $29.990
+- DREAMSEC PROTECTOR DE CAMA DESECHABLE 10UN — $2.490
+
+#### Snacks
+
+- SEMBRASOL MAXI PIPONA MARAVILLAS SALADAS 380G SIN GLUTEN — $3.290 [sin gluten]
+- WANIA SNACK MIX VEGETARIANO VEGANO 50G — $1.190 [vegano]
+- SEMBRASOL ALMENDRA NATURAL SIN GLUTEN 50G — $1.390 [sin gluten, vegano]
+- SNACK PREMIUM PARA GATO ADULTO SABOR SALMON 65GR — $890
+- WANIA PAPAS HILO CENTRIFUGADAS SIN GLUTEN VEGANO 200G — $1.890 [sin gluten, vegano]
+
+#### Bebidas
+
+- TURBO ZERO JUGO SABOR POMELO DISPLAY 10UN — $3.100
+- AMA JUGO MANZANA DURAZNO ORGANICO 200ML — $690
+- AMA JUGO MANZANA ORGANICO 200ML — $690 [sin gluten]
+- BERIEF BEBIDA VEGETAL DE SOJA ORGANICA SIN AZUCAR VEGANA SIN GLUTEN 1LT — $2.490 [sin azúcar, sin gluten, vegano]
+- AMA JUGO MANZANA MANGO ORGANICO 200ML — $690
+- AMA JUGO MANZANA ARANDANO ORGANICO 200ML — $690 [sin gluten, vegano]
+- GROW JUGO DE NARANJA Y ZANAHORIA SIN GLUTEN 1LT 100% NATURAL — $2.890 [sin gluten]
+- GROW JUGO DE NARANJA SIN GLUTEN 1LT 100% NATURAL — $2.890 [sin gluten]
+- AMA JUGO MANZANA FRAMBUESA ORGANICO 200ML — $690 [sin azúcar, sin gluten, vegano]
+- AMA JUGO MANZANA PIÑA ORGANICO 200ML — $690 [sin azúcar, sin gluten, vegano]
+- POROTOS NEGROS ACONCAGUA 420G — $890
+
+#### Panadería
+
+- HARINA DE AVENA SIN GLUTEN MI TIERRA 400G — $2.790 [sin gluten]
+- HARINA DE COCO SIN GLUTEN MI TIERRA 400G — $2.650 [sin gluten]
+- PAN DE MOLDE INTEGRAL SIN GLUTEN NUTRISA 480G — $3.990 [sin gluten, sin lactosa]
+- PAN DE MOLDE BLANCO SIN GLUTEN NUTRISA 480G — $3.990 [sin gluten, sin lactosa]
+- PAN FRANCES SIN GLUTEN SCHAR 100G — $2.390 [sin gluten, vegano]
+- PAN DE MOLDE BLANCO SIN GLUTEN SCHAR 200G LIQUIDACIÓN 10.09.2026 — $2.770 [sin gluten, sin lactosa]
+- PAN MOLDE RUSTICO SIN GLUTEN SCHAR 200G Liquidación 17.10.2026 — $3.490 [sin gluten, sin lactosa]
+- PAN HAMBURGUESA SIN GLUTEN SCHAR 130G — $2.990 [sin gluten]
+- MEZCLA LISTA PARA PAN CASERO SIN GLUTEN 1 KL — $5.990 [sin gluten, sin lactosa, vegano]
+
+#### Repostería
+
+- MEZCLA LISTA PARA BROWNIE PREMIUM SIN GLUTEN 500G — $4.490 [sin gluten, sin lactosa, vegano]
+- NUTRISA QUEQUE FAMILIAR SABOR VAINILLA 200G SIN GLUTEN — $2.990 [sin gluten]
+
+#### Aseo y cuidado
+
+- AILEDA RECARGA PARA JABON DE MANOS 250ML FRUTILLA — $1.200
+
+#### Frescos
+
+- LHERITIER PITO PITO SILVATO FRUTAL 24un 300g SIN GLUTEN — $2.850 [sin gluten]
 
 
 ## Crumbless Gluten Free Bakery
@@ -3012,6 +4964,23 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Real Thai 250 ml — $2.390
 - Miel San Lorenzo 1/2 kg — $4.990
 - Orasi Barista Avena 1 LT — $4.390
+- Cocadas s/g — $2.190
+- Alfajor Manjar S/M — $3.290
+- Queque Marmoleado xs — $5.190
+- Torta Jess s/g — $6.390
+- Torta Jess S/M — $6.390
+- Cake Petit Ch/M — $23.990
+- Medialuna S/M — $2.690
+- Manchoc S/m — $3.490
+- Galletas Biscuit de 12 s/m — $4.290
+- New York s/m — $2.990
+- Queque Marmoleado baño chocolate Xs — $5.190
+- Alfajor Frambuesa s/g — $3.190
+- Alfajor Manjar s/g — $3.190
+- Cinnamon s/m — $2.690
+- Rollo de Pizza s/m — $2.790
+- Love Co — $5.290
+- Focaccia XL — $5.990
 
 
 ## Dónde El Guatón
@@ -3333,18 +5302,95 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.fain.cl/
 - **Menciona en su web:** pasta, manjar, dulces
 - **Fecha de registro:** 2025-11-14
-- **Dietético:** 1 platos sin gluten
+- **Dietético:** 3 platos sin gluten, 1 veganos
 
 ### Qué vende
 
 - Panadería
+- Galletas saladas
+- Barras de postres y pasteles
+- Galletas
+- Platos preparados y entrantes
+- Granos, arroz y cereales
+- Panes y bollería
+- Barritas de muesli y cereales
+- Alimentos
+- Salsas y cremas para untar
 
 
 ### Carta
 
 #### Panadería
 
-- Pan de Aceituna 600 grs — $8.800 [sin gluten]
+- Pan de Nuez 700 grs — $9.000
+- Pan de Coco 700 grs — $9.000
+- Pan de Avellana 700 grs — $9.000
+- Pan de Pistacho 500 grs — $8.800 [sin gluten]
+- Pan de Aceituna 600 grs — $8.800
+- Pan Dorado, 4 unidades (450 grs.) — $8.000 [sin gluten]
+
+#### Galletas saladas
+
+- Cracker Salada 150 grs — $5.700
+- Cracker Merkén 150 grs — $5.700
+- Discos de Albahaca 150 grs — $5.700
+- Discos Salados 150 grs — $5.700
+- Cracker Tomate 120 grs — $4.200
+- Cracker de Ajo 150 grs — $5.700
+
+#### Barras de postres y pasteles
+
+- Bomba Mani 120 grs — $4.200 [sin azúcar]
+
+#### Galletas
+
+- Lingote 150 grs — $5.500
+- Tostada de Pistacho Cúrcuma 140 grs — $6.200
+- Discos de Mandarina 120 grs — $5.900
+
+#### Platos preparados y entrantes
+
+- Masa de Pizza sin gluten 2 discos (300 grs.) — $8.000 [sin gluten]
+
+#### Granos, arroz y cereales
+
+- Granola 250 grs — $7.800
+- Granola 125 grs — $4.200
+
+#### Panes y bollería
+
+- Tostadas de Aceituna Cebolla 140 grs — $4.500
+
+#### Barritas de muesli y cereales
+
+- Discos Dulces 120 grs — $5.900
+
+#### Alimentos
+
+- Pack Proteico — $14.900 [sin azúcar]
+
+#### Salsas y cremas para untar
+
+- Paté al Ron — $6.900
+- Paté con Merkén — $6.900
+- Paté al Oporto — $6.900
+- Paté Trufado — $7.490
+- Queso de Cabra - Griego - Murasso — $6.000
+- Mostaza entera Keto — $6.300
+- Manjar Vegano De la Casa — $7.500 [sin azúcar, vegano]
+- Pasta Tomates y Ajo al Olivo — $4.000
+- Aceite de Coco sin Olor — $5.490
+- Aceite de Coco con Olor — $5.490
+- Harina de Almendras sin piel — $10.990
+- Vinagre Sidra de Manzana - Orgánico — $5.990
+- Alulosa 100% Pura - Manare — $9.990
+- Ghee Mantequilla Clarificada - Fain — $7.990
+- Chucrut Raíces Nobles 400 g La Fermentista — $5.990
+- Chucrut Citrus Silvestre 400 g La Fermentista — $5.990
+- Chucrut Verdes Vivos 400 g La Fermentista — $5.990
+- Queso de Cabra - Tierno - Murasso — $6.000
+- Queso de Cabra - Maduro - Murasso — $6.000
+- Chucrut Clásico Púrpura 400 g La Fermentista — $5.990
 
 
 ## FAMILIA GLUTEN FREE
@@ -5104,7 +7150,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.mercaditosyn.cl/
 - **Menciona en su web:** chocolate, jugo
 - **Fecha de registro:** 2026-04-23
-- **Dietético:** 109 platos sin gluten, 14 veganos, 8 sin lactosa
+- **Dietético:** 110 platos sin gluten, 14 veganos, 8 sin lactosa
 
 ### Qué vende
 
@@ -5221,6 +7267,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Chocolate de leche con almendras, sin azúcar añadida — $2.390 [sin azúcar, sin gluten]
 - Cafe saborizado Chocolate Brownie — $7.490 [sin gluten]
 - Cafe saborizado Menta chocolate — $7.490 [sin gluten]
+- Aceite de Oliva VDR, 500 c.c — $7.980 [sin gluten]
 
 #### Keto
 
@@ -5636,7 +7683,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** pizza, completo, torta, pastel, merengue, tiramisú, postre, dulces
 - **Menciona en reseñas:** torta, pastel, galleta, chocolate, postre
 - **Fecha de registro:** 2025-11-23
-- **Dietético:** 61 platos sin gluten, 27 veganos, 27 sin lactosa
+- **Dietético:** 63 platos sin gluten, 29 veganos, 29 sin lactosa
 
 ### Qué vende
 
@@ -5690,6 +7737,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Discos de Albahaca FAIN 180 gr — $5.990 [sin azúcar, sin gluten, vegano]
 - Cracker Salada FAIN 150 gr — $5.990 [sin gluten, vegano]
 - Galletones con chips de chocolate — $2.990 [sin azúcar, sin gluten, sin lactosa]
+- Pan de masa madre sin gluten Pan Pa Mi — $10.500 [sin gluten, sin lactosa, vegano]
+- Empanadas de masa madre sin gluten Pan Pa Mi — $3.950 [sin gluten, sin lactosa, vegano]
 
 #### Postres
 
@@ -6066,13 +8115,46 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** pizza
 - **Menciona en reseñas:** pizza, empanada, carne, mechada
 - **Fecha de registro:** 2025-10-02
-- **Dietético:** 3 platos sin gluten, 2 veganos
+- **Dietético:** 29 platos sin gluten, 19 veganos
+
+### Qué vende
+
+- Pizzas
+
 
 ### Carta
 
+#### Pizzas
+
+- Margarita — $15.900 [sin gluten, vegano]
+- Arma tu Pizza — $18.900 [sin gluten, vegano]
+- Pepperoni — $12.900 [sin gluten]
+- Brooklyn — $15.900 [sin gluten, vegano]
+- Mediterránea — $16.900 [sin gluten, vegano]
+- Napolitana — $16.900 [sin gluten, vegano]
+- Contadina — $15.900 [sin gluten, vegano]
 - Toscana — $16.900 [sin gluten]
+- Amazonas — $15.900 [sin gluten, vegano]
+- Vegan — $15.900 [sin gluten, vegano]
+- Buenos Aires — $15.900 [sin gluten, vegano]
+- Ipanema — $15.900 [sin gluten, vegano]
+- Copacabana — $16.900 [sin gluten, vegano]
+- Medellin — $16.900 [sin gluten, vegano]
+- Patagonia — $15.900 [sin gluten, vegano]
+- Latinoamericana — $16.900 [sin gluten]
+- Del Caribe — $16.900 [sin gluten]
+- Montevideo — $15.900 [sin gluten, vegano]
 - Arma Tu Calzone Sin Gluten — $7.900 [sin gluten, vegano]
+- Bruce Wayne — $16.900 [sin gluten, vegano]
+- La Criolla — $15.900 [sin gluten, vegano]
 - Huerta Fresca — $15.900 [sin gluten, vegano]
+- La Costera — $16.900 [sin gluten, vegano]
+- Focaccia Tradicional — $6.500 [sin gluten]
+- Focaccia Fungi — $6.500 [sin gluten]
+- Focaccia Pesto y Queso — $6.000 [sin gluten]
+- Focaccia Pepperoni Hot — $6.500 [sin gluten]
+- Palitos de Queso con Ajo — $7.500 [sin gluten]
+- Palitos de Queso — $7.500 [sin gluten]
 
 
 ## Poga Heladería
