@@ -44,7 +44,7 @@ SPLIT_WORDS = (
 )
 SUSPICIOUS = re.compile(r"[;|\\_*?¿!¡«»]")
 CONNECTOR_END = re.compile(r"\b(y|de|con|la|el|los|las|del|al|en|para|por)$", re.I)
-STORE_SOURCES = {"woocommerce", "shopify", "web-product", "web-jsonld", "fudo"}
+STORE_SOURCES = {"woocommerce", "shopify", "web-product", "web-jsonld", "fudo", "apparta"}
 STORE_PLACES = {
     "Sin Culpa Market", "Patagonia Schokoland", "Productos El Pueblo",
     "Violeta Patisserie", "Dulces aplv", "Mercadito sano y natural",

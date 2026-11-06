@@ -26,6 +26,7 @@ CREATE TABLE IF NOT EXISTS places (
     note       TEXT,
     url        TEXT NOT NULL,
     first_seen TEXT NOT NULL,
+    first_observed_at TEXT,
     last_seen  TEXT NOT NULL,
     saved_on   TEXT,
     lat        REAL,
@@ -58,10 +59,10 @@ CREATE TABLE IF NOT EXISTS list_places (
 UPSERT = """
 INSERT INTO places (
     ftid, name, address, category, rating, reviews, note, url,
-    first_seen, last_seen, saved_on, lat, lng, website, dishes, review_dishes,
+    first_seen, first_observed_at, last_seen, saved_on, lat, lng, website, dishes, review_dishes,
     enriched_at, enrich_version, menu_dishes, menu_json, menu_at
 )
-VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
 ON CONFLICT(ftid) DO UPDATE SET
     name    = excluded.name,
     address = COALESCE(NULLIF(excluded.address, ''), places.address),
@@ -87,6 +88,7 @@ ON CONFLICT(ftid) DO UPDATE SET
 
 MIGRATIONS = (
     ("saved_on", "TEXT"),
+    ("first_observed_at", "TEXT"),
     ("lat", "REAL"),
     ("lng", "REAL"),
     ("website", "TEXT"),
@@ -111,6 +113,11 @@ def connect(db_path: Path) -> sqlite3.Connection:
     for column, kind in MIGRATIONS:
         if column not in existing:
             conn.execute(f"ALTER TABLE places ADD COLUMN {column} {kind}")
+    conn.execute(
+        "UPDATE places SET first_observed_at = COALESCE(first_seen, last_seen) "
+        "WHERE first_observed_at IS NULL"
+    )
+    conn.commit()
     return conn
 
 
@@ -173,6 +180,7 @@ def save(
                 place.note,
                 place.url,
                 first_seen,
+                today,
                 today,
                 place.saved_on,
                 place.lat,
@@ -373,6 +381,7 @@ def write_jsonl(conn: sqlite3.Connection, key: str, path: Path) -> int:
                 "menu_count": len(menu_compact),
                 "saved_on": row["saved_on"],
                 "first_seen": row["first_seen"],
+                "first_observed_at": row["first_observed_at"],
                 "last_seen": row["last_seen"],
                 "lat": row["lat"],
                 "lng": row["lng"],
@@ -410,7 +419,12 @@ def write_menus_jsonl(conn: sqlite3.Connection, key: str, path: Path) -> int:
                 "original_name": dish.get("original_name"),
                 "category": dish.get("category"),
                 "price": dish.get("price"),
+                "price_display": dish.get("price_display") or dish.get("price"),
                 "description": dish.get("description"),
+                "source": dish.get("source"),
+                "status": dish.get("status"),
+                "kind": dish.get("kind"),
+                "dietary_tags": dish.get("dietary_tags") or [],
                 "ingredients": dish.get("ingredients"),
                 "allergens": dish.get("allergens"),
                 "dietary_type": dish.get("dietary_type"),
