@@ -12,7 +12,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://www.allfree.cl/
 - **Menciona en su web:** sushi, pasta, pescado, mariscos, galleta, alfajor, chocolate, manjar, dulces, jugo
 - **Fecha de registro:** 2026-07-02
-- **Dietético:** 17 platos sin gluten, 6 veganos, 1 sin lactosa
+- **Dietético:** 23 platos sin gluten, 8 veganos, 3 sin lactosa
 
 ### Carta
 
@@ -42,6 +42,12 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Barra de Cereal y Berries - 20 grs Tribu — $250
 - Aceite de Oliva Extra Virgen Arbequina 500 ml - Las 200 — $9.990
 - Cabritalegre Bombón Nutella — $1.590 [sin azúcar, sin gluten]
+- Premezcla Pan Integral Sin Gluten - 1 Kg — $4.990 [sin gluten]
+- AluSweet Stevia en Gotas - 80 ml — $2.690 [sin gluten, sin lactosa]
+- Galletas Chips de Chocolate Sin Gluten Vida Bake — $11.990 [sin gluten, sin lactosa]
+- Salsa Soya Sin Gluten - 320 ml — $2.990 [sin gluten]
+- Mizos Galletas de Arroz Integral Chocolate Avellana - 25 grs — $350 [sin gluten, vegano]
+- Mizos Galletas de Arroz Manzana - 16 grs — $390 [sin gluten, vegano]
 
 
 ## Alma Chilanga
@@ -56,30 +62,19 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 ### Carta
 
-- Nachos "ARTI
-- PAS Tritas cop. 0 Queso Buri e Polo gados
-- EA Sigg ae nee 200 Flan des Abu — $25.009
-- Ae de pas OA pt ee al Seca =
-- Tacos de Bar 0 RELA coca . oe ts pr A 3
-- Vacome machado tra a a tele Docena de Tor E igus ea nia — $3.500
-- Taco su Pa Agua confsn gas 600 — $320
-- Chitaguiles con barbacoa x Copa Blanco Chardon pS 4% — $3.000
-- Ti ñ Vacuno — $14.000
-- Asado
-- Flan dela Abuelas"
-- TACOS Tacos
-- Tacos
+- Nachos
 - Tacos de Cochinita (3)
 - Tacos de Pastor (3)
 - Tacos de lengua (3)
-- Flautas de pollo (2)
 - Tacos de Pescado (3)
 - Tacos Vegetarianos (3)
-- Enchiladas verdes pollo (3}
 - Tacos de Tinga (3)
-- Tacos mixtos (3}
+- Tacos mixtos (3)
+- Flautas de pollo (2)
+- Enchiladas verdes pollo (3)
 - Chilaquiles con pollo
-- CARNES
+- Flan de la Abuela
+- Asado
 
 
 ## Açaí Experience
@@ -408,6 +403,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Postre
 - Modificador de bebida
 - Dulces Especialidades
+- Chocolate Caliente
 
 
 ### Carta
@@ -558,6 +554,11 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 #### Dulces Especialidades
 
 - Trío de Macarrones y café americano — $5.990
+
+#### Chocolate Caliente
+
+- Chocolate Belga 180 ml — $3.590
+- Chocolate Belga 400 ml — $4.690
 
 
 ## Cafe Zoliakie Gluten Free
@@ -1029,6 +1030,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - SOPAIPILLAS PASADAS — $3.900
 - WAFFLE AQUELARRE — $5.500
 - WAFLE ÓREO — $5.500
+- GALLETON DE CHOCOLATE CON FRAMBUESA — $2.700
+- MUFFIN RELLENO CON PIE DE LIMÓN / CHOCOLATE / NUTELLA — $2.700
 
 #### PAILAS DE HUEVO
 
@@ -1047,6 +1050,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - PROMO MEDIA LUNA CON TE O AMERICANO — $4.400
 - PROMO PIE DE LIMÓN CON TÉ O AMERICANO — $6.100
 - PROMO VEGETARIANO MÁS TÉ O AMERICANO — $8.200
+- PROMOCIÓN SOPAIPILLAS PASADAS MÁS TÉ O CAFÉ — $6.800
+- PROMO MUFFIN CON TÉ O AMERICANO — $5.100
 
 #### SANDWICHES Y PIZZAS
 
@@ -1120,6 +1125,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - TORTA MILHOJAS MANJAR FRAMBUESA — $4.900
 - TORTA POMPADUR — $4.900
 - TORTA REINA ANA FRAMBUESA — $4.900
+- TORTA CHOCOLATE SIN AZUCAR — $5.500 [sin azúcar]
 
 #### TOSTADAS
 
@@ -1572,6 +1578,9 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Pollo a la mostaza
 - Lasaña
 - Pie de limón
+- LECHE VEGETAL .—s— ALFAJOR CHOCOLATE cc
+- JUGO NARANJA 330 CC
+- JUGO NARANJA 120 CC
 
 
 ## CASI PERFECTO
@@ -1721,6 +1730,10 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 #### Cerveza de Barril
 
 - Heineken Fusions Ginger Beer — $3.000
+- Schop Cerveza Artesanal Tarumahara 500 cc — $3.500
+- Schop Cerveza Artesanal Tarumahara 250 cc — $1.900
+- Schop Heineken 500 cc — $3.000
+- Schop Heineken 250 cc — $1.700
 
 #### Bebida
 
@@ -1874,7 +1887,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** dulces
 - **Menciona en reseñas:** pastel, dulces
 - **Fecha de registro:** 2026-03-11
-- **Dietético:** 2 veganos, 16 sin lactosa
+- **Dietético:** 2 veganos, 17 sin lactosa
 
 ### Qué vende
 
@@ -1897,6 +1910,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 #### Untables
 
 - Mantequilla Apta Tienda — $6.490
+- Manjar Apto 210 cc — $6.790
 
 #### Nuevo
 
@@ -2122,6 +2136,28 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Barra Chocolate Chocono 80grs — $5.690
 - Cacao 200 grs Tienda — $4.990
 - Bebidas 360CC Tienda — $1.300
+- Cookids Galletas Infantiles Frutilla 30 gr — $950
+- Baby Mum Mum Manzana Calabaza 21 gr — $1.790
+- Baby Mum Mum Rice Puff Snack Manzana Plátano 10 gr — $990
+- Cereal Garbanzo Arándano 60 gr — $2.490
+- Orasi Barista Cappuccino 500 ml — $2.990
+- Barquillos 5 un — $3.690
+- Helados Aplv Chocolate Bañado — $3.590 [sin lactosa]
+- Huesillos deshidratados 250 gr — $3.490
+- Baby Mum Mum Super Bayas 21 gr — $1.790
+- Bocanboca Chips 50 gr — $2.390
+- Bocanboca Chips 120 gr — $3.590
+- Oferta Pan de Completo Lumae congelado — $2.500
+- Galleta New York Chocolate — $3.190
+- Pastel Milhojas Pastelera Chocolate — $5.590
+- canasta sopaipillas x 5 — $4.990
+- Oferta Longanizas y Butifarra de 250 gr — $3.990
+- Jugo Arándanos 300 ml — $4.990
+- Mostaza Maille Dijon 215 gr — $4.990
+- Pan Marraqueta Pre-Cocido 4 Un — $2.590
+- Real Thai 250 ml — $2.390
+- Miel San Lorenzo 1/2 kg — $4.990
+- Orasi Barista Avena 1 LT — $4.390
 
 
 ## Dónde El Guatón
@@ -3242,6 +3278,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - EXTRAS
 - PANCITOS
 - GUSTITOS DE FIN DE SEMANA
+- CAFÉ
+- VARIEDAD DE BEBIDAS
 
 
 ### Carta
@@ -3267,6 +3305,19 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 #### GUSTITOS DE FIN DE SEMANA
 
 - Ciabattas — $6.900
+
+#### CAFÉ
+
+- Americano L — $3.000
+- Café con Milk L — $3.400
+- Filtrados L — $3.900
+
+#### VARIEDAD DE BEBIDAS
+
+- Noir o Ivory Moca L — $4.500
+- Noir o Ivory Choc L — $4.300
+- Matcha Latte L — $4.500
+- Variedad de Jugos Naturales L — $3.300
 
 
 ## Kanu Cocina
@@ -3935,6 +3986,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Vegetales al Fuego
 - Nuestra Burger
 - Para los Niños
+- Carnes a las Brasas
+- Selección Maillard
 
 
 ### Carta
@@ -3990,6 +4043,26 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
 - Carne a la Parrilla — $13.990
 
+#### Carnes a las Brasas
+
+- Asado de Tira 4 cm USA / 550 g — $33.990
+- Lomo Vetado Black Angus Arg / 500 g — $28.990
+- Lomo Liso Black Angus Arg / 500 g — $21.990
+- Punta de Ganso Ahumada / 350 g — $21.990
+- Pollo Barriga Angus / 400 g — $18.990
+- Malaya de Cerdo / 450 g — $18.990
+- Milanesa Napolitana / 300 g — $18.990
+- Pulpo a la Parrilla / 250 g — $15.990
+- Salmón a las Brasas / 300 g — $15.990
+- Chistorra de la Casa / 200 g — $13.990
+
+#### Selección Maillard
+
+- Ojo de Bife USA / 600 g — $44.990
+- Bife de Chorizo USA / 600 g — $42.990
+- Asado de Tira Angus / 500 g — $35.990
+- Entraña USA / 300 g — $30.990
+
 
 ## Massanoglutenfree
 - **Ubicación:** Santa Luisa 145, 8732429 Quilicura, Región Metropolitana
@@ -4009,7 +4082,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** http://www.mercaditosyn.cl/
 - **Menciona en su web:** chocolate, jugo
 - **Fecha de registro:** 2026-04-23
-- **Dietético:** 103 platos sin gluten, 14 veganos, 8 sin lactosa
+- **Dietético:** 109 platos sin gluten, 14 veganos, 8 sin lactosa
 
 ### Qué vende
 
@@ -4120,6 +4193,12 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Premezcla para brawnie vegano marca ambrosia — $5.980 [sin gluten, sin lactosa, vegano]
 - Cefe Beanies saborizado Vainilla — $7.490 [sin gluten, sin lactosa, vegano]
 - Café Beanies saborizado sabor Amaretto — $7.490 [sin gluten, sin lactosa, vegano]
+- Müsli Multi Semillas 400 g — $6.390 [sin gluten]
+- Bolitas de Quinua, Maíz y Chocolate — $2.890 [sin gluten]
+- Taylors, Green Tea Strawberry & Vanilla 20 Bolsitas — $6.980 [sin gluten]
+- Chocolate de leche con almendras, sin azúcar añadida — $2.390 [sin azúcar, sin gluten]
+- Cafe saborizado Chocolate Brownie — $7.490 [sin gluten]
+- Cafe saborizado Menta chocolate — $7.490 [sin gluten]
 
 #### Keto
 
@@ -4135,6 +4214,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Coco rallado Ambrosia — $4.290
 - Almendras laminadas Ambrosia — $9.690
 - Cacao en polvo 100 % cacao marca ambrosia — $8.790 [sin gluten, sin lactosa, vegano]
+- Semilla de Calabaza Ambrosia 400 G — $8.390
 
 
 ## Mercado Condell
@@ -4487,7 +4567,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** pizza, completo, torta, pastel, merengue, tiramisú, postre, dulces
 - **Menciona en reseñas:** torta, pastel, galleta, chocolate, postre
 - **Fecha de registro:** 2025-11-23
-- **Dietético:** 56 platos sin gluten, 23 veganos, 26 sin lactosa
+- **Dietético:** 61 platos sin gluten, 27 veganos, 27 sin lactosa
 
 ### Qué vende
 
@@ -4537,6 +4617,10 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Donación Vivir + Feliz
 - Pan de pascua sin azúcar — $14.900 [sin azúcar, sin gluten]
 - Pan de pascua vegano — $15.900 [sin azúcar, sin gluten, vegano]
+- Granola FAIN 250 gr — $8.500 [sin azúcar, sin gluten, vegano]
+- Discos de Albahaca FAIN 180 gr — $5.990 [sin azúcar, sin gluten, vegano]
+- Cracker Salada FAIN 150 gr — $5.990 [sin gluten, vegano]
+- Galletones con chips de chocolate — $2.990 [sin azúcar, sin gluten, sin lactosa]
 
 #### Postres
 
@@ -4598,6 +4682,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Torta Toffee — $22.000 [sin gluten]
 - Torta infantil — $50.000 [sin gluten]
 - Flora — $22.000 [sin gluten]
+- Torta vegana de chocolate y frambuesa con azúcar — $22.000 [sin gluten, vegano]
 
 
 ## Patagonia Schokoland
@@ -4609,7 +4694,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** torta, galleta, alfajor, helado, chocolate, manjar, dulce de leche, postre, dulces
 - **Menciona en reseñas:** sándwich, torta, helado, chocolate, churro, manjar
 - **Fecha de registro:** 2025-11-05
-- **Dietético:** 1 veganos, 1 sin lactosa
+- **Dietético:** 3 veganos, 2 sin lactosa
 
 ### Qué vende
 
@@ -4618,6 +4703,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Helados Clásicos
 - Barquillos
 - Chocolates Entrelagos
+- Sin Azúcar
 
 
 ### Carta
@@ -4628,15 +4714,31 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Dubai Schokoland — $9.000
 - Pistacho Frambuesa — $9.000
 - Yogurt maracuyá — $8.500
+- Pistacho chocolate blanco 473 ml — $9.000
+- Cuchufli bitter 473 ml — $8.500
+- Torta berries 473 ml — $8.500
+- Trufa whisky 473 ml — $8.500
+- Alfajor frambuesa 473 ml — $8.500
+- Limón Rica Rica 473 ml — $8.000
 
 #### Packs Helados
 
 - Pack helados clásicos 473 ml x 3 — $24.000
+- Pack postres helados 473 ml x 3 — $26.000
 
 #### Helados Clásicos
 
 - Chirimoya Alegre — $8.000
 - Chocolate leche 32% cacao — $8.500
+- Chocolate bitter 60% cacao 473 ml — $8.500
+- Dulce de leche 473 ml — $8.500
+- Berries patagonia 473 ml — $8.000
+- Vainilla blanca 473 ml — $8.500
+- Mango maracuyá 473 ml — $8.000
+- Lúcuma manjar 473 ml — $8.500
+- Chocolate bitter 80% cacao vegano 473 ml — $8.500 [vegano]
+- Frutilla 473 ml — $8.000 [sin lactosa, vegano]
+- Limon 473 ml — $8.000
 
 #### Barquillos
 
@@ -4657,6 +4759,14 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - 382 - Rollo de mazapán 90 gr (vegano sin lactosa) Entrelagos — $4.000 [sin lactosa, vegano]
 - Alfajor Manjar Sin Azucar — $2.500 [sin azúcar]
 - Café Kawas molido 250g — $12.000
+- Caja 9 bombones 92 g — $7.000
+- Rollo mazapán con chocolate 105 g — $4.000
+
+#### Sin Azúcar
+
+- Chocolate leche 473 ml — $9.000 [sin azúcar]
+- Frambuesa Sin Azúcar 473 ml — $9.000 [sin azúcar]
+- Yogurt arándanos Sin Azúcar 473 ml — $9.000 [sin azúcar]
 
 
 ## Piaf Café
@@ -5047,6 +5157,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Turbo Benny Frutilla 200grs — $1.650
 - Fideos De Arroz — $1.750
 - Turbo Benny Frutilla 200grs Sin Azúcar — $1.860 [sin azúcar]
+- Mermelada de frutilla sin azúcar 200 g — $1.390 [sin azúcar]
+- Mermelada de durazno sin azúcar 200 g — $1.370 [sin azúcar]
 
 #### Insumos
 
@@ -5104,6 +5216,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Harina de arroz — $3.580
 - Mezcla 3 harinas — $5.590
 - Avena 500 grs — $3.480
+- Avena 1 kg — $6.750
 
 #### Esencias y condimentos
 
@@ -5376,6 +5489,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Manjarate Familiar — $24.990
 - Muffin Red Velvet — $4.490
 - Negritas — $13.990
+- Helado 1 lt — $11.990
 
 #### Carta Cero Lácteos SIBO
 
@@ -5616,6 +5730,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Tartaleta Mix Berries (Familiar) — $19.400
 - Tartaleta Mix Frutas (Familiar) — $19.400
 - Tartaleta de Durazno (Familiar) — $19.400
+- mix tartaleta (4 sabores — $28.900
 
 #### Tortas
 
@@ -5674,6 +5789,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Sersayaan (15 Personas) — $57.300
 - Sersayaan (25 Personas) — $76.400
 - TORTA AMOR 15PP — $57.300
+- toppers — $3.990
+- mini cake — $22.000
 
 
 ## Sicily Pizza, Gelato e Caffe
@@ -5748,7 +5865,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://www.sinculpamarket.cl/
 - **Menciona en su web:** completo
 - **Fecha de registro:** 2026-06-20
-- **Dietético:** 31 platos sin gluten, 8 veganos, 3 sin lactosa
+- **Dietético:** 43 platos sin gluten, 12 veganos, 3 sin lactosa
 
 ### Qué vende
 
@@ -6260,6 +6377,66 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - YARI YERBA MATE POWER TEA LIMON JENGIBRE 475 ML - CATEDRAL — $2.200
 - YOGHURT GRIEGO OIKOS NATURAL ENDULZADO 110GR — $600
 - YOGURT DE PAJARITO GHALI SABOR NATURAL 400 G - CATEDRAL — $4.400
+- AMA JUGO MANZANA MANGO ORGÁNICO 200 ML — $990
+- BARRA DE PROTEINA KETO PROTEIN CHOCOLATE & BERRIES 40G - CATEDRAL — $1.500
+- BARRA PROTEINA UNDERFIVE SABOR ALMENDRA DISPLAY 5 UNID 225 GRS - CATEDRAL — $6.690
+- BARRA PROTEINA UNDERFIVE SABOR CACAO DISPLAY 5 UNID 225 GRS - CATEDRAL — $6.690
+- BARRA PROTEINA UNDERFIVE SABOR CHOCO MANI DISPLAY 5 UNID 225 GRS - CATEDRAL — $6.690
+- BARRA PROTEINA UNDERFIVE SABOR COCO DISPLAY 5 UNID 225 GRS - CATEDRAL — $6.690
+- BARRA PROTEINA UNDERFIVE SABOR MANÍ/MIEL DISPLAY 5 UNID 225 GRS - CATEDRAL — $6.690
+- BEBIDA VEGETAL TASTY ALMENDRA VAINILLA ORIGINAL 1L - CATEDRAL — $1.990
+- ECOMIL CREMA DE ALMENDRA ORGÁNICA SIN AZÚCAR 200 ML - CATEDRAL — $2.390 [sin azúcar]
+- FRAMBUESA FRUTOS DEL MAIPO 250 GR — $4.190
+- GALLETA CHOCOLATE FRUTILLA 225 GRS - CATEDRAL — $2.350
+- GALLETA CRAWLER BABY MUM MUM PLÁTANO 58 G — $3.690
+- GALLETA DE CHOCOLATE & CHIPS DILICI 2 UN 60 GRS - CATEDRAL — $2.290
+- GALLETA ECOVIDA CHOCOLATE SIN SELLOS 30GR - CATEDRAL — $900
+- GALLETA FROOTA EMPAREDADO CIRUELA S/AZ 150 GR ECOVIDA - CATEDRAL — $2.350
+- GALLETA FROOTA EMPAREDADO FRUTILLA S/AZ 150 GR ECOVIDA - CATEDRAL — $2.350
+- GALLETA FROOTA EMPAREDADO HIGO S/AZ 150 GR ECOVIDA - CATEDRAL — $2.350
+- GALLETAS RICECRISP QUESO SIN GLUTEN 100 G — $2.990 [sin gluten]
+- GALLETAS RICECRISP TOMATE ALBAHACA SIN GLUTEN 100 G - CATEDRAL — $2.990 [sin gluten]
+- GALLETAS TIKA MINI RICEPOP CHOCOLATE BERRIES 22 G - CATEDRAL — $860
+- GALLETAS TIKA MINI RICEPOP CHOCOLATE MENTA 22 G - CATEDRAL — $860
+- GOMITAS DE FRUTA KUNA FOODS GUMIS DE BERRIES 4 UN. - CATEDRAL — $4.490
+- HELADO PALETA FRUTOS DEL BOSQUE SIN AZUCAR SAN FRANCISCO UNID — $2.300 [sin azúcar]
+- HELADO SAN FRANCISCO 0% AZÚCAR FRUTOS DEL BOSQUE 1 L — $6.990
+- HELADO YORK SIN GLUTEN AGUA SABORES - CATEDRAL — $500 [sin gluten]
+- JARABE DE DÁTILES AL BARAKAN DATES SIN GLUTEN 400 G - CATEDRAL — $2.990 [sin gluten]
+- JUGO PRENSADO BLESS 07 MARACUYÁ NARANJA PIÑA MANZANA 300ML - CATEDRAL — $2.300
+- JUGO PRENSADO BLESS 10 FRAMBUESA BETARRAGA ZANAHORIA MANZANA 300ML — $2.300
+- JUGO PRENSADO BLESS 45 PEPINO ESPIRULINA MANZANA PIÑA JENGIBRE LIMÓN 300ML- CATEDRAL — $2.300
+- LECHE COLUN CHOCOLATE ORIGINAL 200 ML — $700
+- LECHE SEMIDESC INST. 900 GR — $9.290
+- MANGO FRUTOS DEL MAIPO 400 GR — $4.190
+- MAYONESA VEGANA VEGUSTA 350 G — $3.190 [vegano]
+- MERMELADA DE HIGO SIN AZUCAR AÑADIDA- CORMILLOT DULCOR - 390GRS - CATEDRAL — $4.790 [sin azúcar]
+- MINICAKE DILICI CARROT CAKE SIN GLUTEN Y VEGANO 85 GR - CATEDRAL — $2.290 [sin gluten, vegano]
+- MINICAKE DILICI CHOCOLATE CHIPS SIN GLUTEN Y VEGANO 85 GR - CATEDRAL — $2.290 [sin gluten, vegano]
+- MIX PAN & PIZZA DILICI 700 GRS - CATEDRAL — $6.890
+- NATURES CHARM PREPARACION CONDENSADA DE COCO SIN AZUCAR - CATEDRAL — $5.490 [sin azúcar]
+- PAN DE COMPLETO SIN GLUTEN 400 G - CATEDRAL — $5.100 [sin gluten]
+- PAN HAMBURGUESA CON SESAMO DILICI (4 UNI) 400GR - CATEDRAL — $5.590
+- PAN HAMBURGUESA NOIR DILICI (4 UNI) 400GR - CATEDRAL — $5.590
+- PROTEÍNA VEGETAL DE SOYA GRUESA (NO TRANSGÉNICA) 500GR POSITIV — $2.990
+- QUICHE DE POLLO Y CEBOLLAS CARAMELIZADAS - CATEDRAL — $6.300
+- SALSA CHEDDAR VEGANA VEGUSTA 350 G — $3.590 [vegano]
+- SMILEY KIDS COLADO ORGANICO ESENCIAL MANZANA ARANDANO GLUTEN FREE 90GR - CATEDRAL — $990 [sin gluten]
+- SMILEY KIDS COLADO ORGANICO ESENCIAL PERA PLATANO GLUTEN FREE 90GR - CATEDRAL — $990 [sin gluten]
+- SMILEY KIDS COLADO ORGANICO PERA PLATANO MANGO GLUTEN FREE 90GR - CATEDRAL — $990 [sin gluten]
+- TÉ NEGRO CARAMELO 20 BOLSAS TESS - CATEDRAL — $3.190
+- TÉ VERDE PIÑA COLADA 20 BOLSAS TESS - CATEDRAL — $3.190
+- TORTA EN VASO MANJAR CHOCOLATE KETO - CATEDRAL — $5.900
+- TORTITAS DE ARROZ INTEGRAL 100G SANTIVERI - CATEDRAL — $3.100
+- WANIA NATIVAS CHIPS CENTRIFUGADOS SIN GLUTEN 140 GRS - CATEDRAL — $3.200 [sin gluten]
+- YARI YERBA MATE POWER TEA FRAMBUESA MARACUYÁ 475 ML - CATEDRAL — $2.200
+- YARI YERBA MATE POWER TEA LIMONADA MATCHA 475 ML - CATEDRAL — $2.200
+- GALLETAS DE ARROZ INTEGRAL RICECRISPS SÉSAMO 100 G — $3.650
+- GALLETAS DE ARROZ MILK CHOCOLATE SIN GLUTEN KUPIEC 60G - CATEDRAL — $1.500 [sin gluten]
+- GALLETAS TIKA MINI RICEPOP CHOCOLATE AVELLANAS 22 G — $860
+- HELADO SAN FRANCISCO 0% AZÚCAR CAFÉ LATTE 1 L — $6.990
+- HELADO SAN FRANCISCO 0% AZÚCAR CHOCOLATE NUSS 1 L — $6.990
+- SET TÉ VERDE, NEGRO INFUSIONES TESS 60 BOLSAS- CATEDRAL — $12.990
 
 
 ## Sushi y Pasteleria Dos Polos
@@ -6532,7 +6709,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** pizza, empanada, sopa, torta, pastel, galleta, pie, chocolate, dulces
 - **Menciona en reseñas:** empanada, pastel, brownie
 - **Fecha de registro:** 2026-03-17
-- **Dietético:** local 100% sin gluten, 16 sin lactosa
+- **Dietético:** local 100% sin gluten, 5 veganos, 22 sin lactosa
 
 ### Qué vende
 
@@ -6562,10 +6739,18 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Caja 10 Alfajores Hojarasca — $17.500 [sin lactosa]
 - Bolsa con 10 Brownies sin Gluten sin Leche — $19.000 [sin lactosa]
 - Bolsa Merengues sin Gluten sin Leche — $2.500
+- Torta Hojarasca Manjar – 8 trozos sin Gluten sin Lactosa sin Azúcar — $30.500 [sin azúcar, sin lactosa]
+- Caja Alfajor Vegano Chocolate y Naranja – 6 unids. sin Gluten — $16.500 [vegano]
+- Torta Helada Merengue Manjar Lúcuma sin Gluten sin Lactosa — $31.500 [sin lactosa, vegano]
+- Torta Chocolate Vegana – 8 trozos sin Gluten — $25.000 [sin lactosa, vegano]
+- Tarta Helada Chocolate Frambuesa – 8 trozos Sin Gluten Vegana — $25.000 [vegano]
+- Torta Helada Merengue Manjar Frambuesas sin Gluten sin Lactosa — $31.500 [sin lactosa, vegano]
+- Torta Helada Merengue Frambuesas sin Gluten sin Lactosa sin Leche — $31.500 [sin lactosa]
 
 #### Cocktelería
 
 - Caja Cocteleria Dulce sin Gluten sin Lactosa — $21.000 [sin lactosa]
+- Caja de 10 Sopaipillas sin Gluten sin Lactosa — $7.450 [sin lactosa]
 
 #### Panadería
 
@@ -6860,7 +7045,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en su web:** empanada, torta, pastel, galleta, muffin, cheesecake
 - **Menciona en reseñas:** empanada, completo, torta, pastel, galleta, muffin, dulces
 - **Fecha de registro:** 2025-11-23
-- **Dietético:** 36 platos sin gluten, 3 veganos, 19 sin lactosa
+- **Dietético:** 47 platos sin gluten, 5 veganos, 27 sin lactosa
 
 ### Qué vende
 
@@ -6890,6 +7075,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Mermelada ciruela orgánica con azúcar/sin gluten 500gr — $7.490 [sin gluten]
 - Ajo confitado — $5.800 [sin gluten]
 - Pan rallado 100gr sin gluten/sin lácteos — $3.000 [sin gluten]
+- Sopaipillas de zapallo asado (6 unid) — $5.800
 
 #### Tortas sin gluten Santiago
 
@@ -6899,16 +7085,21 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Torta selva negra sin gluten/sin lactosa 10 a 15 personas — $35.000 [sin gluten, sin lactosa]
 - Torta bitter sin gluten 10 a 15 personas — $35.000 [sin gluten]
 - Torta tres leches sin gluten 10 a 15 personas — $35.000 [sin gluten]
+- Torta panqueque manjar frambuesa sin gluten 10 a 15 personas — $35.000 [sin gluten]
 
 #### Queques
 
 - Empanada queso sin gluten/sin lactosa — $5.000 [sin gluten, sin lactosa]
 - Empanada de pino sin gluten/sin lácteos — $5.000 [sin gluten]
+- Empanada de pino imperfecta pero perfecta sin gluten/sin lácteos — $3.990 [sin gluten]
+- Quiche pollo champiñon sin gluten/ sin lactosa 24cm — $25.000 [sin gluten, sin lactosa]
+- Quiche individual pollo champiñon sin gluten/sin lactosa 11cm — $8.500 [sin gluten, sin lactosa]
 
 #### Galletas
 
 - Galleta de vainilla sin gluten/sin lácteos 100gr — $2.000 [sin gluten]
 - Crumble cookie coco chocolate sin gluten/sin lactosa — $3.800 [sin gluten, sin lactosa]
+- Galleta chocolate sin gluten/sin lácteos 100gr — $2.000 [sin gluten]
 
 #### Pan
 
@@ -6918,6 +7109,11 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Pack pan brioche sin gluten/sin lácteos 10cm 4 unid — $5.000 [sin gluten, sin lactosa]
 - Pack pan de molde blanco vegano/sin gluten 3 unidades — $20.400 [sin gluten, sin lactosa, vegano]
 - Pack pan molde chia linaza vegano/sin gluten 3 unidades — $20.400 [sin gluten, sin lactosa, vegano]
+- Pack pan de completo sin gluten/sin lácteos 5 unid — $5.500 [sin gluten, sin lactosa]
+- Pack pan molde sandwich sin gluten/sin lácteos 3 unidades — $22.690 [sin gluten, sin lactosa]
+- Pan de molde blanco vegano/sin gluten kg — $8.000 [sin gluten, sin lactosa, vegano]
+- Pan molde chia linaza vegano/sin gluten kg — $8.000 [sin gluten, sin lactosa, vegano]
+- Pan molde sandwich sin gluten/sin lácteos kg — $9.000 [sin gluten, sin lactosa]
 
 #### Cheesecake
 
@@ -6931,6 +7127,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Muffin frambuesa sin azúcar/sin lactosa/sin gluten — $3.000 [sin azúcar, sin gluten, sin lactosa]
 - Muffin chips sin azúcar/lactosa/sin gluten — $3.000 [sin azúcar, sin gluten, sin lactosa]
 - Muffin arándanos sin azúcar/sin lactosa/sin gluten — $3.000 [sin azúcar, sin gluten, sin lactosa]
+- Queque de zanahoria sin gluten/sin lácteos kg — $10.500 [sin gluten, sin lactosa]
 
 
 ## Yoko Sea Food

@@ -44,6 +44,15 @@ SPLIT_WORDS = (
 )
 SUSPICIOUS = re.compile(r"[;|\\_*?¿!¡«»]")
 CONNECTOR_END = re.compile(r"\b(y|de|con|la|el|los|las|del|al|en|para|por)$", re.I)
+STORE_SOURCES = {"woocommerce", "shopify", "web-product", "web-jsonld", "fudo"}
+STORE_PLACES = {
+    "Sin Culpa Market", "Patagonia Schokoland", "Productos El Pueblo",
+    "Violeta Patisserie", "Dulces aplv", "Mercadito sano y natural",
+    "Pastelería La Celeste", "Thani Gluten Free", "ALLFREE",
+    "BuganVilla cafe & market", "COMERCIAL RAKKO", "Fain",
+    "Pizzeria Latinoamericana",
+}
+UNIT_TAILS = {"ml", "l", "lt", "g", "gr", "grs", "kg", "cc", "cm", "mm", "un", "und", "uds", "u"}
 def clean_text(value) -> str:
     text = unicodedata.normalize("NFKC", str(value or ""))
     text = re.sub(r"[\u200b-\u200d\ufeff]", "", text)
@@ -180,39 +189,50 @@ def food_types(name: str) -> set[str]:
     }
 
 
-def classify(name: str, price_value, category: str | None) -> tuple[str, list[str]]:
+def classify(
+    name: str, price_value, category: str | None, source: str = "photo"
+) -> tuple[str, list[str]]:
     reasons: list[str] = []
     score = 100
+    store = source in STORE_SOURCES
     if not name or not re.search(r"[A-Za-zÁÉÍÓÚÑáéíóúñ]", name):
         return "rejected", ["sin letras"]
     if re.search(r"\b(producto de prueba|test|demo|ejemplo)\b", name, re.I):
         return "rejected", ["producto de prueba"]
-    if name[0].islower():
+    if name[0].islower() and not store:
         score -= 30
         reasons.append("empieza en minúscula")
-    if "," in name:
+    if "," in name and not store:
         score -= 45 if name.count(",") >= 2 else 30
         reasons.append("coma de descripción")
     if SUSPICIOUS.search(name):
         score -= 40
         reasons.append("caracteres de OCR")
-    if len(name) > 60:
+    max_length = 120 if store else 60
+    max_words = 18 if store else 6
+    if len(name) > max_length:
         score -= 30
         reasons.append("nombre largo")
-    if len(name.split()) > 6:
+    if len(name.split()) > max_words:
         score -= 20
         reasons.append("muchas palabras")
-    if re.search(r"\b[a-zA-Z]{1,2}$", name) and not re.search(r"\d\s*$", name):
+    tail = name.rsplit(" ", 1)[-1].lower()
+    if (
+        re.search(r"\b[a-zA-Z]{1,2}$", name)
+        and not re.search(r"\d\s*$", name)
+        and tail not in UNIT_TAILS
+    ):
         score -= 30
         reasons.append("termina en fragmento")
     if (
-        len(re.findall(r"\b[A-ZÁÉÍÓÚÑ]{2,}\b", name)) >= 2
+        not store
+        and len(re.findall(r"\b[A-ZÁÉÍÓÚÑ]{2,}\b", name)) >= 2
         and len(re.findall(r"\b[a-záéíóúñ]{2,}\b", name)) >= 2
         and len(name) > 25
     ):
         score -= 25
         reasons.append("mayúsculas y minúsculas mezcladas")
-    if len(food_types(name)) >= 2 and len(name) > 25:
+    if not store and len(food_types(name)) >= 2 and len(name) > 25:
         score -= 30
         reasons.append("varios platos mezclados")
     if name_key(name) in CATEGORY_WORDS and price_value is None:
@@ -242,13 +262,16 @@ def normalize_item(row: dict, source: str, place_gluten_free: bool = False) -> d
         category = re.sub(r"\s+", " ", category).strip()
     if category and name_key(name) in {"simple", "doble", "individual", "grande", "mediano", "mediana"}:
         name = f"{category} {name}"
+    row_source = row.get("source")
+    if row_source in STORE_SOURCES:
+        source = row_source
     kind = "dish"
     if price_value is None and is_category_name(name):
         kind = "category"
         status, reasons = "ok", ["categoría"]
         confidence = "high" if source == "fudo" else "medium"
     else:
-        status, reasons = classify(name, price_value, category)
+        status, reasons = classify(name, price_value, category, source)
         if price_error:
             reasons.append(price_error)
         confidence = "high" if source == "fudo" and status == "ok" else "medium"
@@ -372,7 +395,12 @@ def main() -> int:
     for row in rows:
         place_id = row.get("place_id")
         place_name = row.get("place") or place_names.get(place_id, "")
-        source = "fudo" if place_name in menu_urls else "photo"
+        if place_name in menu_urls:
+            source = "fudo"
+        elif place_name in STORE_PLACES:
+            source = "web-product"
+        else:
+            source = "photo"
         item = normalize_item(
             row,
             source,

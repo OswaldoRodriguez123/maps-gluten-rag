@@ -5,12 +5,12 @@ _Fecha: 2026-11-06 · Fuente: Doc regenerado_
 ## Resumen
 
 - **100 lugares** en la lista.
-- **78 con platos publicables**: 3794 platos.
+- **78 con platos publicables**: 3967 platos.
 - **1 solo con categorías**.
 - **21 sin carta ni categorías**: 14 sin web y 7 con web.
 - **13 con carta corta** (1-9 platos).
 - **13 con menos del 50% de precios**.
-- **4 con mucho ruido**.
+- **0 con mucho ruido**.
 - **33 sin web registrada**.
 - **4 sin ningún dato**.
 
@@ -74,25 +74,21 @@ _Fecha: 2026-11-06 · Fuente: Doc regenerado_
 | Goût Gluten Free | Cafetería | 51 | 0 | 6 | 0 |
 | Cetortillas - Low Carb Factory | Tortillería | 20 | 0 | 7 | 7 |
 | Sapiens | Restaurante vegano | 18 | 0 | 7 | 0 |
+| Alma Chilanga | Restaurante mexicano | 13 | 0 | 0 | 0 |
 | Biomercado Sin Gluten | Tienda de alimentación | 8 | 0 | 0 | 0 |
 | Gusto's - Keto, health & gluten free | Restaurante de comida sin gluten | 3 | 0 | 2 | 0 |
 | Emporio de la Tierra | Tienda de alimentos naturales | 1 | 0 | 0 | 0 |
 | Las Petunias Pastelería sin azúcar y sin gluten | Pastelería | 1 | 0 | 1 | 0 |
 | L'Arrabbiata Foodmarket | Supermercado | 13 | 1 | 3 | 0 |
-| CASACIENCAFE | Snack bar | 50 | 9 | 9 | 1 |
-| Alma Chilanga | Restaurante mexicano | 24 | 5 | 15 | 9 |
+| CASACIENCAFE | Snack bar | 53 | 9 | 6 | 1 |
 | Pizza Bistrot | Restaurante | 24 | 8 | 2 | 2 |
 | Piegari Chile | Restaurante italiano | 21 | 7 | 9 | 1 |
-| Rebelde Pastelería Keto | Pastelería | 31 | 14 | 1 | 0 |
+| Rebelde Pastelería Keto | Pastelería | 32 | 15 | 0 | 0 |
 
 ## 6. Mucho ruido
 
 | name | cat | dishes | review | rejected |
 |---|---|---|---|---|
-| Sin Culpa Market | Tienda de alimentos naturales | 499 | 54 | 6 |
-| Dulces aplv | Pastelería | 222 | 40 | 0 |
-| Alma Chilanga | Restaurante mexicano | 24 | 15 | 9 |
-| Patagonia Schokoland | Heladería | 21 | 21 | 0 |
 
 ## 7. Sin ningún dato
 
