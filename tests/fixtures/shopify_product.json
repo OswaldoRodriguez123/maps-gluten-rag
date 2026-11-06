@@ -1,0 +1,11 @@
+{
+  "products": [
+    {
+      "title": "Pan de masa madre",
+      "product_type": "Panadería",
+      "tags": ["sin gluten"],
+      "body_html": "<p>Pan rico</p>",
+      "variants": [{"price": "8900", "available": true}]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "jsonrpc": "2.0",
+  "id": 2,
+  "result": {
+    "content": [
+      {
+        "type": "text",
+        "text": "{\"products\":[{\"title\":\"Torta de chocolate\",\"price_range\":{\"min\":{\"amount\":12000,\"currency\":\"CLP\"}},\"collections\":[{\"title\":\"Tortas\"}],\"description\":{\"html\":\"Torta húmeda\"}},{\"title\":\"Galleta\",\"price_range\":{\"min\":{\"amount\":2500,\"currency\":\"CLP\"}},\"collections\":[{\"title\":\"Galletas\"}],\"description\":{\"html\":\"\"}}],\"pagination\":{\"has_next_page\":true,\"cursor\":\"c1\"}}"
+      }
+    ]
+  }
+}
