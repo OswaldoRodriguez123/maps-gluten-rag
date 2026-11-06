@@ -309,6 +309,17 @@ def is_edible(item: dict) -> bool:
     return True
 
 
+def is_store_place(metadata: dict) -> bool:
+    """True si el local es una tienda (no restaurante).
+
+    En el documento se deja solo la ficha (ubicacion, categoria,
+    valoracion, enlace, web, menciones y fecha) sin Dietetico,
+    Que vende ni Carta, para mantener el documento corto.
+    """
+    category = _norm(metadata.get("category"))
+    return category.startswith("tienda ") or category == "tienda" or category == "supermercado"
+
+
 def _is_dish(item: dict) -> bool:
     return item.get("kind") in (None, "dish") and item.get("status") in (None, "ok")
 
@@ -505,6 +516,9 @@ def document(records: list[dict], menus: dict[str, list[dict]], today: str) -> s
         lines.append(
             f"- **Fecha de registro:** {metadata.get('saved_on') or metadata.get('first_seen')}"
         )
+        if is_store_place(metadata):
+            lines.append("")
+            continue
         items = menus.get(record["id"]) or [
             {"name": dish.get("name"), "price": dish.get("price")}
             for dish in metadata.get("menu") or []
