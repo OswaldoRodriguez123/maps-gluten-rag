@@ -48,6 +48,7 @@ jobs:
       GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
       APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
       GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
 
     steps:
       - name: Checkout
