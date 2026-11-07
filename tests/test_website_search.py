@@ -293,6 +293,33 @@ def test_search_website_returns_none_when_no_api_key(monkeypatch):
     assert website_search.search_website("Café", "Av X", api_key="") == (None, 0.0, None, {})
 
 
+# --- 5b. normalize_official_url ---
+
+def test_normalize_official_url_strips_tracking_and_deep_shop_paths():
+    from maps_gluten.website_search import normalize_official_url
+
+    # Tracking params fuera.
+    assert normalize_official_url(
+        "https://ejemplo.cl/?utm_src=x&srsltid=y&q=ok"
+    ) == "https://ejemplo.cl/?q=ok"
+    # Deep-link de tienda propia -> homepage.
+    assert normalize_official_url("https://www.allfree.cl/products/2") == "https://www.allfree.cl/"
+    assert normalize_official_url(
+        "https://www.biomercado.cl/categoria-producto/pan/"
+    ) == "https://www.biomercado.cl/"
+    assert normalize_official_url(
+        "https://www.bfreshpaseo.cl/pedir/d5hfAYwkpTKJ"
+    ) == "https://www.bfreshpaseo.cl/"
+    # Path profundo útil en host de carta: NO se recorta.
+    assert normalize_official_url(
+        "https://menu.tu-mesa.com/bar-el-bajo/7689/menu"
+    ) == "https://menu.tu-mesa.com/bar-el-bajo/7689/menu"
+    # Homepage simple queda igual.
+    assert normalize_official_url("https://ejemplo.cl/") == "https://ejemplo.cl/"
+    assert normalize_official_url(None) is None
+    assert normalize_official_url("") == ""
+
+
 # --- 6. search_website degradación 403 / 429 ---
 
 def test_search_website_degrades_on_block_and_429(monkeypatch):

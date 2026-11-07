@@ -43,6 +43,45 @@ BAD_HOST_RE = re.compile(
     re.IGNORECASE,
 )
 
+# Prefijos de path que indican página de producto/categoría/pedido de una
+# tienda propia: se normalizan a homepage (el sitio es lo mismo).
+DEEP_PATH_RE = re.compile(
+    r"^/(products|types|tags|categoria(-producto)?|pedir|order|colecciones|collections)(/|$)",
+    re.IGNORECASE,
+)
+
+# Query params de tracking que siempre se quitan de la URL final.
+TRACK_QUERY_RE = re.compile(r"^(utm_|srsltid|fbclid|gclid|rwg_token|aff|adj_)", re.IGNORECASE)
+
+def normalize_official_url(url: str | None) -> str | None:
+    """Normaliza una URL oficial validada.
+
+    - Quita params de tracking (utm_*, srsltid, fbclid, etc.).
+    - Tienda propia con path de producto/categoría/pedido (``/products/N``,
+      ``/categoria-producto/...``, ``/pedir/...``) -> homepage (esquema+host).
+    - NO toca hosts de plataformas de carta (``menu.tu-mesa.com``,
+      ``tucity.cl``): su path profundo ES el contenido útil.
+    """
+    if not url or not url.strip():
+        return url
+    parsed = urllib.parse.urlsplit(url.strip())
+    # Filtrar params de tracking.
+    if parsed.query:
+        kept = [
+            kv for kv in parsed.query.split("&")
+            if kv and not TRACK_QUERY_RE.match(kv.split("=", 1)[0])
+        ]
+        query = "&".join(kept)
+    else:
+        query = ""
+    path = parsed.path
+    if DEEP_PATH_RE.match(path):
+        path = "/"
+    return urllib.parse.urlunsplit(
+        (parsed.scheme or "https", parsed.netloc, path, query, "")
+    ) or url
+
+
 # Hosts de plataformas de delivery conocidas (para platform_urls)
 DELIVERY_PLATFORMS = {
     "rappi": re.compile(r"rappi\.(cl|com)", re.IGNORECASE),
@@ -671,4 +710,7 @@ def search_website(
         score_f = 0.0
     if not url or score_f < ACCEPT_THRESHOLD:
         return (None, score_f, status, platform_urls)
-    return (url, score_f, status, platform_urls)
+    normalized = normalize_official_url(url)
+    if not normalized:
+        return (url, score_f, status, platform_urls)
+    return (normalized, score_f, status, platform_urls)
