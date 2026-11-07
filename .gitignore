@@ -8,3 +8,4 @@ data/debug/
 data/historial_lugares.db
 data/*.db-wal
 data/*.db-shm
+.opencode/

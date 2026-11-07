@@ -188,7 +188,7 @@ def _apply_search_fallback(
         return None
     fn = search_fn if search_fn is not None else search_website
     try:
-        url, score, _error = fn(name, address, api_key=api_key, browser=browser)
+        url, score, _error, _platform_urls = fn(name, address, api_key=api_key, browser=browser)
     except Exception:  # noqa: BLE001
         return None
     try:

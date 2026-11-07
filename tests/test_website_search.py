@@ -190,7 +190,7 @@ def test_filter_candidates_drops_directories_and_delivery():
 
 
 def test_filter_candidates_limits_to_five_and_bad_host_re():
-    from maps_gluten.website_search import BAD_HOST_RE, filter_candidates
+    from maps_gluten.website_search import BAD_HOST_RE, PLATFORM_HOST_RE, filter_candidates
 
     candidates = [
         {"url": f"https://sitio{i}.cl/", "title": f"t{i}", "snippet": "x"}
@@ -198,25 +198,32 @@ def test_filter_candidates_limits_to_five_and_bad_host_re():
     ]
     filtered = filter_candidates(candidates)
     assert len(filtered) == 5
-    # BAD_HOST_RE debe cubrir sociales/agregadores (case-insensitive).
+    # BAD_HOST_RE debe cubrir sociales/directorios (case-insensitive).
     for host in [
         "https://www.instagram.com/a",
         "https://www.facebook.com/a",
         "https://www.tiktok.com/a",
         "https://www.tripadvisor.cl/a",
-        "https://WWW.UBEREATS.COM/a",
         "https://www.findmeglutenfree.com/biz/cafe-aquelarre/",
         "https://wanderboat.ai/restaurants/chile/san-miguel/cafe-aquelarre/",
         "https://emprendo.sanmiguel.cl/project/cafe_aquelarre/",
         "https://www.yelp.com/biz/cafe",
         "https://www.zomato.com/santiago/cafe",
+        "https://www.google.com/maps/search/cafe",
+    ]:
+        assert BAD_HOST_RE.search(host), host
+    # PLATFORM_HOST_RE debe cubrir delivery platforms.
+    for host in [
+        "https://WWW.UBEREATS.COM/a",
+        "https://www.uber-eats.cl/a",
+        "https://www.rappi.com.cl/a",
+        "https://www.pedidosya.cl/a",
         "https://www.doordash.com/store/cafe",
         "https://www.grubhub.com/restaurant/cafe",
         "https://deliveroo.cl/restaurants/santiago/cafe",
         "https://glovoapp.com/cl/cafe",
-        "https://www.google.com/maps/search/cafe",
     ]:
-        assert BAD_HOST_RE.search(host), host
+        assert PLATFORM_HOST_RE.search(host), host
 
 
 # --- 4. llm_validate ---
@@ -282,29 +289,43 @@ def test_search_website_returns_none_when_no_api_key(monkeypatch):
         raise AssertionError("no debe llamar a la red sin API key")
 
     monkeypatch.setattr("urllib.request.urlopen", boom)
-    assert website_search.search_website("Café", "Av X", api_key=None) == (None, 0.0, None)
-    assert website_search.search_website("Café", "Av X", api_key="") == (None, 0.0, None)
+    assert website_search.search_website("Café", "Av X", api_key=None) == (None, 0.0, None, {})
+    assert website_search.search_website("Café", "Av X", api_key="") == (None, 0.0, None, {})
 
 
 # --- 6. search_website degradación 403 / 429 ---
 
-def test_search_website_degrades_on_block_and_429():
+def test_search_website_degrades_on_block_and_429(monkeypatch):
     from maps_gluten import website_search
 
+    # Mock SerpAPI para que no se use (simular que no hay key o falla)
+    monkeypatch.setattr(
+        "maps_gluten.website_search.fetch_candidates_serpapi",
+        lambda query, *, api_key, timeout: ([], "no_key"),
+    )
+
     # DDG responde 403 vía Playwright (status en response) -> blocked.
-    assert website_search.search_website(
+    result = website_search.search_website(
         "Café Bicka", "Vitacura", api_key="key", page=_FakePage(status=403)
-    ) == (None, 0.0, "blocked")
+    )
+    assert result == (None, 0.0, "blocked", {})
 
     # DDG responde 429 -> quota.
-    assert website_search.search_website(
+    result = website_search.search_website(
         "Café Bicka", "Vitacura", api_key="key", page=_FakePage(status=429)
-    ) == (None, 0.0, "quota")
+    )
+    assert result == (None, 0.0, "quota", {})
 
 
 def test_search_website_end_to_end_accepts_strong_match(monkeypatch):
     """Flujo completo: build->fetch->filter->llm_validate, solo acepta score>=0.85."""
     from maps_gluten import website_search
+
+    # Mock SerpAPI para que no se use
+    monkeypatch.setattr(
+        "maps_gluten.website_search.fetch_candidates_serpapi",
+        lambda query, *, api_key, timeout: ([], "no_key"),
+    )
 
     calls = {"n": 0}
 
@@ -315,10 +336,11 @@ def test_search_website_end_to_end_accepts_strong_match(monkeypatch):
         return _llm_response({"url": "https://bickacafe.cl/", "score": 0.91, "reason": "ok"})
 
     monkeypatch.setattr("urllib.request.urlopen", fake_urlopen)
-    url, score, error = website_search.search_website(
+    url, score, error, platforms = website_search.search_website(
         "Café Bicka", "Av. Luis Pasteur 6156, Vitacura", api_key="key", page=_fake_ddg_page()
     )
-    assert (url, score, error) == ("https://bickacafe.cl/", 0.91, None)
+    assert (url, score, error) == ("https://bickacafe.cl/", 0.91, "no_serpapi_key")
+    assert platforms == {}
     assert calls["n"] == 1
 
 
@@ -368,7 +390,7 @@ def test_enrich_places_uses_search_fallback(monkeypatch):
 
     def _fake_search(name, address, *, api_key, timeout=12, page=None):
         captured["page"] = page
-        return ("https://ejemplo.cl/", 0.9, None)
+        return ("https://ejemplo.cl/", 0.9, None, {})
 
     monkeypatch.setattr(
         "maps_gluten.website_search.search_website",
@@ -400,7 +422,7 @@ def test_enrich_places_uses_search_fallback(monkeypatch):
     )
     monkeypatch.setattr(
         "maps_gluten.website_search.search_website",
-        lambda name, address, *, api_key, timeout=12, page=None: ("https://ejemplo.cl/", 0.3, None),
+        lambda name, address, *, api_key, timeout=12, page=None: ("https://ejemplo.cl/", 0.3, None, {}),
     )
     enrich.enrich_places(
         FakePage(website=None),

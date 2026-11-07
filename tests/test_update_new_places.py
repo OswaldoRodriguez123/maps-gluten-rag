@@ -212,7 +212,7 @@ def test_update_new_places_uses_search_when_maps_empty(monkeypatch, tmp_path):
 
     def fake_search_website(name, address, api_key=None, timeout=12, browser=None):
         seen["browser"] = browser
-        return ("https://nuevo.cl/", 0.95, None)
+        return ("https://nuevo.cl/", 0.95, None, {})
 
     monkeypatch.setattr(
         unp,

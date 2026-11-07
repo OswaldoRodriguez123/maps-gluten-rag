@@ -1,8 +1,10 @@
-"""Website search fallback: DuckDuckGo HTML (Playwright) + validación LLM.
+"""Website search: SerpAPI (primary) + DuckDuckGo HTML (fallback) + LLM validation.
 
 No acepta ninguna URL sin validación LLM con nombre + overlap de
-dirección y score >= 0.85. DuckDuckGo se navega con Playwright (evita el
-anti-bot/anomaly que bloquea a urllib); Gemini sigue por urllib.
+dirección y score >= 0.85. SerpAPI evita anti-bot/IP ban (250 req/mes gratis);
+DDG con Playwright como fallback si falta SERPAPI_KEY o falla.
+
+Adicional: extrae platform_urls (Rappi, PedidosYa, UberEats, etc.) sin validación LLM.
 """
 
 from __future__ import annotations
@@ -19,6 +21,7 @@ from html.parser import HTMLParser
 DEFAULT_SEARCH_MODEL = "gemini-flash-lite-latest"
 ACCEPT_THRESHOLD = 0.85
 DDG_URL = "https://html.duckduckgo.com/html/"
+SERPAPI_URL = "https://serpapi.com/search.json"
 LLM_TIMEOUT = 30
 
 # Igual que photos.py para los GET a DuckDuckGo.
@@ -27,12 +30,29 @@ UA = (
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
 )
 
+# Hosts que NO son website oficial (se filtran para official_url, pero se capturan en platform_urls)
+PLATFORM_HOST_RE = re.compile(
+    r"uber-?eats|rappi|pedidosya|doordash|grubhub|deliveroo|glovo|justeat",
+    re.IGNORECASE,
+)
+
 BAD_HOST_RE = re.compile(
-    r"instagram\.com|facebook\.com|tiktok\.com|tripadvisor|uber-?eats|rappi|pedidosya"
-    r"|findmeglutenfree|wanderboat|yelp|zomato|doordash|grubhub|deliveroo|glovo"
+    r"instagram\.com|facebook\.com|tiktok\.com|tripadvisor"
+    r"|findmeglutenfree|wanderboat|yelp|zomato"
     r"|google\.|gstatic|emprendo\.|todosnegocios|cybo\.|gfmapper|atly\.|justeat",
     re.IGNORECASE,
 )
+
+# Hosts de plataformas de delivery conocidas (para platform_urls)
+DELIVERY_PLATFORMS = {
+    "rappi": re.compile(r"rappi\.(cl|com)", re.IGNORECASE),
+    "pedidosya": re.compile(r"pedidosya\.(cl|com)", re.IGNORECASE),
+    "ubereats": re.compile(r"uber-?eats|ubereats\.com", re.IGNORECASE),
+    "doordash": re.compile(r"doordash\.com", re.IGNORECASE),
+    "grubhub": re.compile(r"grubhub\.com", re.IGNORECASE),
+    "deliveroo": re.compile(r"deliveroo\.(cl|com)", re.IGNORECASE),
+    "glovo": re.compile(r"glovoapp\.com|glovo\.(cl|com)", re.IGNORECASE),
+}
 
 
 def _normalize(value: str | None) -> str:
@@ -85,7 +105,74 @@ def _decode_uddg(href: str | None) -> str:
     return ""
 
 
-# --- helpers Playwright (DuckDuckGo) ---
+# --- SerpAPI (primary) ---
+
+
+def fetch_candidates_serpapi(
+    query: str, *, api_key: str | None, timeout: int = 10
+) -> tuple[list[dict], str | None]:
+    """Busca en SerpAPI (Google Search) y devuelve candidatos.
+
+    Args:
+        query: texto de búsqueda.
+        api_key: SERPAPI_KEY. Si es None, devuelve ([], "no_key").
+        timeout: segundos para la request HTTP.
+
+    Returns:
+        Tupla (lista_de_candidatos, status).
+        status puede ser: None (ok), "no_key", "blocked", "quota", "error".
+        Candidatos: lista de dicts {"url", "title", "snippet"}.
+    """
+    if not api_key:
+        return [], "no_key"
+
+    params = {
+        "q": query,
+        "api_key": api_key,
+        "engine": "google",
+        "gl": "cl",
+        "hl": "es",
+        "num": "10",
+        "safe": "active",
+    }
+    url = SERPAPI_URL + "?" + urllib.parse.urlencode(params)
+    request = urllib.request.Request(
+        url,
+        headers={
+            "Accept": "application/json",
+            "User-Agent": UA,
+        },
+        method="GET",
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=timeout) as response:
+            raw = response.read()
+            data = json.loads(raw.decode("utf-8"))
+    except urllib.error.HTTPError as exc:
+        code = getattr(exc, "code", None)
+        if code == 403:
+            return [], "blocked"
+        if code == 429:
+            return [], "quota"
+        return [], "error"
+    except Exception:
+        return [], "error"
+
+    results: list[dict] = []
+    # SerpAPI devuelve resultados en "organic_results"
+    for item in data.get("organic_results", [])[:10]:
+        if not isinstance(item, dict):
+            continue
+        url = (item.get("link") or "").strip()
+        title = (item.get("title") or "").strip()
+        snippet = (item.get("snippet") or item.get("description") or "").strip()
+        if not url or not title:
+            continue
+        results.append({"url": url, "title": title, "snippet": snippet})
+    return results, None
+
+
+# --- helpers Playwright (DuckDuckGo fallback) ---
 
 
 def _launch_temp_browser():
@@ -310,6 +397,7 @@ def fetch_candidates(query: str, *, timeout: int = 12, page=None) -> list[dict]:
 
 
 def filter_candidates(candidates: list[dict]) -> list[dict]:
+    """Filtra candidatos para official_url: quita redes sociales, directorios, delivery."""
     filtered: list[dict] = []
     for cand in candidates or []:
         url = (cand.get("url") or "").strip() if isinstance(cand, dict) else ""
@@ -317,8 +405,35 @@ def filter_candidates(candidates: list[dict]) -> list[dict]:
             continue
         if BAD_HOST_RE.search(url):
             continue
+        if PLATFORM_HOST_RE.search(url):
+            continue
         filtered.append(cand)
     return filtered[:5]
+
+
+def extract_platform_urls(candidates: list[dict]) -> dict[str, list[str]]:
+    """Extrae URLs de plataformas de delivery conocidas sin validación LLM."""
+    platform_urls: dict[str, list[str]] = {k: [] for k in DELIVERY_PLATFORMS}
+    for cand in candidates or []:
+        url = (cand.get("url") or "").strip() if isinstance(cand, dict) else ""
+        if not url:
+            continue
+        for platform, pattern in DELIVERY_PLATFORMS.items():
+            if pattern.search(url):
+                platform_urls[platform].append(url)
+                break
+    # Quitar vacíos y duplicados preservando orden
+    for k in list(platform_urls.keys()):
+        seen = set()
+        uniq = []
+        for u in platform_urls[k]:
+            if u not in seen:
+                seen.add(u)
+                uniq.append(u)
+        platform_urls[k] = uniq[:3]  # máx 3 por plataforma
+        if not platform_urls[k]:
+            del platform_urls[k]
+    return platform_urls
 
 
 def _parse_llm_json(text: str | None) -> dict | None:
@@ -429,95 +544,131 @@ def search_website(
     timeout: int = 12,
     page=None,
     browser=None,
-) -> tuple[str | None, float, str | None]:
-    """Busca el sitio oficial de un lugar en DuckDuckGo y lo valida con LLM.
+) -> tuple[str | None, float, str | None, dict[str, list[str]]]:
+    """Busca el sitio oficial + platform URLs: SerpAPI (primary) -> DDG (fallback) + LLM validation.
 
     Args:
         name: nombre del lugar.
         address: dirección (o None).
-        api_key: GEMINI_API_KEY. Sin ella devuelve ``(None, 0.0, None)`` sin red.
-        timeout: segundos para la búsqueda DDG.
-        page: página Playwright opcional (se usa directamente, no se cierra).
-        browser: browser Playwright opcional. Se crea una página temporal
-            con él y se cierra al final (el browser no se cierra).
-            Si no se pasa ni ``page`` ni ``browser``, se lanza un browser
-            temporal standalone (ver ``_launch_temp_browser``) y se cierra
-            todo al final.
+        api_key: GEMINI_API_KEY (para validación LLM). Sin ella devuelve ``(None, 0.0, None, {})`` sin red.
+        timeout: segundos para la búsqueda.
+        page: página Playwright opcional (solo para fallback DDG).
+        browser: browser Playwright opcional (solo para fallback DDG).
+
+    Returns:
+        Tupla (official_url, score, status, platform_urls).
+        official_url: website oficial validado por LLM (score >= 0.85) o None.
+        score: float 0.0-1.0.
+        status: None (ok), "blocked", "quota", "no_serpapi_key" (usó DDG), "ddg_fallback" (SerpAPI falló, DDG ok).
+        platform_urls: dict {"rappi": [...], "pedidosya": [...], "ubereats": [...]} sin validación LLM.
     """
     if not api_key:
-        return (None, 0.0, None)
-    query = build_search_query(name, address)
+        return (None, 0.0, None, {})
 
-    effective_page = page
-    temp_page = None
-    owns_page = False
-    pw = None
-    temp_browser = None
+    query = build_search_query(name, address)
+    serpapi_key = os.getenv("SERPAPI_KEY", "").strip() or None
+
+    all_candidates: list[dict] = []
+    status: str | None = None
+
+    # --- 1. Intentar SerpAPI (primary) ---
+    if serpapi_key:
+        candidates, serpapi_status = fetch_candidates_serpapi(query, api_key=serpapi_key, timeout=min(timeout, 10))
+        if serpapi_status is None:
+            all_candidates = candidates
+            status = None
+        elif serpapi_status in ("blocked", "quota"):
+            # SerpAPI bloqueado/cuota: intentar DDG
+            pass
+        else:
+            # "no_key" o "error" -> cae a DDG
+            pass
+
+    # --- 2. Fallback a DuckDuckGo (Playwright) si no hay candidatos de SerpAPI ---
+    if not all_candidates:
+        effective_page = page
+        temp_page = None
+        owns_page = False
+        pw = None
+        temp_browser = None
+
+        try:
+            if effective_page is None:
+                if browser is not None:
+                    try:
+                        temp_page = browser.new_page(user_agent=UA)
+                    except Exception:
+                        return (None, 0.0, None, {})
+                    effective_page = temp_page
+                    owns_page = True
+                else:
+                    try:
+                        pw, temp_browser, temp_page = _launch_temp_browser()
+                    except Exception:
+                        return (None, 0.0, None, {})
+                    effective_page = temp_page
+                    owns_page = True
+
+            try:
+                candidates = fetch_candidates(query, timeout=timeout, page=effective_page)
+            except urllib.error.HTTPError as exc:
+                code = _http_code(exc)
+                if code == 403:
+                    return (None, 0.0, "blocked", {})
+                if code == 429:
+                    return (None, 0.0, "quota", {})
+                candidates = []
+            except Exception:
+                candidates = []
+
+            all_candidates = candidates
+            if serpapi_key and status is None:
+                status = "ddg_fallback"
+            elif not serpapi_key:
+                status = "no_serpapi_key"
+        finally:
+            if owns_page and temp_page is not None:
+                try:
+                    temp_page.close()
+                except Exception:
+                    pass
+            if pw is not None or temp_browser is not None:
+                try:
+                    if temp_browser is not None:
+                        temp_browser.close()
+                except Exception:
+                    pass
+                try:
+                    if pw is not None:
+                        pw.stop()
+                except Exception:
+                    pass
+
+    # --- Extraer platform_urls de TODOS los candidatos (antes de filtrar) ---
+    platform_urls = extract_platform_urls(all_candidates)
+
+    # --- Filtrar para official_url (quita delivery, redes, directorios) ---
+    filtered = filter_candidates(all_candidates)
+    if not filtered:
+        return (None, 0.0, status, platform_urls)
+
+    # --- Validar con LLM ---
+    try:
+        url, score = llm_validate(name, address, filtered, api_key)
+    except urllib.error.HTTPError as exc:
+        code = _http_code(exc)
+        if code == 403:
+            return (None, 0.0, "blocked", platform_urls)
+        if code == 429:
+            return (None, 0.0, "quota", platform_urls)
+        return (None, 0.0, status, platform_urls)
+    except Exception:
+        return (None, 0.0, status, platform_urls)
 
     try:
-        if effective_page is None:
-            if browser is not None:
-                try:
-                    temp_page = browser.new_page(user_agent=UA)
-                except Exception:
-                    return (None, 0.0, None)
-                effective_page = temp_page
-                owns_page = True
-            else:
-                try:
-                    pw, temp_browser, temp_page = _launch_temp_browser()
-                except Exception:
-                    return (None, 0.0, None)
-                effective_page = temp_page
-                owns_page = True
-
-        try:
-            candidates = fetch_candidates(query, timeout=timeout, page=effective_page)
-        except urllib.error.HTTPError as exc:
-            code = _http_code(exc)
-            if code == 403:
-                return (None, 0.0, "blocked")
-            if code == 429:
-                return (None, 0.0, "quota")
-            return (None, 0.0, None)
-        except Exception:
-            return (None, 0.0, None)
-        filtered = filter_candidates(candidates)
-        if not filtered:
-            return (None, 0.0, None)
-        try:
-            url, score = llm_validate(name, address, filtered, api_key)
-        except urllib.error.HTTPError as exc:
-            code = _http_code(exc)
-            if code == 403:
-                return (None, 0.0, "blocked")
-            if code == 429:
-                return (None, 0.0, "quota")
-            return (None, 0.0, None)
-        except Exception:
-            return (None, 0.0, None)
-        try:
-            score_f = float(score)
-        except (TypeError, ValueError):
-            score_f = 0.0
-        if not url or score_f < ACCEPT_THRESHOLD:
-            return (None, score_f, None)
-        return (url, score_f, None)
-    finally:
-        # No cerrar la page del llamante; solo las temporales.
-        if owns_page and temp_page is not None:
-            try:
-                temp_page.close()
-            except Exception:
-                pass
-        if pw is not None or temp_browser is not None:
-            try:
-                if temp_browser is not None:
-                    temp_browser.close()
-            except Exception:
-                pass
-            try:
-                if pw is not None:
-                    pw.stop()
-            except Exception:
-                pass
+        score_f = float(score)
+    except (TypeError, ValueError):
+        score_f = 0.0
+    if not url or score_f < ACCEPT_THRESHOLD:
+        return (None, score_f, status, platform_urls)
+    return (url, score_f, status, platform_urls)
