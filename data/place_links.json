@@ -48,7 +48,7 @@
     "name": "Dulces Rufiko"
   },
   "0x9689dd0db06aaaab:0x7e05f34472b511de": {
-    "website": null,
+    "website": "https://elpatiocafe.shop/menu",
     "menu": null,
     "order": [
       {
@@ -56,7 +56,8 @@
         "url": "https://www.ubereats.com/cl/store/el-patio-juice-bar/hNBgrQ0SQ5aYqojqnCVydA?diningMode=PICKUP&utm_campaign=CM2508147-search-free-nonbrand-google-pas_e_all_acq_Global&utm_medium=search-free-nonbrand&utm_source=google-pas&rwg_token=ALcMQYb6vkPtwd9LTgXR9amjS_XbCosnPyNOtSccCoKAv45Hvzpf-gO4ncd35u7IMcet0kVkHTU1RaWVjsYHMe8F-SmXDJm06A%3D%3D"
       }
     ],
-    "name": "El Patio Cafe"
+    "name": "El Patio Cafe",
+    "website_source": "search"
   },
   "0x9689ddd9fa1e555f:0xc6ff272a420acc00": {
     "website": null,

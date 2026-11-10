@@ -2252,6 +2252,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Cafetería
 - **Valoración:** 4.5 / 5
 - **Enlace:** https://www.google.com/maps?cid=9080931698970268126
+- **Web:** https://elpatiocafe.shop/menu
 - **Fecha de registro:** 2026-11-06
 
 ### Qué vende
