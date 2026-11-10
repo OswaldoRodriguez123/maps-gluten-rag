@@ -1,153 +1,148 @@
 # maps-gluten-rag
 
-Extrae los lugares de una lista compartida de Google Maps, elimina duplicados y genera dos archivos listos para una base de conocimiento (RAG):
+[![scrape](https://github.com/OswaldoRodriguez123/maps-gluten-rag/actions/workflows/scrape.yml/badge.svg)](https://github.com/OswaldoRodriguez123/maps-gluten-rag/actions/workflows/scrape.yml)
 
-- `data/mis_lugares_sin_gluten.md` — un bloque `##` por local, ideal para NotebookLM o cualquier índice semántico.
-- `data/mis_lugares_sin_gluten.jsonl` — una línea JSON por local, con `text` y `metadata`, ideal para embeddings.
-- `data/mis_lugares_sin_gluten_menus.jsonl` — una línea por plato (nombre, precio, categoría, ingredientes, alérgenos y nutrición) cuando Apify está configurado.
+Turns a shared Google Maps list of gluten-free places into two files ready for a
+knowledge base (RAG):
 
-La fuente de verdad local es `data/historial_lugares.db` (SQLite). En GitHub Actions ese archivo vive en la caché del workflow, no en el repo. Cada corrida hace *upsert*: conserva la fecha de guardado de Google (`saved_on`) y solo marca como nuevos los lugares que no existían.
+- `data/mis_lugares_sin_gluten.md` — one `##` block per place, ideal for
+  NotebookLM or any semantic index.
+- `data/mis_lugares_sin_gluten.jsonl` — one JSON line per place, with `text` and
+  `metadata`, ideal for embeddings.
+- `data/mis_lugares_sin_gluten_menus.jsonl` — one line per dish (name, price,
+  category, ingredients, allergens, nutrition) when Apify is configured.
 
-El extractor abre la lista pública con Playwright y lee el endpoint interno `entitylist/getlist`, que devuelve todos los lugares con nombre, dirección, coordenadas, `ftid` y fecha de guardado. Después recorre las filas del DOM para enriquecer con la valoración y la categoría, que ese endpoint no incluye. Si el endpoint cambia, cae a un respaldo que lee directamente las filas.
+```markdown
+## Alma Chilanga
+- **Ubicación:** Av. Las Condes 9111, 7591238 Las Condes, Región Metropolitana
+- **Categoría:** Restaurante mexicano
+- **Valoración:** 4.5 / 5
+- **Enlace:** https://www.google.com/maps?cid=308593624422457697
+- **Web:** http://www.almachilanga.cl/
+- **Menciona en su web:** tacos
+- **Menciona en reseñas:** sushi, tacos, tortilla
 
-## Dos formas de ejecutarlo
+### Carta
+- Tacos de Cochinita (3)
+- Tacos de Pastor (3)
+- Flan de la Abuela
+```
+
+The local source of truth is `data/historial_lugares.db` (SQLite). In GitHub
+Actions that file lives in the workflow cache, not in the repo. Every run
+upserts: it keeps Google's `saved_on` date and only marks as new the places that
+did not exist before.
+
+The extractor opens the public list with Playwright and reads the internal
+`entitylist/getlist` endpoint, which returns every place with name, address,
+coordinates, `ftid` and save date. It then walks the DOM rows to add the rating
+and category, which that endpoint does not include. If the endpoint changes, it
+falls back to reading the rows directly.
+
+## Two ways to run it
 
 | | GitHub Actions | Local |
 | --- | --- | --- |
-| Instalación | ninguna en tu Mac | Python + Playwright |
-| Depende de tu equipo | no | Mac encendido |
-| Costo | gratis (repo público) | gratis |
-| Datos en | repo + Drive/URL raw | tu disco |
+| Install | nothing on your Mac | Python + Playwright |
+| Depends on your machine | no | Mac turned on |
+| Cost | free (public repo) | free |
+| Data lives in | repo + Drive/raw URL | your disk |
 
-El resto de este documento asume GitHub Actions, que es lo que pediste.
+The rest of this document assumes GitHub Actions.
 
 ## GitHub Actions
 
-1. Crea el repositorio y sube el proyecto (el workflow corre a las 03:00 de Bogotá).
-2. En *Settings → Actions → General*, deja habilitado *Read and write permissions* si tu organización lo restringe.
-3. Opcional: en *Settings → Secrets and variables → Actions → Variables*, crea `MAPS_LIST_URL` con tu enlace. Si no la creas, se usa la URL incluida en el workflow.
-4. Dispara la primera corrida desde *Actions → Actualizar lista de Google Maps → Run workflow*.
+1. Create the repository and push the project (the workflow runs at 03:00
+   Bogotá time).
+2. In *Settings → Actions → General*, keep *Read and write permissions*
+   enabled if your organization restricts it.
+3. Optional: in *Settings → Secrets and variables → Actions → Variables*, create
+   `MAPS_LIST_URL` with your link. If you skip it, the URL in the workflow is
+   used.
+4. Trigger the first run from *Actions → Actualizar lista de Google Maps → Run
+   workflow*.
 
-Qué hace el workflow (`.github/workflows/scrape.yml`):
+What the workflow (`.github/workflows/scrape.yml`) does:
 
-- instala Python 3.12, las dependencias y Chromium;
-- ejecuta `python -m maps_gluten run`;
-- enriquece con la web de cada local y con los temas de sus reseñas (si `MAPS_ENRICH=1`);
-- consulta Apify para la carta estructurada si `APIFY_TOKEN` está configurado;
-- hace commit de `data/*.md` y `data/*.jsonl` si cambió algo;
-- guarda `data/historial_lugares.db` en la caché de Actions para mantener el dedup entre corridas (el archivo está en `.gitignore`);
-- copia el resultado a un Google Doc si `GDOC_ID` está configurado;
-- publica el `.md`, el `.jsonl` y `_menus.jsonl` como artefacto descargable;
-- corre todos los lunes a las **13:00 de Chile**. Programa dos crons (16:00 y 17:00 UTC) y un paso comprueba la hora local, así sigue siendo la 1 pm cuando cambia el horario de verano.
-- usa `America/Santiago` y `es-CL` para fechas y textos.
+- installs Python 3.12, the dependencies and Chromium;
+- runs `python -m maps_gluten run`;
+- enriches with each place's website and review topics (if `MAPS_ENRICH=1`);
+- queries Apify for the structured menu if `APIFY_TOKEN` is set;
+- commits `data/*.md` and `data/*.jsonl` if anything changed;
+- caches `data/historial_lugares.db` in Actions to keep dedup between runs (the
+  file is git-ignored);
+- copies the result to a Google Doc if `GDOC_ID` is set;
+- publishes the `.md`, `.jsonl` and `_menus.jsonl` as a downloadable artifact;
+- runs every Monday at **13:00 Chile time**. It schedules two crons (16:00 and
+  17:00 UTC) and a step checks the local hour, so it stays at 1 pm across
+  daylight saving changes;
+- uses `America/Santiago` and `es-CL` for dates and text.
 
-El cron de GitHub puede retrasarse unos minutos cuando hay carga. No requiere tu Mac encendido. Si agregas lugares antes del lunes, dispara el workflow a mano desde *Actions → Run workflow*.
+GitHub's cron can be a few minutes late under load. It does not need your Mac
+on. If you add places before Monday, trigger the workflow by hand from
+*Actions → Run workflow*.
 
-### Google Doc para NotebookLM (recomendado)
+### Google Doc for NotebookLM (recommended)
 
-El workflow copia el resultado a un Google Doc tuyo. NotebookLM acepta ese Doc como fuente y trae un botón de sincronizar, así que no dependes de una URL raw.
+The workflow copies the result into a Google Doc of yours. NotebookLM accepts
+that Doc as a source and has a sync button, so you do not depend on a raw URL.
 
-Configúralo una vez:
+Set it up once:
 
-1. Crea un Google Doc vacío y copia su ID de la URL (`https://docs.google.com/document/d/<ID>/edit`).
-2. En Google Cloud crea un proyecto y habilita **Google Docs API**.
-3. Crea una **cuenta de servicio** (IAM → Cuentas de servicio), sin roles. Genera una clave JSON y descárgala.
-4. Comparte el Doc con el email de la cuenta de servicio (`...@....iam.gserviceaccount.com`) como **Editor**.
-5. En GitHub → *Settings → Secrets and variables → Actions*:
-   - secreto `GOOGLE_SA_JSON`: el contenido completo del JSON.
-   - variable `GDOC_ID`: el ID del Doc.
-6. Corre el workflow. El paso *Publicar en Google Doc* rellena el Doc.
-7. En NotebookLM agrega el Doc desde Google Drive. Cuando quieras la versión nueva, pulsa **Sincronizar** en la fuente.
+1. Create an empty Google Doc and copy its ID from the URL
+   (`https://docs.google.com/document/d/<ID>/edit`).
+2. In Google Cloud create a project and enable the **Google Docs API**.
+3. Create a **service account** (IAM → Service accounts), no roles. Generate a
+   JSON key and download it.
+4. Share the Doc with the service account email
+   (`...@....iam.gserviceaccount.com`) as **Editor**.
+5. In GitHub → *Settings → Secrets and variables → Actions*:
+   - secret `GOOGLE_SA_JSON`: the full JSON contents.
+   - variable `GDOC_ID`: the Doc ID.
+6. Run the workflow. The *Publicar en Google Doc* step fills the Doc.
+7. In NotebookLM add the Doc from Google Drive. To get the new version, press
+   **Sync** on the source.
 
-La cuenta de servicio solo puede tocar ese Doc porque se lo compartiste explícitamente. Si prefieres no configurar todo esto, la URL raw del repo sigue funcionando como fuente de NotebookLM:
+The service account can only touch that Doc because you shared it explicitly. If
+you prefer not to set this up, the repo's raw URL still works as a NotebookLM
+source:
 
-```
+```text
 https://raw.githubusercontent.com/OswaldoRodriguez123/maps-gluten-rag/main/data/mis_lugares_sin_gluten.md
 ```
 
-## Enriquecido con web y reseñas
+## What it extracts
 
-La lista de Google no dice qué vende cada local. Para acercarse, el script abre la ficha de cada lugar en Maps, toma su sitio web y busca platos en el texto de la web (y en una página de menú o PDF si existe). Además lee los **temas que Google extrae de las reseñas** (por ejemplo “empanadas 19”, “dulces 17”, “hamburguesas 12”) y el texto de las opiniones. Luego agrega al Doc:
+- **Website and review mentions.** The Google list does not say what each place
+  sells. The script opens each place in Maps, takes its website and looks for
+  dishes in the site text (and in a menu page or PDF if there is one). It also
+  reads the **topics Google extracts from reviews** and the review text. It is a
+  *mention*, not a guarantee: it can come from a review or a site section, and
+  it does not cover menus that only exist as images.
+- **Website search when Maps has none.** Query `"<name>" sin gluten
+  <comuna/address>` to SerpAPI, falling back to Brave Search, and validate the
+  match with Gemini (name + address overlap, `score >= 0.85`, URL must be one of
+  the candidates). A wrong website is worse than none, so the URL is never
+  invented; if nothing matches, the place stays `needs_manual`.
+- **OCR of scanned menus.** PDFs are read with `pypdf`; scanned ones are
+  rendered with `pypdfium2` and passed through Tesseract (`spa+eng`). On
+  websites, up to 3 candidate images are OCR'd when the menu page has too little
+  text.
+- **Menus from Google Maps photos.** The `unitbytes/google-maps-photos-scraper`
+  actor returns the photos from the Menu tab (up to 8 per place); they are
+  downloaded at high resolution, preprocessed and OCR'd. If OCR returns fewer
+  than 2 dishes, the photo goes to Gemini vision as a fallback.
+- **Normalization.** `scripts/normalize_menus.py` cleans names, splits
+  descriptions, normalizes prices (CLP/EUR), dedupes, assigns categories and
+  diet tags. `scripts/apply_normalization.py` applies the result to the JSONL,
+  `_menus.jsonl` and SQLite. `scripts/rebuild_markdown.py` regenerates the Doc.
 
-```
-- **Web:** https://www.quimeysushi.cl/
-- **Menciona en su web:** hamburguesa, pizza, sushi, pasta, gyosa
-- **Menciona en reseñas:** hamburguesa, empanada, completo, chilenito, dulces, jugo
-```
+Full details, environment variables and adapters (Fudo, Shopify, WooCommerce,
+Uber Eats, JSON-LD) are in [docs/pipeline.md](docs/pipeline.md).
 
-El léxico incluye platos, dulces y productos: hamburguesa, pizza, sushi, pasta, empanada, completo, torta, pastel, galleta, alfajor, brownie, cupcake, donut, cheesecake, helado, chocolate, churro, flan, budín, chilenito, medialuna, factura, croissant, postre, jugo, etc.
+## Updating a single place
 
-Es una **mención**, no una garantía: puede venir de una reseña o de una sección del sitio, y no cubre cartas que están solo en imágenes. En esta lista, 67 de 100 locales tienen web y 37 mostraban platos desde la web.
-
-- Las reseñas y los temas solo cargan en la ficha con **ventana**; por eso el workflow usa `xvfb` y `MAPS_HEADLESS=0`. En local, ejecuta con `--no-headless`.
-- Caché: 30 días (`MAPS_ENRICH_DAYS`) más una versión interna que fuerza una re-extracción cuando cambia el enriquecido.
-- La primera corrida tarda ~15–25 minutos; las siguientes no repiten las fichas.
-- Desactivar: `MAPS_ENRICH=0` o `--no-enrich`.
-- Forzar: `--refresh-enrichment`.
-
-### Búsqueda de web cuando Maps no la trae (SerpAPI + Brave + Gemini)
-
-Si la ficha de Maps no trae web (`_extract_website` / `discover_links` vacíos), el pipeline la busca solo — sin que la pongas a mano:
-
-- Query `"<nombre>" sin gluten <comuna/dirección>` a **SerpAPI** (Google, `SERPAPI_KEY`, 250 búsquedas/mes gratis); si falta la key o falla (403/429/error), cae a **Brave Search API** (`BRAVE_API_KEY`, plan free, JSON, sin bloqueo anti-bot). Solo stdlib `urllib`, sin navegador extra. Top 5, descartando sociales/agregadores (Instagram, Facebook, TikTok, Tripadvisor, Uber Eats, Rappi, PedidosYa).
-- Gemini (`GEMINI_API_KEY`, el mismo secret de visión; sin clave no se acepta nada) valida nombre + overlap de dirección. Solo acepta match fuerte: `score >= 0.85` y URL que esté entre los candidatos (una URL inventada por el LLM o un homónimo se rechaza siempre).
-- Si acepta, la web se trata igual que la de Maps (`_site_dishes`, adaptadores Fudo/Shopify/etc., fotos como respaldo) y queda constancia de origen: `website_source='search'` en SQLite y en `metadata.website_source` del JSONL (`'maps'` cuando viene de Maps).
-- Aplica al enriquecido de `run` y al fallback de `update_new_places` tras `discover_links`. Si ambos buscadores bloquean/cuota o no hay match fuerte, degrada en silencio y el local sigue como hoy (`needs_manual`): una web equivocada es peor que ninguna, nunca se inventa la URL. En GitHub Actions ambos buscadores reciben su key desde secrets (`SERPAPI_KEY`, `BRAVE_API_KEY`).
-- Control: `MAPS_WEBSITE_SEARCH=1` por defecto; `MAPS_WEBSITE_SEARCH=0` o `python -m maps_gluten run --no-website-search` lo apaga; `--website-search` lo fuerza aunque el env esté en 0 (el flag gana, si no se usa el env). Rate limit suave (1.1 s entre búsquedas; Brave free permite 1 qps). El modelo de validación se puede cambiar con `GEMINI_SEARCH_MODEL` (por defecto `gemini-flash-lite-latest`).
-
-### OCR de cartas escaneadas
-
-Con `MAPS_OCR=1` (activo en el workflow):
-
-- Los **PDF** se leen primero con `pypdf`. Si no tienen texto (escaneados), se renderizan con `pypdfium2` y se pasan por Tesseract (`spa+eng`).
-- En las webs, si la página de menú no tiene texto suficiente, se descargan hasta 3 imágenes candidatas (sin logos ni iconos) y se les aplica OCR.
-- En GitHub Actions se instala `tesseract-ocr` y `tesseract-ocr-spa`. En local: `brew install tesseract tesseract-lang` o el paquete equivalente.
-
-Límites: la calidad depende de la foto; cartas con letra muy pequeña, inclinadas, en columnas o con fondo complejo pueden fallar. El OCR en alta resolución sí funciona sobre las fotos etiquetadas como `menu` que devuelve UnitBytes; aun así puede meter fragmentos o perder precios.
-
-### Carta desde las fotos de Google Maps (UnitBytes + OCR)
-
-Estado 2026-11-05: UnitBytes + OCR en alta resolución extrajo **3.121 platos de 54 locales**. Sumados a los **916 platos de 14 locales** recuperados de los datasets de Nomad, el Doc tiene **4.037 platos en 62 locales**. Los otros 38 no tienen fotos de menú y quedan con reseñas/web.
-
-Cómo funciona:
-
-- El actor `unitbytes/google-maps-photos-scraper` con `category: menu` devuelve las fotos de la pestaña Carta (hasta 8 por local).
-- Se descargan en **alta resolución**, se convierten a gris, se upscalean/downscalean a ~1.800–2.600 px, se les aplica autocontraste y se OCR con Tesseract `spa+eng` y `psm 6/11`.
-- Se parsean platos y precios; el resultado va al Doc como `- **Carta (Google Maps):** ...`, a `metadata.menu` y a `menus.jsonl`.
-- Costo: ~$0.00025 por foto; 263 fotos ≈ **$0.07**, dentro de los $5 gratis de Apify.
-- Caché 30 días (`menu_at`). `MAPS_MENU_ACTOR=unitbytes` y `MAPS_WEBSITE_MENU=0`.
-- Las URLs de las fotos se guardan en SQLite (`menu_photos_json`) y también se reutilizan las últimas corridas exitosas de UnitBytes, así que actualizar otra vez el mismo local no vuelve a raspar.
-
-#### Respaldo con visión (Gemini)
-
-Si el OCR de un local devuelve menos de 2 platos, se manda la foto a Gemini (visión) y se agrega lo que lea. Es automático y cubre cartas manuscritas o con letra difícil, como el pizarrón de Yoko Sea Food.
-
-- Usa `GEMINI_API_KEY` (gratis en Google AI Studio) y `MAPS_VISION=1`.
-- Orden de modelos: `gemini-flash-lite-latest` (el más barato) → `gemini-3.5-flash` → `gemini-3.6-flash`. Si un modelo responde **503** (saturado) pasa al siguiente; si responde **429** (cuota) se detiene.
-- Límite: `MAPS_VISION_PLACES` (12 por corrida) y `MAPS_VISION_PHOTOS` (3 fotos por local).
-- Se puede fijar un modelo con `GEMINI_VISION_MODEL=gemini-3.6-flash`.
-- Si la visión encuentra 2+ platos, descarta los fragmentos de OCR sin precio.
-
-Se activa con el secreto `APIFY_TOKEN`:
-
-1. Crea una cuenta gratis en https://console.apify.com/sign-up (sin tarjeta; incluye **$5 de uso al mes**).
-2. Copia tu API token en *Settings → Integrations*.
-3. En GitHub → *Settings → Secrets and variables → Actions*, crea el secreto `APIFY_TOKEN` con ese valor.
-4. Dispara el workflow. La primera corrida procesa todos los locales; después se refresca cuando `menu_at` tenga más de `MAPS_ENRICH_DAYS` días (30).
-
-Salidas:
-
-- `### Carta` en el `.md` y en el Doc, con `#### Categoría` y un plato por línea (`- Plato — $precio`).
-- `metadata.menu` en el JSONL principal.
-- `data/mis_lugares_sin_gluten_menus.jsonl`: una fila por plato, con categoría y precio.
-
-El OCR puede meter fragmentos y los precios pueden faltar; es una mención, no una carta certificada. Verifica alérgenos y precios con el local.
-
-`MAPS_MENU_ACTOR` acepta `unitbytes` (por defecto), `none` (desactivado) o `nomad` (actor gestionado/BYO). `MAPS_WEBSITE_MENU=1` mantiene el scan de menús en webs; está en `0` porque UnitBytes ya cubre las fotos de Maps.
-
-### Actualizar un solo local
-
-Para probar o corregir un local sin listar los 100 ni usar Apify:
+To test or fix one place without listing all 100 or using Apify:
 
 ```bash
 gh workflow run update-one.yml \
@@ -155,33 +150,35 @@ gh workflow run update-one.yml \
   -f place=Crumbless
 ```
 
-El workflow restaura la caché, actualiza **solo** ese local, publica el Google Doc, guarda la caché y hace commit. No toca los otros 99 ni los menús ya extraídos.
+The workflow restores the cache, updates **only** that place, publishes the
+Google Doc, saves the cache and commits. It does not touch the other 99 or the
+menus already extracted. It works with normal sites and SPA stores: it first
+tries plain HTTP parsing, then renders with Playwright and extracts products
+from JSON-LD, price/dish anchors and product routes.
 
-Funciona con webs normales y con tiendas SPA:
-
-- Primero intenta el parseo HTTP normal (`_site_dishes`).
-- Si no hay texto, renderiza la página con Playwright y extrae productos por **JSON-LD**, anclas con precio/palabra de plato y rutas de producto (`/product`, `/shop`, `/menu`, `/tienda`, etc.).
-- No depende de `menu.fu.do`; ese host solo queda como atajo de rendimiento para la corrida masiva.
-
-También se puede ejecutar en local:
+Locally:
 
 ```bash
-GOOGLE_APPLICATION_CREDENTIALS='/ruta/service-account.json' \
-GDOC_ID='1N67XQI2sXARoeZe6wz87JlmH-a5Z83exgBiz9Q_j1H0' \
+GOOGLE_APPLICATION_CREDENTIALS='/path/service-account.json' \
+GDOC_ID='<doc-id>' \
 .venv/bin/python scripts/update_place.py --place Crumbless --publish
 ```
 
-### Actualizar solo locales nuevos
+## Updating only new places
 
-Cuando agregues locales a la lista, no hace falta reprocesar los 100. El workflow `update-new.yml`:
+When you add places to the list you do not need to reprocess all 100.
+`update-new.yml`:
 
-1. guarda un baseline de los locales que ya existían;
-2. refresca la lista sin enriquecer todos;
-3. selecciona solo los nuevos (o los que tengan `first_observed_at` desde la fecha indicada);
-4. prueba adaptadores por plataforma: Fudo, Apparta/Tu Mesa, Rappi, WooCommerce, Shopify, JSON-LD, web renderizada y fotos;
-5. normaliza, publica y deja un reporte.
+1. saves a baseline of the places that already existed;
+2. refreshes the list without enriching everything;
+3. selects only the new ones (or those with `first_observed_at` since the given
+   date);
+4. tries platform adapters: Fudo, Apparta/Tu Mesa, Rappi, WooCommerce, Shopify,
+   JSON-LD, rendered web and photos;
+5. normalizes, publishes and leaves a report.
 
-Antes de refrescar la lista, el workflow sincroniza SQLite desde los JSONL del repo. Así un cache viejo de Actions no puede borrar cartas ya publicadas.
+Before refreshing the list, the workflow syncs SQLite from the repo JSONL, so a
+stale Actions cache cannot delete menus already published.
 
 ```bash
 gh workflow run update-new.yml \
@@ -191,180 +188,99 @@ gh workflow run update-new.yml \
   -f photos=true
 ```
 
-Inputs:
+Inputs: `since` (ISO date, defaults to 7 days ago), `places` (comma-separated
+names), `dry_run`, `photos` (use Google Maps photos as a last resort) and
+`refresh` (reprocess places that already have a menu).
 
-- `since`: fecha ISO. Si se omite, usa hace 7 días.
-- `places`: nombres separados por coma. Si se omite, usa el baseline + fecha.
-- `dry_run`: prueba sin escribir datos ni publicar.
-- `photos`: usar fotos de Google Maps como último recurso.
-- `refresh`: reprocesar locales que ya tienen carta.
+The result lands in `reports/new_places_<date>.jsonl`. Places that could not be
+resolved appear as `needs_manual`; those are the only ones worth reviewing by
+hand.
 
-El resultado queda en `reports/new_places_<fecha>.jsonl`. Los locales que no se pudieron resolver aparecen como `needs_manual`; esos son los únicos que conviene revisar a mano.
+## Output format
 
-Dry-run local:
+- Each place is a `##`.
+- `### Qué vende`: the place's categories (Sandwiches, Empanadas, Pizzas...),
+  even without prices.
+- `- **Dietético:**`: whether the place is 100% gluten-free, or how many dishes
+  are gluten-free/vegan/lactose-free.
+- `### Carta`: dishes with prices, grouped by `#### Categoría`, with
+  `[sin gluten]`, `[vegano]`, `[sin lactosa]` tags when they apply.
 
-```bash
-.venv/bin/python scripts/update_new_places.py \
-  --places 'Bar El Bajo' --refresh --no-photos --dry-run
-```
+NotebookLM allows 500,000 words per source and 50 sources per notebook; the full
+Doc uses about 35,000 words.
 
-### Actualizar la carta de un solo local
-
-Para releer las fotos de menú de un local (sin tocar el resto), usa:
-
-```bash
-gh workflow run update-menu-one.yml \
-  --repo OswaldoRodriguez123/maps-gluten-rag \
-  -f place=Yoko
-```
-
-- Usa la caché de fotos de SQLite; si no existe, reutiliza la última corrida de UnitBytes o raspa solo ese local.
-- Por defecto usa **visión Gemini** (flash-lite, el modelo más barato) y **omite Tesseract**, así que no instala paquetes del sistema.
-- `-f ocr=true` activa Tesseract como respaldo (más lento).
-- `-f refresh=true` ignora la caché de fotos y vuelve a raspar.
-- Publica el Doc y hace commit de `data/`.
-
-En local:
-
-```bash
-APIFY_TOKEN='...' GEMINI_API_KEY='...' \
-GDOC_ID='1N67XQI2sXARoeZe6wz87JlmH-a5Z83exgBiz9Q_j1H0' \
-GOOGLE_APPLICATION_CREDENTIALS='/ruta/service-account.json' \
-.venv/bin/python scripts/update_menu_place.py --place Yoko --publish
-```
-
-### Carta desde una tienda Fudo (menu.fu.do)
-
-Si Google Maps muestra `menu.fu.do` en la pestaña Carta, guarda la URL en `data/menu_urls.json`:
-
-```json
-{
-  "Café Aquelarre": "https://menu.fu.do/cafeaquelarre"
-}
-```
-
-Y actualiza solo esa carta:
-
-```bash
-gh workflow run update-fudo-one.yml \
-  --repo OswaldoRodriguez123/maps-gluten-rag \
-  -f place='Café Aquelarre'
-```
-
-También acepta `-f menu_url='https://menu.fu.do/...'` si no está en el archivo. El extractor lee el catálogo completo (productos, categorías y precios) aunque la tienda esté cerrada; “cerrado” solo bloquea pedidos.
-
-### Adapter de Uber Eats (proxy/scraper requerido)
-
-El adapter de Uber Eats no scrappea Uber Eats directo: llama a un proxy local que expone `GET /stores/menu?store=<id>` y devuelve JSON `{sections:[{categories:[{title,items:[{name,price,description,link}]}]}]}`. Requiere la variable **`UBER_EATS_API_URL`**:
-
-- **Local**: `UBER_EATS_API_URL=http://localhost:8000 python scripts/update_new_places.py --places 'El Patio Cafe' --refresh --no-photos`
-- **GitHub Actions**: el secret `UBER_EATS_API_URL` lo pasa `update-new.yml` (falta la URL pública del proxy — por ahora en CI el adapter devuelve error explícito `UBER_EATS_API_URL no configurado (requiere el proxy/scraper de Uber Eats)` y el local queda `needs_manual`).
-- Para CI habría que exponer el proxy (p. ej. runner self-hosted o URL pública temporal) y crear el secret `UBER_EATS_API_URL` con ese valor; mientras tanto, en Actions la carta de locales Uber Eats sale vía fotos (`photos=true`).
-
-### Formato del Doc y reconstrucción
-
-El Doc es la fuente para NotebookLM:
-
-- Cada local es un `##`.
-- `### Qué vende`: categorías del local (Sandwiches, Empanadas, Pizzas...), aunque no tengan precio.
-- `- **Dietético:**`: si el local es 100% sin gluten, o cuántos platos son sin gluten/veganos/sin lactosa.
-- `### Carta`: platos con precio, agrupados por `#### Categoría`, con etiquetas `[sin gluten]`, `[vegano]`, `[sin lactosa]` cuando corresponden.
-- NotebookLM permite 500.000 palabras por fuente y 50 fuentes por cuaderno; el Doc completo usa ~35.000 palabras.
-
-### Normalización y etiquetas (P0)
-
-Antes de publicar, el pipeline separa lo publicable de lo dudoso:
-
-- `scripts/normalize_menus.py`: limpia nombres, separa descripciones, normaliza precios (CLP/EUR), deduplica, asigna categorías y etiquetas dietéticas.
-- `scripts/apply_normalization.py`: aplica el resultado al JSONL, al `_menus.jsonl` y a SQLite.
-- `scripts/rebuild_markdown.py`: regenera el Doc con `### Qué vende` + `### Carta`.
-- `menus_review.jsonl` y `menus_rejected.jsonl`: ítems que no se publican y quedan para reextraer.
-
-Comandos:
-
-```bash
-python scripts/normalize_menus.py \
-  --places data/mis_lugares_sin_gluten.jsonl \
-  --menus data/mis_lugares_sin_gluten_menus.jsonl \
-  --out-dir data/normalized
-
-python scripts/apply_normalization.py \
-  --places data/mis_lugares_sin_gluten.jsonl \
-  --normalized-dir data/normalized \
-  --out-dir data \
-  --db data/historial_lugares.db
-
-python scripts/rebuild_markdown.py --publish
-```
-
-La visión Gemini corre con concurrencia limitada por `MAPS_VISION_CONCURRENCY` (por defecto `2`) y la carga de datasets recientes usa hasta 4 hilos. Ajusta ese valor si tu cuota aguanta más.
-
-Para reconstruir el Doc desde los JSONL sin volver a listar los 100:
-
-```bash
-gh workflow run rebuild-doc.yml \
-  --repo OswaldoRodriguez123/maps-gluten-rag
-```
-
-## Local (opcional)
+## Local (optional)
 
 ```bash
 cd ~/repos/maps-gluten-rag
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
 .venv/bin/playwright install chromium
-cp .env.example .env        # pon MAPS_LIST_URL
+cp .env.example .env        # set MAPS_LIST_URL
 ./run_daily.sh
 ```
 
-Para programarlo a las 03:00 en macOS:
+To schedule it at 03:00 on macOS:
 
 ```bash
 ./scripts/install_launchd.sh
 ```
 
-En Linux: `0 3 * * * cd /ruta/maps-gluten-rag && ./run_daily.sh >> logs/cron.log 2>&1`.
+On Linux: `0 3 * * * cd /path/maps-gluten-rag && ./run_daily.sh >> logs/cron.log 2>&1`.
 
-### Opciones útiles
+Useful options:
 
 ```bash
---url URL              # sobrescribe MAPS_LIST_URL
---out DIR              # carpeta de salida
---basename NOMBRE      # nombre de los archivos
---no-headless          # abre ventana (útil si Google bloquea headless)
---channel chrome|msedge|""   # navegador real o el de Playwright
---debug                # guarda HTML y respuestas de red
+--url URL              # overrides MAPS_LIST_URL
+--out DIR              # output folder
+--basename NAME        # file name
+--no-headless          # open a window (useful if Google blocks headless)
+--channel chrome|msedge|""   # real browser or Playwright's
+--debug                # saves HTML and network responses
 ```
 
-## Listas privadas
+## Private lists
 
-El workflow de GitHub solo puede leer listas públicas. Si tu lista deja de estar compartida, el script falla sin tocar la base y lo dice en el log. Para listas privadas hay que ejecutar en local con `python -m maps_gluten login`, que guarda un perfil de Chromium en `.auth/`; ese perfil no debe subirse a GitHub.
+The GitHub workflow can only read public lists. If your list stops being shared,
+the script fails without touching the database and says so in the log. For
+private lists, run locally with `python -m maps_gluten login`, which stores a
+Chromium profile in `.auth/`; that profile must never be pushed to GitHub.
 
-## Estructura
+## Structure
 
-```
+```text
 maps-gluten-rag/
-├── .github/workflows/scrape.yml
+├── .github/workflows/       # scrape, update-*, rebuild-doc, recover-menus
 ├── maps_gluten/
-│   ├── extract.py      # endpoint de la lista + respaldo DOM
-│   ├── enrich.py       # web, reseñas y OCR
-│   ├── apify.py        # carta estructurada (opcional)
-│   ├── store.py        # SQLite, deduplicación y salidas .md / .jsonl
-│   └── cli.py          # comandos `login`, `run` y `publish`
-├── scripts/
-│   ├── install_launchd.sh
-│   └── sync_drive.sh
-├── launchd/com.mapsgluten.scraper.plist.template
+│   ├── extract.py           # list endpoint + DOM fallback
+│   ├── enrich.py            # website, reviews and OCR
+│   ├── apify.py             # structured menu (optional)
+│   ├── store.py             # SQLite, dedup and .md / .jsonl outputs
+│   └── cli.py               # `login`, `run` and `publish`
+├── scripts/                 # one-off updaters, normalization, launchd
+├── data/                    # final .md / .jsonl outputs
 ├── run_daily.sh
 ├── .env.example
 └── requirements.txt
 ```
 
-## Límites que conviene tener claros
+## Known limits
 
-- `entitylist/getlist` es un endpoint interno, no una API pública. Puede cambiar sin aviso; el respaldo DOM y `--debug` existen para eso.
-- La valoración y la categoría no vienen en el payload de la lista: se toman de las filas del DOM. Google no las muestra para algunos locales, así que esos quedan sin valoración o sin categoría.
-- Los platos se detectan por palabras clave en la web, en PDFs, en imágenes de menú con OCR y en las reseñas del local. No es un menú estructurado: puede haber falsos positivos y faltan los locales sin web ni reseñas.
-- La carta de Apify es una estimación de IA: los alérgenos y la nutrición pueden estar mal. Verifica con el local antes de usarlos para decisiones de salud.
-- Revisa los términos de uso de Google Maps antes de automatizarlo a diario. Para un uso personal y de bajo volumen es lo habitual; no lo uses como servicio para terceros.
-- Si la lista es privada y Google invalida la sesión, `run` falla sin tocar la base y te lo dice en el log. Vuelve a ejecutar `login`.
+- `entitylist/getlist` is an internal endpoint, not a public API. It can change
+  without notice; the DOM fallback and `--debug` exist for that.
+- Rating and category do not come in the list payload: they are taken from the
+  DOM rows. Google does not show them for some places, so those end up without a
+  rating or category.
+- Dishes are detected by keywords on the website, in PDFs, in menu images with
+  OCR and in the place's reviews. It is not a structured menu: there can be
+  false positives, and places without a website or reviews are missing.
+- The Apify menu is an AI estimate: allergens and nutrition can be wrong. Check
+  with the place before using them for health decisions.
+- Review Google Maps' terms of use before automating it daily. For personal,
+  low-volume use this is common; do not use it as a service for third parties.
+- If the list is private and Google invalidates the session, `run` fails without
+  touching the database and tells you in the log. Run `login` again.
+
+## License
+
+MIT. See [LICENSE](LICENSE).
