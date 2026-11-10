@@ -112,6 +112,7 @@ jobs:
           DRY_RUN: ${{ inputs.dry_run }}
           PHOTOS: ${{ inputs.photos }}
           REFRESH: ${{ inputs.refresh }}
+          UBER_EATS_API_URL: ${{ secrets.UBER_EATS_API_URL }}
         run: |
           args=(--baseline /tmp/baseline.json --db data/historial_lugares.db)
           if [ -n "$SINCE" ]; then args+=(--since "$SINCE"); fi

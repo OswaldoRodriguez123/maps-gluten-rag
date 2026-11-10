@@ -33,7 +33,12 @@ class UberEatsAdapter:
         store_id = self._store_id(ctx)
         if not store_id:
             return MenuResult("empty", [], "ubereats", error="sin store id")
-        base = os.getenv("UBER_EATS_API_URL", "http://localhost:8000").rstrip("/")
+        base = os.getenv("UBER_EATS_API_URL", "").strip().rstrip("/")
+        if not base:
+            return MenuResult(
+                "error", [], "ubereats",
+                error="UBER_EATS_API_URL no configurado (requiere el proxy/scraper de Uber Eats)",
+            )
         url = f"{base}/stores/menu"
         try:
             response = (ctx.session or requests).get(

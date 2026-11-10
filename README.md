@@ -253,6 +253,14 @@ gh workflow run update-fudo-one.yml \
 
 También acepta `-f menu_url='https://menu.fu.do/...'` si no está en el archivo. El extractor lee el catálogo completo (productos, categorías y precios) aunque la tienda esté cerrada; “cerrado” solo bloquea pedidos.
 
+### Adapter de Uber Eats (proxy/scraper requerido)
+
+El adapter de Uber Eats no scrappea Uber Eats directo: llama a un proxy local que expone `GET /stores/menu?store=<id>` y devuelve JSON `{sections:[{categories:[{title,items:[{name,price,description,link}]}]}]}`. Requiere la variable **`UBER_EATS_API_URL`**:
+
+- **Local**: `UBER_EATS_API_URL=http://localhost:8000 python scripts/update_new_places.py --places 'El Patio Cafe' --refresh --no-photos`
+- **GitHub Actions**: el secret `UBER_EATS_API_URL` lo pasa `update-new.yml` (falta la URL pública del proxy — por ahora en CI el adapter devuelve error explícito `UBER_EATS_API_URL no configurado (requiere el proxy/scraper de Uber Eats)` y el local queda `needs_manual`).
+- Para CI habría que exponer el proxy (p. ej. runner self-hosted o URL pública temporal) y crear el secret `UBER_EATS_API_URL` con ese valor; mientras tanto, en Actions la carta de locales Uber Eats sale vía fotos (`photos=true`).
+
 ### Formato del Doc y reconstrucción
 
 El Doc es la fuente para NotebookLM:
