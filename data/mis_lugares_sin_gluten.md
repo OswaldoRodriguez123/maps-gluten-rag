@@ -1,6 +1,6 @@
 # Base de Datos: Locales Sin Gluten Guardados en Google Maps
 
-_Actualizado: 2026-11-07 · 108 lugares · Fuente: lista de Google Maps_
+_Actualizado: 2026-11-10 · 107 lugares · Fuente: lista de Google Maps_
 
 Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
@@ -43,7 +43,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 ## Ambika Indian Restaurant
 - **Ubicación:** No disponible
 - **Categoría:** Restaurante indio
-- **Valoración:** 4.7 / 5
+- **Valoración:** 4.8 / 5
 - **Enlace:** https://www.google.com/maps?cid=10910428577145163712
 - **Fecha de registro:** 2026-11-06
 
@@ -1096,7 +1096,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 ## Café Aquelarre
 - **Ubicación:** Gran Av. José Miguel Carrera 4813, 8920052 San Miguel, Región Metropolitana
 - **Categoría:** Cafetería
-- **Valoración:** 4.7 / 5
+- **Valoración:** 4.8 / 5
 - **Enlace:** https://www.google.com/maps?cid=12393475553772179856
 - **Menciona en reseñas:** pizza, mechada, torta, chocolate, jugo
 - **Fecha de registro:** 2025-11-23
@@ -3140,52 +3140,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Menciona en reseñas:** completo, dulces
 - **Fecha de registro:** 2025-11-23
 
-## La Brioche Bakery & Café
-- **Ubicación:** 13 Nte. 716, 2530947 Viña del Mar, Valparaíso
-- **Categoría:** Panadería
-- **Valoración:** 4.7 / 5
-- **Enlace:** https://www.google.com/maps?cid=14339222801021062144
-- **Fecha de registro:** 2026-11-06
-
-### Qué vende
-
-- COMPLETOS
-- CHAMPIPLETOS
-- PIZZAS
-- SÁNDWICHERÍA PERUANA
-
-
-### Carta
-
-#### COMPLETOS
-
-- COMPLETO ITALIANO — $4.900
-- COMPLETO CON TODO — $5.900
-- AS CHURRASCO — $6.900
-
-#### CHAMPIPLETOS
-
-- CHAMPIPLETO CLÁSICO — $5.900
-- CHAMPIPLETO CON TODO — $6.900
-
-#### PIZZAS
-
-- PIZZA DE LA CASA — $12.900
-- PIZZA VEGETARIANA — $9.990
-- PIZZA PORTEÑA — $12.900
-- PIZZA DEL MAR — $14.990
-- PIZZA HAWAIANA — $9.900
-- PIZZA PEPPERONI — $9.900
-
-#### SÁNDWICHERÍA PERUANA
-
-- CHICHARRÓN DE CERDO — $8.900
-- POLLO SALTADO — $8.900
-- BUTIFARRA PERUANA — $8.900
-- LOMO A LO POBRE — $9.900
-- LOMO SALTADO — $9.900
-
-
 ## La casita Myfoods - gluten free
 - **Ubicación:** Los Maitenes 2380, 7510487 Providencia, Región Metropolitana
 - **Categoría:** Cafetería
@@ -3526,7 +3480,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 ## Le Grenier Cafetería
 - **Ubicación:** Av. Borgoño 15460, 2520000 Viña del Mar, Valparaíso
 - **Categoría:** Cafetería
-- **Valoración:** 4.3 / 5
+- **Valoración:** 4.4 / 5
 - **Enlace:** https://www.google.com/maps?cid=10023942382296147388
 - **Fecha de registro:** 2026-11-06
 - **Dietético:** 1 platos sin gluten
@@ -4592,9 +4546,22 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 ## Pastelería Saludable Neusa
 - **Ubicación:** 6 Nte. 829, 2520729 Viña del Mar, Valparaíso
 - **Categoría:** Pastelería
-- **Valoración:** 4.4 / 5
+- **Valoración:** 4.3 / 5
 - **Enlace:** https://www.google.com/maps?cid=9420130345546503463
+- **Web:** https://www.pasteleriasaludableneusa.cl/
 - **Fecha de registro:** 2026-11-06
+- **Dietético:** 1 veganos
+
+### Carta
+
+- Choc-choc frambuesa
+- Tarta de Maracuya
+- Cuchuflis sin Baño
+- Tarta mixta
+- Rocas de Quinua
+- Brownie Vegano [vegano]
+- Pie de limón
+
 
 ## Patagonia Schokoland
 - **Ubicación:** Av. Francisco Bilbao 2512, 7550170 Providencia, Región Metropolitana
@@ -5328,7 +5295,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 ## REFUGIO PUB ÑUÑOA
 - **Ubicación:** Av. Irarrázaval 3097, 2° PISO, 7750000 Ñuñoa, Región Metropolitana
 - **Categoría:** Pub
-- **Valoración:** 4.1 / 5
+- **Valoración:** 4.2 / 5
 - **Enlace:** https://www.google.com/maps?cid=16821697334277054677
 - **Web:** https://queresto.com/elrefugiopub
 - **Menciona en reseñas:** empanada
