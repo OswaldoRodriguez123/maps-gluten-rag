@@ -397,7 +397,8 @@ def main() -> int:
                 if not links.get("website") and not metadata.get("website"):
                     if website_search_enabled and gemini_api_key:
                         if searched:
-                            time.sleep(0.5)
+                            # Rate limit suave: Brave free permite 1 qps.
+                            time.sleep(1.1)
                         searched = True
                         if _apply_search_fallback(
                             name=name,

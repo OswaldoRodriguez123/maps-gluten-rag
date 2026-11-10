@@ -742,7 +742,8 @@ def enrich_places(
             place.website_source = "maps"
         elif search_fn is not None and search_enabled and gemini_api_key:
             if searched:
-                time.sleep(0.5)
+                # Rate limit suave: Brave free permite 1 qps.
+                time.sleep(1.1)
             searched = True
             try:
                 url, score, _error, _platform_urls = search_fn(
