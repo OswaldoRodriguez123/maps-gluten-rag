@@ -10,7 +10,8 @@ knowledge base (RAG):
 - `data/mis_lugares_sin_gluten.jsonl` — one JSON line per place, with `text` and
   `metadata`, ideal for embeddings.
 - `data/mis_lugares_sin_gluten_menus.jsonl` — one line per dish (name, price,
-  category, ingredients, allergens, nutrition) when Apify is configured.
+  category, ingredients, allergens, nutrition), built from the place's website,
+  menu photos, Fudo and Rappi.
 
 ```markdown
 ## Alma Chilanga
@@ -52,8 +53,8 @@ The rest of this document assumes GitHub Actions.
 
 ## GitHub Actions
 
-1. Create the repository and push the project (the workflow runs at 03:00
-   Bogotá time).
+1. Create the repository and push the project (the workflow runs on Mondays at
+   13:00 Chile time).
 2. In *Settings → Actions → General*, keep *Read and write permissions*
    enabled if your organization restricts it.
 3. Optional: in *Settings → Secrets and variables → Actions → Variables*, create
@@ -67,7 +68,8 @@ What the workflow (`.github/workflows/scrape.yml`) does:
 - installs Python 3.12, the dependencies and Chromium;
 - runs `python -m maps_gluten run`;
 - enriches with each place's website and review topics (if `MAPS_ENRICH=1`);
-- queries Apify for the structured menu if `APIFY_TOKEN` is set;
+- extracts menus from the website, menu photos, Fudo and Rappi (Apify is
+  optional);
 - commits `data/*.md` and `data/*.jsonl` if anything changed;
 - caches `data/historial_lugares.db` in Actions to keep dedup between runs (the
   file is git-ignored);
@@ -137,12 +139,13 @@ https://raw.githubusercontent.com/OswaldoRodriguez123/maps-gluten-rag/main/data/
   diet tags. `scripts/apply_normalization.py` applies the result to the JSONL,
   `_menus.jsonl` and SQLite. `scripts/rebuild_markdown.py` regenerates the Doc.
 
-Full details, environment variables and adapters (Fudo, Shopify, WooCommerce,
-Uber Eats, JSON-LD) are in [docs/pipeline.md](docs/pipeline.md).
+Full details, environment variables and adapters (Fudo, Apparta, Rappi,
+Shopify, WooCommerce, Uber Eats, JSON-LD, photos) are in
+[docs/pipeline.md](docs/pipeline.md).
 
 ## Updating a single place
 
-To test or fix one place without listing all 100 or using Apify:
+To test or fix one place without listing every place or using Apify:
 
 ```bash
 gh workflow run update-one.yml \
@@ -151,8 +154,8 @@ gh workflow run update-one.yml \
 ```
 
 The workflow restores the cache, updates **only** that place, publishes the
-Google Doc, saves the cache and commits. It does not touch the other 99 or the
-menus already extracted. It works with normal sites and SPA stores: it first
+Google Doc, saves the cache and commits. It does not touch the other places or
+the menus already extracted. It works with normal sites and SPA stores: it first
 tries plain HTTP parsing, then renders with Playwright and extracts products
 from JSON-LD, price/dish anchors and product routes.
 
@@ -166,7 +169,7 @@ GDOC_ID='<doc-id>' \
 
 ## Updating only new places
 
-When you add places to the list you do not need to reprocess all 100.
+When you add places to the list you do not need to reprocess every place.
 `update-new.yml`:
 
 1. saves a baseline of the places that already existed;
@@ -207,7 +210,7 @@ hand.
   `[sin gluten]`, `[vegano]`, `[sin lactosa]` tags when they apply.
 
 NotebookLM allows 500,000 words per source and 50 sources per notebook; the full
-Doc uses about 35,000 words.
+Doc uses about 28,000 words.
 
 ## Local (optional)
 
