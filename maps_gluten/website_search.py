@@ -1,8 +1,10 @@
-"""Website search: SerpAPI (primary) + DuckDuckGo HTML (fallback) + LLM validation.
+"""Website search: SerpAPI (primary) + Brave Search (fallback) + LLM validation.
 
 No acepta ninguna URL sin validación LLM con nombre + overlap de
 dirección y score >= 0.85. SerpAPI evita anti-bot/IP ban (250 req/mes gratis);
-DDG con Playwright como fallback si falta SERPAPI_KEY o falla.
+Brave (plan free, JSON API con token) como fallback cuando SerpAPI no está
+configurado o falla — evita el bloqueo anti-bot de DuckDuckGo HTML desde IPs
+de datacenter.
 
 Adicional: extrae platform_urls (Rappi, PedidosYa, UberEats, etc.) sin validación LLM.
 """
@@ -16,15 +18,22 @@ import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
-from html.parser import HTMLParser
 
 DEFAULT_SEARCH_MODEL = "gemini-flash-lite-latest"
 ACCEPT_THRESHOLD = 0.85
-DDG_URL = "https://html.duckduckgo.com/html/"
 SERPAPI_URL = "https://serpapi.com/search.json"
+BRAVE_URL = "https://api.search.brave.com/res/v1/web/search"
 LLM_TIMEOUT = 30
+PROBE_TIMEOUT = 8
+PROBE_MAX_BYTES = 200_000
 
-# Igual que photos.py para los GET a DuckDuckGo.
+# Tokens genéricos de dirección que no aportan para el probe de página.
+_ADDR_STOPWORDS = {
+    "avenida", "av", "avda", "calle", "pasaje", "camino", "de", "del",
+    "la", "las", "los", "el", "y", "en", "cl", "comuna", "region", "metropolitana",
+}
+
+# Igual que photos.py para los GET a los buscadores.
 UA = (
     "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
     "AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0 Safari/537.36"
@@ -124,26 +133,6 @@ def build_search_query(name: str, address: str | None) -> str:
     return " ".join(parts)
 
 
-def _decode_uddg(href: str | None) -> str:
-    href = (href or "").strip()
-    if not href:
-        return ""
-    if href.startswith("//"):
-        href = "https:" + href
-    if href.startswith("http://") or href.startswith("https://"):
-        parsed = urllib.parse.urlparse(href)
-        qs = urllib.parse.parse_qs(parsed.query or "")
-        if qs.get("uddg"):
-            return urllib.parse.unquote(qs["uddg"][0])
-        return href
-    # Relativo tipo /l/?uddg=...
-    parsed = urllib.parse.urlparse(href)
-    qs = urllib.parse.parse_qs(parsed.query or "")
-    if qs.get("uddg"):
-        return urllib.parse.unquote(qs["uddg"][0])
-    return ""
-
-
 # --- SerpAPI (primary) ---
 
 
@@ -211,232 +200,99 @@ def fetch_candidates_serpapi(
     return results, None
 
 
-# --- helpers Playwright (DuckDuckGo fallback) ---
+# --- Brave Search (fallback) ---
 
 
-def _launch_temp_browser():
-    """Lanza un browser temporal para modo standalone (tests).
-
-    Returns:
-        tuple(pw, browser, page): `pw` es el objeto Playwright (usar
-        ``pw.stop()`` al terminar), `browser` el Chromium y `page` una
-        página nueva con el UA del proyecto.
-    """
-    from playwright.sync_api import sync_playwright
-
-    pw = sync_playwright().start()
-    browser = pw.chromium.launch(
-        headless=True,
-        args=["--disable-blink-features=AutomationControlled", "--no-first-run"],
-    )
-    page = browser.new_page(user_agent=UA)
-    return pw, browser, page
-
-
-def _close_temp_browser(pw, browser, page) -> None:
-    """Cierra page/browser/pw de _launch_temp_browser (best-effort)."""
-    try:
-        if page is not None:
-            page.close()
-    except Exception:
-        pass
-    try:
-        if browser is not None:
-            browser.close()
-    except Exception:
-        pass
-    try:
-        if pw is not None:
-            pw.stop()
-    except Exception:
-        pass
-
-
-class _DDGParser(HTMLParser):
-    def __init__(self) -> None:
-        super().__init__()
-        self.candidates: list[dict] = []
-        self._capturing_title = False
-        self._capturing_snippet = False
-        self._title_parts: list[str] = []
-        self._snippet_parts: list[str] = []
-        self._current_href = ""
-        self._pending_url = ""
-        self._pending_title = ""
-
-    def handle_starttag(self, tag: str, attrs: list[tuple[str, str | None]]) -> None:
-        if tag != "a":
-            return
-        attr = dict(attrs)
-        cls = (attr.get("class") or "").lower()
-        if "result__a" in cls:
-            self._capturing_title = True
-            self._title_parts = []
-            self._current_href = attr.get("href") or ""
-        elif "result__snippet" in cls:
-            self._capturing_snippet = True
-            self._snippet_parts = []
-
-    def handle_data(self, data: str) -> None:
-        if self._capturing_title:
-            self._title_parts.append(data)
-        elif self._capturing_snippet:
-            self._snippet_parts.append(data)
-
-    def handle_endtag(self, tag: str) -> None:
-        if tag != "a":
-            return
-        if self._capturing_title:
-            self._capturing_title = False
-            title = " ".join("".join(self._title_parts).split())
-            url = _decode_uddg(self._current_href)
-            self._current_href = ""
-            if url and title:
-                self._pending_url = url
-                self._pending_title = title
-        elif self._capturing_snippet:
-            self._capturing_snippet = False
-            snippet = " ".join("".join(self._snippet_parts).split())
-            if self._pending_url:
-                self.candidates.append(
-                    {
-                        "url": self._pending_url,
-                        "title": self._pending_title,
-                        "snippet": snippet,
-                    }
-                )
-                self._pending_url = ""
-                self._pending_title = ""
-
-    def close(self) -> None:
-        super().close()
-        if self._pending_url and self._pending_title:
-            self.candidates.append(
-                {
-                    "url": self._pending_url,
-                    "title": self._pending_title,
-                    "snippet": "",
-                }
-            )
-            self._pending_url = ""
-            self._pending_title = ""
-
-
-def fetch_candidates(query: str, *, timeout: int = 12, page=None) -> list[dict]:
-    """Busca en DuckDuckGo HTML con Playwright y devuelve candidatos.
+def fetch_candidates_brave(
+    query: str, *, api_key: str | None, timeout: int = 10
+) -> tuple[list[dict], str | None]:
+    """Busca en Brave Search API y devuelve candidatos.
 
     Args:
         query: texto de búsqueda.
-        timeout: segundos para goto/wait (se convierte a ms para Playwright).
-        page: página Playwright opcional. Si se pasa, se usa directamente
-            (sin cerrarla). Si es None, se lanza un browser temporal que
-            se cierra al terminar.
+        api_key: BRAVE_API_KEY. Si es None, devuelve ([], "no_key").
+        timeout: segundos para la request HTTP.
 
     Returns:
-        Lista de dicts ``{"url", "title", "snippet"}`` (url ya decodificada
-        desde ``uddg``). En cualquier fallo de red/timeout devuelve ``[]``.
-        Lanza ``urllib.error.HTTPError`` (403/429) para que ``search_website``
-        degrade a ``blocked``/``quota``.
+        Tupla (lista_de_candidatos, status).
+        status puede ser: None (ok), "no_key", "blocked", "quota", "error".
+        Candidatos: lista de dicts {"url", "title", "snippet"}.
     """
-    url = DDG_URL + "?q=" + urllib.parse.quote_plus(query or "")
-    timeout_ms = max(int(timeout or 12) * 1000, 1000)
+    if not api_key:
+        return [], "no_key"
 
-    owns_browser = False
-    pw = browser = temp_page = None
-    effective_page = page
-    if effective_page is None:
-        try:
-            pw, browser, temp_page = _launch_temp_browser()
-            effective_page = temp_page
-            owns_browser = True
-        except Exception:
-            return []
-
+    params = {
+        "q": query,
+        "count": "10",
+        "country": "cl",
+        "search_lang": "es",
+        "safesearch": "moderate",
+    }
+    url = BRAVE_URL + "?" + urllib.parse.urlencode(params)
+    request = urllib.request.Request(
+        url,
+        headers={
+            "Accept": "application/json",
+            "User-Agent": UA,
+            "X-Subscription-Token": api_key,
+        },
+        method="GET",
+    )
     try:
-        # Navegar a DDG HTML.
-        try:
-            response = effective_page.goto(
-                url, wait_until="domcontentloaded", timeout=timeout_ms
-            )
-        except urllib.error.HTTPError:
-            raise
-        except Exception as exc:
-            # Playwright a veces mete el estado HTTP en el mensaje.
-            msg = str(exc or "")
-            if " 403" in msg or "Forbidden" in msg:
-                raise urllib.error.HTTPError(url, 403, "Forbidden", None, None) from exc
-            if " 429" in msg or "Too Many Requests" in msg:
-                raise urllib.error.HTTPError(url, 429, "Too Many Requests", None, None) from exc
-            return []
+        with urllib.request.urlopen(request, timeout=timeout) as response:
+            raw = response.read()
+            data = json.loads(raw.decode("utf-8"))
+    except urllib.error.HTTPError as exc:
+        code = getattr(exc, "code", None)
+        if code == 403:
+            return [], "blocked"
+        if code == 429:
+            return [], "quota"
+        return [], "error"
+    except Exception:
+        return [], "error"
 
-        # Mapear estado HTTP -> HTTPError para degradación 403/429.
-        if response is not None:
-            try:
-                status = response.status
-            except Exception:
-                status = None
-            if status == 403:
-                raise urllib.error.HTTPError(url, 403, "Forbidden", None, None)
-            if status == 429:
-                raise urllib.error.HTTPError(url, 429, "Too Many Requests", None, None)
-
-        # Esperar a que aparezcan resultados.
-        try:
-            effective_page.wait_for_selector("a.result__a", timeout=timeout_ms)
-        except Exception:
-            return []
-
-        # Extraer del DOM renderizado (selectores del brief).
-        try:
-            entries = effective_page.eval_on_selector_all(
-                "a.result__a",
-                "els => els.map(e => ({href: e.getAttribute('href') || '', text: (e.innerText || e.textContent || '').trim()}))",
-            )
-        except Exception:
-            return []
-        if not entries:
-            return []
-
-        try:
-            snippets = effective_page.eval_on_selector_all(
-                "a.result__snippet",
-                "els => els.map(e => (e.innerText || e.textContent || '').trim())",
-            )
-        except Exception:
-            snippets = []
-        if not isinstance(snippets, (list, tuple)):
-            snippets = []
-
-        results: list[dict] = []
-        for idx, entry in enumerate(entries):
-            if isinstance(entry, dict):
-                href = entry.get("href") or ""
-                title = (entry.get("text") or "").strip()
-            else:
-                # Fallback por orden título/snippet si el mock devuelve strings.
-                href = ""
-                title = str(entry or "").strip()
-            decoded = _decode_uddg(href)
-            if not decoded or not title:
-                continue
-            snippet = ""
-            if idx < len(snippets):
-                raw = snippets[idx]
-                snippet = (
-                    (raw or "").strip()
-                    if isinstance(raw, str)
-                    else str(raw or "").strip()
-                )
-                snippet = " ".join(snippet.split())
-            results.append({"url": decoded, "title": title, "snippet": snippet})
-        return results
-    finally:
-        if owns_browser:
-            _close_temp_browser(pw, browser, temp_page)
+    if not isinstance(data, dict):
+        return [], None
+    web = data.get("web")
+    items = web.get("results") if isinstance(web, dict) else None
+    if not isinstance(items, list):
+        return [], None
+    results: list[dict] = []
+    for item in items[:10]:
+        if not isinstance(item, dict):
+            continue
+        url = (item.get("url") or "").strip()
+        title = (item.get("title") or "").strip()
+        snippet = (item.get("description") or "").strip()
+        if not url or not title:
+            continue
+        if not url.startswith(("http://", "https://")):
+            continue
+        results.append({"url": url, "title": title, "snippet": snippet})
+    return results, None
 
 
-def filter_candidates(candidates: list[dict]) -> list[dict]:
-    """Filtra candidatos para official_url: quita redes sociales, directorios, delivery."""
+def _brand_hits(url: str, name: str | None) -> int:
+    """Cuántos tokens de la marca aparecen en el dominio (para pre-ordenar, no para aceptar)."""
+    tokens = _significant_tokens(name)
+    if not tokens:
+        return 0
+    host = (urllib.parse.urlsplit(url).hostname or "").lower()
+    if host.startswith("www."):
+        host = host[4:]
+    return sum(1 for t in tokens if t in host)
+
+
+def filter_candidates(
+    candidates: list[dict], *, name: str | None = None
+) -> list[dict]:
+    """Filtra candidatos para official_url: quita redes sociales, directorios, delivery.
+
+    Pre-ordena por dominio con tokens de la marca para que el sitio oficial sobreviva
+    al límite de 5 (Brave/Google a veces lo traen atrás de artículos y páginas de terceros).
+    La decisión final sigue siendo del LLM.
+    """
     filtered: list[dict] = []
     for cand in candidates or []:
         url = (cand.get("url") or "").strip() if isinstance(cand, dict) else ""
@@ -447,6 +303,7 @@ def filter_candidates(candidates: list[dict]) -> list[dict]:
         if PLATFORM_HOST_RE.search(url):
             continue
         filtered.append(cand)
+    filtered.sort(key=lambda c: _brand_hits(c.get("url") or "", name), reverse=True)
     return filtered[:5]
 
 
@@ -473,6 +330,42 @@ def extract_platform_urls(candidates: list[dict]) -> dict[str, list[str]]:
         if not platform_urls[k]:
             del platform_urls[k]
     return platform_urls
+
+
+def _significant_tokens(address: str | None) -> list[str]:
+    """Tokens útiles de la dirección (calle, número, comuna), normalizados y sin stopwords."""
+    norm = _normalize(address).lower()
+    out: list[str] = []
+    for tok in norm.split():
+        if (len(tok) >= 4 or tok.isdigit()) and tok not in _ADDR_STOPWORDS and tok not in out:
+            out.append(tok)
+    return out
+
+
+def _page_evidence(url: str, address: str | None, *, timeout: int = PROBE_TIMEOUT) -> str:
+    """GET liviano a la página candidata; devuelve los tokens de la dirección que contiene.
+
+    Degrada a ``""`` ante cualquier fallo (red, timeout, encoding): nunca crashea el pipeline.
+    """
+    tokens = _significant_tokens(address)
+    if not url or not tokens:
+        return ""
+    try:
+        request = urllib.request.Request(
+            url,
+            headers={"User-Agent": UA, "Accept": "text/html"},
+            method="GET",
+        )
+        with urllib.request.urlopen(request, timeout=timeout) as response:
+            raw = response.read(PROBE_MAX_BYTES)
+    except Exception:
+        return ""
+    html_text = raw.decode("utf-8", "ignore")
+    html_text = re.sub(r"(?is)<(script|style)[^>]*>.*?</\1>", " ", html_text)
+    html_text = re.sub(r"<[^>]+>", " ", html_text)
+    text = _normalize(html_text).lower()
+    found = [t for t in tokens if t in text]
+    return ",".join(found)
 
 
 def _parse_llm_json(text: str | None) -> dict | None:
@@ -506,18 +399,30 @@ def _http_code(exc: BaseException) -> int | None:
 
 
 def llm_validate(
-    name: str, address: str | None, candidates: list[dict], api_key: str
+    name: str,
+    address: str | None,
+    candidates: list[dict],
+    api_key: str,
+    evidence: dict | None = None,
 ) -> tuple[str | None, float]:
     if not candidates:
         return (None, 0.0)
     model = os.getenv("GEMINI_SEARCH_MODEL", DEFAULT_SEARCH_MODEL) or DEFAULT_SEARCH_MODEL
     lines = []
     for i, c in enumerate(candidates, start=1):
-        lines.append(
+        line = (
             f"{i}. {c.get('url', '')} | {c.get('title', '')} | {c.get('snippet', '')}"
         )
+        if evidence is not None:
+            line += f" | evidencia: {evidence.get(c.get('url', '')) or 'sin evidencia'}"
+        lines.append(line)
     prompt = (
-        "Devuelve SOLO JSON {url, score, reason}; acepta solo si nombre coincide y hay overlap de dirección; score<0.85 => url null. "
+        "Devuelve SOLO JSON {url, score, reason}; acepta SOLO el sitio oficial del local/marca "
+        "(dominio propio del negocio; NO artículos, notas de prensa, directorios, reviews, blogs ni redes sociales). "
+        "Acepta solo si nombre coincide y hay overlap de dirección; "
+        "la evidencia de página (tokens de la dirección hallados en el sitio) cuenta como overlap fuerte, "
+        "pero no basta por sí sola si el candidato no es el sitio oficial; "
+        "sin evidencia de dirección, exige que el snippet o el título la traigan; score<0.85 => url null. "
         f"Nombre: {name or ''}\nDirección: {address or ''}\nCandidatos:\n"
         + "\n".join(lines)
     )
@@ -581,24 +486,23 @@ def search_website(
     *,
     api_key: str | None,
     timeout: int = 12,
-    page=None,
-    browser=None,
 ) -> tuple[str | None, float, str | None, dict[str, list[str]]]:
-    """Busca el sitio oficial + platform URLs: SerpAPI (primary) -> DDG (fallback) + LLM validation.
+    """Busca el sitio oficial + platform URLs: SerpAPI (primary) -> Brave (fallback) + LLM validation.
 
     Args:
         name: nombre del lugar.
         address: dirección (o None).
         api_key: GEMINI_API_KEY (para validación LLM). Sin ella devuelve ``(None, 0.0, None, {})`` sin red.
         timeout: segundos para la búsqueda.
-        page: página Playwright opcional (solo para fallback DDG).
-        browser: browser Playwright opcional (solo para fallback DDG).
 
     Returns:
         Tupla (official_url, score, status, platform_urls).
         official_url: website oficial validado por LLM (score >= 0.85) o None.
         score: float 0.0-1.0.
-        status: None (ok), "blocked", "quota", "no_serpapi_key" (usó DDG), "ddg_fallback" (SerpAPI falló, DDG ok).
+        status: None (SerpAPI ok), "brave_fallback" (SerpAPI falló, Brave ok),
+            "no_serpapi_key" (sin SERPAPI_KEY, Brave ok), "blocked"/"quota"
+            (403/429 en el motor intentado), "error" (otro fallo),
+            "no_search_key" (ninguna key configurada).
         platform_urls: dict {"rappi": [...], "pedidosya": [...], "ubereats": [...]} sin validación LLM.
     """
     if not api_key:
@@ -606,94 +510,55 @@ def search_website(
 
     query = build_search_query(name, address)
     serpapi_key = os.getenv("SERPAPI_KEY", "").strip() or None
+    brave_key = os.getenv("BRAVE_API_KEY", "").strip() or None
 
     all_candidates: list[dict] = []
     status: str | None = None
+    serpapi_status: str | None = None
+    brave_status: str | None = None
 
     # --- 1. Intentar SerpAPI (primary) ---
     if serpapi_key:
-        candidates, serpapi_status = fetch_candidates_serpapi(query, api_key=serpapi_key, timeout=min(timeout, 10))
+        candidates, serpapi_status = fetch_candidates_serpapi(
+            query, api_key=serpapi_key, timeout=min(timeout, 10)
+        )
         if serpapi_status is None:
             all_candidates = candidates
             status = None
-        elif serpapi_status in ("blocked", "quota"):
-            # SerpAPI bloqueado/cuota: intentar DDG
-            pass
-        else:
-            # "no_key" o "error" -> cae a DDG
-            pass
 
-    # --- 2. Fallback a DuckDuckGo (Playwright) si no hay candidatos de SerpAPI ---
-    if not all_candidates:
-        effective_page = page
-        temp_page = None
-        owns_page = False
-        pw = None
-        temp_browser = None
-
-        try:
-            if effective_page is None:
-                if browser is not None:
-                    try:
-                        temp_page = browser.new_page(user_agent=UA)
-                    except Exception:
-                        return (None, 0.0, None, {})
-                    effective_page = temp_page
-                    owns_page = True
-                else:
-                    try:
-                        pw, temp_browser, temp_page = _launch_temp_browser()
-                    except Exception:
-                        return (None, 0.0, None, {})
-                    effective_page = temp_page
-                    owns_page = True
-
-            try:
-                candidates = fetch_candidates(query, timeout=timeout, page=effective_page)
-            except urllib.error.HTTPError as exc:
-                code = _http_code(exc)
-                if code == 403:
-                    return (None, 0.0, "blocked", {})
-                if code == 429:
-                    return (None, 0.0, "quota", {})
-                candidates = []
-            except Exception:
-                candidates = []
-
+    # --- 2. Fallback a Brave si SerpAPI no produjo candidatos ---
+    if not all_candidates and brave_key:
+        candidates, brave_status = fetch_candidates_brave(
+            query, api_key=brave_key, timeout=min(timeout, 10)
+        )
+        if brave_status is None:
             all_candidates = candidates
-            if serpapi_key and status is None:
-                status = "ddg_fallback"
-            elif not serpapi_key:
-                status = "no_serpapi_key"
-        finally:
-            if owns_page and temp_page is not None:
-                try:
-                    temp_page.close()
-                except Exception:
-                    pass
-            if pw is not None or temp_browser is not None:
-                try:
-                    if temp_browser is not None:
-                        temp_browser.close()
-                except Exception:
-                    pass
-                try:
-                    if pw is not None:
-                        pw.stop()
-                except Exception:
-                    pass
+            status = "brave_fallback" if serpapi_key else "no_serpapi_key"
+
+    if not all_candidates:
+        if not serpapi_key and not brave_key:
+            status = "no_search_key"
+        elif brave_status:
+            status = brave_status
+        elif serpapi_status:
+            status = serpapi_status
+        # else: motores ok pero sin resultados -> status None.
 
     # --- Extraer platform_urls de TODOS los candidatos (antes de filtrar) ---
     platform_urls = extract_platform_urls(all_candidates)
 
     # --- Filtrar para official_url (quita delivery, redes, directorios) ---
-    filtered = filter_candidates(all_candidates)
+    filtered = filter_candidates(all_candidates, name=name)
     if not filtered:
         return (None, 0.0, status, platform_urls)
 
-    # --- Validar con LLM ---
+    # --- Validar con LLM (con evidencia de página si se pudo obtener) ---
+    evidences = {
+        (c.get("url") or ""): _page_evidence(c.get("url") or "", address)
+        for c in filtered
+    }
     try:
-        url, score = llm_validate(name, address, filtered, api_key)
+        url, score = llm_validate(name, address, filtered, api_key, evidences)
     except urllib.error.HTTPError as exc:
         code = _http_code(exc)
         if code == 403:

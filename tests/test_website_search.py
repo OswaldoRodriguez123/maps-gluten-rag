@@ -1,41 +1,14 @@
-"""Tests para maps_gluten.website_search: DuckDuckGo HTML + validación LLM."""
+"""Tests para maps_gluten.website_search: SerpAPI + Brave Search + validación LLM."""
 import json
 import urllib.error
 import urllib.parse
-
-
-DDG_FIXTURE = """
-<html><body>
-<div class="result results_links">
-  <div class="result__body">
-    <a class="result__a" href="/l/?uddg=https%3A%2F%2Fbickacafe.cl%2F&rut=aaa">Bicka Café - Sitio Oficial</a>
-    <a class="result__snippet">Café sin gluten en Vitacura, Av. Luis Pasteur 6156.
-    </a>
-  </div>
-</div>
-<div class="result results_links">
-  <div class="result__body">
-    <a class="result__a" href="/l/?uddg=https%3A%2F%2Fwww.tripadvisor.cl%2FRestaurant_Review-g1.html&rut=bbb">Bicka Café en Tripadvisor</a>
-    <a class="result__snippet">Reviews y fotos de Bicka Café.
-    </a>
-  </div>
-</div>
-<div class="result results_links">
-  <div class="result__body">
-    <a class="result__a" href="/l/?uddg=https%3A%2F%2Fwww.instagram.com%2Fbickacafe%2F&rut=ccc">Bicka Café en Instagram</a>
-    <a class="result__snippet">Síguenos en Instagram.
-    </a>
-  </div>
-</div>
-</body></html>
-"""
 
 
 class _FakeResponse:
     def __init__(self, data: bytes):
         self._data = data
 
-    def read(self):
+    def read(self, n=-1):
         return self._data
 
     def __enter__(self):
@@ -45,59 +18,29 @@ class _FakeResponse:
         return False
 
 
-class _FakePage:
-    """Fake página Playwright para fetch_candidates/search_website (DDG HTML)."""
+BRAVE_FIXTURE = {
+    "web": {
+        "results": [
+            {"url": "https://bickacafe.cl/", "title": "Bicka Café - Sitio Oficial",
+             "description": "Café sin gluten en Vitacura, Av. Luis Pasteur 6156."},
+            {"url": "https://www.tripadvisor.cl/Restaurant_Review-g1.html",
+             "title": "Bicka Café en Tripadvisor", "description": "Reviews y fotos de Bicka Café."},
+            {"url": "https://www.instagram.com/bickacafe/",
+             "title": "Bicka Café en Instagram", "description": "Síguenos en Instagram."},
+        ]
+    }
+}
 
-    def __init__(self, entries=None, snippets=None, status=200, goto_exc=None):
-        self._entries = entries or []
-        self._snippets = snippets or []
-        self._status = status
-        self._goto_exc = goto_exc
-        self.goto_url = None
 
-    def goto(self, url, wait_until=None, timeout=None):
-        self.goto_url = url
-        assert "html.duckduckgo.com/html/" in url
+def _brave_urlopen(payload):
+    """Fake urlopen para el endpoint de Brave que devuelve `payload` como JSON."""
+    def fake(request, timeout=None):
+        url = request.full_url if hasattr(request, "full_url") else request
+        assert "api.search.brave.com" in url
         assert "q=" in url
-        if self._goto_exc is not None:
-            raise self._goto_exc
-        page = self
-
-        class _Resp:
-            status = page._status
-
-        return _Resp()
-
-    def wait_for_selector(self, *args, **kwargs):
-        return None
-
-    def eval_on_selector_all(self, selector, expr):
-        if selector == "a.result__a":
-            return self._entries
-        if selector == "a.result__snippet":
-            return self._snippets
-        return []
-
-    def close(self):
-        pass
-
-
-_DDG_ENTRIES = [
-    {"href": "/l/?uddg=https%3A%2F%2Fbickacafe.cl%2F&rut=aaa", "text": "Bicka Café - Sitio Oficial"},
-    {"href": "/l/?uddg=https%3A%2F%2Fwww.tripadvisor.cl%2FRestaurant_Review-g1.html&rut=bbb", "text": "Bicka Café en Tripadvisor"},
-    {"href": "/l/?uddg=https%3A%2F%2Fwww.instagram.com%2Fbickacafe%2F&rut=ccc", "text": "Bicka Café en Instagram"},
-]
-_DDG_SNIPPETS = [
-    "Café sin gluten en Vitacura, Av. Luis Pasteur 6156.",
-    "Reviews y fotos de Bicka Café.",
-    "Síguenos en Instagram.",
-]
-
-
-def _fake_ddg_page(**kwargs):
-    kwargs.setdefault("entries", _DDG_ENTRIES)
-    kwargs.setdefault("snippets", _DDG_SNIPPETS)
-    return _FakePage(**kwargs)
+        assert request.headers.get("X-subscription-token") == "brave-key"
+        return _FakeResponse(json.dumps(payload, ensure_ascii=False).encode("utf-8"))
+    return fake
 
 
 def _llm_response(payload: dict) -> _FakeResponse:
@@ -133,13 +76,14 @@ def test_build_search_query_without_address():
     assert "Luis Pasteur" in got
 
 
-# --- 2. fetch_candidates ---
+# --- 2. fetch_candidates_brave ---
 
-def test_fetch_candidates_parses_duckduckgo_html():
+def test_fetch_candidates_brave_parses_results(monkeypatch):
     from maps_gluten import website_search
 
-    page = _fake_ddg_page()
-    results = website_search.fetch_candidates("x", page=page)
+    monkeypatch.setattr("urllib.request.urlopen", _brave_urlopen(BRAVE_FIXTURE))
+    results, status = website_search.fetch_candidates_brave("x", api_key="brave-key")
+    assert status is None
     assert len(results) == 3
     assert [r["url"] for r in results] == [
         "https://bickacafe.cl/",
@@ -149,6 +93,140 @@ def test_fetch_candidates_parses_duckduckgo_html():
     assert results[0]["title"] == "Bicka Café - Sitio Oficial"
     assert "Vitacura" in results[0]["snippet"]
     assert results[1]["url"].startswith("https://www.tripadvisor.cl/")
+
+
+def test_fetch_candidates_brave_skips_incomplete_items(monkeypatch):
+    from maps_gluten import website_search
+
+    payload = {"web": {"results": [
+        {"url": "", "title": "sin url", "description": "x"},
+        {"url": "https://a.cl/", "title": "", "description": "x"},
+        "basura",
+        {"url": "https://b.cl/", "title": "Bien", "description": "ok"},
+    ]}}
+    monkeypatch.setattr("urllib.request.urlopen", _brave_urlopen(payload))
+    results, status = website_search.fetch_candidates_brave("x", api_key="brave-key")
+    assert status is None
+    assert [r["url"] for r in results] == ["https://b.cl/"]
+
+
+def test_fetch_candidates_brave_malformed_payload_degrades(monkeypatch):
+    from maps_gluten import website_search
+
+    monkeypatch.setattr("urllib.request.urlopen", _brave_urlopen({}))
+    assert website_search.fetch_candidates_brave("x", api_key="brave-key") == ([], None)
+
+
+def test_fetch_candidates_brave_statuses(monkeypatch):
+    from maps_gluten import website_search
+
+    # Sin key: no toca la red.
+    assert website_search.fetch_candidates_brave("x", api_key=None) == ([], "no_key")
+
+    for code, expected in ((403, "blocked"), (429, "quota"), (500, "error")):
+        def boom(request, timeout=None, _code=code):
+            raise urllib.error.HTTPError(
+                "https://api.search.brave.com", _code, "boom", None, None
+            )
+
+        monkeypatch.setattr("urllib.request.urlopen", boom)
+        assert website_search.fetch_candidates_brave("x", api_key="brave-key") == ([], expected)
+
+
+# --- 2b. _page_evidence ---
+
+def test_page_evidence_finds_address_tokens(monkeypatch):
+    from maps_gluten import website_search
+
+    html = "<html><body><h1>AllFree</h1><p>Av. Apoquindo 7474, Las Condes</p></body></html>"
+    monkeypatch.setattr(
+        "urllib.request.urlopen",
+        lambda request, timeout=None: _FakeResponse(html.encode("utf-8")),
+    )
+    ev = website_search._page_evidence(
+        "https://www.allfree.cl/sobre-nosotros", "Av. Apoquindo 7474, Las Condes"
+    )
+    assert "apoquindo" in ev
+    assert "7474" in ev
+    assert "condes" in ev
+
+
+def test_page_evidence_degrades_without_match_or_on_error(monkeypatch):
+    from maps_gluten import website_search
+
+    monkeypatch.setattr(
+        "urllib.request.urlopen",
+        lambda request, timeout=None: _FakeResponse(b"<html><body>nada que ver</body></html>"),
+    )
+    assert website_search._page_evidence("https://x.cl", "Av. Apoquindo 7474, Las Condes") == ""
+
+    def boom(request, timeout=None):
+        raise OSError("timeout")
+
+    monkeypatch.setattr("urllib.request.urlopen", boom)
+    assert website_search._page_evidence("https://x.cl", "Av. Apoquindo 7474, Las Condes") == ""
+
+    assert website_search._page_evidence("https://x.cl", None) == ""
+
+
+def test_llm_validate_includes_page_evidence_in_prompt(monkeypatch):
+    from maps_gluten import website_search
+
+    captured: dict = {}
+
+    def ok_urlopen(request, timeout=None):
+        captured["body"] = request.data.decode("utf-8")
+        return _llm_response({"url": "https://allfree.cl/x", "score": 0.9, "reason": "ok"})
+
+    monkeypatch.setattr("urllib.request.urlopen", ok_urlopen)
+    candidates = [{"url": "https://allfree.cl/x", "title": "AllFree", "snippet": "tienda"}]
+    url, score = website_search.llm_validate(
+        "ALLFREE",
+        "Av. Apoquindo 7474, Las Condes",
+        candidates,
+        "key",
+        {"https://allfree.cl/x": "apoquindo,7474,condes"},
+    )
+    assert (url, score) == ("https://allfree.cl/x", 0.9)
+    assert "apoquindo,7474,condes" in captured["body"]
+    # El prompt exige aceptar SOLO el sitio oficial (no artículos/directorios).
+    assert "sitio oficial" in captured["body"].lower()
+
+
+def test_search_website_passes_page_evidence_to_llm(monkeypatch):
+    """El LLM ve la evidencia de dirección que contiene la página candidata."""
+    from maps_gluten import website_search
+
+    _no_search_keys(monkeypatch)
+    monkeypatch.setenv("BRAVE_API_KEY", "brave-key")
+    candidates = [
+        {"url": "https://www.allfree.cl/sobre-nosotros",
+         "title": "ALLFREE - Tienda", "snippet": "Compra online"},
+    ]
+    monkeypatch.setattr(
+        "maps_gluten.website_search.fetch_candidates_brave",
+        lambda query, *, api_key, timeout=10: (candidates, None),
+    )
+    page_html = "<html><body>ALLFREE Apoquindo 7474 Las Condes</body></html>"
+    captured: dict = {}
+
+    def fake_urlopen(request, timeout=None):
+        url = request.full_url
+        if "generativelanguage.googleapis.com" in url:
+            captured["body"] = request.data.decode("utf-8")
+            return _llm_response(
+                {"url": "https://www.allfree.cl/sobre-nosotros", "score": 0.9, "reason": "ok"}
+            )
+        return _FakeResponse(page_html.encode("utf-8"))
+
+    monkeypatch.setattr("urllib.request.urlopen", fake_urlopen)
+    url, score, status, _ = website_search.search_website(
+        "ALLFREE", "Av. Apoquindo 7474, Las Condes", api_key="key"
+    )
+    assert (url, score, status) == ("https://www.allfree.cl/sobre-nosotros", 0.9, "no_serpapi_key")
+    body = captured["body"].lower()
+    assert "evidencia:" in body
+    assert "evidencia: apoquindo" in body
 
 
 # --- 3. filter_candidates ---
@@ -187,6 +265,22 @@ def test_filter_candidates_drops_directories_and_delivery():
     ]
     filtered = filter_candidates(candidates)
     assert [c["url"] for c in filtered] == ["https://cafe-aquelarre.cl/"]
+
+
+def test_filter_candidates_prefers_brand_domain(monkeypatch):
+    """El oficial (dominio contiene la marca) va primero aunque Brave lo traiga atrás."""
+    from maps_gluten.website_search import filter_candidates
+
+    candidates = [
+        {"url": "https://mujeresymas.cl/allfree-estrena/", "title": "ALLFREE estrena - nota", "snippet": "x"},
+        {"url": "https://caroandrade.cl/", "title": "Caro Andrade", "snippet": "x"},
+        {"url": "https://www.saboresparaalegrar.cl/puntos-de-venta", "title": "PdV", "snippet": "x"},
+        {"url": "https://forsantiagodechilelovers.com/lista/", "title": "Lista", "snippet": "x"},
+        {"url": "https://bogota.com/otro", "title": "Otro", "snippet": "x"},
+        {"url": "https://www.allfree.cl/sobre-nosotros", "title": "ALLFREE - Tienda", "snippet": "x"},
+    ]
+    ranked = filter_candidates(candidates, name="ALLFREE")
+    assert ranked[0]["url"].startswith("https://www.allfree.cl/")
 
 
 def test_filter_candidates_limits_to_five_and_bad_host_re():
@@ -322,49 +416,108 @@ def test_normalize_official_url_strips_tracking_and_deep_shop_paths():
 
 # --- 6. search_website degradación 403 / 429 ---
 
+def _no_search_keys(monkeypatch):
+    monkeypatch.delenv("SERPAPI_KEY", raising=False)
+    monkeypatch.delenv("BRAVE_API_KEY", raising=False)
+
+
 def test_search_website_degrades_on_block_and_429(monkeypatch):
     from maps_gluten import website_search
 
-    # Mock SerpAPI para que no se use (simular que no hay key o falla)
+    _no_search_keys(monkeypatch)
     monkeypatch.setattr(
         "maps_gluten.website_search.fetch_candidates_serpapi",
-        lambda query, *, api_key, timeout: ([], "no_key"),
+        lambda query, *, api_key, timeout: ([], "error"),
     )
 
-    # DDG responde 403 vía Playwright (status en response) -> blocked.
-    result = website_search.search_website(
-        "Café Bicka", "Vitacura", api_key="key", page=_FakePage(status=403)
+    # SerpAPI caído + Brave 403 -> blocked.
+    monkeypatch.setattr(
+        "maps_gluten.website_search.fetch_candidates_brave",
+        lambda query, *, api_key, timeout=10: ([], "blocked"),
     )
-    assert result == (None, 0.0, "blocked", {})
+    monkeypatch.setenv("BRAVE_API_KEY", "brave-key")
+    assert website_search.search_website("Café Bicka", "Vitacura", api_key="key") == (
+        None, 0.0, "blocked", {}
+    )
 
-    # DDG responde 429 -> quota.
-    result = website_search.search_website(
-        "Café Bicka", "Vitacura", api_key="key", page=_FakePage(status=429)
+    # SerpAPI caído + Brave 429 -> quota.
+    monkeypatch.setattr(
+        "maps_gluten.website_search.fetch_candidates_brave",
+        lambda query, *, api_key, timeout=10: ([], "quota"),
     )
-    assert result == (None, 0.0, "quota", {})
+    assert website_search.search_website("Café Bicka", "Vitacura", api_key="key") == (
+        None, 0.0, "quota", {}
+    )
+
+
+def test_search_website_brave_fallback_status(monkeypatch):
+    """SerpAPI falla pero Brave responde: status 'brave_fallback' y acepta el match."""
+    from maps_gluten import website_search
+
+    monkeypatch.setenv("SERPAPI_KEY", "serpapi-key")
+    monkeypatch.setenv("BRAVE_API_KEY", "brave-key")
+    monkeypatch.setattr(
+        "maps_gluten.website_search.fetch_candidates_serpapi",
+        lambda query, *, api_key, timeout: ([], "error"),
+    )
+    monkeypatch.setattr(
+        "maps_gluten.website_search.fetch_candidates_brave",
+        lambda query, *, api_key, timeout=10: (BRAVE_FIXTURE["web"]["results"], None),
+    )
+    monkeypatch.setattr(
+        "urllib.request.urlopen",
+        lambda request, timeout=None: _llm_response(
+            {"url": "https://bickacafe.cl/", "score": 0.9, "reason": "ok"}
+        ),
+    )
+    url, score, status, _ = website_search.search_website(
+        "Café Bicka", "Av. Luis Pasteur 6156, Vitacura", api_key="key"
+    )
+    assert (url, score, status) == ("https://bickacafe.cl/", 0.9, "brave_fallback")
+
+
+def test_search_website_no_search_key(monkeypatch):
+    from maps_gluten import website_search
+
+    _no_search_keys(monkeypatch)
+
+    def boom(*args, **kwargs):
+        raise AssertionError("no debe llamar a la red sin ninguna key")
+
+    monkeypatch.setattr("urllib.request.urlopen", boom)
+    assert website_search.search_website("Café", "Av X", api_key="key") == (
+        None, 0.0, "no_search_key", {}
+    )
 
 
 def test_search_website_end_to_end_accepts_strong_match(monkeypatch):
     """Flujo completo: build->fetch->filter->llm_validate, solo acepta score>=0.85."""
     from maps_gluten import website_search
 
-    # Mock SerpAPI para que no se use
+    _no_search_keys(monkeypatch)
+    monkeypatch.setenv("BRAVE_API_KEY", "brave-key")
     monkeypatch.setattr(
         "maps_gluten.website_search.fetch_candidates_serpapi",
         lambda query, *, api_key, timeout: ([], "no_key"),
+    )
+    monkeypatch.setattr(
+        "maps_gluten.website_search.fetch_candidates_brave",
+        lambda query, *, api_key, timeout=10: (BRAVE_FIXTURE["web"]["results"], None),
     )
 
     calls = {"n": 0}
 
     def fake_urlopen(request, timeout=None):
-        # Solo Gemini usa urllib (DDG va por la página Playwright falsa).
+        url = request.full_url
+        if "generativelanguage.googleapis.com" not in url:
+            # Probe de página: sin dirección no habrá evidencia.
+            return _FakeResponse(b"<html><body>Cafeteria familiar</body></html>")
         calls["n"] += 1
-        assert "generativelanguage.googleapis.com" in request.full_url
         return _llm_response({"url": "https://bickacafe.cl/", "score": 0.91, "reason": "ok"})
 
     monkeypatch.setattr("urllib.request.urlopen", fake_urlopen)
     url, score, error, platforms = website_search.search_website(
-        "Café Bicka", "Av. Luis Pasteur 6156, Vitacura", api_key="key", page=_fake_ddg_page()
+        "Café Bicka", "Av. Luis Pasteur 6156, Vitacura", api_key="key"
     )
     assert (url, score, error) == ("https://bickacafe.cl/", 0.91, "no_serpapi_key")
     assert platforms == {}
@@ -415,8 +568,8 @@ def test_enrich_places_uses_search_fallback(monkeypatch):
     )
     captured: dict = {}
 
-    def _fake_search(name, address, *, api_key, timeout=12, page=None):
-        captured["page"] = page
+    def _fake_search(name, address, *, api_key, timeout=12):
+        captured["api_key"] = api_key
         return ("https://ejemplo.cl/", 0.9, None, {})
 
     monkeypatch.setattr(
@@ -434,7 +587,7 @@ def test_enrich_places_uses_search_fallback(monkeypatch):
     )
     assert place.website == "https://ejemplo.cl/"
     assert place.website_source == "search"
-    assert captured.get("page") is fake_page
+    assert captured.get("api_key") == "key"
 
     # Caso débil: score 0.3 -> no acepta, queda sin website.
     place2 = Place(
@@ -449,7 +602,7 @@ def test_enrich_places_uses_search_fallback(monkeypatch):
     )
     monkeypatch.setattr(
         "maps_gluten.website_search.search_website",
-        lambda name, address, *, api_key, timeout=12, page=None: ("https://ejemplo.cl/", 0.3, None, {}),
+        lambda name, address, *, api_key, timeout=12: ("https://ejemplo.cl/", 0.3, None, {}),
     )
     enrich.enrich_places(
         FakePage(website=None),

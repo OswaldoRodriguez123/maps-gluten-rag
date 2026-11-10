@@ -62,7 +62,7 @@ def _build_parser() -> argparse.ArgumentParser:
         "--website-search",
         action=argparse.BooleanOptionalAction,
         default=None,
-        help="Buscar la web vía DuckDuckGo+Gemini cuando Maps no la trae (por defecto MAPS_WEBSITE_SEARCH o sí).",
+        help="Buscar la web vía SerpAPI/Brave+Gemini cuando Maps no la trae (por defecto MAPS_WEBSITE_SEARCH o sí).",
     )
     run.add_argument(
         "--refresh-enrichment",

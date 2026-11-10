@@ -210,8 +210,8 @@ def test_update_new_places_uses_search_when_maps_empty(monkeypatch, tmp_path):
     )
     seen = {}
 
-    def fake_search_website(name, address, api_key=None, timeout=12, browser=None):
-        seen["browser"] = browser
+    def fake_search_website(name, address, api_key=None, timeout=12):
+        seen["called"] = True
         return ("https://nuevo.cl/", 0.95, None, {})
 
     monkeypatch.setattr(
@@ -261,8 +261,8 @@ def test_update_new_places_uses_search_when_maps_empty(monkeypatch, tmp_path):
     )
 
     assert unp.main() == 0
-    # El browser de sync_playwright() debe llegar hasta search_website.
-    assert seen["browser"] is fake_browser
+    # El fallback de búsqueda se invocó (SerpAPI/Brave no necesitan el browser).
+    assert seen["called"] is True
     stored_links = json.loads((data_dir / "place_links.json").read_text(encoding="utf-8"))
     assert stored_links["nv1"]["website"] == "https://nuevo.cl/"
     places_after = read_jsonl(data_dir / "mis_lugares_sin_gluten.jsonl")

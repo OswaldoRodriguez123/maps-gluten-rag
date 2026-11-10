@@ -35,6 +35,7 @@ jobs:
       - name: Test search_website en vivo
         env:
           SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
+          BRAVE_API_KEY: ${{ secrets.BRAVE_API_KEY }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           PLACE: ${{ inputs.place }}
           ADDRESS: ${{ inputs.address }}
@@ -57,6 +58,6 @@ jobs:
           print("score:", score)
           print("status:", status)
           print("platform_urls:", platforms)
-          if status == "no_serpapi_key":
-              raise SystemExit("SERPAPI_KEY no llegó al entorno")
+          if status in ("no_serpapi_key", "no_search_key"):
+              raise SystemExit("Las keys no llegaron al entorno")
           '

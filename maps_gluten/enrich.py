@@ -746,7 +746,7 @@ def enrich_places(
             searched = True
             try:
                 url, score, _error, _platform_urls = search_fn(
-                    place.name, place.address, api_key=gemini_api_key, page=page
+                    place.name, place.address, api_key=gemini_api_key
                 )
             except Exception:
                 url, score = None, 0.0
