@@ -11,6 +11,9 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date
 from urllib.parse import parse_qs, unquote, urlparse
 
+from .net import urlopen
+from .text import one_line
+
 API = "https://api.apify.com/v2"
 ACTOR = "nomad-agent~google-maps-menu-scraper-managed"
 POLL_SECONDS = 15
@@ -22,7 +25,7 @@ def _request(url: str, *, data: dict | None = None, timeout: int = 60):
     request = urllib.request.Request(
         url, data=payload, headers=headers, method="POST" if payload else "GET"
     )
-    with urllib.request.urlopen(request, timeout=timeout) as response:
+    with urlopen(request, timeout=timeout) as response:
         return json.loads(response.read().decode("utf-8"))
 
 
@@ -83,11 +86,11 @@ def _clean_dish(item: dict) -> dict:
         if name and name not in ingredients:
             ingredients.append(name)
     return {
-        "name": item.get("name"),
-        "original_name": item.get("originalName"),
-        "category": item.get("category"),
-        "price": item.get("price"),
-        "description": item.get("description") or item.get("composition"),
+        "name": one_line(item.get("name")),
+        "original_name": one_line(item.get("originalName")) if item.get("originalName") else None,
+        "category": one_line(item.get("category")) if item.get("category") else None,
+        "price": one_line(item.get("price")) if item.get("price") else None,
+        "description": one_line(item.get("description") or item.get("composition")) or None,
         "ingredients": ingredients,
         "allergens": item.get("allergens"),
         "dietary_type": item.get("dietaryType"),

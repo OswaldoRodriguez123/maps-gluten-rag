@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import sys
+
 from .base import Adapter, MenuItem, MenuResult, PlaceContext
 
 __all__ = ["Adapter", "MenuItem", "MenuResult", "PlaceContext", "extract", "default_adapters"]
@@ -21,7 +23,12 @@ def default_adapters() -> list[Adapter]:
         from .shopify import ShopifyAdapter
         from .ubereats import UberEatsAdapter
         from .woocommerce import WooCommerceAdapter
-    except ImportError:
+    except ImportError as error:
+        print(
+            f"[platforms] adaptadores no disponibles ({error}); "
+            "se degrada a needs_manual para todas las cartas.",
+            file=sys.stderr,
+        )
         return []
     return [
         FudoAdapter(),

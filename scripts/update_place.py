@@ -14,6 +14,7 @@ sys.path.insert(0, str(ROOT))
 from playwright.sync_api import sync_playwright  # noqa: E402
 
 from maps_gluten import enrich, gdocs, store  # noqa: E402
+from maps_gluten.text import one_line  # noqa: E402
 
 
 def _normalize(value: str) -> str:
@@ -78,7 +79,7 @@ def _update_markdown(path: Path, url: str, dishes: str | None) -> str:
                 (index for index, line in enumerate(section) if line.startswith("- **Enlace:**")),
                 len(section) - 1,
             )
-        section.insert(insert_at + 1, f"- **Menciona en su web:** {dishes}")
+        section.insert(insert_at + 1, f"- **Menciona en su web:** {one_line(dishes)}")
     content = "\n".join(lines[:start] + section + lines[end:]).rstrip() + "\n"
     path.write_text(content, encoding="utf-8")
     return content

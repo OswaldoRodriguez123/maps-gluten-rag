@@ -289,3 +289,72 @@ To rebuild the Doc from the JSONL without re-listing the 100:
 gh workflow run rebuild-doc.yml \
   --repo OswaldoRodriguez123/maps-gluten-rag
 ```
+
+## Security notes
+
+Documented decisions and residual risks after the November 2026 audit
+(see `security-audit-skill/maps-gluten-rag/run-1` for the original report).
+
+### Outbound fetch boundary (egress)
+
+All HTTP fetches of non-fixed URLs (websites from Maps, search candidates,
+photo URLs from Apify) go through `maps_gluten/net.py`:
+
+- Scheme must be `http`/`https`; the host must resolve to globally routable
+  addresses only (no loopback, RFC1918, link-local, CGN or reserved ranges).
+- urllib calls use `net.urlopen`, which validates the initial URL and every
+  redirect hop. requests sessions use `net.guarded_session()`, whose adapter
+  revalidates each request (including redirects). Response bodies are read
+  with a 5 MB cap (`net.fetch_capped`).
+- Playwright contexts created in `extract._launch` install a route guard on
+  `**/*` that aborts any http(s) request to a non-public destination.
+- Residual risk: DNS resolution happens per fetch and is cached per process;
+  a hostile DNS answer that flips between validation and connect (rebinding)
+  is not fully mitigated, and runner egress to private ranges is a deployment
+  control outside this repo (host firewall / proxy rules still apply).
+- `_page_evidence` (pre-acceptance probe of LLM-selected candidates) goes
+  through the same gate.
+
+### Scraped text in the Doc and the Markdown
+
+- Dish/category names from Apify are single-lined at ingest
+  (`apify._clean_dish`) and every generated Markdown document is line-normalized
+  before it is written (`render.document`, `store.write_markdown`) and again
+  before it is published to the Doc (`gdocs.update_document`). Embedded line
+  breaks (`\n`, `\u2028`, `\u2029`, `U+0085`) can therefore no longer turn a dish
+  name into an arbitrary `####` heading or bullet.
+- Link injection is not possible: the Doc updater only emits bold text style,
+  never hyperlinks.
+- Residual risk (accepted): the rendering is structure-by-prefix, so verbatim
+  scraped strings are still embedded as text. Obfuscation-only payloads (no
+  line breaks) can look like headings inside a paragraph's plain text, which
+  is cosmetic; treat dish names as untrusted display text everywhere.
+
+### Local runner secrets and permissions
+
+- `run_daily.sh`, `scripts/sync_drive.sh` and `scripts/install_launchd.sh`
+  set `umask 077`. `.env`, `data/historial_lugares.db`, `data/` and `.auth/`
+  are owner-only (`600`/`700`).
+- `.env` is sourced with `set -a; . ./.env; set +a`, which means **`.env`
+  silently overrides variables already present in the caller's environment**,
+  including `EnvironmentVariables` from launchd. To keep a variable from the
+  caller, unset it in `.env` or move it out of `.env`.
+- The Google service account token is scoped to `documents` only, but that
+  scope covers every Doc the account can reach; access control rests on
+  sharing only the target Doc with the service account and never widening it.
+- `GDOC_ID` selects the Doc at publish time; it is the binding between the
+  pipeline and the single document. Keep it secret-less (it is an identifier,
+  not a credential) but treat Doc sharing as the access control.
+
+### CI workflows
+
+- All `uses:` refs are pinned to full commit SHAs (third-party and first-party).
+- `workflow_dispatch` inputs are passed to steps via `env:` and referenced as
+  quoted shell variables; never interpolated with `${{ }}` inside `run:`.
+- Jobs that push to `main` keep `persist-credentials` at the checkout default
+  (they need the token to push). There is no job that checks out code without
+  pushing, so `persist-credentials: false` is not applicable anywhere today;
+  add it the day a read-only job appears.
+- Branch protection / rulesets on `main` are deployment-side and outside this
+  repo; the workflows push directly and a ruleset requiring PRs would fail
+  them.

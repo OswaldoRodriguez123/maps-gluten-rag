@@ -4,7 +4,7 @@ import html
 import json
 import re
 
-import requests
+from ..net import fetch_capped, guarded_session
 
 from .base import MenuItem, MenuResult, PlaceContext
 
@@ -89,10 +89,10 @@ class RappiAdapter:
         urls = self._urls(ctx)
         if not urls:
             return MenuResult("empty", [], "rappi")
-        session = ctx.session or requests.Session()
+        session = ctx.session or guarded_session()
         for url in urls:
             try:
-                response = session.get(
+                response = fetch_capped(session,
                     url,
                     headers={"User-Agent": "Mozilla/5.0", "Accept-Language": "es-CL,es;q=0.9"},
                     timeout=60,

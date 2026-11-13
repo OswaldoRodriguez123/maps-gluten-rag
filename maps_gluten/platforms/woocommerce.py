@@ -4,7 +4,7 @@ import html
 import re
 from urllib.parse import urlparse
 
-import requests
+from ..net import fetch_capped, guarded_session
 
 from .base import MenuItem, MenuResult, PlaceContext
 
@@ -35,9 +35,9 @@ class WooCommerceAdapter:
     def detect(self, ctx: PlaceContext) -> bool:
         if not ctx.website:
             return False
-        session = ctx.session or requests.Session()
+        session = ctx.session or guarded_session()
         try:
-            response = session.get(
+            response = fetch_capped(session,
                 f"{_base(ctx.website)}/wp-json/wc/store/products?per_page=1",
                 timeout=25,
             )
@@ -48,13 +48,13 @@ class WooCommerceAdapter:
     def extract(self, ctx: PlaceContext) -> MenuResult:
         if not ctx.website:
             return MenuResult("empty", [], "woocommerce")
-        session = ctx.session or requests.Session()
+        session = ctx.session or guarded_session()
         base = _base(ctx.website)
         items: list[MenuItem] = []
         seen = set()
         for page in range(1, 51):
             try:
-                response = session.get(
+                response = fetch_capped(session,
                     f"{base}/wp-json/wc/store/products",
                     params={"per_page": 100, "page": page},
                     timeout=40,

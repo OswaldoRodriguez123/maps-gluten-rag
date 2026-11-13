@@ -9,6 +9,8 @@ import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date
 from html.parser import HTMLParser
+
+from .net import urlopen
 from io import BytesIO
 from urllib.parse import urljoin, urlparse
 
@@ -255,7 +257,7 @@ def _ocr_pdf(raw: bytes) -> str:
 def _download_image(url: str, timeout: int = 10) -> bytes:
     try:
         request = urllib.request.Request(url, headers={"User-Agent": UA})
-        with urllib.request.urlopen(request, timeout=timeout) as response:
+        with urlopen(request, timeout=timeout) as response:
             content_type = (response.headers.get_content_type() or "").lower()
             if not content_type.startswith("image/"):
                 return b""
@@ -304,7 +306,7 @@ def _fetch(url: str, timeout: int = 12) -> tuple[str, str, list[tuple[str, str]]
         url,
         headers={"User-Agent": UA, "Accept-Language": "es-CL,es;q=0.9,en;q=0.8"},
     )
-    with urllib.request.urlopen(request, timeout=timeout) as response:
+    with urlopen(request, timeout=timeout) as response:
         raw = response.read(5_000_000)
         final_url = response.geturl()
         content_type = (response.headers.get_content_type() or "").lower()
@@ -453,7 +455,7 @@ def _fetch_html(url: str, timeout: int = 12) -> tuple[str, str]:
         url,
         headers={"User-Agent": UA, "Accept-Language": "es-CL,es;q=0.9,en;q=0.8"},
     )
-    with urllib.request.urlopen(request, timeout=timeout) as response:
+    with urlopen(request, timeout=timeout) as response:
         raw = response.read(5_000_000)
         final_url = response.geturl()
         content_type = (response.headers.get_content_type() or "").lower()

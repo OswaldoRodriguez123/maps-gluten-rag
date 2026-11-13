@@ -5,7 +5,7 @@ import json
 import re
 from urllib.parse import urlparse
 
-import requests
+from ..net import fetch_capped, guarded_session
 
 from .base import MenuItem, MenuResult, PlaceContext
 from .jsonld import parse_products
@@ -90,22 +90,22 @@ class ShopifyAdapter:
     def detect(self, ctx: PlaceContext) -> bool:
         if not ctx.website:
             return False
-        session = ctx.session or requests.Session()
+        session = ctx.session or guarded_session()
         base = _base(ctx.website)
         try:
-            profile = session.get(f"{base}/.well-known/ucp", timeout=25)
+            profile = fetch_capped(session, f"{base}/.well-known/ucp", timeout=25)
             if profile.status_code == 200:
                 return True
         except Exception:
             pass
         try:
-            response = session.get(f"{base}/products.json?limit=1", timeout=25)
+            response = fetch_capped(session, f"{base}/products.json?limit=1", timeout=25)
             if response.status_code in (200, 429):
                 return True
         except Exception:
             pass
         try:
-            home = session.get(ctx.website, timeout=25)
+            home = fetch_capped(session, ctx.website, timeout=25)
             text = (home.text or "").lower()
             return "shopify" in text or "cdn.shopify.com" in text
         except Exception:
@@ -114,7 +114,7 @@ class ShopifyAdapter:
     def _products_json(self, ctx: PlaceContext, base: str, session) -> list[MenuItem]:
         items: list[MenuItem] = []
         for page in range(1, 21):
-            response = session.get(
+            response = fetch_capped(session,
                 f"{base}/products.json",
                 params={"limit": 250, "page": page},
                 timeout=40,
@@ -160,7 +160,7 @@ class ShopifyAdapter:
         return items
 
     def _ucp(self, ctx: PlaceContext, base: str, session) -> list[MenuItem]:
-        profile_response = session.get(f"{base}/.well-known/ucp", timeout=30)
+        profile_response = fetch_capped(session, f"{base}/.well-known/ucp", timeout=30)
         if profile_response.status_code != 200:
             return []
         profile = profile_response.json()
@@ -274,7 +274,7 @@ class ShopifyAdapter:
         if not ctx.browser:
             return []
         try:
-            index = session.get(f"{base}/sitemap.xml", timeout=30)
+            index = fetch_capped(session, f"{base}/sitemap.xml", timeout=30)
             if index.status_code != 200:
                 return []
         except Exception:
@@ -287,7 +287,7 @@ class ShopifyAdapter:
         product_urls: list[str] = []
         for url in maps:
             try:
-                response = session.get(url, timeout=30)
+                response = fetch_capped(session, url, timeout=30)
                 product_urls.extend(re.findall(r"<loc>(.*?)</loc>", response.text))
             except Exception:
                 continue
@@ -318,7 +318,7 @@ class ShopifyAdapter:
     def extract(self, ctx: PlaceContext) -> MenuResult:
         if not ctx.website:
             return MenuResult("empty", [], "shopify")
-        session = ctx.session or requests.Session()
+        session = ctx.session or guarded_session()
         base = _base(ctx.website)
         items: list[MenuItem] = []
         try:

@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 set -euo pipefail
+umask 077
 
 PROJECT_DIR="$(cd "$(dirname "$0")/.." && pwd)"
 NAME="com.mapsgluten.scraper.plist"

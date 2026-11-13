@@ -19,6 +19,8 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
+from .net import urlopen
+
 DEFAULT_SEARCH_MODEL = "gemini-flash-lite-latest"
 ACCEPT_THRESHOLD = 0.85
 SERPAPI_URL = "https://serpapi.com/search.json"
@@ -173,7 +175,7 @@ def fetch_candidates_serpapi(
         method="GET",
     )
     try:
-        with urllib.request.urlopen(request, timeout=timeout) as response:
+        with urlopen(request, timeout=timeout) as response:
             raw = response.read()
             data = json.loads(raw.decode("utf-8"))
     except urllib.error.HTTPError as exc:
@@ -239,7 +241,7 @@ def fetch_candidates_brave(
         method="GET",
     )
     try:
-        with urllib.request.urlopen(request, timeout=timeout) as response:
+        with urlopen(request, timeout=timeout) as response:
             raw = response.read()
             data = json.loads(raw.decode("utf-8"))
     except urllib.error.HTTPError as exc:
@@ -356,7 +358,7 @@ def _page_evidence(url: str, address: str | None, *, timeout: int = PROBE_TIMEOU
             headers={"User-Agent": UA, "Accept": "text/html"},
             method="GET",
         )
-        with urllib.request.urlopen(request, timeout=timeout) as response:
+        with urlopen(request, timeout=timeout) as response:
             raw = response.read(PROBE_MAX_BYTES)
     except Exception:
         return ""
@@ -438,7 +440,7 @@ def llm_validate(
         method="POST",
     )
     try:
-        with urllib.request.urlopen(request, timeout=LLM_TIMEOUT) as response:
+        with urlopen(request, timeout=LLM_TIMEOUT) as response:
             raw = response.read()
             result = (
                 json.loads(raw.decode("utf-8"))
