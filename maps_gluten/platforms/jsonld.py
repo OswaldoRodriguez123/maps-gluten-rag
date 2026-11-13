@@ -5,7 +5,7 @@ import json
 import re
 from urllib.parse import urljoin, urlparse
 
-import requests
+from ..net import fetch_capped, guarded_session
 
 from .base import MenuItem, MenuResult, PlaceContext
 
@@ -124,7 +124,7 @@ class JsonLdAdapter:
     def extract(self, ctx: PlaceContext) -> MenuResult:
         if not ctx.website:
             return MenuResult("empty", [], "web-jsonld")
-        session = ctx.session or requests.Session()
+        session = ctx.session or guarded_session()
         headers = {"User-Agent": "Mozilla/5.0 (compatible; maps-gluten-rag/1.0)"}
         items: list[MenuItem] = []
         seen = set()
@@ -143,7 +143,7 @@ class JsonLdAdapter:
             if len(items) >= ctx.max_items:
                 break
             try:
-                response = session.get(url, headers=headers, timeout=25)
+                response = fetch_capped(session, url, headers=headers, timeout=25)
                 if response.status_code != 200:
                     continue
             except Exception:
@@ -158,7 +158,7 @@ class JsonLdAdapter:
             if len(items) >= ctx.max_items:
                 break
             try:
-                response = session.get(link, headers=headers, timeout=25)
+                response = fetch_capped(session, link, headers=headers, timeout=25)
                 if response.status_code != 200:
                     continue
             except Exception:

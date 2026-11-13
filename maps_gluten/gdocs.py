@@ -8,6 +8,8 @@ import re
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 
+from .text import normalize_markdown
+
 SCOPES = ["https://www.googleapis.com/auth/documents"]
 BATCH_SIZE = 200
 
@@ -135,6 +137,7 @@ def update_document(doc_id: str, markdown: str) -> int:
     body = document.get("body", {}).get("content", [])
     end = body[-1].get("endIndex", 2) - 1 if body else 1
 
+    markdown = normalize_markdown(markdown)
     blocks = _blocks(markdown)
     text, positioned = _document_text(blocks)
 

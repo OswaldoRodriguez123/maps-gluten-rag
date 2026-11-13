@@ -8,6 +8,8 @@ import time
 import unicodedata
 import urllib.parse
 import urllib.request
+
+from .net import urlopen
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date
 from io import BytesIO
@@ -60,7 +62,7 @@ def _request(url: str, *, data: dict | None = None, timeout: int = 60):
     request = urllib.request.Request(
         url, data=payload, headers=headers, method="POST" if payload else "GET"
     )
-    with urllib.request.urlopen(request, timeout=timeout) as response:
+    with urlopen(request, timeout=timeout) as response:
         return json.loads(response.read().decode("utf-8"))
 
 
@@ -114,7 +116,7 @@ def _normalize(value: str) -> str:
 def _download(url: str, timeout: int = 15) -> bytes:
     try:
         request = urllib.request.Request(url, headers={"User-Agent": UA})
-        with urllib.request.urlopen(request, timeout=timeout) as response:
+        with urlopen(request, timeout=timeout) as response:
             return response.read(20_000_000)
     except Exception:
         return b""
@@ -147,7 +149,7 @@ def _vision_menu(raw: bytes, api_key: str, model: str) -> list[dict]:
         headers={"Content-Type": "application/json"},
         method="POST",
     )
-    with urllib.request.urlopen(request, timeout=120) as response:
+    with urlopen(request, timeout=120) as response:
         result = json.loads(response.read().decode("utf-8"))
     text = "".join(
         part.get("text", "")

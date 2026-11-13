@@ -1,6 +1,7 @@
 playwright>=1.50
 google-api-python-client>=2.150
 google-auth>=2.35
+requests>=2.32
 pypdf>=5.0
 pypdfium2>=4.0
 pytesseract>=0.3.13

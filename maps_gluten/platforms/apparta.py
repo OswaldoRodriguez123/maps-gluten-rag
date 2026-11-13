@@ -4,7 +4,7 @@ import html
 import json
 import re
 
-import requests
+from ..net import fetch_capped, guarded_session
 
 from .base import MenuItem, MenuResult, PlaceContext
 
@@ -90,8 +90,8 @@ class AppartaAdapter:
         return "menu.tu-mesa.com" in url or "api.apparta.co" in url
 
     def _fetch(self, ctx: PlaceContext, branch_id: str, slug: str):
-        session = ctx.session or requests.Session()
-        response = session.get(
+        session = ctx.session or guarded_session()
+        response = fetch_capped(session,
             API,
             params={
                 "$client[source]": "menuWeb",

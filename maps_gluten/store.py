@@ -14,6 +14,7 @@ from .render import (
     dietary_summary,
     menu_lines,
 )
+from .text import one_line
 
 SCHEMA = """
 CREATE TABLE IF NOT EXISTS places (
@@ -333,7 +334,9 @@ def write_markdown(conn: sqlite3.Connection, key: str, path: Path, today: str) -
             lines.append("")
         lines.extend(menu_lines(items, summary["gluten_free"]))
         lines.append("")
-    _atomic_write(path, "\n".join(lines).rstrip() + "\n")
+    _atomic_write(
+        path, "\n".join(one_line(line) for line in lines).rstrip() + "\n"
+    )
     return len(rows)
 
 

@@ -5,6 +5,7 @@ import unicodedata
 from collections import Counter
 
 from .dietary import dietary_tags, place_is_gluten_free
+from .text import one_line
 
 
 def _norm(text: object) -> str:
@@ -531,4 +532,4 @@ def document(records: list[dict], menus: dict[str, list[dict]], today: str) -> s
         lines.extend(categories_lines(categories_from_items(items)))
         lines.extend(menu_lines(items, summary["gluten_free"]))
         lines.append("")
-    return "\n".join(lines).rstrip() + "\n"
+    return "\n".join(one_line(line) for line in lines).rstrip() + "\n"

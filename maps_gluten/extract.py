@@ -12,6 +12,8 @@ from urllib.parse import quote_plus
 
 from playwright.sync_api import Page, TimeoutError as PlaywrightTimeout, sync_playwright
 
+from .net import public_url_error
+
 GETLIST_PATH = "/maps/preview/entitylist/getlist"
 JSON_PREFIX = re.compile(r"^\)\]\}'\s*")
 LIST_DATA_RE = re.compile(r"!11m2!2s([^!&/?]+)")
@@ -481,6 +483,24 @@ def _enrich(places: list[Place], rows: list[dict]) -> int:
     return enriched
 
 
+def _install_route_guard(context) -> None:
+    """Bloquea requests http(s) hacia hosts no públicos (SSRF por navegación)."""
+
+    def guard(route):
+        url = route.request.url
+        try:
+            if url.lower().startswith(("http://", "https://")):
+                if public_url_error(url) is not None:
+                    route.abort()
+                    return
+            route.continue_()
+        except Exception:
+            # Navegación ya cerrada o request abortada: no hay nada que hacer.
+            pass
+
+    context.route("**/*", guard)
+
+
 def _launch(p, profile: Path, headless: bool, channel: str | None, locale: str, timezone: str):
     profile.mkdir(parents=True, exist_ok=True)
     kwargs = dict(
@@ -493,10 +513,15 @@ def _launch(p, profile: Path, headless: bool, channel: str | None, locale: str, 
     )
     if channel:
         try:
-            return p.chromium.launch_persistent_context(channel=channel, **kwargs)
+            context = p.chromium.launch_persistent_context(channel=channel, **kwargs)
         except Exception:
-            pass
-    return p.chromium.launch_persistent_context(**kwargs)
+            context = None
+        if context is not None:
+            _install_route_guard(context)
+            return context
+    context = p.chromium.launch_persistent_context(**kwargs)
+    _install_route_guard(context)
+    return context
 
 
 def _dismiss_consent(page: Page) -> None:
