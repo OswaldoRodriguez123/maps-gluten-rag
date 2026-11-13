@@ -12,12 +12,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-import requests  # noqa: E402
 from playwright.sync_api import sync_playwright  # noqa: E402
+
+from maps_gluten import store  # noqa: E402
+from maps_gluten.net import guarded_session  # noqa: E402
 
 from maps_gluten.platforms import PlaceContext, extract  # noqa: E402
 from maps_gluten.platforms.maps_links import discover_links  # noqa: E402
-from maps_gluten import store  # noqa: E402
 from maps_gluten.website_search import search_website  # noqa: E402
 
 UA = (
@@ -362,7 +363,7 @@ def main() -> int:
     except (FileNotFoundError, json.JSONDecodeError, TypeError):
         menu_urls = {}
 
-    session = requests.Session()
+    session = guarded_session()
     session.headers.update({"User-Agent": UA})
     report_rows: list[dict] = []
     all_items: list[dict] = []

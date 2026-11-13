@@ -5,8 +5,10 @@ búsqueda, fotos de Apify) pasa por :func:`ensure_public_url` antes de
 cualquier conexión, y cada redirect es revalidado:
 
 - urllib: :func:`urlopen` valida la URL inicial y cada salto de redirect.
-- requests: :func:`guarded_session` monta un adapter que valida cada request
-  (los redirects pasan por el adapter de nuevo en requests).
+- requests: :func:`fetch_capped` sigue redirects manualmente con
+  ``allow_redirects=False`` y revalida cada salto (robusto incluso con una
+  sesión plana); :func:`guarded_session` además monta un adapter que valida
+  cada request como defensa en profundidad.
 - Playwright: ver ``extract._launch`` (route guard a nivel de contexto).
 
 Reglas: esquema http/https únicamente; el host debe existir (IP literal o DNS)
@@ -20,7 +22,7 @@ import ipaddress
 import json
 import socket
 import urllib.request
-from urllib.parse import urlparse
+from urllib.parse import urljoin, urlparse
 
 DEFAULT_MAX_BYTES = 5_000_000
 
@@ -137,6 +139,9 @@ class CappedResponse:
         return json.loads(self.text)
 
 
+MAX_REDIRECTS = 10
+
+
 def fetch_capped(
     session,
     url: str,
@@ -148,22 +153,42 @@ def fetch_capped(
 ) -> CappedResponse:
     """GET con tope de tamaño; nunca mantiene más de max_bytes en memoria.
 
+    Los redirects se siguen manualmente revalidando cada salto (una sesión
+    plana de requests no garantiza que los hops pasen por el guard).
+
     Los test doubles de sesión (sin iter_content) se devuelven tal cual:
     son fixtures confiables y ya viven en memoria.
     """
-    ensure_public_url(url)
-    response = session.get(
-        url, headers=headers, params=params, timeout=timeout, stream=True
-    )
-    if not hasattr(response, "iter_content"):
-        return response
-    with response as resp:
-        data = b""
-        for chunk in response.iter_content(chunk_size=65536):
-            data += chunk
-            if len(data) > max_bytes:
-                response.close()
-                raise BodyTooLargeError(
-                    f"cuerpo excede {max_bytes} bytes: {url}"
-                )
-        return CappedResponse(response.status_code, response.url, data)
+    current = ensure_public_url(url)
+    redirects = 0
+    while True:
+        response = session.get(
+            current,
+            headers=headers,
+            params=params,
+            timeout=timeout,
+            stream=True,
+            allow_redirects=False,
+        )
+        if not hasattr(response, "iter_content"):
+            return response
+        status = getattr(response, "status_code", None)
+        location = response.headers.get("location") if hasattr(response, "headers") else None
+        if status in {301, 302, 303, 307, 308} and location:
+            response.close()
+            current = ensure_public_url(urljoin(current, location))
+            redirects += 1
+            if redirects > MAX_REDIRECTS:
+                raise UnsafeUrlError(f"demasiados redirects (>{MAX_REDIRECTS})")
+            params = None  # params solo aplican a la URL original
+            continue
+        with response as resp:
+            data = b""
+            for chunk in resp.iter_content(chunk_size=65536):
+                data += chunk
+                if len(data) > max_bytes:
+                    resp.close()
+                    raise BodyTooLargeError(
+                        f"cuerpo excede {max_bytes} bytes: {current}"
+                    )
+            return CappedResponse(resp.status_code, resp.url, data)
