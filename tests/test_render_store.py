@@ -141,3 +141,51 @@ class ChainDocumentTest(unittest.TestCase):
         self.assertIn("## Pizza Lugar", md)
         self.assertNotIn("Cadena:", md)
         self.assertNotIn("### Sucursales", md)
+
+
+class ChainParityTest(unittest.TestCase):
+    def test_sucursales_parity_between_generators(self):
+        import json
+        import sqlite3
+        import tempfile
+        from pathlib import Path
+
+        from maps_gluten import store
+        from maps_gluten.extract import Place
+
+        with tempfile.TemporaryDirectory() as tmp:
+            conn = store.connect(Path(tmp) / "t.db")
+            menu_json = json.dumps([
+                {"name": "Alfajor", "price": "$1.000", "category": "Chocolate",
+                 "source": "apparta", "status": "ok", "kind": "dish", "dietary_tags": []},
+            ])
+            specs = [
+                ("h1", "Av. Apoquindo 3001"),
+                ("h2", "Av. Nueva Costanera 3900"),
+                ("h3", "Parque Arauco 730"),
+                ("h4", "Vina del Mar 250"),
+            ]
+            places = [
+                Place(ftid=ftid, name="Havanna", address=address,
+                      category="Tienda de chocolates", rating="4.6", reviews="120",
+                      note=None, url=f"https://maps/{ftid}", saved_on="2026-11-10",
+                      website="https://havanna.cl/", menu_json=menu_json)
+                for ftid, address in specs
+            ]
+            store.save(conn, "list", "L", places, "2026-11-06")
+            md_path = Path(tmp) / "out.md"
+            store.write_markdown(conn, "list", md_path, "2026-11-15")
+            store_md = md_path.read_text(encoding="utf-8")
+            jsonl_path = Path(tmp) / "out.jsonl"
+            store.write_jsonl(conn, "list", jsonl_path)
+            records = [json.loads(l) for l in jsonl_path.read_text(encoding="utf-8").splitlines()]
+            conn.close()
+        rec = next(r for r in records if r["metadata"].get("chain"))
+        doc_menus = {rec["id"]: [{"name": "Alfajor", "price": "$1.000"}]}
+        doc_md = document([rec], doc_menus, "2026-11-15")
+        self.assertIn("### Sucursales", store_md)
+        self.assertIn("### Sucursales", doc_md)
+        for _, address in specs:
+            self.assertIn(address, store_md)
+            self.assertIn(address, doc_md)
+        self.assertEqual(store_md.count("## Havanna"), doc_md.count("## Havanna"))
