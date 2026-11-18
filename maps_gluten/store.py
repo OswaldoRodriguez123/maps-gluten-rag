@@ -7,9 +7,11 @@ import tempfile
 from collections import Counter
 from pathlib import Path
 
+from . import brands
 from .extract import Place
 from .render import (
     categories_from_items,
+    chain_section_lines,
     dietary_line,
     dietary_summary,
     menu_lines,
@@ -220,11 +222,12 @@ def save(
 
 def enrichment_cache(conn: sqlite3.Connection) -> dict[str, dict]:
     rows = conn.execute(
-        "SELECT ftid, website, dishes, review_dishes, enriched_at, enrich_version, menu_at FROM places"
+        "SELECT ftid, website, website_source, dishes, review_dishes, enriched_at, enrich_version, menu_at FROM places"
     ).fetchall()
     return {
         row["ftid"]: {
             "website": row["website"],
+            "website_source": row["website_source"],
             "dishes": row["dishes"],
             "review_dishes": row["review_dishes"],
             "enriched_at": row["enriched_at"],
@@ -262,6 +265,113 @@ def _atomic_write(path: Path, content: str) -> None:
         raise
 
 
+def _grouped_rows(rows):
+    """(groups, singles): groups = listas de filas por cadena (min ftid primero),
+    singles = filas fuera de grupo conservando el orden de `rows`."""
+    groups = brands.find_groups(rows)
+    grouped = {row["ftid"] for members in groups.values() for row in members}
+    singles = [row for row in rows if row["ftid"] not in grouped]
+    return [groups[key] for key in sorted(groups)], singles
+
+
+def _chain_branches(members):
+    return [
+        {
+            "ftid": m["ftid"],
+            "address": m["address"],
+            "rating": m["rating"],
+            "reviews": m["reviews"],
+            "url": m["url"],
+            "saved_on": m["saved_on"],
+            "lat": m["lat"],
+            "lng": m["lng"],
+            "note": m["note"],
+            "website_source": m["website_source"],
+            "first_observed_at": m["first_observed_at"],
+            "first_seen": m["first_seen"],
+            "last_seen": m["last_seen"],
+        }
+        for m in members
+    ]
+
+
+def _chain_metadata(canon, members):
+    def min_field(field):
+        values = [m[field] for m in members if m[field]]
+        return min(values) if values else None
+
+    def max_field(field):
+        values = [m[field] for m in members if m[field]]
+        return max(values) if values else None
+
+    menu_compact = [
+        {"name": dish.get("name"), "price": dish.get("price")}
+        for dish in _menu_items(canon["menu_json"])
+        if dish.get("name")
+    ]
+    return {
+        "name": canon["name"],
+        "address": canon["address"],
+        "category": canon["category"],
+        "rating": canon["rating"],
+        "reviews": canon["reviews"],
+        "url": canon["url"],
+        "website": canon["website"],
+        "website_source": canon["website_source"],
+        "dishes": canon["dishes"],
+        "review_dishes": canon["review_dishes"],
+        "menu": menu_compact,
+        "menu_count": len(menu_compact),
+        "saved_on": min_field("saved_on"),
+        "first_seen": min_field("first_seen"),
+        "first_observed_at": min_field("first_observed_at"),
+        "last_seen": max_field("last_seen"),
+        "lat": canon["lat"],
+        "lng": canon["lng"],
+        "chain": True,
+        "branches": _chain_branches(members),
+    }
+
+
+def _chain_text(metadata, menu_dishes):
+    n = len(metadata["branches"])
+    parts = [f"Local: {metadata['name']}", f"Cadena: {n} sucursales"]
+    addresses = " | ".join(b.get("address") or "No disponible" for b in metadata["branches"])
+    parts.append(f"Ubicación: {addresses}")
+    if metadata["category"]:
+        parts.append(f"Categoría: {metadata['category']}")
+    if metadata["rating"]:
+        parts.append(f"Valoración: {metadata['rating']} de 5")
+    if metadata["website"]:
+        parts.append(f"Web: {metadata['website']}")
+    if metadata["dishes"]:
+        parts.append(f"Su web menciona: {metadata['dishes']}")
+    if menu_dishes:
+        parts.append(f"Carta: {menu_dishes}")
+    parts.append("Guardado en mi lista de lugares sin gluten en Google Maps")
+    return ". ".join(parts) + "."
+
+
+def _chain_carta_lines(canon):
+    lines = []
+    items = _menu_items(canon["menu_json"])
+    summary = dietary_summary(items, canon["name"], canon["category"])
+    if canon["menu_dishes"] and not items:
+        lines.append(f"- **Carta (Google Maps):** {canon['menu_dishes']}")
+    diet = dietary_line(summary)
+    if diet:
+        lines.append(diet)
+    categories = categories_from_items(items)
+    if categories:
+        lines.append("")
+        lines.append("### Qué vende")
+        lines.append("")
+        lines.extend(f"- {category}" for category in categories)
+        lines.append("")
+    lines.extend(menu_lines(items, summary["gluten_free"]))
+    return lines
+
+
 def _titles(rows: list[sqlite3.Row]) -> dict[str, str]:
     counts = Counter(row["name"] for row in rows)
     result: dict[str, str] = {}
@@ -289,7 +399,8 @@ def _menu_items(menu_json: str | None) -> list[dict]:
 
 def write_markdown(conn: sqlite3.Connection, key: str, path: Path, today: str) -> int:
     rows = _rows(conn, key)
-    titles = _titles(rows)
+    groups, singles = _grouped_rows(rows)
+    titles = _titles(singles)
     lines = [
         "# Base de Datos: Locales Sin Gluten Guardados en Google Maps",
         "",
@@ -298,7 +409,13 @@ def write_markdown(conn: sqlite3.Connection, key: str, path: Path, today: str) -
         "Cada sección corresponde a un local guardado por el usuario en Google Maps.",
         "",
     ]
-    for row in rows:
+    for members in groups:
+        canon = brands.canonical(members)
+        metadata = _chain_metadata(canon, members)
+        lines.extend(chain_section_lines(metadata))
+        lines.extend(_chain_carta_lines(canon))
+        lines.append("")
+    for row in singles:
         lines.append(f"## {titles[row['ftid']]}")
         lines.append(f"- **Ubicación:** {row['address'] or 'No disponible'}")
         if row["category"]:
@@ -337,13 +454,23 @@ def write_markdown(conn: sqlite3.Connection, key: str, path: Path, today: str) -
     _atomic_write(
         path, "\n".join(one_line(line) for line in lines).rstrip() + "\n"
     )
-    return len(rows)
+    return len(groups) + len(singles)
 
 
 def write_jsonl(conn: sqlite3.Connection, key: str, path: Path) -> int:
     rows = _rows(conn, key)
+    groups, singles = _grouped_rows(rows)
     lines = []
-    for row in rows:
+    for members in groups:
+        canon = brands.canonical(members)
+        metadata = _chain_metadata(canon, members)
+        record = {
+            "id": canon["ftid"],
+            "text": _chain_text(metadata, canon["menu_dishes"]),
+            "metadata": metadata,
+        }
+        lines.append(json.dumps(record, ensure_ascii=False))
+    for row in singles:
         parts = [f"Local: {row['name']}"]
         if row["address"]:
             parts.append(f"Ubicación: {row['address']}")
@@ -397,19 +524,24 @@ def write_jsonl(conn: sqlite3.Connection, key: str, path: Path) -> int:
         }
         lines.append(json.dumps(record, ensure_ascii=False))
     _atomic_write(path, "\n".join(lines) + ("\n" if lines else ""))
-    return len(rows)
+    return len(groups) + len(singles)
 
 
 def write_menus_jsonl(conn: sqlite3.Connection, key: str, path: Path) -> int:
     rows = conn.execute(
         """
-        SELECT p.ftid, p.name, p.address, p.menu_json FROM places p
+        SELECT p.ftid, p.name, p.address, p.menu_json, p.category, p.website FROM places p
         JOIN list_places lp ON lp.ftid = p.ftid
         WHERE lp.list_key = ? AND p.menu_json IS NOT NULL AND p.menu_json != ''
         ORDER BY p.name COLLATE NOCASE
         """,
         (key,),
     ).fetchall()
+    groups = brands.find_groups(rows)
+    non_canonical = {
+        member["ftid"] for members in groups.values() for member in members
+    } - set(groups)
+    rows = [row for row in rows if row["ftid"] not in non_canonical]
     lines: list[str] = []
     for row in rows:
         try:

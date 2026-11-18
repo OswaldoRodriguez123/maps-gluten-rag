@@ -48,3 +48,94 @@ class SyncDbTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class SyncChainTest(unittest.TestCase):
+    def test_chain_record_seeds_one_place_per_branch(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            data_dir = Path(tmp) / "data"
+            chain = {
+                "id": "h1",
+                "metadata": {
+                    "name": "Havanna",
+                    "address": "Av. Apoquindo 3001",
+                    "category": "Tienda de chocolates",
+                    "rating": "4.7",
+                    "reviews": "210",
+                    "url": "https://maps/h1",
+                    "website": "https://havanna.cl/",
+                    "website_source": "maps",
+                    "dishes": "chocolate",
+                    "review_dishes": "alfajores",
+                    "saved_on": "2026-11-10",
+                    "chain": True,
+                    "branches": [
+                        {"ftid": "h1", "address": "Dir Uno", "rating": "4.7",
+                         "reviews": "210", "url": "https://maps/h1", "saved_on": "2026-11-11",
+                         "lat": -33.4, "lng": -70.6, "note": "p/ mamá",
+                         "website_source": "maps", "first_observed_at": "2026-11-10",
+                         "first_seen": "2026-11-10", "last_seen": "2026-11-15"},
+                        {"ftid": "h2", "address": "Dir Dos", "rating": "4.8",
+                         "reviews": "150", "url": "https://maps/h2", "saved_on": "2026-11-12",
+                         "lat": -33.5, "lng": -70.7, "note": None,
+                         "website_source": "search", "first_observed_at": "2026-11-12",
+                         "first_seen": "2026-11-12", "last_seen": "2026-11-16"},
+                    ],
+                },
+            }
+            write_jsonl(data_dir / "mis_lugares_sin_gluten.jsonl", [chain])
+            write_jsonl(
+                data_dir / "mis_lugares_sin_gluten_menus.jsonl",
+                [{"place_id": "h1", "place": "Havanna", "name": "Alfajor", "price": "$1.000"}],
+            )
+            db_path = Path(tmp) / "historial.db"
+            count = sync_db_from_jsonl(data_dir, db_path)
+            conn = store.connect(db_path)
+            rows = conn.execute(
+                "SELECT ftid, address, note, saved_on, first_seen, last_seen,"
+                " first_observed_at, website,"
+                " website_source, dishes, review_dishes, menu_json"
+                " FROM places ORDER BY ftid"
+            ).fetchall()
+            conn.close()
+        self.assertEqual(count, 2)
+        self.assertEqual([r["ftid"] for r in rows], ["h1", "h2"])
+        for r in rows:
+            self.assertIn("Alfajor", r["menu_json"])
+        self.assertEqual(rows[0]["note"], "p/ mamá")
+        self.assertIsNone(rows[1]["note"])
+        self.assertEqual(rows[0]["saved_on"], "2026-11-11")
+        self.assertEqual(rows[0]["first_seen"], "2026-11-11")
+        self.assertEqual(rows[0]["first_observed_at"], "2026-11-10")
+        self.assertEqual(rows[0]["last_seen"], "2026-11-15")
+        self.assertEqual(rows[1]["first_observed_at"], "2026-11-12")
+        self.assertEqual(rows[1]["last_seen"], "2026-11-16")
+        self.assertEqual(rows[0]["address"], "Dir Uno")
+        self.assertEqual(rows[1]["address"], "Dir Dos")
+        self.assertEqual(rows[0]["website_source"], "maps")
+        self.assertEqual(rows[1]["website_source"], "search")
+        self.assertEqual({r["dishes"] for r in rows}, {"chocolate"})
+
+    def test_website_source_seeded_for_singles_and_branches(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            data_dir = Path(tmp) / "data"
+            single = {
+                "id": "s1",
+                "metadata": {
+                    "name": "Single",
+                    "url": "https://maps/s1",
+                    "website": "https://single.cl/",
+                    "website_source": "search",
+                    "saved_on": "2026-11-01",
+                },
+            }
+            write_jsonl(data_dir / "mis_lugares_sin_gluten.jsonl", [single])
+            write_jsonl(data_dir / "mis_lugares_sin_gluten_menus.jsonl", [])
+            db_path = Path(tmp) / "historial.db"
+            sync_db_from_jsonl(data_dir, db_path)
+            conn = store.connect(db_path)
+            row = conn.execute(
+                "SELECT website_source FROM places WHERE ftid = 's1'"
+            ).fetchone()
+            conn.close()
+        self.assertEqual(row["website_source"], "search")

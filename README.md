@@ -202,6 +202,15 @@ hand.
 ## Output format
 
 - Each place is a `##`.
+- When several saved places belong to the same chain (same normalized
+  name plus the same category or website domain), they are rendered as a
+  single `## <Name>` entry with a `- **Cadena:** N sucursales` line, a
+  `### Sucursales` block listing each branch (address, rating, Maps link,
+  saved date and personal note) and one shared `### Carta`. The shared
+  website and menu are scraped once per chain, and the shared menu is
+  written to the `.jsonl` record and `_menus.jsonl` only once. Single
+  places are rendered exactly as before; groups are never formed without
+  a matching category or domain confirmation.
 - `### Qué vende`: the place's categories (Sandwiches, Empanadas, Pizzas...),
   even without prices.
 - `- **Dietético:**`: whether the place is 100% gluten-free, or how many dishes

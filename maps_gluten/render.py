@@ -472,6 +472,39 @@ def categories_lines(categories: list[str]) -> list[str]:
     return lines
 
 
+def chain_section_lines(metadata: dict) -> list[str]:
+    """Cabecera y bloque Sucursales de una cadena (sin ### Carta)."""
+    branches = metadata.get("branches") or []
+    lines = [f"## {metadata['name']}"]
+    if metadata.get("category"):
+        lines.append(f"- **Categoría:** {metadata['category']}")
+    if metadata.get("website"):
+        lines.append(f"- **Web:** {metadata['website']}")
+    lines.append(f"- **Cadena:** {len(branches)} sucursales")
+    if metadata.get("dishes"):
+        lines.append(f"- **Menciona en su web:** {metadata['dishes']}")
+    if metadata.get("review_dishes"):
+        lines.append(f"- **Menciona en reseñas:** {metadata['review_dishes']}")
+    lines.append(
+        f"- **Fecha de registro:** {metadata.get('saved_on') or metadata.get('first_seen')}"
+    )
+    lines.append("")
+    lines.append("### Sucursales")
+    for branch in branches:
+        address = branch.get("address") or "No disponible"
+        value = f"- {address}"
+        if branch.get("rating"):
+            value += f" — {branch['rating']}/5"
+            if branch.get("reviews"):
+                value += f" ({branch['reviews']} reseñas)"
+        value += f" — [Maps]({branch.get('url') or ''}) — guardada {branch.get('saved_on') or '?'}"
+        if branch.get("note"):
+            value += f" — *Nota: {branch['note']}*"
+        lines.append(value)
+    lines.append("")
+    return lines
+
+
 def _titles(records: list[dict]) -> dict[str, str]:
     counts = Counter(record["metadata"]["name"] for record in records)
     titles: dict[str, str] = {}
@@ -488,35 +521,44 @@ def _titles(records: list[dict]) -> dict[str, str]:
 
 def document(records: list[dict], menus: dict[str, list[dict]], today: str) -> str:
     titles = _titles(records)
+    places_count = sum(
+        len(record["metadata"].get("branches") or [])
+        if record["metadata"].get("chain")
+        else 1
+        for record in records
+    )
     lines = [
         "# Base de Datos: Locales Sin Gluten Guardados en Google Maps",
         "",
-        f"_Actualizado: {today} · {len(records)} lugares · Fuente: lista de Google Maps_",
+        f"_Actualizado: {today} · {places_count} lugares · Fuente: lista de Google Maps_",
         "",
         "Cada sección corresponde a un local guardado por el usuario en Google Maps.",
         "",
     ]
     for record in records:
         metadata = record["metadata"]
-        lines.append(f"## {titles[record['id']]}")
-        lines.append(f"- **Ubicación:** {metadata.get('address') or 'No disponible'}")
-        if metadata.get("category"):
-            lines.append(f"- **Categoría:** {metadata['category']}")
-        if metadata.get("rating"):
-            value = f"- **Valoración:** {metadata['rating']} / 5"
-            if metadata.get("reviews"):
-                value += f" ({metadata['reviews']} reseñas)"
-            lines.append(value)
-        lines.append(f"- **Enlace:** {metadata['url']}")
-        if metadata.get("website"):
-            lines.append(f"- **Web:** {metadata['website']}")
-        if metadata.get("dishes"):
-            lines.append(f"- **Menciona en su web:** {metadata['dishes']}")
-        if metadata.get("review_dishes"):
-            lines.append(f"- **Menciona en reseñas:** {metadata['review_dishes']}")
-        lines.append(
-            f"- **Fecha de registro:** {metadata.get('saved_on') or metadata.get('first_seen')}"
-        )
+        if metadata.get("chain"):
+            lines.extend(chain_section_lines(metadata))
+        else:
+            lines.append(f"## {titles[record['id']]}")
+            lines.append(f"- **Ubicación:** {metadata.get('address') or 'No disponible'}")
+            if metadata.get("category"):
+                lines.append(f"- **Categoría:** {metadata['category']}")
+            if metadata.get("rating"):
+                value = f"- **Valoración:** {metadata['rating']} / 5"
+                if metadata.get("reviews"):
+                    value += f" ({metadata['reviews']} reseñas)"
+                lines.append(value)
+            lines.append(f"- **Enlace:** {metadata['url']}")
+            if metadata.get("website"):
+                lines.append(f"- **Web:** {metadata['website']}")
+            if metadata.get("dishes"):
+                lines.append(f"- **Menciona en su web:** {metadata['dishes']}")
+            if metadata.get("review_dishes"):
+                lines.append(f"- **Menciona en reseñas:** {metadata['review_dishes']}")
+            lines.append(
+                f"- **Fecha de registro:** {metadata.get('saved_on') or metadata.get('first_seen')}"
+            )
         if is_store_place(metadata):
             lines.append("")
             continue
