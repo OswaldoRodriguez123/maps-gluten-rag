@@ -10,6 +10,51 @@ from zoneinfo import ZoneInfo
 from . import extract, store
 
 
+def _collapse_to_canonical(places, targets):
+    """Colapsa targets a canónica por grupo; deja los fuera de grupo intactos."""
+    from . import brands
+
+    groups = brands.find_groups(places)
+    canonical_of = {}
+    for canonical_ftid, members in groups.items():
+        for member in members:
+            canonical_of[member.ftid] = canonical_ftid
+    collapsed = []
+    for target in targets:
+        canonical_ftid = canonical_of.get(target.ftid)
+        if canonical_ftid is None or canonical_ftid == target.ftid:
+            collapsed.append(target)
+    return collapsed
+
+
+def _chain_fanout(places, targets, photo_cache):
+    """Copia el menú de la canónica a hermanos del grupo (y fotos, si aplica).
+
+    Devuelve el set de ftids cubiertos (canónica + miembros).
+    """
+    from . import brands
+
+    groups = brands.find_groups(places)
+    target_ids = {target.ftid for target in targets}
+    covered: set[str] = set(target_ids)
+    for members in groups.values():
+        if not any(member.ftid in target_ids for member in members):
+            continue
+        canonical = brands.canonical(members)
+        brands.share_with_group(
+            members, canonical, ("menu_dishes", "menu_json", "menu_at")
+        )
+        covered.update(member.ftid for member in members)
+        if photo_cache is not None:
+            canonical_photos = photo_cache.get(canonical.ftid)
+            if canonical_photos:
+                for member in members:
+                    if member.ftid != canonical.ftid:
+                        photo_cache[member.ftid] = list(canonical_photos)
+    return covered
+
+
+
 def _env_bool(name: str, default: bool) -> bool:
     value = os.getenv(name)
     if value is None:
@@ -238,6 +283,7 @@ def main(argv: list[str] | None = None) -> int:
                         targets.append(place)
                 except ValueError:
                     targets.append(place)
+            targets = _collapse_to_canonical(places, targets)
             if targets and menu_actor != "none":
                 try:
                     if menu_actor == "unitbytes":
@@ -257,11 +303,12 @@ def main(argv: list[str] | None = None) -> int:
                             refresh_photos=_env_bool("MAPS_REFRESH_PHOTOS", False),
                             reuse_recent_runs=reuse_runs,
                         )
+                        covered = _chain_fanout(places, targets, photo_cache)
                         store.save_photo_cache(
                             conn,
                             {
-                                place.ftid: photo_cache.get(place.ftid, [])
-                                for place in targets
+                                ftid: photo_cache.get(ftid, [])
+                                for ftid in covered
                             },
                             today,
                         )
@@ -277,6 +324,7 @@ def main(argv: list[str] | None = None) -> int:
                             concurrency=apify_concurrency,
                             today=today,
                         )
+                        _chain_fanout(places, targets, None)
                     print(f"Menú ({menu_actor}): {count} platos en {len(targets)} locales")
                 except Exception as error:
                     print(f"Menú ({menu_actor}): {error}", file=sys.stderr)
