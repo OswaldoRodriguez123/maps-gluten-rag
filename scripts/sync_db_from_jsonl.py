@@ -46,6 +46,7 @@ def sync_db_from_jsonl(data_dir: Path, db_path: Path) -> int:
             by_place.setdefault(place_id, []).append(row)
     today = date.today().isoformat()
     conn = store.connect(db_path)
+    branch_seeds = []
     try:
         objects = []
         for record in places:
@@ -57,6 +58,7 @@ def sync_db_from_jsonl(data_dir: Path, db_path: Path) -> int:
             branches = metadata.get("branches")
             if branches:
                 for branch in branches:
+                    branch_seeds.append(branch)
                     objects.append(
                         Place(
                             ftid=branch["ftid"],
@@ -104,6 +106,24 @@ def sync_db_from_jsonl(data_dir: Path, db_path: Path) -> int:
             )
         if objects:
             store.save(conn, "sync", "sync", objects, today)
+        for branch in branch_seeds:
+            conn.execute(
+                "UPDATE places SET"
+                " first_observed_at = COALESCE(?, first_observed_at),"
+                " last_seen = COALESCE(?, last_seen),"
+                " saved_on = COALESCE(?, saved_on),"
+                " first_seen = COALESCE(NULLIF(?, ''), first_seen)"
+                " WHERE ftid = ?",
+                (
+                    branch.get("first_observed_at"),
+                    branch.get("last_seen"),
+                    branch.get("saved_on"),
+                    branch.get("saved_on") or "",
+                    branch["ftid"],
+                ),
+            )
+        if branch_seeds:
+            conn.commit()
     finally:
         conn.close()
     return len(objects)

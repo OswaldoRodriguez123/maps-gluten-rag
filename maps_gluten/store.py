@@ -335,9 +335,8 @@ def _chain_metadata(canon, members):
 def _chain_text(metadata, menu_dishes):
     n = len(metadata["branches"])
     parts = [f"Local: {metadata['name']}", f"Cadena: {n} sucursales"]
-    addrs = [b["address"] for b in metadata["branches"] if b["address"]]
-    if addrs:
-        parts.append(f"Ubicación: {' | '.join(addrs)}")
+    addresses = " | ".join(b.get("address") or "No disponible" for b in metadata["branches"])
+    parts.append(f"Ubicación: {addresses}")
     if metadata["category"]:
         parts.append(f"Categoría: {metadata['category']}")
     if metadata["rating"]:

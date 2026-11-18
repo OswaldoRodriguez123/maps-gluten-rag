@@ -92,7 +92,8 @@ class SyncChainTest(unittest.TestCase):
             count = sync_db_from_jsonl(data_dir, db_path)
             conn = store.connect(db_path)
             rows = conn.execute(
-                "SELECT ftid, address, note, saved_on, first_seen, website,"
+                "SELECT ftid, address, note, saved_on, first_seen, last_seen,"
+                " first_observed_at, website,"
                 " website_source, dishes, review_dishes, menu_json"
                 " FROM places ORDER BY ftid"
             ).fetchall()
@@ -105,6 +106,10 @@ class SyncChainTest(unittest.TestCase):
         self.assertIsNone(rows[1]["note"])
         self.assertEqual(rows[0]["saved_on"], "2026-11-11")
         self.assertEqual(rows[0]["first_seen"], "2026-11-11")
+        self.assertEqual(rows[0]["first_observed_at"], "2026-11-10")
+        self.assertEqual(rows[0]["last_seen"], "2026-11-15")
+        self.assertEqual(rows[1]["first_observed_at"], "2026-11-12")
+        self.assertEqual(rows[1]["last_seen"], "2026-11-16")
         self.assertEqual(rows[0]["address"], "Dir Uno")
         self.assertEqual(rows[1]["address"], "Dir Dos")
         self.assertEqual(rows[0]["website_source"], "maps")

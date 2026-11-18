@@ -38,9 +38,9 @@ def _chain_fanout(places, targets, photo_cache):
     target_ids = {target.ftid for target in targets}
     covered: set[str] = set(target_ids)
     for members in groups.values():
-        if not any(member.ftid in target_ids for member in members):
-            continue
         canonical = brands.canonical(members)
+        if canonical.ftid not in target_ids:
+            continue
         brands.share_with_group(
             members, canonical, ("menu_dishes", "menu_json", "menu_at")
         )

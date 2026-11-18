@@ -521,10 +521,16 @@ def _titles(records: list[dict]) -> dict[str, str]:
 
 def document(records: list[dict], menus: dict[str, list[dict]], today: str) -> str:
     titles = _titles(records)
+    places_count = sum(
+        len(record["metadata"].get("branches") or [])
+        if record["metadata"].get("chain")
+        else 1
+        for record in records
+    )
     lines = [
         "# Base de Datos: Locales Sin Gluten Guardados en Google Maps",
         "",
-        f"_Actualizado: {today} · {len(records)} lugares · Fuente: lista de Google Maps_",
+        f"_Actualizado: {today} · {places_count} lugares · Fuente: lista de Google Maps_",
         "",
         "Cada sección corresponde a un local guardado por el usuario en Google Maps.",
         "",

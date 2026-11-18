@@ -105,6 +105,7 @@ class ChainDocumentTest(unittest.TestCase):
         record = _chain_record("h1", "Havanna", "Pastelería", branches)
         menus = {"h1": [{"name": "Alfajor", "category": "Chocolate", "price": "$1.000"}]}
         md = document([record], menus, "2026-11-15")
+        self.assertIn("· 4 lugares", md)
         self.assertIn("## Havanna", md)
         self.assertIn("- **Cadena:** 4 sucursales", md)
         self.assertIn("### Sucursales", md)

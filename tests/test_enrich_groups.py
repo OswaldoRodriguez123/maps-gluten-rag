@@ -99,6 +99,25 @@ class EnrichGroupsTest(unittest.TestCase):
             self.assertEqual(place.enriched_at, TODAY.isoformat())
             self.assertEqual(place.review_dishes, "own-review")
 
+    def test_case_b2_fresh_brother_website_only_no_fetch(self):
+        calls = []
+
+        def fake_site_dishes(url, ocr=False):
+            calls.append(url)
+            return ["chocolate"]
+
+        places = [make_place(f"h{i}") for i in (1, 2, 3, 4)]
+        page = FakePage({p.url: "https://havanna.cl/" for p in places})
+        cache = {"h2": fresh_cache("https://havanna.cl/", None, None)}
+        run_with_fakes(places, page, cache=cache, site_dishes_spy=fake_site_dishes)
+
+        self.assertEqual(calls, [])
+        for place in places:
+            if place.ftid == "h2":
+                continue
+            self.assertIsNone(place.dishes)
+            self.assertEqual(place.website, "https://havanna.cl/")
+
     def test_case_c_same_name_distinct_domains_veto_no_sharing(self):
         calls = []
 

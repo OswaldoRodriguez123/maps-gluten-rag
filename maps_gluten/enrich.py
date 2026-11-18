@@ -799,9 +799,9 @@ def enrich_places(
             place.website = None
             place.website_source = None
         place.review_dishes = ", ".join(review_dishes) if review_dishes else None
-        brother_dishes = fresh_info.get("dishes") if fresh_info else None
-        if brother_dishes:
-            place.dishes = brother_dishes
+        if fresh_info:
+            if fresh_info.get("dishes"):
+                place.dishes = fresh_info["dishes"]
         elif website and _is_spa_store(website):
             domain = brands.domain(website)
             if domain in spa_done:
