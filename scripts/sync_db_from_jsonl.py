@@ -97,6 +97,7 @@ def sync_db_from_jsonl(data_dir: Path, db_path: Path) -> int:
                     lat=metadata.get("lat"),
                     lng=metadata.get("lng"),
                     website=metadata.get("website"),
+                    website_source=metadata.get("website_source"),
                     dishes=metadata.get("dishes"),
                     review_dishes=metadata.get("review_dishes"),
                     menu_dishes=_summary(rows),

@@ -222,11 +222,12 @@ def save(
 
 def enrichment_cache(conn: sqlite3.Connection) -> dict[str, dict]:
     rows = conn.execute(
-        "SELECT ftid, website, dishes, review_dishes, enriched_at, enrich_version, menu_at FROM places"
+        "SELECT ftid, website, website_source, dishes, review_dishes, enriched_at, enrich_version, menu_at FROM places"
     ).fetchall()
     return {
         row["ftid"]: {
             "website": row["website"],
+            "website_source": row["website_source"],
             "dishes": row["dishes"],
             "review_dishes": row["review_dishes"],
             "enriched_at": row["enriched_at"],

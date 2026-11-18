@@ -54,6 +54,14 @@ class ChainFanoutTest(unittest.TestCase):
         for ftid in ("h2", "h3", "h4"):
             self.assertEqual(photo_cache[ftid], ["https://photo/1", "https://photo/2"])
 
+    def test_fanout_copies_only_populated_canonical_fields(self):
+        places = [make_place(f"h{i}") for i in (1, 2, 3, 4)]
+        places[1].menu_json = '[{"name": "Alfajor"}]'  # sibling has its own data, canon has none
+        covered = cli._chain_fanout(places, [places[0]], photo_cache=None)
+        self.assertEqual(places[1].menu_json, '[{"name": "Alfajor"}]')
+        self.assertIsNone(places[0].menu_json)
+        self.assertEqual(covered, {"h1", "h2", "h3", "h4"})
+
     def test_fanout_skips_groups_without_targets(self):
         places = [make_place(f"h{i}") for i in (1, 2, 3, 4)]
         covered = cli._chain_fanout(places, [], photo_cache=None)

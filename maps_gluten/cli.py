@@ -41,9 +41,13 @@ def _chain_fanout(places, targets, photo_cache):
         canonical = brands.canonical(members)
         if canonical.ftid not in target_ids:
             continue
-        brands.share_with_group(
-            members, canonical, ("menu_dishes", "menu_json", "menu_at")
+        fields = tuple(
+            field
+            for field in ("menu_dishes", "menu_json", "menu_at")
+            if getattr(canonical, field, None)
         )
+        if fields:
+            brands.share_with_group(members, canonical, fields)
         covered.update(member.ftid for member in members)
         if photo_cache is not None:
             canonical_photos = photo_cache.get(canonical.ftid)

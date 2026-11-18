@@ -34,12 +34,12 @@ def make_place(ftid, name="Havanna", category="Tienda de chocolates", url=None):
     )
 
 
-def fresh_cache(website, dishes, review_dishes=None):
+def fresh_cache(website, dishes, review_dishes=None, website_source="maps"):
     return {
         "enriched_at": TODAY.isoformat(),
         "enrich_version": enrich.ENRICH_VERSION,
         "website": website,
-        "website_source": "maps",
+        "website_source": website_source,
         "dishes": dishes,
         "review_dishes": review_dishes,
     }
@@ -139,3 +139,44 @@ class EnrichGroupsTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ProvenanceCopyTest(unittest.TestCase):
+    def test_fresh_brother_website_source_is_copied_unchanged(self):
+        calls = []
+
+        def fake_site_dishes(url, ocr=False):
+            calls.append(url)
+            return ["chocolate"]
+
+        places = [make_place(f"h{i}") for i in (1, 2, 3, 4)]
+        page = FakePage({p.url: "https://havanna.cl/" for p in places})
+        cache = {"h2": fresh_cache("https://havanna.cl/", "cache-chocolate", None, website_source="search")}
+        run_with_fakes(places, page, cache=cache, site_dishes_spy=fake_site_dishes)
+
+        for place in places:
+            if place.ftid == "h2":
+                continue
+            self.assertEqual(place.website_source, "search")
+        self.assertEqual(calls, [])
+
+    def test_enrichment_cache_persists_website_source(self):
+        import tempfile
+        from pathlib import Path
+
+        from maps_gluten import store
+        from maps_gluten.extract import Place
+
+        with tempfile.TemporaryDirectory() as tmp:
+            conn = store.connect(Path(tmp) / "t.db")
+            place = Place(
+                ftid="a", name="X", address=None, category=None, rating=None,
+                reviews=None, note=None, url="https://maps", saved_on="2026-11-01",
+                website="https://x.cl/", website_source="search",
+                dishes="alfajores", enriched_at=TODAY.isoformat(),
+                enrich_version=enrich.ENRICH_VERSION,
+            )
+            store.save(conn, "list", "L", [place], "2026-11-18")
+            cache = store.enrichment_cache(conn)
+            conn.close()
+        self.assertEqual(cache["a"].get("website_source"), "search")

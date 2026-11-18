@@ -115,3 +115,27 @@ class SyncChainTest(unittest.TestCase):
         self.assertEqual(rows[0]["website_source"], "maps")
         self.assertEqual(rows[1]["website_source"], "search")
         self.assertEqual({r["dishes"] for r in rows}, {"chocolate"})
+
+    def test_website_source_seeded_for_singles_and_branches(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            data_dir = Path(tmp) / "data"
+            single = {
+                "id": "s1",
+                "metadata": {
+                    "name": "Single",
+                    "url": "https://maps/s1",
+                    "website": "https://single.cl/",
+                    "website_source": "search",
+                    "saved_on": "2026-11-01",
+                },
+            }
+            write_jsonl(data_dir / "mis_lugares_sin_gluten.jsonl", [single])
+            write_jsonl(data_dir / "mis_lugares_sin_gluten_menus.jsonl", [])
+            db_path = Path(tmp) / "historial.db"
+            sync_db_from_jsonl(data_dir, db_path)
+            conn = store.connect(db_path)
+            row = conn.execute(
+                "SELECT website_source FROM places WHERE ftid = 's1'"
+            ).fetchone()
+            conn.close()
+        self.assertEqual(row["website_source"], "search")
