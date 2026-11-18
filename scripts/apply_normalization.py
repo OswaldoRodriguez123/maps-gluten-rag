@@ -57,7 +57,12 @@ def _diet_text(dietary: dict) -> str | None:
 
 def _text(metadata: dict, dishes: list[dict], categories: list[str], dietary: dict) -> str:
     parts = [f"Local: {metadata['name']}"]
-    if metadata.get("address"):
+    branches = metadata.get("branches") if metadata.get("chain") else None
+    if branches:
+        parts.append(f"Cadena: {len(branches)} sucursales")
+        addresses = " | ".join(b.get("address") or "No disponible" for b in branches)
+        parts.append(f"Ubicación: {addresses}")
+    elif metadata.get("address"):
         parts.append(f"Ubicación: {metadata['address']}")
     if metadata.get("category"):
         parts.append(f"Categoría: {metadata['category']}")
