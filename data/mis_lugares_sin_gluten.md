@@ -1,8 +1,79 @@
 # Base de Datos: Locales Sin Gluten Guardados en Google Maps
 
-_Actualizado: 2026-11-18 · 110 lugares · Fuente: lista de Google Maps_
+_Actualizado: 2026-11-18 · 111 lugares · Fuente: lista de Google Maps_
 
 Cada sección corresponde a un local guardado por el usuario en Google Maps.
+
+## Bonheur Keto Patisserie
+- **Categoría:** Pastelería
+- **Web:** https://bonheurketopatisserie.com/
+- **Cadena:** 2 sucursales
+- **Menciona en su web:** torta, pastel, alfajor, brownie, cheesecake, pie, chocolate, tiramisú, manjar, factura, postre, dulces
+- **Menciona en reseñas:** torta, pastel, alfajor, dulces
+- **Fecha de registro:** 2025-11-23
+
+### Sucursales
+- Av. La Dehesa 3265, Local 8, 7700239 Lo Barnechea, Región Metropolitana — 4.8/5 — [Maps](https://www.google.com/maps?cid=9791583187258393050) — guardada 2026-05-14
+- Av. Nueva Costanera 4177, local 11, 7630156 Vitacura, Región Metropolitana — 4.7/5 — [Maps](https://www.google.com/maps?cid=6494588787266833776) — guardada 2025-11-23
+
+
+### Qué vende
+
+- DESPACHOS
+
+
+### Carta
+
+#### DESPACHOS
+
+- Santiago Centro — $4.500
+- Colina y CHICUREO — $6.000
+
+
+## Havanna
+- **Categoría:** Cafetería
+- **Web:** http://havanna.cl/
+- **Cadena:** 4 sucursales
+- **Menciona en reseñas:** sándwich, waffle, alfajor, cheesecake
+- **Fecha de registro:** 2026-11-18
+
+### Sucursales
+- Av. Larraín 5862, 7870154 La Reina, Región Metropolitana — 2.9/5 — [Maps](https://www.google.com/maps?cid=13289451453572953497) — guardada 2026-11-18
+- Av. Pdte. Kennedy 5413, Piso 1, 7550000 Las Condes, Región Metropolitana — 3.2/5 — [Maps](https://www.google.com/maps?cid=12234549171518383133) — guardada 2026-11-18
+- Av. Pdte. Kennedy Lateral 9001, Loc 6212, 7591567 Las Condes, Región Metropolitana — 4.5/5 — [Maps](https://www.google.com/maps?cid=10747916560118777089) — guardada 2026-11-18
+- Av. Andrés Bello 2425, 7510689 Las Condes, Providencia, Región Metropolitana — 3.9/5 — [Maps](https://www.google.com/maps?cid=12636439517167960683) — guardada 2026-11-18
+
+
+### Qué vende
+
+- ENSALADAS
+- PIZZAS
+
+
+### Carta
+
+- LÁGRIMA seen 52800 ROLL DE CANELA (CINNAMON ROLL) " — $82.600
+- E : aaa aon o indi — $92.000
+- A A AN Queso arándano — $93.290
+- JAMÓN SERRANO = — $510.990
+- @ BAGEL id . ENSALADAS — $6.990
+- SELLADO VEGETARIANA ~ — $6.990
+- MEDIALUNA TRADICIONAL
+- PAN DE CHOCOLATE
+- Chocolate
+- Sanguche de Salmón ahumado en pan BAGEL
+- PORCIÓN DE TORTA
+- POLLO
+- MECHADA
+- TORTA DE CHOCOLATE
+- WAFFLES
+- Helado de vainilla y salsa a elección
+- LAS MILANESAS
+- SÁNGUCHE DE MILANESA DE POLLO
+- SANGUCHE DE MILANESA DE VACUNO — $510.290
+- BAGEL
+- ASADO DE LA NONA
+
 
 ## ALLFREE
 - **Ubicación:** Av. Apoquindo 7474, 7571731 Santiago, Las Condes, Región Metropolitana
@@ -341,207 +412,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Web:** https://www.biomercado.cl/
 - **Menciona en su web:** galleta, chocolate, postre, dulces
 - **Fecha de registro:** 2026-03-23
-
-## Bonheur Keto Patisserie
-- **Ubicación:** Av. La Dehesa 3265, Local 8, 7700239 Lo Barnechea, Región Metropolitana
-- **Categoría:** Pastelería
-- **Valoración:** 4.8 / 5
-- **Enlace:** https://www.google.com/maps?cid=9791583187258393050
-- **Web:** https://bonheurketopatisserie.com/
-- **Menciona en su web:** torta, pastel, alfajor, brownie, cheesecake, pie, chocolate, tiramisú, manjar, factura, postre, dulces
-- **Menciona en reseñas:** torta, pastel, alfajor, dulces
-- **Fecha de registro:** 2026-05-14
-
-### Qué vende
-
-- DESPACHOS
-
-
-### Carta
-
-#### DESPACHOS
-
-- Santiago Centro — $4.500
-- Colina y CHICUREO — $6.000
-
-
-## Bonheur Pâtisserie
-- **Ubicación:** Av. Nueva Costanera 4177, local 11, 7630156 Vitacura, Región Metropolitana
-- **Categoría:** Pastelería
-- **Valoración:** 4.7 / 5
-- **Enlace:** https://www.google.com/maps?cid=6494588787266833776
-- **Web:** https://bonheurketopatisserie.com/
-- **Menciona en su web:** torta, pastel, alfajor, brownie, cheesecake, pie, chocolate, tiramisú, manjar, factura, postre, dulces
-- **Menciona en reseñas:** torta, pastel, alfajor, muffin, postre, dulces
-- **Fecha de registro:** 2025-11-23
-
-### Qué vende
-
-- Panadería
-- Masas
-- Galletas
-- Postres
-- Untables
-- Queques
-- Tortas
-- Pasteles
-- Muffins
-- Keto
-- Granola
-- Barras
-- Pastelitos
-- Entremeses y aperitivos
-- Barras de cereales
-- Barras de postres
-- pastelitos para el café
-- Yogurt helado
-- Pastelitos empaquetados
-- Panes y bollería
-- Cucuruchos
-- Frutos secos combinados
-- Surtidos de pasteles
-
-
-### Carta
-
-#### Panadería
-
-- Hogaza — $12.250
-- Pan pita — $12.250
-- Pan de pascua — $14.990
-
-#### Masas
-
-- Masa para pizza pack de 2 — $14.700
-
-#### Galletas
-
-- Galletas de limón — $14.060
-- Galletas rellenas de manjar — $9.050
-- Crackers — $7.020
-- Florentinas — $15.980
-
-#### Postres
-
-- Reese’s (Bon o Bon/almendras/manjar) — $15.980
-- Cheesecake — $29.810
-- Cinnamon roll — $3.670
-- Postres tamaño familiar (varios sabores) — $29.820
-- Tiramisú individual — $6.790
-- Pie de limón — $7.440
-- Brownie cheesecake — $26.610
-- Brownie individual sin lácteos — $4.100
-- Croissant dulces — $4.690
-- Gansito — $5.270
-- Tarta frambuesa chocolate — $7.440
-- Tarta de crema pastelera y frutos rojos — $7.440
-- Alfajor mazapán huevo mol — $4.460
-- Barra snicker — $4.680
-- Brownie Salted caramel — $4.680
-- Pain au chocolat — $4.690
-- Cruffin — $4.690
-- Barra bon o bon (cobertura blanca o bitter) — $4.680
-- Alfajor Bon o Bon — $5.270
-- Tarta de Suspiro Limeño — $7.440
-- Alfajor pie de limón — $5.270
-
-#### Untables
-
-- Manjar — $7.460
-- Mermelada de frambuesa — $5.320
-
-#### Queques
-
-- Queque de limón — $17.560
-- Kuchen nuez — $7.440
-- Kuchen de manzana — $7.440
-- Queque chips de chocolate — $17.560
-
-#### Tortas
-
-- Torta Lúcuma manjar — $50.590
-- Torta Red velvet — $50.590
-- Torta Chocolate Cake — $50.590
-- Torta individual manjar — $8.200
-- Torta Tiramisú — $50.590
-- Torta 3 leches — $50.590
-- Torta crocante caluga nuez — $56.230
-- Torta crocante caluga nuez individual — $8.200
-- Torta amor — $9.570
-- Torta Sin lácteos — $50.000
-
-#### Pasteles
-
-- Alfajor — $5.270
-- Barra pistacho Rocher — $5.850
-- Alfajor mazapán frambuesa bitter sin lácteos — $4.460
-- Queque de zanahoria — $16.490
-- Torta 3 leches sin lácteos — $55.000
-- Encarga tu Torta — $50.590
-
-#### Muffins
-
-- Muffins — $3.730
-
-#### Keto
-
-- Carrot cake — $50.590
-- Barra caluga nuez — $5.270
-
-#### Granola
-
-- Granola — $9.570
-
-#### Barras
-
-- Barra nuez manjar — $4.680
-
-#### Pastelitos
-
-- Alfajor brownie manjar — $6.340
-
-#### Entremeses y aperitivos
-
-- Prestigio — $4.680
-
-#### Barras de cereales
-
-- Barra triple chocolate — $5.270
-
-#### Barras de postres
-
-- Alfajor Brownie Caluga Frambuesa — $6.340
-
-#### pastelitos para el café
-
-- Queque de arándanos — $17.560
-
-#### Yogurt helado
-
-- Suspiro limeño — $6.790
-
-#### Pastelitos empaquetados
-
-- Tarta de Pistacho — $11.700
-- Box degustación — $12.780
-
-#### Panes y bollería
-
-- Masa danesa de crema pastelera y pistacho — $5.270
-- Berlin — $5.530
-
-#### Cucuruchos
-
-- Barra mango maracuyá — $5.270
-
-#### Frutos secos combinados
-
-- Barra Dubai (bitter y blanco) — $6.910
-
-#### Surtidos de pasteles
-
-- Pack Bonheur — $15.000
-
 
 ## BuganVilla cafe & market
 - **Ubicación:** Tabancura 1348, 7650104 Vitacura, Región Metropolitana
@@ -2878,63 +2748,6 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Pizza mediana mozzarella sin gluten — $18.900
 - Pizza mediana de queso de cabra — $22.000
 
-
-## Havanna
-- **Ubicación:** Av. Larraín 5862, 7870154 La Reina, Región Metropolitana
-- **Categoría:** Cafetería
-- **Valoración:** 2.9 / 5
-- **Enlace:** https://www.google.com/maps?cid=13289451453572953497
-- **Web:** http://havanna.cl/
-- **Menciona en reseñas:** sándwich, waffle, alfajor, cheesecake
-- **Fecha de registro:** 2026-11-18
-
-### Qué vende
-
-- ENSALADAS
-- PIZZAS
-
-
-### Carta
-
-- LÁGRIMA seen 52800 ROLL DE CANELA (CINNAMON ROLL) " — $82.600
-- E : aaa aon o indi — $92.000
-- A A AN Queso arándano — $93.290
-- JAMÓN SERRANO = — $510.990
-- @ BAGEL id . ENSALADAS — $6.990
-- SELLADO VEGETARIANA ~ — $6.990
-- MEDIALUNA TRADICIONAL
-- PAN DE CHOCOLATE
-- Chocolate
-- Sanguche de Salmón ahumado en pan BAGEL
-- PORCIÓN DE TORTA
-- POLLO
-- MECHADA
-- TORTA DE CHOCOLATE
-- WAFFLES
-- Helado de vainilla y salsa a elección
-- LAS MILANESAS
-- SÁNGUCHE DE MILANESA DE POLLO
-- SANGUCHE DE MILANESA DE VACUNO — $510.290
-- BAGEL
-- ASADO DE LA NONA
-
-
-## Havanna - Costanera Center
-- **Ubicación:** Av. Andrés Bello 2425, 7510689 Las Condes, Providencia, Región Metropolitana
-- **Categoría:** Cafetería
-- **Valoración:** 3.9 / 5
-- **Enlace:** https://www.google.com/maps?cid=12636439517167960683
-- **Web:** https://mall.costaneracenter.cl/tiendas/havanna
-- **Menciona en reseñas:** alfajor, croissant
-- **Fecha de registro:** 2026-11-18
-
-## Havanna Alto las Condes
-- **Ubicación:** Av. Pdte. Kennedy Lateral 9001, Loc 6212, 7591567 Las Condes, Región Metropolitana
-- **Categoría:** Cafetería
-- **Valoración:** 4.5 / 5
-- **Enlace:** https://www.google.com/maps?cid=10747916560118777089
-- **Menciona en reseñas:** alfajor, chocolate, dulces
-- **Fecha de registro:** 2026-11-18
 
 ## Helados Quinto Pino
 - **Ubicación:** Av Vitacura 7166, 7640560 Vitacura, Región Metropolitana
