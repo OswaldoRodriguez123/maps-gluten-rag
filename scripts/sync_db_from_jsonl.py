@@ -54,6 +54,33 @@ def sync_db_from_jsonl(data_dir: Path, db_path: Path) -> int:
             if not place_id:
                 continue
             rows = by_place.get(place_id) or []
+            branches = metadata.get("branches")
+            if branches:
+                for branch in branches:
+                    objects.append(
+                        Place(
+                            ftid=branch["ftid"],
+                            name=metadata.get("name") or place_id,
+                            address=branch.get("address"),
+                            category=metadata.get("category"),
+                            rating=branch.get("rating"),
+                            reviews=branch.get("reviews"),
+                            note=branch.get("note"),
+                            url=branch.get("url") or "",
+                            saved_on=branch.get("saved_on"),
+                            lat=branch.get("lat"),
+                            lng=branch.get("lng"),
+                            website=metadata.get("website"),
+                            website_source=branch.get("website_source")
+                            or metadata.get("website_source"),
+                            dishes=metadata.get("dishes"),
+                            review_dishes=metadata.get("review_dishes"),
+                            menu_dishes=_summary(rows),
+                            menu_json=json.dumps(rows, ensure_ascii=False) if rows else None,
+                            menu_at=today if rows else None,
+                        )
+                    )
+                continue
             objects.append(
                 Place(
                     ftid=place_id,
