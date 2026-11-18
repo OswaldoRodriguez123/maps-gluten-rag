@@ -61,7 +61,7 @@ GENERIC_TOKENS: frozenset[str] = frozenset({
     "cafe", "coffeeshop", "coffee", "pizza", "pizzeria", "restaurante", "restaurant",
     "burger", "hamburgueseria", "sushi", "heladeria", "pasteleria", "panaderia",
     "sandwicheria", "bar", "comida", "food", "tienda", "local", "casa", "mercado",
-    "almacen", "donut", "donuts",
+    "almacen", "donut", "donuts", "cafeteria", "confiteria", "chocolateria",
     "de", "del", "la", "las", "los", "el", "y", "e", "en", "con",
 })
 

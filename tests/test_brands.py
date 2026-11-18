@@ -119,6 +119,14 @@ class FindGroupsPrefixTest(unittest.TestCase):
         self.assertEqual(list(groups), ["h_alc"])
         self.assertEqual([p.ftid for p in groups["h_alc"]], ["h_alc", "h_cc", "h_h"])
 
+    def test_cafeteria_style_prefix_no_merge(self):
+        for prefix in ("Cafetería", "Confitería", "Chocolatería"):
+            ps = places([
+                ("a", f"{prefix} Roma", "Cafetería"),
+                ("b", f"{prefix} Centro", "Cafetería"),
+            ])
+            self.assertEqual(brands.find_groups(ps), {}, prefix)
+
     def test_generic_only_prefix_no_merge(self):
         ps = places([
             ("a", "Cafe Roma", "Cafetería"),
