@@ -1,8 +1,9 @@
 """Detección de cadenas/marcas: agrupa sucursales de una misma empresa.
 
-Los grupos se derivan de los datos (nombre normalizado + categoría o dominio),
-sin cambios de schema. Sin señal de confirmación no hay grupo; dominios
-conocidos y distintos vetan al nombre completo (ver design doc).
+Los grupos se derivan de los datos (nombre normalizado con prefijo de marca
++ categoría o dominio), sin cambios de schema. Sin señal de confirmación no
+hay grupo; dos dominios conocidos distintos nunca se conectan directamente
+(ver design doc).
 """
 
 from __future__ import annotations
@@ -51,49 +52,80 @@ def canonical(members):
     return min(members, key=lambda p: _field(p, "ftid") or "")
 
 
+def _tokens(text: str | None) -> list[str]:
+    normal = normalize(text)
+    return normal.split() if normal else []
+
+
+GENERIC_TOKENS: frozenset[str] = frozenset({
+    "cafe", "coffeeshop", "coffee", "pizza", "pizzeria", "restaurante", "restaurant",
+    "burger", "hamburgueseria", "sushi", "heladeria", "pasteleria", "panaderia",
+    "sandwicheria", "bar", "comida", "food", "tienda", "local", "casa", "mercado",
+    "almacen", "donut", "donuts", "cafeteria", "confiteria", "chocolateria",
+    "de", "del", "la", "las", "los", "el", "y", "e", "en", "con",
+})
+
+
+def _prefix_distinctive(t1: list[str], t2: list[str]) -> bool:
+    """Prefijo inicial compartido no vacío con al menos un token distintivo."""
+    shared = 0
+    for a, b in zip(t1, t2):
+        if a != b:
+            break
+        shared += 1
+    if shared == 0:
+        return False
+    return any(tok not in GENERIC_TOKENS for tok in t1[:shared])
+
+
 def find_groups(places) -> dict:
-    buckets: dict[str, list] = {}
+    items = []
     for place in places:
-        name = normalize(_field(place, "name"))
-        if name:
-            buckets.setdefault(name, []).append(place)
+        tokens = _tokens(_field(place, "name"))
+        if not tokens:
+            continue
+        items.append((
+            place,
+            tokens,
+            normalize(_field(place, "category")),
+            domain(_field(place, "website")),
+        ))
+    n = len(items)
+    parent = list(range(n))
+
+    def find(i: int) -> int:
+        while parent[i] != i:
+            parent[i] = parent[parent[i]]
+            i = parent[i]
+        return i
+
+    def union(i: int, j: int) -> None:
+        ri, rj = find(i), find(j)
+        if ri != rj:
+            parent[ri] = rj
+
+    for i in range(n):
+        for j in range(i + 1, n):
+            _, t1, cat1, dom1 = items[i]
+            _, t2, cat2, dom2 = items[j]
+            same_cat = cat1 and cat1 == cat2
+            same_dom = dom1 and dom1 == dom2
+            if not (same_cat or same_dom):
+                continue
+            if dom1 and dom2 and dom1 != dom2:
+                continue  # veto por arista: dominios conocidos distintos
+            if t1 == t2 or _prefix_distinctive(t1, t2):
+                union(i, j)
+
+    components: dict[int, list] = {}
+    for i in range(n):
+        components.setdefault(find(i), []).append(items[i][0])
     groups: dict[str, list] = {}
-    for members in buckets.values():
+    for members in components.values():
         if len(members) < 2:
             continue
-        domains = [domain(_field(m, "website")) for m in members]
-        known = {d for d in domains if d}
-        if len(known) > 1:
-            continue  # veto: dominios distintos conocidos → no hay grupo
-        cats = [normalize(_field(m, "category")) for m in members]
-        n = len(members)
-        parent = list(range(n))
-
-        def find(i):
-            while parent[i] != i:
-                parent[i] = parent[parent[i]]
-                i = parent[i]
-            return i
-
-        def union(i, j):
-            ri, rj = find(i), find(j)
-            if ri != rj:
-                parent[ri] = rj
-
-        for i in range(n):
-            for j in range(i + 1, n):
-                same_cat = cats[i] and cats[i] == cats[j]
-                same_dom = domains[i] and domains[i] == domains[j]
-                if same_cat or same_dom:
-                    union(i, j)
-        components: dict[int, list] = {}
-        for i in range(n):
-            components.setdefault(find(i), []).append(members[i])
-        for component in components.values():
-            if len(component) < 2:
-                continue
-            ordered = sorted(component, key=lambda p: _field(p, "ftid") or "")
-            groups[_field(canonical(ordered), "ftid")] = ordered
+        ordered = sorted(members, key=lambda p: _field(p, "ftid") or "")
+        groups[_field(canonical(ordered), "ftid")] = ordered
     return groups
 
 

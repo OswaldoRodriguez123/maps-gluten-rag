@@ -108,5 +108,64 @@ class FindGroupsTest(unittest.TestCase):
         self.assertEqual(brands.canonical(ps).ftid, "a")
 
 
+class FindGroupsPrefixTest(unittest.TestCase):
+    def test_havanna_prefix_transitive_bridge_merges(self):
+        ps = places([
+            ("h_h", "Havanna", "Cafetería", "https://havanna.cl/"),
+            ("h_cc", "Havanna - Costanera Center", "Cafetería", "https://mall.costaneracenter.cl/"),
+            ("h_alc", "Havanna Alto las Condes", "Cafetería", None),
+        ])
+        groups = brands.find_groups(ps)
+        self.assertEqual(list(groups), ["h_alc"])
+        self.assertEqual([p.ftid for p in groups["h_alc"]], ["h_alc", "h_cc", "h_h"])
+
+    def test_cafeteria_style_prefix_no_merge(self):
+        for prefix in ("Cafetería", "Confitería", "Chocolatería"):
+            ps = places([
+                ("a", f"{prefix} Roma", "Cafetería"),
+                ("b", f"{prefix} Centro", "Cafetería"),
+            ])
+            self.assertEqual(brands.find_groups(ps), {}, prefix)
+
+    def test_generic_only_prefix_no_merge(self):
+        ps = places([
+            ("a", "Cafe Roma", "Cafetería"),
+            ("b", "Cafe Centro", "Cafetería"),
+        ])
+        self.assertEqual(brands.find_groups(ps), {})
+
+    def test_veto_blocks_direct_edge_but_bridge_merges(self):
+        ps = places([
+            ("a", "Cafe X", "Cafetería", "https://a.cl/"),
+            ("b", "Cafe X", "Cafetería", "https://b.cl/"),
+            ("c", "Cafe X", "Cafetería", None),
+        ])
+        groups = brands.find_groups(ps)
+        self.assertEqual(
+            sorted(p.ftid for g in groups.values() for p in g), ["a", "b", "c"]
+        )
+
+    def test_multiword_distinctive_prefix_merges(self):
+        ps = places([
+            ("a", "Pizza Hut Miraflores", "Pizzería"),
+            ("b", "Pizza Hut Centro", "Pizzería"),
+        ])
+        self.assertEqual(list(brands.find_groups(ps)), ["a"])
+
+    def test_prefix_of_longer_name_merges(self):
+        ps = places([
+            ("a", "Havanna", "Cafetería"),
+            ("b", "Havanna - Parque Arauco", "Cafetería"),
+        ])
+        self.assertEqual(list(brands.find_groups(ps)), ["a"])
+
+    def test_domain_confirmation_merges_prefix(self):
+        ps = places([
+            ("a", "Havanna", None, "https://havanna.cl/"),
+            ("b", "HAVANNA - LOCAL", "Tienda", "https://havanna.cl/"),
+        ])
+        self.assertEqual(list(brands.find_groups(ps)), ["a"])
+
+
 if __name__ == "__main__":
     unittest.main()
