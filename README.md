@@ -203,7 +203,8 @@ hand.
 
 - Each place is a `##`.
 - When several saved places belong to the same chain (same normalized
-  name plus the same category or website domain), they are rendered as a
+  name, or one name being a token-prefix sharing a distinctive token, plus
+  a matching category or website domain), they are rendered as a
   single `## <Name>` entry with a `- **Cadena:** N sucursales` line, a
   `### Sucursales` block listing each branch (address, rating, Maps link,
   saved date and personal note) and one shared `### Carta`. The shared
