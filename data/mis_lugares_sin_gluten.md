@@ -1,6 +1,6 @@
 # Base de Datos: Locales Sin Gluten Guardados en Google Maps
 
-_Actualizado: 2026-11-10 · 107 lugares · Fuente: lista de Google Maps_
+_Actualizado: 2026-11-18 · 110 lugares · Fuente: lista de Google Maps_
 
 Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
@@ -45,6 +45,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Restaurante indio
 - **Valoración:** 4.8 / 5
 - **Enlace:** https://www.google.com/maps?cid=10910428577145163712
+- **Menciona en reseñas:** postre
 - **Fecha de registro:** 2026-11-06
 
 ### Qué vende
@@ -121,7 +122,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=7093295945652665785
 - **Web:** http://www.bfreshpaseo.cl/
 - **Menciona en su web:** pollo, sándwich, cheesecake, tiramisú, dulces
-- **Menciona en reseñas:** ensalada, cheesecake, dulces
+- **Menciona en reseñas:** ensalada, cheesecake, chocolate, dulces
 - **Fecha de registro:** 2026-03-23
 - **Dietético:** 1 platos sin gluten
 
@@ -310,7 +311,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.3 / 5
 - **Enlace:** https://www.google.com/maps?cid=16771263480017221694
 - **Web:** http://www.baritalia.cl/
-- **Menciona en reseñas:** lasaña, ceviche, sopa, risotto
+- **Menciona en reseñas:** lasaña, ceviche, sopa, risotto, jugo
 - **Fecha de registro:** 2025-10-02
 - **Dietético:** local 100% sin gluten
 
@@ -703,7 +704,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Cafetería
 - **Valoración:** 4.7 / 5
 - **Enlace:** https://www.google.com/maps?cid=9130566955029176875
-- **Menciona en reseñas:** hamburguesa, empanada, completo, chilenito, dulces, jugo
+- **Menciona en reseñas:** hamburguesa, empanada, sándwich, panqueque, completo, torta, dulces, jugo
 - **Fecha de registro:** 2025-10-04
 - **Dietético:** local 100% sin gluten
 
@@ -751,7 +752,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Cafetería
 - **Valoración:** 4.7 / 5
 - **Enlace:** https://www.google.com/maps?cid=15342600646252666197
-- **Menciona en reseñas:** pizza, cheesecake, chocolate, dulces, jugo
+- **Menciona en reseñas:** hummus, cheesecake, dulces, jugo
 - **Fecha de registro:** 2025-11-08
 
 ### Carta
@@ -839,7 +840,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.8 / 5
 - **Enlace:** https://www.google.com/maps?cid=15614687588888270437
 - **Web:** https://toteat.shop/r/cl/Pasteleria-Fabiana/21150/checkin/menu
-- **Menciona en reseñas:** pino, torta, pastel
+- **Menciona en reseñas:** torta, pastel
 - **Fecha de registro:** 2026-03-23
 - **Dietético:** 6 platos sin gluten, 6 veganos, 2 sin lactosa
 
@@ -1098,7 +1099,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Cafetería
 - **Valoración:** 4.8 / 5
 - **Enlace:** https://www.google.com/maps?cid=12393475553772179856
-- **Menciona en reseñas:** pizza, mechada, torta, chocolate, jugo
+- **Menciona en reseñas:** pizza, mechada, torta, jugo
 - **Fecha de registro:** 2025-11-23
 - **Dietético:** 28 platos sin gluten, 3 veganos
 
@@ -1333,6 +1334,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Restaurante mexicano
 - **Valoración:** 4.4 / 5
 - **Enlace:** https://www.google.com/maps?cid=15719213249658519912
+- **Menciona en reseñas:** burrito, dulces, jugo
 - **Fecha de registro:** 2026-11-06
 
 ### Qué vende
@@ -1419,6 +1421,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=10416907072710934038
 - **Web:** https://ciaofiorentina.cl/wp-content/uploads/2026/07/Copy-of-FINALFINALCartaEspJunio2026-2-1.pdf
 - **Menciona en su web:** pasta, pollo, carne, ensalada, sándwich, bagel, tortilla, hummus, asado, mechada, torta, pastel, galleta, cheesecake, pie, tarta, helado, chocolate, merengue, tiramisú, manjar, croissant, dulces, jugo
+- **Menciona en reseñas:** sándwich
 - **Fecha de registro:** 2025-11-23
 - **Dietético:** 2 platos sin gluten
 
@@ -1559,7 +1562,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Centro comercial
 - **Valoración:** 5.0 / 5
 - **Enlace:** https://www.google.com/maps?cid=6688789933015104335
-- **Web:** https://casaroque.cl/
+- **Web:** https://wwww.casaroque.cl/
 - **Menciona en reseñas:** chocolate
 - **Fecha de registro:** 2026-10-28
 
@@ -1606,7 +1609,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=9193913793701792995
 - **Web:** http://www.casaciencafe.cl/
 - **Menciona en su web:** hamburguesa, pollo, carne, ensalada, sopa, sándwich, bagel, hummus, parrilla, mechada, torta, pastel, galleta, alfajor, brownie, muffin, donut, pie, tarta, helado, chocolate, manjar, croissant, postre, dulces, jugo
-- **Menciona en reseñas:** pastel, pie, chocolate, jugo
+- **Menciona en reseñas:** pastel, chocolate, jugo
 - **Fecha de registro:** 2026-04-22
 - **Dietético:** 1 veganos
 
@@ -1802,7 +1805,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.8 / 5
 - **Enlace:** https://www.google.com/maps?cid=11227021280680235041
 - **Web:** https://menu.fu.do/crumblessglutenfreebakery
-- **Menciona en su web:** Pizza queso, Pizza pepperoni, Sándwich clásico, Sándwich mechada queso, Sándwich tomate palmita, Extra mayo, Extra ketchup, Extra jamón, Extra queso rodda, Extra queso palmita, Extra aceite de oliva, Extra carne mechada, Extra tomate, Generico, Galletas N.Y Chocolate, Galletas N.Y Pistacho, Galletas N.Y Red Velvet, Brookie, Roles de canela, Profiteroles, Pan de queso, Pan rustico (Congelado), Empanada napolitana, Porción Choco Choco, Porción Carrot Cake, Porción Tres Leches, Porción Frutilla Cremosa, Porción Cuatro Leches, Porción de trufas, Pie de limón, Jugo de frutilla, Jugo de mango, Jugo de piña, Coca cola C/A, Agua sin gas benedictino, Agua con gas benedictino, Papas grandes, Papas chicas, Papas mechada queso, pizza, empanada, carne, sándwich, mechada, torta, galleta, brownie, pie, chocolate, merengue, manjar, jugo
+- **Menciona en su web:** Pizza jamón-tocino, Pizza queso, Pizza pepperoni, Sándwich clásico, Sándwich mechada queso, Extra mayo, Extra ketchup, Extra jamón, Extra queso rodda, Extra queso palmita, Extra aceite de oliva, Extra carne mechada, Extra tomate, Generico, Galletas N.Y Pistacho, Galletas N.Y Red Velvet, Galletas Surtidas, Brookie, Roles de canela, Profiteroles, Pan de queso, Pan rústico, Empanada napolitana, Porción Choco Choco, Porción Red Velvet, Porción Carrot Cake, Porción Cheesecake, Porción Tres Leches, Porción Frutilla Cremosa, Porción Cuatro Leches, Porción Choco Manjar, Porción de trufas, Pie de limón, Jugo de frutilla, Jugo de mango, Jugo de piña, Coca cola C/A, Coca cola S/A, Ramen, Papas mechada queso, pizza, empanada, ramen, carne, sándwich, mechada, torta, galleta, brownie, cheesecake, pie, chocolate, merengue, manjar, jugo
 - **Menciona en reseñas:** torta, galleta, manjar, postre, jugo
 - **Fecha de registro:** 2025-10-02
 - **Dietético:** local 100% sin gluten
@@ -2170,6 +2173,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Pastelería
 - **Valoración:** 4.8 / 5
 - **Enlace:** https://www.google.com/maps?cid=8863494916280658664
+- **Web:** https://delivery.dulcesrufiko.cl/
+- **Menciona en reseñas:** pasta, pastel, cheesecake, dulces
 - **Fecha de registro:** 2026-11-06
 
 ### Qué vende
@@ -2190,7 +2195,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.4 / 5
 - **Enlace:** https://www.google.com/maps?cid=5626173014652709828
 - **Web:** http://www.dondelguaton.cl/
-- **Menciona en reseñas:** carne, parrilla, pastel de choclo, cazuela, pastel, postre, jugo
+- **Menciona en reseñas:** parrilla, pastel de choclo, cazuela, pastel, postre
 - **Fecha de registro:** 2026-02-15
 
 ### Qué vende
@@ -2252,7 +2257,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Cafetería
 - **Valoración:** 4.5 / 5
 - **Enlace:** https://www.google.com/maps?cid=9080931698970268126
-- **Web:** https://elpatiocafe.shop/menu
+- **Web:** http://www.elpatiocl.com/
+- **Menciona en reseñas:** burrito, ensalada, sándwich, hummus, chocolate, jugo
 - **Fecha de registro:** 2026-11-06
 
 ### Qué vende
@@ -2384,7 +2390,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 ## Excepto Gluten
 - **Ubicación:** Av. Grecia 3234, 7760196 Ñuñoa, Región Metropolitana
 - **Categoría:** Tienda de alimentos naturales
-- **Valoración:** 4.5 / 5
+- **Valoración:** 4.3 / 5
 - **Enlace:** https://www.google.com/maps?cid=4928912943320336581
 - **Menciona en reseñas:** empanada
 - **Fecha de registro:** 2026-04-29
@@ -2814,7 +2820,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.8 / 5
 - **Enlace:** https://www.google.com/maps?cid=6143024512600834281
 - **Web:** https://ketoandglutenfree.com/
-- **Menciona en reseñas:** hamburguesa, pizza, pastel, tarta, jugo
+- **Menciona en reseñas:** hamburguesa, tarta
 - **Fecha de registro:** 2025-11-05
 - **Dietético:** local 100% sin gluten
 
@@ -2873,12 +2879,69 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - Pizza mediana de queso de cabra — $22.000
 
 
+## Havanna
+- **Ubicación:** Av. Larraín 5862, 7870154 La Reina, Región Metropolitana
+- **Categoría:** Cafetería
+- **Valoración:** 2.9 / 5
+- **Enlace:** https://www.google.com/maps?cid=13289451453572953497
+- **Web:** http://havanna.cl/
+- **Menciona en reseñas:** sándwich, waffle, alfajor, cheesecake
+- **Fecha de registro:** 2026-11-18
+
+### Qué vende
+
+- ENSALADAS
+- PIZZAS
+
+
+### Carta
+
+- LÁGRIMA seen 52800 ROLL DE CANELA (CINNAMON ROLL) " — $82.600
+- E : aaa aon o indi — $92.000
+- A A AN Queso arándano — $93.290
+- JAMÓN SERRANO = — $510.990
+- @ BAGEL id . ENSALADAS — $6.990
+- SELLADO VEGETARIANA ~ — $6.990
+- MEDIALUNA TRADICIONAL
+- PAN DE CHOCOLATE
+- Chocolate
+- Sanguche de Salmón ahumado en pan BAGEL
+- PORCIÓN DE TORTA
+- POLLO
+- MECHADA
+- TORTA DE CHOCOLATE
+- WAFFLES
+- Helado de vainilla y salsa a elección
+- LAS MILANESAS
+- SÁNGUCHE DE MILANESA DE POLLO
+- SANGUCHE DE MILANESA DE VACUNO — $510.290
+- BAGEL
+- ASADO DE LA NONA
+
+
+## Havanna - Costanera Center
+- **Ubicación:** Av. Andrés Bello 2425, 7510689 Las Condes, Providencia, Región Metropolitana
+- **Categoría:** Cafetería
+- **Valoración:** 3.9 / 5
+- **Enlace:** https://www.google.com/maps?cid=12636439517167960683
+- **Web:** https://mall.costaneracenter.cl/tiendas/havanna
+- **Menciona en reseñas:** alfajor, croissant
+- **Fecha de registro:** 2026-11-18
+
+## Havanna Alto las Condes
+- **Ubicación:** Av. Pdte. Kennedy Lateral 9001, Loc 6212, 7591567 Las Condes, Región Metropolitana
+- **Categoría:** Cafetería
+- **Valoración:** 4.5 / 5
+- **Enlace:** https://www.google.com/maps?cid=10747916560118777089
+- **Menciona en reseñas:** alfajor, chocolate, dulces
+- **Fecha de registro:** 2026-11-18
+
 ## Helados Quinto Pino
 - **Ubicación:** Av Vitacura 7166, 7640560 Vitacura, Región Metropolitana
 - **Categoría:** Heladería
 - **Valoración:** 4.9 / 5
 - **Enlace:** https://www.google.com/maps?cid=16668060962436238684
-- **Menciona en reseñas:** pino, alfajor, helado
+- **Menciona en reseñas:** pino, alfajor, helado, dulces
 - **Fecha de registro:** 2026-02-12
 - **Dietético:** 2 platos sin gluten, 1 veganos
 
@@ -3138,15 +3201,15 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=13319667635671695715
 - **Web:** https://micartaqr.cl/larrabbiata
 - **Menciona en su web:** pasta, pollo, ensalada, sándwich, churrasco, nachos, torta, pastel, galleta, brownie, cheesecake, pie, tarta, helado, chocolate, merengue, manjar, croissant, dulces, jugo
-- **Menciona en reseñas:** completo, dulces
+- **Menciona en reseñas:** completo
 - **Fecha de registro:** 2025-11-23
 
 ## La casita Myfoods - gluten free
 - **Ubicación:** Los Maitenes 2380, 7510487 Providencia, Región Metropolitana
 - **Categoría:** Cafetería
-- **Valoración:** 4.6 / 5
+- **Valoración:** 4.5 / 5
 - **Enlace:** https://www.google.com/maps?cid=1094634913511685091
-- **Menciona en reseñas:** pizza, torta, pastel, helado, postre
+- **Menciona en reseñas:** pizza, torta, pastel, helado
 - **Fecha de registro:** 2026-09-27
 - **Dietético:** local 100% sin gluten
 
@@ -3223,7 +3286,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 ## La Friet Amsterdam
 - **Ubicación:** Av. Italia 1213, 7501295 Santiago, Providencia, Región Metropolitana
 - **Categoría:** Restaurante
-- **Valoración:** 4.4 / 5
+- **Valoración:** 4.3 / 5
 - **Enlace:** https://www.google.com/maps?cid=3683391876785139705
 - **Fecha de registro:** 2026-03-16
 
@@ -3483,6 +3546,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Cafetería
 - **Valoración:** 4.4 / 5
 - **Enlace:** https://www.google.com/maps?cid=10023942382296147388
+- **Web:** https://www.legrenier.cl/
+- **Menciona en reseñas:** croissant, postre
 - **Fecha de registro:** 2026-11-06
 - **Dietético:** 1 platos sin gluten
 
@@ -3612,7 +3677,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Tienda de alimentos naturales
 - **Valoración:** 5.0 / 5
 - **Enlace:** https://www.google.com/maps?cid=10615428993544095970
-- **Web:** https://librepunto.cl
+- **Web:** http://www.librepunto.cl/
 - **Menciona en su web:** pasta, galleta, chocolate, dulces
 - **Fecha de registro:** 2026-06-19
 
@@ -3623,7 +3688,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=14525758092522657358
 - **Web:** http://www.lightmarias.cl/
 - **Menciona en su web:** pasta, curry, pollo, torta, galleta, alfajor, brownie, pie, chocolate, manjar
-- **Menciona en reseñas:** pasta, ensalada, pastel, brownie, chocolate, dulces
+- **Menciona en reseñas:** ensalada, pastel, brownie, chocolate, dulces
 - **Fecha de registro:** 2026-03-01
 - **Dietético:** local 100% sin gluten, 11 veganos, 3 sin lactosa
 
@@ -3968,6 +4033,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=9616485031210592336
 - **Web:** http://www.naoki.cl/
 - **Menciona en su web:** pescado, completo
+- **Menciona en reseñas:** sushi
 - **Fecha de registro:** 2025-11-05
 
 ### Qué vende
@@ -4019,6 +4085,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Marisquería
 - **Valoración:** 4.2 / 5
 - **Enlace:** https://www.google.com/maps?cid=2062776231944323794
+- **Web:** http://www.nogaro.cl/
+- **Menciona en reseñas:** sándwich, risotto, merengue
 - **Fecha de registro:** 2026-11-06
 
 ### Qué vende
@@ -4131,7 +4199,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=15381573595002265253
 - **Web:** https://www.pfchangs.cl/
 - **Menciona en su web:** sushi, ceviche, curry, pollo, carne, pescado, mariscos, wrap, tempura, pastel, brownie, cheesecake, pie, tarta, chocolate, postre, dulces, jugo
-- **Menciona en reseñas:** carne
+- **Menciona en reseñas:** pollo, carne
 - **Fecha de registro:** 2025-11-05
 
 ### Qué vende
@@ -4301,7 +4369,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=17494267475154547298
 - **Web:** https://www.panart.cl/
 - **Menciona en su web:** hamburguesa, pizza, empanada, hot dog, pino, torta, pastel, galleta, brownie, muffin, cheesecake, pie, postre, dulces
-- **Menciona en reseñas:** empanada, pollo, pino, torta, pastel, alfajor, brownie, chocolate, merengue
+- **Menciona en reseñas:** pizza, empanada, pollo, pino, torta, pastel, brownie, chocolate, merengue
 - **Fecha de registro:** 2025-11-05
 - **Dietético:** 12 platos sin gluten, 19 sin lactosa
 
@@ -4550,6 +4618,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.3 / 5
 - **Enlace:** https://www.google.com/maps?cid=9420130345546503463
 - **Web:** https://www.pasteleriasaludableneusa.cl/
+- **Menciona en reseñas:** panqueque, torta, pastel, alfajor, manjar, dulces
 - **Fecha de registro:** 2026-11-06
 - **Dietético:** 1 veganos
 
@@ -4571,7 +4640,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=256312721484404941
 - **Web:** http://www.patagoniaschokoland.cl/
 - **Menciona en su web:** torta, galleta, alfajor, helado, chocolate, manjar, dulce de leche, postre, dulces
-- **Menciona en reseñas:** sándwich, torta, helado, chocolate, churro, manjar
+- **Menciona en reseñas:** sándwich, helado, chocolate, churro
 - **Fecha de registro:** 2025-11-05
 - **Dietético:** 2 veganos, 1 sin lactosa
 
@@ -4647,7 +4716,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Cafetería
 - **Valoración:** 4.7 / 5
 - **Enlace:** https://www.google.com/maps?cid=10248643407148170209
-- **Menciona en reseñas:** churrasco, pastel, brownie, chocolate, dulce de leche, dulces
+- **Menciona en reseñas:** churrasco, pastel
 - **Fecha de registro:** 2026-03-23
 
 ### Qué vende
@@ -4699,7 +4768,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=16530483615308817507
 - **Web:** http://www.piegari.cl/
 - **Menciona en su web:** pasta, carne, pescado, mariscos, risotto
-- **Menciona en reseñas:** pasta, ensalada, asado, flan
+- **Menciona en reseñas:** pasta, asado
 - **Fecha de registro:** 2025-11-05
 
 ### Carta
@@ -4733,7 +4802,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.5 / 5
 - **Enlace:** https://www.google.com/maps?cid=8706754037076873966
 - **Web:** http://www.pizzabistrot.cl/
-- **Menciona en reseñas:** pizza, sopa
+- **Menciona en reseñas:** pizza, lasaña, sopa
 - **Fecha de registro:** 2025-11-23
 
 ### Qué vende
@@ -4786,7 +4855,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=14220070530479441708
 - **Web:** https://www.pizzerialatinoamericana.com/
 - **Menciona en su web:** pizza
-- **Menciona en reseñas:** pizza, empanada, carne, mechada
+- **Menciona en reseñas:** pizza, empanada
 - **Fecha de registro:** 2025-10-02
 - **Dietético:** 1 platos sin gluten, 1 veganos
 
@@ -4917,7 +4986,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=10904701771301529411
 - **Web:** https://www.productoselpueblo.cl/
 - **Menciona en su web:** pastel, chocolate
-- **Menciona en reseñas:** empanada, sopa, dulces
+- **Menciona en reseñas:** empanada, sopa, torta, dulces
 - **Fecha de registro:** 2026-10-12
 - **Dietético:** 1 sin lactosa
 
@@ -5069,7 +5138,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=10920287372200639195
 - **Web:** http://www.quimeysushi.cl/
 - **Menciona en su web:** hamburguesa, pizza, sushi, pasta, gyosa, pastel
-- **Menciona en reseñas:** sushi, empanada, gyosa
+- **Menciona en reseñas:** sushi, empanada
 - **Fecha de registro:** 2025-10-02
 - **Dietético:** local 100% sin gluten
 
@@ -5236,7 +5305,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=3753256406299664228
 - **Web:** https://www.rebeldeketo.cl/
 - **Menciona en su web:** pastel
-- **Menciona en reseñas:** torta, pastel, brownie, dulces
+- **Menciona en reseñas:** torta, pastel, alfajor, brownie, dulces
 - **Fecha de registro:** 2025-11-23
 
 ### Qué vende
@@ -5299,7 +5368,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Valoración:** 4.2 / 5
 - **Enlace:** https://www.google.com/maps?cid=16821697334277054677
 - **Web:** https://queresto.com/elrefugiopub
-- **Menciona en reseñas:** empanada
+- **Menciona en reseñas:** pollo, quesadilla
 - **Fecha de registro:** 2026-04-07
 
 ### Qué vende
@@ -5377,7 +5446,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=13525296869359295785
 - **Web:** https://laescalera.cl/
 - **Menciona en su web:** pasta, lasaña, curry, pollo, carne, ensalada, panqueque, paella, mechada, torta, helado, chocolate, tiramisú, manjar, postre, dulces, jugo
-- **Menciona en reseñas:** pasta, lasaña, paella
+- **Menciona en reseñas:** pasta, lasaña
 - **Fecha de registro:** 2026-02-15
 - **Dietético:** 4 platos sin gluten
 
@@ -5441,6 +5510,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Restaurante
 - **Valoración:** 4.4 / 5
 - **Enlace:** https://www.google.com/maps?cid=6524403543540202213
+- **Web:** https://www.roofburger.cl/pedir
+- **Menciona en reseñas:** hamburguesa, carne, chorrillana, jugo
 - **Fecha de registro:** 2026-11-06
 
 ### Qué vende
@@ -5509,7 +5580,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=3220934147216855037
 - **Web:** http://www.saboresparaalegrar.cl/
 - **Menciona en su web:** pizza, empanada, pino, torta, galleta, chocolate, merengue, tiramisú, manjar, postre, dulces
-- **Menciona en reseñas:** pizza, empanada, pastel, dulces
+- **Menciona en reseñas:** pizza, empanada, completo, pastel, dulces
 - **Fecha de registro:** 2025-11-14
 
 ### Qué vende
@@ -5603,6 +5674,8 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Restaurante especializado en fusión asiática
 - **Valoración:** 4.5 / 5
 - **Enlace:** https://www.google.com/maps?cid=4970966052134619664
+- **Web:** http://www.sativos.cl/
+- **Menciona en reseñas:** ceviche
 - **Fecha de registro:** 2026-11-06
 
 ### Qué vende
@@ -5654,7 +5727,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Categoría:** Cafetería
 - **Valoración:** 4.6 / 5
 - **Enlace:** https://www.google.com/maps?cid=1754633645530747479
-- **Menciona en reseñas:** hamburguesa, empanada, ensalada, sopa, postre, dulces, jugo
+- **Menciona en reseñas:** hamburguesa, pizza, empanada, ensalada, sopa, postre, dulces, jugo
 - **Fecha de registro:** 2025-10-25
 - **Dietético:** local 100% sin gluten
 
@@ -6018,7 +6091,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=13690725887924125890
 - **Web:** http://www.tastybulnes.cl/
 - **Menciona en su web:** pastel
-- **Menciona en reseñas:** empanada, pastel, dulces
+- **Menciona en reseñas:** torta, pastel, cheesecake, pie, manjar, postre, dulces
 - **Fecha de registro:** 2026-03-23
 
 ### Qué vende
@@ -6271,7 +6344,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 - **Enlace:** https://www.google.com/maps?cid=2178821687199005261
 - **Web:** https://www.vapiano-pedidos.cl/reservas
 - **Menciona en su web:** pizza, pasta
-- **Menciona en reseñas:** pizza, pasta
+- **Menciona en reseñas:** pizza, pasta, jugo
 - **Fecha de registro:** 2026-03-01
 - **Dietético:** 15 veganos
 
@@ -6471,7 +6544,7 @@ Cada sección corresponde a un local guardado por el usuario en Google Maps.
 ## VICTORIA KETO
 - **Ubicación:** Estación Domeiko 895, 8700000 Quilicura, Región Metropolitana
 - **Categoría:** Cafetería
-- **Valoración:** 4.7 / 5
+- **Valoración:** 4.6 / 5
 - **Enlace:** https://www.google.com/maps?cid=6349409587960289629
 - **Menciona en reseñas:** torta
 - **Fecha de registro:** 2025-11-23
