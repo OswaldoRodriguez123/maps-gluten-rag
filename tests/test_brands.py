@@ -108,10 +108,6 @@ class FindGroupsTest(unittest.TestCase):
         self.assertEqual(brands.canonical(ps).ftid, "a")
 
 
-if __name__ == "__main__":
-    unittest.main()
-
-
 class FindGroupsPrefixTest(unittest.TestCase):
     def test_havanna_prefix_transitive_bridge_merges(self):
         ps = places([
@@ -161,3 +157,7 @@ class FindGroupsPrefixTest(unittest.TestCase):
             ("b", "HAVANNA - LOCAL", "Tienda", "https://havanna.cl/"),
         ])
         self.assertEqual(list(brands.find_groups(ps)), ["a"])
+
+
+if __name__ == "__main__":
+    unittest.main()
