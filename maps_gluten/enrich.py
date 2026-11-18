@@ -699,6 +699,30 @@ def _extract_reviews(page) -> list[str]:
     return detect_dishes(" ".join(topics) + " " + body)
 
 
+def _groups_by_ftid(places):
+    from . import brands
+
+    groups = brands.find_groups(places)
+    by_ftid: dict[str, list] = {}
+    for members in groups.values():
+        for member in members:
+            by_ftid[member.ftid] = members
+    return by_ftid
+
+
+def _cached_brother_info(place, groups_by_ftid, stale_ftids, cache):
+    members = groups_by_ftid.get(place.ftid)
+    if not members:
+        return None
+    for other in members:
+        if other.ftid == place.ftid or other.ftid in stale_ftids:
+            continue
+        info = cache.get(other.ftid) or {}
+        if info.get("website") or info.get("dishes"):
+            return info
+    return None
+
+
 def enrich_places(
     page,
     places,
@@ -721,6 +745,8 @@ def enrich_places(
     ]
     if not stale:
         return 0
+    groups_by_ftid = _groups_by_ftid(places)
+    stale_ftids = {place.ftid for place in stale}
 
     search_fn = None
     if search_enabled and gemini_api_key:
@@ -729,9 +755,13 @@ def enrich_places(
 
         search_fn = search_website
 
+    from . import brands
+
     with_web = []
     searched = False
+    spa_done: dict[str, list[str]] = {}
     for place in stale:
+        fresh_info = _cached_brother_info(place, groups_by_ftid, stale_ftids, cache)
         try:
             page.goto(place.url, wait_until="domcontentloaded", timeout=30_000)
             website = _extract_website(page)
@@ -739,7 +769,11 @@ def enrich_places(
         except Exception:
             website = None
             review_dishes = []
-        if website:
+        if fresh_info and fresh_info.get("website"):
+            place.website = fresh_info["website"]
+            place.website_source = fresh_info.get("website_source") or "maps"
+            website = place.website
+        elif website:
             place.website = website
             place.website_source = "maps"
         elif search_fn is not None and search_enabled and gemini_api_key:
@@ -765,32 +799,60 @@ def enrich_places(
             place.website = None
             place.website_source = None
         place.review_dishes = ", ".join(review_dishes) if review_dishes else None
-        if website and _is_spa_store(website):
-            products = _render_site_products(page, website)
+        brother_dishes = fresh_info.get("dishes") if fresh_info else None
+        if brother_dishes:
+            place.dishes = brother_dishes
+        elif website and _is_spa_store(website):
+            domain = brands.domain(website)
+            if domain in spa_done:
+                products = spa_done[domain]
+            else:
+                products = _render_site_products(page, website)
+                if domain:
+                    spa_done[domain] = products
             place.dishes = ", ".join(products) if products else None
         elif website and website_dishes:
             with_web.append(place)
 
     results: dict[str, list[str]] = {}
     if with_web:
+        by_domain: dict[str, list] = {}
+        loose: list = []
+        for place in with_web:
+            domain = brands.domain(place.website)
+            if domain:
+                by_domain.setdefault(domain, []).append(place)
+            else:
+                loose.append(place)
+        fetch_targets = [(members[0], members) for members in by_domain.values()]
+        fetch_targets += [(place, [place]) for place in loose]
         with ThreadPoolExecutor(max_workers=4 if ocr else 8) as pool:
             futures = {
-                pool.submit(_site_dishes, place.website, ocr): place.ftid
-                for place in with_web
+                pool.submit(_site_dishes, rep.website, ocr): members
+                for rep, members in fetch_targets
             }
             for future in as_completed(futures):
-                ftid = futures[future]
+                members = futures[future]
                 try:
-                    results[ftid] = future.result()
+                    dishes = future.result()
                 except Exception:
-                    results[ftid] = []
+                    dishes = []
+                for member in members:
+                    results[member.ftid] = dishes
 
     if website_dishes:
         for place in with_web:
-            if not results.get(place.ftid):
+            if results.get(place.ftid):
+                continue
+            domain = brands.domain(place.website)
+            if domain in spa_done:
+                products = spa_done[domain]
+            else:
                 products = _render_site_products(page, place.website)
-                if products:
-                    place.dishes = ", ".join(products)
+                if domain:
+                    spa_done[domain] = products
+            if products:
+                place.dishes = ", ".join(products)
 
     for place in stale:
         if place.ftid in results:
