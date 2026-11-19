@@ -56,7 +56,6 @@ jobs:
 
       - name: Actualizar local
         env:
-          GDOC_ID: ${{ vars.GDOC_ID }}
           DRIVE_FOLDER_ID: ${{ vars.DRIVE_FOLDER_ID }}
           DRIVE_FILE_ID: ${{ vars.DRIVE_FILE_ID }}
           GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}

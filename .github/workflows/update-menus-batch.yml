@@ -60,7 +60,6 @@ jobs:
         env:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          GDOC_ID: ${{ vars.GDOC_ID }}
           DRIVE_FOLDER_ID: ${{ vars.DRIVE_FOLDER_ID }}
           DRIVE_FILE_ID: ${{ vars.DRIVE_FILE_ID }}
           GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
@@ -87,7 +86,6 @@ jobs:
 
       - name: Normalizar y reconstruir
         env:
-          GDOC_ID: ${{ vars.GDOC_ID }}
           DRIVE_FOLDER_ID: ${{ vars.DRIVE_FOLDER_ID }}
           DRIVE_FILE_ID: ${{ vars.DRIVE_FILE_ID }}
           GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}

@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import os
 import sys
 from datetime import date
 from pathlib import Path
@@ -10,18 +9,17 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from maps_gluten import drive, gdocs  # noqa: E402
+from maps_gluten import drive  # noqa: E402
 from maps_gluten.render import document  # noqa: E402
 
 
 def main() -> int:
     parser = argparse.ArgumentParser(
-        description="Reconstruye el Markdown del Doc con una carta por plato."
+        description="Reconstruye el Markdown para NotebookLM con una carta por plato."
     )
     parser.add_argument("--data-dir", default="data")
     parser.add_argument("--basename", default="mis_lugares_sin_gluten")
     parser.add_argument("--publish", action="store_true")
-    parser.add_argument("--doc-id", default=os.getenv("GDOC_ID", ""))
     args = parser.parse_args()
 
     data_dir = Path(args.data_dir)
@@ -43,19 +41,15 @@ def main() -> int:
             menus.setdefault(place_id, []).append(row)
 
     markdown = document(records, menus, date.today().isoformat())
-    md_path = data_dir / f"{args.basename}.md"
+    md_path = data_dir / f"{args.basename}.txt"
     md_path.write_text(markdown, encoding="utf-8")
-    print(f"Markdown: {md_path} ({len(markdown)} caracteres)")
+    print(f"TXT: {md_path} ({len(markdown)} caracteres)")
 
     if args.publish:
-        if not args.doc_id:
-            raise SystemExit("Falta GDOC_ID o --doc-id")
-        count = gdocs.update_document(args.doc_id, markdown)
-        print(f"Doc actualizado: {gdocs.document_url(args.doc_id)} ({count} bloques)")
         try:
             file_id = drive.sync_markdown(md_path)
         except Exception as error:
-            raise SystemExit(f"Error al subir el .md a Drive: {error}")
+            raise SystemExit(f"Error al subir el .txt a Drive: {error}")
         if file_id:
             print(f"Drive actualizado: {md_path.name} (id {file_id})")
     return 0

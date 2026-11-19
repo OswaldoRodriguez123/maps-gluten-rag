@@ -13,7 +13,7 @@ Reference for the enrichment, menu extraction and maintenance workflows. The
 | `update-menu-one.yml` | One place, menu only (photos/vision). |
 | `update-fudo-one.yml` | One place, Fudo store (`menu.fu.do`). |
 | `update-menus-batch.yml` | Menus for a batch of places. |
-| `rebuild-doc.yml` | Regenerate the Doc from the JSONL without re-listing. |
+| `rebuild-doc.yml` | Regenerate the NotebookLM `.txt` from the JSONL without re-listing. |
 | `recover-menus.yml` | Recover menus from previous successful runs. |
 
 ## Environment variables
@@ -36,7 +36,8 @@ Reference for the enrichment, menu extraction and maintenance workflows. The
 | `BRAVE_API_KEY` | — | Fallback search when SerpAPI fails. |
 | `GEMINI_API_KEY` | — | Validation and vision. |
 | `APIFY_TOKEN` | — | Structured menus from Google Maps photos. |
-| `GDOC_ID` | — | Google Doc to publish to. |
+| `DRIVE_FILE_ID` | — | Drive file (the NotebookLM `.txt`) updated in place on every publish. |
+| `DRIVE_FOLDER_ID` | — | Fallback: Drive folder where the generated file is found by name or created. |
 | `GOOGLE_SA_JSON` | — | Service account JSON (CI). |
 | `UBER_EATS_API_URL` | — | Proxy that exposes Uber Eats menus. |
 
@@ -46,7 +47,7 @@ The Google list does not say what each place sells. For every place the script
 opens the Maps card, takes its website and looks for dishes in the site text
 (and in a menu page or PDF if there is one). It also reads the **topics Google
 extracts from reviews** (for example "empanadas 19", "dulces 17", "hamburguesas
-12") and the review text, then adds to the Doc:
+12") and the review text, then adds to the `.txt`:
 
 ```text
 - **Web:** https://www.quimeysushi.cl/
@@ -123,7 +124,7 @@ lose prices.
 
 Status 2026-11-05: UnitBytes + high-resolution OCR extracted **3,121 dishes from
 54 places**. Added to the **916 dishes from 14 places** recovered from the Nomad
-datasets, the Doc has **4,037 dishes in 62 places**. The other 38 have no menu
+datasets, the file holds **4,037 dishes in 62 places**. The other 38 have no menu
 photos and keep reviews/website only.
 
 How it works:
@@ -133,7 +134,7 @@ How it works:
 - They are downloaded at **high resolution**, converted to grayscale,
   upscaled/downscaled to ~1,800–2,600 px, auto-contrasted and OCR'd with
   Tesseract `spa+eng` and `psm 6/11`.
-- Dishes and prices are parsed; the result goes to the Doc as
+- Dishes and prices are parsed; the result goes into the `.txt` as
   `- **Carta (Google Maps):** ...`, to `metadata.menu` and to `menus.jsonl`.
 - Cost: ~$0.00025 per photo; 263 photos ≈ **$0.07**, inside Apify's free $5.
 - Cache 30 days (`menu_at`). `MAPS_MENU_ACTOR=unitbytes` and
@@ -169,7 +170,7 @@ Enable it with the `APIFY_TOKEN` secret:
 
 Outputs:
 
-- `### Carta` in the `.md` and in the Doc, with `#### Categoría` and one dish per
+- `### Carta` in the `.txt`, with `#### Categoría` and one dish per
   line (`- Plato — $precio`).
 - `metadata.menu` in the main JSONL.
 - `data/mis_lugares_sin_gluten_menus.jsonl`: one row per dish, with category and
@@ -198,13 +199,13 @@ gh workflow run update-menu-one.yml \
   **skips Tesseract**, so it installs no system packages.
 - `-f ocr=true` enables Tesseract as a fallback (slower).
 - `-f refresh=true` ignores the photo cache and scrapes again.
-- Publishes the Doc and commits `data/`.
+- Publishes to Drive and commits `data/`.
 
 Locally:
 
 ```bash
 APIFY_TOKEN='...' GEMINI_API_KEY='...' \
-GDOC_ID='<doc-id>' \
+DRIVE_FILE_ID='<file-id>' \
 GOOGLE_APPLICATION_CREDENTIALS='/path/service-account.json' \
 .venv/bin/python scripts/update_menu_place.py --place Yoko --publish
 ```
@@ -259,7 +260,7 @@ doubtful:
   prices (CLP/EUR), dedupes, assigns categories and diet tags.
 - `scripts/apply_normalization.py`: applies the result to the JSONL, the
   `_menus.jsonl` and SQLite.
-- `scripts/rebuild_markdown.py`: regenerates the Doc with `### Qué vende` +
+- `scripts/rebuild_markdown.py`: regenerates the `.txt` with `### Qué vende` +
   `### Carta`.
 - `menus_review.jsonl` and `menus_rejected.jsonl`: items that are not published
   and are kept for re-extraction.
@@ -283,7 +284,7 @@ Gemini vision runs with concurrency limited by `MAPS_VISION_CONCURRENCY`
 (default `2`) and loading recent datasets uses up to 4 threads. Adjust that
 value if your quota can take more.
 
-To rebuild the Doc from the JSONL without re-listing the 100:
+To rebuild the `.txt` from the JSONL without re-listing the 100:
 
 ```bash
 gh workflow run rebuild-doc.yml \
@@ -315,16 +316,13 @@ photo URLs from Apify) go through `maps_gluten/net.py`:
 - `_page_evidence` (pre-acceptance probe of LLM-selected candidates) goes
   through the same gate.
 
-### Scraped text in the Doc and the Markdown
+### Scraped text in the `.txt`
 
 - Dish/category names from Apify are single-lined at ingest
-  (`apify._clean_dish`) and every generated Markdown document is line-normalized
-  before it is written (`render.document`, `store.write_markdown`) and again
-  before it is published to the Doc (`gdocs.update_document`). Embedded line
+  (`apify._clean_dish`) and every generated document is line-normalized
+  before it is written (`render.document`, `store.write_markdown`). Embedded line
   breaks (`\n`, `\u2028`, `\u2029`, `U+0085`) can therefore no longer turn a dish
   name into an arbitrary `####` heading or bullet.
-- Link injection is not possible: the Doc updater only emits bold text style,
-  never hyperlinks.
 - Residual risk (accepted): the rendering is structure-by-prefix, so verbatim
   scraped strings are still embedded as text. Obfuscation-only payloads (no
   line breaks) can look like headings inside a paragraph's plain text, which
@@ -339,12 +337,12 @@ photo URLs from Apify) go through `maps_gluten/net.py`:
   silently overrides variables already present in the caller's environment**,
   including `EnvironmentVariables` from launchd. To keep a variable from the
   caller, unset it in `.env` or move it out of `.env`.
-- The Google service account token is scoped to `documents` only, but that
-  scope covers every Doc the account can reach; access control rests on
-  sharing only the target Doc with the service account and never widening it.
-- `GDOC_ID` selects the Doc at publish time; it is the binding between the
-  pipeline and the single document. Keep it secret-less (it is an identifier,
-  not a credential) but treat Doc sharing as the access control.
+- The Google service account token is scoped to `drive` only, so it can reach
+  every file the account can reach; access control rests on sharing only the
+  target file (and its folder) with the service account and never widening it.
+- `DRIVE_FILE_ID` selects the file at publish time; it is the binding between
+  the pipeline and the single document. Keep it secret-less (it is an identifier,
+  not a credential) but treat the Drive share as the access control.
 
 ### CI workflows
 

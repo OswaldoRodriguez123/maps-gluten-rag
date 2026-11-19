@@ -5,7 +5,7 @@
 Turns a shared Google Maps list of gluten-free places into two files ready for a
 knowledge base (RAG):
 
-- `data/mis_lugares_sin_gluten.md` — one `##` block per place, ideal for
+- `data/mis_lugares_sin_gluten.txt` — one `##` block per place, ideal for
   NotebookLM or any semantic index.
 - `data/mis_lugares_sin_gluten.jsonl` — one JSON line per place, with `text` and
   `metadata`, ideal for embeddings.
@@ -70,11 +70,11 @@ What the workflow (`.github/workflows/scrape.yml`) does:
 - enriches with each place's website and review topics (if `MAPS_ENRICH=1`);
 - extracts menus from the website, menu photos, Fudo and Rappi (Apify is
   optional);
-- commits `data/*.md` and `data/*.jsonl` if anything changed;
+- commits `data/*.txt` and `data/*.jsonl` if anything changed;
 - caches `data/historial_lugares.db` in Actions to keep dedup between runs (the
   file is git-ignored);
-- copies the result to a Google Doc if `GDOC_ID` is set;
-- publishes the `.md`, `.jsonl` and `_menus.jsonl` as a downloadable artifact;
+- syncs the generated file to Drive (`DRIVE_FILE_ID`) for NotebookLM;
+- publishes the `.txt`, `.jsonl` and `_menus.jsonl` as a downloadable artifact;
 - runs every Monday at **13:00 Chile time**. It schedules two crons (16:00 and
   17:00 UTC) and a step checks the local hour, so it stays at 1 pm across
   daylight saving changes;
@@ -84,7 +84,7 @@ GitHub's cron can be a few minutes late under load. It does not need your Mac
 on. If you add places before Monday, trigger the workflow by hand from
 *Actions → Run workflow*.
 
-### Google Doc for NotebookLM (legacy) and automatic Drive `.txt` sync
+### Drive `.txt` sync for NotebookLM
 
 The workflow also uploads the Markdown rendering of the list to Google Drive on
 every publish, using the same service account. Any publish path
@@ -104,55 +104,35 @@ Set it up once:
    `NotebookLM`) shared with the service account email as **Editor**. The
    service account cannot create files in a personal Drive, so the file must
    exist first; it gets filled on the next publish.
-2. In the same Google Cloud project where you enabled the Docs API, enable the
-   **Google Drive API**.
+2. In the same Google Cloud project that holds the service account, enable
+   the **Google Drive API**.
 3. In GitHub → *Settings → Secrets and variables → Actions → Variables*,
    create `DRIVE_FILE_ID` with the file ID from its URL
    (`https://drive.google.com/file/d/<ID>/view`). When set, the sync updates
    that exact file by ID, regardless of name or folder.
    - Alternatively, `DRIVE_FOLDER_ID` (folder ID) keeps the older
-     find-by-name-or-create behavior for `.md` files. It only works for types
+     find-by-name-or-create behavior for the generated file. It only works for types
      Drive already classifies correctly; `.txt` uploaded via the browser is
      the safest kind.
    - When both are set, `DRIVE_FILE_ID` wins.
 4. Run the workflow. The log prints `Drive actualizado: ... (id <ID>)`.
 5. In NotebookLM add that `.txt` from Google Drive. NotebookLM does not accept
    JSON/JSONL sources; plain text is a first-class supported format and this
-   replaces the Google Doc as recommended source because the Doc instance
-   corrupted.
+   replaces the Google Doc previously used, which corrupted and stopped
+   being importable by NotebookLM.
 
 Locally, set `DRIVE_FILE_ID` (or `DRIVE_FOLDER_ID`) plus `GOOGLE_SA_JSON` or
 `GOOGLE_APPLICATION_CREDENTIALS` in `.env`; the publish paths pick it up
 automatically and skip the upload silently when neither is set.
 
-The old `NotebookLM` `mis_lugares_sin_gluten.md` left in Drive can be deleted;
-it stays stale once `DRIVE_FILE_ID` is set.
+The old `NotebookLM` `.md` file left in Drive can be deleted; it stays stale
+once `DRIVE_FILE_ID` is set.
 
-The Google Doc flow below is kept for reading the list as a document. For a
-NotebookLM source, prefer the Drive `.txt` above.
-
-Set it up once:
-
-1. Create an empty Google Doc and copy its ID from the URL
-   (`https://docs.google.com/document/d/<ID>/edit`).
-2. In Google Cloud create a project and enable the **Google Docs API**.
-3. Create a **service account** (IAM → Service accounts), no roles. Generate a
-   JSON key and download it.
-4. Share the Doc with the service account email
-   (`...@....iam.gserviceaccount.com`) as **Editor**.
-5. In GitHub → *Settings → Secrets and variables → Actions*:
-   - secret `GOOGLE_SA_JSON`: the full JSON contents.
-   - variable `GDOC_ID`: the Doc ID.
-6. Run the workflow. The *Publicar en Google Doc* step fills the Doc.
-7. In NotebookLM add the Doc from Google Drive. To get the new version, press
-   **Sync** on the source.
-
-The service account can only touch that Doc because you shared it explicitly. If
-you prefer not to set this up, the repo's raw URL still works as a NotebookLM
-source:
+If you prefer not to use Drive at all, the repo's raw URL still works as a
+NotebookLM source:
 
 ```text
-https://raw.githubusercontent.com/OswaldoRodriguez123/maps-gluten-rag/main/data/mis_lugares_sin_gluten.md
+https://raw.githubusercontent.com/OswaldoRodriguez123/maps-gluten-rag/main/data/mis_lugares_sin_gluten.txt
 ```
 
 ## What it extracts
@@ -179,7 +159,7 @@ https://raw.githubusercontent.com/OswaldoRodriguez123/maps-gluten-rag/main/data/
 - **Normalization.** `scripts/normalize_menus.py` cleans names, splits
   descriptions, normalizes prices (CLP/EUR), dedupes, assigns categories and
   diet tags. `scripts/apply_normalization.py` applies the result to the JSONL,
-  `_menus.jsonl` and SQLite. `scripts/rebuild_markdown.py` regenerates the Doc.
+  `_menus.jsonl` and SQLite. `scripts/rebuild_markdown.py` regenerates the NotebookLM `.txt`.
 
 Full details, environment variables and adapters (Fudo, Apparta, Rappi,
 Shopify, WooCommerce, Uber Eats, JSON-LD, photos) are in
@@ -195,8 +175,8 @@ gh workflow run update-one.yml \
   -f place=Crumbless
 ```
 
-The workflow restores the cache, updates **only** that place, publishes the
-Google Doc, saves the cache and commits. It does not touch the other places or
+The workflow restores the cache, updates **only** that place, publishes to
+Drive, saves the cache and commits. It does not touch the other places or
 the menus already extracted. It works with normal sites and SPA stores: it first
 tries plain HTTP parsing, then renders with Playwright and extracts products
 from JSON-LD, price/dish anchors and product routes.
@@ -205,7 +185,7 @@ Locally:
 
 ```bash
 GOOGLE_APPLICATION_CREDENTIALS='/path/service-account.json' \
-GDOC_ID='<doc-id>' \
+DRIVE_FILE_ID='<file-id>' \
 .venv/bin/python scripts/update_place.py --place Crumbless --publish
 ```
 
@@ -261,8 +241,8 @@ hand.
 - `### Carta`: dishes with prices, grouped by `#### Categoría`, with
   `[sin gluten]`, `[vegano]`, `[sin lactosa]` tags when they apply.
 
-NotebookLM allows 500,000 words per source and 50 sources per notebook; the full
-Doc uses about 28,000 words.
+NotebookLM allows 500,000 words per source and 50 sources per notebook; the full list
+uses about 28,000 words.
 
 ## Local (optional)
 
@@ -310,10 +290,10 @@ maps-gluten-rag/
 │   ├── extract.py           # list endpoint + DOM fallback
 │   ├── enrich.py            # website, reviews and OCR
 │   ├── apify.py             # structured menu (optional)
-│   ├── store.py             # SQLite, dedup and .md / .jsonl outputs
+│   ├── store.py             # SQLite, dedup and .txt / .jsonl outputs
 │   └── cli.py               # `login`, `run` and `publish`
 ├── scripts/                 # one-off updaters, normalization, launchd
-├── data/                    # final .md / .jsonl outputs
+├── data/                    # final .txt / .jsonl outputs
 ├── run_daily.sh
 ├── .env.example
 └── requirements.txt

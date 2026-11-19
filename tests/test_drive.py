@@ -52,7 +52,7 @@ class FakeService:
 
 
 def make_markdown(tmp):
-    path = Path(tmp) / "mis_lugares_sin_gluten.md"
+    path = Path(tmp) / "mis_lugares_sin_gluten.txt"
     path.write_text("# Base de Datos\n", encoding="utf-8")
     return path
 
@@ -87,7 +87,7 @@ class SyncMarkdownTest(unittest.TestCase):
                 result = drive.sync_markdown(path, folder_id="folder-123")
             self.assertEqual(result, "created-id")
             created = service._files.create_calls[0]
-            self.assertEqual(created["body"]["name"], "mis_lugares_sin_gluten.md")
+            self.assertEqual(created["body"]["name"], "mis_lugares_sin_gluten.txt")
             self.assertEqual(created["body"]["parents"], ["folder-123"])
             self.assertEqual(service._files.update_calls, [])
 
@@ -116,14 +116,14 @@ class SyncMarkdownTest(unittest.TestCase):
     def test_updates_existing_file_in_folder_instead_of_duplicating(self):
         with tempfile.TemporaryDirectory() as tmp:
             path = make_markdown(tmp)
-            service = FakeService(existing=[{"id": "abc123", "name": "mis_lugares_sin_gluten.md"}])
+            service = FakeService(existing=[{"id": "abc123", "name": "mis_lugares_sin_gluten.txt"}])
             with mock.patch.object(drive, "_service", return_value=service):
                 result = drive.sync_markdown(path, folder_id="folder-123")
             self.assertEqual(result, "abc123")
             self.assertEqual(service._files.update_calls[0]["fileId"], "abc123")
             self.assertEqual(service._files.create_calls, [])
             query = service._files.list_calls[0]["q"]
-            self.assertIn("mis_lugares_sin_gluten.md", query)
+            self.assertIn("mis_lugares_sin_gluten.txt", query)
             self.assertIn("folder-123", query)
             self.assertIn("application/vnd.google-apps", query)
 

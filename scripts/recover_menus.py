@@ -77,7 +77,7 @@ def _match(item: dict, by_url: dict, by_cid: dict, by_ftid: dict, by_name: dict)
 
 def main() -> int:
     jsonl_path = DATA / f"{BASENAME}.jsonl"
-    md_path = DATA / f"{BASENAME}.md"
+    md_path = DATA / f"{BASENAME}.txt"
     menus_path = DATA / f"{BASENAME}_menus.jsonl"
 
     records = [
