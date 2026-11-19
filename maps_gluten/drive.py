@@ -10,7 +10,6 @@ from googleapiclient.discovery import build
 from googleapiclient.http import MediaFileUpload
 
 SCOPES = ["https://www.googleapis.com/auth/drive"]
-MARKDOWN_MIME = "text/markdown"
 TEXT_MIME = "text/plain"
 
 
@@ -79,7 +78,7 @@ def sync_markdown(
         print("DRIVE_FILE_ID ni DRIVE_FOLDER_ID definidos; se omite el sync a Drive.")
         return None
     name = name or path.name
-    media = MediaFileUpload(str(path), mimetype=MARKDOWN_MIME, resumable=False)
+    media = MediaFileUpload(str(path), mimetype=TEXT_MIME, resumable=False)
 
     service = _service()
     existing = _find_in_folder(service, name, folder_id)
