@@ -61,6 +61,7 @@ jobs:
           APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           GDOC_ID: ${{ vars.GDOC_ID }}
+          DRIVE_FOLDER_ID: ${{ vars.DRIVE_FOLDER_ID }}
           GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
           PLACE: ${{ inputs.place }}
           REFRESH: ${{ inputs.refresh }}
@@ -78,6 +79,7 @@ jobs:
       - name: Normalizar y reconstruir
         env:
           GDOC_ID: ${{ vars.GDOC_ID }}
+          DRIVE_FOLDER_ID: ${{ vars.DRIVE_FOLDER_ID }}
           GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
         run: |
           python scripts/normalize_menus.py --places data/mis_lugares_sin_gluten.jsonl --menus data/mis_lugares_sin_gluten_menus.jsonl --out-dir data/normalized

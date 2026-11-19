@@ -13,7 +13,7 @@ sys.path.insert(0, str(ROOT))
 
 from playwright.sync_api import sync_playwright  # noqa: E402
 
-from maps_gluten import enrich, gdocs, store  # noqa: E402
+from maps_gluten import drive, enrich, gdocs, store  # noqa: E402
 from maps_gluten.text import one_line  # noqa: E402
 
 
@@ -148,6 +148,12 @@ def main() -> int:
             raise SystemExit("Falta GDOC_ID para publicar")
         gdocs.update_document(doc_id, markdown)
         print(f"Doc actualizado: {gdocs.document_url(doc_id)}")
+        try:
+            file_id = drive.sync_markdown(md_path)
+        except Exception as error:
+            raise SystemExit(f"Error al subir el .md a Drive: {error}")
+        if file_id:
+            print(f"Drive actualizado: {md_path.name} (id {file_id})")
 
     print(f"Local: {target['metadata']['name']}")
     print(f"Web: {website}")

@@ -174,6 +174,15 @@ def main(argv: list[str] | None = None) -> int:
             print(f"Error al actualizar el Google Doc: {error}", file=sys.stderr)
             return 1
         print(f"Google Doc actualizado: {gdocs.document_url(doc_id)} ({count} bloques)")
+        from . import drive
+
+        try:
+            file_id = drive.sync_markdown(path)
+        except Exception as error:
+            print(f"Error al subir el .md a Drive: {error}", file=sys.stderr)
+            return 1
+        if file_id:
+            print(f"Drive actualizado: {path.name} (id {file_id})")
         return 0
 
     url = _resolve(args.url, "MAPS_LIST_URL", "")
