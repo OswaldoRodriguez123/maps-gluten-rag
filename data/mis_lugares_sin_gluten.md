@@ -1,6 +1,6 @@
 # Base de Datos: Locales Sin Gluten Guardados en Google Maps
 
-_Actualizado: 2026-11-18 · 111 lugares · Fuente: lista de Google Maps_
+_Actualizado: 2026-11-19 · 111 lugares · Fuente: lista de Google Maps_
 
 Cada sección corresponde a un local guardado por el usuario en Google Maps.
 
