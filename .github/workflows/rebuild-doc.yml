@@ -32,6 +32,7 @@ jobs:
       - name: Reconstruir y publicar
         env:
           GDOC_ID: ${{ vars.GDOC_ID }}
+          DRIVE_FOLDER_ID: ${{ vars.DRIVE_FOLDER_ID }}
           GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
         run: python scripts/rebuild_markdown.py --publish
 

@@ -84,10 +84,35 @@ GitHub's cron can be a few minutes late under load. It does not need your Mac
 on. If you add places before Monday, trigger the workflow by hand from
 *Actions → Run workflow*.
 
-### Google Doc for NotebookLM (recommended)
+### Google Doc for NotebookLM (legacy) and automatic Drive `.md` sync
 
-The workflow copies the result into a Google Doc of yours. NotebookLM accepts
-that Doc as a source and has a sync button, so you do not depend on a raw URL.
+The workflow also uploads `data/mis_lugares_sin_gluten.md` to a Google Drive
+folder of yours on every publish, using the same service account. Any publish
+path (`python -m maps_gluten publish`, `rebuild_markdown.py --publish`, etc.)
+updates the file in place by name, so a NotebookLM source pointing at it stays
+valid and auto-syncs.
+
+Set it up once:
+
+1. Create a Drive folder (e.g. `NotebookLM`) and share it with the service
+   account email as **Editor**.
+2. In the same Google Cloud project where you enabled the Docs API, enable the
+   **Google Drive API**.
+3. In GitHub → *Settings → Secrets and variables → Actions → Variables*, create
+   `DRIVE_FOLDER_ID` with the folder ID from its URL
+   (`https://drive.google.com/drive/folders/<ID>`).
+4. Run the workflow. The log prints the updated file ID.
+5. In NotebookLM add the `.md` from Google Drive. NotebookLM does not accept
+   JSON/JSONL sources; the `.md` is a first-class supported format and this file
+   replaced the Google Doc as recommended source because it cannot corrupt or
+   grow unbounded like the Doc instance did.
+
+Locally, set `DRIVE_FOLDER_ID` (and `GOOGLE_SA_JSON` or
+`GOOGLE_APPLICATION_CREDENTIALS`) in `.env`; the publish paths pick it up
+automatically and skip the upload silently when it is not set.
+
+The Google Doc flow below is kept for reading the list as a document. For a
+NotebookLM source, prefer the Drive `.md` above.
 
 Set it up once:
 

@@ -57,6 +57,7 @@ jobs:
       - name: Actualizar local
         env:
           GDOC_ID: ${{ vars.GDOC_ID }}
+          DRIVE_FOLDER_ID: ${{ vars.DRIVE_FOLDER_ID }}
           GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
           PLACE: ${{ inputs.place }}
         run: python scripts/update_place.py --place "$PLACE" --db data/historial_lugares.db --publish

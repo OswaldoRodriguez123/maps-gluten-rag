@@ -11,7 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
-from maps_gluten import gdocs, photos, store  # noqa: E402
+from maps_gluten import drive, gdocs, photos, store  # noqa: E402
 from maps_gluten.extract import Place  # noqa: E402
 from maps_gluten.render import document  # noqa: E402
 
@@ -274,6 +274,12 @@ def main() -> int:
             raise SystemExit("Falta GDOC_ID para publicar")
         gdocs.update_document(doc_id, markdown)
         print(f"Doc actualizado: {gdocs.document_url(doc_id)}")
+        try:
+            file_id = drive.sync_markdown(md_path)
+        except Exception as error:
+            raise SystemExit(f"Error al subir el .md a Drive: {error}")
+        if file_id:
+            print(f"Drive actualizado: {md_path.name} (id {file_id})")
 
     print(f"Local: {place.name}")
     print(f"Platos ({len(dishes)}): {summary}")
