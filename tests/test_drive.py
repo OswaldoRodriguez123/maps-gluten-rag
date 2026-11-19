@@ -103,6 +103,7 @@ class SyncMarkdownTest(unittest.TestCase):
             query = service._files.list_calls[0]["q"]
             self.assertIn("mis_lugares_sin_gluten.md", query)
             self.assertIn("folder-123", query)
+            self.assertIn("application/vnd.google-apps", query)
 
 
 if __name__ == "__main__":

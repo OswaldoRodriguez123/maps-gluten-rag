@@ -40,7 +40,8 @@ def _escape_query(value: str) -> str:
 def _find_in_folder(service, name: str, folder_id: str) -> list[dict]:
     query = (
         f"trashed = false and name = '{_escape_query(name)}' "
-        f"and '{_escape_query(folder_id)}' in parents"
+        f"and '{_escape_query(folder_id)}' in parents "
+        f"and not mimeType contains 'application/vnd.google-apps'"
     )
     result = (
         service.files()
