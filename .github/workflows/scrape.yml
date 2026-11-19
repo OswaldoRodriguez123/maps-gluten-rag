@@ -156,11 +156,10 @@ jobs:
             fi
           fi
 
-      - name: Publicar en Google Doc
-        if: ${{ always() && vars.GDOC_ID != '' }}
+      - name: Publicar en Drive
+        if: ${{ always() && (vars.DRIVE_FILE_ID != '' || vars.DRIVE_FOLDER_ID != '') }}
         env:
           GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
-          GDOC_ID: ${{ vars.GDOC_ID }}
           DRIVE_FOLDER_ID: ${{ vars.DRIVE_FOLDER_ID }}
           DRIVE_FILE_ID: ${{ vars.DRIVE_FILE_ID }}
         run: python -m maps_gluten publish
@@ -178,7 +177,7 @@ jobs:
         with:
           name: mapas-sin-gluten
           path: |
-            data/mis_lugares_sin_gluten.md
+            data/mis_lugares_sin_gluten.txt
             data/mis_lugares_sin_gluten.jsonl
             data/mis_lugares_sin_gluten_menus.jsonl
           if-no-files-found: warn

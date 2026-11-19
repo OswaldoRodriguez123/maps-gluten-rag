@@ -44,7 +44,6 @@ jobs:
       MAPS_VISION: "0"
       MAPS_OUT_DIR: data
       MAPS_OUT_BASENAME: mis_lugares_sin_gluten
-      GDOC_ID: ${{ vars.GDOC_ID }}
       DRIVE_FOLDER_ID: ${{ vars.DRIVE_FOLDER_ID }}
       DRIVE_FILE_ID: ${{ vars.DRIVE_FILE_ID }}
       GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}

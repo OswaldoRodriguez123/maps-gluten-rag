@@ -131,8 +131,7 @@ def _build_parser() -> argparse.ArgumentParser:
         help="OCR en PDFs escaneados e imágenes de menú (por defecto MAPS_OCR o no).",
     )
 
-    publish = sub.add_parser("publish", help="Copia el Markdown generado a un Google Doc.")
-    publish.add_argument("--doc-id", help="ID del Google Doc (por defecto GDOC_ID).")
+    publish = sub.add_parser("publish", help="Sube el Markdown generado a Drive (fuente de NotebookLM).")
     publish.add_argument("--out", help="Carpeta de salida (por defecto MAPS_OUT_DIR o data).")
     publish.add_argument("--basename", help="Nombre base del archivo (por defecto MAPS_OUT_BASENAME).")
     return parser
@@ -156,30 +155,18 @@ def main(argv: list[str] | None = None) -> int:
         return 0
 
     if args.command == "publish":
-        from . import gdocs
-
-        doc_id = args.doc_id or os.getenv("GDOC_ID", "")
-        if not doc_id:
-            print("Falta GDOC_ID o --doc-id.", file=sys.stderr)
-            return 2
         out_dir = Path(_resolve(args.out, "MAPS_OUT_DIR", "data"))
         basename = _resolve(args.basename, "MAPS_OUT_BASENAME", "mis_lugares_sin_gluten")
-        path = out_dir / f"{basename}.md"
+        path = out_dir / f"{basename}.txt"
         if not path.exists():
             print(f"No existe {path}. Ejecuta `run` primero.", file=sys.stderr)
             return 1
-        try:
-            count = gdocs.update_document(doc_id, path.read_text(encoding="utf-8"))
-        except Exception as error:
-            print(f"Error al actualizar el Google Doc: {error}", file=sys.stderr)
-            return 1
-        print(f"Google Doc actualizado: {gdocs.document_url(doc_id)} ({count} bloques)")
         from . import drive
 
         try:
             file_id = drive.sync_markdown(path)
         except Exception as error:
-            print(f"Error al subir el .md a Drive: {error}", file=sys.stderr)
+            print(f"Error al subir el .txt a Drive: {error}", file=sys.stderr)
             return 1
         if file_id:
             print(f"Drive actualizado: {path.name} (id {file_id})")
@@ -343,7 +330,7 @@ def main(argv: list[str] | None = None) -> int:
                     print(f"Menú ({menu_actor}): {error}", file=sys.stderr)
 
         total, new = store.save(conn, key, title, places, today, replace=complete)
-        md_path = out_dir / f"{basename}.md"
+        md_path = out_dir / f"{basename}.txt"
         jsonl_path = out_dir / f"{basename}.jsonl"
         menus_path = out_dir / f"{basename}_menus.jsonl"
         store.write_markdown(conn, key, md_path, today)

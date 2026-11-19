@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import argparse
 import json
-import os
 import sys
 import unicodedata
 from datetime import date
@@ -13,7 +12,7 @@ sys.path.insert(0, str(ROOT))
 
 from playwright.sync_api import sync_playwright  # noqa: E402
 
-from maps_gluten import drive, enrich, gdocs, store  # noqa: E402
+from maps_gluten import drive, enrich, store  # noqa: E402
 from maps_gluten.text import one_line  # noqa: E402
 
 
@@ -90,13 +89,13 @@ def main() -> int:
     parser.add_argument("--place", required=True, help="Nombre parcial del local.")
     parser.add_argument("--data-dir", default="data")
     parser.add_argument("--basename", default="mis_lugares_sin_gluten")
-    parser.add_argument("--publish", action="store_true", help="Actualiza el Google Doc.")
+    parser.add_argument("--publish", action="store_true", help="Sube el Markdown a Drive (NotebookLM).")
     parser.add_argument("--db", help="Ruta opcional al SQLite para persistir la caché.")
     args = parser.parse_args()
 
     data_dir = Path(args.data_dir)
     jsonl_path = data_dir / f"{args.basename}.jsonl"
-    md_path = data_dir / f"{args.basename}.md"
+    md_path = data_dir / f"{args.basename}.txt"
     records = [
         json.loads(line)
         for line in jsonl_path.read_text(encoding="utf-8").splitlines()
@@ -143,15 +142,10 @@ def main() -> int:
             connection.close()
 
     if args.publish:
-        doc_id = os.getenv("GDOC_ID", "").strip()
-        if not doc_id:
-            raise SystemExit("Falta GDOC_ID para publicar")
-        gdocs.update_document(doc_id, markdown)
-        print(f"Doc actualizado: {gdocs.document_url(doc_id)}")
         try:
             file_id = drive.sync_markdown(md_path)
         except Exception as error:
-            raise SystemExit(f"Error al subir el .md a Drive: {error}")
+            raise SystemExit(f"Error al subir el .txt a Drive: {error}")
         if file_id:
             print(f"Drive actualizado: {md_path.name} (id {file_id})")
 

@@ -20,7 +20,7 @@ if ! command -v rclone >/dev/null 2>&1; then
   exit 1
 fi
 
-for ext in md jsonl; do
+for ext in txt jsonl; do
   file="$OUT/$BASE.$ext"
   if [ -f "$file" ]; then
     rclone copyto "$file" "$REMOTE:$DIR/$BASE.$ext"
