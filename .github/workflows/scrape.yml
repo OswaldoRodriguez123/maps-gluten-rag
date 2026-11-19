@@ -162,6 +162,7 @@ jobs:
           GOOGLE_SA_JSON: ${{ secrets.GOOGLE_SA_JSON }}
           GDOC_ID: ${{ vars.GDOC_ID }}
           DRIVE_FOLDER_ID: ${{ vars.DRIVE_FOLDER_ID }}
+          DRIVE_FILE_ID: ${{ vars.DRIVE_FILE_ID }}
         run: python -m maps_gluten publish
 
       - name: Guardar histórico

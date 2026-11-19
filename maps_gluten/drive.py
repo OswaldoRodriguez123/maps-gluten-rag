@@ -11,6 +11,7 @@ from googleapiclient.http import MediaFileUpload
 
 SCOPES = ["https://www.googleapis.com/auth/drive"]
 MARKDOWN_MIME = "text/markdown"
+TEXT_MIME = "text/plain"
 
 
 def _credentials():
@@ -55,17 +56,28 @@ def sync_markdown(
     path: Path | str,
     folder_id: str | None = None,
     name: str | None = None,
+    file_id: str | None = None,
 ) -> str | None:
-    """Sube (o actualiza) el Markdown en la carpeta indicada de Drive.
+    """Sube (o actualiza) el Markdown en Drive.
 
-    Devuelve el ID del archivo, o None si no hay DRIVE_FOLDER_ID configurado.
-    Lanza excepción si la subida falla (el llamador decide cómo reportarlo).
+    Si DRIVE_FILE_ID (o el argumento file_id) está definido, actualiza ese
+    archivo exacto, sin importar nombre ni carpeta; el MIME queda text/plain,
+    que es el tipo que NotebookLM acepta desde Drive. Si no, usa la carpeta
+    DRIVE_FOLDER_ID y busca (o crea) un archivo por nombre.
+
+    Devuelve el ID del archivo, o None si no hay DRIVE_FILE_ID ni
+    DRIVE_FOLDER_ID configurados. Lanza excepción si la subida falla.
     """
+    file_id = (file_id if file_id is not None else os.getenv("DRIVE_FILE_ID", "")).strip()
     folder_id = (folder_id if folder_id is not None else os.getenv("DRIVE_FOLDER_ID", "")).strip()
-    if not folder_id:
-        print("DRIVE_FOLDER_ID no definido; se omite el sync del .md a Drive.")
-        return None
     path = Path(path)
+    if file_id:
+        media = MediaFileUpload(str(path), mimetype=TEXT_MIME, resumable=False)
+        _service().files().update(fileId=file_id, media_body=media).execute()
+        return file_id
+    if not folder_id:
+        print("DRIVE_FILE_ID ni DRIVE_FOLDER_ID definidos; se omite el sync del .md a Drive.")
+        return None
     name = name or path.name
     media = MediaFileUpload(str(path), mimetype=MARKDOWN_MIME, resumable=False)
 

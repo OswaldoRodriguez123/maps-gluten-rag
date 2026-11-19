@@ -91,6 +91,28 @@ class SyncMarkdownTest(unittest.TestCase):
             self.assertEqual(created["body"]["parents"], ["folder-123"])
             self.assertEqual(service._files.update_calls, [])
 
+    def test_pinned_file_id_updates_that_file_directly(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = make_markdown(tmp)
+            service = FakeService(existing=[])
+            with mock.patch.object(drive, "_service", return_value=service):
+                result = drive.sync_markdown(path, file_id="pinned-id-123")
+            self.assertEqual(result, "pinned-id-123")
+            self.assertEqual(service._files.update_calls[0]["fileId"], "pinned-id-123")
+            self.assertEqual(service._files.list_calls, [])
+            self.assertEqual(service._files.create_calls, [])
+
+    def test_file_id_from_env_takes_precedence_over_folder(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            path = make_markdown(tmp)
+            service = FakeService(existing=[])
+            with mock.patch.object(drive, "_service", return_value=service):
+                with mock.patch.dict("os.environ", {"DRIVE_FILE_ID": "env-pin", "DRIVE_FOLDER_ID": "folder-123"}, clear=True):
+                    result = drive.sync_markdown(path)
+            self.assertEqual(result, "env-pin")
+            self.assertEqual(service._files.update_calls[0]["fileId"], "env-pin")
+            self.assertEqual(service._files.list_calls, [])
+
     def test_updates_existing_file_in_folder_instead_of_duplicating(self):
         with tempfile.TemporaryDirectory() as tmp:
             path = make_markdown(tmp)
