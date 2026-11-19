@@ -1,8 +1,8 @@
 # maps-gluten-rag
 
-[![scrape](https://github.com/OswaldoRodriguez123/maps-gluten-rag/actions/workflows/scrape.yml/badge.svg)](https://github.com/OswaldoRodriguez123/maps-gluten-rag/actions/workflows/scrape.yml)
+[![scrape](https://github.com/OswaldoRodriguez123/maps-gluten-rag/actions/workflows/scrape.yml/badge.svg?branch=main)](https://github.com/OswaldoRodriguez123/maps-gluten-rag/actions/workflows/scrape.yml)
 
-Turns a shared Google Maps list of gluten-free places into two files ready for a
+Turns a shared Google Maps list of gluten-free places into a set of files ready for a
 knowledge base (RAG):
 
 - `data/mis_lugares_sin_gluten.txt` — one `##` block per place, ideal for
@@ -88,8 +88,8 @@ on. If you add places before Monday, trigger the workflow by hand from
 
 The workflow also uploads the Markdown rendering of the list to Google Drive on
 every publish, using the same service account. Any publish path
-(`python -m maps_gluten publish`, `rebuild_markdown.py --publish`, etc.) pushes
-to Drive, so a NotebookLM source pointing at the file stays valid and
+(`python -m maps_gluten publish`, `scripts/rebuild_markdown.py --publish`, etc.)
+pushes to Drive, so a NotebookLM source pointing at the file stays valid and
 auto-syncs.
 
 NotebookLM only enables the Drive import for files Google Drive classified as
@@ -110,10 +110,8 @@ Set it up once:
    create `DRIVE_FILE_ID` with the file ID from its URL
    (`https://drive.google.com/file/d/<ID>/view`). When set, the sync updates
    that exact file by ID, regardless of name or folder.
-   - Alternatively, `DRIVE_FOLDER_ID` (folder ID) keeps the older
-     find-by-name-or-create behavior for the generated file. It only works for types
-     Drive already classifies correctly; `.txt` uploaded via the browser is
-     the safest kind.
+   - Alternatively, `DRIVE_FOLDER_ID` (folder ID) looks the file up by name in
+     that folder and creates it there with `text/plain` when missing.
    - When both are set, `DRIVE_FILE_ID` wins.
 4. Run the workflow. The log prints `Drive actualizado: ... (id <ID>)`.
 5. In NotebookLM add that `.txt` from Google Drive. NotebookLM does not accept
@@ -123,7 +121,7 @@ Set it up once:
 
 Locally, set `DRIVE_FILE_ID` (or `DRIVE_FOLDER_ID`) plus `GOOGLE_SA_JSON` or
 `GOOGLE_APPLICATION_CREDENTIALS` in `.env`; the publish paths pick it up
-automatically and skip the upload silently when neither is set.
+automatically and skip the upload when neither is set.
 
 The old `NotebookLM` `.md` file left in Drive can be deleted; it stays stale
 once `DRIVE_FILE_ID` is set.
@@ -241,8 +239,8 @@ hand.
 - `### Carta`: dishes with prices, grouped by `#### Categoría`, with
   `[sin gluten]`, `[vegano]`, `[sin lactosa]` tags when they apply.
 
-NotebookLM allows 500,000 words per source and 50 sources per notebook; the full list
-uses about 28,000 words.
+NotebookLM allows 500,000 words per source and 50 sources per notebook. The
+generated document stays far below those limits.
 
 ## Local (optional)
 
@@ -280,6 +278,29 @@ The GitHub workflow can only read public lists. If your list stops being shared,
 the script fails without touching the database and says so in the log. For
 private lists, run locally with `python -m maps_gluten login`, which stores a
 Chromium profile in `.auth/`; that profile must never be pushed to GitHub.
+
+## Environment variables and secrets
+
+Names are exact; `.env.example` lists the local equivalents.
+
+| Where | Name | What it is |
+| --- | --- | --- |
+| GitHub variable | `MAPS_LIST_URL` | Public Google Maps list to read. |
+| GitHub variable | `DRIVE_FILE_ID` | Drive `.txt` updated in place for NotebookLM. |
+| GitHub variable | `DRIVE_FOLDER_ID` | Fallback folder when no file ID is pinned. |
+| GitHub secret | `GOOGLE_SA_JSON` | Service-account key for the Drive sync. |
+| GitHub secret | `APIFY_TOKEN` | Structured menus from menu photos. |
+| GitHub secret | `GEMINI_API_KEY` | Website validation and vision fallback. |
+| GitHub secret | `SERPAPI_KEY` | Website search. |
+| GitHub secret | `BRAVE_API_KEY` | Search fallback when SerpAPI fails. |
+| GitHub secret | `UBER_EATS_API_URL` | Proxy that exposes Uber Eats menus. |
+| Local `.env` | `GOOGLE_APPLICATION_CREDENTIALS` | Path to the service-account key file. |
+
+## Tests
+
+```bash
+.venv/bin/python -m pytest -q
+```
 
 ## Structure
 
